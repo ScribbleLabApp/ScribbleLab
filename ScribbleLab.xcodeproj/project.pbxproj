@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38AE9C9C2AD0750F00B761E8 /* ScribbleLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9C9B2AD0750F00B761E8 /* ScribbleLabApp.swift */; };
+		38AE9C9E2AD0750F00B761E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9C9D2AD0750F00B761E8 /* ContentView.swift */; };
+		38AE9CA02AD0750F00B761E8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9C9F2AD0750F00B761E8 /* Item.swift */; };
+		38AE9CA22AD0751100B761E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38AE9CA12AD0751100B761E8 /* Assets.xcassets */; };
+		38AE9CA52AD0751100B761E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38AE9CA42AD0751100B761E8 /* Preview Assets.xcassets */; };
+		38AE9CB12AD0751100B761E8 /* ScribbleLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9CB02AD0751100B761E8 /* ScribbleLabTests.swift */; };
+		38AE9CBB2AD0751100B761E8 /* ScribbleLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9CBA2AD0751100B761E8 /* ScribbleLabUITests.swift */; };
+		38AE9CBD2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9CBC2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38AE9CAD2AD0751100B761E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38AE9C902AD0750F00B761E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38AE9C972AD0750F00B761E8;
+			remoteInfo = ScribbleLab;
+		};
+		38AE9CB72AD0751100B761E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38AE9C902AD0750F00B761E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38AE9C972AD0750F00B761E8;
+			remoteInfo = ScribbleLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38AE9C982AD0750F00B761E8 /* ScribbleLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScribbleLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38AE9C9B2AD0750F00B761E8 /* ScribbleLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLabApp.swift; sourceTree = "<group>"; };
+		38AE9C9D2AD0750F00B761E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		38AE9C9F2AD0750F00B761E8 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		38AE9CA12AD0751100B761E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38AE9CA42AD0751100B761E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		38AE9CA62AD0751100B761E8 /* ScribbleLab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScribbleLab.entitlements; sourceTree = "<group>"; };
+		38AE9CA72AD0751100B761E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38AE9CAC2AD0751100B761E8 /* ScribbleLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScribbleLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38AE9CB02AD0751100B761E8 /* ScribbleLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLabTests.swift; sourceTree = "<group>"; };
+		38AE9CB62AD0751100B761E8 /* ScribbleLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScribbleLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38AE9CBA2AD0751100B761E8 /* ScribbleLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLabUITests.swift; sourceTree = "<group>"; };
+		38AE9CBC2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38AE9C952AD0750F00B761E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38AE9CA92AD0751100B761E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38AE9CB32AD0751100B761E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38AE9C8F2AD0750F00B761E8 = {
+			isa = PBXGroup;
+			children = (
+				38AE9C9A2AD0750F00B761E8 /* ScribbleLab */,
+				38AE9CAF2AD0751100B761E8 /* ScribbleLabTests */,
+				38AE9CB92AD0751100B761E8 /* ScribbleLabUITests */,
+				38AE9C992AD0750F00B761E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38AE9C992AD0750F00B761E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38AE9C982AD0750F00B761E8 /* ScribbleLab.app */,
+				38AE9CAC2AD0751100B761E8 /* ScribbleLabTests.xctest */,
+				38AE9CB62AD0751100B761E8 /* ScribbleLabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38AE9C9A2AD0750F00B761E8 /* ScribbleLab */ = {
+			isa = PBXGroup;
+			children = (
+				38AE9C9B2AD0750F00B761E8 /* ScribbleLabApp.swift */,
+				38AE9C9D2AD0750F00B761E8 /* ContentView.swift */,
+				38AE9C9F2AD0750F00B761E8 /* Item.swift */,
+				38AE9CA12AD0751100B761E8 /* Assets.xcassets */,
+				38AE9CA62AD0751100B761E8 /* ScribbleLab.entitlements */,
+				38AE9CA72AD0751100B761E8 /* Info.plist */,
+				38AE9CA32AD0751100B761E8 /* Preview Content */,
+			);
+			path = ScribbleLab;
+			sourceTree = "<group>";
+		};
+		38AE9CA32AD0751100B761E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				38AE9CA42AD0751100B761E8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		38AE9CAF2AD0751100B761E8 /* ScribbleLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				38AE9CB02AD0751100B761E8 /* ScribbleLabTests.swift */,
+			);
+			path = ScribbleLabTests;
+			sourceTree = "<group>";
+		};
+		38AE9CB92AD0751100B761E8 /* ScribbleLabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38AE9CBA2AD0751100B761E8 /* ScribbleLabUITests.swift */,
+				38AE9CBC2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift */,
+			);
+			path = ScribbleLabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38AE9C972AD0750F00B761E8 /* ScribbleLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38AE9CC02AD0751100B761E8 /* Build configuration list for PBXNativeTarget "ScribbleLab" */;
+			buildPhases = (
+				38AE9C942AD0750F00B761E8 /* Sources */,
+				38AE9C952AD0750F00B761E8 /* Frameworks */,
+				38AE9C962AD0750F00B761E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScribbleLab;
+			productName = ScribbleLab;
+			productReference = 38AE9C982AD0750F00B761E8 /* ScribbleLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38AE9CAB2AD0751100B761E8 /* ScribbleLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38AE9CC32AD0751100B761E8 /* Build configuration list for PBXNativeTarget "ScribbleLabTests" */;
+			buildPhases = (
+				38AE9CA82AD0751100B761E8 /* Sources */,
+				38AE9CA92AD0751100B761E8 /* Frameworks */,
+				38AE9CAA2AD0751100B761E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38AE9CAE2AD0751100B761E8 /* PBXTargetDependency */,
+			);
+			name = ScribbleLabTests;
+			productName = ScribbleLabTests;
+			productReference = 38AE9CAC2AD0751100B761E8 /* ScribbleLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38AE9CB52AD0751100B761E8 /* ScribbleLabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38AE9CC62AD0751100B761E8 /* Build configuration list for PBXNativeTarget "ScribbleLabUITests" */;
+			buildPhases = (
+				38AE9CB22AD0751100B761E8 /* Sources */,
+				38AE9CB32AD0751100B761E8 /* Frameworks */,
+				38AE9CB42AD0751100B761E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38AE9CB82AD0751100B761E8 /* PBXTargetDependency */,
+			);
+			name = ScribbleLabUITests;
+			productName = ScribbleLabUITests;
+			productReference = 38AE9CB62AD0751100B761E8 /* ScribbleLabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38AE9C902AD0750F00B761E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					38AE9C972AD0750F00B761E8 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					38AE9CAB2AD0751100B761E8 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 38AE9C972AD0750F00B761E8;
+					};
+					38AE9CB52AD0751100B761E8 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 38AE9C972AD0750F00B761E8;
+					};
+				};
+			};
+			buildConfigurationList = 38AE9C932AD0750F00B761E8 /* Build configuration list for PBXProject "ScribbleLab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38AE9C8F2AD0750F00B761E8;
+			productRefGroup = 38AE9C992AD0750F00B761E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38AE9C972AD0750F00B761E8 /* ScribbleLab */,
+				38AE9CAB2AD0751100B761E8 /* ScribbleLabTests */,
+				38AE9CB52AD0751100B761E8 /* ScribbleLabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38AE9C962AD0750F00B761E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38AE9CA52AD0751100B761E8 /* Preview Assets.xcassets in Resources */,
+				38AE9CA22AD0751100B761E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38AE9CAA2AD0751100B761E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38AE9CB42AD0751100B761E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38AE9C942AD0750F00B761E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38AE9C9E2AD0750F00B761E8 /* ContentView.swift in Sources */,
+				38AE9CA02AD0750F00B761E8 /* Item.swift in Sources */,
+				38AE9C9C2AD0750F00B761E8 /* ScribbleLabApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38AE9CA82AD0751100B761E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38AE9CB12AD0751100B761E8 /* ScribbleLabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38AE9CB22AD0751100B761E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38AE9CBD2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift in Sources */,
+				38AE9CBB2AD0751100B761E8 /* ScribbleLabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38AE9CAE2AD0751100B761E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38AE9C972AD0750F00B761E8 /* ScribbleLab */;
+			targetProxy = 38AE9CAD2AD0751100B761E8 /* PBXContainerItemProxy */;
+		};
+		38AE9CB82AD0751100B761E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38AE9C972AD0750F00B761E8 /* ScribbleLab */;
+			targetProxy = 38AE9CB72AD0751100B761E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		38AE9CBE2AD0751100B761E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38AE9CBF2AD0751100B761E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38AE9CC12AD0751100B761E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab/Preview Content\"";
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScribbleLab/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38AE9CC22AD0751100B761E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab/Preview Content\"";
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScribbleLab/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38AE9CC42AD0751100B761E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScribbleLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScribbleLab";
+			};
+			name = Debug;
+		};
+		38AE9CC52AD0751100B761E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScribbleLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScribbleLab";
+			};
+			name = Release;
+		};
+		38AE9CC72AD0751100B761E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScribbleLab;
+			};
+			name = Debug;
+		};
+		38AE9CC82AD0751100B761E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScribbleLab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38AE9C932AD0750F00B761E8 /* Build configuration list for PBXProject "ScribbleLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38AE9CBE2AD0751100B761E8 /* Debug */,
+				38AE9CBF2AD0751100B761E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38AE9CC02AD0751100B761E8 /* Build configuration list for PBXNativeTarget "ScribbleLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38AE9CC12AD0751100B761E8 /* Debug */,
+				38AE9CC22AD0751100B761E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38AE9CC32AD0751100B761E8 /* Build configuration list for PBXNativeTarget "ScribbleLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38AE9CC42AD0751100B761E8 /* Debug */,
+				38AE9CC52AD0751100B761E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38AE9CC62AD0751100B761E8 /* Build configuration list for PBXNativeTarget "ScribbleLabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38AE9CC72AD0751100B761E8 /* Debug */,
+				38AE9CC82AD0751100B761E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38AE9C902AD0750F00B761E8 /* Project object */;
+}
