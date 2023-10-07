@@ -86,7 +86,7 @@ struct HomeView: View {
                             Image(systemName: "gearshape")
                         }
                         .sheet(isPresented: $settingsViewSheetisPresented, content: {
-                            Text("hi")
+                            SLSettingsView()
                         })
                     }
                 }

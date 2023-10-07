@@ -10,7 +10,7 @@ import SwiftUI
 struct NotificationSheetView: View {
     var body: some View {
         NavigationStack {
-            Text("Notifications")
+            ContentUnavailableView("You have no unread notifications", systemImage: "bell.badge.fill")
                 .navigationTitle("Notifications")
         }
     }

@@ -16,6 +16,6 @@ struct SLSettingsView: View {
     }
 }
 
-//#Preview {
-//    SLSettingsView()
-//}
+#Preview {
+    SLSettingsView()
+}
