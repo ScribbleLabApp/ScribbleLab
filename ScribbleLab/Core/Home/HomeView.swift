@@ -62,18 +62,9 @@ struct HomeView: View {
             .listStyle(.grouped)
             
                 .navigationTitle("Documents")
-                .navigationBarTitleDisplayMode(.large)
+//                .navigationBarTitleDisplayMode(.large)
             
                 .toolbar {
-                    // FIXME: Show NavigationBar
-                    ToolbarItem(placement: .navigationBarLeading) {
-                        Button {
-                            
-                        } label: {
-                            Image(systemName: "sidebar.left")
-                        }
-                    }
-                    
                     // FIXME: Show NotificationSheet
                     ToolbarItem(placement: .navigationBarTrailing) {
                         Button {
@@ -100,6 +91,7 @@ struct HomeView: View {
                     }
                 }
                 .tint(.black)
+            
         }
     }
 }
