@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3858A7742AD14B2D00FC6319 /* SLTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A7732AD14B2D00FC6319 /* SLTabView.swift */; };
+		3858A7782AD14C9E00FC6319 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A7772AD14C9E00FC6319 /* HomeView.swift */; };
+		3858A77B2AD14E9D00FC6319 /* TimetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A77A2AD14E9D00FC6319 /* TimetableView.swift */; };
 		38AE9C9C2AD0750F00B761E8 /* ScribbleLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9C9B2AD0750F00B761E8 /* ScribbleLabApp.swift */; };
 		38AE9C9E2AD0750F00B761E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9C9D2AD0750F00B761E8 /* ContentView.swift */; };
 		38AE9CA22AD0751100B761E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38AE9CA12AD0751100B761E8 /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3858A7732AD14B2D00FC6319 /* SLTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLTabView.swift; sourceTree = "<group>"; };
+		3858A7772AD14C9E00FC6319 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3858A77A2AD14E9D00FC6319 /* TimetableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableView.swift; sourceTree = "<group>"; };
 		38AE9C982AD0750F00B761E8 /* ScribbleLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScribbleLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38AE9C9B2AD0750F00B761E8 /* ScribbleLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLabApp.swift; sourceTree = "<group>"; };
 		38AE9C9D2AD0750F00B761E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +90,8 @@
 		3858A76C2AD1497700FC6319 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				3858A7792AD14E7B00FC6319 /* Timetable */,
+				3858A7752AD14B5C00FC6319 /* Settings */,
 				3858A7722AD14AC800FC6319 /* Features */,
 				3858A7712AD14AC200FC6319 /* Home */,
 				3858A7702AD14AB900FC6319 /* TabBar */,
@@ -118,6 +126,7 @@
 		3858A7702AD14AB900FC6319 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				3858A7732AD14B2D00FC6319 /* SLTabView.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 		3858A7712AD14AC200FC6319 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				3858A7772AD14C9E00FC6319 /* HomeView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -132,8 +142,31 @@
 		3858A7722AD14AC800FC6319 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				3858A7762AD14B7F00FC6319 /* Profile */,
 			);
 			path = Features;
+			sourceTree = "<group>";
+		};
+		3858A7752AD14B5C00FC6319 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3858A7762AD14B7F00FC6319 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3858A7792AD14E7B00FC6319 /* Timetable */ = {
+			isa = PBXGroup;
+			children = (
+				3858A77A2AD14E9D00FC6319 /* TimetableView.swift */,
+			);
+			path = Timetable;
 			sourceTree = "<group>";
 		};
 		38AE9C8F2AD0750F00B761E8 = {
@@ -325,6 +358,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3858A77B2AD14E9D00FC6319 /* TimetableView.swift in Sources */,
+				3858A7742AD14B2D00FC6319 /* SLTabView.swift in Sources */,
+				3858A7782AD14C9E00FC6319 /* HomeView.swift in Sources */,
 				38AE9C9E2AD0750F00B761E8 /* ContentView.swift in Sources */,
 				38AE9C9C2AD0750F00B761E8 /* ScribbleLabApp.swift in Sources */,
 			);
