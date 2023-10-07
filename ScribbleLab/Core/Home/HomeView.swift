@@ -8,8 +8,32 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State private var notificationSheetisPresented = false
+    @State private var settingsViewSheetisPresented = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            Text("Hi")
+                .navigationTitle("Documents")
+                .navigationBarTitleDisplayMode(.large)
+            
+                .toolbar {
+                    // FIXME: Show NavigationBar
+                    ToolbarItem(placement: .navigationBarLeading) {
+                        Image(systemName: "sidebar.left")
+                    }
+                    
+                    // FIXME: Show NotificationSheet
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        Image(systemName: "bell")
+                    }
+                    
+                    // FIXME: Show Settings sheet
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        Image(systemName: "gearshape")
+                    }
+                }
+        }
     }
 }
 

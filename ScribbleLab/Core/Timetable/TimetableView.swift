@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TimetableView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ContentUnavailableView("We are sorry but this feature isn't done yet", systemImage: "eye.slash.fill")
     }
 }
 

@@ -8,27 +8,28 @@
 import SwiftUI
 
 struct SLTabView: View {
-    @State private var selectedIndex = 0
+    @State private var selection: Tab = .home
+    @State private var isLoading = false
+    
+    enum Tab {
+        case home
+        case timetable
+    }
     
     var body: some View {
-        TabView(selection: $selectedIndex) {
+        TabView(selection: $selection) {
             HomeView()
-                .onAppear {
-                    selectedIndex = 0
-                }
                 .tabItem {
-                    Image(systemName: "house")
-                } .tag(0)
-            
+                    Label("Home", systemImage: "house")
+                }
+                .tag(Tab.home)
+
             TimetableView()
-                .onAppear {
-                    selectedIndex = 1
-                }
                 .tabItem {
-                    Image(systemName: "")
-                } .tag(1)
-        }
-        .tint(.black)
+                    Label("Timetable", systemImage: "calendar.badge.clock")
+                }
+                .tag(Tab.timetable)
+            }
     }
 }
 
