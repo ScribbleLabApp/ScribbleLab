@@ -24,6 +24,10 @@ struct SLSideBarView: View {
                     }
                     Label("Create", systemImage: "folder.badge.plus")
                     Label("Timetable", systemImage: "calendar.badge.clock")
+                    Label("Calender", systemImage: "calendar")
+                    Label("Study Timer", systemImage: "timer")
+                    Label("Reminder", systemImage: "exclamationmark.bubble")
+                    Label("Homework", systemImage: "doc.text")
                     Label("Search", systemImage: "magnifyingglass")
                     Label("Trash", systemImage: "trash")
                 }

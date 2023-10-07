@@ -152,6 +152,8 @@
 		3858A7722AD14AC800FC6319 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				38D5C67F2AD1C0FF00D943A5 /* Calender */,
+				38D5C67E2AD1C0FA00D943A5 /* Timer */,
 				3858A77C2AD15E7400FC6319 /* Notifications */,
 				3858A7762AD14B7F00FC6319 /* Profile */,
 			);
@@ -278,6 +280,20 @@
 				38AE9CBC2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift */,
 			);
 			path = ScribbleLabUITests;
+			sourceTree = "<group>";
+		};
+		38D5C67E2AD1C0FA00D943A5 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		38D5C67F2AD1C0FF00D943A5 /* Calender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Calender;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
