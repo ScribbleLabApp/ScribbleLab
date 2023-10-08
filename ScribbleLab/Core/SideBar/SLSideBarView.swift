@@ -27,9 +27,21 @@ struct SLSideBarView: View {
                     } label: {
                         Label("Create", systemImage: "folder.badge.plus")
                     }
-                    Label("Timetable", systemImage: "calendar.badge.clock")
-                    Label("Calender", systemImage: "calendar")
-                    Label("Study Timer", systemImage: "timer")
+                    NavigationLink {
+                        TimetableView()
+                    } label: {
+                        Label("Timetable", systemImage: "calendar.badge.clock")
+                    }
+                    NavigationLink {
+                        SLCalenderView()
+                    } label: {
+                        Label("Calender", systemImage: "calendar")
+                    }
+                    NavigationLink {
+                        SLStudyTimerView()
+                    } label: {
+                        Label("Study Timer", systemImage: "timer")
+                    }
                     Label("Reminder", systemImage: "exclamationmark.bubble")
                     Label("Homework", systemImage: "doc.text")
                     Label("Search", systemImage: "magnifyingglass")

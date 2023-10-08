@@ -15,6 +15,8 @@
 		3868A3E02AD2E2F800D4CAEC /* SLLicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DF2AD2E2F800D4CAEC /* SLLicenseView.swift */; };
 		3868A3E32AD2FE6600D4CAEC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3E22AD2FE6600D4CAEC /* ProfileView.swift */; };
 		3868A3E62AD305B800D4CAEC /* CreateNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3E52AD305B800D4CAEC /* CreateNewView.swift */; };
+		3868A3E82AD3068100D4CAEC /* SLStudyTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3E72AD3068100D4CAEC /* SLStudyTimerView.swift */; };
+		3868A3EA2AD3072B00D4CAEC /* SLCalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3E92AD3072B00D4CAEC /* SLCalenderView.swift */; };
 		3886B2DA2AD19CA5002EF30E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886B2D92AD19CA5002EF30E /* WelcomeView.swift */; };
 		3886B2DE2AD19F34002EF30E /* SLSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886B2DD2AD19F34002EF30E /* SLSettingsView.swift */; };
 		3886B2E12AD1ABC0002EF30E /* SLSideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886B2E02AD1ABC0002EF30E /* SLSideBarView.swift */; };
@@ -57,6 +59,8 @@
 		3868A3DF2AD2E2F800D4CAEC /* SLLicenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLLicenseView.swift; sourceTree = "<group>"; };
 		3868A3E22AD2FE6600D4CAEC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		3868A3E52AD305B800D4CAEC /* CreateNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewView.swift; sourceTree = "<group>"; };
+		3868A3E72AD3068100D4CAEC /* SLStudyTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLStudyTimerView.swift; sourceTree = "<group>"; };
+		3868A3E92AD3072B00D4CAEC /* SLCalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCalenderView.swift; sourceTree = "<group>"; };
 		3886B2D92AD19CA5002EF30E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		3886B2DD2AD19F34002EF30E /* SLSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLSettingsView.swift; sourceTree = "<group>"; };
 		3886B2E02AD1ABC0002EF30E /* SLSideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLSideBarView.swift; sourceTree = "<group>"; };
@@ -114,6 +118,7 @@
 		3858A76C2AD1497700FC6319 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				3868A3ED2AD3079200D4CAEC /* Auth */,
 				3858A7722AD14AC800FC6319 /* Features */,
 				3858A7712AD14AC200FC6319 /* Home */,
 				3858A7752AD14B5C00FC6319 /* Settings */,
@@ -157,6 +162,8 @@
 		3858A7722AD14AC800FC6319 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				3868A3EC2AD3078B00D4CAEC /* Homework */,
+				3868A3EB2AD3078700D4CAEC /* Reminder */,
 				3868A3E42AD305AA00D4CAEC /* Create */,
 				3886B2D82AD19C93002EF30E /* Welcome */,
 				3858A7792AD14E7B00FC6319 /* Timetable */,
@@ -206,6 +213,27 @@
 				3868A3E52AD305B800D4CAEC /* CreateNewView.swift */,
 			);
 			path = Create;
+			sourceTree = "<group>";
+		};
+		3868A3EB2AD3078700D4CAEC /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reminder;
+			sourceTree = "<group>";
+		};
+		3868A3EC2AD3078B00D4CAEC /* Homework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Homework;
+			sourceTree = "<group>";
+		};
+		3868A3ED2AD3079200D4CAEC /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 		3886B2D82AD19C93002EF30E /* Welcome */ = {
@@ -316,6 +344,7 @@
 		38D5C67E2AD1C0FA00D943A5 /* Timer */ = {
 			isa = PBXGroup;
 			children = (
+				3868A3E72AD3068100D4CAEC /* SLStudyTimerView.swift */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
@@ -323,6 +352,7 @@
 		38D5C67F2AD1C0FF00D943A5 /* Calender */ = {
 			isa = PBXGroup;
 			children = (
+				3868A3E92AD3072B00D4CAEC /* SLCalenderView.swift */,
 			);
 			path = Calender;
 			sourceTree = "<group>";
@@ -583,6 +613,7 @@
 				3886B2DE2AD19F34002EF30E /* SLSettingsView.swift in Sources */,
 				3868A3E02AD2E2F800D4CAEC /* SLLicenseView.swift in Sources */,
 				38D5C6972AD2CC6200D943A5 /* SLContributorView.swift in Sources */,
+				3868A3EA2AD3072B00D4CAEC /* SLCalenderView.swift in Sources */,
 				3858A7782AD14C9E00FC6319 /* HomeView.swift in Sources */,
 				38AE9C9E2AD0750F00B761E8 /* ContentView.swift in Sources */,
 				38D5C68B2AD28B9D00D943A5 /* SLDarkmodeSettingsView.swift in Sources */,
@@ -593,6 +624,7 @@
 				38AE9C9C2AD0750F00B761E8 /* ScribbleLabApp.swift in Sources */,
 				3886B2DA2AD19CA5002EF30E /* WelcomeView.swift in Sources */,
 				3868A3DE2AD2DBA300D4CAEC /* ImageView.swift in Sources */,
+				3868A3E82AD3068100D4CAEC /* SLStudyTimerView.swift in Sources */,
 				3868A3E62AD305B800D4CAEC /* CreateNewView.swift in Sources */,
 				3868A3DC2AD2DB0000D4CAEC /* ImageViewModel.swift in Sources */,
 			);
