@@ -56,6 +56,7 @@ struct SLSideBarView: View {
                 }
                 
                 Section("Tags") {
+                    // FIXME: Change color of the tags
                     Label("Red", systemImage: "circle.fill")
                     Label("Orange", systemImage: "circle.fill")
                     Label("Yellow", systemImage: "circle.fill")

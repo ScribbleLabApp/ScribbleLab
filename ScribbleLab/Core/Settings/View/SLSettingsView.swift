@@ -11,6 +11,9 @@ struct SLSettingsView: View {
     @Environment(\.openURL) var openURL
     @State private var resetAlertIsPresented = false
     @State private var deleteAccountIsPresented = false
+    
+    // FIXME: only for evelopment purposes
+    @State private var newNotificationDeveloperTool = false
 
     var body: some View {
         NavigationStack {
@@ -137,6 +140,21 @@ struct SLSettingsView: View {
                     Text("Other")
                 } footer: {
                     Text("")
+                }
+                
+                // MARK: - Developer settings
+                // FIXME: Delete this section when realesing the alpha v.0.0.1-alpha version
+                #warning("Developer setting")
+                Section() {
+                    Button {
+                        newNotificationDeveloperTool.toggle()
+                    } label: {
+                        Label("Change state of newNotification", systemImage: "hammer")
+                    }
+                } header: {
+                    Text("Developer tools")
+                } footer: {
+                    Text("Developer settings. Only for testing purpsoses!")
                 }
             }
             .tint(.black)

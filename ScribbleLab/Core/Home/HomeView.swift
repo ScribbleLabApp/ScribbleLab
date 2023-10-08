@@ -11,7 +11,7 @@ struct HomeView: View {
     @State private var notificationSheetisPresented = false
     @State private var settingsViewSheetisPresented = false
     // FIXME: Delete this state var when finishing the alpha version
-    @State private var newNotification = false
+    
     
     var body: some View {
         NavigationStack {
@@ -71,7 +71,7 @@ struct HomeView: View {
                             notificationSheetisPresented.toggle()
                         } label: {
                             // TODO: Check if the user has new notifications if yes change the icon to "bell.badge"
-                            Image(systemName: newNotification ? "bell.badge" : "bell") // bell.badge
+                            Image(systemName: "bell") // bell.badge
                         }
                         .sheet(isPresented: $notificationSheetisPresented, content: {
                             NotificationSheetView()
