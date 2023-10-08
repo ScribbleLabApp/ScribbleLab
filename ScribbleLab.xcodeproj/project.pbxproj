@@ -20,6 +20,8 @@
 		38AE9CB12AD0751100B761E8 /* ScribbleLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9CB02AD0751100B761E8 /* ScribbleLabTests.swift */; };
 		38AE9CBB2AD0751100B761E8 /* ScribbleLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9CBA2AD0751100B761E8 /* ScribbleLabUITests.swift */; };
 		38AE9CBD2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9CBC2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift */; };
+		38D5C68B2AD28B9D00D943A5 /* SLDarkmodeSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5C68A2AD28B9D00D943A5 /* SLDarkmodeSettingsView.swift */; };
+		38D5C68D2AD28D6F00D943A5 /* SLUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5C68C2AD28D6F00D943A5 /* SLUpdateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		38AE9CB62AD0751100B761E8 /* ScribbleLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScribbleLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38AE9CBA2AD0751100B761E8 /* ScribbleLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLabUITests.swift; sourceTree = "<group>"; };
 		38AE9CBC2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38D5C68A2AD28B9D00D943A5 /* SLDarkmodeSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLDarkmodeSettingsView.swift; sourceTree = "<group>"; };
+		38D5C68C2AD28D6F00D943A5 /* SLUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLUpdateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +196,16 @@
 		3886B2DB2AD19F26002EF30E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				38D5C6892AD288E100D943A5 /* Updates */,
+				38D5C6882AD288AC00D943A5 /* Cloud sync */,
+				38D5C6872AD288A500D943A5 /* Extensions */,
+				38D5C6862AD2889900D943A5 /* Collaboration */,
+				38D5C6852AD2888F00D943A5 /* Privacy */,
+				38D5C6842AD2888600D943A5 /* Notifications */,
+				38D5C6832AD2887E00D943A5 /* Accessibility */,
+				38D5C6822AD2887600D943A5 /* ApplePencil */,
+				38D5C6812AD2887000D943A5 /* Units */,
+				38D5C6802AD2886B00D943A5 /* Darkmode */,
 				3886B2DD2AD19F34002EF30E /* SLSettingsView.swift */,
 			);
 			path = View;
@@ -283,6 +297,78 @@
 			children = (
 			);
 			path = Calender;
+			sourceTree = "<group>";
+		};
+		38D5C6802AD2886B00D943A5 /* Darkmode */ = {
+			isa = PBXGroup;
+			children = (
+				38D5C68A2AD28B9D00D943A5 /* SLDarkmodeSettingsView.swift */,
+			);
+			path = Darkmode;
+			sourceTree = "<group>";
+		};
+		38D5C6812AD2887000D943A5 /* Units */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Units;
+			sourceTree = "<group>";
+		};
+		38D5C6822AD2887600D943A5 /* ApplePencil */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ApplePencil;
+			sourceTree = "<group>";
+		};
+		38D5C6832AD2887E00D943A5 /* Accessibility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Accessibility;
+			sourceTree = "<group>";
+		};
+		38D5C6842AD2888600D943A5 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		38D5C6852AD2888F00D943A5 /* Privacy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Privacy;
+			sourceTree = "<group>";
+		};
+		38D5C6862AD2889900D943A5 /* Collaboration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Collaboration;
+			sourceTree = "<group>";
+		};
+		38D5C6872AD288A500D943A5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		38D5C6882AD288AC00D943A5 /* Cloud sync */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Cloud sync";
+			sourceTree = "<group>";
+		};
+		38D5C6892AD288E100D943A5 /* Updates */ = {
+			isa = PBXGroup;
+			children = (
+				38D5C68C2AD28D6F00D943A5 /* SLUpdateView.swift */,
+			);
+			path = Updates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -420,7 +506,9 @@
 				3886B2DE2AD19F34002EF30E /* SLSettingsView.swift in Sources */,
 				3858A7782AD14C9E00FC6319 /* HomeView.swift in Sources */,
 				38AE9C9E2AD0750F00B761E8 /* ContentView.swift in Sources */,
+				38D5C68B2AD28B9D00D943A5 /* SLDarkmodeSettingsView.swift in Sources */,
 				3886B2E12AD1ABC0002EF30E /* SLSideBarView.swift in Sources */,
+				38D5C68D2AD28D6F00D943A5 /* SLUpdateView.swift in Sources */,
 				38AE9C9C2AD0750F00B761E8 /* ScribbleLabApp.swift in Sources */,
 				3886B2DA2AD19CA5002EF30E /* WelcomeView.swift in Sources */,
 			);
