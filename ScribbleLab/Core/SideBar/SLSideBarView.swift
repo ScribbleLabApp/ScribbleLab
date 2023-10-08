@@ -22,7 +22,11 @@ struct SLSideBarView: View {
                     } label: {
                         Label("Documents", systemImage: "house")
                     }
-                    Label("Create", systemImage: "folder.badge.plus")
+                    NavigationLink {
+                        CreateNewView()
+                    } label: {
+                        Label("Create", systemImage: "folder.badge.plus")
+                    }
                     Label("Timetable", systemImage: "calendar.badge.clock")
                     Label("Calender", systemImage: "calendar")
                     Label("Study Timer", systemImage: "timer")

@@ -46,12 +46,20 @@ enum SLContributorModel: Int, CaseIterable, Identifiable, Hashable, Codable {
         }
     }
     
-    var urlStringAdress: String {
+    var githubURL: String {
         switch self {
-        case .nevio: return "https://avatars.githubusercontent.com/u/129311622?v=4"
-        case .kilian: return "https://avatars.githubusercontent.com/u/122736906?v=4"
-        case .giorgio: return ""
+        case .nevio: return "https://github.com/N3v1"
+        case .kilian: return "https://github.com/appletech75"
+        case .giorgio: return "" // TODO: Add Github link - staff only
         }
     }
+    
+//    var urlStringAdress: String {
+//        switch self {
+//        case .nevio: return "https://avatars.githubusercontent.com/u/129311622?v=4"
+//        case .kilian: return "https://avatars.githubusercontent.com/u/122736906?v=4"
+//        case .giorgio: return ""
+//        }
+//    }
     var id: Int { return self.rawValue }
 }

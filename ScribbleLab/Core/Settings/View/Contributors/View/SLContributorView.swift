@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct SLContributorView: View {
+    @Environment(\.openURL) var openURL
+    @State private var openGitHubLink = false
+    
     var body: some View {
         NavigationStack {
             List {
@@ -24,6 +27,18 @@ struct SLContributorView: View {
                                     Text(contributors.land)
                                 }
                                 Text(contributors.section)
+                            }
+                            
+                            Spacer()
+                            
+                            Button {
+//                                openGitHubLink.toggle()
+                            } label: {
+                                Image("github")
+                                    .foregroundColor(.black)
+                            }
+                            .onTapGesture {
+                                openURL(URL(string: contributors.githubURL)!)
                             }
                         }
                     }

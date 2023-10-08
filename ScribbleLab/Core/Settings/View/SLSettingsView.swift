@@ -16,6 +16,34 @@ struct SLSettingsView: View {
         NavigationStack {
             List {
                 Section() {
+                    NavigationLink {
+                        ProfileView()
+                    } label: {
+                        // TODO: Delete MOCK data
+                        // let the user updload an profile picture and store it on their device
+                        // also fetch their username and bio/description
+                        // FIXME: Maybe change the bio to an streak feature
+                        HStack {
+                            Image(systemName: "person.circle.fill")
+                                .resizable()
+                                .frame(width: 25, height: 25)
+                                .clipShape(Circle())
+                            VStack(alignment: .leading) {
+                                Text("Username")
+                                    .font(.title2)
+                                Text("Bio or description")
+                                    .font(.footnote)
+                            }
+                            
+                        }
+                    }
+                } header: {
+                    Text("Profile")
+                } footer: {
+                    Text("With these settings you can customize your profile")
+                }
+                
+                Section() {
                     Label("Darkmode", systemImage: "moon.fill")
                     Label("Units", systemImage: "ruler")
                     Label("Apple Pencil", systemImage: "applepencil.and.scribble")
