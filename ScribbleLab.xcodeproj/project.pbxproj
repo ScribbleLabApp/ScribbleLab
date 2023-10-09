@@ -7,9 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38355ED72AD3D52D00392674 /* IGTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38355ED62AD3D52D00392674 /* IGTextFieldModifier.swift */; };
+		38355ED92AD3D71900392674 /* IGButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38355ED82AD3D71900392674 /* IGButtonModifier.swift */; };
+		38355EE12AD3DB3200392674 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38355EE02AD3DB3200392674 /* WidgetKit.framework */; };
+		38355EE32AD3DB3200392674 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38355EE22AD3DB3200392674 /* SwiftUI.framework */; };
+		38355EE62AD3DB3200392674 /* ScribbleLab_WidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38355EE52AD3DB3200392674 /* ScribbleLab_WidgetsBundle.swift */; };
+		38355EE82AD3DB3200392674 /* ScribbleLab_WidgetsLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38355EE72AD3DB3200392674 /* ScribbleLab_WidgetsLiveActivity.swift */; };
+		38355EEA2AD3DB3200392674 /* ScribbleLab_Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38355EE92AD3DB3200392674 /* ScribbleLab_Widgets.swift */; };
+		38355EEC2AD3DB3200392674 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38355EEB2AD3DB3200392674 /* AppIntent.swift */; };
+		38355EEE2AD3DB3400392674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38355EED2AD3DB3400392674 /* Assets.xcassets */; };
+		38355EF22AD3DB3400392674 /* ScribbleLab-WidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 38355EDE2AD3DB3200392674 /* ScribbleLab-WidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		38355EF82AD3DB5E00392674 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38355EF72AD3DB5E00392674 /* XCTest.framework */; };
+		38355EF92AD3DB5E00392674 /* XCTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38355EF72AD3DB5E00392674 /* XCTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3858A7782AD14C9E00FC6319 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A7772AD14C9E00FC6319 /* HomeView.swift */; };
 		3858A77B2AD14E9D00FC6319 /* TimetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A77A2AD14E9D00FC6319 /* TimetableView.swift */; };
 		3858A77E2AD15E8900FC6319 /* NotificationSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A77D2AD15E8900FC6319 /* NotificationSheetView.swift */; };
+		385F468E2AD31CD100D85410 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F468D2AD31CD100D85410 /* LogInView.swift */; };
 		3868A3DC2AD2DB0000D4CAEC /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DB2AD2DB0000D4CAEC /* ImageViewModel.swift */; };
 		3868A3DE2AD2DBA300D4CAEC /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DD2AD2DBA300D4CAEC /* ImageView.swift */; };
 		3868A3E02AD2E2F800D4CAEC /* SLLicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DF2AD2E2F800D4CAEC /* SLLicenseView.swift */; };
@@ -34,6 +47,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		38355EF02AD3DB3400392674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38AE9C902AD0750F00B761E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38355EDD2AD3DB3200392674;
+			remoteInfo = "ScribbleLab-WidgetsExtension";
+		};
 		38AE9CAD2AD0751100B761E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 38AE9C902AD0750F00B761E8 /* Project object */;
@@ -50,10 +70,48 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		38355EF62AD3DB3400392674 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				38355EF22AD3DB3400392674 /* ScribbleLab-WidgetsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38355EFA2AD3DB5E00392674 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				38355EF92AD3DB5E00392674 /* XCTest.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		38355ED62AD3D52D00392674 /* IGTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGTextFieldModifier.swift; sourceTree = "<group>"; };
+		38355ED82AD3D71900392674 /* IGButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGButtonModifier.swift; sourceTree = "<group>"; };
+		38355EDE2AD3DB3200392674 /* ScribbleLab-WidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ScribbleLab-WidgetsExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38355EE02AD3DB3200392674 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		38355EE22AD3DB3200392674 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		38355EE52AD3DB3200392674 /* ScribbleLab_WidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLab_WidgetsBundle.swift; sourceTree = "<group>"; };
+		38355EE72AD3DB3200392674 /* ScribbleLab_WidgetsLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLab_WidgetsLiveActivity.swift; sourceTree = "<group>"; };
+		38355EE92AD3DB3200392674 /* ScribbleLab_Widgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLab_Widgets.swift; sourceTree = "<group>"; };
+		38355EEB2AD3DB3200392674 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		38355EED2AD3DB3400392674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38355EEF2AD3DB3400392674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38355EF72AD3DB5E00392674 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3858A7772AD14C9E00FC6319 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3858A77A2AD14E9D00FC6319 /* TimetableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableView.swift; sourceTree = "<group>"; };
 		3858A77D2AD15E8900FC6319 /* NotificationSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSheetView.swift; sourceTree = "<group>"; };
+		385F468D2AD31CD100D85410 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 		3868A3DB2AD2DB0000D4CAEC /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
 		3868A3DD2AD2DBA300D4CAEC /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		3868A3DF2AD2E2F800D4CAEC /* SLLicenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLLicenseView.swift; sourceTree = "<group>"; };
@@ -83,6 +141,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		38355EDB2AD3DB3200392674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38355EE32AD3DB3200392674 /* SwiftUI.framework in Frameworks */,
+				38355EF82AD3DB5E00392674 /* XCTest.framework in Frameworks */,
+				38355EE12AD3DB3200392674 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38AE9C952AD0750F00B761E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -107,6 +175,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38355ED52AD3D50F00392674 /* Componets */ = {
+			isa = PBXGroup;
+			children = (
+				38355ED62AD3D52D00392674 /* IGTextFieldModifier.swift */,
+				38355ED82AD3D71900392674 /* IGButtonModifier.swift */,
+			);
+			path = Componets;
+			sourceTree = "<group>";
+		};
+		38355EDF2AD3DB3200392674 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38355EF72AD3DB5E00392674 /* XCTest.framework */,
+				38355EE02AD3DB3200392674 /* WidgetKit.framework */,
+				38355EE22AD3DB3200392674 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38355EE42AD3DB3200392674 /* ScribbleLab-Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				38355EE52AD3DB3200392674 /* ScribbleLab_WidgetsBundle.swift */,
+				38355EE72AD3DB3200392674 /* ScribbleLab_WidgetsLiveActivity.swift */,
+				38355EE92AD3DB3200392674 /* ScribbleLab_Widgets.swift */,
+				38355EEB2AD3DB3200392674 /* AppIntent.swift */,
+				38355EED2AD3DB3400392674 /* Assets.xcassets */,
+				38355EEF2AD3DB3400392674 /* Info.plist */,
+			);
+			path = "ScribbleLab-Widgets";
+			sourceTree = "<group>";
+		};
 		3858A76B2AD1497300FC6319 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +218,7 @@
 		3858A76C2AD1497700FC6319 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				38355ED52AD3D50F00392674 /* Componets */,
 				3868A3ED2AD3079200D4CAEC /* Auth */,
 				3858A7722AD14AC800FC6319 /* Features */,
 				3858A7712AD14AC200FC6319 /* Home */,
@@ -199,6 +300,21 @@
 			path = Notifications;
 			sourceTree = "<group>";
 		};
+		385F468B2AD31C9A00D85410 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		385F468C2AD31CA000D85410 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				385F468D2AD31CD100D85410 /* LogInView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		3868A3E12AD2FCC300D4CAEC /* Profile */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,6 +348,8 @@
 		3868A3ED2AD3079200D4CAEC /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				385F468C2AD31CA000D85410 /* View */,
+				385F468B2AD31C9A00D85410 /* Model */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -289,6 +407,8 @@
 				38AE9C9A2AD0750F00B761E8 /* ScribbleLab */,
 				38AE9CAF2AD0751100B761E8 /* ScribbleLabTests */,
 				38AE9CB92AD0751100B761E8 /* ScribbleLabUITests */,
+				38355EE42AD3DB3200392674 /* ScribbleLab-Widgets */,
+				38355EDF2AD3DB3200392674 /* Frameworks */,
 				38AE9C992AD0750F00B761E8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -299,6 +419,7 @@
 				38AE9C982AD0750F00B761E8 /* ScribbleLab.app */,
 				38AE9CAC2AD0751100B761E8 /* ScribbleLabTests.xctest */,
 				38AE9CB62AD0751100B761E8 /* ScribbleLabUITests.xctest */,
+				38355EDE2AD3DB3200392674 /* ScribbleLab-WidgetsExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -481,6 +602,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		38355EDD2AD3DB3200392674 /* ScribbleLab-WidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38355EF32AD3DB3400392674 /* Build configuration list for PBXNativeTarget "ScribbleLab-WidgetsExtension" */;
+			buildPhases = (
+				38355EDA2AD3DB3200392674 /* Sources */,
+				38355EDB2AD3DB3200392674 /* Frameworks */,
+				38355EDC2AD3DB3200392674 /* Resources */,
+				38355EFA2AD3DB5E00392674 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ScribbleLab-WidgetsExtension";
+			productName = "ScribbleLab-WidgetsExtension";
+			productReference = 38355EDE2AD3DB3200392674 /* ScribbleLab-WidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		38AE9C972AD0750F00B761E8 /* ScribbleLab */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38AE9CC02AD0751100B761E8 /* Build configuration list for PBXNativeTarget "ScribbleLab" */;
@@ -488,10 +627,12 @@
 				38AE9C942AD0750F00B761E8 /* Sources */,
 				38AE9C952AD0750F00B761E8 /* Frameworks */,
 				38AE9C962AD0750F00B761E8 /* Resources */,
+				38355EF62AD3DB3400392674 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				38355EF12AD3DB3400392674 /* PBXTargetDependency */,
 			);
 			name = ScribbleLab;
 			productName = ScribbleLab;
@@ -544,6 +685,9 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					38355EDD2AD3DB3200392674 = {
+						CreatedOnToolsVersion = 15.0;
+					};
 					38AE9C972AD0750F00B761E8 = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -573,11 +717,20 @@
 				38AE9C972AD0750F00B761E8 /* ScribbleLab */,
 				38AE9CAB2AD0751100B761E8 /* ScribbleLabTests */,
 				38AE9CB52AD0751100B761E8 /* ScribbleLabUITests */,
+				38355EDD2AD3DB3200392674 /* ScribbleLab-WidgetsExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		38355EDC2AD3DB3200392674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38355EEE2AD3DB3400392674 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38AE9C962AD0750F00B761E8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -604,6 +757,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		38355EDA2AD3DB3200392674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38355EE82AD3DB3200392674 /* ScribbleLab_WidgetsLiveActivity.swift in Sources */,
+				38355EEC2AD3DB3200392674 /* AppIntent.swift in Sources */,
+				38355EE62AD3DB3200392674 /* ScribbleLab_WidgetsBundle.swift in Sources */,
+				38355EEA2AD3DB3200392674 /* ScribbleLab_Widgets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38AE9C942AD0750F00B761E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -618,8 +782,11 @@
 				38AE9C9E2AD0750F00B761E8 /* ContentView.swift in Sources */,
 				38D5C68B2AD28B9D00D943A5 /* SLDarkmodeSettingsView.swift in Sources */,
 				3868A3E32AD2FE6600D4CAEC /* ProfileView.swift in Sources */,
+				38355ED92AD3D71900392674 /* IGButtonModifier.swift in Sources */,
+				385F468E2AD31CD100D85410 /* LogInView.swift in Sources */,
 				38D5C6952AD2CAA100D943A5 /* SLContributorModel.swift in Sources */,
 				3886B2E12AD1ABC0002EF30E /* SLSideBarView.swift in Sources */,
+				38355ED72AD3D52D00392674 /* IGTextFieldModifier.swift in Sources */,
 				38D5C68D2AD28D6F00D943A5 /* SLUpdateView.swift in Sources */,
 				38AE9C9C2AD0750F00B761E8 /* ScribbleLabApp.swift in Sources */,
 				3886B2DA2AD19CA5002EF30E /* WelcomeView.swift in Sources */,
@@ -650,6 +817,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		38355EF12AD3DB3400392674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38355EDD2AD3DB3200392674 /* ScribbleLab-WidgetsExtension */;
+			targetProxy = 38355EF02AD3DB3400392674 /* PBXContainerItemProxy */;
+		};
 		38AE9CAE2AD0751100B761E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 38AE9C972AD0750F00B761E8 /* ScribbleLab */;
@@ -663,6 +835,60 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		38355EF42AD3DB3400392674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ScribbleLab-Widgets/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ScribbleLab-Widgets";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudio.ScribbleLab.ScribbleLab-Widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38355EF52AD3DB3400392674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ScribbleLab-Widgets/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ScribbleLab-Widgets";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudio.ScribbleLab.ScribbleLab-Widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		38AE9CBE2AD0751100B761E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -785,6 +1011,7 @@
 		38AE9CC12AD0751100B761E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
@@ -805,7 +1032,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = "0.0.1-dev";
+				MARKETING_VERSION = "0.0.1-dev a)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -817,6 +1044,7 @@
 		38AE9CC22AD0751100B761E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
@@ -837,7 +1065,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = "0.0.1-dev";
+				MARKETING_VERSION = "0.0.1-dev a)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -925,6 +1153,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		38355EF32AD3DB3400392674 /* Build configuration list for PBXNativeTarget "ScribbleLab-WidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38355EF42AD3DB3400392674 /* Debug */,
+				38355EF52AD3DB3400392674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		38AE9C932AD0750F00B761E8 /* Build configuration list for PBXProject "ScribbleLab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
