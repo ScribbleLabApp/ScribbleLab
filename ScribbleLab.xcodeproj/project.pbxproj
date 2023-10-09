@@ -207,6 +207,13 @@
 			path = "ScribbleLab-Widgets";
 			sourceTree = "<group>";
 		};
+		38355EFB2AD3DC8D00392674 /* Tags */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tags;
+			sourceTree = "<group>";
+		};
 		3858A76B2AD1497300FC6319 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -263,6 +270,7 @@
 		3858A7722AD14AC800FC6319 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				38355EFB2AD3DC8D00392674 /* Tags */,
 				3868A3EC2AD3078B00D4CAEC /* Homework */,
 				3868A3EB2AD3078700D4CAEC /* Reminder */,
 				3868A3E42AD305AA00D4CAEC /* Create */,
