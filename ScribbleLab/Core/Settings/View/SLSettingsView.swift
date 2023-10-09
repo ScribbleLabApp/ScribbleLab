@@ -64,20 +64,17 @@ struct SLSettingsView: View {
                 }
                 
                 Section() {
-                    // TODO: Display an alert
-//                    Label("Reset settings", systemImage: "restart")
                     Button {
                         resetAlertIsPresented.toggle()
                     } label: {
                         Label("Reset settings", systemImage: "restart")
                             .foregroundStyle(Color.red)
                     }
-                            .alert(isPresented: $resetAlertIsPresented) {
-                                // FIXME: - Create confirm button with color red
-                                Alert(title: Text("Important message"), message: Text("Do you really want to reset your customized data. This operation cannot be undone"), primaryButton: .default(Text("Cancel"), action: {}), secondaryButton: .destructive(Text("Confirm").fontWeight(.semibold), action: {
-                                    // TODO: Call the to factory setting func
-                                    
-                                }))
+                    .alert(isPresented: $resetAlertIsPresented) {
+                        Alert(title: Text("Important message"), message: Text("Do you really want to reset your customized data. This operation cannot be undone"), primaryButton: .default(Text("Cancel"), action: {}), secondaryButton: .destructive(Text("Confirm").fontWeight(.semibold), action: {
+                                // TODO: Call the to factory setting func
+                                
+                            }))
                         }
                     Button {
                         deleteAccountIsPresented.toggle()
@@ -98,6 +95,8 @@ struct SLSettingsView: View {
                     Text("These settings can cause loosing all you customized settings")
                 }
                 
+                #if os(macOS)
+                // MARK: App Update Section
                 Section() {
                     NavigationLink {
                         SLUpdateView()
@@ -122,6 +121,7 @@ struct SLSettingsView: View {
                 } footer: {
                     Text("These settings are responsible for the updates of this app. In order to enroll to the programmes you need to be registered to our ScribbleLab Developer Programm (free). Follow [this link](https://github.com/ScribbleLabApp/ScribbleLab) for a more detailed description.")
                 }
+                #endif
                 
                 Section() {
                     Label("Info", systemImage: "info.bubble") // info.circle
@@ -148,6 +148,7 @@ struct SLSettingsView: View {
                 Section() {
                     Button {
                         newNotificationDeveloperTool.toggle()
+                        print("DEBUG: new notification \(newNotificationDeveloperTool)")
                     } label: {
                         Label("Change state of newNotification", systemImage: "hammer")
                     }
