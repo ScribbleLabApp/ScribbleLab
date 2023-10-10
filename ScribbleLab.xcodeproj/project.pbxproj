@@ -244,7 +244,7 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
-		3858A76D2AD1498D00FC6319 /* Config */ = {
+		3858A76D2AD1498D00FC6319 /* Configs */ = {
 			isa = PBXGroup;
 			children = (
 				38355EFD2AD3DF9B00392674 /* Alpha.xcconfig */,
@@ -253,7 +253,7 @@
 				385F788B2AD5C4530096E504 /* RC.xcconfig */,
 				385F788C2AD5C4690096E504 /* Release.xcconfig */,
 			);
-			path = Config;
+			path = Configs;
 			sourceTree = "<group>";
 		};
 		3858A76E2AD14A9C00FC6319 /* Ressources */ = {
@@ -425,7 +425,7 @@
 		38AE9C8F2AD0750F00B761E8 = {
 			isa = PBXGroup;
 			children = (
-				3858A76D2AD1498D00FC6319 /* Config */,
+				3858A76D2AD1498D00FC6319 /* Configs */,
 				38AE9C9A2AD0750F00B761E8 /* ScribbleLab */,
 				38AE9CAF2AD0751100B761E8 /* ScribbleLabTests */,
 				38AE9CB92AD0751100B761E8 /* ScribbleLabUITests */,
