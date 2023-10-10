@@ -1,0 +1,13 @@
+//
+//  Alpha.xcconfig
+//  ScribbleLab
+//
+//  Created by Nevio Hirani on 09.10.23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+SL_APPICON_NAME = AppIconAlpha
+SL_VERSION_POSTFIX = -alpha
+SL_COPYRIGHT = Copyright © 2023-2024 ScribbleLabApp
