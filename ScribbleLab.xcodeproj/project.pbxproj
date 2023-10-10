@@ -30,6 +30,9 @@
 		385F78A42AD5C86B0096E504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38AE9CA12AD0751100B761E8 /* Assets.xcassets */; };
 		385F78A52AD5C86B0096E504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38AE9CA12AD0751100B761E8 /* Assets.xcassets */; };
 		385F78A82AD5D2170096E504 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385F78A72AD5D2170096E504 /* Launch Screen.storyboard */; };
+		385F78AC2AD5DDEE0096E504 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 385F78AB2AD5DDED0096E504 /* Settings.bundle */; };
+		385F78AF2AD5E11C0096E504 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 385F78AE2AD5E11C0096E504 /* GoogleSignIn */; };
+		385F78B12AD5E11C0096E504 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 385F78B02AD5E11C0096E504 /* GoogleSignInSwift */; };
 		3868A3DC2AD2DB0000D4CAEC /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DB2AD2DB0000D4CAEC /* ImageViewModel.swift */; };
 		3868A3DE2AD2DBA300D4CAEC /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DD2AD2DBA300D4CAEC /* ImageView.swift */; };
 		3868A3E02AD2E2F800D4CAEC /* SLLicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DF2AD2E2F800D4CAEC /* SLLicenseView.swift */; };
@@ -138,6 +141,7 @@
 		385F789A2AD5C84C0096E504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		385F78A62AD5D0C50096E504 /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
 		385F78A72AD5D2170096E504 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		385F78AB2AD5DDED0096E504 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		3868A3DB2AD2DB0000D4CAEC /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
 		3868A3DD2AD2DBA300D4CAEC /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		3868A3DF2AD2E2F800D4CAEC /* SLLicenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLLicenseView.swift; sourceTree = "<group>"; };
@@ -181,6 +185,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				385F78AF2AD5E11C0096E504 /* GoogleSignIn in Frameworks */,
+				385F78B12AD5E11C0096E504 /* GoogleSignInSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +459,7 @@
 		38AE9C8F2AD0750F00B761E8 = {
 			isa = PBXGroup;
 			children = (
+				385F78AB2AD5DDED0096E504 /* Settings.bundle */,
 				3858A76D2AD1498D00FC6319 /* Configs */,
 				38AE9C9A2AD0750F00B761E8 /* ScribbleLab */,
 				38AE9CAF2AD0751100B761E8 /* ScribbleLabTests */,
@@ -704,6 +711,10 @@
 				385F789C2AD5C84C0096E504 /* PBXTargetDependency */,
 			);
 			name = ScribbleLab;
+			packageProductDependencies = (
+				385F78AE2AD5E11C0096E504 /* GoogleSignIn */,
+				385F78B02AD5E11C0096E504 /* GoogleSignInSwift */,
+			);
 			productName = ScribbleLab;
 			productReference = 38AE9C982AD0750F00B761E8 /* ScribbleLab.app */;
 			productType = "com.apple.product-type.application";
@@ -788,6 +799,9 @@
 				pl,
 			);
 			mainGroup = 38AE9C8F2AD0750F00B761E8;
+			packageReferences = (
+				385F78AD2AD5E11C0096E504 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = 38AE9C992AD0750F00B761E8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -827,6 +841,7 @@
 			files = (
 				38AE9CA52AD0751100B761E8 /* Preview Assets.xcassets in Resources */,
 				38AE9CA22AD0751100B761E8 /* Assets.xcassets in Resources */,
+				385F78AC2AD5DDEE0096E504 /* Settings.bundle in Resources */,
 				385F78A82AD5D2170096E504 /* Launch Screen.storyboard in Resources */,
 				385F788E2AD5C56E0096E504 /* Localizable.xcstrings in Resources */,
 			);
@@ -1071,13 +1086,14 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = "0.0.1-dev a)";
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1237,13 +1253,14 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = "0.0.1-dev a)";
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1403,13 +1420,14 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = "0.0.1-dev a)";
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1726,13 +1744,15 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = "0.0.1-dev a)";
+				MARKETING_VERSION = 1.0;
+				"MARKETING_VERSION[sdk=iphoneos*]" = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1760,13 +1780,14 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = "0.0.1-dev a)";
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1931,6 +1952,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		385F78AD2AD5E11C0096E504 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		385F78AE2AD5E11C0096E504 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 385F78AD2AD5E11C0096E504 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		385F78B02AD5E11C0096E504 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 385F78AD2AD5E11C0096E504 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 38AE9C902AD0750F00B761E8 /* Project object */;
 }

@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import GoogleSignIn
+import GoogleSignInSwift
 
 struct LogInView: View {
     @State private var email = ""
@@ -24,10 +26,6 @@ struct LogInView: View {
                         .ignoresSafeArea()
                 }
                 .blur(radius: 3.0)
-//            ZStack {
-//                Color.white
-//                    .frame(width: 700, height: 1000)
-//                    .cornerRadius(20)
                 VStack {
                     Image(.documentation)
                         .resizable()
@@ -55,9 +53,9 @@ struct LogInView: View {
                             .foregroundStyle(Color.black)
                     }
 //                    .frame(maxWidth: .infinity, alignment: .trailing)
-                    .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/ ,alignment: .trailing)
+                    .frame(width: 100, height: 100 ,alignment: .trailing)
                                     
-//                     log-in
+                    // log-in
                     Button {
                         print("Handle Login")
                     } label: {
@@ -79,8 +77,16 @@ struct LogInView: View {
                             .frame(width: (UIScreen.main.bounds.width / 2) - 40, height: 0.5)
                     }
                     .foregroundColor(.gray)
-//                                .frame(width: 500, height: 50)
-//                }
+                    
+                    // MARK: - other methods
+                    /// Other sign-in methods
+                    /// The user can decide between our Sign In func, Sign in with google and sign in with apple
+                    ///
+                    //  MARK: - Sign-In with Google
+                    
+                    //  MARK: - Sign-In with Apple
+                    //  FIXME: Deadline till RC Release
+                    
             }
         }
     }
