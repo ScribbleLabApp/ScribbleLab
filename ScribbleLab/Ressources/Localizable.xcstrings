@@ -79,6 +79,9 @@
     "Accessibility" : {
 
     },
+    "Already have an account?" : {
+
+    },
     "Apache License" : {
 
     },
@@ -135,6 +138,9 @@
     "Confirm" : {
 
     },
+    "Continue without an account" : {
+
+    },
     "Contributors" : {
 
     },
@@ -143,6 +149,9 @@
     },
     "Create" : {
       "extractionState" : "manual"
+    },
+    "Create a preferred username" : {
+
     },
     "Create new" : {
 
@@ -179,10 +188,16 @@
         }
       }
     },
+    "Don't have an account?" : {
+
+    },
     "END OF TERMS AND CONDITIONS" : {
 
     },
     "Enter your email" : {
+
+    },
+    "Enter your full name" : {
 
     },
     "Enter your password" : {
@@ -201,6 +216,9 @@
 
     },
     "Forgot Password?" : {
+
+    },
+    "Get started with Scribble Lab" : {
 
     },
     "Gray" : {
@@ -320,6 +338,12 @@
     "Settings" : {
 
     },
+    "Sign Up" : {
+
+    },
+    "Sign-up" : {
+
+    },
     "Some simple settings to make the app even better" : {
 
     },
@@ -380,10 +404,16 @@
     "We're appriciate all of your contributions and bug fixes you've done in order to achive this powerful app" : {
 
     },
+    "Welcome to Scribble Lab" : {
+
+    },
     "With these settings you can customize your profile" : {
 
     },
     "Yellow" : {
+
+    },
+    "You can continue without an account but some features will be unavailable for you. You can create one later in the Settings" : {
 
     },
     "You have no unread notifications" : {

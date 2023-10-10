@@ -33,6 +33,8 @@
 		385F78AC2AD5DDEE0096E504 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 385F78AB2AD5DDED0096E504 /* Settings.bundle */; };
 		385F78AF2AD5E11C0096E504 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 385F78AE2AD5E11C0096E504 /* GoogleSignIn */; };
 		385F78B12AD5E11C0096E504 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 385F78B02AD5E11C0096E504 /* GoogleSignInSwift */; };
+		385F78B32AD5E4FE0096E504 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F78B22AD5E4FE0096E504 /* RegistrationView.swift */; };
+		385F78B62AD5E9130096E504 /* TourViewBeginning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F78B52AD5E9120096E504 /* TourViewBeginning.swift */; };
 		3868A3DC2AD2DB0000D4CAEC /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DB2AD2DB0000D4CAEC /* ImageViewModel.swift */; };
 		3868A3DE2AD2DBA300D4CAEC /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DD2AD2DBA300D4CAEC /* ImageView.swift */; };
 		3868A3E02AD2E2F800D4CAEC /* SLLicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DF2AD2E2F800D4CAEC /* SLLicenseView.swift */; };
@@ -142,6 +144,8 @@
 		385F78A62AD5D0C50096E504 /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
 		385F78A72AD5D2170096E504 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		385F78AB2AD5DDED0096E504 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		385F78B22AD5E4FE0096E504 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		385F78B52AD5E9120096E504 /* TourViewBeginning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourViewBeginning.swift; sourceTree = "<group>"; };
 		3868A3DB2AD2DB0000D4CAEC /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
 		3868A3DD2AD2DBA300D4CAEC /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		3868A3DF2AD2E2F800D4CAEC /* SLLicenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLLicenseView.swift; sourceTree = "<group>"; };
@@ -258,6 +262,7 @@
 		3858A76C2AD1497700FC6319 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				385F78B42AD5E9000096E504 /* Tour */,
 				38355ED52AD3D50F00392674 /* Componets */,
 				3868A3ED2AD3079200D4CAEC /* Auth */,
 				3858A7722AD14AC800FC6319 /* Features */,
@@ -358,6 +363,7 @@
 			isa = PBXGroup;
 			children = (
 				385F468D2AD31CD100D85410 /* LogInView.swift */,
+				385F78B22AD5E4FE0096E504 /* RegistrationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -369,6 +375,14 @@
 				385F789A2AD5C84C0096E504 /* Info.plist */,
 			);
 			path = SLStickerPack;
+			sourceTree = "<group>";
+		};
+		385F78B42AD5E9000096E504 /* Tour */ = {
+			isa = PBXGroup;
+			children = (
+				385F78B52AD5E9120096E504 /* TourViewBeginning.swift */,
+			);
+			path = Tour;
 			sourceTree = "<group>";
 		};
 		3868A3E12AD2FCC300D4CAEC /* Profile */ = {
@@ -881,6 +895,7 @@
 			files = (
 				3858A77B2AD14E9D00FC6319 /* TimetableView.swift in Sources */,
 				3858A77E2AD15E8900FC6319 /* NotificationSheetView.swift in Sources */,
+				385F78B32AD5E4FE0096E504 /* RegistrationView.swift in Sources */,
 				3886B2DE2AD19F34002EF30E /* SLSettingsView.swift in Sources */,
 				3868A3E02AD2E2F800D4CAEC /* SLLicenseView.swift in Sources */,
 				38D5C6972AD2CC6200D943A5 /* SLContributorView.swift in Sources */,
@@ -894,6 +909,7 @@
 				38D5C6952AD2CAA100D943A5 /* SLContributorModel.swift in Sources */,
 				3886B2E12AD1ABC0002EF30E /* SLSideBarView.swift in Sources */,
 				38355ED72AD3D52D00392674 /* IGTextFieldModifier.swift in Sources */,
+				385F78B62AD5E9130096E504 /* TourViewBeginning.swift in Sources */,
 				38D5C68D2AD28D6F00D943A5 /* SLUpdateView.swift in Sources */,
 				38AE9C9C2AD0750F00B761E8 /* ScribbleLabApp.swift in Sources */,
 				3886B2DA2AD19CA5002EF30E /* WelcomeView.swift in Sources */,

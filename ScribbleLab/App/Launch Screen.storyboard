@@ -30,6 +30,10 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="from" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="coN-7s-OzF">
                                 <rect key="frame" x="177.66666666666666" y="692" width="37.666666666666657" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="37.670000000000002" id="bbR-MN-1Hj"/>
+                                    <constraint firstAttribute="height" constant="21" id="y3p-w0-QAz"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <color key="textColor" systemColor="scrollViewTexturedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
@@ -50,6 +54,7 @@
                             <constraint firstItem="coN-7s-OzF" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="177.66666666666666" id="RsT-D1-dKq"/>
                             <constraint firstItem="obG-Y5-kRd" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="20" symbolic="YES" id="SfN-ll-jLj"/>
                             <constraint firstAttribute="bottom" secondItem="obG-Y5-kRd" secondAttribute="bottom" constant="20" id="Y44-ml-fuU"/>
+                            <constraint firstItem="coN-7s-OzF" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Zzb-A3-83I"/>
                             <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="coN-7s-OzF" secondAttribute="bottom" constant="105" id="jVw-wm-sTt"/>
                             <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="jJo-jg-SVd" secondAttribute="bottom" constant="66" id="rNf-3J-9U2"/>
                             <constraint firstItem="PdP-4H-t9r" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="wkO-Ep-reM"/>

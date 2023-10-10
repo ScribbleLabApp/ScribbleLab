@@ -12,6 +12,9 @@ import GoogleSignInSwift
 struct LogInView: View {
     @State private var email = ""
     @State private var password = ""
+    @State private var presentNoAccountAlert = false
+    @State private var tourSheetIsPresented = false
+    @State private var callHomeView = false; #warning("Only for development purposes")
     
     var body: some View {
         ZStack {
@@ -27,11 +30,13 @@ struct LogInView: View {
                 }
                 .blur(radius: 3.0)
                 VStack {
+                    Spacer()
+                    
                     Image(.documentation)
                         .resizable()
                         .frame(width: 150, height: 150)
                     VStack {
-                        // FIXME: Image "moves" away when clicking on a TextField
+                        #warning("Image moves away when clicking on a TextField")
                         TextField("Enter your email", text: $email)
                             .modifier(IGTextFieldModifier())
                             
@@ -41,7 +46,7 @@ struct LogInView: View {
                     .frame(width: 500, height: 200)
                     
                     // forgot password
-                    // FIXME: Fix alignment
+                    #warning("Fix alignment")
                     Button {
                         print("Forgot Password")
                     } label: {
@@ -56,12 +61,16 @@ struct LogInView: View {
                     .frame(width: 100, height: 100 ,alignment: .trailing)
                                     
                     // log-in
+                    #warning("Naviagtion destination: Only for development purposes")
                     Button {
-                        print("Handle Login")
+                        callHomeView.toggle()
                     } label: {
                         Text("Login")
                             .modifier(IGButtonModifier())
                     }
+                    .navigationDestination(isPresented: $callHomeView, destination: {
+                        SLSideBarView()
+                    })
                     .padding(.vertical)
                     
                     // Custome Divider
@@ -87,6 +96,44 @@ struct LogInView: View {
                     //  MARK: - Sign-In with Apple
                     //  FIXME: Deadline till RC Release
                     
+                    // MARK: no account
+                    Button {
+                        presentNoAccountAlert.toggle()
+                    } label: {
+                        Text("Continue without an account")
+                            .modifier(IGButtonModifier())
+                    }
+                    .alert(isPresented: $presentNoAccountAlert) {
+                        Alert(title: Text("Important message"), message: Text("You can continue without an account but some features will be unavailable for you. You can create one later in the Settings"), primaryButton: .default(Text("Cancel"), action: {
+                            print("Cancel") // nothing needs to do here
+                        }), secondaryButton: .destructive(Text("Confirm").fontWeight(.semibold), action: {
+                                // calls the tour guide sheet
+                                tourSheetIsPresented.toggle()
+                            }))
+                        }
+                    .sheet(isPresented: $tourSheetIsPresented, content: {
+                        TourViewBeginning()
+                    })
+                    .padding()
+                    
+                    Spacer()
+                                    
+                    // sign-up link
+                    Divider()
+                                    
+                    NavigationLink {
+                        RegistrationView()
+                            .navigationBarBackButtonHidden()
+                    } label: {
+                        HStack(spacing: 3) {
+                            Text("Don't have an account?")
+                            Text("Sign Up")
+                                .fontWeight(.semibold)
+                        }
+                        .font(.footnote)
+                        .foregroundStyle(Color.black)
+                    }
+                    .padding(.vertical)
             }
         }
     }
