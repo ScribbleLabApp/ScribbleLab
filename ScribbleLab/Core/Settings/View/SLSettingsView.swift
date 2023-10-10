@@ -95,7 +95,7 @@ struct SLSettingsView: View {
                     Text("These settings can cause loosing all you customized settings")
                 }
                 
-                #if os(macOS)
+//                #if os(macOS)
                 // MARK: App Update Section
                 Section() {
                     NavigationLink {
@@ -121,11 +121,19 @@ struct SLSettingsView: View {
                 } footer: {
                     Text("These settings are responsible for the updates of this app. In order to enroll to the programmes you need to be registered to our ScribbleLab Developer Programm (free). Follow [this link](https://github.com/ScribbleLabApp/ScribbleLab) for a more detailed description.")
                 }
-                #endif
+//                #endif
                 
                 Section() {
-                    Label("Info", systemImage: "info.bubble") // info.circle
-                    Label("Help", systemImage: "questionmark.bubble")
+                    NavigationLink {
+                        SLInfoView()
+                    } label: {
+                        Label("Info", systemImage: "info.bubble")
+                    } // info.circle
+                    NavigationLink {
+                        SLHelpView()
+                    } label: {
+                        Label("Help", systemImage: "questionmark.bubble")
+                    }
                     NavigationLink {
                         SLLicenseView()
                     } label: {
