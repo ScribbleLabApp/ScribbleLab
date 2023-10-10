@@ -25,6 +25,10 @@
 		385F468E2AD31CD100D85410 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F468D2AD31CD100D85410 /* LogInView.swift */; };
 		385F788E2AD5C56E0096E504 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 385F788D2AD5C56E0096E504 /* Localizable.xcstrings */; };
 		385F788F2AD5C5D60096E504 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 385F788D2AD5C56E0096E504 /* Localizable.xcstrings */; };
+		385F78992AD5C84C0096E504 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385F78982AD5C84C0096E504 /* Stickers.xcassets */; };
+		385F789D2AD5C84C0096E504 /* SLStickerPack.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 385F78962AD5C84B0096E504 /* SLStickerPack.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		385F78A42AD5C86B0096E504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38AE9CA12AD0751100B761E8 /* Assets.xcassets */; };
+		385F78A52AD5C86B0096E504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38AE9CA12AD0751100B761E8 /* Assets.xcassets */; };
 		3868A3DC2AD2DB0000D4CAEC /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DB2AD2DB0000D4CAEC /* ImageViewModel.swift */; };
 		3868A3DE2AD2DBA300D4CAEC /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DD2AD2DBA300D4CAEC /* ImageView.swift */; };
 		3868A3E02AD2E2F800D4CAEC /* SLLicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DF2AD2E2F800D4CAEC /* SLLicenseView.swift */; };
@@ -56,6 +60,13 @@
 			remoteGlobalIDString = 38355EDD2AD3DB3200392674;
 			remoteInfo = "ScribbleLab-WidgetsExtension";
 		};
+		385F789B2AD5C84C0096E504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38AE9C902AD0750F00B761E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 385F78952AD5C84B0096E504;
+			remoteInfo = SLStickerPack;
+		};
 		38AE9CAD2AD0751100B761E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 38AE9C902AD0750F00B761E8 /* Project object */;
@@ -79,6 +90,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				385F789D2AD5C84C0096E504 /* SLStickerPack.appex in Embed Foundation Extensions */,
 				38355EF22AD3DB3400392674 /* ScribbleLab-WidgetsExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
@@ -120,6 +132,10 @@
 		385F788B2AD5C4530096E504 /* RC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = RC.xcconfig; sourceTree = "<group>"; };
 		385F788C2AD5C4690096E504 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		385F788D2AD5C56E0096E504 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		385F78962AD5C84B0096E504 /* SLStickerPack.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SLStickerPack.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		385F78982AD5C84C0096E504 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		385F789A2AD5C84C0096E504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		385F78A62AD5D0C50096E504 /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
 		3868A3DB2AD2DB0000D4CAEC /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
 		3868A3DD2AD2DBA300D4CAEC /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		3868A3DF2AD2E2F800D4CAEC /* SLLicenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLLicenseView.swift; sourceTree = "<group>"; };
@@ -337,6 +353,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		385F78972AD5C84B0096E504 /* SLStickerPack */ = {
+			isa = PBXGroup;
+			children = (
+				385F78982AD5C84C0096E504 /* Stickers.xcassets */,
+				385F789A2AD5C84C0096E504 /* Info.plist */,
+			);
+			path = SLStickerPack;
+			sourceTree = "<group>";
+		};
 		3868A3E12AD2FCC300D4CAEC /* Profile */ = {
 			isa = PBXGroup;
 			children = (
@@ -430,6 +455,7 @@
 				38AE9CAF2AD0751100B761E8 /* ScribbleLabTests */,
 				38AE9CB92AD0751100B761E8 /* ScribbleLabUITests */,
 				38355EE42AD3DB3200392674 /* ScribbleLab-Widgets */,
+				385F78972AD5C84B0096E504 /* SLStickerPack */,
 				38355EDF2AD3DB3200392674 /* Frameworks */,
 				38AE9C992AD0750F00B761E8 /* Products */,
 			);
@@ -442,6 +468,7 @@
 				38AE9CAC2AD0751100B761E8 /* ScribbleLabTests.xctest */,
 				38AE9CB62AD0751100B761E8 /* ScribbleLabUITests.xctest */,
 				38355EDE2AD3DB3200392674 /* ScribbleLab-WidgetsExtension.appex */,
+				385F78962AD5C84B0096E504 /* SLStickerPack.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -455,6 +482,7 @@
 				38AE9CA32AD0751100B761E8 /* Preview Content */,
 				38AE9CA62AD0751100B761E8 /* ScribbleLab.entitlements */,
 				38AE9CA72AD0751100B761E8 /* Info.plist */,
+				385F78A62AD5D0C50096E504 /* TestPlan.xctestplan */,
 			);
 			path = ScribbleLab;
 			sourceTree = "<group>";
@@ -642,6 +670,21 @@
 			productReference = 38355EDE2AD3DB3200392674 /* ScribbleLab-WidgetsExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		385F78952AD5C84B0096E504 /* SLStickerPack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 385F789E2AD5C84C0096E504 /* Build configuration list for PBXNativeTarget "SLStickerPack" */;
+			buildPhases = (
+				385F78942AD5C84B0096E504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLStickerPack;
+			productName = SLStickerPack;
+			productReference = 385F78962AD5C84B0096E504 /* SLStickerPack.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
 		38AE9C972AD0750F00B761E8 /* ScribbleLab */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38AE9CC02AD0751100B761E8 /* Build configuration list for PBXNativeTarget "ScribbleLab" */;
@@ -655,6 +698,7 @@
 			);
 			dependencies = (
 				38355EF12AD3DB3400392674 /* PBXTargetDependency */,
+				385F789C2AD5C84C0096E504 /* PBXTargetDependency */,
 			);
 			name = ScribbleLab;
 			productName = ScribbleLab;
@@ -710,6 +754,9 @@
 					38355EDD2AD3DB3200392674 = {
 						CreatedOnToolsVersion = 15.0;
 					};
+					385F78952AD5C84B0096E504 = {
+						CreatedOnToolsVersion = 15.0;
+					};
 					38AE9C972AD0750F00B761E8 = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -746,6 +793,7 @@
 				38AE9CAB2AD0751100B761E8 /* ScribbleLabTests */,
 				38AE9CB52AD0751100B761E8 /* ScribbleLabUITests */,
 				38355EDD2AD3DB3200392674 /* ScribbleLab-WidgetsExtension */,
+				385F78952AD5C84B0096E504 /* SLStickerPack */,
 			);
 		};
 /* End PBXProject section */
@@ -756,7 +804,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				385F788F2AD5C5D60096E504 /* Localizable.xcstrings in Resources */,
+				385F78A42AD5C86B0096E504 /* Assets.xcassets in Resources */,
 				38355EEE2AD3DB3400392674 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		385F78942AD5C84B0096E504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385F78A52AD5C86B0096E504 /* Assets.xcassets in Resources */,
+				385F78992AD5C84C0096E504 /* Stickers.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -851,6 +909,11 @@
 			isa = PBXTargetDependency;
 			target = 38355EDD2AD3DB3200392674 /* ScribbleLab-WidgetsExtension */;
 			targetProxy = 38355EF02AD3DB3400392674 /* PBXContainerItemProxy */;
+		};
+		385F789C2AD5C84C0096E504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 385F78952AD5C84B0096E504 /* SLStickerPack */;
+			targetProxy = 385F789B2AD5C84C0096E504 /* PBXContainerItemProxy */;
 		};
 		38AE9CAE2AD0751100B761E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1419,6 +1482,106 @@
 			};
 			name = RC;
 		};
+		385F789F2AD5C84C0096E504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38355F032AD3DFED00392674 /* Debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SLStickerPack/Info.plist;
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab.SLStickerPack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		385F78A02AD5C84C0096E504 /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38355EFD2AD3DF9B00392674 /* Alpha.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SLStickerPack/Info.plist;
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab.SLStickerPack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Alpha;
+		};
+		385F78A12AD5C84C0096E504 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 385F788A2AD5C4410096E504 /* Beta.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SLStickerPack/Info.plist;
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab.SLStickerPack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Beta;
+		};
+		385F78A22AD5C84C0096E504 /* RC */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 385F788B2AD5C4530096E504 /* RC.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SLStickerPack/Info.plist;
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab.SLStickerPack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = RC;
+		};
+		385F78A32AD5C84C0096E504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 385F788B2AD5C4530096E504 /* RC.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SLStickerPack/Info.plist;
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab.SLStickerPack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		38AE9CBE2AD0751100B761E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 38355F032AD3DFED00392674 /* Debug.xcconfig */;
@@ -1699,6 +1862,18 @@
 				38355F082AD3E01A00392674 /* Beta */,
 				38355F0D2AD3E02000392674 /* RC */,
 				38355EF52AD3DB3400392674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		385F789E2AD5C84C0096E504 /* Build configuration list for PBXNativeTarget "SLStickerPack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				385F789F2AD5C84C0096E504 /* Debug */,
+				385F78A02AD5C84C0096E504 /* Alpha */,
+				385F78A12AD5C84C0096E504 /* Beta */,
+				385F78A22AD5C84C0096E504 /* RC */,
+				385F78A32AD5C84C0096E504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

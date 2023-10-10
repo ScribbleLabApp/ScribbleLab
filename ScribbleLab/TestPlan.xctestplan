@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "788CAD2A-400F-4E5B-B27D-42FF31452C2C",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:ScribbleLab.xcodeproj",
+        "identifier" : "38AE9CAB2AD0751100B761E8",
+        "name" : "ScribbleLabTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:ScribbleLab.xcodeproj",
+        "identifier" : "38AE9CB52AD0751100B761E8",
+        "name" : "ScribbleLabUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

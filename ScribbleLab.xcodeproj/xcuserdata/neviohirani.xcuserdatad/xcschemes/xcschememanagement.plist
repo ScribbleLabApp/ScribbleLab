@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>SLStickerPack.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>ScribbleLab-WidgetsExtension.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,34 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>38355EDD2AD3DB3200392674</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>385F78952AD5C84B0096E504</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>38AE9C972AD0750F00B761E8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>38AE9CAB2AD0751100B761E8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>38AE9CB52AD0751100B761E8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
