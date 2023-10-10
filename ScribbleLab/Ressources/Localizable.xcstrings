@@ -1,7 +1,31 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-
+    "Categories" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kategorien"
+          }
+        }
+      }
+    },
+    "Create" : {
+      "extractionState" : "manual"
+    },
+    "Documents" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dokumente"
+          }
+        }
+      }
+    }
   },
   "version" : "1.0"
 }

@@ -733,6 +733,9 @@
 				de,
 				it,
 				nl,
+				fr,
+				el,
+				pl,
 			);
 			mainGroup = 38AE9C8F2AD0750F00B761E8;
 			productRefGroup = 38AE9C992AD0750F00B761E8 /* Products */;
