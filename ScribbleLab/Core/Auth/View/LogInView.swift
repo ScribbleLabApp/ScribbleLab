@@ -94,9 +94,16 @@ struct LogInView: View {
                     //  MARK: - Sign-In with Google
                     
                     //  MARK: - Sign-In with Apple
-                    //  FIXME: Deadline till RC Release
+//                    SignInWithAppleButton(
+//                        onRequest: { request in
+//
+//                        },
+//                        onCompletion: { result in
+//
+//                        }
+//                    )
                     
-                    // MARK: no account
+                    // MARK: - no account
                     Button {
                         presentNoAccountAlert.toggle()
                     } label: {

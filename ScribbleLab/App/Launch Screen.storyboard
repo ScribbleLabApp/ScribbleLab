@@ -22,18 +22,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Documentation" translatesAutoresizingMaskIntoConstraints="NO" id="PdP-4H-t9r">
-                                <rect key="frame" x="117" y="257" width="159" height="159"/>
+                                <rect key="frame" x="26" y="257" width="341" height="159"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="159" id="MDs-c1-m2S"/>
-                                    <constraint firstAttribute="width" constant="159" id="uRs-mj-1XI"/>
+                                    <constraint firstAttribute="height" constant="159" id="UBs-zV-zne"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="from" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="coN-7s-OzF">
                                 <rect key="frame" x="177.66666666666666" y="692" width="37.666666666666657" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="37.670000000000002" id="bbR-MN-1Hj"/>
-                                    <constraint firstAttribute="height" constant="21" id="y3p-w0-QAz"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <color key="textColor" systemColor="scrollViewTexturedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
@@ -41,24 +36,23 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="logo-colorful-complex-var-1" translatesAutoresizingMaskIntoConstraints="NO" id="jJo-jg-SVd">
                                 <rect key="frame" x="-22.333333333333343" y="711" width="437.66666666666674" height="41"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="7bQ-xH-yMW"/>
+                                    <constraint firstAttribute="height" constant="41" id="dDl-dy-2yE"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="coN-7s-OzF" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5aS-SP-s5m"/>
-                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="centerX" secondItem="obG-Y5-kRd" secondAttribute="centerX" id="5cz-MP-9tL"/>
-                            <constraint firstItem="PdP-4H-t9r" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="198" id="DOq-a3-YT4"/>
-                            <constraint firstItem="coN-7s-OzF" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="177.66666666666666" id="RsT-D1-dKq"/>
-                            <constraint firstItem="obG-Y5-kRd" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="20" symbolic="YES" id="SfN-ll-jLj"/>
-                            <constraint firstAttribute="bottom" secondItem="obG-Y5-kRd" secondAttribute="bottom" constant="20" id="Y44-ml-fuU"/>
-                            <constraint firstItem="coN-7s-OzF" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Zzb-A3-83I"/>
-                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="coN-7s-OzF" secondAttribute="bottom" constant="105" id="jVw-wm-sTt"/>
-                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="jJo-jg-SVd" secondAttribute="bottom" constant="66" id="rNf-3J-9U2"/>
-                            <constraint firstItem="PdP-4H-t9r" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="wkO-Ep-reM"/>
-                            <constraint firstItem="jJo-jg-SVd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="zMu-HO-Q6s"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="coN-7s-OzF" secondAttribute="bottom" constant="105" id="8IS-Ku-6gg"/>
+                            <constraint firstItem="PdP-4H-t9r" firstAttribute="centerX" secondItem="obG-Y5-kRd" secondAttribute="centerX" id="Cko-FL-cFx"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="jJo-jg-SVd" secondAttribute="bottom" constant="66" id="CoZ-X3-O29"/>
+                            <constraint firstItem="PdP-4H-t9r" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="198" id="Dg7-Fb-ePG"/>
+                            <constraint firstItem="obG-Y5-kRd" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-16" id="HDt-IQ-LhA"/>
+                            <constraint firstItem="obG-Y5-kRd" firstAttribute="top" secondItem="jJo-jg-SVd" secondAttribute="bottom" constant="80" id="cIT-fA-Grr"/>
+                            <constraint firstItem="PdP-4H-t9r" firstAttribute="centerX" secondItem="jJo-jg-SVd" secondAttribute="centerX" id="e2v-Gw-29g"/>
+                            <constraint firstItem="PdP-4H-t9r" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="g3X-mZ-WT6"/>
+                            <constraint firstItem="PdP-4H-t9r" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="26" id="gWf-g9-h3S"/>
+                            <constraint firstItem="PdP-4H-t9r" firstAttribute="centerX" secondItem="coN-7s-OzF" secondAttribute="centerX" id="ude-bb-GyK"/>
                         </constraints>
                     </view>
                 </viewController>

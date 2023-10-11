@@ -47,7 +47,11 @@ struct SLSettingsView: View {
                 }
                 
                 Section() {
-                    Label("Darkmode", systemImage: "moon.fill")
+                    NavigationLink {
+                        SLDarkmodeSettingsView()
+                    } label:{
+                        Label("Darkmode", systemImage: "moon.fill")
+                    }
                     Label("Units", systemImage: "ruler")
                     Label("Apple Pencil", systemImage: "applepencil.and.scribble")
                     Label("Autocorrection", systemImage: "textformat.abc.dottedunderline")

@@ -58,6 +58,7 @@
 		38D5C68D2AD28D6F00D943A5 /* SLUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5C68C2AD28D6F00D943A5 /* SLUpdateView.swift */; };
 		38D5C6952AD2CAA100D943A5 /* SLContributorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5C6942AD2CAA100D943A5 /* SLContributorModel.swift */; };
 		38D5C6972AD2CC6200D943A5 /* SLContributorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5C6962AD2CC6200D943A5 /* SLContributorView.swift */; };
+		38EFBE1D2AD6965C00CF0ECD /* PackageLicense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFBE1C2AD6965C00CF0ECD /* PackageLicense.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -176,6 +177,7 @@
 		38D5C68C2AD28D6F00D943A5 /* SLUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLUpdateView.swift; sourceTree = "<group>"; };
 		38D5C6942AD2CAA100D943A5 /* SLContributorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLContributorModel.swift; sourceTree = "<group>"; };
 		38D5C6962AD2CC6200D943A5 /* SLContributorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLContributorView.swift; sourceTree = "<group>"; };
+		38EFBE1C2AD6965C00CF0ECD /* PackageLicense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageLicense.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -399,6 +401,7 @@
 		385F78B82AD5ECB60096E504 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				38EFBE1B2AD6964100CF0ECD /* License */,
 				385F78B92AD5ECC10096E504 /* SLInfoView.swift */,
 			);
 			path = View;
@@ -711,6 +714,22 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		38EFBE1B2AD6964100CF0ECD /* License */ = {
+			isa = PBXGroup;
+			children = (
+				38EFBE1E2AD6A2F700CF0ECD /* AppAuth */,
+				38EFBE1C2AD6965C00CF0ECD /* PackageLicense.swift */,
+			);
+			path = License;
+			sourceTree = "<group>";
+		};
+		38EFBE1E2AD6A2F700CF0ECD /* AppAuth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppAuth;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -946,6 +965,7 @@
 				38355ED92AD3D71900392674 /* IGButtonModifier.swift in Sources */,
 				385F468E2AD31CD100D85410 /* LogInView.swift in Sources */,
 				385F78BA2AD5ECC10096E504 /* SLInfoView.swift in Sources */,
+				38EFBE1D2AD6965C00CF0ECD /* PackageLicense.swift in Sources */,
 				38D5C6952AD2CAA100D943A5 /* SLContributorModel.swift in Sources */,
 				3886B2E12AD1ABC0002EF30E /* SLSideBarView.swift in Sources */,
 				38355ED72AD3D52D00392674 /* IGTextFieldModifier.swift in Sources */,
@@ -1138,6 +1158,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScribbleLab/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1149,9 +1170,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = "0.0.1-alpha";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SL_COPYRIGHT = "Copyright © 2023-2024 ScribbleLabApp \\n All rights reserved";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1305,6 +1327,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScribbleLab/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1316,9 +1339,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = "0.0.1-alpha";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SL_COPYRIGHT = "Copyright © 2023-2024 ScribbleLabApp \\n All rights reserved";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1472,6 +1496,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScribbleLab/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1483,9 +1508,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = "0.0.1-alpha";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SL_COPYRIGHT = "Copyright © 2023-2024 ScribbleLabApp \\n All rights reserved";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1796,6 +1822,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScribbleLab/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1807,10 +1834,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				"MARKETING_VERSION[sdk=iphoneos*]" = 0.0.1;
+				MARKETING_VERSION = "0.0.1-alpha";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SL_COPYRIGHT = "Copyright © 2023-2024 ScribbleLabApp \\n All rights reserved";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1832,6 +1859,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScribbleLab/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1843,9 +1871,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = "0.0.1-alpha";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SL_COPYRIGHT = "Copyright © 2023-2024 ScribbleLabApp \\n All rights reserved";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
