@@ -45,6 +45,8 @@ struct RedemtionSheetView: View {
                     Section() {
                         Text("FREE10")
                         Text("BIRTHDAY01")
+                        Text("HAPPYFALL2023")
+                        Text("HELLOWEEN2023")
                     } header: {
                         Text("Unlimeted")
                     } footer: {
@@ -66,7 +68,7 @@ struct RedemtionSheetView: View {
                     }
                 }
             }
-            .navigationTitle("Redeemtion")
+            .navigationTitle("Redeemtion (BETA)")
             .navigationBarTitleDisplayMode(.inline)
         }
     }

@@ -95,16 +95,22 @@ struct SLInfoView: View {
                         Text("© 2023 - 2024 ScribbleLabApp. All rights reserved.")
                             .foregroundStyle(.gray)
                     }
-                    
+                } header: {
+                    Text("General infos")
+                } footer: {
+                    Text("Those informations are needed if you want to report an issue")
+                }
+                
+                Section() {
                     NavigationLink {
                         PackageLicense()
                     } label: {
                         Text("License")
                     }
                 } header: {
-                    Text("General infos")
+                    Text("Licenses")
                 } footer: {
-                    Text("Those informations are needed if you want to report an issue")
+                    Text("")
                 }
             }
                 .navigationTitle("Info")

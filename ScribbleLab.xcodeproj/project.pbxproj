@@ -60,6 +60,7 @@
 		38D5C6972AD2CC6200D943A5 /* SLContributorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5C6962AD2CC6200D943A5 /* SLContributorView.swift */; };
 		38EFBE1D2AD6965C00CF0ECD /* PackageLicense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFBE1C2AD6965C00CF0ECD /* PackageLicense.swift */; };
 		38EFBE202AD6D1A400CF0ECD /* RedemtionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFBE1F2AD6D1A400CF0ECD /* RedemtionSheetView.swift */; };
+		38EFBE232AD6E4EF00CF0ECD /* RestartAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFBE222AD6E4EF00CF0ECD /* RestartAppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -180,6 +181,7 @@
 		38D5C6962AD2CC6200D943A5 /* SLContributorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLContributorView.swift; sourceTree = "<group>"; };
 		38EFBE1C2AD6965C00CF0ECD /* PackageLicense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageLicense.swift; sourceTree = "<group>"; };
 		38EFBE1F2AD6D1A400CF0ECD /* RedemtionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedemtionSheetView.swift; sourceTree = "<group>"; };
+		38EFBE222AD6E4EF00CF0ECD /* RestartAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartAppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -420,6 +422,7 @@
 			isa = PBXGroup;
 			children = (
 				385F78BD2AD5ED720096E504 /* SLHelpView.swift */,
+				38EFBE222AD6E4EF00CF0ECD /* RestartAppView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -956,6 +959,7 @@
 				3858A77B2AD14E9D00FC6319 /* TimetableView.swift in Sources */,
 				3858A77E2AD15E8900FC6319 /* NotificationSheetView.swift in Sources */,
 				385F78B32AD5E4FE0096E504 /* RegistrationView.swift in Sources */,
+				38EFBE232AD6E4EF00CF0ECD /* RestartAppView.swift in Sources */,
 				3886B2DE2AD19F34002EF30E /* SLSettingsView.swift in Sources */,
 				385F78BE2AD5ED720096E504 /* SLHelpView.swift in Sources */,
 				3868A3E02AD2E2F800D4CAEC /* SLLicenseView.swift in Sources */,

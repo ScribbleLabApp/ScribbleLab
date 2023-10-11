@@ -103,6 +103,9 @@
     "Apple Pencil" : {
 
     },
+    "Ask a question" : {
+
+    },
     "Autocorrection" : {
 
     },
@@ -216,6 +219,9 @@
     "Do you really want to reset your customized data. This operation cannot be undone" : {
 
     },
+    "Documentation" : {
+
+    },
     "Documents" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -234,6 +240,15 @@
 
     },
     "Enable Darkmode" : {
+
+    },
+    "Enable Security mode" : {
+
+    },
+    "Enable Security mode (BETA)" : {
+
+    },
+    "Enable Security mode?" : {
 
     },
     "END OF TERMS AND CONDITIONS" : {
@@ -347,6 +362,9 @@
     "GTMSessionFetcher" : {
 
     },
+    "HAPPYFALL2023" : {
+
+    },
     "Hello" : {
 
     },
@@ -357,6 +375,9 @@
 
     },
     "Hello, World!" : {
+
+    },
+    "HELLOWEEN2023" : {
 
     },
     "Help" : {
@@ -453,6 +474,9 @@
     "n/a" : {
 
     },
+    "No" : {
+
+    },
     "Notifications" : {
       "localizations" : {
         "de" : {
@@ -525,6 +549,9 @@
         }
       }
     },
+    "Q&A" : {
+
+    },
     "Recently opened" : {
 
     },
@@ -547,7 +574,7 @@
     "Redeem Code" : {
 
     },
-    "Redeemtion" : {
+    "Redeemtion (BETA)" : {
 
     },
     "Reminder" : {
@@ -578,6 +605,9 @@
           }
         }
       }
+    },
+    "Security mode" : {
+
     },
     "Settings" : {
       "localizations" : {
@@ -631,6 +661,9 @@
 
     },
     "These settings can cause loosing all you customized settings" : {
+
+    },
+    "This application needs to restart to update the configuration.\n\nDo you want to restart the application?" : {
 
     },
     "This is an example widget." : {
@@ -749,6 +782,9 @@
         }
       }
     },
+    "When Safe Mode is enabled, ScribbleLab starts with several features disabled to ensure maximum stability or detect errors. This process requires a restart." : {
+
+    },
     "While agreeing to our LICENSE you automatically agree to the LICENSES of our used Dependencies" : {
 
     },
@@ -756,6 +792,9 @@
 
     },
     "Yellow" : {
+
+    },
+    "Yes" : {
 
     },
     "You can continue without an account but some features will be unavailable for you. You can create one later in the Settings" : {
