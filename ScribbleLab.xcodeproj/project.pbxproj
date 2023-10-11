@@ -1148,7 +1148,7 @@
 			baseConfigurationReference = 38355EFD2AD3DF9B00392674 /* Alpha.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconAlpha;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -1317,7 +1317,7 @@
 			baseConfigurationReference = 385F788A2AD5C4410096E504 /* Beta.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconBeta;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -1486,7 +1486,7 @@
 			baseConfigurationReference = 385F788B2AD5C4530096E504 /* RC.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconRC;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -1812,7 +1812,7 @@
 			baseConfigurationReference = 38355F032AD3DFED00392674 /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDev;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
 				CODE_SIGN_STYLE = Automatic;

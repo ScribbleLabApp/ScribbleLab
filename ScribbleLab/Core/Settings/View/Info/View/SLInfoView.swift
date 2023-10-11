@@ -56,7 +56,7 @@ struct SLInfoView: View {
                     HStack {
                         Text("Build sha")
                         Spacer()
-                        Text("❌ An error occured")
+                        Text("n/a")
                             .foregroundStyle(.gray)
                     }
                     HStack {
