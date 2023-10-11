@@ -11,6 +11,7 @@ struct SLSettingsView: View {
     @Environment(\.openURL) var openURL
     @State private var resetAlertIsPresented = false
     @State private var deleteAccountIsPresented = false
+    @State private var redemtionSheetIsPresented = false
     
     // FIXME: only for evelopment purposes
     @State private var newNotificationDeveloperTool = false
@@ -40,6 +41,13 @@ struct SLSettingsView: View {
                             
                         }
                     }
+                    Label("Redeem Code", systemImage: "gift") // app.gift, giftcard
+                        .onTapGesture {
+                            redemtionSheetIsPresented.toggle()
+                        }
+                        .sheet(isPresented: $redemtionSheetIsPresented) {
+                            RedemtionSheetView()
+                        }
                 } header: {
                     Text("Profile")
                 } footer: {

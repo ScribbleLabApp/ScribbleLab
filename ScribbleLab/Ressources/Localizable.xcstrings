@@ -109,6 +109,9 @@
     "Bio or description" : {
 
     },
+    "BIRTHDAY01" : {
+
+    },
     "Blue" : {
 
     },
@@ -245,6 +248,9 @@
     "Enroll for the nightly build programme" : {
 
     },
+    "Enter a valid gift code" : {
+
+    },
     "Enter your email" : {
       "localizations" : {
         "de" : {
@@ -300,6 +306,9 @@
         }
       }
     },
+    "FREE10" : {
+
+    },
     "General infos" : {
 
     },
@@ -351,9 +360,6 @@
 
     },
     "Help" : {
-
-    },
-    "Help me pls" : {
 
     },
     "Here you can find your pinned documents" : {
@@ -532,6 +538,18 @@
         }
       }
     },
+    "Redeem" : {
+
+    },
+    "Redeem a gift Code" : {
+
+    },
+    "Redeem Code" : {
+
+    },
+    "Redeemtion" : {
+
+    },
     "Reminder" : {
       "localizations" : {
         "de" : {
@@ -541,6 +559,12 @@
           }
         }
       }
+    },
+    "Report a bug" : {
+
+    },
+    "Report a translation issue" : {
+
     },
     "Reset settings" : {
 
@@ -587,6 +611,9 @@
     "T %@" : {
 
     },
+    "Tab on a gift code to redeem it" : {
+
+    },
     "Tags" : {
       "localizations" : {
         "de" : {
@@ -628,6 +655,9 @@
     "To apply the Apache License to your work, attach the following boilerplate notice, with the fields enclosed by brackets '[]' replaced with your own identifying information. (Don't include the brackets!)  The text should be enclosed in the appropriate comment syntax for the file format. We also recommend that a file or class name and description of purpose be included on the same 'printed page' as the copyright notice for easier identification within third-party archives." : {
 
     },
+    "To report a bug please follow our issue template." : {
+
+    },
     "Toggle the button to enable Darkmode. Note if your system is on a light scheme and you've selected Follow system scheme the darkmode setting will be ignored. Please select 'Ignore system scheme'." : {
 
     },
@@ -648,6 +678,9 @@
       }
     },
     "Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License." : {
+
+    },
+    "Unlimeted" : {
 
     },
     "Update" : {
