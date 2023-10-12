@@ -484,6 +484,7 @@ Finally, as a student, you may find many apps with great features, but none that
 - linking cloud storage from 3rd party companies like Dropbox, GoogleDrive, iCloudDrive, ...
 - customizable templates (pages, covers)
 - import and export PDF's, PNG's, and .scribble `(own file fromat soon available)` files
+- AI support `(ScribbleLab Pro only - soon available)`
 - Widgets:
     - Study Timer widget
     - calender widget
