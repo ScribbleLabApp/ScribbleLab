@@ -446,6 +446,7 @@ ScribbleLab is a powerful text editor built by students, for students, written e
 - [Mission](#mission)
 - [Features](#features)
 - [Community](#community)
+- [Privacy](#privacy)
 - [Contributing](#contributing)
 - [Contributors](#contributors)
 - [License](#license)
