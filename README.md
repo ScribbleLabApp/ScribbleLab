@@ -452,7 +452,7 @@ ScribbleLab is a powerful text editor built by students, for students, written e
 - [License](#license)
 
 ## Motivation
-We at ScribbleLab found that the existing text editors in the market were either too complicated, lacked essential features, or were difficult to customize for our specific needs. We thought "Why isn't there an app that has everything you need?" and that's why we decided to create our own text editor. We wanted the complete control over its functionality and features.
+We at ScribbleLab found out that the existing text editors in the market were either too complicated, lacked essential features, or were difficult to customize for our specific needs. We thought "Why isn't there an app that has everything you need?" and that's why we decided to create our own text editor. We wanted the complete control over its functionality and features.
 
 ## Mission
 Our mission at ScribbleLab is to create an app that makes everyday life easier for many students. 
