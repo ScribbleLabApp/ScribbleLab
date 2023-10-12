@@ -462,3 +462,21 @@ As a student, you often need to use different apps to organize your academic lif
 By creating our own text editor, we were able to design it with our workflow in mind and customize its features to our exact specifications. We made sure that the editor was **lightweight but yet powerful**, **fast**, and **user-friendly**.
 
 We strive to remain true to Apple's human interface guidelines and development patterns, ensuring ScribbleLab looks and feels like an application developed by Apple themselves, which includes a meticulous attention to detail.
+
+## Features
+To fulfill our mission, we must provide users with ...
+1. ... a visual appealing design.
+2. ... a great user experience.
+3. ... awsome features that simplify our user's lives.
+
+To enhance the visual appeal of our application, we put careful consideration into its design, resulting in a cute and well-coordinated color scheme.
+
+To ensure a great user experience, we strictly follow Apple's Human Interface Guidelines and development patterns. 
+
+Finally, as a student, you may find many apps with great features, but none that meet all your needs. That's where ScribbleLab comes in handy. Our app provides a comprehensive suite of powerful and useful tools. We offer our users access to:
+- a timetable function
+- a fully customizable Calender
+- a study timer
+- a reminder and homework to-do lists
+- live collaborations `(soon avaiale)`
+- linking cloud storage from 3rd party companies like Dropbox, GoogleDrive, iCloudDrive, ...
