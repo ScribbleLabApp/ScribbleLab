@@ -492,3 +492,6 @@ Finally, as a student, you may find many apps with great features, but none that
 
 You might wonder, "How can an app be good if it has so many features? Is there a catch?" Our response is no. At ScribbleLab, we believe that our app improves with every feature we add. The purpose of ScribbleLab is to provide a platform where you can make notes related to school, work, or personal life ("scribble") and explore the various features we have to offer and customize them ("Lab"). You may wonder how we can provide users with a straightforward graphical interface, but we have that covered too. To keep the UI simple we moved some of the features into the Side Bar where you can acess it with a simple click.
 
+But you might wonder "How are they capable of adapting the features to their customers?" - Well the answer is this, we use the feedback from our community and testers.
+
+## Community
