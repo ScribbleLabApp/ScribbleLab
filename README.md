@@ -51,3 +51,5 @@ As a student, you often need to use different apps to organize your academic lif
 ![combination-cornerradius](https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/c577cdf3-4b84-479f-9129-c11cd95d4cbb)
 
 By creating our own text editor, we were able to design it with our workflow in mind and customize its features to our exact specifications. We made sure that the editor was **lightweight but yet powerful**, **fast**, and **user-friendly**.
+
+We strive to remain true to Apple's human interface guidelines and development patterns, ensuring CodeEdit looks and feels like an application developed by Apple themselves, which includes a meticulous attention to detail.
