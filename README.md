@@ -473,10 +473,22 @@ To enhance the visual appeal of our application, we put careful consideration in
 
 To ensure a great user experience, we strictly follow Apple's Human Interface Guidelines and development patterns. 
 
+
 Finally, as a student, you may find many apps with great features, but none that meet all your needs. That's where ScribbleLab comes in handy. Our app provides a comprehensive suite of powerful and useful tools. We offer our users access to:
-- a timetable function
+- a customizable timetable function
 - a fully customizable Calender
 - a study timer
 - a reminder and homework to-do lists
 - live collaborations `(soon avaiale)`
 - linking cloud storage from 3rd party companies like Dropbox, GoogleDrive, iCloudDrive, ...
+- customizable templates (pages, covers)
+- import and export PDF's, PNG's, and .scribble `(own file fromat soon available)` files
+- Widgets:
+    - Study Timer widget
+    - calender widget
+    - reminder and homework to-do widget
+
+<img align="right" width="400" src="https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/1c466ab5-afb1-4b81-85e1-f064ec9cce6e">
+
+You might wonder, "How can an app be good if it has so many features? Is there a catch?" Our response is no. At ScribbleLab, we believe that our app improves with every feature we add. The purpose of ScribbleLab is to provide a platform where you can make notes related to school, work, or personal life ("scribble") and explore the various features we have to offer and customize them ("Lab"). You may wonder how we can provide users with a straightforward graphical interface, but we have that covered too. To keep the UI simple we moved some of the features into the Side Bar where you can acess it with a simple click.
+
