@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		381F1F132AD72DD6001B3B10 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F1F122AD72DD6001B3B10 /* TestView.swift */; };
 		38355ED72AD3D52D00392674 /* IGTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38355ED62AD3D52D00392674 /* IGTextFieldModifier.swift */; };
 		38355ED92AD3D71900392674 /* IGButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38355ED82AD3D71900392674 /* IGButtonModifier.swift */; };
 		38355EE12AD3DB3200392674 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38355EE02AD3DB3200392674 /* WidgetKit.framework */; };
@@ -121,6 +122,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		381F1F122AD72DD6001B3B10 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		38355ED62AD3D52D00392674 /* IGTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGTextFieldModifier.swift; sourceTree = "<group>"; };
 		38355ED82AD3D71900392674 /* IGButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGButtonModifier.swift; sourceTree = "<group>"; };
 		38355EDE2AD3DB3200392674 /* ScribbleLab-WidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ScribbleLab-WidgetsExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -221,6 +223,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		381F1F112AD72DC2001B3B10 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				381F1F122AD72DD6001B3B10 /* TestView.swift */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
 		38355ED52AD3D50F00392674 /* Componets */ = {
 			isa = PBXGroup;
 			children = (
@@ -543,6 +553,7 @@
 		38AE9C9A2AD0750F00B761E8 /* ScribbleLab */ = {
 			isa = PBXGroup;
 			children = (
+				381F1F112AD72DC2001B3B10 /* Editor */,
 				3858A76B2AD1497300FC6319 /* App */,
 				3858A76C2AD1497700FC6319 /* Core */,
 				3858A76E2AD14A9C00FC6319 /* Ressources */,
@@ -962,6 +973,7 @@
 				38EFBE232AD6E4EF00CF0ECD /* RestartAppView.swift in Sources */,
 				3886B2DE2AD19F34002EF30E /* SLSettingsView.swift in Sources */,
 				385F78BE2AD5ED720096E504 /* SLHelpView.swift in Sources */,
+				381F1F132AD72DD6001B3B10 /* TestView.swift in Sources */,
 				3868A3E02AD2E2F800D4CAEC /* SLLicenseView.swift in Sources */,
 				38D5C6972AD2CC6200D943A5 /* SLContributorView.swift in Sources */,
 				3868A3EA2AD3072B00D4CAEC /* SLCalenderView.swift in Sources */,

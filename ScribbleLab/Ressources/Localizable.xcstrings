@@ -47,7 +47,14 @@
 
     },
     "© 2023 - 2024 ScribbleLabApp. All rights reserved." : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2023 - 2024 ScribbleLabApp. All rights reserved."
+          }
+        }
+      }
     },
     "1. Definitions." : {
 
@@ -101,7 +108,14 @@
 
     },
     "Apple Pencil" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple Pencil"
+          }
+        }
+      }
     },
     "Ask a question" : {
 
@@ -113,7 +127,14 @@
 
     },
     "BIRTHDAY01" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BIRTHDAY01"
+          }
+        }
+      }
     },
     "Blue" : {
 
