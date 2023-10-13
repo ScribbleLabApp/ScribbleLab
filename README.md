@@ -466,7 +466,7 @@ By creating our own text editor, we were able to design it with our workflow in 
 We strive to remain true to Apple's human interface guidelines and development patterns, ensuring ScribbleLab looks and feels like an application developed by Apple themselves, which includes a meticulous attention to detail.
 
 ## Features
-To fulfill our mission, we must provide users with ...
+To fulfill our mission, we must provide our users with ...
 1. ... a visual appealing design.
 2. ... a great user experience.
 3. ... awsome features that simplify our user's lives.
