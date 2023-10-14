@@ -8,11 +8,6 @@
 import SwiftUI
 
 struct SLStudyTimerView: View {
-    @State private var start = false
-    @State private var to : CGFloat = 0
-    @State private var count = 0
-    @State private var time = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
-    
     var body: some View {
         NavigationStack {
             VStack {
@@ -55,9 +50,13 @@ struct TimerView: View {
                             .font(.system(size: 65))
                             .fontWeight(.semibold)
                         HStack {
-                            /// shows how much minutes the timer has
+                            /// shows the time when the timer ends
+                            ///
+                            /// User: 11 am  ·   4 min timer
+                            /// Text(endTime) // 11:04 am
+                            // TODO: Access the users time zone and calculate time
                             Image(systemName: "bell.fill")
-                            Text("00:30")
+                            Text("09:30 am")
                         }
                     }
                 }
