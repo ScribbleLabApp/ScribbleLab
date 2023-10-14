@@ -3,7 +3,9 @@
 //  ScribbleLab
 //
 //  Created by Nevio Hirani on 08.10.23.
+//  Copyright © 2023 ScribbleLabApp. All rights reserved.
 //
+
 
 import SwiftUI
 import UserNotifications
@@ -137,6 +139,20 @@ struct TimerView: View {
         }
     }
     
+    /// A function that returns an push notification
+    ///
+    /// To configure the push notification's payload, the `UNMutableNotificationContent()` function has to be called.
+    /// - `content.title`: The notification's title
+    /// - `content.body`: The notification's description Text
+    /// - `contnet.sound`: The notification's sound
+    ///
+    /// To make the text localozable a `NSString.localizedUserNotificationString(forKey: "key", arguments: nil)` has to be used
+    ///
+    /// Delivering a notification:
+    /// - `let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 1, repeats: false)`: Trigger's the notification to deliver within 1 second `timeInterval: 1`.
+    /// - `let request = UNNotificationRequest(identifier: "MSG", content: content, trigger: trigger)`: Schedule the notification with the notification's payload and it's trigger
+    /// - `let center = UNUserNotificationCenter.current()`
+    /// 
     func notifyWhenTimerEnds() {
         // Configure the notification's payload.
         let content = UNMutableNotificationContent()
@@ -153,7 +169,6 @@ struct TimerView: View {
                  // Handle any errors
              }
         }
-        
     }
 }
 
