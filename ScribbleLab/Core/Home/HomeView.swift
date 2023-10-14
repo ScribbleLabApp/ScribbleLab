@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UserNotifications
 
 struct HomeView: View {
     @State private var notificationSheetisPresented = false
@@ -93,6 +94,14 @@ struct HomeView: View {
                 .tint(.black)
             
         }
+        // FIXME: Fix notification alert
+        .onAppear {
+            UNUserNotificationCenter.current().requestAuthorization(options: [.badge, .sound, .alert, .criticalAlert]) { (_, _) in
+                
+            }
+        }
+        
+        
     }
 }
 
