@@ -263,9 +263,6 @@
     "Enable Darkmode" : {
 
     },
-    "Enable Security mode" : {
-
-    },
     "Enable Security mode (BETA)" : {
 
     },
@@ -617,6 +614,9 @@
     "Reset settings" : {
 
     },
+    "Restart Application" : {
+
+    },
     "Search" : {
       "localizations" : {
         "de" : {
@@ -782,7 +782,14 @@
 
     },
     "Version Number" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version Number"
+          }
+        }
+      }
     },
     "Warning" : {
 
