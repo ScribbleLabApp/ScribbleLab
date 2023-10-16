@@ -110,7 +110,7 @@ class PomodoroModel: NSObject, ObservableObject, UNUserNotificationCenterDelegat
         // Configure the notification's payload.
         let content = UNMutableNotificationContent()
         content.title = NSString.localizedUserNotificationString(forKey: "ScribbleLab", arguments: nil)
-        content.body = NSString.localizedUserNotificationString(forKey: "Your study timer has expired 🎉.", arguments: nil)
+        content.body = NSString.localizedUserNotificationString(forKey: "Your study timer has expired 🎉", arguments: nil)
         content.sound = UNNotificationSound.default
         
         // Deliver the notification in five seconds.
