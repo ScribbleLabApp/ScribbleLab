@@ -13,7 +13,7 @@ struct SLSideBarView: View {
     // FIXME: Delete this state var when finishing the alpha version
     @State private var newNotification = false
     
-//    @EnvironmentObject var pomodoroModel: PomodoroModel
+    @AppStorage("isDarkMode") private var isDarkMode = false
     
     var body: some View {
         NavigationView {
@@ -101,7 +101,7 @@ struct SLSideBarView: View {
 //                    })
 //                }
 //            }
-            .tint(.black)
+            .tint(isDarkMode ? .white : .black)
             
             HomeView()
         }

@@ -13,6 +13,7 @@ struct HomeView: View {
     @State private var settingsViewSheetisPresented = false
     
     @State private var allowNotificationsIsGarnted = false
+    @AppStorage("isDarkMode") private var isDarkMode = false
     
     
     var body: some View {
@@ -92,7 +93,7 @@ struct HomeView: View {
                         })
                     }
                 }
-                .tint(.black)
+                .tint(isDarkMode ? .white : .black)
             
         }
         // FIXME: Fix notification alert

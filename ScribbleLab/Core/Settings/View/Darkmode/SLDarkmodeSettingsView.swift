@@ -9,7 +9,9 @@ import SwiftUI
 
 struct SLDarkmodeSettingsView: View {
     @Environment(\.colorScheme) var colorScheme
-    @State private var darkmodeIsEnabeled = false
+    
+    // Concept from https://medium.com/@amitsrivastava115/toggle-between-dark-and-light-mode-in-swiftui-across-whole-app-5ccfc06a8eca
+    @AppStorage("isDarkMode") private var isDarkMode = false
     @State private var darkmodePicker = 0
     
     var body: some View {
@@ -17,21 +19,22 @@ struct SLDarkmodeSettingsView: View {
             List  {
                 Section() {
                     HStack {
-                        Toggle(isOn: $darkmodeIsEnabeled) {
+                        Toggle(isOn: $isDarkMode) {
                             Text("Enable Darkmode")
                         }
-                        .alert(isPresented: $darkmodeIsEnabeled) {
+                        .alert(isPresented: $isDarkMode) {
                             Alert(title: Text("Warning"), message: Text("Do you really want to enable Darkmode (beta)? Some modules are not adapted to darkmode."), primaryButton: .default(Text("Cancel"), action: {
-                                    darkmodeIsEnabeled = false
+                                    isDarkMode = false
                             }), secondaryButton: .destructive(Text("Enable").fontWeight(.semibold), action: {
                                     // TODO: Call the darkmode func
-                                    darkmodeIsEnabeled = true
+                                    isDarkMode = true
                                 }))
                             }
-                        .onChange(of: darkmodeIsEnabeled, initial: true) {
-                            print("Enable darkmode")
-                            // TODO: Add darkmode func in version 1.2
-                        }
+//                        .onChange(of: dar, initial: true) {
+//                            print("Enable darkmode")
+//                            // TODO: Add darkmode func in version 1.2
+//                            
+//                        }
                     }
                     HStack {
                         // TODO: Link toggle and picker, add darkmode support in v.1.2

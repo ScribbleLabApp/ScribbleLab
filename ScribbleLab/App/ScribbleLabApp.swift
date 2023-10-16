@@ -9,12 +9,12 @@ import SwiftUI
 
 @main
 struct ScribbleLabApp: App {
-//     MARK: Background fetching for pomodoro timer
-//    @StateObject var pomodoroModel: PomodoroModel = .init()
+    @AppStorage("isDarkMode") private var isDarkMode = false
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
-//                .environmentObject(pomodoroModel)
+                .preferredColorScheme(isDarkMode ? .dark : .light)
         }
     }
 }
