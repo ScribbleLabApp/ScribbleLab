@@ -11,7 +11,8 @@ import UserNotifications
 struct HomeView: View {
     @State private var notificationSheetisPresented = false
     @State private var settingsViewSheetisPresented = false
-    // FIXME: Delete this state var when finishing the alpha version
+    
+    @State private var allowNotificationsIsGarnted = false
     
     
     var body: some View {
@@ -96,12 +97,20 @@ struct HomeView: View {
         }
         // FIXME: Fix notification alert
         .onAppear {
-            UNUserNotificationCenter.current().requestAuthorization(options: [.badge, .sound, .alert, .criticalAlert]) { (_, _) in
+            let center = UNUserNotificationCenter.current()
+            center.requestAuthorization(options: [.alert, .sound, .badge, .provisional, .criticalAlert]) { granted, error in
                 
+                if let error = error {
+                    // Handle the error here.
+                }
+                
+                // FIXME: Rework this
+//                if granted == granted {
+//                    self.allowNotificationsIsGarnted.toggle()
+//                }
+                // Provisional authorization granted.
             }
         }
-        
-        
     }
 }
 

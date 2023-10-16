@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct ScribbleLabApp: App {
+//     MARK: Background fetching for pomodoro timer
+//    @StateObject var pomodoroModel: PomodoroModel = .init()
     var body: some Scene {
         WindowGroup {
             ContentView()
+//                .environmentObject(pomodoroModel)
         }
     }
 }

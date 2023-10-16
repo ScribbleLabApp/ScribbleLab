@@ -152,7 +152,7 @@ struct TimerView: View {
     /// - `let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 1, repeats: false)`: Trigger's the notification to deliver within 1 second `timeInterval: 1`.
     /// - `let request = UNNotificationRequest(identifier: "MSG", content: content, trigger: trigger)`: Schedule the notification with the notification's payload and it's trigger
     /// - `let center = UNUserNotificationCenter.current()`
-    /// 
+    ///
     func notifyWhenTimerEnds() {
         // Configure the notification's payload.
         let content = UNMutableNotificationContent()
@@ -167,7 +167,7 @@ struct TimerView: View {
         center.add(request) { (error : Error?) in
             if error != nil {
                  // Handle any errors
-             }
+            }
         }
     }
 }

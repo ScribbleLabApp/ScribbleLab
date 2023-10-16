@@ -49,6 +49,25 @@
     "%lld" : {
 
     },
+    "%lld %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld %2$@"
+          }
+        }
+      }
+    },
+    "%lld hr" : {
+
+    },
+    "%lld min" : {
+
+    },
+    "%lld sec" : {
+
+    },
     "© 2023 - 2024 ScribbleLabApp. All rights reserved." : {
       "localizations" : {
         "de" : {
@@ -93,6 +112,9 @@
 
     },
     "Accessibility" : {
+
+    },
+    "Add New Timer" : {
 
     },
     "Already have an account?" : {
@@ -175,6 +197,9 @@
 
     },
     "Check for updates" : {
+
+    },
+    "Close" : {
 
     },
     "Cloud sync" : {
@@ -553,6 +578,9 @@
     "Pinned documents" : {
 
     },
+    "Pomodoro Timer" : {
+
+    },
     "Privacy" : {
 
     },
@@ -629,6 +657,9 @@
     "Restart Application" : {
 
     },
+    "Save" : {
+
+    },
     "Search" : {
       "localizations" : {
         "de" : {
@@ -662,6 +693,9 @@
 
     },
     "Start" : {
+
+    },
+    "Start new" : {
 
     },
     "Study Timer" : {
@@ -856,6 +890,9 @@
 
     },
     "You may obtain a copy of the License at" : {
+
+    },
+    "Your Study session is finished! 🎉" : {
 
     }
   },

@@ -13,6 +13,8 @@ struct SLSideBarView: View {
     // FIXME: Delete this state var when finishing the alpha version
     @State private var newNotification = false
     
+//    @EnvironmentObject var pomodoroModel: PomodoroModel
+    
     var body: some View {
         NavigationView {
             List {
@@ -38,7 +40,9 @@ struct SLSideBarView: View {
                         Label("Calender", systemImage: "calendar")
                     }
                     NavigationLink {
-                        SLStudyTimerView()
+//                        SLStudyTimerView()
+                        SLStudyPomodoroTimerView()
+                            .environmentObject(PomodoroModel())
                     } label: {
                         Label("Study Timer", systemImage: "timer")
                     }
