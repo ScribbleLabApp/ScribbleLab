@@ -5,6 +5,10 @@
 //  Created by Nevio Hirani on 15.10.23.
 //
 
+// TODO: Show the estimated finished time. e.g.
+// 30 min Timer · currently 3.30pm
+// so Time + timer value = 4pm
+
 import SwiftUI
 
 struct SLStudyPomodoroTimerView: View {
@@ -38,24 +42,7 @@ struct SLStudyPomodoroTimerView: View {
                                 .stroke( LinearGradient(colors: [.red, .orange, .yellow], startPoint: .top, endPoint: .bottom), style: StrokeStyle(lineWidth: 35, lineCap: .round))
                                 .blur(radius: 10)
                             
-                            // MARK: Knob
-                            // When view done comment out - NH
-//                            GeometryReader { proxy in
-//                                let size = proxy.size
-//                                
-//                                Circle()
-//                                    .fill(LinearGradient(colors: [.red, .pink, .purple], startPoint: .top, endPoint: .bottom))
-//                                    .frame(width: 40, height: 40)
-//                                    .overlay {
-//                                        Circle()
-//                                            .fill(.white)
-//                                            .padding(5)
-//                                    }
-//                                    .frame(width: size.width, height: size.height, alignment: .center)
-//                                    .offset(x: -size.height / 2)
-//                                    .rotationEffect(.init(degrees: pomodoroModel.progress * 360))
-//                            }
-                            
+                            // Timer string value
                             Text(pomodoroModel.timerStringValue)
                                 .font(.system(size: 50, weight: .light))
                                 .rotationEffect(.init(degrees: 90))
