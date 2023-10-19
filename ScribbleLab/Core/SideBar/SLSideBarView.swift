@@ -25,9 +25,9 @@ struct SLSideBarView: View {
                         Label("Documents", systemImage: "house")
                     }
                     NavigationLink {
-                        CreateNewView()
+                        ContentUnavailableView("We're sorry but we are not done with this feature", systemImage: "storefront", description: Text("We are currently working on it. Please check out this module later."))
                     } label: {
-                        Label("Create", systemImage: "folder.badge.plus")
+                        Label("Store", systemImage: "storefront")
                     }
                     NavigationLink {
                         TimetableView()
@@ -40,7 +40,6 @@ struct SLSideBarView: View {
                         Label("Calender", systemImage: "calendar")
                     }
                     NavigationLink {
-//                        SLStudyTimerView()
                         SLStudyPomodoroTimerView()
                             .environmentObject(PomodoroModel())
                     } label: {

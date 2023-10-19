@@ -69,6 +69,11 @@ struct SLSettingsView: View {
                     Label("Collaboration", systemImage: "person.2.badge.gearshape")
                     Label("Extensions", systemImage: "puzzlepiece.extension")
                     Label("Cloud sync", systemImage: "icloud")
+                    NavigationLink {
+                        SLOtherSettings()
+                    } label: {
+                        Label("Features", systemImage: "wand.and.stars.inverse")
+                    }
                 } header: {
                     Text("App settings")
                 } footer: {

@@ -46,6 +46,7 @@
 		3868A3E32AD2FE6600D4CAEC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3E22AD2FE6600D4CAEC /* ProfileView.swift */; };
 		3868A3E62AD305B800D4CAEC /* CreateNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3E52AD305B800D4CAEC /* CreateNewView.swift */; };
 		3868A3EA2AD3072B00D4CAEC /* SLCalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3E92AD3072B00D4CAEC /* SLCalenderView.swift */; };
+		387B79362ADEDD9B0067E08B /* SLOtherSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387B79352ADEDD9B0067E08B /* SLOtherSettings.swift */; };
 		3886B2DA2AD19CA5002EF30E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886B2D92AD19CA5002EF30E /* WelcomeView.swift */; };
 		3886B2DE2AD19F34002EF30E /* SLSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886B2DD2AD19F34002EF30E /* SLSettingsView.swift */; };
 		3886B2E12AD1ABC0002EF30E /* SLSideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886B2E02AD1ABC0002EF30E /* SLSideBarView.swift */; };
@@ -164,6 +165,7 @@
 		3868A3E22AD2FE6600D4CAEC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		3868A3E52AD305B800D4CAEC /* CreateNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewView.swift; sourceTree = "<group>"; };
 		3868A3E92AD3072B00D4CAEC /* SLCalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCalenderView.swift; sourceTree = "<group>"; };
+		387B79352ADEDD9B0067E08B /* SLOtherSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLOtherSettings.swift; sourceTree = "<group>"; };
 		3886B2D92AD19CA5002EF30E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		3886B2DD2AD19F34002EF30E /* SLSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLSettingsView.swift; sourceTree = "<group>"; };
 		3886B2E02AD1ABC0002EF30E /* SLSideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLSideBarView.swift; sourceTree = "<group>"; };
@@ -495,6 +497,22 @@
 			path = Auth;
 			sourceTree = "<group>";
 		};
+		387B79342ADEDD860067E08B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				387B793A2ADEE1BF0067E08B /* View */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		387B793A2ADEE1BF0067E08B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				387B79352ADEDD9B0067E08B /* SLOtherSettings.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		3886B2D82AD19C93002EF30E /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
@@ -506,6 +524,7 @@
 		3886B2DB2AD19F26002EF30E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				387B79342ADEDD860067E08B /* Other */,
 				3868A3E12AD2FCC300D4CAEC /* Profile */,
 				38D5C6912AD2CA5400D943A5 /* Contributors */,
 				38D5C6902AD2CA4E00D943A5 /* License */,
@@ -988,6 +1007,7 @@
 			files = (
 				3858A77B2AD14E9D00FC6319 /* TimetableView.swift in Sources */,
 				3858A77E2AD15E8900FC6319 /* NotificationSheetView.swift in Sources */,
+				387B79362ADEDD9B0067E08B /* SLOtherSettings.swift in Sources */,
 				385F78B32AD5E4FE0096E504 /* RegistrationView.swift in Sources */,
 				38EFBE232AD6E4EF00CF0ECD /* RestartAppView.swift in Sources */,
 				3886B2DE2AD19F34002EF30E /* SLSettingsView.swift in Sources */,

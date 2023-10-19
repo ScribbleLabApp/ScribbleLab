@@ -11,6 +11,7 @@ class PomodoroModel: NSObject, ObservableObject, UNUserNotificationCenterDelegat
     // MARK: - Timer properties
     @Published var progress: CGFloat = 1
     @Published var timerStringValue: String = "00:00"
+    @Published var estimatedFinishedTime: String = ""
     @Published var isStarted: Bool = false
     @Published var addNewTimer: Bool = false
     
@@ -122,5 +123,12 @@ class PomodoroModel: NSObject, ObservableObject, UNUserNotificationCenterDelegat
                  // Handle any errors
             }
         }
+    }
+    
+    // MARK: Calculate estimated finish time
+    /// A function that calculates the estimated finish time
+    ///
+    func finishTime() {
+        
     }
 }

@@ -13,6 +13,7 @@ import SwiftUI
 
 struct SLStudyPomodoroTimerView: View {
     @EnvironmentObject var pomodoroModel: PomodoroModel
+    
     var body: some View {
         NavigationStack {
             VStack {
@@ -47,6 +48,9 @@ struct SLStudyPomodoroTimerView: View {
                                 .font(.system(size: 50, weight: .light))
                                 .rotationEffect(.init(degrees: 90))
                                 .animation(.none, value: pomodoroModel.progress)
+                            
+                            // Estimated end time
+                            
                         }
                         .padding(60)
                         .frame(height: proxy.size.width)
