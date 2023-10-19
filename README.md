@@ -498,3 +498,4 @@ You might wonder, "How can an app be good if it has so many features? Is there a
 But you might wonder "How are they capable of adapting the features to their customers?" - Well the answer is this, we use the feedback from our community and testers.
 
 ## Community
+ 
