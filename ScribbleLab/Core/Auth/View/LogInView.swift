@@ -12,14 +12,12 @@ import FirebaseAuth
 import FirebaseCore
 
 struct LogInView: View {
-    @State private var email = ""
-    @State private var password = ""
+//    @State private var email = ""
+//    @State private var password = ""
     @State private var presentNoAccountAlert = false
     @State private var tourSheetIsPresented = false
     @StateObject private var vm = SignInWithGoogleModel()
-    
-    // DEV:
-    @State private var callHomeView = false; #warning("Only for development purposes")
+    @StateObject var viewModel = LoginViewModel()
     
     var body: some View {
         ZStack {
@@ -41,11 +39,10 @@ struct LogInView: View {
                         .resizable()
                         .frame(width: 150, height: 150)
                     VStack {
-                        #warning("Image moves away when clicking on a TextField")
-                        TextField("Enter your email", text: $email)
+                        TextField("Enter your email", text: $viewModel.email)
                             .modifier(IGTextFieldModifier())
                             
-                        SecureField("Enter your password", text: $password)
+                        SecureField("Enter your password", text: $viewModel.password)
                             .modifier(IGTextFieldModifier())
                     }
                     .frame(width: 500, height: 200)
@@ -65,17 +62,13 @@ struct LogInView: View {
 //                    .frame(maxWidth: .infinity, alignment: .trailing)
                     .frame(width: 100, height: 100 ,alignment: .trailing)
                                     
-                    // log-in
-                    #warning("Naviagtion destination: Only for development purposes")
+                    // MARK: log-in
                     Button {
-                        callHomeView.toggle()
+                        Task { try await viewModel.signIn() }
                     } label: {
                         Text("Login")
                             .modifier(IGButtonModifier())
                     }
-                    .navigationDestination(isPresented: $callHomeView, destination: {
-                        SLSideBarView()
-                    })
                     .padding(.vertical)
                     
                     // Custome Divider
@@ -97,19 +90,19 @@ struct LogInView: View {
                     /// The user can decide between our Sign In func, Sign in with google and sign in with apple
                     ///
                     //  MARK: - Sign-In with Google
-//                    GoogleSignInButton {
-//                        vm.signInWithGoogle()
-//                    }
-                    Button {
+                    GoogleSignInButton {
                         vm.signInWithGoogle()
-                    } label: {
-                        Text("Continue with Google")
-                            .modifier(IGButtonModifier())
                     }
-                    .font(.subheadline)
-                    .fontWeight(.semibold)
-                    .frame(width: 360, height: 44)
-                    .clipShape(RoundedRectangle(cornerRadius: 10))
+//                    Button {
+//                        vm.signInWithGoogle()
+//                    } label: {
+//                        Text("Continue with Google")
+//                            .modifier(IGButtonModifier())
+//                    }
+//                    .font(.subheadline)
+//                    .fontWeight(.semibold)
+//                    .frame(width: 360, height: 44)
+//                    .clipShape(RoundedRectangle(cornerRadius: 10))
                     //  MARK: - Sign-In with Apple
 //                    SignInWithAppleButton(
 //                        onRequest: { request in

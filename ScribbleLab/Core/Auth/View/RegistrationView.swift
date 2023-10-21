@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct RegistrationView: View {
-    @State private var email = ""
-    @State private var password = ""
-    @State private var fullname = ""
-    @State private var username = ""
+//    @State private var email = ""
+//    @State private var password = ""
+//    @State private var fullname = ""
     @Environment(\.dismiss) var dismiss
+    @EnvironmentObject var viewModel: RegistrationViewModel
+
     
     var body: some View {
         ZStack {
@@ -36,18 +37,15 @@ struct RegistrationView: View {
                 
                 VStack {
                     // FIXME: Image "moves" away when clicking on a TextField
-                    TextField("Enter your email", text: $email)
+                    TextField("Enter your email", text: $viewModel.email)
                         .modifier(IGTextFieldModifier())
                         
                     // FIXME: Add strength meter and password requirements
                     #warning("Create new View for password")
-                    SecureField("Enter your password", text: $password)
+                    SecureField("Enter your password", text: $viewModel.password)
                         .modifier(IGTextFieldModifier())
                     
-                    TextField("Enter your full name", text: $fullname)
-                        .modifier(IGTextFieldModifier())
-                    
-                    TextField("Create a preferred username", text: $username)
+                    TextField("Enter your username", text: $viewModel.username)
                         .modifier(IGTextFieldModifier())
                 }
                 .frame(width: 500, height: 200)

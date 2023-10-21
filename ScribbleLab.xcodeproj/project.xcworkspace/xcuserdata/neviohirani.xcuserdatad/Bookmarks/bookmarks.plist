@@ -10,15 +10,15 @@
 				<key>location-parameters</key>
 				<dict>
 					<key>EndingColumnNumber</key>
-					<string>56</string>
+					<string>0</string>
 					<key>EndingLineNumber</key>
 					<string>43</string>
 					<key>StartingColumnNumber</key>
-					<string>20</string>
+					<string>0</string>
 					<key>StartingLineNumber</key>
-					<string>41</string>
+					<string>42</string>
 					<key>Timestamp</key>
-					<string>718661392.284011</string>
+					<string>719583863.597236</string>
 				</dict>
 				<key>rebasable-url</key>
 				<dict>
@@ -34,18 +34,16 @@
 			<key>text-context</key>
 			<dict>
 				<key>focused</key>
-				<string>// FIXME: Add strength meter and password requirements
-                    #warning("Create new View for password")
-                    SecureField("Enter your password", text: $password)
-                        .modifier(IGTextFieldModifier())</string>
+				<string>                    // FIXME: Add strength meter and password requirements
+</string>
 				<key>leading</key>
 				<string>                        .modifier(IGTextFieldModifier())
                         
-                    </string>
+</string>
 				<key>trailing</key>
-				<string>
-                    
-                    TextField("Enter your full name", text: $fullname)
+				<string>                    #warning("Create new View for password")
+                    SecureField("Enter your password", text: $viewModel.password)
+                        .modifier(IGTextFieldModifier())
 </string>
 			</dict>
 			<key>title</key>
