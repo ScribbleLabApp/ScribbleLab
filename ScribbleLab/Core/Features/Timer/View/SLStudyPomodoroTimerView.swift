@@ -50,7 +50,7 @@ struct SLStudyPomodoroTimerView: View {
                                 .animation(.none, value: pomodoroModel.progress)
                             
                             // Estimated end time
-                            
+                            Text(pomodoroModel.getCurrentTime())
                         }
                         .padding(60)
                         .frame(height: proxy.size.width)

@@ -128,7 +128,13 @@ class PomodoroModel: NSObject, ObservableObject, UNUserNotificationCenterDelegat
     // MARK: Calculate estimated finish time
     /// A function that calculates the estimated finish time
     ///
-    func finishTime() {
+    func getCurrentTime() -> String {
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateFormat = "mm:ss"
+            return dateFormatter.string(from: Date())
+    }
+    
+    func calculateEstimatedTime() {
         
     }
 }

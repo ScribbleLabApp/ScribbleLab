@@ -575,9 +575,6 @@
     "Pinned documents" : {
 
     },
-    "Please check out this module later" : {
-
-    },
     "Pomodoro Timer" : {
 
     },
@@ -841,6 +838,9 @@
       }
     },
     "Warning" : {
+
+    },
+    "We are currently working on it. Please check out this module later." : {
 
     },
     "We are sorry but this feature isn't done yet" : {

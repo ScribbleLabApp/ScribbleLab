@@ -92,7 +92,17 @@ struct LogInView: View {
                     /// The user can decide between our Sign In func, Sign in with google and sign in with apple
                     ///
                     //  MARK: - Sign-In with Google
-                    
+//                    GoogleSignInButton(scheme: <#T##GoogleSignInButtonColorScheme#>, style: <#T##GoogleSignInButtonStyle#>, state: <#T##GoogleSignInButtonState#>, action: {
+//                        
+//                    })
+                    GoogleSignInButton(action: {
+                        print("Sign in with google")
+                    })
+                    .font(.subheadline)
+                    .fontWeight(.semibold)
+                    .foregroundColor(.white)
+                    .frame(width: 360, height: 44, alignment: .center)
+                    .cornerRadius(10)
                     //  MARK: - Sign-In with Apple
 //                    SignInWithAppleButton(
 //                        onRequest: { request in
