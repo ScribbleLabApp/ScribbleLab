@@ -8,12 +8,17 @@
 import SwiftUI
 import GoogleSignIn
 import GoogleSignInSwift
+import FirebaseAuth
+import FirebaseCore
 
 struct LogInView: View {
     @State private var email = ""
     @State private var password = ""
     @State private var presentNoAccountAlert = false
     @State private var tourSheetIsPresented = false
+    @StateObject private var vm = SignInWithGoogleModel()
+    
+    // DEV:
     @State private var callHomeView = false; #warning("Only for development purposes")
     
     var body: some View {
@@ -92,17 +97,19 @@ struct LogInView: View {
                     /// The user can decide between our Sign In func, Sign in with google and sign in with apple
                     ///
                     //  MARK: - Sign-In with Google
-//                    GoogleSignInButton(scheme: <#T##GoogleSignInButtonColorScheme#>, style: <#T##GoogleSignInButtonStyle#>, state: <#T##GoogleSignInButtonState#>, action: {
-//                        
-//                    })
-                    GoogleSignInButton(action: {
-                        print("Sign in with google")
-                    })
+//                    GoogleSignInButton {
+//                        vm.signInWithGoogle()
+//                    }
+                    Button {
+                        vm.signInWithGoogle()
+                    } label: {
+                        Text("Continue with Google")
+                            .modifier(IGButtonModifier())
+                    }
                     .font(.subheadline)
                     .fontWeight(.semibold)
-                    .foregroundColor(.white)
-                    .frame(width: 360, height: 44, alignment: .center)
-                    .cornerRadius(10)
+                    .frame(width: 360, height: 44)
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
                     //  MARK: - Sign-In with Apple
 //                    SignInWithAppleButton(
 //                        onRequest: { request in
