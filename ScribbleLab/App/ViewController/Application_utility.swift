@@ -9,7 +9,7 @@ import SwiftUI
 import UIKit
 
 final class Application_utility: UIViewController {
-    static var UIViewController: UIViewController {
+    static var rootViewController: UIViewController {
         guard let screen = UIApplication.shared.connectedScenes.first as? UIWindowScene else {
             return .init()
         }
