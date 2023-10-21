@@ -134,6 +134,15 @@
         "revision" : "3c54ab05249f59f2c6641dd2920b8358ea9ed127",
         "version" : "1.24.0"
       }
+    },
+    {
+      "identity" : "updates",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rwbutler/Updates.git",
+      "state" : {
+        "revision" : "8890afb36ef25ea88166dd3b3dba34d5303e59e4",
+        "version" : "1.6.1"
+      }
     }
   ],
   "version" : 2

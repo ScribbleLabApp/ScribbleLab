@@ -66,6 +66,7 @@
 		38D5C68D2AD28D6F00D943A5 /* SLUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5C68C2AD28D6F00D943A5 /* SLUpdateView.swift */; };
 		38D5C6952AD2CAA100D943A5 /* SLContributorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5C6942AD2CAA100D943A5 /* SLContributorModel.swift */; };
 		38D5C6972AD2CC6200D943A5 /* SLContributorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5C6962AD2CC6200D943A5 /* SLContributorView.swift */; };
+		38E5BBB42AE41F2900FFFE7C /* Updates in Frameworks */ = {isa = PBXBuildFile; productRef = 38E5BBB32AE41F2900FFFE7C /* Updates */; };
 		38EFBE1D2AD6965C00CF0ECD /* PackageLicense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFBE1C2AD6965C00CF0ECD /* PackageLicense.swift */; };
 		38EFBE202AD6D1A400CF0ECD /* RedemtionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFBE1F2AD6D1A400CF0ECD /* RedemtionSheetView.swift */; };
 		38EFBE232AD6E4EF00CF0ECD /* RestartAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFBE222AD6E4EF00CF0ECD /* RestartAppView.swift */; };
@@ -230,6 +231,7 @@
 				38FFF9362AE3C18B006719E2 /* FirebaseDatabase in Frameworks */,
 				38FFF93A2AE3C18B006719E2 /* FirebaseInstallations in Frameworks */,
 				385F78AF2AD5E11C0096E504 /* GoogleSignIn in Frameworks */,
+				38E5BBB42AE41F2900FFFE7C /* Updates in Frameworks */,
 				38FFF9342AE3C18B006719E2 /* FirebaseCrashlytics in Frameworks */,
 				38FFF9322AE3C18B006719E2 /* FirebaseAuth in Frameworks */,
 				38FFF93C2AE3C18B006719E2 /* FirebaseStorage in Frameworks */,
@@ -277,6 +279,13 @@
 				38140A6B2AE3FB6F00753FB6 /* ContentViewModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		38140A6D2AE40C7900753FB6 /* SLAI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SLAI;
 			sourceTree = "<group>";
 		};
 		381E0B332ADC134C00A2A836 /* Model */ = {
@@ -409,6 +418,7 @@
 		3858A7722AD14AC800FC6319 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				38140A6D2AE40C7900753FB6 /* SLAI */,
 				38355EFB2AD3DC8D00392674 /* Tags */,
 				3868A3EC2AD3078B00D4CAEC /* Homework */,
 				3868A3EB2AD3078700D4CAEC /* Reminder */,
@@ -914,6 +924,7 @@
 				38FFF9372AE3C18B006719E2 /* FirebaseFirestore */,
 				38FFF9392AE3C18B006719E2 /* FirebaseInstallations */,
 				38FFF93B2AE3C18B006719E2 /* FirebaseStorage */,
+				38E5BBB32AE41F2900FFFE7C /* Updates */,
 			);
 			productName = ScribbleLab;
 			productReference = 38AE9C982AD0750F00B761E8 /* ScribbleLab.app */;
@@ -1002,6 +1013,7 @@
 			packageReferences = (
 				385F78AD2AD5E11C0096E504 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				38E5BBB22AE41F2900FFFE7C /* XCRemoteSwiftPackageReference "Updates" */,
 			);
 			productRefGroup = 38AE9C992AD0750F00B761E8 /* Products */;
 			projectDirPath = "";
@@ -2190,6 +2202,14 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		38E5BBB22AE41F2900FFFE7C /* XCRemoteSwiftPackageReference "Updates" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rwbutler/Updates.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.1;
+			};
+		};
 		38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -2210,6 +2230,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 385F78AD2AD5E11C0096E504 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
 			productName = GoogleSignInSwift;
+		};
+		38E5BBB32AE41F2900FFFE7C /* Updates */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38E5BBB22AE41F2900FFFE7C /* XCRemoteSwiftPackageReference "Updates" */;
+			productName = Updates;
 		};
 		38FFF9312AE3C18B006719E2 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;

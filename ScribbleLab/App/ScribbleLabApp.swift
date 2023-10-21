@@ -29,7 +29,7 @@ struct ScribbleLabApp: App {
     // register app delegate for Firebase setup
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
 
-    // Checks if darkmode is enabled
+    // Check if darkmode is enabled
     @AppStorage("isDarkMode") private var isDarkMode = false
     
     var body: some Scene {

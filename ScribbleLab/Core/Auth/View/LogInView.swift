@@ -89,7 +89,7 @@ struct LogInView: View {
                     /// The user can decide between our Sign In func, Sign in with google and sign in with apple
                     ///
                     //  MARK: - Sign-In with Google
-                    GoogleSignInButton {
+                    GoogleSignInButton(scheme: .dark, style: .standard, state: .normal) {
                         vm.signInWithGoogle()
                     }
 //                    Button {
