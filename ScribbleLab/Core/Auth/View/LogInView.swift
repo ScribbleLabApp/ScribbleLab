@@ -139,8 +139,8 @@ struct LogInView: View {
                                     
                     NavigationLink {
                         RegistrationView()
-                            .environmentObject(RegistrationViewModel())
-                            .navigationBarBackButtonHidden()
+                            //.environmentObject(RegistrationViewModel())
+                            .navigationBarBackButtonHidden(true)
                     } label: {
                         HStack(spacing: 3) {
                             Text("Don't have an account?")

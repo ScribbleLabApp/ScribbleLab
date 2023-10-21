@@ -498,4 +498,33 @@ You might wonder, "How can an app be good if it has so many features? Is there a
 But you might wonder "How are they capable of adapting the features to their customers?" - Well the answer is this, we use the feedback from our community and testers.
 
 ## Community
- 
+Our community comprises of contributors from GitHub, testers, developers, and users. Join our [**Discord server `(coming soon)`**]() for improved communication within and among community members. 
+
+## Privacy
+We at ScribbleLab believe that privacy is a fundamental right and should be treated with utmost importance. When it comes to personal data, it is important that it is stored securely and responsibly. 
+Therefore we're storing your data on your device or on your iCloud/GoogleDrive/Dropbox account, ensuring that the data is not accessible to unauthorized individuals or entities.
+
+At the same time, it is crucial that individuals have control over their data. They should be able to access and manage their data easily, 
+as well as have the option to delete it if they so choose. This is especially important in the context of data breaches, 
+where personal information can fall into the wrong hands. But with ScribbleLab it isn't possible accept someone hacks your device or cloud and steals your data.
+
+When you create a ScribbleLab account, you are agreeing to our [License Agreement](LICENSE_AGREEMENT.md) as well as the licenses of our third-party packages. You might be wondering if it's safe to create an account with ScribbleLab. The answer is yes! We use [Google Firebase](), which includes [FirebaseAuth](), [FirebaseStorage](), and [FirebaseFirestore](), to securely store your data. This means that no one can access your data, not even us. We cannot see any of your personal data, such as created documents or cloud services. The only thing we can see is how many people have a ScribbleLab account. Furthermore we use Additionally, we use [Google Analytics]() and [Google Crashlytics]() to track crashes and other unusual events or bugs.
+
+Ensuring the security of our software is a top priority for us, we regularly release software updates that include bug fixes and security 
+patches to keep your data and system secure. It is important to install these updates as soon as they become available to ensure that 
+you are protected from the latest threats.
+
+To make the process of updating your software easier, we have implemented an automatic update feature that will prompt you 
+to install new updates as soon as they become available. We highly recommend that you enable this feature so that you 
+always have the latest security updates installed.
+
+In addition to automatic updates, we also provide manual update instructions (macOS) on our website. Please make sure to follow these 
+instructions carefully to ensure a smooth update process.
+
+Remember, staying up to date with software updates is an essential part of maintaining the security and integrity of your system.
+
+> Note:
+> No warranty is provided for testing Alpha, Beta, nightly, or RC builds. Use at your own risk.
+
+## Pricing Model
+Well, our App follows the freemium scheme. That means we offer two versions: a free one (ScribbleLab Basic) and a paid one (ScribbleLab Pro). Additionally, we offer a ScribbleLab AI subscription for unlimited AI usage and grammar/writing correction.

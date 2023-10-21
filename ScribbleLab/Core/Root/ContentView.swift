@@ -14,7 +14,7 @@ struct ContentView: View {
 
     var body: some View {
         Group {
-            if viewModel.userSession == nil {
+            if $viewModel.userSession == nil { // FIXME: remove '$'
                 LogInView()
                     .environmentObject(registrationViewModel)
             } else if let currentUser = viewModel.currentUser {
