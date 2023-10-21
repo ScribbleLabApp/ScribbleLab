@@ -21,7 +21,7 @@ struct LogInView: View {
     
     var body: some View {
         ZStack {
-            Image(.backgroundElementDigital) // FIXME: Find another image
+            Image(.backgroundElementDigital)
                 .resizable()
                 .scaledToFill()
                 .ignoresSafeArea()
@@ -48,7 +48,6 @@ struct LogInView: View {
                     .frame(width: 500, height: 200)
                     
                     // forgot password
-                    #warning("Fix alignment")
                     Button {
                         print("Forgot Password")
                     } label: {
@@ -71,7 +70,7 @@ struct LogInView: View {
                     }
                     .padding(.vertical)
                     
-                    // Custome Divider
+                    // Custom Divider
                     HStack {
                         Rectangle()
                             .frame(width: (UIScreen.main.bounds.width / 2) - 40, height: 0.5)

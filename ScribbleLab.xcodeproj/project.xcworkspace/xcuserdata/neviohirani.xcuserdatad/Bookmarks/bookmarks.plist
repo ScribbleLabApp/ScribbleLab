@@ -51,6 +51,100 @@
 			<key>type</key>
 			<string>bookmark</string>
 		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>50</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>49</string>
+					<key>Timestamp</key>
+					<string>719586398.9121751</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>ScribbleLab/Core/Auth/View/LogInView.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>                    // forgot password
+</string>
+				<key>leading</key>
+				<string>                    .frame(width: 500, height: 200)
+                    
+</string>
+				<key>trailing</key>
+				<string>                    Button {
+                        print("Forgot Password")
+                    } label: {
+</string>
+			</dict>
+			<key>title</key>
+			<string>Fix Alignment</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>52</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>51</string>
+					<key>Timestamp</key>
+					<string>719586452.74431</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>ScribbleLab/Core/Auth/View/LogInView.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>                        print("Forgot Password")
+</string>
+				<key>leading</key>
+				<string>                    // forgot password
+                    Button {
+</string>
+				<key>trailing</key>
+				<string>                    } label: {
+                        Text("Forgot Password?")
+                            .font(.footnote)
+</string>
+			</dict>
+			<key>title</key>
+			<string>Implement Forgot password</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
 	</array>
 </dict>
 </plist>
