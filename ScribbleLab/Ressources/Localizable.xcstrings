@@ -193,6 +193,9 @@
     "Check for updates" : {
 
     },
+    "Click below to complete registration and start using ScribbleLab" : {
+
+    },
     "Close" : {
 
     },
@@ -222,9 +225,6 @@
     },
     "Create" : {
       "extractionState" : "manual"
-    },
-    "Create a preferred username" : {
-
     },
     "Create new" : {
 
@@ -320,6 +320,7 @@
       }
     },
     "Enter your full name" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -338,6 +339,9 @@
           }
         }
       }
+    },
+    "Enter your username" : {
+
     },
     "Extensions" : {
 
@@ -523,6 +527,9 @@
     "n/a" : {
 
     },
+    "Next" : {
+
+    },
     "No" : {
 
     },
@@ -629,6 +636,9 @@
     "Redeemtion (BETA)" : {
 
     },
+    "Register" : {
+
+    },
     "Reminder" : {
       "localizations" : {
         "de" : {
@@ -678,9 +688,6 @@
       }
     },
     "Sign Up" : {
-
-    },
-    "Sign-up" : {
 
     },
     "Some simple settings to make the app even better" : {
@@ -861,6 +868,9 @@
           }
         }
       }
+    },
+    "Welcome to ScribbleLab, %@" : {
+
     },
     "When Safe Mode is enabled, ScribbleLab starts with several features disabled to ensure maximum stability or detect errors. This process requires a restart." : {
 

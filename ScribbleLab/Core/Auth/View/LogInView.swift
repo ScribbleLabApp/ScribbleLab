@@ -12,8 +12,6 @@ import FirebaseAuth
 import FirebaseCore
 
 struct LogInView: View {
-//    @State private var email = ""
-//    @State private var password = ""
     @State private var presentNoAccountAlert = false
     @State private var tourSheetIsPresented = false
     @StateObject private var vm = SignInWithGoogleModel()
@@ -89,9 +87,11 @@ struct LogInView: View {
                     /// The user can decide between our Sign In func, Sign in with google and sign in with apple
                     ///
                     //  MARK: - Sign-In with Google
-                    GoogleSignInButton(scheme: .dark, style: .standard, state: .normal) {
+                    GoogleSignInButton(scheme: .light, style: .standard, state: .normal) {
                         vm.signInWithGoogle()
                     }
+                    .frame(width: 360, height: 44)
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
 //                    Button {
 //                        vm.signInWithGoogle()
 //                    } label: {
@@ -139,6 +139,7 @@ struct LogInView: View {
                                     
                     NavigationLink {
                         RegistrationView()
+                            .environmentObject(RegistrationViewModel())
                             .navigationBarBackButtonHidden()
                     } label: {
                         HStack(spacing: 3) {

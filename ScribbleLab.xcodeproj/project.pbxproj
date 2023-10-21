@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		380D93932AE4280900277D2D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 380D93922AE4280900277D2D /* Kingfisher */; };
+		380D93952AE4289500277D2D /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 380D93942AE4289500277D2D /* FirebaseFirestoreSwift */; };
+		380D93972AE42C6600277D2D /* CompleteRegistartionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380D93962AE42C6600277D2D /* CompleteRegistartionView.swift */; };
 		38140A622AE3F61000753FB6 /* SLAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38140A612AE3F61000753FB6 /* SLAuthService.swift */; };
 		38140A642AE3F6D200753FB6 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38140A632AE3F6D200753FB6 /* LoginViewModel.swift */; };
 		38140A662AE3F79800753FB6 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38140A652AE3F79800753FB6 /* RegistrationViewModel.swift */; };
@@ -140,6 +143,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		380D93962AE42C6600277D2D /* CompleteRegistartionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteRegistartionView.swift; sourceTree = "<group>"; };
 		38140A612AE3F61000753FB6 /* SLAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLAuthService.swift; sourceTree = "<group>"; };
 		38140A632AE3F6D200753FB6 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		38140A652AE3F79800753FB6 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
@@ -234,6 +238,8 @@
 				38FFF93A2AE3C18B006719E2 /* FirebaseInstallations in Frameworks */,
 				385F78AF2AD5E11C0096E504 /* GoogleSignIn in Frameworks */,
 				38E5BBB42AE41F2900FFFE7C /* Updates in Frameworks */,
+				380D93932AE4280900277D2D /* Kingfisher in Frameworks */,
+				380D93952AE4289500277D2D /* FirebaseFirestoreSwift in Frameworks */,
 				38FFF9342AE3C18B006719E2 /* FirebaseCrashlytics in Frameworks */,
 				38FFF9322AE3C18B006719E2 /* FirebaseAuth in Frameworks */,
 				38FFF93C2AE3C18B006719E2 /* FirebaseStorage in Frameworks */,
@@ -474,6 +480,7 @@
 			children = (
 				385F468D2AD31CD100D85410 /* LogInView.swift */,
 				385F78B22AD5E4FE0096E504 /* RegistrationView.swift */,
+				380D93962AE42C6600277D2D /* CompleteRegistartionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -661,10 +668,10 @@
 		38AE9C9A2AD0750F00B761E8 /* ScribbleLab */ = {
 			isa = PBXGroup;
 			children = (
-				38E5BBB52AE4243D00FFFE7C /* Extension */,
-				381F1F112AD72DC2001B3B10 /* Editor */,
 				3858A76B2AD1497300FC6319 /* App */,
 				3858A76C2AD1497700FC6319 /* Core */,
+				381F1F112AD72DC2001B3B10 /* Editor */,
+				38E5BBB52AE4243D00FFFE7C /* Extension */,
 				3858A76E2AD14A9C00FC6319 /* Ressources */,
 				38AE9CA32AD0751100B761E8 /* Preview Content */,
 				38AE9CA62AD0751100B761E8 /* ScribbleLab.entitlements */,
@@ -936,6 +943,8 @@
 				38FFF9392AE3C18B006719E2 /* FirebaseInstallations */,
 				38FFF93B2AE3C18B006719E2 /* FirebaseStorage */,
 				38E5BBB32AE41F2900FFFE7C /* Updates */,
+				380D93922AE4280900277D2D /* Kingfisher */,
+				380D93942AE4289500277D2D /* FirebaseFirestoreSwift */,
 			);
 			productName = ScribbleLab;
 			productReference = 38AE9C982AD0750F00B761E8 /* ScribbleLab.app */;
@@ -1025,6 +1034,7 @@
 				385F78AD2AD5E11C0096E504 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				38E5BBB22AE41F2900FFFE7C /* XCRemoteSwiftPackageReference "Updates" */,
+				380D93912AE4280900277D2D /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 38AE9C992AD0750F00B761E8 /* Products */;
 			projectDirPath = "";
@@ -1140,6 +1150,7 @@
 				3886B2DA2AD19CA5002EF30E /* WelcomeView.swift in Sources */,
 				38140A692AE3F81900753FB6 /* UserService.swift in Sources */,
 				3868A3DE2AD2DBA300D4CAEC /* ImageView.swift in Sources */,
+				380D93972AE42C6600277D2D /* CompleteRegistartionView.swift in Sources */,
 				381E0B382ADC14E300A2A836 /* SLStudyPomodoroTimerView.swift in Sources */,
 				3868A3E62AD305B800D4CAEC /* CreateNewView.swift in Sources */,
 				3868A3DC2AD2DB0000D4CAEC /* ImageViewModel.swift in Sources */,
@@ -2206,6 +2217,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		380D93912AE4280900277D2D /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.9.1;
+			};
+		};
 		385F78AD2AD5E11C0096E504 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
@@ -2233,6 +2252,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		380D93922AE4280900277D2D /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 380D93912AE4280900277D2D /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		380D93942AE4289500277D2D /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
 		385F78AE2AD5E11C0096E504 /* GoogleSignIn */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 385F78AD2AD5E11C0096E504 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;

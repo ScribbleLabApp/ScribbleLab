@@ -8,9 +8,6 @@
 import SwiftUI
 
 struct RegistrationView: View {
-//    @State private var email = ""
-//    @State private var password = ""
-//    @State private var fullname = ""
     @Environment(\.dismiss) var dismiss
     @EnvironmentObject var viewModel: RegistrationViewModel
 
@@ -51,12 +48,15 @@ struct RegistrationView: View {
                 .frame(width: 500, height: 200)
                 
                 // log-in
-                Button {
-                    print("Create account and show the tour")
+                NavigationLink {
+                    CompleteRegistartionView()
+                        .environmentObject(RegistrationViewModel())
+//                        .navigationBarBackButtonHidden()
                 } label: {
-                    Text("Sign-up")
+                    Text("Next")
                         .modifier(IGButtonModifier())
                 }
+                .padding(.vertical)
                 .padding(.vertical)
                 
                 Spacer()
@@ -84,4 +84,5 @@ struct RegistrationView: View {
 
 #Preview {
     RegistrationView()
+        .environmentObject(RegistrationViewModel())
 }
