@@ -437,7 +437,7 @@ ScribbleLab is a powerful text editor built by students, for students, written e
 
 <img src="https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/f4419203-bc35-403d-81b1-403c7d80531f">
 
-| :warning: | ScribbleLab is currently in development and not yet ready for production use. You are welcome to test the latest [dev build](https://github.com/CodeEditApp/CodeEdit/releases/latest) at your own risk. Please leave any feedback [here](https://github.com/ScribbleLabApp/ScribbleLab/issues). |
+| :warning: | ScribbleLab is currently in development and not yet ready for production use. You are welcome to test the latest [dev build](https://github.com/ScribbleLabApp/ScribbleLab/releases/latest) at your own risk. Please leave any feedback [here](https://github.com/ScribbleLabApp/ScribbleLab/issues). |
 | - |:-|
 
 ## Table of Contents
