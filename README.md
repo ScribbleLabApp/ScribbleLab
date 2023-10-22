@@ -528,3 +528,27 @@ Remember, staying up to date with software updates is an essential part of maint
 
 ## Pricing Model
 Well, our App follows the freemium scheme. That means we offer two versions: a free one (ScribbleLab Basic) and a paid one (ScribbleLab Pro). Additionally, we offer a ScribbleLab AI subscription for unlimited AI usage and grammar/writing correction.
+
+> Please note that the following versions of ScribbleLab are in development and won't be released until v.1.0 or later.
+
+You may be wondering about the benefits of subscribing to theScribbleLab Pro or AI. So, what exactly do you get with these subscriptions? Well, here's a comparison of the different subscriptions:
+<!--
+|                       | ScribbleLab Basic |  ScribbleLab Pro  |  ScribbleLab AI     |
+| :---------------:     | :---------------: | :---------------: | :---------------:   |
+|  **AI Support**       |		 yes*		|		yes*		|		yes			  |
+|  Ammount of requests  |		50			|		200			|	2k - unlimeted    |
+|  Learning Model       |        GPT3       |    GPT3.5 - Turbo |       GPT4          |
+|**Live Collaboration** |		 yes*	    |		yes			|       -             |
+|     **Timetable**     |        yes*       |       yes         |       -             |
+|      Price            |		 free		|		 			|	$14,99/month      |
+
+---
+**AI Support:**
+-  *ScribbleLab Basic offers only 50, Pro offers 200 and AI offers unlimited. The price for AI is calculated with 2k requests - after you reached 2k requests you have a 50 request limit per day. 
+- ScribbleLab uses ChatGPT and it's own AI service `(SOON AVAILABLE)` to provide AI support.
+
+**Live Collaboration:**
+- ScribbleLab Basic offers 
+
+-->
+
