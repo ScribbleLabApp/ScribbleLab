@@ -92,16 +92,6 @@ struct LogInView: View {
                     }
                     .frame(width: 360, height: 44)
                     .clipShape(RoundedRectangle(cornerRadius: 10))
-//                    Button {
-//                        vm.signInWithGoogle()
-//                    } label: {
-//                        Text("Continue with Google")
-//                            .modifier(IGButtonModifier())
-//                    }
-//                    .font(.subheadline)
-//                    .fontWeight(.semibold)
-//                    .frame(width: 360, height: 44)
-//                    .clipShape(RoundedRectangle(cornerRadius: 10))
                     //  MARK: - Sign-In with Apple
 //                    SignInWithAppleButton(
 //                        onRequest: { request in
