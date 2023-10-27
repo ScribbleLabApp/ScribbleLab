@@ -7,6 +7,7 @@
 
 import Foundation
 
+@MainActor
 class RegistrationViewModel: ObservableObject {
     @Published var username = ""
     @Published var email = ""

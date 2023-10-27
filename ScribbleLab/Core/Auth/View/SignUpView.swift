@@ -61,6 +61,7 @@ struct SignUpView: View {
                         } label: {
                             Text("Sign Up")
                                 .modifier(IGButtonModifier())
+                                .disabled(viewModel.password.count < 6)
                         }
                         .navigationDestination(isPresented: $completeRegistrationViewIsShown) {
                             CompleteRegistartionView()

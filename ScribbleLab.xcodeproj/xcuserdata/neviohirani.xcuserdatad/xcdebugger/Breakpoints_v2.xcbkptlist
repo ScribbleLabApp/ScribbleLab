@@ -3,4 +3,54 @@
    uuid = "58FA3735-F497-4A95-AC84-BC1CDB11B676"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C06048F7-D1CD-4F65-9054-69D4A7B22080"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScribbleLab/Core/Auth/Service/SLAuthService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "createUser(email:password:username:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C06048F7-D1CD-4F65-9054-69D4A7B22080 - 162b8c1aa3ccb3f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ScribbleLab.SLAuthService.createUser(email: Swift.String, password: Swift.String, username: Swift.String) async throws -&gt; ()"
+                  moduleName = "ScribbleLab"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neviohirani/Developer/Projects/ScribbleLab/ScribbleLab/Core/Auth/Service/SLAuthService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "C06048F7-D1CD-4F65-9054-69D4A7B22080 - bfb7e8f125311043"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ScribbleLab.SLAuthService.createUser(email: Swift.String, password: Swift.String, username: Swift.String) async throws -&gt; ()"
+                  moduleName = "ScribbleLab"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neviohirani/Developer/Projects/ScribbleLab/ScribbleLab/Core/Auth/Service/SLAuthService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
