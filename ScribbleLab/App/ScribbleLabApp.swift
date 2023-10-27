@@ -35,10 +35,12 @@ struct ScribbleLabApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(ContentViewModel())
+                .environmentObject(RegistrationViewModel())
 //            SignUpView()
 //                .environmentObject(SignInWithGoogleModel())
 //                .environmentObject(RegistrationViewModel())
-                .preferredColorScheme(isDarkMode ? .dark : .light)
+//                .preferredColorScheme(isDarkMode ? .dark : .light)
         }
     }
 }
