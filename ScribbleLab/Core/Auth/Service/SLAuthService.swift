@@ -57,6 +57,17 @@ class SLAuthService {
         self.currentUser = nil
     }
     
+    // Forgot password func
+    static func resetPassword(email: String, resetCompletion:@escaping (Result<Bool, Error>) -> Void) {
+        Auth.auth().sendPasswordReset(withEmail: email) { (error) in
+            if let error = error {
+                resetCompletion(.failure(error))
+            } else {
+                resetCompletion(.success(true))
+            }
+        }
+    }
+    
     private func uploadUserData(uid: String, username: String, email: String) async {
         let user = User(id: uid, username: username, email: email)
         self.currentUser = user
