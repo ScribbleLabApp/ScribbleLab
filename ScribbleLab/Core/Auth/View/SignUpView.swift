@@ -25,122 +25,127 @@ struct SignUpView: View {
     @StateObject var viewModel = RegistrationViewModel()
     
     var body: some View {
-        VStack {
-            Spacer()
-            
-            Image("logo-light-complex")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 420)
-            
+        NavigationStack {
             VStack {
-                Text("Kickstart your note-taking experience")
-                Text("by creating ScribbleLab account.")
-            }
-            .font(.title3)
-            .fontWeight(.medium)
-            
-            Spacer()
-            
-            VStack(spacing: 20) {
-                VStack {
-                    TextField("Enter your email", text: $viewModel.email)
-                        .modifier(IGTextFieldModifier())
-                        .autocorrectionDisabled()
-                        .autocapitalization(.none)
-                    
-                    SecureField("Enter your password", text: $viewModel.password)
-                        .modifier(IGTextFieldModifier())
-                    
-                    TextField("Enter your username",text: $viewModel.username)
-                        .modifier(IGTextFieldModifier())
-                                        
-                    Button {
-                        completeRegistrationViewIsShown.toggle()
-                    } label: {
-                        Text("Sign Up")
-                            .modifier(IGButtonModifier())
-                    }
-                    .navigationDestination(isPresented: $completeRegistrationViewIsShown) {
-                        CompleteRegistartionView()
-                            .environmentObject(RegistrationViewModel())
-                    }
-                }
+                Spacer()
                 
-                Divider()
-                    .frame(width: 359)
+                Image("logo-light-complex")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 420)
+                
                 VStack {
-                    Button {
-                        vm.signInWithGoogle()
-                    } label: {
-                        HStack {
-                            Image("google")
-                                .resizable()
-                                .frame(width: 35, height: 35)
-                            
-                            Text("Continue with Google")
-                                .padding(.horizontal, 60)
-                                .font(.headline)
-                                .fontWeight(.semibold)
-                                .foregroundStyle(.black)
-                        }
-                        .padding(.horizontal, 12)
-                        .padding(.vertical, 13)
-                        .background {
-                            RoundedRectangle(cornerRadius: 13)
-                                .fill(Color(red: 248/255, green: 248/255, blue: 248/255))
-                                .strokeBorder(Color(red: 194/255, green: 194/255, blue: 194/255), lineWidth: 0.5)
-                        }
-                    }
-                    
-                    Button {
+                    Text("Kickstart your note-taking experience")
+                    Text("by creating ScribbleLab account.")
+                }
+                .font(.title3)
+                .fontWeight(.medium)
+                
+                Spacer()
+                
+                VStack(spacing: 20) {
+                    VStack {
+                        TextField("Enter your email", text: $viewModel.email)
+                            .modifier(IGTextFieldModifier())
+                            .autocorrectionDisabled()
+                            .autocapitalization(.none)
                         
-                    } label: {
-                        HStack {
-                            Image("apple-logo-black")
-                                .resizable()
-                                .frame(width: 36, height: 35)
+                        SecureField("Enter your password", text: $viewModel.password)
+                            .modifier(IGTextFieldModifier())
+                        
+                        TextField("Enter your username",text: $viewModel.username)
+                            .modifier(IGTextFieldModifier())
+                                            
+                        Button {
+                            completeRegistrationViewIsShown.toggle()
+                        } label: {
+                            Text("Sign Up")
+                                .modifier(IGButtonModifier())
+                        }
+                        .navigationDestination(isPresented: $completeRegistrationViewIsShown) {
+                            CompleteRegistartionView()
+                                .navigationBarBackButtonHidden()
+                        }
+                    }
+                    
+                    Divider()
+                        .frame(width: 359)
+                    VStack {
+                        Button {
+                            vm.signInWithGoogle()
+                        } label: {
+                            HStack {
+                                Image("google")
+                                    .resizable()
+                                    .frame(width: 35, height: 35)
+                                
+                                Text("Continue with Google")
+                                    .padding(.horizontal, 60)
+                                    .font(.headline)
+                                    .fontWeight(.semibold)
+                                    .foregroundStyle(.black)
+                            }
+                            .padding(.horizontal, 12)
+                            .padding(.vertical, 13)
+                            .background {
+                                RoundedRectangle(cornerRadius: 13)
+                                    .fill(Color(red: 248/255, green: 248/255, blue: 248/255))
+                                    .strokeBorder(Color(red: 194/255, green: 194/255, blue: 194/255), lineWidth: 0.5)
+                            }
+                        }
+                        
+                        Button {
                             
-                            Text("Continue with Apple")
-                                .padding(.horizontal, 60)
-                                .font(.headline)
-                                .fontWeight(.semibold)
-                                .foregroundStyle(.black)
+                        } label: {
+                            HStack {
+                                Image("apple-logo-black")
+                                    .resizable()
+                                    .frame(width: 36, height: 35)
+                                
+                                Text("Continue with Apple")
+                                    .padding(.horizontal, 60)
+                                    .font(.headline)
+                                    .fontWeight(.semibold)
+                                    .foregroundStyle(.black)
+                            }
+                            .padding(.horizontal, 17)
+                            .padding(.vertical, 13)
+                            .background {
+                                RoundedRectangle(cornerRadius: 13)
+                                    .fill(Color(red: 248/255, green: 248/255, blue: 248/255))
+                                    .strokeBorder(Color(red: 194/255, green: 194/255, blue: 194/255), lineWidth: 0.5)
+                            }
                         }
-                        .padding(.horizontal, 17)
-                        .padding(.vertical, 13)
-                        .background {
-                            RoundedRectangle(cornerRadius: 13)
-                                .fill(Color(red: 248/255, green: 248/255, blue: 248/255))
-                                .strokeBorder(Color(red: 194/255, green: 194/255, blue: 194/255), lineWidth: 0.5)
+                    }
+                    
+                    NavigationLink {
+                        LogInView()
+                            .environmentObject(LoginViewModel())
+                            .environmentObject(SignInWithGoogleModel())
+                            .navigationBarBackButtonHidden()
+                    } label: {
+                        HStack(spacing: 4) {
+                            Text("Already have an account?")
+                            Text("Log In").bold()
+                                .foregroundStyle(.orange)
                         }
+                        .foregroundStyle(.black)
+                        
                     }
                 }
                 
-                NavigationLink {
-                    
-                } label: {
-                    HStack(spacing: 4) {
-                        Text("Already have an account?")
-                        Text("Log In").bold()
-                            .foregroundStyle(.orange)
-                    }
-                    .foregroundStyle(.black)
-                    
+                Spacer()
+                
+                VStack {
+                    Text("By continuing I agree with ScribbleLabApp's ") + Text("[Terms of Use](https://github.com/ScribbleLabApp/ScribbleLab/blob/main/LICENSE_AGREEMENT.md)").underline()
+                    Text("and ") + Text("[Privacy Policy](https://github.com/ScribbleLabApp/ScribbleLab/blob/main/PrivacyPolicy.md).").underline()
                 }
+                .tint(.black)
+                .font(.headline)
+                .fontWeight(.medium)
             }
-            
-            Spacer()
-            
-            VStack {
-                Text("By continuing I agree with ScribbleLabApp's ") + Text("[Terms of Use](https://github.com/ScribbleLabApp/ScribbleLab/blob/main/LICENSE_AGREEMENT.md)").underline()
-                Text("and ") + Text("[Privacy Policy](https://github.com/ScribbleLabApp/ScribbleLab/blob/main/PrivacyPolicy.md).").underline()
-            }
-            .tint(.black)
-            .font(.headline)
-            .fontWeight(.medium)
+            .padding()
         }
-        .padding()
     }
 }
 

@@ -44,7 +44,7 @@
 		385F78AC2AD5DDEE0096E504 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 385F78AB2AD5DDED0096E504 /* Settings.bundle */; };
 		385F78AF2AD5E11C0096E504 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 385F78AE2AD5E11C0096E504 /* GoogleSignIn */; };
 		385F78B12AD5E11C0096E504 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 385F78B02AD5E11C0096E504 /* GoogleSignInSwift */; };
-		385F78B32AD5E4FE0096E504 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F78B22AD5E4FE0096E504 /* RegistrationView.swift */; };
+		385F78B32AD5E4FE0096E504 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F78B22AD5E4FE0096E504 /* LogInView.swift */; };
 		385F78B62AD5E9130096E504 /* TourViewBeginning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F78B52AD5E9120096E504 /* TourViewBeginning.swift */; };
 		385F78BA2AD5ECC10096E504 /* SLInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F78B92AD5ECC10096E504 /* SLInfoView.swift */; };
 		385F78BE2AD5ED720096E504 /* SLHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F78BD2AD5ED720096E504 /* SLHelpView.swift */; };
@@ -74,6 +74,7 @@
 		38EFBE1D2AD6965C00CF0ECD /* PackageLicense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFBE1C2AD6965C00CF0ECD /* PackageLicense.swift */; };
 		38EFBE202AD6D1A400CF0ECD /* RedemtionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFBE1F2AD6D1A400CF0ECD /* RedemtionSheetView.swift */; };
 		38EFBE232AD6E4EF00CF0ECD /* RestartAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFBE222AD6E4EF00CF0ECD /* RestartAppView.swift */; };
+		38F59B8B2AEC4E0D00475B0B /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F59B8A2AEC4E0D00475B0B /* ResetPasswordView.swift */; };
 		38FFF9322AE3C18B006719E2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF9312AE3C18B006719E2 /* FirebaseAuth */; };
 		38FFF9342AE3C18B006719E2 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF9332AE3C18B006719E2 /* FirebaseCrashlytics */; };
 		38FFF9362AE3C18B006719E2 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF9352AE3C18B006719E2 /* FirebaseDatabase */; };
@@ -180,7 +181,7 @@
 		385F78A62AD5D0C50096E504 /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
 		385F78A72AD5D2170096E504 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		385F78AB2AD5DDED0096E504 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		385F78B22AD5E4FE0096E504 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		385F78B22AD5E4FE0096E504 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 		385F78B52AD5E9120096E504 /* TourViewBeginning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourViewBeginning.swift; sourceTree = "<group>"; };
 		385F78B92AD5ECC10096E504 /* SLInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLInfoView.swift; sourceTree = "<group>"; };
 		385F78BD2AD5ED720096E504 /* SLHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLHelpView.swift; sourceTree = "<group>"; };
@@ -214,6 +215,7 @@
 		38EFBE1C2AD6965C00CF0ECD /* PackageLicense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageLicense.swift; sourceTree = "<group>"; };
 		38EFBE1F2AD6D1A400CF0ECD /* RedemtionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedemtionSheetView.swift; sourceTree = "<group>"; };
 		38EFBE222AD6E4EF00CF0ECD /* RestartAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartAppView.swift; sourceTree = "<group>"; };
+		38F59B8A2AEC4E0D00475B0B /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
 		38FFF93F2AE3C55F006719E2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		38FFF9412AE3C7C9006719E2 /* SignInWithGoogleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithGoogleModel.swift; sourceTree = "<group>"; };
 		38FFF9442AE3CA6F006719E2 /* Application_utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application_utility.swift; sourceTree = "<group>"; };
@@ -479,8 +481,9 @@
 			isa = PBXGroup;
 			children = (
 				385F468D2AD31CD100D85410 /* SignUpView.swift */,
-				385F78B22AD5E4FE0096E504 /* RegistrationView.swift */,
+				385F78B22AD5E4FE0096E504 /* LogInView.swift */,
 				380D93962AE42C6600277D2D /* CompleteRegistartionView.swift */,
+				38F59B8A2AEC4E0D00475B0B /* ResetPasswordView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1117,7 +1120,8 @@
 				3858A77B2AD14E9D00FC6319 /* TimetableView.swift in Sources */,
 				3858A77E2AD15E8900FC6319 /* NotificationSheetView.swift in Sources */,
 				387B79362ADEDD9B0067E08B /* SLOtherSettings.swift in Sources */,
-				385F78B32AD5E4FE0096E504 /* RegistrationView.swift in Sources */,
+				38F59B8B2AEC4E0D00475B0B /* ResetPasswordView.swift in Sources */,
+				385F78B32AD5E4FE0096E504 /* LogInView.swift in Sources */,
 				38EFBE232AD6E4EF00CF0ECD /* RestartAppView.swift in Sources */,
 				3886B2DE2AD19F34002EF30E /* SLSettingsView.swift in Sources */,
 				381E0B362ADC136400A2A836 /* PomodoroModel.swift in Sources */,

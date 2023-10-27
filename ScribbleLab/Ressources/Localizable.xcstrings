@@ -254,6 +254,9 @@
     "Create new" : {
 
     },
+    "Create one." : {
+
+    },
     "Dangerzone" : {
 
     },
@@ -388,6 +391,9 @@
 
     },
     "Follow system scheme" : {
+
+    },
+    "Forgot password?" : {
 
     },
     "Forgot Password?" : {
@@ -554,7 +560,11 @@
     "Log In" : {
 
     },
+    "Log in with email" : {
+
+    },
     "Login" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -564,16 +574,19 @@
         }
       }
     },
+    "Login to access your ScribbleLabApp account." : {
+
+    },
     "Manage Features" : {
 
     },
     "n/a" : {
 
     },
-    "Next" : {
+    "No" : {
 
     },
-    "No" : {
+    "No account?" : {
 
     },
     "Notifications" : {

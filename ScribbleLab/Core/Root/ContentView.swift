@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    /// ViewModels that keep track
     @StateObject var viewModel = ContentViewModel()
     @StateObject var registrationViewModel = RegistrationViewModel()
 
@@ -16,7 +15,8 @@ struct ContentView: View {
         Group {
             if $viewModel.userSession == nil { // FIXME: remove '$'
                 SignUpView()
-                    .environmentObject(registrationViewModel)
+                    .environmentObject(SignInWithGoogleModel())
+                    .environmentObject(RegistrationViewModel())
             } else if let currentUser = viewModel.currentUser {
                SLSideBarView()
             }
