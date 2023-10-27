@@ -12,9 +12,9 @@ struct IGButtonModifier: ViewModifier {
         content
             .font(.subheadline)
             .fontWeight(.semibold)
-            .foregroundColor(.white)
+            .foregroundColor(.black)
             .frame(width: 360, height: 44)
-            .background(Color.black)
+            .background(Color.orange)
             .cornerRadius(10)
     }
 }

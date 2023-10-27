@@ -15,7 +15,7 @@ struct ContentView: View {
     var body: some View {
         Group {
             if $viewModel.userSession == nil { // FIXME: remove '$'
-                LogInView()
+                SignUpView()
                     .environmentObject(registrationViewModel)
             } else if let currentUser = viewModel.currentUser {
                SLSideBarView()

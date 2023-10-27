@@ -33,7 +33,7 @@
 		3858A7782AD14C9E00FC6319 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A7772AD14C9E00FC6319 /* HomeView.swift */; };
 		3858A77B2AD14E9D00FC6319 /* TimetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A77A2AD14E9D00FC6319 /* TimetableView.swift */; };
 		3858A77E2AD15E8900FC6319 /* NotificationSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A77D2AD15E8900FC6319 /* NotificationSheetView.swift */; };
-		385F468E2AD31CD100D85410 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F468D2AD31CD100D85410 /* LogInView.swift */; };
+		385F468E2AD31CD100D85410 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F468D2AD31CD100D85410 /* SignUpView.swift */; };
 		385F788E2AD5C56E0096E504 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 385F788D2AD5C56E0096E504 /* Localizable.xcstrings */; };
 		385F788F2AD5C5D60096E504 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 385F788D2AD5C56E0096E504 /* Localizable.xcstrings */; };
 		385F78992AD5C84C0096E504 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385F78982AD5C84C0096E504 /* Stickers.xcassets */; };
@@ -169,7 +169,7 @@
 		3858A7772AD14C9E00FC6319 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3858A77A2AD14E9D00FC6319 /* TimetableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableView.swift; sourceTree = "<group>"; };
 		3858A77D2AD15E8900FC6319 /* NotificationSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSheetView.swift; sourceTree = "<group>"; };
-		385F468D2AD31CD100D85410 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		385F468D2AD31CD100D85410 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		385F788A2AD5C4410096E504 /* Beta.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Beta.xcconfig; sourceTree = "<group>"; };
 		385F788B2AD5C4530096E504 /* RC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = RC.xcconfig; sourceTree = "<group>"; };
 		385F788C2AD5C4690096E504 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
@@ -478,7 +478,7 @@
 		385F468C2AD31CA000D85410 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				385F468D2AD31CD100D85410 /* LogInView.swift */,
+				385F468D2AD31CD100D85410 /* SignUpView.swift */,
 				385F78B22AD5E4FE0096E504 /* RegistrationView.swift */,
 				380D93962AE42C6600277D2D /* CompleteRegistartionView.swift */,
 			);
@@ -1135,7 +1135,7 @@
 				38D5C68B2AD28B9D00D943A5 /* SLDarkmodeSettingsView.swift in Sources */,
 				3868A3E32AD2FE6600D4CAEC /* ProfileView.swift in Sources */,
 				38355ED92AD3D71900392674 /* IGButtonModifier.swift in Sources */,
-				385F468E2AD31CD100D85410 /* LogInView.swift in Sources */,
+				385F468E2AD31CD100D85410 /* SignUpView.swift in Sources */,
 				38EFBE202AD6D1A400CF0ECD /* RedemtionSheetView.swift in Sources */,
 				385F78BA2AD5ECC10096E504 /* SLInfoView.swift in Sources */,
 				38EFBE1D2AD6965C00CF0ECD /* PackageLicense.swift in Sources */,
