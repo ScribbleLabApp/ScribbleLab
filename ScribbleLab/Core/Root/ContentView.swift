@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject var viewModel = ContentViewModel()
-//    @StateObject var registrationViewModel = RegistrationViewModel()
+    @StateObject var registrationViewModel = RegistrationViewModel()
 
     var body: some View {
         Group {
@@ -26,4 +26,6 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        .environmentObject(ContentViewModel())
+        .environmentObject(RegistrationViewModel())
 }

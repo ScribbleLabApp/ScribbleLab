@@ -103,6 +103,7 @@ struct HomeView: View {
                 
                 if let error = error {
                     // Handle the error here.
+                    print("DEBUG:\(error.localizedDescription).")
                 }
                 
                 // FIXME: Rework this
