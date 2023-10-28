@@ -2,7 +2,7 @@
 //  LogInView.swift
 //  ScribbleLab
 //
-//  Created by Nevio Hirani on 08.10.23.
+//  Created by Nevio Hirani on 10.10.23.
 //
 
 import SwiftUI
@@ -12,140 +12,124 @@ import FirebaseAuth
 import FirebaseCore
 
 struct LogInView: View {
-    @State private var presentNoAccountAlert = false
-    @State private var tourSheetIsPresented = false
-    @StateObject private var vm = SignInWithGoogleModel()
-    @StateObject var viewModel = LoginViewModel()
+    @Environment(\.dismiss) var dismiss
+    @StateObject private var viewModel = LoginViewModel()
+    @EnvironmentObject private var vm: SignInWithGoogleModel
+
     
     var body: some View {
-        ZStack {
-            Image(.backgroundElementDigital)
+        VStack {
+            Spacer()
+            
+            Image("logo-light-complex")
                 .resizable()
-                .scaledToFill()
-                .ignoresSafeArea()
-                .overlay {
-                    Rectangle()
-                        .foregroundColor(.black)
-                        .opacity(0.15) // 0.3
-                        .ignoresSafeArea()
-                }
-                .blur(radius: 3.0)
+                .scaledToFit()
+                .frame(width: 420)
+            
+            VStack {
+                Text("Login to access your ScribbleLabApp account.")
+            }
+            .font(.title3)
+            .fontWeight(.medium)
+            
+            Spacer()
+            
+            VStack(spacing: 20) {
                 VStack {
-                    Spacer()
-                    
-                    Image(.documentation)
-                        .resizable()
-                        .frame(width: 150, height: 150)
-                    VStack {
-                        TextField("Enter your email", text: $viewModel.email)
-                            .modifier(IGTextFieldModifier())
-                            
-                        SecureField("Enter your password", text: $viewModel.password)
-                            .modifier(IGTextFieldModifier())
-                    }
-                    .frame(width: 500, height: 200)
-                    
-                    // forgot password
                     Button {
-                        print("Forgot Password")
+                        vm.signInWithGoogle()
                     } label: {
-                        Text("Forgot Password?")
-                            .font(.footnote)
-                            .fontWeight(.semibold)
-                            .padding(.top)
-                            .padding(.trailing, 28)
-                            .foregroundStyle(Color.black)
+                        HStack {
+                            Image("google")
+                                .resizable()
+                                .frame(width: 35, height: 35)
+                            
+                            Text("Continue with Google")
+                                .padding(.horizontal, 60)
+                                .font(.headline)
+                                .fontWeight(.semibold)
+                                .foregroundStyle(.black)
+                        }
+                        .padding(.horizontal, 12)
+                        .padding(.vertical, 13)
+                        .background {
+                            RoundedRectangle(cornerRadius: 13)
+                                .fill(Color(red: 248/255, green: 248/255, blue: 248/255))
+                                .strokeBorder(Color(red: 194/255, green: 194/255, blue: 194/255), lineWidth: 0.5)
+                        }
                     }
-//                    .frame(maxWidth: .infinity, alignment: .trailing)
-                    .frame(width: 100, height: 100 ,alignment: .trailing)
-                                    
-                    // MARK: log-in
+                    
+                    Button {
+                        
+                    } label: {
+                        HStack {
+                            Image("apple-logo-black")
+                                .resizable()
+                                .frame(width: 36, height: 35)
+                            
+                            Text("Continue with Apple")
+                                .padding(.horizontal, 60)
+                                .font(.headline)
+                                .fontWeight(.semibold)
+                                .foregroundStyle(.black)
+                        }
+                        .padding(.horizontal, 17)
+                        .padding(.vertical, 13)
+                        .background {
+                            RoundedRectangle(cornerRadius: 13)
+                                .fill(Color(red: 248/255, green: 248/255, blue: 248/255))
+                                .strokeBorder(Color(red: 194/255, green: 194/255, blue: 194/255), lineWidth: 0.5)
+                        }
+                    }
+                }
+                
+                Divider()
+                    .frame(width: 359)
+                
+                VStack {
+                    TextField("Enter your email", text: $viewModel.email)
+                        .modifier(IGTextFieldModifier())
+                        .autocorrectionDisabled()
+                        .autocapitalization(.none)
+                    
+                    SecureField("Enter your password", text: $viewModel.password)
+                        .modifier(IGTextFieldModifier())
+                                        
                     Button {
                         Task { try await viewModel.signIn() }
                     } label: {
-                        Text("Login")
+                        Text("Log in with email")
                             .modifier(IGButtonModifier())
                     }
-                    .padding(.vertical)
-                    
-                    // Custom Divider
-                    HStack {
-                        Rectangle()
-                            .frame(width: (UIScreen.main.bounds.width / 2) - 40, height: 0.5)
-                        
-                        Text("OR")
-                            .font(.footnote)
-                            .fontWeight(.semibold)
-                        
-                        Rectangle()
-                            .frame(width: (UIScreen.main.bounds.width / 2) - 40, height: 0.5)
-                    }
-                    .foregroundColor(.gray)
-                    
-                    // MARK: - other methods
-                    /// Other sign-in methods
-                    /// The user can decide between our Sign In func, Sign in with google and sign in with apple
-                    ///
-                    //  MARK: - Sign-In with Google
-                    GoogleSignInButton(scheme: .light, style: .standard, state: .normal) {
-                        vm.signInWithGoogle()
-                    }
-                    .frame(width: 360, height: 44)
-                    .clipShape(RoundedRectangle(cornerRadius: 10))
-                    //  MARK: - Sign-In with Apple
-//                    SignInWithAppleButton(
-//                        onRequest: { request in
-//
-//                        },
-//                        onCompletion: { result in
-//
-//                        }
-//                    )
-                    
-                    // MARK: - no account
-                    Button {
-                        presentNoAccountAlert.toggle()
-                    } label: {
-                        Text("Continue without an account")
-                            .modifier(IGButtonModifier())
-                    }
-                    .alert(isPresented: $presentNoAccountAlert) {
-                        Alert(title: Text("Important message"), message: Text("You can continue without an account but some features will be unavailable for you. You can create one later in the Settings"), primaryButton: .default(Text("Cancel"), action: {
-                            print("Cancel") // nothing needs to do here
-                        }), secondaryButton: .destructive(Text("Confirm").fontWeight(.semibold), action: {
-                                // calls the tour guide sheet
-                                tourSheetIsPresented.toggle()
-                            }))
+                }
+                
+                VStack {
+                    HStack(spacing: 3) {
+                        Text("No account?")
+                            .foregroundStyle(.black)
+                        Button {
+                            dismiss()
+                        } label: {
+                            Text("Create one.").bold()
+                                .foregroundStyle(Color.orange)
                         }
-                    .sheet(isPresented: $tourSheetIsPresented, content: {
-                        TourViewBeginning()
-                    })
-                    .padding()
-                    
-                    Spacer()
-                                    
-                    // sign-up link
-                    Divider()
-                                    
+                    }
                     NavigationLink {
-                        RegistrationView()
-                            //.environmentObject(RegistrationViewModel())
-                            .navigationBarBackButtonHidden(true)
+                        
                     } label: {
-                        HStack(spacing: 3) {
-                            Text("Don't have an account?")
-                            Text("Sign Up")
-                                .fontWeight(.semibold)
-                        }
-                        .font(.footnote)
-                        .foregroundStyle(Color.black)
+                        Text("Forgot password?").bold().underline()
+                            .foregroundStyle(Color.orange)
                     }
-                    .padding(.vertical)
+                    .padding(.vertical, 12)
+                }
             }
+            Spacer()
         }
+        .padding()
     }
 }
 
 #Preview {
     LogInView()
+        .environmentObject(SignInWithGoogleModel())
 }

@@ -59,13 +59,13 @@
 					<key>EndingColumnNumber</key>
 					<string>0</string>
 					<key>EndingLineNumber</key>
-					<string>48</string>
+					<string>41</string>
 					<key>StartingColumnNumber</key>
 					<string>0</string>
 					<key>StartingLineNumber</key>
-					<string>47</string>
+					<string>39</string>
 					<key>Timestamp</key>
-					<string>719596506.9770679</string>
+					<string>720189416.592339</string>
 				</dict>
 				<key>rebasable-url</key>
 				<dict>
@@ -74,27 +74,26 @@
 					<key>payload</key>
 					<dict>
 						<key>relative-path</key>
-						<string>ScribbleLab/Core/Auth/View/LogInView.swift</string>
+						<string>ScribbleLab/App/ScribbleLabApp.swift</string>
 					</dict>
 				</dict>
 			</dict>
 			<key>text-context</key>
 			<dict>
 				<key>focused</key>
-				<string>                    // forgot password
+				<string>                .environmentObject(RegistrationViewModel())
+                .environmentObject(SignInWithGoogleModel())
 </string>
 				<key>leading</key>
-				<string>                    .frame(width: 500, height: 200)
-                    
+				<string>//                .environmentObject(ContentViewModel())
+            SignUpView()
 </string>
 				<key>trailing</key>
-				<string>                    Button {
-                        print("Forgot Password")
-                    } label: {
+				<string>                .preferredColorScheme(isDarkMode ? .dark : .light)
+        }
+    }
 </string>
 			</dict>
-			<key>title</key>
-			<string>Fix Alignment</string>
 			<key>type</key>
 			<string>bookmark</string>
 		</dict>
@@ -106,13 +105,13 @@
 					<key>EndingColumnNumber</key>
 					<string>0</string>
 					<key>EndingLineNumber</key>
-					<string>50</string>
+					<string>12</string>
 					<key>StartingColumnNumber</key>
 					<string>0</string>
 					<key>StartingLineNumber</key>
-					<string>49</string>
+					<string>11</string>
 					<key>Timestamp</key>
-					<string>719596506.977016</string>
+					<string>720181497.7333241</string>
 				</dict>
 				<key>rebasable-url</key>
 				<dict>
@@ -121,27 +120,113 @@
 					<key>payload</key>
 					<dict>
 						<key>relative-path</key>
-						<string>ScribbleLab/Core/Auth/View/LogInView.swift</string>
+						<string>ScribbleLab/Core/Root/ContentView.swift</string>
 					</dict>
 				</dict>
 			</dict>
 			<key>text-context</key>
 			<dict>
 				<key>focused</key>
-				<string>                        print("Forgot Password")
+				<string>    @StateObject var registrationViewModel = RegistrationViewModel()
 </string>
 				<key>leading</key>
-				<string>                    // forgot password
-                    Button {
-</string>
+				<string>struct ContentView: View {
+    @StateObject var viewModel = ContentViewModel()
+//</string>
 				<key>trailing</key>
-				<string>                    } label: {
-                        Text("Forgot Password?")
-                            .font(.footnote)
+				<string>
+    var body: some View {
+        Group {
 </string>
 			</dict>
-			<key>title</key>
-			<string>Implement Forgot password</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>29</string>
+					<key>StartingColumnNumber</key>
+					<string>46</string>
+					<key>StartingLineNumber</key>
+					<string>28</string>
+					<key>Timestamp</key>
+					<string>720190611.009439</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>ScribbleLab/Core/Root/ContentView.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>
+</string>
+				<key>leading</key>
+				<string>#Preview {
+    ContentView()
+//        .environmentObject(ContentViewModel())</string>
+				<key>trailing</key>
+				<string>}
+</string>
+			</dict>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>19</string>
+					<key>StartingColumnNumber</key>
+					<string>63</string>
+					<key>StartingLineNumber</key>
+					<string>18</string>
+					<key>Timestamp</key>
+					<string>720181711.7334991</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>ScribbleLab/Core/Root/ContentView.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>
+</string>
+				<key>leading</key>
+				<string>                SignUpView()
+//                    .environmentObject(SignInWithGoogleModel())
+//                    .environmentObject(RegistrationViewModel()) // RegistrationViewModel()</string>
+				<key>trailing</key>
+				<string>            } else if let currentUser = viewModel.currentUser {
+               SLSideBarView()
+            }
+</string>
+			</dict>
 			<key>type</key>
 			<string>bookmark</string>
 		</dict>
