@@ -13,8 +13,8 @@ import FirebaseCore
 
 struct LogInView: View {
     @Environment(\.dismiss) var dismiss
-    @EnvironmentObject var viewModel: LoginViewModel
-    @StateObject private var vm = SignInWithGoogleModel()
+    @StateObject private var viewModel = LoginViewModel()
+    @EnvironmentObject private var vm: SignInWithGoogleModel
 
     
     var body: some View {
@@ -131,6 +131,5 @@ struct LogInView: View {
 
 #Preview {
     LogInView()
-        .environmentObject(LoginViewModel())
         .environmentObject(SignInWithGoogleModel())
 }

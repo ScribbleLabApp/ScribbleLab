@@ -22,7 +22,7 @@ struct SignUpView: View {
 //    @State private var orientation: UIDeviceOrientation
     
     @StateObject private var vm = SignInWithGoogleModel()
-    @StateObject var viewModel = RegistrationViewModel()
+    @StateObject private var viewModel = RegistrationViewModel()
     
     var body: some View {
         NavigationStack {
@@ -65,7 +65,6 @@ struct SignUpView: View {
                         }
                         .navigationDestination(isPresented: $completeRegistrationViewIsShown) {
                             CompleteRegistartionView()
-                                .environmentObject(RegistrationViewModel())
                                 .navigationBarBackButtonHidden()
                         }
                     }
@@ -122,8 +121,8 @@ struct SignUpView: View {
                     
                     NavigationLink {
                         LogInView()
-                            .environmentObject(LoginViewModel())
-                            .environmentObject(SignInWithGoogleModel())
+//                            .environmentObject(LoginViewModel())
+                            .environmentObject(vm)
                             .navigationBarBackButtonHidden()
                     } label: {
                         HStack(spacing: 4) {

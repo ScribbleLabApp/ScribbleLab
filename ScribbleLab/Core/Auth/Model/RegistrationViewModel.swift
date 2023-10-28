@@ -13,6 +13,16 @@ class RegistrationViewModel: ObservableObject {
     @Published var email = ""
     @Published var password = ""
     
+    /*
+    @Published var isSignUpButtonIsEnabled: Bool {
+        if password.isEmpty && password.count < 6 && email.isEmpty && !email.contains("@") && username.isEmpty {
+            return false
+        } else {
+            return true
+        }
+    }
+     */
+    
     func createUser() async throws {
         try await SLAuthService.shared.createUser(email: email, password: password, username: username)
         
