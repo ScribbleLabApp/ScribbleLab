@@ -65,6 +65,7 @@ struct SignUpView: View {
                         }
                         .navigationDestination(isPresented: $completeRegistrationViewIsShown) {
                             CompleteRegistartionView()
+                                .environmentObject(RegistrationViewModel())
                                 .navigationBarBackButtonHidden()
                         }
                     }
