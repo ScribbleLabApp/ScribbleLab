@@ -13,9 +13,6 @@ struct SLSettingsView: View {
     @State private var deleteAccountIsPresented = false
     @State private var redemtionSheetIsPresented = false
     
-    // FIXME: only for evelopment purposes
-    @State private var newNotificationDeveloperTool = false
-
     var body: some View {
         NavigationStack {
             List {
@@ -63,7 +60,7 @@ struct SLSettingsView: View {
                     Label("Units", systemImage: "ruler")
                     Label("Apple Pencil", systemImage: "applepencil.and.scribble")
                     Label("Autocorrection", systemImage: "textformat.abc.dottedunderline")
-                    Label("Accessibility", systemImage: "person.fill")
+                    Label("Accessibility", systemImage: "accessibility")
                     Label("Notifications", systemImage: "bell.badge")
                     Label("Privacy", systemImage: "hand.raised.fill")
                     Label("Collaboration", systemImage: "person.2.badge.gearshape")
@@ -165,22 +162,6 @@ struct SLSettingsView: View {
                     Text("Other")
                 } footer: {
                     Text("")
-                }
-                
-                // MARK: - Developer settings
-                // FIXME: Delete this section when realesing the alpha v.0.0.1-alpha version
-                #warning("Developer setting")
-                Section() {
-                    Button {
-                        newNotificationDeveloperTool.toggle()
-                        print("DEBUG: new notification \(newNotificationDeveloperTool)")
-                    } label: {
-                        Label("Change state of newNotification", systemImage: "hammer")
-                    }
-                } header: {
-                    Text("Developer tools")
-                } footer: {
-                    Text("Developer settings. Only for testing purpsoses!")
                 }
             }
             .tint(.black)

@@ -30,6 +30,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>ScribbleLab AppClip.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>ScribbleLab-WidgetsExtension.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>

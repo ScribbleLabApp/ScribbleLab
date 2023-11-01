@@ -58,7 +58,8 @@ class SLAuthService {
     }
     
     // Forgot password func
-    static func resetPassword(email: String, resetCompletion:@escaping (Result<Bool, Error>) -> Void) {
+    @MainActor
+    func resetPassword(email: String, resetCompletion:@escaping (Result<Bool, Error>) -> Void) {
         Auth.auth().sendPasswordReset(withEmail: email) { (error) in
             if let error = error {
                 resetCompletion(.failure(error))

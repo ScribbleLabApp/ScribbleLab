@@ -9,15 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject var viewModel = ContentViewModel()
-//    @StateObject var registrationViewModel = RegistrationViewModel()
 
     var body: some View {
         Group {
-            if $viewModel.userSession == nil { // FIXME: remove '$'
+            if $viewModel.userSession == nil {
                 SignUpView()
-//                    .environmentObject(SignInWithGoogleModel())
-//                    .environmentObject(RegistrationViewModel()) // RegistrationViewModel()
-            } else if let currentUser = viewModel.currentUser {
+            } else if let currentUser = viewModel.currentUser { // viewModel.currentUser != nil
                SLSideBarView()
             }
         }
@@ -26,5 +23,4 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
-//        .environmentObject(ContentViewModel())
 }

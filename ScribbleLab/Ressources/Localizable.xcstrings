@@ -209,9 +209,6 @@
         }
       }
     },
-    "Change state of newNotification" : {
-
-    },
     "Check for updates" : {
 
     },
@@ -272,12 +269,6 @@
     "Delete account" : {
 
     },
-    "Developer settings. Only for testing purpsoses!" : {
-
-    },
-    "Developer tools" : {
-
-    },
     "Display mode" : {
 
     },
@@ -291,6 +282,9 @@
 
     },
     "Do you really want to reset your customized data. This operation cannot be undone" : {
+
+    },
+    "Do you really want to sign out? You'll be not able to use this app without signing in" : {
 
     },
     "Documentation" : {
@@ -406,6 +400,9 @@
           }
         }
       }
+    },
+    "Forgot your Password?" : {
+
     },
     "FREE10" : {
 
@@ -530,6 +527,9 @@
         }
       }
     },
+    "It could take some time.." : {
+
+    },
     "Kickstart your note-taking experience" : {
 
     },
@@ -583,6 +583,9 @@
     "n/a" : {
 
     },
+    "Next" : {
+
+    },
     "No" : {
 
     },
@@ -598,6 +601,9 @@
           }
         }
       }
+    },
+    "on how to reset it." : {
+
     },
     "On this iPad" : {
       "localizations" : {
@@ -741,6 +747,9 @@
     "Security mode" : {
 
     },
+    "Setting up your ScribbleLabApp account" : {
+
+    },
     "Settings" : {
       "localizations" : {
         "de" : {
@@ -750,6 +759,9 @@
           }
         }
       }
+    },
+    "Sign Out" : {
+
     },
     "Sign Up" : {
 
@@ -917,6 +929,9 @@
     "We are sorry but this feature isn't done yet" : {
 
     },
+    "We'll send you an email with instructions" : {
+
+    },
     "We're appriciate all of your contributions and bug fixes you've done in order to achive this powerful app" : {
 
     },
@@ -968,6 +983,9 @@
 
     },
     "You may obtain a copy of the License at" : {
+
+    },
+    "Your ScribbleLab Account information is used to enable services when you sign in, including other features like live collaboration, ... [See how your data is managed...](https://github.com/ScribbleLabApp/ScribbleLab)" : {
 
     },
     "Your Study session is finished! 🎉" : {
