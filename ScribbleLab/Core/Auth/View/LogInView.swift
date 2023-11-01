@@ -115,7 +115,8 @@ struct LogInView: View {
                         }
                     }
                     NavigationLink {
-                        
+                        ResetPasswordView()
+                            .navigationBarBackButtonHidden()
                     } label: {
                         Text("Forgot password?").bold().underline()
                             .foregroundStyle(Color.orange)

@@ -145,6 +145,15 @@
       }
     },
     {
+      "identity" : "swiftrui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Sweekwang/SwiftRUI.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "8c4ba5e73ac37ba2c8b007f2083084e7c2689037"
+      }
+    },
+    {
       "identity" : "updates",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/rwbutler/Updates.git",
