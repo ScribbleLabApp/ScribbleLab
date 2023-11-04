@@ -11,5 +11,5 @@ import Firebase
 
 @MainActor
 class EditProfileViewModel: ObservableObject {
-    
+
 }

@@ -34,12 +34,12 @@
 			<key>text-context</key>
 			<dict>
 				<key>focused</key>
-				<string>                .environmentObject(RegistrationViewModel())
+				<string>//                .environmentObject(RegistrationViewModel())
 </string>
 				<key>leading</key>
 				<string>                .environmentObject(ContentViewModel())
 //            SignUpView()
-//</string>
+</string>
 				<key>trailing</key>
 				<string>//                .environmentObject(SignInWithGoogleModel())
                 .preferredColorScheme(isDarkMode ? .dark : .light)

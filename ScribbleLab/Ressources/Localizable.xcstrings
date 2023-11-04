@@ -121,6 +121,9 @@
     "Accessibility" : {
 
     },
+    "Add Item" : {
+
+    },
     "Add New Timer" : {
 
     },
@@ -284,9 +287,6 @@
     "Do you really want to reset your customized data. This operation cannot be undone" : {
 
     },
-    "Do you really want to sign out? You'll be not able to use this app without signing in" : {
-
-    },
     "Documentation" : {
 
     },
@@ -300,6 +300,9 @@
           }
         }
       }
+    },
+    "Edit" : {
+
     },
     "Enable" : {
 
@@ -461,9 +464,6 @@
         }
       }
     },
-    "Hello TEST USER" : {
-
-    },
     "Hello, World!" : {
 
     },
@@ -528,6 +528,9 @@
       }
     },
     "It could take some time.." : {
+
+    },
+    "Item at %@" : {
 
     },
     "Kickstart your note-taking experience" : {
@@ -747,6 +750,9 @@
     "Security mode" : {
 
     },
+    "Select an item" : {
+
+    },
     "Setting up your ScribbleLabApp account" : {
 
     },
@@ -759,9 +765,6 @@
           }
         }
       }
-    },
-    "Sign Out" : {
-
     },
     "Sign Up" : {
 
@@ -802,6 +805,12 @@
       }
     },
     "TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION" : {
+
+    },
+    "Test User" : {
+
+    },
+    "test@gmail.com" : {
 
     },
     "These settings are responsible for the updates of this app. In order to enroll to the programmes you need to be registered to our ScribbleLab Developer Programm (free). Follow [this link](https://github.com/ScribbleLabApp/ScribbleLab) for a more detailed description." : {
