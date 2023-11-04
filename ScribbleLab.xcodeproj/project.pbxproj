@@ -76,6 +76,7 @@
 		38A24C752AED2A7700F81F07 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 38A24C742AED2A7700F81F07 /* FirebaseAnalyticsSwift */; };
 		38A24C772AED2A7700F81F07 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 38A24C762AED2A7700F81F07 /* FirebaseAppCheck */; };
 		38A24C792AED93B300F81F07 /* ResetPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A24C782AED93B300F81F07 /* ResetPasswordViewModel.swift */; };
+		38ADB4D92AF6952C0019375B /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 38ADB4D82AF6952C0019375B /* Documentation.docc */; };
 		38AE9C9C2AD0750F00B761E8 /* ScribbleLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9C9B2AD0750F00B761E8 /* ScribbleLabApp.swift */; };
 		38AE9C9E2AD0750F00B761E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9C9D2AD0750F00B761E8 /* ContentView.swift */; };
 		38AE9CA22AD0751100B761E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38AE9CA12AD0751100B761E8 /* Assets.xcassets */; };
@@ -248,6 +249,7 @@
 		3889688A2AF143C700F67F08 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		38A24C702AED15B600F81F07 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		38A24C782AED93B300F81F07 /* ResetPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewModel.swift; sourceTree = "<group>"; };
+		38ADB4D82AF6952C0019375B /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		38AE9C982AD0750F00B761E8 /* ScribbleLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScribbleLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38AE9C9B2AD0750F00B761E8 /* ScribbleLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLabApp.swift; sourceTree = "<group>"; };
 		38AE9C9D2AD0750F00B761E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -755,6 +757,7 @@
 		38AE9C8F2AD0750F00B761E8 = {
 			isa = PBXGroup;
 			children = (
+				38ADB4D82AF6952C0019375B /* Documentation.docc */,
 				385F78AB2AD5DDED0096E504 /* Settings.bundle */,
 				3858A76D2AD1498D00FC6319 /* Configs */,
 				38AE9C9A2AD0750F00B761E8 /* ScribbleLab */,
@@ -1302,6 +1305,7 @@
 				385F78BE2AD5ED720096E504 /* SLHelpView.swift in Sources */,
 				38140A642AE3F6D200753FB6 /* LoginViewModel.swift in Sources */,
 				381F1F132AD72DD6001B3B10 /* TestView.swift in Sources */,
+				38ADB4D92AF6952C0019375B /* Documentation.docc in Sources */,
 				38140A622AE3F61000753FB6 /* SLAuthService.swift in Sources */,
 				38E304702AF639F300103D71 /* Crop.swift in Sources */,
 				38A24C712AED15B600F81F07 /* ImageUploader.swift in Sources */,
