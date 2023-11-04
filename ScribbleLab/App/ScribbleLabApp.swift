@@ -9,6 +9,7 @@ import SwiftUI
 import FirebaseCore
 import GoogleSignIn
 
+/// An App Delegate that is responsible for the Firebase configuration and GIDSignIn
 class AppDelegate: NSObject, UIApplicationDelegate {
   func application(_ application: UIApplication,
                    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
@@ -29,7 +30,14 @@ struct ScribbleLabApp: App {
     // register app delegate for Firebase setup
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
 
-    // Check if darkmode is enabled
+    // Check if darkmode is enabled:
+    /// A property of type Boolean that stores a boolean value that indicates the current state of the applications color scheme
+    /// Possible values:
+    /// - false: Dark mode isn't enabled
+    /// - true: Dark mode is enabled
+    /// 
+    /// To call the darkmode state add the @AppStorage property at the top in your Struct
+    /// then call the declared isDarkMode argument.
     @AppStorage("isDarkMode") private var isDarkMode = false
     
     var body: some Scene {

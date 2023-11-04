@@ -10,9 +10,11 @@ import SwiftUI
 struct TourViewBeginning: View {
     var body: some View {
         NavigationStack {
-            Text("Welcome to Scribble Lab")
-                .navigationTitle("Get started with Scribble Lab")
-                .navigationBarTitleDisplayMode(.inline)
+            VStack {
+                Text("Welcome to Scribble Lab")
+            }
+            .navigationTitle("Get started with Scribble Lab")
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }
