@@ -64,7 +64,7 @@ where personal information can fall into the wrong hands. But with ScribbleLab i
 When you create a ScribbleLab account, you are agreeing to our [License Agreement](LICENSE_AGREEMENT.md) as well as the licenses of our third-party packages. You might be wondering if it's safe to create an account with ScribbleLab. The answer is yes! We use [Google Firebase](https://firebase.google.com/), which includes [FirebaseAuth](https://firebase.google.com/docs/auth?hl=en), [FirebaseStorage](https://firebase.google.com/docs/storage?hl=en), and [Cloud Firestore](https://firebase.google.com/docs/firestore?hl=en), to securely store your data. This means that no one can access your data, not even us. We cannot see any of your personal data, such as created documents or cloud services. The only thing we can see is how many people have a ScribbleLab account. Furthermore we use Additionally, we use [Google Analytics](https://developers.google.com/analytics?hl=en) and [Google Crashlytics](https://firebase.google.com/docs/crashlytics?hl=en) to track crashes and other unusual events or bugs.
 
 > Developer note:
-> 
+> It is not permissible for you to alter any authentication code unless you have been explicitly authorized to do so. If you do so we'll close your PR accordingly ⛔️.
 
 Ensuring the security of our software is a top priority for us, we regularly release software updates that include bug fixes and security 
 patches to keep your data and system secure. It is important to install these updates as soon as they become available to ensure that 
@@ -80,10 +80,23 @@ instructions carefully to ensure a smooth update process.
 Remember, staying up to date with software updates is an essential part of maintaining the security and integrity of your system.
 
 > Note: 
-> No warranty is provided for testing Alpha, Beta, nightly, or RC builds. Use at your own risk.
+> No warranty is provided for testing Alpha, Beta, nightly, or RC builds. Use at your own risk. You also need Xcode 15 installed and the iPadOS 17 Simualtor. 
+> ### Device Reccomendation
+> We reccomend testing our App on those devices:
+> | iPadOS      | iOS           | macOS| visionOS            |
+> | :----:      | :--:          | :--: |  :----:             |
+> | iPad Pro 11 | iPhone 15 Pro | n/a  |  Apple Vision Pro   |
 
 ## Topics
+- <doc:Auth>
+- <doc:AuthFlow>
 
-### <!--@START_MENU_TOKEN@-->Group<!--@END_MENU_TOKEN@-->
+### Application
+- ``ScribbleLabApp``
+- ``ContentView``
+- ``SLAuthService``
+- ``LogInView``
+- ``SignUpView``
+- ``SLSideBarView``
 
-- <!--@START_MENU_TOKEN@-->``Symbol``<!--@END_MENU_TOKEN@-->
+
