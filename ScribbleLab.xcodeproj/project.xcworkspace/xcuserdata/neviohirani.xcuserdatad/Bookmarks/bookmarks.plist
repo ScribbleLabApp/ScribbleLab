@@ -34,16 +34,16 @@
 			<key>text-context</key>
 			<dict>
 				<key>focused</key>
-				<string>//                .environmentObject(RegistrationViewModel())
+				<string>    /// then call the declared isDarkMode argument.
 </string>
 				<key>leading</key>
-				<string>                .environmentObject(ContentViewModel())
-//            SignUpView()
+				<string>    /// 
+    /// To call the darkmode state add the @AppStorage property at the top in your Struct
 </string>
 				<key>trailing</key>
-				<string>//                .environmentObject(SignInWithGoogleModel())
-                .preferredColorScheme(isDarkMode ? .dark : .light)
-        }
+				<string>    @AppStorage("isDarkMode") private var isDarkMode = false
+    
+    var body: some Scene {
 </string>
 			</dict>
 			<key>type</key>
@@ -98,16 +98,16 @@
 			<key>text-context</key>
 			<dict>
 				<key>focused</key>
-				<string>            ContentView()
+				<string>    /// - true: Dark mode is enabled
 </string>
 				<key>leading</key>
-				<string>    var body: some Scene {
-        WindowGroup {
+				<string>    /// Possible values:
+    /// - false: Dark mode isn't enabled
 </string>
 				<key>trailing</key>
-				<string>                .environmentObject(ContentViewModel())
-//            SignUpView()
-//                .environmentObject(RegistrationViewModel())
+				<string>    /// 
+    /// To call the darkmode state add the @AppStorage property at the top in your Struct
+    /// then call the declared isDarkMode argument.
 </string>
 			</dict>
 			<key>title</key>

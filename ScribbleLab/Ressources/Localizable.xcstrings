@@ -57,10 +57,23 @@
       }
     },
     "[Terms of Use](https://github.com/ScribbleLabApp/ScribbleLab/blob/main/LICENSE_AGREEMENT.md)" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[Terms of Use](https://github.com/ScribbleLabApp/ScribbleLab/blob/main/LICENSE_AGREEMENT.md)"
+          }
+        }
+      }
     },
     "%lld %@" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld%2$@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -70,13 +83,34 @@
       }
     },
     "%lld hr" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld hr"
+          }
+        }
+      }
     },
     "%lld min" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        }
+      }
     },
     "%lld sec" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld sec"
+          }
+        }
+      }
     },
     "© 2023 - 2024 ScribbleLabApp. All rights reserved." : {
       "localizations" : {
@@ -89,7 +123,14 @@
       }
     },
     "1. Definitions." : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1. Definition"
+          }
+        }
+      }
     },
     "2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form." : {
 
@@ -181,13 +222,27 @@
 
     },
     "Bottom %@" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : ""
+          }
+        }
+      }
     },
     "Build Number" : {
 
     },
     "Build sha" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Build sha"
+          }
+        }
+      }
     },
     "By continuing I agree with ScribbleLabApp's " : {
 
@@ -231,13 +286,27 @@
 
     },
     "Confirm" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bestätigen"
+          }
+        }
+      }
     },
     "Continue with Apple" : {
 
     },
     "Continue with Google" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit Google fortahren"
+          }
+        }
+      }
     },
     "Contributors" : {
 
@@ -258,16 +327,44 @@
 
     },
     "Dangerzone" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gefahrenzone"
+          }
+        }
+      }
     },
     "Darkmode" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dunkelmodus"
+          }
+        }
+      }
     },
     "Darkmode (BETA)" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dunkelmodus (BETA)"
+          }
+        }
+      }
     },
     "Darkmode settings" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dunkelmodus Einstellungen"
+          }
+        }
+      }
     },
     "Delete account" : {
 
@@ -531,22 +628,50 @@
 
     },
     "Item at %@" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Item ar %@"
+          }
+        }
+      }
     },
     "Kickstart your note-taking experience" : {
 
     },
     "L" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L"
+          }
+        }
+      }
     },
     "Language" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sprache"
+          }
+        }
+      }
     },
     "Leading" : {
 
     },
     "License" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lizenz"
+          }
+        }
+      }
     },
     "LICENSE AGREEMENT" : {
 
@@ -555,16 +680,37 @@
 
     },
     "Licenses" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lizenzen"
+          }
+        }
+      }
     },
     "Locations" : {
 
     },
     "Log In" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anmelden"
+          }
+        }
+      }
     },
     "Log in with email" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit Email anmelden"
+          }
+        }
+      }
     },
     "Login" : {
       "extractionState" : "stale",
@@ -584,10 +730,24 @@
 
     },
     "n/a" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "n/a"
+          }
+        }
+      }
     },
     "Next" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weiter"
+          }
+        }
+      }
     },
     "No" : {
 
@@ -640,7 +800,14 @@
       }
     },
     "Other" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Andere"
+          }
+        }
+      }
     },
     "Pinned" : {
 
@@ -682,7 +849,14 @@
       }
     },
     "Q&A" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Q&A"
+          }
+        }
+      }
     },
     "Recently opened" : {
 
@@ -776,7 +950,14 @@
 
     },
     "Store" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Store"
+          }
+        }
+      }
     },
     "Study Timer" : {
       "localizations" : {
@@ -789,7 +970,14 @@
       }
     },
     "T %@" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "T %@"
+          }
+        }
+      }
     },
     "Tab on a gift code to redeem it" : {
 
@@ -857,7 +1045,14 @@
 
     },
     "Trash" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papierkorb"
+          }
+        }
+      }
     },
     "Units" : {
       "localizations" : {
@@ -930,7 +1125,20 @@
       }
     },
     "Warning" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warnung"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attentione"
+          }
+        }
+      }
     },
     "We are currently working on it. Please check out this module later." : {
 
@@ -964,6 +1172,12 @@
             "state" : "translated",
             "value" : "Wilkommen zu ScribbleLab, %@"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benvenuto a ScribbleLab, %@"
+          }
         }
       }
     },
@@ -977,10 +1191,24 @@
 
     },
     "Yellow" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gelb"
+          }
+        }
+      }
     },
     "Yes" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ja"
+          }
+        }
+      }
     },
     "You have no unread notifications" : {
 
