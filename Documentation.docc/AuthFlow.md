@@ -19,7 +19,3 @@ Here is a breakdown of the steps involved in the Auth Flow:
 5. User performs actions within the application: The user is now able to perform actions within the application or service according to their access rights.
 
 6. Session expiration: Once the user has finished using the application or service, the session is terminated. This is done to ensure the security of the user's data and prevent unauthorized access.
-
-### Section header
-
-<!--@START_MENU_TOKEN@-->Text<!--@END_MENU_TOKEN@-->

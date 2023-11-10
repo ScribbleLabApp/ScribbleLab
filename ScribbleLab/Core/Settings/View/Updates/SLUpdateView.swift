@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct SLUpdateView: View {
+    @StateObject var updateModel = SLUpdateViewModel()
+    
     var body: some View {
         NavigationStack {
+            
             Text("Update")
                 .navigationTitle("Updates")
                 .navigationBarTitleDisplayMode(.inline)

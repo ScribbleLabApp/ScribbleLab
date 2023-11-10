@@ -50,7 +50,7 @@ enum SLContributorModel: Int, CaseIterable, Identifiable, Hashable, Codable {
         switch self {
         case .nevio: return "https://github.com/N3v1"
         case .kilian: return "https://github.com/appletech75"
-        case .giorgio: return "" // TODO: Add Github link - staff only
+        case .giorgio: return ""
         }
     }
     
