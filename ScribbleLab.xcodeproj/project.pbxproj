@@ -53,6 +53,7 @@
 		383588522AFEECA200EEA1C3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383588512AFEECA200EEA1C3 /* Item.swift */; };
 		383588542AFEECA400EEA1C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 383588532AFEECA400EEA1C3 /* Assets.xcassets */; };
 		383588572AFEECA400EEA1C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 383588562AFEECA400EEA1C3 /* Preview Assets.xcassets */; };
+		3835885F2AFEF19400EEA1C3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38FFF93F2AE3C55F006719E2 /* GoogleService-Info.plist */; };
 		3836C2962AF144DC008F475F /* WaitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836C2952AF144DC008F475F /* WaitView.swift */; };
 		3836C29A2AF1BB86008F475F /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836C2992AF1BB86008F475F /* EditProfileViewModel.swift */; };
 		3836C2A22AF29CBF008F475F /* ScribbleLab_AppClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836C2A12AF29CBF008F475F /* ScribbleLab_AppClipApp.swift */; };
@@ -1352,6 +1353,7 @@
 			files = (
 				383588572AFEECA400EEA1C3 /* Preview Assets.xcassets in Resources */,
 				383588542AFEECA400EEA1C3 /* Assets.xcassets in Resources */,
+				3835885F2AFEF19400EEA1C3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
