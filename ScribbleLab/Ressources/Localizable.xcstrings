@@ -112,6 +112,9 @@
         }
       }
     },
+    "• When you create an account some of your information may be visible to other users: username, profile image. You can set up who can see your information.\n\n•" : {
+
+    },
     "© 2023 - 2024 ScribbleLabApp. All rights reserved." : {
       "localizations" : {
         "de" : {
@@ -397,6 +400,9 @@
           }
         }
       }
+    },
+    "Done" : {
+
     },
     "Edit" : {
 
@@ -911,6 +917,12 @@
     "Save" : {
 
     },
+    "ScribbleLab - Auth & Privacy" : {
+
+    },
+    "ScribbleLab and ScribbleLabAuth (SLA) is a secure, reliable and easy-to-use authentication service that allows users to gain access to the application's resources through a simple and straightforward process. The ScribbleLab Auth Service is built on top of Firebase, a powerful and scalable database service, ensuring that user authentication is done in a secure and robust manner. \n " : {
+
+    },
     "Search" : {
       "localizations" : {
         "de" : {
@@ -1222,7 +1234,7 @@
     "You may obtain a copy of the License at" : {
 
     },
-    "Your ScribbleLab Account information is used to enable services when you sign in, including other features like live collaboration, ... [See how your data is managed...](https://github.com/ScribbleLabApp/ScribbleLab)" : {
+    "Your ScribbleLab Account information is used to enable services when you sign in, including other features like live collaboration, ... [**See how your data is managed...**](https://github.com/ScribbleLabApp/ScribbleLab)" : {
 
     },
     "Your Study session is finished! 🎉" : {

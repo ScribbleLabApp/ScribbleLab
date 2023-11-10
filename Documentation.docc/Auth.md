@@ -9,7 +9,7 @@ The ScribbleLab Auth Service is a secure, reliable and easy-to-use authenticatio
 We offer our users three ways to authenticate:
 - Google Sign In **``(GID)``**
 - SignInWithApple **``(SIWA)``**
-- ScribbleLabApp Account **``(SLA)`**
+- ScribbleLabApp Account **``(SLA)``**
 
 All three ways are secure due to our secured database.
 

@@ -115,6 +115,52 @@
 			<key>type</key>
 			<string>bookmark</string>
 		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>22</string>
+					<key>EndingLineNumber</key>
+					<string>28</string>
+					<key>StartingColumnNumber</key>
+					<string>16</string>
+					<key>StartingLineNumber</key>
+					<string>28</string>
+					<key>Timestamp</key>
+					<string>721333424.142049</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>ScribbleLab/Core/Auth/View/Waiting/WaitSheetView.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>VStack</string>
+				<key>leading</key>
+				<string>                    .padding(.horizontal, 20)
+                
+                </string>
+				<key>trailing</key>
+				<string> {
+                    Text("""
+                             • When you create an account some of your information may be visible to other users: username, profile image. You can set up who can see your information.
+</string>
+			</dict>
+			<key>title</key>
+			<string>Work on the text</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
 	</array>
 </dict>
 </plist>
