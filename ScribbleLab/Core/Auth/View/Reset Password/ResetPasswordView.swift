@@ -19,7 +19,12 @@ struct ResetPasswordView: View {
     
     var body: some View {
         VStack {
-            // TODO: Implement Fraphic
+            Spacer()
+            
+            Image(.personIllustartionOrange)
+                .frame(width: 600, height: 700)
+                .padding(10)
+            
             Text("Forgot your Password?")
                 .font(.title)
                 .fontWeight(.bold)
@@ -51,6 +56,8 @@ struct ResetPasswordView: View {
                     .padding()
                     .foregroundStyle(.orange)
             }
+            
+            Spacer()
         }
     }
 }

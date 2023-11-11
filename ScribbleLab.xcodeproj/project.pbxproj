@@ -17,6 +17,7 @@
 		38140A662AE3F79800753FB6 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38140A652AE3F79800753FB6 /* RegistrationViewModel.swift */; };
 		38140A692AE3F81900753FB6 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38140A682AE3F81900753FB6 /* UserService.swift */; };
 		38140A6C2AE3FB6F00753FB6 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38140A6B2AE3FB6F00753FB6 /* ContentViewModel.swift */; };
+		381792652AFFC017002A4551 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = 381792642AFFC017002A4551 /* AlertToast */; };
 		381E0B362ADC136400A2A836 /* PomodoroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381E0B352ADC136400A2A836 /* PomodoroModel.swift */; };
 		381E0B382ADC14E300A2A836 /* SLStudyPomodoroTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381E0B372ADC14E300A2A836 /* SLStudyPomodoroTimerView.swift */; };
 		381F1F132AD72DD6001B3B10 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F1F122AD72DD6001B3B10 /* TestView.swift */; };
@@ -64,6 +65,8 @@
 		3836C2B12AF29CC1008F475F /* ScribbleLab AppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 3836C29F2AF29CBF008F475F /* ScribbleLab AppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3836C2B92AF29CF5008F475F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38AE9CA12AD0751100B761E8 /* Assets.xcassets */; };
 		3836C2BA2AF29CF8008F475F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 385F788D2AD5C56E0096E504 /* Localizable.xcstrings */; };
+		383B8A872AFFE929009743A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38AE9CA12AD0751100B761E8 /* Assets.xcassets */; };
+		383B8A892AFFEC3E009743A1 /* SLAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38140A612AE3F61000753FB6 /* SLAuthService.swift */; };
 		3858A7782AD14C9E00FC6319 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A7772AD14C9E00FC6319 /* HomeView.swift */; };
 		3858A77B2AD14E9D00FC6319 /* TimetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A77A2AD14E9D00FC6319 /* TimetableView.swift */; };
 		3858A77E2AD15E8900FC6319 /* NotificationSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A77D2AD15E8900FC6319 /* NotificationSheetView.swift */; };
@@ -357,6 +360,7 @@
 				38FFF93A2AE3C18B006719E2 /* FirebaseInstallations in Frameworks */,
 				38A24C732AED2A7700F81F07 /* FirebaseAnalytics in Frameworks */,
 				385F78AF2AD5E11C0096E504 /* GoogleSignIn in Frameworks */,
+				381792652AFFC017002A4551 /* AlertToast in Frameworks */,
 				38A24C772AED2A7700F81F07 /* FirebaseAppCheck in Frameworks */,
 				38E5BBB42AE41F2900FFFE7C /* Updates in Frameworks */,
 				383588462AFEDC6F00EEA1C3 /* FirebasePerformance in Frameworks */,
@@ -1258,6 +1262,7 @@
 				38A24C762AED2A7700F81F07 /* FirebaseAppCheck */,
 				382520E12AEE671C002ECED2 /* SwiftRUI */,
 				383588452AFEDC6F00EEA1C3 /* FirebasePerformance */,
+				381792642AFFC017002A4551 /* AlertToast */,
 			);
 			productName = ScribbleLab;
 			productReference = 38AE9C982AD0750F00B761E8 /* ScribbleLab.app */;
@@ -1355,6 +1360,7 @@
 				38E5BBB22AE41F2900FFFE7C /* XCRemoteSwiftPackageReference "Updates" */,
 				380D93912AE4280900277D2D /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				382520E02AEE671C002ECED2 /* XCRemoteSwiftPackageReference "SwiftRUI" */,
+				381792632AFFC017002A4551 /* XCRemoteSwiftPackageReference "AlertToast" */,
 			);
 			productRefGroup = 38AE9C992AD0750F00B761E8 /* Products */;
 			projectDirPath = "";
@@ -1388,6 +1394,7 @@
 			files = (
 				383588572AFEECA400EEA1C3 /* Preview Assets.xcassets in Resources */,
 				383588542AFEECA400EEA1C3 /* Assets.xcassets in Resources */,
+				383B8A872AFFE929009743A1 /* Assets.xcassets in Resources */,
 				3835885F2AFEF19400EEA1C3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1457,6 +1464,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383B8A892AFFEC3E009743A1 /* SLAuthService.swift in Sources */,
 				383588502AFEECA200EEA1C3 /* ContentView.swift in Sources */,
 				383588522AFEECA200EEA1C3 /* Item.swift in Sources */,
 				3835884E2AFEECA200EEA1C3 /* ScribbleLab_macOSApp.swift in Sources */,
@@ -2941,6 +2949,14 @@
 				minimumVersion = 7.9.1;
 			};
 		};
+		381792632AFFC017002A4551 /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.9;
+			};
+		};
 		382520E02AEE671C002ECED2 /* XCRemoteSwiftPackageReference "SwiftRUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Sweekwang/SwiftRUI.git";
@@ -2985,6 +3001,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestoreSwift;
+		};
+		381792642AFFC017002A4551 /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 381792632AFFC017002A4551 /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
 		};
 		382520E12AEE671C002ECED2 /* SwiftRUI */ = {
 			isa = XCSwiftPackageProductDependency;
