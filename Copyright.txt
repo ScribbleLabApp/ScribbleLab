@@ -1,1 +1,30 @@
-Foto von Element5 Digital: https://www.pexels.com/de-de/foto/grune-sukkulenten-auf-topfen-1470171/
+***********************************************************************************
+    COPYRIGHT NOTICE OF USED IMAGES, ILLUSTRATIONS, ANIMATIONS AND CODESNIPPETS
+***********************************************************************************
+
+/*
+Copyright © 2023 - 2024 ScribbleLabApp. All rights reserved.
+
+ScribbleLabApp Inc.
+Germany, Steinhagen West., NRW, 33803
+scribblelabapp.dev@gmail.com
+[Your Website URL]
+
+This App and its contents are the property of ScribbleLab and are protected by copyright law. 
+Any unauthorized use or reproduction, in whole or in part, without the express written consent 
+of ScribbleLabApp, is strictly prohibited.
+
+For permissions or inquiries, please contact:
+ScribbleLabApp, CEO: Nevio H.
+Buisness: scribblelabapp.dev@gmail.com · Personal: n3v1010@gmail.com
+*/
+
+-----------------------------------------------------------------------------------
+Images:
+
+ResetPasswordView:
+------------------
+https://www.freepik.com/free-vector/learning-concept-illustration_10117870.htm?epik=dj0yJnU9dzhIeWp1eDBGb295WWlfZk8za1c2TGdaTVdRM00zbDMmcD0wJm49eDB5dkV1dFJyY1RQUU9NYXhSUDRKdyZ0PUFBQUFBR1ZQc0tF
+Image by storyset 
+on Freepik
+
