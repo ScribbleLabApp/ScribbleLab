@@ -89,6 +89,7 @@
 		3868A3E62AD305B800D4CAEC /* CreateNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3E52AD305B800D4CAEC /* CreateNewView.swift */; };
 		3868A3EA2AD3072B00D4CAEC /* SLCalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3E92AD3072B00D4CAEC /* SLCalenderView.swift */; };
 		387B79362ADEDD9B0067E08B /* SLOtherSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387B79352ADEDD9B0067E08B /* SLOtherSettings.swift */; };
+		3883D3012AFF9D6F007C00A3 /* document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3883D3002AFF9D6F007C00A3 /* document.swift */; };
 		3886B2DA2AD19CA5002EF30E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886B2D92AD19CA5002EF30E /* WelcomeView.swift */; };
 		3886B2DE2AD19F34002EF30E /* SLSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886B2DD2AD19F34002EF30E /* SLSettingsView.swift */; };
 		3886B2E12AD1ABC0002EF30E /* SLSideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886B2E02AD1ABC0002EF30E /* SLSideBarView.swift */; };
@@ -275,6 +276,7 @@
 		3868A3E52AD305B800D4CAEC /* CreateNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewView.swift; sourceTree = "<group>"; };
 		3868A3E92AD3072B00D4CAEC /* SLCalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCalenderView.swift; sourceTree = "<group>"; };
 		387B79352ADEDD9B0067E08B /* SLOtherSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLOtherSettings.swift; sourceTree = "<group>"; };
+		3883D3002AFF9D6F007C00A3 /* document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = document.swift; sourceTree = "<group>"; };
 		3886B2D92AD19CA5002EF30E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		3886B2DD2AD19F34002EF30E /* SLSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLSettingsView.swift; sourceTree = "<group>"; };
 		3886B2E02AD1ABC0002EF30E /* SLSideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLSideBarView.swift; sourceTree = "<group>"; };
@@ -446,6 +448,10 @@
 		381F1F112AD72DC2001B3B10 /* Editor */ = {
 			isa = PBXGroup;
 			children = (
+				3883D2FF2AFF9D52007C00A3 /* Service */,
+				3883D2FE2AFF9D4A007C00A3 /* Extension */,
+				3883D2FD2AFF9D44007C00A3 /* View */,
+				3883D2FC2AFF9D40007C00A3 /* Model */,
 				381F1F122AD72DD6001B3B10 /* TestView.swift */,
 			);
 			path = Editor;
@@ -566,6 +572,7 @@
 		3858A76C2AD1497700FC6319 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				381F1F112AD72DC2001B3B10 /* Editor */,
 				3868A3ED2AD3079200D4CAEC /* Auth */,
 				38355ED52AD3D50F00392674 /* Componets */,
 				3858A7722AD14AC800FC6319 /* Features */,
@@ -788,6 +795,35 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		3883D2FC2AFF9D40007C00A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3883D3002AFF9D6F007C00A3 /* document.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3883D2FD2AFF9D44007C00A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3883D2FE2AFF9D4A007C00A3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3883D2FF2AFF9D52007C00A3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		3886B2D82AD19C93002EF30E /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
@@ -884,7 +920,6 @@
 				38A24C6F2AED159A00F81F07 /* Services */,
 				3858A76B2AD1497300FC6319 /* App */,
 				3858A76C2AD1497700FC6319 /* Core */,
-				381F1F112AD72DC2001B3B10 /* Editor */,
 				38E5BBB52AE4243D00FFFE7C /* Extension */,
 				3858A76E2AD14A9C00FC6319 /* Ressources */,
 				38AE9CA32AD0751100B761E8 /* Preview Content */,
@@ -1481,6 +1516,7 @@
 				38D5C6952AD2CAA100D943A5 /* SLContributorModel.swift in Sources */,
 				38140A662AE3F79800753FB6 /* RegistrationViewModel.swift in Sources */,
 				3886B2E12AD1ABC0002EF30E /* SLSideBarView.swift in Sources */,
+				3883D3012AFF9D6F007C00A3 /* document.swift in Sources */,
 				38E5BBB72AE4244600FFFE7C /* User.swift in Sources */,
 				38355ED72AD3D52D00392674 /* IGTextFieldModifier.swift in Sources */,
 				3836C2962AF144DC008F475F /* WaitView.swift in Sources */,
