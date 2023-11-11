@@ -25,6 +25,6 @@ Images:
 ResetPasswordView:
 ------------------
 https://www.freepik.com/free-vector/learning-concept-illustration_10117870.htm?epik=dj0yJnU9dzhIeWp1eDBGb295WWlfZk8za1c2TGdaTVdRM00zbDMmcD0wJm49eDB5dkV1dFJyY1RQUU9NYXhSUDRKdyZ0PUFBQUFBR1ZQc0tF
-Image by storyset 
+Image by storyset (Note: Color changed from green to orange)
 on Freepik
 
