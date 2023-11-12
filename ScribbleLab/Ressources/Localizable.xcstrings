@@ -911,6 +911,9 @@
         }
       }
     },
+    "OK" : {
+
+    },
     "on how to reset it." : {
 
     },
@@ -954,6 +957,9 @@
           }
         }
       }
+    },
+    "Password reset" : {
+
     },
     "Pinned" : {
 
