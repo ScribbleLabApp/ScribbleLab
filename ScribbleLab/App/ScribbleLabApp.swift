@@ -8,6 +8,7 @@
 import SwiftUI
 import FirebaseCore
 import GoogleSignIn
+import FirebasePerformance
 
 /// An App Delegate that is responsible for the Firebase configuration and GIDSignIn
 class AppDelegate: NSObject, UIApplicationDelegate {
@@ -42,11 +43,11 @@ struct ScribbleLabApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
 //                .environmentObject(ContentViewModel())
-//            SignUpView()
-//                .environmentObject(RegistrationViewModel())
-//                .environmentObject(SignInWithGoogleModel())
+            SignUpView()
+                .environmentObject(RegistrationViewModel())
+                .environmentObject(SignInWithGoogleModel())
                 .preferredColorScheme(isDarkMode ? .dark : .light)
         }
     }
