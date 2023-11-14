@@ -11,11 +11,14 @@ import GoogleSignIn
 import GoogleSignInSwift
 import FirebaseAuth
 import FirebaseCore
+import AlertToast
+
 
 struct ResetPasswordView: View {
     @Environment(\.dismiss) var dismiss
-//    @StateObject var viewModel = ResetPasswordViewModel()
     @State private var email = ""
+    @State private var alertIsShown = false
+    @State private var errString: String?
     
     var body: some View {
         VStack {
@@ -40,8 +43,18 @@ struct ResetPasswordView: View {
             VStack(spacing: 10) {
                 TextField("Enter your email", text: $email)
                     .modifier(IGTextFieldModifier())
+                    .autocorrectionDisabled()
+                    .autocapitalization(.none)
                 Button {
-                    
+                    SLAuthService.resetPassword(email: email) { (result) in
+                        switch result {
+                        case .failure(let error):
+                            self.errString = error.localizedDescription
+                        case .success( _):
+                            break
+                        }
+                        self.alertIsShown = true
+                    }
                 } label: {
                     Text("Next")
                         .modifier(IGButtonModifier())
@@ -58,6 +71,12 @@ struct ResetPasswordView: View {
             }
             
             Spacer()
+            
+            .alert(isPresented: $alertIsShown, content: {
+                Alert(title: Text("Password reset"), message: Text(self.errString ?? "Success. Reset Email send successfuly. Check your emails."), dismissButton: .default(Text("OK")) {
+                    self.dismiss()
+                })
+            })
         }
     }
 }

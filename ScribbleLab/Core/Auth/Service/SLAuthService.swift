@@ -9,6 +9,7 @@ import Foundation
 import FirebaseAuth
 import FirebaseFirestoreSwift
 import Firebase
+import FirebasePerformance
 
 class SLAuthService {
     @Published var userSession: FirebaseAuth.User?
@@ -59,7 +60,7 @@ class SLAuthService {
     
     // Forgot password func
     @MainActor
-    func resetPassword(email: String, resetCompletion:@escaping (Result<Bool, Error>) -> Void) {
+    static func resetPassword(email: String, resetCompletion:@escaping (Result<Bool, Error>) -> Void) {
         Auth.auth().sendPasswordReset(withEmail: email) { (error) in
             if let error = error {
                 resetCompletion(.failure(error))

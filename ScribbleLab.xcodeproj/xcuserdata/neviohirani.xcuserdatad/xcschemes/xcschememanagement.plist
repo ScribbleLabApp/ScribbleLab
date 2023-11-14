@@ -33,7 +33,7 @@
 		<key>ScribbleLab AppClip.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>3</integer>
 		</dict>
 		<key>ScribbleLab-WidgetsExtension.xcscheme_^#shared#^_</key>
 		<dict>
@@ -43,7 +43,7 @@
 		<key>ScribbleLab-macOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>8</integer>
 		</dict>
 		<key>ScribbleLab.xcscheme_^#shared#^_</key>
 		<dict>

@@ -55,6 +55,8 @@ struct SignUpView: View {
                         
                         TextField("Enter your username",text: $viewModel.username)
                             .modifier(IGTextFieldModifier())
+                            .autocapitalization(.none)
+                            .autocorrectionDisabled()
                                             
                         Button {
                             completeRegistrationViewIsShown.toggle()
