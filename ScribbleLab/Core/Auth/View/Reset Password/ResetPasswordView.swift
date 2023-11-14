@@ -11,6 +11,7 @@ import GoogleSignIn
 import GoogleSignInSwift
 import FirebaseAuth
 import FirebaseCore
+import AlertToast
 
 
 struct ResetPasswordView: View {

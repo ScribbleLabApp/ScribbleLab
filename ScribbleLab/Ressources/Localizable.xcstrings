@@ -554,6 +554,9 @@
     "Enter a valid gift code" : {
 
     },
+    "Enter your 2FA-Code" : {
+
+    },
     "Enter your email" : {
       "localizations" : {
         "de" : {
@@ -574,6 +577,9 @@
           }
         }
       }
+    },
+    "Enter your OTP code" : {
+
     },
     "Enter your password" : {
       "localizations" : {
@@ -1304,6 +1310,9 @@
     "We are sorry but this feature isn't done yet" : {
 
     },
+    "We sent you a SMS in that" : {
+
+    },
     "We'll send you an email with instructions" : {
 
     },
@@ -1367,6 +1376,9 @@
           }
         }
       }
+    },
+    "you can find your OTP Code" : {
+
     },
     "You have no unread notifications" : {
 

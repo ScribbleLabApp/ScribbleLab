@@ -45,26 +45,33 @@ struct ProfileView: View {
                 }
                 
                 // MARK: Options
-//                List {
-//                    Section {
-//                        Button {
-//                            signOutWarningIsPresented.toggle()
-//                        } label: {
-//                            Text("Sign Out")
-//                                .foregroundStyle(.red)
-//                        }
-//                        .alert(isPresented: $signOutWarningIsPresented) {
-//                            Alert(title: Text("Important message"), message: Text("Do you really want to sign out? You'll be not able to use this app without signing in"), primaryButton: .default(Text("Cancel"), action: {}), secondaryButton: .destructive(Text("Confirm").fontWeight(.semibold), action: {
-//                                // TODO: Call the to factory setting func
-//                                SLAuthService.shared.signOut()
-//                            }))
-//                        }
-//                    } header: {
-//
-//                    } footer: {
-//
-//                    }
-//                }
+                List {
+                    Section {
+                        Button {
+                            signOutWarningIsPresented.toggle()
+                        } label: {
+                            Text("Sign Out")
+                                .foregroundStyle(.red)
+                        }
+                        .alert(isPresented: $signOutWarningIsPresented) {
+                            Alert(title: Text("Important message"), message: Text("Do you really want to sign out? You'll be not able to use this app without signing in"), primaryButton: .default(Text("Cancel"), action: {}), secondaryButton: .destructive(Text("Confirm").fontWeight(.semibold), action: {
+                                // TODO: Call the to factory setting func
+                                SLAuthService.shared.signOut()
+                            }))
+                        }
+                        NavigationLink {
+                            SLOTP_2FA_ConfigView()
+                                .navigationBarBackButtonHidden()
+                        } label: {
+                            Text("Set up 2FA")
+                                .tint(.black)
+                        }
+                    } header: {
+                        Text("Profile Settings")
+                    } footer: {
+                        
+                    }
+                }
             }
             .navigationTitle("Profile")
             .navigationBarTitleDisplayMode(.inline)

@@ -91,6 +91,10 @@
 		38A24C712AED15B600F81F07 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A24C702AED15B600F81F07 /* ImageUploader.swift */; };
 		38A24C732AED2A7700F81F07 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 38A24C722AED2A7700F81F07 /* FirebaseAnalytics */; };
 		38A24C752AED2A7700F81F07 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 38A24C742AED2A7700F81F07 /* FirebaseAnalyticsSwift */; };
+		38A5E9BB2B03D4E80037C668 /* SLOTP+2FAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5E9BA2B03D4E80037C668 /* SLOTP+2FAView.swift */; };
+		38A5E9BD2B03D7730037C668 /* OTPTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5E9BC2B03D7730037C668 /* OTPTextFieldView.swift */; };
+		38A5E9C22B03F0140037C668 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 38A5E9C12B03F0140037C668 /* iPhoneNumberField */; };
+		38A5E9C52B03F09C0037C668 /* SLOTP+2FA_ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5E9C42B03F09C0037C668 /* SLOTP+2FA_ConfigView.swift */; };
 		38ADB4D92AF6952C0019375B /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 38ADB4D82AF6952C0019375B /* Documentation.docc */; };
 		38AE9C9C2AD0750F00B761E8 /* ScribbleLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9C9B2AD0750F00B761E8 /* ScribbleLabApp.swift */; };
 		38AE9C9E2AD0750F00B761E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9C9D2AD0750F00B761E8 /* ContentView.swift */; };
@@ -266,6 +270,9 @@
 		3886B2E02AD1ABC0002EF30E /* SLSideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLSideBarView.swift; sourceTree = "<group>"; };
 		3889688A2AF143C700F67F08 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		38A24C702AED15B600F81F07 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
+		38A5E9BA2B03D4E80037C668 /* SLOTP+2FAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SLOTP+2FAView.swift"; sourceTree = "<group>"; };
+		38A5E9BC2B03D7730037C668 /* OTPTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextFieldView.swift; sourceTree = "<group>"; };
+		38A5E9C42B03F09C0037C668 /* SLOTP+2FA_ConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SLOTP+2FA_ConfigView.swift"; sourceTree = "<group>"; };
 		38ADB4D82AF6952C0019375B /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		38AE9C982AD0750F00B761E8 /* ScribbleLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScribbleLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38AE9C9B2AD0750F00B761E8 /* ScribbleLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLabApp.swift; sourceTree = "<group>"; };
@@ -329,6 +336,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38A5E9C22B03F0140037C668 /* iPhoneNumberField in Frameworks */,
 				38FFF9362AE3C18B006719E2 /* FirebaseDatabase in Frameworks */,
 				38FFF93A2AE3C18B006719E2 /* FirebaseInstallations in Frameworks */,
 				38A24C732AED2A7700F81F07 /* FirebaseAnalytics in Frameworks */,
@@ -622,6 +630,7 @@
 		385F468B2AD31C9A00D85410 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				38A5E9C62B03FDD10037C668 /* OTP+2FA Services */,
 				38FFF9412AE3C7C9006719E2 /* SignInWithGoogleModel.swift */,
 				38140A632AE3F6D200753FB6 /* LoginViewModel.swift */,
 				38140A652AE3F79800753FB6 /* RegistrationViewModel.swift */,
@@ -632,6 +641,7 @@
 		385F468C2AD31CA000D85410 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				38A5E9B92B03D4A60037C668 /* OTP+2FA */,
 				38066B502AFEA20F001A88D5 /* Waiting */,
 				382520E32AEE676D002ECED2 /* Reset Password */,
 				385F468D2AD31CD100D85410 /* SignUpView.swift */,
@@ -833,6 +843,31 @@
 				38A24C702AED15B600F81F07 /* ImageUploader.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		38A5E9B92B03D4A60037C668 /* OTP+2FA */ = {
+			isa = PBXGroup;
+			children = (
+				38A5E9C32B03F0430037C668 /* OTP+2FA Config */,
+				38A5E9BA2B03D4E80037C668 /* SLOTP+2FAView.swift */,
+				38A5E9BC2B03D7730037C668 /* OTPTextFieldView.swift */,
+			);
+			path = "OTP+2FA";
+			sourceTree = "<group>";
+		};
+		38A5E9C32B03F0430037C668 /* OTP+2FA Config */ = {
+			isa = PBXGroup;
+			children = (
+				38A5E9C42B03F09C0037C668 /* SLOTP+2FA_ConfigView.swift */,
+			);
+			path = "OTP+2FA Config";
+			sourceTree = "<group>";
+		};
+		38A5E9C62B03FDD10037C668 /* OTP+2FA Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "OTP+2FA Services";
 			sourceTree = "<group>";
 		};
 		38AE9C8F2AD0750F00B761E8 = {
@@ -1192,6 +1227,7 @@
 				382520E12AEE671C002ECED2 /* SwiftRUI */,
 				383588452AFEDC6F00EEA1C3 /* FirebasePerformance */,
 				381792642AFFC017002A4551 /* AlertToast */,
+				38A5E9C12B03F0140037C668 /* iPhoneNumberField */,
 			);
 			productName = ScribbleLab;
 			productReference = 38AE9C982AD0750F00B761E8 /* ScribbleLab.app */;
@@ -1287,6 +1323,7 @@
 				380D93912AE4280900277D2D /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				382520E02AEE671C002ECED2 /* XCRemoteSwiftPackageReference "SwiftRUI" */,
 				381792632AFFC017002A4551 /* XCRemoteSwiftPackageReference "AlertToast" */,
+				38A5E9C02B03F0140037C668 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
 			);
 			productRefGroup = 38AE9C992AD0750F00B761E8 /* Products */;
 			projectDirPath = "";
@@ -1408,12 +1445,14 @@
 				38A24C712AED15B600F81F07 /* ImageUploader.swift in Sources */,
 				38FFF9452AE3CA6F006719E2 /* Application_utility.swift in Sources */,
 				38D56F062AF59A0000CE3781 /* ImagePicker.swift in Sources */,
+				38A5E9BD2B03D7730037C668 /* OTPTextFieldView.swift in Sources */,
 				3868A3E02AD2E2F800D4CAEC /* SLLicenseView.swift in Sources */,
 				38D5C6972AD2CC6200D943A5 /* SLContributorView.swift in Sources */,
 				38140A6C2AE3FB6F00753FB6 /* ContentViewModel.swift in Sources */,
 				3868A3EA2AD3072B00D4CAEC /* SLCalenderView.swift in Sources */,
 				3858A7782AD14C9E00FC6319 /* HomeView.swift in Sources */,
 				38AE9C9E2AD0750F00B761E8 /* ContentView.swift in Sources */,
+				38A5E9C52B03F09C0037C668 /* SLOTP+2FA_ConfigView.swift in Sources */,
 				38D5C68B2AD28B9D00D943A5 /* SLDarkmodeSettingsView.swift in Sources */,
 				3836C29A2AF1BB86008F475F /* EditProfileViewModel.swift in Sources */,
 				3868A3E32AD2FE6600D4CAEC /* ProfileView.swift in Sources */,
@@ -1439,6 +1478,7 @@
 				380D93972AE42C6600277D2D /* CompleteRegistartionView.swift in Sources */,
 				381E0B382ADC14E300A2A836 /* SLStudyPomodoroTimerView.swift in Sources */,
 				3868A3E62AD305B800D4CAEC /* CreateNewView.swift in Sources */,
+				38A5E9BB2B03D4E80037C668 /* SLOTP+2FAView.swift in Sources */,
 				3868A3DC2AD2DB0000D4CAEC /* ImageViewModel.swift in Sources */,
 				38FFF9422AE3C7C9006719E2 /* SignInWithGoogleModel.swift in Sources */,
 			);
@@ -2727,6 +2767,14 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		38A5E9C02B03F0140037C668 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.1;
+			};
+		};
 		38E5BBB22AE41F2900FFFE7C /* XCRemoteSwiftPackageReference "Updates" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/rwbutler/Updates.git";
@@ -2850,6 +2898,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAnalyticsSwift;
+		};
+		38A5E9C12B03F0140037C668 /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38A5E9C02B03F0140037C668 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
 		};
 		38E5BBB32AE41F2900FFFE7C /* Updates */ = {
 			isa = XCSwiftPackageProductDependency;
