@@ -1,8 +1,10 @@
 //
 //  SLAuthService.swift
-//  ScribbleLab
+//  ScribbleLabAuth
 //
 //  Created by Nevio Hirani on 21.10.23.
+//  ScribbleLab restricted use only.
+//  2023 - 2024 © ScribbleLab App. All right reserved
 //
 
 import Foundation

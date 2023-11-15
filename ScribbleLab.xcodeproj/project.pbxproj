@@ -58,6 +58,7 @@
 		3836C2B12AF29CC1008F475F /* ScribbleLab AppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 3836C29F2AF29CBF008F475F /* ScribbleLab AppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3836C2B92AF29CF5008F475F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38AE9CA12AD0751100B761E8 /* Assets.xcassets */; };
 		3836C2BA2AF29CF8008F475F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 385F788D2AD5C56E0096E504 /* Localizable.xcstrings */; };
+		3852D71A2B053C38007FAFF1 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 3852D7192B053C38007FAFF1 /* Shaders.metal */; };
 		3858A7782AD14C9E00FC6319 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A7772AD14C9E00FC6319 /* HomeView.swift */; };
 		3858A77B2AD14E9D00FC6319 /* TimetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A77A2AD14E9D00FC6319 /* TimetableView.swift */; };
 		3858A77E2AD15E8900FC6319 /* NotificationSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A77D2AD15E8900FC6319 /* NotificationSheetView.swift */; };
@@ -239,6 +240,7 @@
 		3836C2AC2AF29CC1008F475F /* ScribbleLab_AppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScribbleLab_AppClip.entitlements; sourceTree = "<group>"; };
 		3836C2AD2AF29CC1008F475F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3836C2AE2AF29CC1008F475F /* ScribbleLab_AppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScribbleLab_AppClip.entitlements; sourceTree = "<group>"; };
+		3852D7192B053C38007FAFF1 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 		3858A7772AD14C9E00FC6319 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3858A77A2AD14E9D00FC6319 /* TimetableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableView.swift; sourceTree = "<group>"; };
 		3858A77D2AD15E8900FC6319 /* NotificationSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSheetView.swift; sourceTree = "<group>"; };
@@ -452,6 +454,7 @@
 		38355ED52AD3D50F00392674 /* Componets */ = {
 			isa = PBXGroup;
 			children = (
+				3852D7182B053C24007FAFF1 /* Shaders */,
 				38355ED62AD3D52D00392674 /* IGTextFieldModifier.swift */,
 				38355ED82AD3D71900392674 /* IGButtonModifier.swift */,
 			);
@@ -517,6 +520,14 @@
 				3836C2AA2AF29CC1008F475F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3852D7182B053C24007FAFF1 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				3852D7192B053C38007FAFF1 /* Shaders.metal */,
+			);
+			path = Shaders;
 			sourceTree = "<group>";
 		};
 		3858A76B2AD1497300FC6319 /* App */ = {
@@ -1425,6 +1436,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3852D71A2B053C38007FAFF1 /* Shaders.metal in Sources */,
 				3858A77B2AD14E9D00FC6319 /* TimetableView.swift in Sources */,
 				3889688B2AF143C700F67F08 /* SettingsViewModel.swift in Sources */,
 				3858A77E2AD15E8900FC6319 /* NotificationSheetView.swift in Sources */,
