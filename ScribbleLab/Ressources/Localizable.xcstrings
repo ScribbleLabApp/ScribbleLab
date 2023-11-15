@@ -486,6 +486,9 @@
     "Do you really want to reset your customized data. This operation cannot be undone" : {
 
     },
+    "Do you really want to sign out? You'll be not able to use this app without signing in" : {
+
+    },
     "Documentation" : {
       "localizations" : {
         "de" : {
@@ -578,9 +581,6 @@
         }
       }
     },
-    "Enter your OTP code" : {
-
-    },
     "Enter your password" : {
       "localizations" : {
         "de" : {
@@ -590,6 +590,9 @@
           }
         }
       }
+    },
+    "Enter your Phone Number" : {
+
     },
     "Enter your username" : {
       "localizations" : {
@@ -967,6 +970,9 @@
     "Password reset" : {
 
     },
+    "phone number in order to get 2FA Codes or" : {
+
+    },
     "Pinned" : {
 
     },
@@ -995,6 +1001,9 @@
           }
         }
       }
+    },
+    "Profile Settings" : {
+
     },
     "Purple" : {
       "localizations" : {
@@ -1091,6 +1100,9 @@
     "Select an item" : {
 
     },
+    "Set up 2FA" : {
+
+    },
     "Setting up your ScribbleLabApp account" : {
 
     },
@@ -1103,6 +1115,9 @@
           }
         }
       }
+    },
+    "Sign Out" : {
+
     },
     "Sign Up" : {
 
@@ -1200,6 +1215,12 @@
 
     },
     "To report a bug please follow our issue template." : {
+
+    },
+    "To set 2FA up you need to give us a valide" : {
+
+    },
+    "to sign in via phone number" : {
 
     },
     "Toggle the button to enable Darkmode. Note if your system is on a light scheme and you've selected Follow system scheme the darkmode setting will be ignored. Please select 'Ignore system scheme'." : {
