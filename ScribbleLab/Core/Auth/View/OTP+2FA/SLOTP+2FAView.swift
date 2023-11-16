@@ -42,7 +42,7 @@ struct SLOTP_2FAView: View {
                 Button {
             
                 } label: {
-                    Text("Next")
+                    Text("Verify")
                         .modifier(IGButtonModifier())
                 }
             }

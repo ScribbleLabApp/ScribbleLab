@@ -59,6 +59,9 @@
 		3836C2B92AF29CF5008F475F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38AE9CA12AD0751100B761E8 /* Assets.xcassets */; };
 		3836C2BA2AF29CF8008F475F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 385F788D2AD5C56E0096E504 /* Localizable.xcstrings */; };
 		3852D71A2B053C38007FAFF1 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 3852D7192B053C38007FAFF1 /* Shaders.metal */; };
+		3852D71C2B054C11007FAFF1 /* OTP+2FAViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852D71B2B054C11007FAFF1 /* OTP+2FAViewModel.swift */; };
+		3852D71F2B054D18007FAFF1 /* ParticleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852D71E2B054D18007FAFF1 /* ParticleEffect.swift */; };
+		3852D7212B054DBF007FAFF1 /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852D7202B054DBF007FAFF1 /* Particle.swift */; };
 		3858A7782AD14C9E00FC6319 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A7772AD14C9E00FC6319 /* HomeView.swift */; };
 		3858A77B2AD14E9D00FC6319 /* TimetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A77A2AD14E9D00FC6319 /* TimetableView.swift */; };
 		3858A77E2AD15E8900FC6319 /* NotificationSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A77D2AD15E8900FC6319 /* NotificationSheetView.swift */; };
@@ -241,6 +244,9 @@
 		3836C2AD2AF29CC1008F475F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3836C2AE2AF29CC1008F475F /* ScribbleLab_AppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScribbleLab_AppClip.entitlements; sourceTree = "<group>"; };
 		3852D7192B053C38007FAFF1 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		3852D71B2B054C11007FAFF1 /* OTP+2FAViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OTP+2FAViewModel.swift"; sourceTree = "<group>"; };
+		3852D71E2B054D18007FAFF1 /* ParticleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEffect.swift; sourceTree = "<group>"; };
+		3852D7202B054DBF007FAFF1 /* Particle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
 		3858A7772AD14C9E00FC6319 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3858A77A2AD14E9D00FC6319 /* TimetableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableView.swift; sourceTree = "<group>"; };
 		3858A77D2AD15E8900FC6319 /* NotificationSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSheetView.swift; sourceTree = "<group>"; };
@@ -454,6 +460,7 @@
 		38355ED52AD3D50F00392674 /* Componets */ = {
 			isa = PBXGroup;
 			children = (
+				3852D71D2B054D07007FAFF1 /* Effects */,
 				3852D7182B053C24007FAFF1 /* Shaders */,
 				38355ED62AD3D52D00392674 /* IGTextFieldModifier.swift */,
 				38355ED82AD3D71900392674 /* IGButtonModifier.swift */,
@@ -528,6 +535,15 @@
 				3852D7192B053C38007FAFF1 /* Shaders.metal */,
 			);
 			path = Shaders;
+			sourceTree = "<group>";
+		};
+		3852D71D2B054D07007FAFF1 /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				3852D71E2B054D18007FAFF1 /* ParticleEffect.swift */,
+				3852D7202B054DBF007FAFF1 /* Particle.swift */,
+			);
+			path = Effects;
 			sourceTree = "<group>";
 		};
 		3858A76B2AD1497300FC6319 /* App */ = {
@@ -877,6 +893,7 @@
 		38A5E9C62B03FDD10037C668 /* OTP+2FA Services */ = {
 			isa = PBXGroup;
 			children = (
+				3852D71B2B054C11007FAFF1 /* OTP+2FAViewModel.swift */,
 			);
 			path = "OTP+2FA Services";
 			sourceTree = "<group>";
@@ -1437,6 +1454,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3852D71A2B053C38007FAFF1 /* Shaders.metal in Sources */,
+				3852D7212B054DBF007FAFF1 /* Particle.swift in Sources */,
 				3858A77B2AD14E9D00FC6319 /* TimetableView.swift in Sources */,
 				3889688B2AF143C700F67F08 /* SettingsViewModel.swift in Sources */,
 				3858A77E2AD15E8900FC6319 /* NotificationSheetView.swift in Sources */,
@@ -1456,6 +1474,7 @@
 				38066B4F2AFE9F0E001A88D5 /* SLUpdateViewModel.swift in Sources */,
 				38A24C712AED15B600F81F07 /* ImageUploader.swift in Sources */,
 				38FFF9452AE3CA6F006719E2 /* Application_utility.swift in Sources */,
+				3852D71C2B054C11007FAFF1 /* OTP+2FAViewModel.swift in Sources */,
 				38D56F062AF59A0000CE3781 /* ImagePicker.swift in Sources */,
 				38A5E9BD2B03D7730037C668 /* OTPTextFieldView.swift in Sources */,
 				3868A3E02AD2E2F800D4CAEC /* SLLicenseView.swift in Sources */,
@@ -1489,6 +1508,7 @@
 				3868A3DE2AD2DBA300D4CAEC /* ImageView.swift in Sources */,
 				380D93972AE42C6600277D2D /* CompleteRegistartionView.swift in Sources */,
 				381E0B382ADC14E300A2A836 /* SLStudyPomodoroTimerView.swift in Sources */,
+				3852D71F2B054D18007FAFF1 /* ParticleEffect.swift in Sources */,
 				3868A3E62AD305B800D4CAEC /* CreateNewView.swift in Sources */,
 				38A5E9BB2B03D4E80037C668 /* SLOTP+2FAView.swift in Sources */,
 				3868A3DC2AD2DB0000D4CAEC /* ImageViewModel.swift in Sources */,
