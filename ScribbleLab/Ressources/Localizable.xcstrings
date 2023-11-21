@@ -1189,6 +1189,9 @@
     "This application needs to restart to update the configuration.\n\nDo you want to restart the application?" : {
 
     },
+    "This is a View to test the SLButton!" : {
+
+    },
     "This is an example widget." : {
 
     },
@@ -1284,6 +1287,9 @@
           }
         }
       }
+    },
+    "Verify" : {
+
     },
     "Version" : {
       "extractionState" : "stale",

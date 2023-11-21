@@ -71,6 +71,7 @@ struct SLSideBarView: View {
                 
             }
             .listStyle(SidebarListStyle())
+            .tint(.black)
             .navigationTitle("Documents")
             .navigationBarTitleDisplayMode(.large)
             

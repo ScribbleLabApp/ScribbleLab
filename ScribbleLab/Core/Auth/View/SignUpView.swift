@@ -88,7 +88,7 @@ struct SignUpView: View {
                                     .fontWeight(.semibold)
                                     .foregroundStyle(.black)
                             }
-                            .padding(.horizontal, 12)
+                            .padding(.horizontal, 18)
                             .padding(.vertical, 13)
                             .background {
                                 RoundedRectangle(cornerRadius: 13)

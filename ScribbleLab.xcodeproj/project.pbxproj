@@ -107,6 +107,8 @@
 		38AE9CB12AD0751100B761E8 /* ScribbleLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9CB02AD0751100B761E8 /* ScribbleLabTests.swift */; };
 		38AE9CBB2AD0751100B761E8 /* ScribbleLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9CBA2AD0751100B761E8 /* ScribbleLabUITests.swift */; };
 		38AE9CBD2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9CBC2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift */; };
+		38C68B982B0D134300D16E86 /* SLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C68B972B0D134300D16E86 /* SLButton.swift */; };
+		38C68B9A2B0D1CA100D16E86 /* SLButton+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C68B992B0D1CA100D16E86 /* SLButton+Image.swift */; };
 		38D56F062AF59A0000CE3781 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D56F052AF59A0000CE3781 /* ImagePicker.swift */; };
 		38D5C68B2AD28B9D00D943A5 /* SLDarkmodeSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5C68A2AD28B9D00D943A5 /* SLDarkmodeSettingsView.swift */; };
 		38D5C68D2AD28D6F00D943A5 /* SLUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5C68C2AD28D6F00D943A5 /* SLUpdateView.swift */; };
@@ -119,6 +121,7 @@
 		38EFBE202AD6D1A400CF0ECD /* RedemtionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFBE1F2AD6D1A400CF0ECD /* RedemtionSheetView.swift */; };
 		38EFBE232AD6E4EF00CF0ECD /* RestartAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFBE222AD6E4EF00CF0ECD /* RestartAppView.swift */; };
 		38F59B8B2AEC4E0D00475B0B /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F59B8A2AEC4E0D00475B0B /* ResetPasswordView.swift */; };
+		38F9080D2B0920ED0092EC58 /* PageIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F9080C2B0920ED0092EC58 /* PageIntro.swift */; };
 		38FFF9322AE3C18B006719E2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF9312AE3C18B006719E2 /* FirebaseAuth */; };
 		38FFF9342AE3C18B006719E2 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF9332AE3C18B006719E2 /* FirebaseCrashlytics */; };
 		38FFF9362AE3C18B006719E2 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF9352AE3C18B006719E2 /* FirebaseDatabase */; };
@@ -294,6 +297,8 @@
 		38AE9CB62AD0751100B761E8 /* ScribbleLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScribbleLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38AE9CBA2AD0751100B761E8 /* ScribbleLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLabUITests.swift; sourceTree = "<group>"; };
 		38AE9CBC2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38C68B972B0D134300D16E86 /* SLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLButton.swift; sourceTree = "<group>"; };
+		38C68B992B0D1CA100D16E86 /* SLButton+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SLButton+Image.swift"; sourceTree = "<group>"; };
 		38D56F052AF59A0000CE3781 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		38D5C68A2AD28B9D00D943A5 /* SLDarkmodeSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLDarkmodeSettingsView.swift; sourceTree = "<group>"; };
 		38D5C68C2AD28D6F00D943A5 /* SLUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLUpdateView.swift; sourceTree = "<group>"; };
@@ -305,6 +310,7 @@
 		38EFBE1F2AD6D1A400CF0ECD /* RedemtionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedemtionSheetView.swift; sourceTree = "<group>"; };
 		38EFBE222AD6E4EF00CF0ECD /* RestartAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartAppView.swift; sourceTree = "<group>"; };
 		38F59B8A2AEC4E0D00475B0B /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		38F9080C2B0920ED0092EC58 /* PageIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIntro.swift; sourceTree = "<group>"; };
 		38FFF93F2AE3C55F006719E2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		38FFF9412AE3C7C9006719E2 /* SignInWithGoogleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithGoogleModel.swift; sourceTree = "<group>"; };
 		38FFF9442AE3CA6F006719E2 /* Application_utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application_utility.swift; sourceTree = "<group>"; };
@@ -460,6 +466,7 @@
 		38355ED52AD3D50F00392674 /* Componets */ = {
 			isa = PBXGroup;
 			children = (
+				38C68B962B0D133100D16E86 /* Views */,
 				3852D71D2B054D07007FAFF1 /* Effects */,
 				3852D7182B053C24007FAFF1 /* Shaders */,
 				38355ED62AD3D52D00392674 /* IGTextFieldModifier.swift */,
@@ -690,7 +697,8 @@
 		385F78B42AD5E9000096E504 /* Tour */ = {
 			isa = PBXGroup;
 			children = (
-				385F78B52AD5E9120096E504 /* TourViewBeginning.swift */,
+				38F9080B2B0920CE0092EC58 /* View */,
+				38F9080A2B0920C80092EC58 /* Model */,
 			);
 			path = Tour;
 			sourceTree = "<group>";
@@ -970,6 +978,15 @@
 			path = ScribbleLabUITests;
 			sourceTree = "<group>";
 		};
+		38C68B962B0D133100D16E86 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				38C68B972B0D134300D16E86 /* SLButton.swift */,
+				38C68B992B0D1CA100D16E86 /* SLButton+Image.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		38D56F042AF599EA00CE3781 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
@@ -1143,6 +1160,22 @@
 			children = (
 			);
 			path = AppAuth;
+			sourceTree = "<group>";
+		};
+		38F9080A2B0920C80092EC58 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38F9080C2B0920ED0092EC58 /* PageIntro.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38F9080B2B0920CE0092EC58 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				385F78B52AD5E9120096E504 /* TourViewBeginning.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		38FFF9432AE3CA52006719E2 /* ViewController */ = {
@@ -1467,7 +1500,9 @@
 				381E0B362ADC136400A2A836 /* PomodoroModel.swift in Sources */,
 				385F78BE2AD5ED720096E504 /* SLHelpView.swift in Sources */,
 				38140A642AE3F6D200753FB6 /* LoginViewModel.swift in Sources */,
+				38C68B982B0D134300D16E86 /* SLButton.swift in Sources */,
 				381F1F132AD72DD6001B3B10 /* TestView.swift in Sources */,
+				38F9080D2B0920ED0092EC58 /* PageIntro.swift in Sources */,
 				38ADB4D92AF6952C0019375B /* Documentation.docc in Sources */,
 				38140A622AE3F61000753FB6 /* SLAuthService.swift in Sources */,
 				38E304702AF639F300103D71 /* Crop.swift in Sources */,
@@ -1489,6 +1524,7 @@
 				3868A3E32AD2FE6600D4CAEC /* ProfileView.swift in Sources */,
 				38355ED92AD3D71900392674 /* IGButtonModifier.swift in Sources */,
 				385F468E2AD31CD100D85410 /* SignUpView.swift in Sources */,
+				38C68B9A2B0D1CA100D16E86 /* SLButton+Image.swift in Sources */,
 				38EFBE202AD6D1A400CF0ECD /* RedemtionSheetView.swift in Sources */,
 				385F78BA2AD5ECC10096E504 /* SLInfoView.swift in Sources */,
 				38EFBE1D2AD6965C00CF0ECD /* PackageLicense.swift in Sources */,

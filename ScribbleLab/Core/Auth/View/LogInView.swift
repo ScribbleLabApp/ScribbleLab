@@ -36,6 +36,7 @@ struct LogInView: View {
             
             VStack(spacing: 20) {
                 VStack {
+                    /*
                     Button {
                         vm.signInWithGoogle()
                     } label: {
@@ -57,9 +58,15 @@ struct LogInView: View {
                                 .fill(Color(red: 248/255, green: 248/255, blue: 248/255))
                                 .strokeBorder(Color(red: 194/255, green: 194/255, blue: 194/255), lineWidth: 0.5)
                         }
+                    }*/
+                    SLImageButton(text: "Continue With Google", font: .subheadline, backgroundColor: .clear, textColor: .black, cornerRadius: 10, image: Image("google"), imageWidth: 30, imageHeight: 30) {
+                        vm.signInWithGoogle()
                     }
-                    
-                    Button {
+                    SLImageButton(text: "Continue With Apple", font: .subheadline, backgroundColor: .clear, textColor: .black, cornerRadius: 10, image: Image("apple-logo-black"), imageWidth: 30, imageHeight: 30) {
+                        // TODO: Sign In With Apple (SIWA)
+                        print("Sign in with apple")
+                    }
+                    /*Button {
                         
                     } label: {
                         HStack {
@@ -80,7 +87,7 @@ struct LogInView: View {
                                 .fill(Color(red: 248/255, green: 248/255, blue: 248/255))
                                 .strokeBorder(Color(red: 194/255, green: 194/255, blue: 194/255), lineWidth: 0.5)
                         }
-                    }
+                    }*/
                 }
                 
                 Divider()
