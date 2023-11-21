@@ -390,10 +390,8 @@
         }
       }
     },
-    "Continue with Apple" : {
-
-    },
     "Continue with Google" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -858,6 +856,7 @@
       }
     },
     "Log in with email" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1050,9 +1049,6 @@
     "Redeemtion (BETA)" : {
 
     },
-    "Register" : {
-
-    },
     "Reminder" : {
       "localizations" : {
         "de" : {
@@ -1117,9 +1113,6 @@
       }
     },
     "Sign Out" : {
-
-    },
-    "Sign Up" : {
 
     },
     "Some simple settings to make the app even better" : {
@@ -1190,6 +1183,9 @@
 
     },
     "This is a View to test the SLButton!" : {
+
+    },
+    "This is a View to test the SLImageButtons!" : {
 
     },
     "This is an example widget." : {

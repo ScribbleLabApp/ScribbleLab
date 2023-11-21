@@ -57,67 +57,28 @@ struct SignUpView: View {
                             .modifier(IGTextFieldModifier())
                             .autocapitalization(.none)
                             .autocorrectionDisabled()
-                                            
-                        Button {
+                        
+                        SLButton(text: "Sign Up", font: .subheadline, backgroundColor: .orange, textColor: .black, cornerRadius: 10, action: {
                             completeRegistrationViewIsShown.toggle()
-                        } label: {
-                            Text("Sign Up")
-                                .modifier(IGButtonModifier())
-                                .disabled(viewModel.password.count < 6)
-                        }
+                            print("DEBUG: Sign up")
+                        })
+                        .disabled(viewModel.password.count < 6)
                         .navigationDestination(isPresented: $completeRegistrationViewIsShown) {
                             CompleteRegistartionView()
                                 .navigationBarBackButtonHidden()
+                                .environmentObject(viewModel)
                         }
                     }
                     
                     Divider()
                         .frame(width: 359)
                     VStack {
-                        Button {
+                        SLImageButton(text: "Continue With Google", font: .subheadline, backgroundColor: .clear, textColor: .black, cornerRadius: 10, image: Image("google"), imageWidth: 30, imageHeight: 30) {
                             vm.signInWithGoogle()
-                        } label: {
-                            HStack {
-                                Image("google")
-                                    .resizable()
-                                    .frame(width: 35, height: 35)
-                                
-                                Text("Continue with Google")
-                                    .padding(.horizontal, 60)
-                                    .font(.headline)
-                                    .fontWeight(.semibold)
-                                    .foregroundStyle(.black)
-                            }
-                            .padding(.horizontal, 18)
-                            .padding(.vertical, 13)
-                            .background {
-                                RoundedRectangle(cornerRadius: 13)
-                                    .fill(Color(red: 248/255, green: 248/255, blue: 248/255))
-                                    .strokeBorder(Color(red: 194/255, green: 194/255, blue: 194/255), lineWidth: 0.5)
-                            }
                         }
                         
-                        Button {
-                            
-                        } label: {
-                            HStack {
-                                Image("apple-logo-black")
-                                    .resizable()
-                                    .frame(width: 36, height: 35)
-                                
-                                Text("Continue with Apple")
-                                    .padding(.horizontal, 60)
-                                    .font(.headline)
-                                    .fontWeight(.semibold)
-                                    .foregroundStyle(.black)
-                            }
-                            .padding(.horizontal, 17)
-                            .padding(.vertical, 13)
-                            .background {
-                                RoundedRectangle(cornerRadius: 13)
-                                    .fill(Color(red: 248/255, green: 248/255, blue: 248/255))
-                                    .strokeBorder(Color(red: 194/255, green: 194/255, blue: 194/255), lineWidth: 0.5)
-                            }
+                        SLImageButton(text: "Continue With Apple", font: .subheadline, backgroundColor: .clear, textColor: .black, cornerRadius: 10,image: Image("apple-logo-black"), imageWidth: 30, imageHeight: 30) {
+                            print("DEBUG: Sign In With Apple")
                         }
                     }
                     

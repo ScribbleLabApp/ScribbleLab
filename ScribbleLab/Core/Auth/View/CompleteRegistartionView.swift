@@ -31,13 +31,8 @@ struct CompleteRegistartionView: View {
                 .multilineTextAlignment(.center)
                 .padding(.horizontal, 24)
             
-            
-            
-            Button {
+            SLButton(text: "Register", font: .subheadline, backgroundColor: .orange, textColor: .black, cornerRadius: 10) {
                 Task { try await viewModel.createUser() }
-            } label: {
-                Text("Register")
-                    .modifier(IGButtonModifier())
             }
             .padding(.vertical)
             

@@ -36,58 +36,15 @@ struct LogInView: View {
             
             VStack(spacing: 20) {
                 VStack {
-                    /*
-                    Button {
-                        vm.signInWithGoogle()
-                    } label: {
-                        HStack {
-                            Image("google")
-                                .resizable()
-                                .frame(width: 35, height: 35)
-                            
-                            Text("Continue with Google")
-                                .padding(.horizontal, 60)
-                                .font(.headline)
-                                .fontWeight(.semibold)
-                                .foregroundStyle(.black)
-                        }
-                        .padding(.horizontal, 12)
-                        .padding(.vertical, 13)
-                        .background {
-                            RoundedRectangle(cornerRadius: 13)
-                                .fill(Color(red: 248/255, green: 248/255, blue: 248/255))
-                                .strokeBorder(Color(red: 194/255, green: 194/255, blue: 194/255), lineWidth: 0.5)
-                        }
-                    }*/
                     SLImageButton(text: "Continue With Google", font: .subheadline, backgroundColor: .clear, textColor: .black, cornerRadius: 10, image: Image("google"), imageWidth: 30, imageHeight: 30) {
                         vm.signInWithGoogle()
+                        print("DEBUG: Sign in With Google")
                     }
+                    
                     SLImageButton(text: "Continue With Apple", font: .subheadline, backgroundColor: .clear, textColor: .black, cornerRadius: 10, image: Image("apple-logo-black"), imageWidth: 30, imageHeight: 30) {
                         // TODO: Sign In With Apple (SIWA)
                         print("Sign in with apple")
                     }
-                    /*Button {
-                        
-                    } label: {
-                        HStack {
-                            Image("apple-logo-black")
-                                .resizable()
-                                .frame(width: 36, height: 35)
-                            
-                            Text("Continue with Apple")
-                                .padding(.horizontal, 60)
-                                .font(.headline)
-                                .fontWeight(.semibold)
-                                .foregroundStyle(.black)
-                        }
-                        .padding(.horizontal, 17)
-                        .padding(.vertical, 13)
-                        .background {
-                            RoundedRectangle(cornerRadius: 13)
-                                .fill(Color(red: 248/255, green: 248/255, blue: 248/255))
-                                .strokeBorder(Color(red: 194/255, green: 194/255, blue: 194/255), lineWidth: 0.5)
-                        }
-                    }*/
                 }
                 
                 Divider()
@@ -101,12 +58,19 @@ struct LogInView: View {
                     
                     SecureField("Enter your password", text: $viewModel.password)
                         .modifier(IGTextFieldModifier())
-                                        
+                    
+                    /*
                     Button {
                         Task { try await viewModel.signIn() }
                     } label: {
                         Text("Log in with email")
                             .modifier(IGButtonModifier())
+                    }
+                    */
+                    
+                    SLButton(text: "Log in with email", font: .subheadline, backgroundColor: .orange, textColor: .black, cornerRadius: 10) {
+                        Task { try await viewModel.signIn() }
+                        print("DEBUG: sign in")
                     }
                 }
                 
