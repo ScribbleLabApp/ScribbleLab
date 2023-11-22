@@ -63,7 +63,6 @@
 		3852D71F2B054D18007FAFF1 /* ParticleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852D71E2B054D18007FAFF1 /* ParticleEffect.swift */; };
 		3852D7212B054DBF007FAFF1 /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852D7202B054DBF007FAFF1 /* Particle.swift */; };
 		3858A7782AD14C9E00FC6319 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A7772AD14C9E00FC6319 /* HomeView.swift */; };
-		3858A77B2AD14E9D00FC6319 /* TimetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A77A2AD14E9D00FC6319 /* TimetableView.swift */; };
 		3858A77E2AD15E8900FC6319 /* NotificationSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A77D2AD15E8900FC6319 /* NotificationSheetView.swift */; };
 		385F468E2AD31CD100D85410 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F468D2AD31CD100D85410 /* SignUpView.swift */; };
 		385F788E2AD5C56E0096E504 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 385F788D2AD5C56E0096E504 /* Localizable.xcstrings */; };
@@ -85,10 +84,8 @@
 		3868A3E02AD2E2F800D4CAEC /* SLLicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DF2AD2E2F800D4CAEC /* SLLicenseView.swift */; };
 		3868A3E32AD2FE6600D4CAEC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3E22AD2FE6600D4CAEC /* ProfileView.swift */; };
 		3868A3E62AD305B800D4CAEC /* CreateNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3E52AD305B800D4CAEC /* CreateNewView.swift */; };
-		3868A3EA2AD3072B00D4CAEC /* SLCalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3E92AD3072B00D4CAEC /* SLCalenderView.swift */; };
 		387B79362ADEDD9B0067E08B /* SLOtherSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387B79352ADEDD9B0067E08B /* SLOtherSettings.swift */; };
 		3883D3012AFF9D6F007C00A3 /* document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3883D3002AFF9D6F007C00A3 /* document.swift */; };
-		3886B2DA2AD19CA5002EF30E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886B2D92AD19CA5002EF30E /* WelcomeView.swift */; };
 		3886B2DE2AD19F34002EF30E /* SLSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886B2DD2AD19F34002EF30E /* SLSettingsView.swift */; };
 		3886B2E12AD1ABC0002EF30E /* SLSideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886B2E02AD1ABC0002EF30E /* SLSideBarView.swift */; };
 		3889688B2AF143C700F67F08 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3889688A2AF143C700F67F08 /* SettingsViewModel.swift */; };
@@ -251,7 +248,6 @@
 		3852D71E2B054D18007FAFF1 /* ParticleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEffect.swift; sourceTree = "<group>"; };
 		3852D7202B054DBF007FAFF1 /* Particle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
 		3858A7772AD14C9E00FC6319 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		3858A77A2AD14E9D00FC6319 /* TimetableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableView.swift; sourceTree = "<group>"; };
 		3858A77D2AD15E8900FC6319 /* NotificationSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSheetView.swift; sourceTree = "<group>"; };
 		385F468D2AD31CD100D85410 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		385F788A2AD5C4410096E504 /* Beta.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Beta.xcconfig; sourceTree = "<group>"; };
@@ -273,10 +269,8 @@
 		3868A3DF2AD2E2F800D4CAEC /* SLLicenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLLicenseView.swift; sourceTree = "<group>"; };
 		3868A3E22AD2FE6600D4CAEC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		3868A3E52AD305B800D4CAEC /* CreateNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewView.swift; sourceTree = "<group>"; };
-		3868A3E92AD3072B00D4CAEC /* SLCalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCalenderView.swift; sourceTree = "<group>"; };
 		387B79352ADEDD9B0067E08B /* SLOtherSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLOtherSettings.swift; sourceTree = "<group>"; };
 		3883D3002AFF9D6F007C00A3 /* document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = document.swift; sourceTree = "<group>"; };
-		3886B2D92AD19CA5002EF30E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		3886B2DD2AD19F34002EF30E /* SLSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLSettingsView.swift; sourceTree = "<group>"; };
 		3886B2E02AD1ABC0002EF30E /* SLSideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLSideBarView.swift; sourceTree = "<group>"; };
 		3889688A2AF143C700F67F08 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
@@ -394,6 +388,22 @@
 				38066B512AFEA235001A88D5 /* WaitSheetView.swift */,
 			);
 			path = Waiting;
+			sourceTree = "<group>";
+		};
+		380ADEA02B0E9030001832C6 /* Plug-Ins */ = {
+			isa = PBXGroup;
+			children = (
+				380ADEA12B0E9051001832C6 /* VocabularyLearning */,
+				38D5C67E2AD1C0FA00D943A5 /* Timer */,
+			);
+			path = "Plug-Ins";
+			sourceTree = "<group>";
+		};
+		380ADEA12B0E9051001832C6 /* VocabularyLearning */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VocabularyLearning;
 			sourceTree = "<group>";
 		};
 		38140A602AE3F5FF00753FB6 /* Service */ = {
@@ -568,11 +578,12 @@
 		3858A76C2AD1497700FC6319 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				381F1F112AD72DC2001B3B10 /* Editor */,
 				3868A3ED2AD3079200D4CAEC /* Auth */,
 				38355ED52AD3D50F00392674 /* Componets */,
+				381F1F112AD72DC2001B3B10 /* Editor */,
 				3858A7722AD14AC800FC6319 /* Features */,
 				3858A7712AD14AC200FC6319 /* Home */,
+				380ADEA02B0E9030001832C6 /* Plug-Ins */,
 				3858A7752AD14B5C00FC6319 /* Settings */,
 				3886B2DF2AD1ABA3002EF30E /* SideBar */,
 				385F78B42AD5E9000096E504 /* Tour */,
@@ -624,13 +635,7 @@
 			children = (
 				38140A6D2AE40C7900753FB6 /* SLAI */,
 				38355EFB2AD3DC8D00392674 /* Tags */,
-				3868A3EC2AD3078B00D4CAEC /* Homework */,
-				3868A3EB2AD3078700D4CAEC /* Reminder */,
 				3868A3E42AD305AA00D4CAEC /* Create */,
-				3886B2D82AD19C93002EF30E /* Welcome */,
-				3858A7792AD14E7B00FC6319 /* Timetable */,
-				38D5C67F2AD1C0FF00D943A5 /* Calender */,
-				38D5C67E2AD1C0FA00D943A5 /* Timer */,
 				3858A77C2AD15E7400FC6319 /* Notifications */,
 			);
 			path = Features;
@@ -643,14 +648,6 @@
 				3886B2DB2AD19F26002EF30E /* View */,
 			);
 			path = Settings;
-			sourceTree = "<group>";
-		};
-		3858A7792AD14E7B00FC6319 /* Timetable */ = {
-			isa = PBXGroup;
-			children = (
-				3858A77A2AD14E9D00FC6319 /* TimetableView.swift */,
-			);
-			path = Timetable;
 			sourceTree = "<group>";
 		};
 		3858A77C2AD15E7400FC6319 /* Notifications */ = {
@@ -753,20 +750,6 @@
 			path = Create;
 			sourceTree = "<group>";
 		};
-		3868A3EB2AD3078700D4CAEC /* Reminder */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Reminder;
-			sourceTree = "<group>";
-		};
-		3868A3EC2AD3078B00D4CAEC /* Homework */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Homework;
-			sourceTree = "<group>";
-		};
 		3868A3ED2AD3079200D4CAEC /* Auth */ = {
 			isa = PBXGroup;
 			children = (
@@ -820,14 +803,6 @@
 			children = (
 			);
 			path = Service;
-			sourceTree = "<group>";
-		};
-		3886B2D82AD19C93002EF30E /* Welcome */ = {
-			isa = PBXGroup;
-			children = (
-				3886B2D92AD19CA5002EF30E /* WelcomeView.swift */,
-			);
-			path = Welcome;
 			sourceTree = "<group>";
 		};
 		3886B2DB2AD19F26002EF30E /* View */ = {
@@ -1003,14 +978,6 @@
 				381E0B332ADC134C00A2A836 /* Model */,
 			);
 			path = Timer;
-			sourceTree = "<group>";
-		};
-		38D5C67F2AD1C0FF00D943A5 /* Calender */ = {
-			isa = PBXGroup;
-			children = (
-				3868A3E92AD3072B00D4CAEC /* SLCalenderView.swift */,
-			);
-			path = Calender;
 			sourceTree = "<group>";
 		};
 		38D5C6802AD2886B00D943A5 /* Darkmode */ = {
@@ -1488,7 +1455,6 @@
 			files = (
 				3852D71A2B053C38007FAFF1 /* Shaders.metal in Sources */,
 				3852D7212B054DBF007FAFF1 /* Particle.swift in Sources */,
-				3858A77B2AD14E9D00FC6319 /* TimetableView.swift in Sources */,
 				3889688B2AF143C700F67F08 /* SettingsViewModel.swift in Sources */,
 				3858A77E2AD15E8900FC6319 /* NotificationSheetView.swift in Sources */,
 				383588442AFEDB4000EEA1C3 /* PerformanceView.swift in Sources */,
@@ -1515,7 +1481,6 @@
 				3868A3E02AD2E2F800D4CAEC /* SLLicenseView.swift in Sources */,
 				38D5C6972AD2CC6200D943A5 /* SLContributorView.swift in Sources */,
 				38140A6C2AE3FB6F00753FB6 /* ContentViewModel.swift in Sources */,
-				3868A3EA2AD3072B00D4CAEC /* SLCalenderView.swift in Sources */,
 				3858A7782AD14C9E00FC6319 /* HomeView.swift in Sources */,
 				38AE9C9E2AD0750F00B761E8 /* ContentView.swift in Sources */,
 				38A5E9C52B03F09C0037C668 /* SLOTP+2FA_ConfigView.swift in Sources */,
@@ -1539,7 +1504,6 @@
 				38066B522AFEA235001A88D5 /* WaitSheetView.swift in Sources */,
 				38D5C68D2AD28D6F00D943A5 /* SLUpdateView.swift in Sources */,
 				38AE9C9C2AD0750F00B761E8 /* ScribbleLabApp.swift in Sources */,
-				3886B2DA2AD19CA5002EF30E /* WelcomeView.swift in Sources */,
 				38140A692AE3F81900753FB6 /* UserService.swift in Sources */,
 				3868A3DE2AD2DBA300D4CAEC /* ImageView.swift in Sources */,
 				380D93972AE42C6600277D2D /* CompleteRegistartionView.swift in Sources */,
