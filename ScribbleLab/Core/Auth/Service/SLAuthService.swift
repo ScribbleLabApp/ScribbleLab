@@ -24,6 +24,7 @@ import FirebasePerformance
 ///
 /// This service provides various methods to handle user authentication, registration, and session management,
 /// enabling developers to integrate robust user authentication mechanisms into their applications.
+///
 class SLAuthService {
     @Published var userSession: FirebaseAuth.User?
     @Published var currentUser: User?
@@ -38,6 +39,7 @@ class SLAuthService {
     /// - Parameters:
     ///   - email: The email for login.
     ///   - password: The password for login.
+    ///
     @MainActor
     func logIn(withEmail email: String, password: String) async throws {
         do {
@@ -59,6 +61,7 @@ class SLAuthService {
     ///   - username: The username for the new user account.
     ///
     /// - Throws: An error if user registration fails.
+    ///
     @MainActor
     func createUser(email: String, password: String, username: String) async throws {
         do {
@@ -77,6 +80,7 @@ class SLAuthService {
     /// The loaded user information includes details like username, email, etc.
     ///
     /// - Throws: An error if there's an issue while loading user data.
+    ///
     @MainActor
     func loadUserData() async throws {
         self.userSession = Auth.auth().currentUser
@@ -94,6 +98,7 @@ class SLAuthService {
     /// The function sets the user session and current user information to `nil` after sign-out.
     ///
     /// Note: Any unsaved data or changes might be lost after calling this function.
+    ///
     func signOut() {
         try? Auth.auth().signOut()
         self.userSession = nil
@@ -120,6 +125,7 @@ class SLAuthService {
     /// }
     /// ```
     /// - Note: The result is delivered asynchronously via the provided closure.
+    ///
     @MainActor
     static func resetPassword(email: String, resetCompletion:@escaping (Result<Bool, Error>) -> Void) {
         Auth.auth().sendPasswordReset(withEmail: email) { (error) in
@@ -144,6 +150,7 @@ class SLAuthService {
     ///
     /// ### Usage:
     /// This function is called internally by the `SLAuthService` and should not typically be accessed directly.
+    /// 
     private func uploadUserData(uid: String, username: String, email: String) async {
         let user = User(id: uid, username: username, email: email)
         self.currentUser = user
