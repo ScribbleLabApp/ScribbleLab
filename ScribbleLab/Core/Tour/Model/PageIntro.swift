@@ -17,9 +17,9 @@ struct PageIntro: Identifiable, Hashable {
     var displayAction: Bool = false
 }
 
-//var pageIntro: [PageIntro] = [
-//    .init(introAssetImage: "people-intro", title: "Welcome to ScribbleLab", subtitle: "Start your note-taking journey by following this Tutorial", description: "To become a ScribbleLab Pro follow this Tutorial in order to become more familiar with ScribbleLab.", displayAction: <#T##Bool#>),
-//    .init(introAssetImage: "person-illustartion-grade", title: "Explore our Editor functionalities", subtitle: "", description: <#String#>, displayAction: <#T##Bool#>),
-//    .init(introAssetImage: <#T##String#>, title: <#T##String#>, subtitle: <#T##String#>, description: <#String#>, displayAction: <#T##Bool#>),
+var pageIntro: [PageIntro] = [
+    .init(introAssetImage: "people-intro", title: "Welcome to ScribbleLab", subtitle: "Start your note-taking journey by following this Tutorial", description: "To become a ScribbleLab Pro follow this Tutorial in order to become more familiar with ScribbleLab."),
+    .init(introAssetImage: "note-taking-woman", title: "Explore our Editor functionalities", subtitle: "", description: ""),
+    .init(introAssetImage: "person-illustartion-grade", title: "", subtitle: "", description: "", displayAction: true),
 //    .init(introAssetImage: <#T##String#>, title: <#T##String#>, subtitle: <#T##String#>, description: <#String#>, displayAction: <#T##Bool#>)
-//]
+]

@@ -85,6 +85,11 @@
 		3868A3E32AD2FE6600D4CAEC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3E22AD2FE6600D4CAEC /* ProfileView.swift */; };
 		3868A3E62AD305B800D4CAEC /* CreateNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3E52AD305B800D4CAEC /* CreateNewView.swift */; };
 		387B79362ADEDD9B0067E08B /* SLOtherSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387B79352ADEDD9B0067E08B /* SLOtherSettings.swift */; };
+		387F7F882B12087E001CC150 /* Draw+PencilKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F7F872B12087E001CC150 /* Draw+PencilKit.swift */; };
+		387F7F8A2B120948001CC150 /* DrawingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F7F892B120948001CC150 /* DrawingTest.swift */; };
+		387F7F8D2B122634001CC150 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F7F8C2B122634001CC150 /* ColorPickerView.swift */; };
+		387F7F902B12265A001CC150 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F7F8F2B12265A001CC150 /* Constants.swift */; };
+		387F7F962B12387E001CC150 /* DrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F7F952B12387E001CC150 /* DrawingViewController.swift */; };
 		3883D3012AFF9D6F007C00A3 /* document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3883D3002AFF9D6F007C00A3 /* document.swift */; };
 		3886B2DE2AD19F34002EF30E /* SLSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886B2DD2AD19F34002EF30E /* SLSettingsView.swift */; };
 		3886B2E12AD1ABC0002EF30E /* SLSideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886B2E02AD1ABC0002EF30E /* SLSideBarView.swift */; };
@@ -96,6 +101,7 @@
 		38A5E9BD2B03D7730037C668 /* OTPTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5E9BC2B03D7730037C668 /* OTPTextFieldView.swift */; };
 		38A5E9C22B03F0140037C668 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 38A5E9C12B03F0140037C668 /* iPhoneNumberField */; };
 		38A5E9C52B03F09C0037C668 /* SLOTP+2FA_ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5E9C42B03F09C0037C668 /* SLOTP+2FA_ConfigView.swift */; };
+		38AD22322B10F6A100663C37 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AD22312B10F6A100663C37 /* Network.swift */; };
 		38ADB4D92AF6952C0019375B /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 38ADB4D82AF6952C0019375B /* Documentation.docc */; };
 		38AE9C9C2AD0750F00B761E8 /* ScribbleLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9C9B2AD0750F00B761E8 /* ScribbleLabApp.swift */; };
 		38AE9C9E2AD0750F00B761E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9C9D2AD0750F00B761E8 /* ContentView.swift */; };
@@ -270,6 +276,11 @@
 		3868A3E22AD2FE6600D4CAEC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		3868A3E52AD305B800D4CAEC /* CreateNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewView.swift; sourceTree = "<group>"; };
 		387B79352ADEDD9B0067E08B /* SLOtherSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLOtherSettings.swift; sourceTree = "<group>"; };
+		387F7F872B12087E001CC150 /* Draw+PencilKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Draw+PencilKit.swift"; sourceTree = "<group>"; };
+		387F7F892B120948001CC150 /* DrawingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingTest.swift; sourceTree = "<group>"; };
+		387F7F8C2B122634001CC150 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		387F7F8F2B12265A001CC150 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		387F7F952B12387E001CC150 /* DrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewController.swift; sourceTree = "<group>"; };
 		3883D3002AFF9D6F007C00A3 /* document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = document.swift; sourceTree = "<group>"; };
 		3886B2DD2AD19F34002EF30E /* SLSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLSettingsView.swift; sourceTree = "<group>"; };
 		3886B2E02AD1ABC0002EF30E /* SLSideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLSideBarView.swift; sourceTree = "<group>"; };
@@ -278,6 +289,7 @@
 		38A5E9BA2B03D4E80037C668 /* SLOTP+2FAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SLOTP+2FAView.swift"; sourceTree = "<group>"; };
 		38A5E9BC2B03D7730037C668 /* OTPTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextFieldView.swift; sourceTree = "<group>"; };
 		38A5E9C42B03F09C0037C668 /* SLOTP+2FA_ConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SLOTP+2FA_ConfigView.swift"; sourceTree = "<group>"; };
+		38AD22312B10F6A100663C37 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		38ADB4D82AF6952C0019375B /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		38AE9C982AD0750F00B761E8 /* ScribbleLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScribbleLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38AE9C9B2AD0750F00B761E8 /* ScribbleLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLabApp.swift; sourceTree = "<group>"; };
@@ -381,6 +393,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		380264DF2B15050B001714AC /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		38066B502AFEA20F001A88D5 /* Waiting */ = {
 			isa = PBXGroup;
 			children = (
@@ -418,6 +437,7 @@
 			isa = PBXGroup;
 			children = (
 				38140A682AE3F81900753FB6 /* UserService.swift */,
+				38AD22312B10F6A100663C37 /* Network.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -458,9 +478,8 @@
 			children = (
 				3883D2FF2AFF9D52007C00A3 /* Service */,
 				3883D2FE2AFF9D4A007C00A3 /* Extension */,
-				3883D2FD2AFF9D44007C00A3 /* View */,
+				3883D2FD2AFF9D44007C00A3 /* ViewController */,
 				3883D2FC2AFF9D40007C00A3 /* Model */,
-				381F1F122AD72DD6001B3B10 /* TestView.swift */,
 			);
 			path = Editor;
 			sourceTree = "<group>";
@@ -776,6 +795,49 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		387F7F862B120863001CC150 /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				387F7F872B12087E001CC150 /* Draw+PencilKit.swift */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
+		387F7F8B2B122624001CC150 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				387F7F8C2B122634001CC150 /* ColorPickerView.swift */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		387F7F8E2B122646001CC150 /* Colors+Picker */ = {
+			isa = PBXGroup;
+			children = (
+				387F7F8F2B12265A001CC150 /* Constants.swift */,
+			);
+			path = "Colors+Picker";
+			sourceTree = "<group>";
+		};
+		387F7F912B12269F001CC150 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		387F7F942B1237FA001CC150 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				387F7F8E2B122646001CC150 /* Colors+Picker */,
+				387F7F862B120863001CC150 /* Drawing */,
+				387F7F8B2B122624001CC150 /* ColorPicker */,
+				387F7F892B120948001CC150 /* DrawingTest.swift */,
+				381F1F122AD72DD6001B3B10 /* TestView.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		3883D2FC2AFF9D40007C00A3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -784,16 +846,19 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		3883D2FD2AFF9D44007C00A3 /* View */ = {
+		3883D2FD2AFF9D44007C00A3 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				387F7F942B1237FA001CC150 /* Test */,
+				387F7F952B12387E001CC150 /* DrawingViewController.swift */,
 			);
-			path = View;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		3883D2FE2AFF9D4A007C00A3 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				387F7F912B12269F001CC150 /* Tools */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -887,6 +952,7 @@
 				38ADB4D82AF6952C0019375B /* Documentation.docc */,
 				385F78AB2AD5DDED0096E504 /* Settings.bundle */,
 				3858A76D2AD1498D00FC6319 /* Configs */,
+				380264DF2B15050B001714AC /* Shared */,
 				38AE9C9A2AD0750F00B761E8 /* ScribbleLab */,
 				38AE9CAF2AD0751100B761E8 /* ScribbleLabTests */,
 				38AE9CB92AD0751100B761E8 /* ScribbleLabUITests */,
@@ -1458,6 +1524,7 @@
 				3889688B2AF143C700F67F08 /* SettingsViewModel.swift in Sources */,
 				3858A77E2AD15E8900FC6319 /* NotificationSheetView.swift in Sources */,
 				383588442AFEDB4000EEA1C3 /* PerformanceView.swift in Sources */,
+				38AD22322B10F6A100663C37 /* Network.swift in Sources */,
 				387B79362ADEDD9B0067E08B /* SLOtherSettings.swift in Sources */,
 				38F59B8B2AEC4E0D00475B0B /* ResetPasswordView.swift in Sources */,
 				385F78B32AD5E4FE0096E504 /* LogInView.swift in Sources */,
@@ -1472,7 +1539,9 @@
 				38ADB4D92AF6952C0019375B /* Documentation.docc in Sources */,
 				38140A622AE3F61000753FB6 /* SLAuthService.swift in Sources */,
 				38E304702AF639F300103D71 /* Crop.swift in Sources */,
+				387F7F902B12265A001CC150 /* Constants.swift in Sources */,
 				38066B4F2AFE9F0E001A88D5 /* SLUpdateViewModel.swift in Sources */,
+				387F7F882B12087E001CC150 /* Draw+PencilKit.swift in Sources */,
 				38A24C712AED15B600F81F07 /* ImageUploader.swift in Sources */,
 				38FFF9452AE3CA6F006719E2 /* Application_utility.swift in Sources */,
 				3852D71C2B054C11007FAFF1 /* OTP+2FAViewModel.swift in Sources */,
@@ -1491,6 +1560,7 @@
 				385F468E2AD31CD100D85410 /* SignUpView.swift in Sources */,
 				38C68B9A2B0D1CA100D16E86 /* SLButton+Image.swift in Sources */,
 				38EFBE202AD6D1A400CF0ECD /* RedemtionSheetView.swift in Sources */,
+				387F7F8D2B122634001CC150 /* ColorPickerView.swift in Sources */,
 				385F78BA2AD5ECC10096E504 /* SLInfoView.swift in Sources */,
 				38EFBE1D2AD6965C00CF0ECD /* PackageLicense.swift in Sources */,
 				38D5C6952AD2CAA100D943A5 /* SLContributorModel.swift in Sources */,
@@ -1510,8 +1580,10 @@
 				381E0B382ADC14E300A2A836 /* SLStudyPomodoroTimerView.swift in Sources */,
 				3852D71F2B054D18007FAFF1 /* ParticleEffect.swift in Sources */,
 				3868A3E62AD305B800D4CAEC /* CreateNewView.swift in Sources */,
+				387F7F962B12387E001CC150 /* DrawingViewController.swift in Sources */,
 				38A5E9BB2B03D4E80037C668 /* SLOTP+2FAView.swift in Sources */,
 				3868A3DC2AD2DB0000D4CAEC /* ImageViewModel.swift in Sources */,
+				387F7F8A2B120948001CC150 /* DrawingTest.swift in Sources */,
 				38FFF9422AE3C7C9006719E2 /* SignInWithGoogleModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

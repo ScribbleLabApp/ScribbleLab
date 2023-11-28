@@ -58,15 +58,16 @@ struct SignUpView: View {
                             .autocapitalization(.none)
                             .autocorrectionDisabled()
                         
-                        SLButton(text: "Sign Up", font: .subheadline, backgroundColor: .orange, textColor: .black, cornerRadius: 10, action: {
+                        SLButton(text: "Sign Up", font: .subheadline, backgroundColor: !viewModel.isSignUpButtonEnabled ? Color.darkOrange : .orange, textColor: .black, cornerRadius: 10, action: {
                             completeRegistrationViewIsShown.toggle()
                             print("DEBUG: Sign up")
                         })
-                        .disabled(viewModel.password.count < 6)
+                        .disabled(!viewModel.isSignUpButtonEnabled)
                         .navigationDestination(isPresented: $completeRegistrationViewIsShown) {
                             CompleteRegistartionView()
                                 .navigationBarBackButtonHidden()
                                 .environmentObject(viewModel)
+                                .environmentObject(LoginViewModel())
                         }
                     }
                     

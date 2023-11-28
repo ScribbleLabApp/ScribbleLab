@@ -68,10 +68,11 @@ struct LogInView: View {
                     }
                     */
                     
-                    SLButton(text: "Log in with email", font: .subheadline, backgroundColor: .orange, textColor: .black, cornerRadius: 10) {
+                    SLButton(text: "Log in with email", font: .subheadline, backgroundColor: !viewModel.isLogInButtonEnabled ? Color.darkOrange : .orange, textColor: .black, cornerRadius: 10) {
                         Task { try await viewModel.signIn() }
                         print("DEBUG: sign in")
                     }
+                    .disabled(!viewModel.isLogInButtonEnabled)
                 }
                 
                 VStack {

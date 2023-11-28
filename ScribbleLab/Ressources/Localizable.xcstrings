@@ -362,7 +362,19 @@
         }
       }
     },
+    "Change Email" : {
+
+    },
+    "Change Password" : {
+
+    },
+    "Change Username" : {
+
+    },
     "Check for updates" : {
+
+    },
+    "Clear Image Cache" : {
 
     },
     "Click below to complete registration and start using ScribbleLab" : {
@@ -419,6 +431,9 @@
     "Create one." : {
 
     },
+    "Danger zone" : {
+
+    },
     "Dangerzone" : {
       "localizations" : {
         "de" : {
@@ -469,10 +484,16 @@
         }
       }
     },
+    "Delete Account" : {
+
+    },
     "Display mode" : {
 
     },
     "Display name" : {
+
+    },
+    "Do you really want to delete your account? This operation can't be undone" : {
 
     },
     "Do you really want to delete your account? This operation cannot be undone" : {
@@ -527,6 +548,9 @@
           }
         }
       }
+    },
+    "Edit Profile" : {
+
     },
     "Enable" : {
 
@@ -729,9 +753,6 @@
     "Heres some explaination of it" : {
 
     },
-    "Hi" : {
-
-    },
     "Homework" : {
       "localizations" : {
         "de" : {
@@ -813,6 +834,9 @@
         }
       }
     },
+    "Large" : {
+
+    },
     "Leading" : {
 
     },
@@ -881,6 +905,9 @@
 
     },
     "Manage Features" : {
+
+    },
+    "Medium" : {
 
     },
     "n/a" : {
@@ -1001,7 +1028,7 @@
         }
       }
     },
-    "Profile Settings" : {
+    "Profile Image Size" : {
 
     },
     "Purple" : {
@@ -1115,6 +1142,9 @@
     "Sign Out" : {
 
     },
+    "Small" : {
+
+    },
     "Some simple settings to make the app even better" : {
 
     },
@@ -1177,6 +1207,9 @@
 
     },
     "These settings can cause loosing all you customized settings" : {
+
+    },
+    "Thickness" : {
 
     },
     "This application needs to restart to update the configuration.\n\nDo you want to restart the application?" : {
@@ -1274,6 +1307,9 @@
         }
       }
     },
+    "User Profile" : {
+
+    },
     "Username" : {
       "localizations" : {
         "de" : {
@@ -1328,9 +1364,6 @@
       }
     },
     "We are currently working on it. Please check out this module later." : {
-
-    },
-    "We are sorry but this feature isn't done yet" : {
 
     },
     "We sent you a SMS in that" : {

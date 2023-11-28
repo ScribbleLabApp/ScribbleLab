@@ -11,14 +11,15 @@ import PhotosUI
 struct ProfileView: View {
     /// - View Properties
     @StateObject var imagePicker = ImagePicker()
+    @AppStorage("isDarkMode") private var isDarkMode = false
     
     /// - Action Properties:
     @State private var signOutWarningIsPresented = false
+    @State private var deleteAccountWarning = false
     
     var body: some View {
         NavigationStack {
             VStack {
-                // MARK: Profile headder
                 VStack {
                     PhotosPicker(selection: $imagePicker.imageSelection, matching: .images, photoLibrary: .shared()) {
                         if let image = imagePicker.image {
@@ -35,6 +36,7 @@ struct ProfileView: View {
                                 .frame(width: 150, height: 150)
                                 .clipShape(Circle())
                                 .padding()
+                                .foregroundStyle(isDarkMode ? .orange : .darkOrange)
                         }
                     }
                     Text("Test User")
@@ -44,20 +46,16 @@ struct ProfileView: View {
                         .tint(Color(.darkGray))
                 }
                 
-                // MARK: Options
-                List {
+                Form {
                     Section {
-                        Button {
-                            signOutWarningIsPresented.toggle()
-                        } label: {
-                            Text("Sign Out")
-                                .foregroundStyle(.red)
+                        Button("Change Password") {
+                            
                         }
-                        .alert(isPresented: $signOutWarningIsPresented) {
-                            Alert(title: Text("Important message"), message: Text("Do you really want to sign out? You'll be not able to use this app without signing in"), primaryButton: .default(Text("Cancel"), action: {}), secondaryButton: .destructive(Text("Confirm").fontWeight(.semibold), action: {
-                                // TODO: Call the to factory setting func
-                                SLAuthService.shared.signOut()
-                            }))
+                        Button("Change Email") {
+                            
+                        }
+                        Button("Change Username") {
+                            
                         }
                         NavigationLink {
                             SLOTP_2FA_ConfigView()
@@ -67,9 +65,55 @@ struct ProfileView: View {
                                 .tint(.black)
                         }
                     } header: {
-                        Text("Profile Settings")
+                        Text("User Profile")
                     } footer: {
                         
+                    }
+                    
+                    Section() {
+                        Button("Edit Profile") {
+                            
+                        }
+                    }
+                    
+                    Section() {
+                        Picker(selection: .constant(1), label: Text("Profile Image Size")) {
+                            Text("Small").tag(0)
+                            Text("Medium").tag(1)
+                            Text("Large").tag(2)
+                        }
+                        
+                        Button("Clear Image Cache") {
+                            
+                        }
+                    }
+                    
+                    Section("Danger zone") {
+                        Button {
+                            signOutWarningIsPresented.toggle()
+                        } label: {
+                            Text("Sign Out")
+                                .foregroundStyle(.red)
+                                .bold()
+                        }
+                        .alert(isPresented: $signOutWarningIsPresented) {
+                            Alert(title: Text("Important message"), message: Text("Do you really want to sign out? You'll be not able to use this app without signing in"), primaryButton: .default(Text("Cancel"), action: {}), secondaryButton: .destructive(Text("Confirm").fontWeight(.semibold), action: {
+                                // TODO: Call the to factory setting func
+                                SLAuthService.shared.signOut()
+                            }))
+                        }
+                        
+                        Button("Delete Account") {
+                            deleteAccountWarning.toggle()
+                        }
+                        .tint(.red)
+                        .bold()
+                        .alert(isPresented: $deleteAccountWarning) {
+                            Alert(title: Text("Important message"), message: Text("Do you really want to delete your account? This operation can't be undone"), primaryButton: .default(Text("Cancel"), action: {}), secondaryButton: .destructive(Text("Confirm").fontWeight(.semibold), action: {
+                                // TODO: Call the to factory setting func
+                                
+                            }))
+                        }
                     }
                 }
             }
