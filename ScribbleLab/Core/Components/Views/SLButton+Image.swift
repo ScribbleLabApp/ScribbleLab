@@ -142,7 +142,7 @@ extension View {
     /// }
     /// ```
     ///
-    /// Note: To use this Button for Auth use as background Color .clear
+    /// > Important: To use this Button for Auth use as background Color .clear
     func SLImageButton(text: String, font: Font, backgroundColor: Color, textColor: Color, cornerRadius: CGFloat, image: Image? = nil, systemImageName: String? = nil, imageWidth: CGFloat, imageHeight: CGFloat, action: @escaping () -> Void) -> some View {
         SLButton_Image(text: text, font: font, textColor: textColor, backgroundColor: backgroundColor, cornerRadius: cornerRadius, action: action, image: image, systemImageName: systemImageName, imageWidth: imageWidth, imageHeight: imageHeight)
         }

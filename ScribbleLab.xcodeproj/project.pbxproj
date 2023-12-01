@@ -22,6 +22,10 @@
 		381E0B382ADC14E300A2A836 /* SLStudyPomodoroTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381E0B372ADC14E300A2A836 /* SLStudyPomodoroTimerView.swift */; };
 		381F1F132AD72DD6001B3B10 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F1F122AD72DD6001B3B10 /* TestView.swift */; };
 		382520E22AEE671C002ECED2 /* SwiftRUI in Frameworks */ = {isa = PBXBuildFile; productRef = 382520E12AEE671C002ECED2 /* SwiftRUI */; };
+		38348BEE2B1A6A1A00846877 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38348BED2B1A6A1900846877 /* HomeViewModel.swift */; };
+		38348BF22B1A981100846877 /* testAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38348BF12B1A981100846877 /* testAuthentication.swift */; };
+		38348BF62B1A9F0200846877 /* testLogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38348BF52B1A9F0200846877 /* testLogIn.swift */; };
+		38348BF82B1A9F5A00846877 /* testRegestration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38348BF72B1A9F5A00846877 /* testRegestration.swift */; };
 		38355ED72AD3D52D00392674 /* IGTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38355ED62AD3D52D00392674 /* IGTextFieldModifier.swift */; };
 		38355ED92AD3D71900392674 /* IGButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38355ED82AD3D71900392674 /* IGButtonModifier.swift */; };
 		38355EE12AD3DB3200392674 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38355EE02AD3DB3200392674 /* WidgetKit.framework */; };
@@ -101,6 +105,11 @@
 		38A5E9BD2B03D7730037C668 /* OTPTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5E9BC2B03D7730037C668 /* OTPTextFieldView.swift */; };
 		38A5E9C22B03F0140037C668 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 38A5E9C12B03F0140037C668 /* iPhoneNumberField */; };
 		38A5E9C52B03F09C0037C668 /* SLOTP+2FA_ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5E9C42B03F09C0037C668 /* SLOTP+2FA_ConfigView.swift */; };
+		38AB462F2B16524000DC9D1C /* Beta.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 385F788A2AD5C4410096E504 /* Beta.xcconfig */; };
+		38AB46302B16524000DC9D1C /* RC.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 385F788B2AD5C4530096E504 /* RC.xcconfig */; };
+		38AB46312B16524000DC9D1C /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 385F788C2AD5C4690096E504 /* Release.xcconfig */; };
+		38AB46322B16524000DC9D1C /* Alpha.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 38355EFD2AD3DF9B00392674 /* Alpha.xcconfig */; };
+		38AB46332B16524000DC9D1C /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 38355F032AD3DFED00392674 /* Debug.xcconfig */; };
 		38AD22322B10F6A100663C37 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AD22312B10F6A100663C37 /* Network.swift */; };
 		38ADB4D92AF6952C0019375B /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 38ADB4D82AF6952C0019375B /* Documentation.docc */; };
 		38AE9C9C2AD0750F00B761E8 /* ScribbleLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9C9B2AD0750F00B761E8 /* ScribbleLabApp.swift */; };
@@ -223,6 +232,11 @@
 		381E0B352ADC136400A2A836 /* PomodoroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroModel.swift; sourceTree = "<group>"; };
 		381E0B372ADC14E300A2A836 /* SLStudyPomodoroTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLStudyPomodoroTimerView.swift; sourceTree = "<group>"; };
 		381F1F122AD72DD6001B3B10 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		38348BED2B1A6A1900846877 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		38348BF02B1A755000846877 /* Components.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Components.md; sourceTree = "<group>"; };
+		38348BF12B1A981100846877 /* testAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAuthentication.swift; sourceTree = "<group>"; };
+		38348BF52B1A9F0200846877 /* testLogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testLogIn.swift; sourceTree = "<group>"; };
+		38348BF72B1A9F5A00846877 /* testRegestration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testRegestration.swift; sourceTree = "<group>"; };
 		38355ED62AD3D52D00392674 /* IGTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGTextFieldModifier.swift; sourceTree = "<group>"; };
 		38355ED82AD3D71900392674 /* IGButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGButtonModifier.swift; sourceTree = "<group>"; };
 		38355EDE2AD3DB3200392674 /* ScribbleLab-WidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ScribbleLab-WidgetsExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -492,7 +506,40 @@
 			path = "Reset Password";
 			sourceTree = "<group>";
 		};
-		38355ED52AD3D50F00392674 /* Componets */ = {
+		38348BEB2B1A613B00846877 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				38348BED2B1A6A1900846877 /* HomeViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		38348BEC2B1A614500846877 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		38348BF32B1A985000846877 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				38348BF12B1A981100846877 /* testAuthentication.swift */,
+				38348BF52B1A9F0200846877 /* testLogIn.swift */,
+				38348BF72B1A9F5A00846877 /* testRegestration.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		38348BF42B1A985A00846877 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				38AE9CB02AD0751100B761E8 /* ScribbleLabTests.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		38355ED52AD3D50F00392674 /* Components */ = {
 			isa = PBXGroup;
 			children = (
 				38C68B962B0D133100D16E86 /* Views */,
@@ -500,8 +547,9 @@
 				3852D7182B053C24007FAFF1 /* Shaders */,
 				38355ED62AD3D52D00392674 /* IGTextFieldModifier.swift */,
 				38355ED82AD3D71900392674 /* IGButtonModifier.swift */,
+				38348BF02B1A755000846877 /* Components.md */,
 			);
-			path = Componets;
+			path = Components;
 			sourceTree = "<group>";
 		};
 		38355EDF2AD3DB3200392674 /* Frameworks */ = {
@@ -598,7 +646,7 @@
 			isa = PBXGroup;
 			children = (
 				3868A3ED2AD3079200D4CAEC /* Auth */,
-				38355ED52AD3D50F00392674 /* Componets */,
+				38355ED52AD3D50F00392674 /* Components */,
 				381F1F112AD72DC2001B3B10 /* Editor */,
 				3858A7722AD14AC800FC6319 /* Features */,
 				3858A7712AD14AC200FC6319 /* Home */,
@@ -644,6 +692,8 @@
 		3858A7712AD14AC200FC6319 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				38348BEC2B1A614500846877 /* View */,
+				38348BEB2B1A613B00846877 /* Models */,
 				3858A7772AD14C9E00FC6319 /* HomeView.swift */,
 			);
 			path = Home;
@@ -949,16 +999,16 @@
 		38AE9C8F2AD0750F00B761E8 = {
 			isa = PBXGroup;
 			children = (
-				38ADB4D82AF6952C0019375B /* Documentation.docc */,
 				385F78AB2AD5DDED0096E504 /* Settings.bundle */,
+				38ADB4D82AF6952C0019375B /* Documentation.docc */,
 				3858A76D2AD1498D00FC6319 /* Configs */,
 				380264DF2B15050B001714AC /* Shared */,
 				38AE9C9A2AD0750F00B761E8 /* ScribbleLab */,
+				3836C2A02AF29CBF008F475F /* ScribbleLab AppClip */,
+				385F78972AD5C84B0096E504 /* SLStickerPack */,
+				38355EE42AD3DB3200392674 /* ScribbleLab-Widgets */,
 				38AE9CAF2AD0751100B761E8 /* ScribbleLabTests */,
 				38AE9CB92AD0751100B761E8 /* ScribbleLabUITests */,
-				38355EE42AD3DB3200392674 /* ScribbleLab-Widgets */,
-				385F78972AD5C84B0096E504 /* SLStickerPack */,
-				3836C2A02AF29CBF008F475F /* ScribbleLab AppClip */,
 				38355EDF2AD3DB3200392674 /* Frameworks */,
 				38AE9C992AD0750F00B761E8 /* Products */,
 			);
@@ -1005,7 +1055,8 @@
 		38AE9CAF2AD0751100B761E8 /* ScribbleLabTests */ = {
 			isa = PBXGroup;
 			children = (
-				38AE9CB02AD0751100B761E8 /* ScribbleLabTests.swift */,
+				38348BF42B1A985A00846877 /* Main */,
+				38348BF32B1A985000846877 /* Auth */,
 			);
 			path = ScribbleLabTests;
 			sourceTree = "<group>";
@@ -1370,7 +1421,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
+				LastSwiftUpdateCheck = 1510;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					38355EDD2AD3DB3200392674 = {
@@ -1470,10 +1521,15 @@
 			files = (
 				38AE9CA52AD0751100B761E8 /* Preview Assets.xcassets in Resources */,
 				38AE9CA22AD0751100B761E8 /* Assets.xcassets in Resources */,
+				38AB46312B16524000DC9D1C /* Release.xcconfig in Resources */,
 				385F78AC2AD5DDEE0096E504 /* Settings.bundle in Resources */,
 				385F78A82AD5D2170096E504 /* Launch Screen.storyboard in Resources */,
+				38AB462F2B16524000DC9D1C /* Beta.xcconfig in Resources */,
 				385F788E2AD5C56E0096E504 /* Localizable.xcstrings in Resources */,
+				38AB46332B16524000DC9D1C /* Debug.xcconfig in Resources */,
 				38FFF9402AE3C55F006719E2 /* GoogleService-Info.plist in Resources */,
+				38AB46302B16524000DC9D1C /* RC.xcconfig in Resources */,
+				38AB46322B16524000DC9D1C /* Alpha.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1536,6 +1592,7 @@
 				38C68B982B0D134300D16E86 /* SLButton.swift in Sources */,
 				381F1F132AD72DD6001B3B10 /* TestView.swift in Sources */,
 				38F9080D2B0920ED0092EC58 /* PageIntro.swift in Sources */,
+				38348BEE2B1A6A1A00846877 /* HomeViewModel.swift in Sources */,
 				38ADB4D92AF6952C0019375B /* Documentation.docc in Sources */,
 				38140A622AE3F61000753FB6 /* SLAuthService.swift in Sources */,
 				38E304702AF639F300103D71 /* Crop.swift in Sources */,
@@ -1592,7 +1649,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38348BF82B1A9F5A00846877 /* testRegestration.swift in Sources */,
+				38348BF62B1A9F0200846877 /* testLogIn.swift in Sources */,
 				38AE9CB12AD0751100B761E8 /* ScribbleLabTests.swift in Sources */,
+				38348BF22B1A981100846877 /* testAuthentication.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
