@@ -7,10 +7,14 @@
 
 import SwiftUI
 import UserNotifications
+import TipKit
 
 struct HomeView: View {
     @StateObject var viewModifier = HomeViewModel()
     @AppStorage("isDarkMode") private var isDarkMode = false
+        
+    let createFirstDocumentTip = CreateNewDocumentTip()
+    let showNotificationTip = ShowNotificationsTip()
         
     var body: some View {
         NavigationStack {
@@ -20,18 +24,22 @@ struct HomeView: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
-                        print("DEBUG: create doc")
+                        Task { await CreateNewDocumentTip.createNewDocumentEvent.donate() }
                     } label: {
                         Image(systemName: "plus")
                     }
+                    .popoverTip(createFirstDocumentTip)
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
                         viewModifier.notificationSheetisPresented.toggle()
+                        Task {
+                            await ShowNotificationsTip.visitNotificationViewEvent.donate()
+                        }
                     } label: {
-                        // TODO: Check if the user has new notifications if yes change the icon to "bell.badge"
-                        Image(systemName: "bell") // bell.badge
+                        Image(systemName: viewModifier.newNotification ? "bell.badge" : "bell")
                     }
+                    .popoverTip(showNotificationTip)
                     .sheet(isPresented: $viewModifier.notificationSheetisPresented, content: {
                         NotificationSheetView()
                     })
@@ -68,10 +76,24 @@ struct HomeView: View {
                 }
                 // Provisional authorization granted.
             }
+            
+            Task { 
+                await CreateNewDocumentTip.launchHomeScreenEvent.donate()
+            }
+            
+            Task {
+                await ShowNotificationsTip.launchHomeScreenEvent.donate()
+            }
         }
     }
 }
 
 #Preview {
     HomeView()
+        .task {
+//            try? Tips.resetDatastore()
+            try? Tips.configure([
+                .datastoreLocation(.applicationDefault)
+            ])
+        }
 }

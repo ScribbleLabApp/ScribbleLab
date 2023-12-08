@@ -40,8 +40,8 @@ class LoginViewModelTests: XCTestCase {
             .store(in: &cancellables)
         
         // Simulate changes in email and password
-        viewModel.email = "test@example.com"
-        viewModel.password = "Test1234"
+        viewModel.email = "test11@gmail.com"
+        viewModel.password = "test1111"
         
         // Then
         waitForExpectations(timeout: 1) { error in

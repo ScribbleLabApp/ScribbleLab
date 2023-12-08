@@ -422,7 +422,7 @@
     "Create" : {
       "extractionState" : "manual"
     },
-    "Create new" : {
+    "Create New Document" : {
 
     },
     "Create one." : {
@@ -673,9 +673,6 @@
 
     },
     "General infos" : {
-
-    },
-    "Get started with Scribble Lab" : {
 
     },
     "GoogleSignIn" : {
@@ -1118,6 +1115,9 @@
         }
       }
     },
+    "Show Notifications" : {
+
+    },
     "Sign Out" : {
 
     },
@@ -1161,6 +1161,9 @@
       }
     },
     "Tab on a gift code to redeem it" : {
+
+    },
+    "Tab on the 􀝖 to check your notifications" : {
 
     },
     "Tags" : {
@@ -1220,6 +1223,9 @@
       }
     },
     "To apply the Apache License to your work, attach the following boilerplate notice, with the fields enclosed by brackets '[]' replaced with your own identifying information. (Don't include the brackets!)  The text should be enclosed in the appropriate comment syntax for the file format. We also recommend that a file or class name and description of purpose be included on the same 'printed page' as the copyright notice for easier identification within third-party archives." : {
+
+    },
+    "To create a new document tab here" : {
 
     },
     "To keep a clean overview of your app you can disable features you don't use that often." : {
@@ -1358,6 +1364,7 @@
 
     },
     "Welcome to Scribble Lab" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1413,9 +1420,6 @@
       }
     },
     "you can find your OTP Code" : {
-
-    },
-    "You have no unread notifications" : {
 
     },
     "You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License." : {

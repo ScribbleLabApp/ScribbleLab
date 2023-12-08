@@ -28,26 +28,24 @@ class RegistrationViewModelTests: XCTestCase {
     
     func testSignUpButtonEnabled() {
         // Given
-        let expectation = self.expectation(description: "SignUpButtonExpectation")
+        let expectation = XCTestExpectation(description: "Sign Up Button Enabled")
         var buttonEnabledStatus = false
         
-        // When
-        viewModel.$isSignUpButtonEnabled
+        let cancellable = viewModel.$isSignUpButtonEnabled
             .dropFirst() // Skip the initial value
-            .sink { value in
-                buttonEnabledStatus = value
+            .sink { isEnabled in
+                buttonEnabledStatus = isEnabled
                 expectation.fulfill()
             }
-            .store(in: &cancellables)
         
-        // Simulate changes in username, email, and password
-        viewModel.username = "test1212"
-        viewModel.email = "test12@gmail.com"
-        viewModel.password = "test1212"
+        viewModel.username = "test1111"
+        viewModel.email = "test11@gmail.com"
+        viewModel.password = "test1111"
         
-        // Then
-        waitForExpectations(timeout: 1) { error in
-            XCTAssertTrue(buttonEnabledStatus, "Sign up button should be enabled with valid inputs")
-        }
+        // When & Then
+        wait(for: [expectation], timeout: 1)
+        cancellable.cancel() // Cancel the subscription
+        
+        XCTAssertTrue(buttonEnabledStatus, "Sign up button should be enabled with valid inputs")
     }
 }

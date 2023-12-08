@@ -10,8 +10,15 @@ import SwiftUI
 struct NotificationSheetView: View {
     var body: some View {
         NavigationStack {
-            ContentUnavailableView("You have no unread notifications", systemImage: "bell.badge.fill")
-                .navigationTitle("Notifications")
+//            ContentUnavailableView("You have no unread notifications", systemImage: "bell.badge.fill")
+//                .navigationTitle("Notifications")
+            ScrollView {
+                ForEach(0...10, id: \.self) { notification in
+                    NotificationCell()
+                }
+            }
+            .padding()
+            .navigationTitle("Notifications")
         }
     }
 }
