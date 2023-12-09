@@ -251,9 +251,6 @@
         }
       }
     },
-    "2023/10/07 4:38 pm" : {
-
-    },
     "Accessibility" : {
 
     },
@@ -320,8 +317,8 @@
       "localizations" : {
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : ""
+            "state" : "translated",
+            "value" : "Unten %@"
           }
         }
       }
@@ -362,7 +359,19 @@
         }
       }
     },
+    "Change Email" : {
+
+    },
+    "Change Password" : {
+
+    },
+    "Change Username" : {
+
+    },
     "Check for updates" : {
+
+    },
+    "Clear Image Cache" : {
 
     },
     "Click below to complete registration and start using ScribbleLab" : {
@@ -390,10 +399,8 @@
         }
       }
     },
-    "Continue with Apple" : {
-
-    },
     "Continue with Google" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -415,10 +422,13 @@
     "Create" : {
       "extractionState" : "manual"
     },
-    "Create new" : {
+    "Create New Document" : {
 
     },
     "Create one." : {
+
+    },
+    "Danger zone" : {
 
     },
     "Dangerzone" : {
@@ -471,10 +481,16 @@
         }
       }
     },
+    "Delete Account" : {
+
+    },
     "Display mode" : {
 
     },
     "Display name" : {
+
+    },
+    "Do you really want to delete your account? This operation can't be undone" : {
 
     },
     "Do you really want to delete your account? This operation cannot be undone" : {
@@ -529,6 +545,9 @@
           }
         }
       }
+    },
+    "Edit Profile" : {
+
     },
     "Enable" : {
 
@@ -623,9 +642,6 @@
         }
       }
     },
-    "Filename" : {
-
-    },
     "Follow system scheme" : {
 
     },
@@ -657,9 +673,6 @@
 
     },
     "General infos" : {
-
-    },
-    "Get started with Scribble Lab" : {
 
     },
     "GoogleSignIn" : {
@@ -697,9 +710,6 @@
     "HAPPYFALL2023" : {
 
     },
-    "Hello" : {
-
-    },
     "Hello %@" : {
       "localizations" : {
         "de" : {
@@ -723,12 +733,6 @@
 
     },
     "Help" : {
-
-    },
-    "Here you can find your pinned documents" : {
-
-    },
-    "Heres some explaination of it" : {
 
     },
     "Hi" : {
@@ -815,6 +819,9 @@
         }
       }
     },
+    "Large" : {
+
+    },
     "Leading" : {
 
     },
@@ -858,6 +865,7 @@
       }
     },
     "Log in with email" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -882,6 +890,9 @@
 
     },
     "Manage Features" : {
+
+    },
+    "Medium" : {
 
     },
     "n/a" : {
@@ -973,12 +984,6 @@
     "phone number in order to get 2FA Codes or" : {
 
     },
-    "Pinned" : {
-
-    },
-    "Pinned documents" : {
-
-    },
     "Pomodoro Timer" : {
 
     },
@@ -1002,7 +1007,7 @@
         }
       }
     },
-    "Profile Settings" : {
+    "Profile Image Size" : {
 
     },
     "Purple" : {
@@ -1025,9 +1030,6 @@
         }
       }
     },
-    "Recently opened" : {
-
-    },
     "Red" : {
       "localizations" : {
         "de" : {
@@ -1048,9 +1050,6 @@
 
     },
     "Redeemtion (BETA)" : {
-
-    },
-    "Register" : {
 
     },
     "Reminder" : {
@@ -1116,10 +1115,13 @@
         }
       }
     },
+    "Show Notifications" : {
+
+    },
     "Sign Out" : {
 
     },
-    "Sign Up" : {
+    "Small" : {
 
     },
     "Some simple settings to make the app even better" : {
@@ -1161,6 +1163,16 @@
     "Tab on a gift code to redeem it" : {
 
     },
+    "Tab on the 􀝖 to check your notifications" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drücke auf die 􀝖 um deine Benachrichtigungen anzusehen"
+          }
+        }
+      }
+    },
     "Tags" : {
       "localizations" : {
         "de" : {
@@ -1186,10 +1198,16 @@
     "These settings can cause loosing all you customized settings" : {
 
     },
+    "Thickness" : {
+
+    },
     "This application needs to restart to update the configuration.\n\nDo you want to restart the application?" : {
 
     },
     "This is a View to test the SLButton!" : {
+
+    },
+    "This is a View to test the SLImageButtons!" : {
 
     },
     "This is an example widget." : {
@@ -1212,6 +1230,9 @@
       }
     },
     "To apply the Apache License to your work, attach the following boilerplate notice, with the fields enclosed by brackets '[]' replaced with your own identifying information. (Don't include the brackets!)  The text should be enclosed in the appropriate comment syntax for the file format. We also recommend that a file or class name and description of purpose be included on the same 'printed page' as the copyright notice for easier identification within third-party archives." : {
+
+    },
+    "To create a new document tab here" : {
 
     },
     "To keep a clean overview of your app you can disable features you don't use that often." : {
@@ -1278,6 +1299,9 @@
         }
       }
     },
+    "User Profile" : {
+
+    },
     "Username" : {
       "localizations" : {
         "de" : {
@@ -1334,9 +1358,6 @@
     "We are currently working on it. Please check out this module later." : {
 
     },
-    "We are sorry but this feature isn't done yet" : {
-
-    },
     "We sent you a SMS in that" : {
 
     },
@@ -1350,6 +1371,7 @@
 
     },
     "Welcome to Scribble Lab" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1405,9 +1427,6 @@
       }
     },
     "you can find your OTP Code" : {
-
-    },
-    "You have no unread notifications" : {
 
     },
     "You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License." : {

@@ -10,7 +10,7 @@
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 			<key>Title</key>
-			<string>Group</string>
+			<string>App Info</string>
 		</dict>
 		<dict>
 			<key>Type</key>
@@ -22,29 +22,19 @@
 		</dict>
 		<dict>
 			<key>Type</key>
-			<string>PSToggleSwitchSpecifier</string>
+			<string>PSTitleValueSpecifier</string>
 			<key>Title</key>
-			<string>Enabled</string>
+			<string>Build</string>
 			<key>Key</key>
-			<string>enabled_preference</string>
-			<key>DefaultValue</key>
-			<true/>
+			<string>CFBundleVersion</string>
 		</dict>
 		<dict>
 			<key>Type</key>
-			<string>PSSliderSpecifier</string>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Copyright</string>
 			<key>Key</key>
-			<string>slider_preference</string>
-			<key>DefaultValue</key>
-			<real>0.5</real>
-			<key>MinimumValue</key>
-			<integer>0</integer>
-			<key>MaximumValue</key>
-			<integer>1</integer>
-			<key>MinimumValueImage</key>
-			<string></string>
-			<key>MaximumValueImage</key>
-			<string></string>
+			<string>NSHumanReadableCopyright</string>
 		</dict>
 	</array>
 </dict>

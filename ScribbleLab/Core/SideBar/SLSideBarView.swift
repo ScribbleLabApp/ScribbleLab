@@ -30,12 +30,12 @@ struct SLSideBarView: View {
                         Label("Store", systemImage: "storefront")
                     }
                     NavigationLink {
-                        TimetableView()
+                        
                     } label: {
                         Label("Timetable", systemImage: "calendar.badge.clock")
                     }
                     NavigationLink {
-                        SLCalenderView()
+                        
                     } label: {
                         Label("Calender", systemImage: "calendar")
                     }

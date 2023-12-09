@@ -7,77 +7,40 @@
 
 import SwiftUI
 import UserNotifications
+import TipKit
 
 struct HomeView: View {
-    @State private var notificationSheetisPresented = false
-    @State private var settingsViewSheetisPresented = false
-    
-    @State private var allowNotificationsIsGarnted = false
+    @StateObject var viewModifier = HomeViewModel()
     @AppStorage("isDarkMode") private var isDarkMode = false
-    
-    @State private var searchText = ""
-    
+        
+    let createFirstDocumentTip = CreateNewDocumentTip()
+    let showNotificationTip = ShowNotificationsTip()
+        
     var body: some View {
         NavigationStack {
-            // TODO: Create a list with the notebooks and notes e.g .slnote or .pdf, ... files
-            // MARK: File-/Notebook list
-            List {
-                // MARK: - Pinned documents
-                // FIXME: Show cards if no docs are pinned create custom content unavailable view
-                Section {
-                    Text("Pinned")
-                    Text("Hello")
-                } header: {
-                    Text("Pinned documents")
-                } footer: {
-                    Text("Here you can find your pinned documents")
-                }
-                // MARK: - Recently used docs
-                Section {
-                    HStack {
-                        VStack(alignment: .leading) {
-                            HStack {
-                                Image(systemName: "doc")
-                                Text("Filename")
-                                    .fontWeight(.semibold)
-                            }
-                            HStack {
-                                Image(systemName: "doc")
-                                    .foregroundStyle(.clear)
-                                Text("2023/10/07 4:38 pm")
-                                    .fontWeight(.semibold)
-                                    .font(.caption)
-                                .foregroundStyle(Color.gray)
-                            }
-                        }
-                        Spacer()
-                        
-                        Image(systemName: "chevron.right")
-                    }
-                } header: {
-                    Text("Recently opened")
-                } footer: {
-                    Text("Heres some explaination of it")
-                }
-                
-                // MARK: - All documents, files, folders
-            }
-            .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .automatic), prompt: "Search")
-            // FIXME: Change back to `.insetGrouped`
-            .listStyle(.grouped)
+            Text("Hi")
+
             .navigationTitle("Documents")
-//          .navigationBarTitleDisplayMode(.large)
-            
             .toolbar {
-                // FIXME: Show NotificationSheet
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
-                        notificationSheetisPresented.toggle()
+                        Task { await CreateNewDocumentTip.createNewDocumentEvent.donate() }
                     } label: {
-                        // TODO: Check if the user has new notifications if yes change the icon to "bell.badge"
-                        Image(systemName: "bell") // bell.badge
+                        Image(systemName: "plus")
                     }
-                    .sheet(isPresented: $notificationSheetisPresented, content: {
+                    .popoverTip(createFirstDocumentTip)
+                }
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                        viewModifier.notificationSheetisPresented.toggle()
+                        Task {
+                            await ShowNotificationsTip.visitNotificationViewEvent.donate()
+                        }
+                    } label: {
+                        Image(systemName: viewModifier.newNotification ? "bell.badge" : "bell")
+                    }
+                    .popoverTip(showNotificationTip)
+                    .sheet(isPresented: $viewModifier.notificationSheetisPresented, content: {
                         NotificationSheetView()
                     })
                 }
@@ -85,17 +48,18 @@ struct HomeView: View {
                 // FIXME: TODO: Show Settings sheet
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
-                        settingsViewSheetisPresented.toggle()
+                        viewModifier.settingsViewSheetisPresented.toggle()
                     } label: {
                         Image(systemName: "gearshape")
                     }
-                    .sheet(isPresented: $settingsViewSheetisPresented, content: {
+                    .sheet(isPresented: $viewModifier.settingsViewSheetisPresented, content: {
                         SLSettingsView()
                     })
                 }
             }
             .tint(isDarkMode ? .white : .black)
         }
+        
         // FIXME: Fix notification alert
         .onAppear {
             let center = UNUserNotificationCenter.current()
@@ -107,10 +71,18 @@ struct HomeView: View {
                 }
                 
                 // FIXME: Rework this
-//                if granted == granted {
-//                    self.allowNotificationsIsGarnted.toggle()
-//                }
+                if granted == granted {
+                    self.viewModifier.allowNotificationsIsGarnted.toggle()
+                }
                 // Provisional authorization granted.
+            }
+            
+            Task { 
+                await CreateNewDocumentTip.launchHomeScreenEvent.donate()
+            }
+            
+            Task {
+                await ShowNotificationsTip.launchHomeScreenEvent.donate()
             }
         }
     }
@@ -118,4 +90,10 @@ struct HomeView: View {
 
 #Preview {
     HomeView()
+        .task {
+//            try? Tips.resetDatastore()
+            try? Tips.configure([
+                .datastoreLocation(.applicationDefault)
+            ])
+        }
 }
