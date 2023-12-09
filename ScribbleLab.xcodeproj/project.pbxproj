@@ -481,6 +481,14 @@
 			path = SLAI;
 			sourceTree = "<group>";
 		};
+		381B83B92B24E5D800E7E8E7 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				38ADB4D82AF6952C0019375B /* Documentation.docc */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
 		381E0B332ADC134C00A2A836 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -1061,7 +1069,7 @@
 			isa = PBXGroup;
 			children = (
 				385F78AB2AD5DDED0096E504 /* Settings.bundle */,
-				38ADB4D82AF6952C0019375B /* Documentation.docc */,
+				381B83B92B24E5D800E7E8E7 /* docs */,
 				3858A76D2AD1498D00FC6319 /* Configs */,
 				380264DF2B15050B001714AC /* Shared */,
 				38AE9C9A2AD0750F00B761E8 /* ScribbleLab */,
