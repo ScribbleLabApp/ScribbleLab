@@ -7,7 +7,7 @@
   <a aria-label="Follow CodeMaster on Github" href="https://github.com/ScribbleLabApp" target="_blank">
     <img alt="" src="https://img.shields.io/badge/Follow%20@ScribbleLabApp-black.svg?style=for-the-badge&logo=Github">
   </a>
-  <a aria-label="Read the Documentation" href="" target="_blank">
+  <a aria-label="Read the Documentation" href="https://scribblelabapp.github.io/ScribbleLab/" target="_blank">
     <img alt="" src="https://img.shields.io/badge/Documentation-black.svg?style=for-the-badge&logo=readthedocs&logoColor=blue">
   </a>
   <a aria-label="Join the community on Discord (Soon)" href="" target="_blank">
