@@ -138,6 +138,7 @@
 		38EFBE202AD6D1A400CF0ECD /* RedemtionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFBE1F2AD6D1A400CF0ECD /* RedemtionSheetView.swift */; };
 		38EFBE232AD6E4EF00CF0ECD /* RestartAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFBE222AD6E4EF00CF0ECD /* RestartAppView.swift */; };
 		38F59B8B2AEC4E0D00475B0B /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F59B8A2AEC4E0D00475B0B /* ResetPasswordView.swift */; };
+		38FB56EC2B239AFC00DEFE3C /* com.apple.uikit.inputalternatives.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38FB56EB2B239AFC00DEFE3C /* com.apple.uikit.inputalternatives.plist */; };
 		38FFF9322AE3C18B006719E2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF9312AE3C18B006719E2 /* FirebaseAuth */; };
 		38FFF9342AE3C18B006719E2 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF9332AE3C18B006719E2 /* FirebaseCrashlytics */; };
 		38FFF9362AE3C18B006719E2 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF9352AE3C18B006719E2 /* FirebaseDatabase */; };
@@ -339,6 +340,7 @@
 		38EFBE1F2AD6D1A400CF0ECD /* RedemtionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedemtionSheetView.swift; sourceTree = "<group>"; };
 		38EFBE222AD6E4EF00CF0ECD /* RestartAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartAppView.swift; sourceTree = "<group>"; };
 		38F59B8A2AEC4E0D00475B0B /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		38FB56EB2B239AFC00DEFE3C /* com.apple.uikit.inputalternatives.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = com.apple.uikit.inputalternatives.plist; sourceTree = "<group>"; };
 		38FFF93F2AE3C55F006719E2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		38FFF9412AE3C7C9006719E2 /* SignInWithGoogleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithGoogleModel.swift; sourceTree = "<group>"; };
 		38FFF9442AE3CA6F006719E2 /* Application_utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application_utility.swift; sourceTree = "<group>"; };
@@ -794,6 +796,7 @@
 		385F468C2AD31CA000D85410 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				38FB56EA2B237C7400DEFE3C /* Passwordless */,
 				38A5E9B92B03D4A60037C668 /* OTP+2FA */,
 				38066B502AFEA20F001A88D5 /* Waiting */,
 				382520E32AEE676D002ECED2 /* Reset Password */,
@@ -1099,6 +1102,7 @@
 				385F78A62AD5D0C50096E504 /* TestPlan.xctestplan */,
 				38AE9CA72AD0751100B761E8 /* Info.plist */,
 				38FFF93F2AE3C55F006719E2 /* GoogleService-Info.plist */,
+				38FB56EB2B239AFC00DEFE3C /* com.apple.uikit.inputalternatives.plist */,
 			);
 			path = ScribbleLab;
 			sourceTree = "<group>";
@@ -1306,6 +1310,13 @@
 			path = AppAuth;
 			sourceTree = "<group>";
 		};
+		38FB56EA2B237C7400DEFE3C /* Passwordless */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Passwordless;
+			sourceTree = "<group>";
+		};
 		38FFF9432AE3CA52006719E2 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -1503,6 +1514,8 @@
 				fr,
 				el,
 				pl,
+				ja,
+				ko,
 			);
 			mainGroup = 38AE9C8F2AD0750F00B761E8;
 			packageReferences = (
@@ -1563,6 +1576,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38FB56EC2B239AFC00DEFE3C /* com.apple.uikit.inputalternatives.plist in Resources */,
 				38AE9CA52AD0751100B761E8 /* Preview Assets.xcassets in Resources */,
 				38AE9CA22AD0751100B761E8 /* Assets.xcassets in Resources */,
 				38AB46312B16524000DC9D1C /* Release.xcconfig in Resources */,

@@ -317,8 +317,8 @@
       "localizations" : {
         "de" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : ""
+            "state" : "translated",
+            "value" : "Unten %@"
           }
         }
       }
@@ -1164,7 +1164,14 @@
 
     },
     "Tab on the 􀝖 to check your notifications" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drücke auf die 􀝖 um deine Benachrichtigungen anzusehen"
+          }
+        }
+      }
     },
     "Tags" : {
       "localizations" : {

@@ -1,6 +1,6 @@
 //
 //  Particle.swift
-//  ScribbleLab
+//  ScribbleLabEffects/Core
 //
 //  Created by Nevio Hirani on 15.11.23.
 //

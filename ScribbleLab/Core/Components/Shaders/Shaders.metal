@@ -2,21 +2,25 @@
 //  Shaders.metal
 //  ScribbleLab
 //
-//  Created by Nevio Hirani on 15.11.23.
+//  Copyright (c) 2023 - 2024 ScribbleLabApp.
+//
+//  Licensed under the Apache License, Version 2.0 (the "License");
+//  you may not use this file except in compliance with the License.
+//  You may obtain a copy of the License at
+//
+//       http://www.apache.org/licenses/LICENSE-2.0
+//
+//  Unless required by applicable law or agreed to in writing, software
+//  distributed under the License is distributed on an "AS IS" BASIS,
+//  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//  See the License for the specific language governing permissions and
+//  limitations under the License.
 //
 
 #include <metal_stdlib>
 #include <SwiftUI/SwiftUI_Metal.h>
 using namespace metal;
 
-//  `colorEffect()`
-//  - half4 name(float2 position, half4 color, args...)
-// `distortionEffect()`
-//  - float2 name(float2 position, args...)
-// `layerEffect()`
-//  - half4 name(float2 position, SwiftUI::Layer layer, args...)
-
-// Grayscale shader
 [[ stitchable ]] half4 grayscale(float2 position, SwiftUI::Layer layer) {
     half4 originalColor = layer.sample(position);
     float grayscaleValue = (originalColor.r + originalColor.g + originalColor.b) / 3.0;
@@ -35,7 +39,6 @@ using namespace metal;
     return half4(1, 0, 0, 1 - color.a);
 }
 
-// Gardient fill shader
 [[ stitchable ]] half4 gradient(float2 pos, half4 color) {
     return half4(
         pos.x / pos.y,
@@ -45,7 +48,6 @@ using namespace metal;
     );
 }
 
-// animated gradient
 [[ stitchable ]] half4 rainbow(float2 pos, half4 color, float t, float2 s) { // t: time, s: size
     float angle = atan2(pos.y, pos.x) + t;
     
