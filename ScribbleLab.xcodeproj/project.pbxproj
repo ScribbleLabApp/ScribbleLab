@@ -234,6 +234,50 @@
 		38140A652AE3F79800753FB6 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		38140A682AE3F81900753FB6 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		38140A6B2AE3FB6F00753FB6 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		381B83BB2B24E75200E7E8E7 /* chunk-2d0d3105.cd72cc8e.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "chunk-2d0d3105.cd72cc8e.js"; sourceTree = "<group>"; };
+		381B83BC2B24E75200E7E8E7 /* highlight-js-perl.757d7b6f.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "highlight-js-perl.757d7b6f.js"; sourceTree = "<group>"; };
+		381B83BD2B24E75200E7E8E7 /* documentation-topic~topic~tutorials-overview.06df3b46.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "documentation-topic~topic~tutorials-overview.06df3b46.js"; sourceTree = "<group>"; };
+		381B83BE2B24E75200E7E8E7 /* highlight-js-python.c214ed92.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "highlight-js-python.c214ed92.js"; sourceTree = "<group>"; };
+		381B83BF2B24E75200E7E8E7 /* highlight-js-cpp.eaddddbe.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "highlight-js-cpp.eaddddbe.js"; sourceTree = "<group>"; };
+		381B83C02B24E75200E7E8E7 /* chunk-vendors.00bf82af.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "chunk-vendors.00bf82af.js"; sourceTree = "<group>"; };
+		381B83C12B24E75200E7E8E7 /* highlight-js-bash.1b52852f.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "highlight-js-bash.1b52852f.js"; sourceTree = "<group>"; };
+		381B83C22B24E75200E7E8E7 /* highlight-js-diff.62d66733.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "highlight-js-diff.62d66733.js"; sourceTree = "<group>"; };
+		381B83C32B24E75200E7E8E7 /* highlight-js-css.75eab1fe.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "highlight-js-css.75eab1fe.js"; sourceTree = "<group>"; };
+		381B83C42B24E75200E7E8E7 /* highlight-js-php.cc8d6c27.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "highlight-js-php.cc8d6c27.js"; sourceTree = "<group>"; };
+		381B83C52B24E75200E7E8E7 /* highlight-js-json.471128d2.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "highlight-js-json.471128d2.js"; sourceTree = "<group>"; };
+		381B83C62B24E75200E7E8E7 /* highlight-js-markdown.90077643.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "highlight-js-markdown.90077643.js"; sourceTree = "<group>"; };
+		381B83C72B24E75200E7E8E7 /* topic.d56fc284.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = topic.d56fc284.js; sourceTree = "<group>"; };
+		381B83C82B24E75200E7E8E7 /* tutorials-overview.0dfedc70.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "tutorials-overview.0dfedc70.js"; sourceTree = "<group>"; };
+		381B83C92B24E75200E7E8E7 /* highlight-js-ruby.f889d392.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "highlight-js-ruby.f889d392.js"; sourceTree = "<group>"; };
+		381B83CA2B24E75200E7E8E7 /* highlight-js-javascript.acb8a8eb.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "highlight-js-javascript.acb8a8eb.js"; sourceTree = "<group>"; };
+		381B83CB2B24E75200E7E8E7 /* index.4dfda72c.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = index.4dfda72c.js; sourceTree = "<group>"; };
+		381B83CC2B24E75200E7E8E7 /* highlight-js-scss.62ee18da.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "highlight-js-scss.62ee18da.js"; sourceTree = "<group>"; };
+		381B83CD2B24E75200E7E8E7 /* highlight-js-custom-markdown.7cffc4b3.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "highlight-js-custom-markdown.7cffc4b3.js"; sourceTree = "<group>"; };
+		381B83CE2B24E75200E7E8E7 /* highlight-js-custom-swift.52388c22.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "highlight-js-custom-swift.52388c22.js"; sourceTree = "<group>"; };
+		381B83CF2B24E75200E7E8E7 /* highlight-js-http.163e45b6.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "highlight-js-http.163e45b6.js"; sourceTree = "<group>"; };
+		381B83D02B24E75200E7E8E7 /* documentation-topic.f5df163e.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "documentation-topic.f5df163e.js"; sourceTree = "<group>"; };
+		381B83D12B24E75200E7E8E7 /* highlight-js-swift.84f3e88c.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "highlight-js-swift.84f3e88c.js"; sourceTree = "<group>"; };
+		381B83D22B24E75200E7E8E7 /* highlight-js-shell.dd7f411f.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "highlight-js-shell.dd7f411f.js"; sourceTree = "<group>"; };
+		381B83D32B24E75200E7E8E7 /* highlight-js-java.8326d9d8.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "highlight-js-java.8326d9d8.js"; sourceTree = "<group>"; };
+		381B83D42B24E75200E7E8E7 /* highlight-js-llvm.6100b125.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "highlight-js-llvm.6100b125.js"; sourceTree = "<group>"; };
+		381B83D52B24E75200E7E8E7 /* highlight-js-c.d1db3f17.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "highlight-js-c.d1db3f17.js"; sourceTree = "<group>"; };
+		381B83D62B24E75200E7E8E7 /* highlight-js-xml.9c3688c7.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "highlight-js-xml.9c3688c7.js"; sourceTree = "<group>"; };
+		381B83D72B24E75200E7E8E7 /* highlight-js-objectivec.bcdf5156.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "highlight-js-objectivec.bcdf5156.js"; sourceTree = "<group>"; };
+		381B83D82B24E75C00E7E8E7 /* metadata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metadata.json; sourceTree = "<group>"; };
+		381B83D92B24E76000E7E8E7 /* theme-settings.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "theme-settings.json"; sourceTree = "<group>"; };
+		381B83DB2B24E78500E7E8E7 /* availability.index */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = availability.index; sourceTree = "<group>"; };
+		381B83DC2B24E78500E7E8E7 /* data.mdb */ = {isa = PBXFileReference; lastKnownFileType = file; path = data.mdb; sourceTree = "<group>"; };
+		381B83DD2B24E78500E7E8E7 /* navigator.index */ = {isa = PBXFileReference; lastKnownFileType = file; path = navigator.index; sourceTree = "<group>"; };
+		381B83DF2B24E79400E7E8E7 /* deprecated-icon.015b4f17.svg */ = {isa = PBXFileReference; lastKnownFileType = text; path = "deprecated-icon.015b4f17.svg"; sourceTree = "<group>"; };
+		381B83E02B24E79400E7E8E7 /* added-icon.d6f7e47d.svg */ = {isa = PBXFileReference; lastKnownFileType = text; path = "added-icon.d6f7e47d.svg"; sourceTree = "<group>"; };
+		381B83E12B24E79400E7E8E7 /* modified-icon.f496e73d.svg */ = {isa = PBXFileReference; lastKnownFileType = text; path = "modified-icon.f496e73d.svg"; sourceTree = "<group>"; };
+		381B83E22B24E7B500E7E8E7 /* favicon.svg */ = {isa = PBXFileReference; lastKnownFileType = text; path = favicon.svg; sourceTree = "<group>"; };
+		381B83E32B24E7B600E7E8E7 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
+		381B83E52B24E7CB00E7E8E7 /* documentation-topic.de084985.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "documentation-topic.de084985.css"; sourceTree = "<group>"; };
+		381B83E62B24E7CB00E7E8E7 /* index.47bc740e.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = index.47bc740e.css; sourceTree = "<group>"; };
+		381B83E72B24E7CB00E7E8E7 /* tutorials-overview.8754eb09.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "tutorials-overview.8754eb09.css"; sourceTree = "<group>"; };
+		381B83E82B24E7CB00E7E8E7 /* documentation-topic~topic~tutorials-overview.67b822e0.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "documentation-topic~topic~tutorials-overview.67b822e0.css"; sourceTree = "<group>"; };
+		381B83E92B24E7CB00E7E8E7 /* topic.2eb01958.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = topic.2eb01958.css; sourceTree = "<group>"; };
 		381E0B352ADC136400A2A836 /* PomodoroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroModel.swift; sourceTree = "<group>"; };
 		381E0B372ADC14E300A2A836 /* SLStudyPomodoroTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLStudyPomodoroTimerView.swift; sourceTree = "<group>"; };
 		381F1F122AD72DD6001B3B10 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
@@ -484,9 +528,84 @@
 		381B83B92B24E5D800E7E8E7 /* docs */ = {
 			isa = PBXGroup;
 			children = (
-				38ADB4D82AF6952C0019375B /* Documentation.docc */,
+				381B83E32B24E7B600E7E8E7 /* favicon.ico */,
+				381B83E22B24E7B500E7E8E7 /* favicon.svg */,
+				381B83D92B24E76000E7E8E7 /* theme-settings.json */,
+				381B83D82B24E75C00E7E8E7 /* metadata.json */,
+				381B83E42B24E7CB00E7E8E7 /* css */,
+				381B83DE2B24E79400E7E8E7 /* img */,
+				381B83DA2B24E78500E7E8E7 /* index */,
+				381B83BA2B24E75200E7E8E7 /* js */,
 			);
 			path = docs;
+			sourceTree = "<group>";
+		};
+		381B83BA2B24E75200E7E8E7 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				381B83BB2B24E75200E7E8E7 /* chunk-2d0d3105.cd72cc8e.js */,
+				381B83BC2B24E75200E7E8E7 /* highlight-js-perl.757d7b6f.js */,
+				381B83BD2B24E75200E7E8E7 /* documentation-topic~topic~tutorials-overview.06df3b46.js */,
+				381B83BE2B24E75200E7E8E7 /* highlight-js-python.c214ed92.js */,
+				381B83BF2B24E75200E7E8E7 /* highlight-js-cpp.eaddddbe.js */,
+				381B83C02B24E75200E7E8E7 /* chunk-vendors.00bf82af.js */,
+				381B83C12B24E75200E7E8E7 /* highlight-js-bash.1b52852f.js */,
+				381B83C22B24E75200E7E8E7 /* highlight-js-diff.62d66733.js */,
+				381B83C32B24E75200E7E8E7 /* highlight-js-css.75eab1fe.js */,
+				381B83C42B24E75200E7E8E7 /* highlight-js-php.cc8d6c27.js */,
+				381B83C52B24E75200E7E8E7 /* highlight-js-json.471128d2.js */,
+				381B83C62B24E75200E7E8E7 /* highlight-js-markdown.90077643.js */,
+				381B83C72B24E75200E7E8E7 /* topic.d56fc284.js */,
+				381B83C82B24E75200E7E8E7 /* tutorials-overview.0dfedc70.js */,
+				381B83C92B24E75200E7E8E7 /* highlight-js-ruby.f889d392.js */,
+				381B83CA2B24E75200E7E8E7 /* highlight-js-javascript.acb8a8eb.js */,
+				381B83CB2B24E75200E7E8E7 /* index.4dfda72c.js */,
+				381B83CC2B24E75200E7E8E7 /* highlight-js-scss.62ee18da.js */,
+				381B83CD2B24E75200E7E8E7 /* highlight-js-custom-markdown.7cffc4b3.js */,
+				381B83CE2B24E75200E7E8E7 /* highlight-js-custom-swift.52388c22.js */,
+				381B83CF2B24E75200E7E8E7 /* highlight-js-http.163e45b6.js */,
+				381B83D02B24E75200E7E8E7 /* documentation-topic.f5df163e.js */,
+				381B83D12B24E75200E7E8E7 /* highlight-js-swift.84f3e88c.js */,
+				381B83D22B24E75200E7E8E7 /* highlight-js-shell.dd7f411f.js */,
+				381B83D32B24E75200E7E8E7 /* highlight-js-java.8326d9d8.js */,
+				381B83D42B24E75200E7E8E7 /* highlight-js-llvm.6100b125.js */,
+				381B83D52B24E75200E7E8E7 /* highlight-js-c.d1db3f17.js */,
+				381B83D62B24E75200E7E8E7 /* highlight-js-xml.9c3688c7.js */,
+				381B83D72B24E75200E7E8E7 /* highlight-js-objectivec.bcdf5156.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		381B83DA2B24E78500E7E8E7 /* index */ = {
+			isa = PBXGroup;
+			children = (
+				381B83DB2B24E78500E7E8E7 /* availability.index */,
+				381B83DC2B24E78500E7E8E7 /* data.mdb */,
+				381B83DD2B24E78500E7E8E7 /* navigator.index */,
+			);
+			path = index;
+			sourceTree = "<group>";
+		};
+		381B83DE2B24E79400E7E8E7 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				381B83DF2B24E79400E7E8E7 /* deprecated-icon.015b4f17.svg */,
+				381B83E02B24E79400E7E8E7 /* added-icon.d6f7e47d.svg */,
+				381B83E12B24E79400E7E8E7 /* modified-icon.f496e73d.svg */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		381B83E42B24E7CB00E7E8E7 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				381B83E52B24E7CB00E7E8E7 /* documentation-topic.de084985.css */,
+				381B83E62B24E7CB00E7E8E7 /* index.47bc740e.css */,
+				381B83E72B24E7CB00E7E8E7 /* tutorials-overview.8754eb09.css */,
+				381B83E82B24E7CB00E7E8E7 /* documentation-topic~topic~tutorials-overview.67b822e0.css */,
+				381B83E92B24E7CB00E7E8E7 /* topic.2eb01958.css */,
+			);
+			path = css;
 			sourceTree = "<group>";
 		};
 		381E0B332ADC134C00A2A836 /* Model */ = {
@@ -1069,6 +1188,7 @@
 			isa = PBXGroup;
 			children = (
 				385F78AB2AD5DDED0096E504 /* Settings.bundle */,
+				38ADB4D82AF6952C0019375B /* Documentation.docc */,
 				381B83B92B24E5D800E7E8E7 /* docs */,
 				3858A76D2AD1498D00FC6319 /* Configs */,
 				380264DF2B15050B001714AC /* Shared */,
