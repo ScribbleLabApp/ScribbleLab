@@ -17,9 +17,10 @@
 //  limitations under the License.
 //
 
-import Foundation
-import FirebaseAuth
 import os.log
+import Foundation
+
+import FirebaseAuth
 
 
 /// A model responsible for handling password reset functionality.

@@ -7,9 +7,9 @@ Scribble Lab's Auth Services
 The ScribbleLab Auth Service is a secure, reliable and easy-to-use authentication service that allows users to gain access to the application's resources through a simple and straightforward process. The ScribbleLab Auth Service is built on top of Firebase, a powerful and scalable database service, ensuring that user authentication is done in a secure and robust manner.
 
 We offer our users three ways to authenticate:
-- Google Sign In **``(GID)``**
-- SignInWithApple **``(SIWA)``**
-- ScribbleLabApp Account **``(SLA)``**
+- Google Sign In **`(GID)`**
+- SignInWithApple **`(SIWA)`**
+- ScribbleLabApp Account **`(SLA)`**
 
 All three ways are secure due to our secured database.
 

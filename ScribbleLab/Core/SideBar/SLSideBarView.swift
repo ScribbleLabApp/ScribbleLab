@@ -25,7 +25,7 @@ struct SLSideBarView: View {
                         Label("Documents", systemImage: "house")
                     }
                     NavigationLink {
-                        ContentUnavailableView("We're sorry but we are not done with this feature", systemImage: "storefront", description: Text("We are currently working on it. Please check out this module later."))
+                        SLShopMainView()
                     } label: {
                         Label("Store", systemImage: "storefront")
                     }

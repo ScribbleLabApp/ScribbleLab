@@ -12,13 +12,13 @@
 					<key>EndingColumnNumber</key>
 					<string>0</string>
 					<key>EndingLineNumber</key>
-					<string>46</string>
+					<string>49</string>
 					<key>StartingColumnNumber</key>
 					<string>0</string>
 					<key>StartingLineNumber</key>
-					<string>45</string>
+					<string>48</string>
 					<key>Timestamp</key>
-					<string>723743714.478008</string>
+					<string>723932729.436185</string>
 				</dict>
 				<key>rebasable-url</key>
 				<dict>
@@ -48,6 +48,147 @@
 			</dict>
 			<key>title</key>
 			<string>DEV: Only for Testing purposes</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>34</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>33</string>
+					<key>Timestamp</key>
+					<string>723913027.6197799</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>ScribbleLab/ScribbleLab/Core/Tips/SLTip.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>            event.donations.count &lt; 7
+</string>
+				<key>leading</key>
+				<string>        
+        #Rule(Self.launchHomeScreenEvent) { event in
+</string>
+				<key>trailing</key>
+				<string>        }
+    }
+}
+</string>
+			</dict>
+			<key>title</key>
+			<string>TODO: Display tip after visiting the screen 3 times until max 7 time</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>60</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>56</string>
+					<key>Timestamp</key>
+					<string>723921041.56607</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>ScribbleLab/ScribbleLab/Core/Tips/SLTip.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>                    
+</string>
+				<key>leading</key>
+				<string>                title: "Configure Notifications",
+                perform: {
+</string>
+				<key>trailing</key>
+				<string>                }
+            )
+        ]
+</string>
+			</dict>
+			<key>title</key>
+			<string>TODO: Redirect to the NotificationSettings</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>58</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>57</string>
+					<key>Timestamp</key>
+					<string>723914404.660797</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>ScribbleLab/ScribbleLab/Core/Home/HomeView.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>                        viewModifier.newNotification.toggle()
+</string>
+				<key>leading</key>
+				<string>                            await ShowNotificationsTip.visitNotificationViewEvent.donate()
+                        }
+</string>
+				<key>trailing</key>
+				<string>                    } label: {
+                        Image(systemName: viewModifier.newNotification ? "bell.badge" : "bell")
+                    }
+</string>
+			</dict>
+			<key>title</key>
+			<string>Only for Development</string>
 			<key>type</key>
 			<string>bookmark</string>
 		</dict>
