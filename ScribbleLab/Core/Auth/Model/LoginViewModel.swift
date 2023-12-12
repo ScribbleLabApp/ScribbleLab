@@ -18,10 +18,11 @@
 //
 
 import Foundation
+import Combine
+
 import FirebaseAuth
 import FirebaseFirestoreSwift
 import Firebase
-import Combine
 
 /// ViewModel handling the login process.
 ///

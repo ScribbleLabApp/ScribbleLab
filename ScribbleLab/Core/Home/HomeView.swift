@@ -6,20 +6,31 @@
 //
 
 import SwiftUI
-import UserNotifications
 import TipKit
+import UserNotifications
 
 struct HomeView: View {
     @StateObject var viewModifier = HomeViewModel()
     @AppStorage("isDarkMode") private var isDarkMode = false
-        
+    
+    // [START dev_properties_test]
+    @State private var documentsAvailable = false
+    // [END dev_properties_test]
+     
+    // [START create_shared_instance_of_tip]
     let createFirstDocumentTip = CreateNewDocumentTip()
     let showNotificationTip = ShowNotificationsTip()
+    // [END create_shared_instance_of_tip]
         
     var body: some View {
         NavigationStack {
-            Text("Hi")
-
+            VStack {
+                if documentsAvailable == true {
+                    Text("Hi")
+                } else {
+                    ContentUnavailableView("You have no documents", systemImage: "doc.viewfinder.fill")
+                }
+            }
             .navigationTitle("Documents")
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
@@ -32,10 +43,19 @@ struct HomeView: View {
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
+                        Task { /* TODO: Store tip */ }
+                    } label: {
+                        Image(systemName: "storefront")
+                    }
+                    /* .popoverTip(createFirstDocumentTip) */
+                }
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
                         viewModifier.notificationSheetisPresented.toggle()
                         Task {
                             await ShowNotificationsTip.visitNotificationViewEvent.donate()
                         }
+                        viewModifier.newNotification.toggle()
                     } label: {
                         Image(systemName: viewModifier.newNotification ? "bell.badge" : "bell")
                     }
@@ -77,7 +97,7 @@ struct HomeView: View {
                 // Provisional authorization granted.
             }
             
-            Task { 
+            Task {
                 await CreateNewDocumentTip.launchHomeScreenEvent.donate()
             }
             
@@ -91,7 +111,7 @@ struct HomeView: View {
 #Preview {
     HomeView()
         .task {
-//            try? Tips.resetDatastore()
+            try? Tips.resetDatastore()
             try? Tips.configure([
                 .datastoreLocation(.applicationDefault)
             ])

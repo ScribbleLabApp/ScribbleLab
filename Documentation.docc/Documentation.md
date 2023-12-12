@@ -13,13 +13,14 @@ ScribbleLab is a powerful text editor built by students, for students, written e
 ### Featured
 @Links(visualStyle: detailedGrid) {
     - <doc:Getting-Started-with-ScribbleLab>
-    - <doc:ScribbleLabTutorialContent>
+    - <doc:Instructions>
 }
 
 ## Topics
 
 ### Essentials
 - <doc:Getting-Started-with-ScribbleLab>
+- <doc:Instructions>
 - ``ScribbleLabApp``
 
 ### Authentication
@@ -38,3 +39,7 @@ ScribbleLab is a powerful text editor built by students, for students, written e
 ### Models
 
 ### Services
+
+### Instructions
+- <doc:Instructions>
+- <doc:Getting-Started-with-ScribbleLab>

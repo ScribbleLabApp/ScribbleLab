@@ -18,16 +18,17 @@
 //
 
 import SwiftUI
+import TipKit
+
 import FirebaseCore
 import GoogleSignIn
 import FirebasePerformance
-import TipKit
 
 @main
 struct ScribbleLabApp: App {
     // register app delegate for Firebase setup
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
-
+    
     // Check if darkmode is enabled:
     /// A property of type Boolean that stores a boolean value that indicates the current state of the applications color scheme
     /// Possible values:
@@ -37,6 +38,8 @@ struct ScribbleLabApp: App {
     /// To call the darkmode state add the @AppStorage property at the top in your Struct
     /// then call the declared isDarkMode argument.
     @AppStorage("isDarkMode") private var isDarkMode = false
+    
+//    var sceneDelegate: SceneDelegate?
     
     var body: some Scene {
         WindowGroup {
@@ -54,4 +57,13 @@ struct ScribbleLabApp: App {
                 .preferredColorScheme(isDarkMode ? .dark : .light)
         }
     }
+    
+//    private mutating func setupSceneDelegate() {
+//        let scene = UIApplication.shared.connectedScenes.first
+//        if let windowScene = scene as? UIWindowScene {
+//            self.sceneDelegate = SceneDelegate()
+//            let options: UIScene.ConnectionOptions = Dictionary<String, Any>()
+//            self.sceneDelegate?.scene(windowScene, willConnectTo: windowScene.session, options: options)
+//        }
+//    }
 }

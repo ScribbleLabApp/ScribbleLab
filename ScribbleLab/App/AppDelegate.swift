@@ -17,8 +17,10 @@
 //  limitations under the License.
 //
 
+import UIKit
 import SwiftUI
 import UserNotifications
+import os.log
 
 import FirebaseCore
 import GoogleSignIn
@@ -44,7 +46,13 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
         // [END register_for_notifications]
         
         return true
-  }
+    }
+    
+    private let logger = Logger(subsystem: "com.nhstudio.ScribbleLab", category: "MemoryWarning")
+    
+    func applicationDidReceiveMemoryWarning(_ application: UIApplication) {
+        logger.error("MEMORY ISSUE: Received memory warning!")
+    }
     
     // The method should call the handleURL method of GIDSignIn instance, which will properly handle the URL that SL recieves at the end of the auth process.
     // [START setting_up_GID]
