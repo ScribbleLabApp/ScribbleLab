@@ -48,30 +48,10 @@
 		38355EF22AD3DB3400392674 /* ScribbleLab-WidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 38355EDE2AD3DB3200392674 /* ScribbleLab-WidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		38355EF82AD3DB5E00392674 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38355EF72AD3DB5E00392674 /* XCTest.framework */; };
 		38355EF92AD3DB5E00392674 /* XCTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38355EF72AD3DB5E00392674 /* XCTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3835882B2AFEDAD800EEA1C3 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 3835882A2AFEDAD800EEA1C3 /* GoogleSignIn */; };
-		3835882D2AFEDAD800EEA1C3 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3835882C2AFEDAD800EEA1C3 /* GoogleSignInSwift */; };
-		3835882F2AFEDAD800EEA1C3 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3835882E2AFEDAD800EEA1C3 /* FirebaseAnalytics */; };
-		383588312AFEDAD800EEA1C3 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 383588302AFEDAD800EEA1C3 /* FirebaseAppCheck */; };
-		383588332AFEDAD800EEA1C3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 383588322AFEDAD800EEA1C3 /* FirebaseAuth */; };
-		383588352AFEDAD800EEA1C3 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 383588342AFEDAD800EEA1C3 /* FirebaseCrashlytics */; };
-		383588372AFEDAD800EEA1C3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 383588362AFEDAD800EEA1C3 /* FirebaseFirestore */; };
-		383588392AFEDAD800EEA1C3 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 383588382AFEDAD800EEA1C3 /* FirebaseInAppMessaging-Beta */; };
-		3835883B2AFEDAD800EEA1C3 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 3835883A2AFEDAD800EEA1C3 /* FirebaseMessaging */; };
-		3835883D2AFEDAD800EEA1C3 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 3835883C2AFEDAD800EEA1C3 /* FirebasePerformance */; };
-		3835883F2AFEDAD800EEA1C3 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 3835883E2AFEDAD800EEA1C3 /* Kingfisher */; };
-		383588412AFEDAF400EEA1C3 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 383588402AFEDAF400EEA1C3 /* FirebaseFirestoreSwift */; };
 		383588442AFEDB4000EEA1C3 /* PerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383588432AFEDB4000EEA1C3 /* PerformanceView.swift */; };
 		383588462AFEDC6F00EEA1C3 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 383588452AFEDC6F00EEA1C3 /* FirebasePerformance */; };
 		3836C2962AF144DC008F475F /* WaitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836C2952AF144DC008F475F /* WaitView.swift */; };
 		3836C29A2AF1BB86008F475F /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836C2992AF1BB86008F475F /* EditProfileViewModel.swift */; };
-		3836C2A22AF29CBF008F475F /* ScribbleLab_AppClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836C2A12AF29CBF008F475F /* ScribbleLab_AppClipApp.swift */; };
-		3836C2A42AF29CBF008F475F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836C2A32AF29CBF008F475F /* ContentView.swift */; };
-		3836C2A62AF29CBF008F475F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836C2A52AF29CBF008F475F /* Item.swift */; };
-		3836C2A82AF29CC1008F475F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3836C2A72AF29CC1008F475F /* Assets.xcassets */; };
-		3836C2AB2AF29CC1008F475F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3836C2AA2AF29CC1008F475F /* Preview Assets.xcassets */; };
-		3836C2B12AF29CC1008F475F /* ScribbleLab AppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 3836C29F2AF29CBF008F475F /* ScribbleLab AppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		3836C2B92AF29CF5008F475F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38AE9CA12AD0751100B761E8 /* Assets.xcassets */; };
-		3836C2BA2AF29CF8008F475F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 385F788D2AD5C56E0096E504 /* Localizable.xcstrings */; };
 		383D238D2B2363490094001E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383D238C2B2363490094001E /* AppDelegate.swift */; };
 		3852D71A2B053C38007FAFF1 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 3852D7192B053C38007FAFF1 /* Shaders.metal */; };
 		3852D71C2B054C11007FAFF1 /* OTP+2FAViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852D71B2B054C11007FAFF1 /* OTP+2FAViewModel.swift */; };
@@ -166,13 +146,6 @@
 			remoteGlobalIDString = 38355EDD2AD3DB3200392674;
 			remoteInfo = "ScribbleLab-WidgetsExtension";
 		};
-		3836C2AF2AF29CC1008F475F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 38AE9C902AD0750F00B761E8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3836C29E2AF29CBF008F475F;
-			remoteInfo = "ScribbleLab AppClip";
-		};
 		385F789B2AD5C84C0096E504 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 38AE9C902AD0750F00B761E8 /* Project object */;
@@ -226,7 +199,6 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
 			dstSubfolderSpec = 16;
 			files = (
-				3836C2B12AF29CC1008F475F /* ScribbleLab AppClip.app in Embed App Clips */,
 			);
 			name = "Embed App Clips";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,15 +243,6 @@
 		383588432AFEDB4000EEA1C3 /* PerformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceView.swift; sourceTree = "<group>"; };
 		3836C2952AF144DC008F475F /* WaitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitView.swift; sourceTree = "<group>"; };
 		3836C2992AF1BB86008F475F /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
-		3836C29F2AF29CBF008F475F /* ScribbleLab AppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScribbleLab AppClip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3836C2A12AF29CBF008F475F /* ScribbleLab_AppClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLab_AppClipApp.swift; sourceTree = "<group>"; };
-		3836C2A32AF29CBF008F475F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3836C2A52AF29CBF008F475F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		3836C2A72AF29CC1008F475F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3836C2AA2AF29CC1008F475F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3836C2AC2AF29CC1008F475F /* ScribbleLab_AppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScribbleLab_AppClip.entitlements; sourceTree = "<group>"; };
-		3836C2AD2AF29CC1008F475F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3836C2AE2AF29CC1008F475F /* ScribbleLab_AppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScribbleLab_AppClip.entitlements; sourceTree = "<group>"; };
 		383D238C2B2363490094001E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3852D7192B053C38007FAFF1 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 		3852D71B2B054C11007FAFF1 /* OTP+2FAViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OTP+2FAViewModel.swift"; sourceTree = "<group>"; };
@@ -364,25 +327,6 @@
 				38355EE32AD3DB3200392674 /* SwiftUI.framework in Frameworks */,
 				38355EF82AD3DB5E00392674 /* XCTest.framework in Frameworks */,
 				38355EE12AD3DB3200392674 /* WidgetKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3836C29C2AF29CBF008F475F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3835883B2AFEDAD800EEA1C3 /* FirebaseMessaging in Frameworks */,
-				383588312AFEDAD800EEA1C3 /* FirebaseAppCheck in Frameworks */,
-				3835883D2AFEDAD800EEA1C3 /* FirebasePerformance in Frameworks */,
-				383588332AFEDAD800EEA1C3 /* FirebaseAuth in Frameworks */,
-				3835882B2AFEDAD800EEA1C3 /* GoogleSignIn in Frameworks */,
-				383588392AFEDAD800EEA1C3 /* FirebaseInAppMessaging-Beta in Frameworks */,
-				383588352AFEDAD800EEA1C3 /* FirebaseCrashlytics in Frameworks */,
-				3835882D2AFEDAD800EEA1C3 /* GoogleSignInSwift in Frameworks */,
-				3835883F2AFEDAD800EEA1C3 /* Kingfisher in Frameworks */,
-				3835882F2AFEDAD800EEA1C3 /* FirebaseAnalytics in Frameworks */,
-				383588372AFEDAD800EEA1C3 /* FirebaseFirestore in Frameworks */,
-				383588412AFEDAF400EEA1C3 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,29 +617,6 @@
 				383588432AFEDB4000EEA1C3 /* PerformanceView.swift */,
 			);
 			path = Performance;
-			sourceTree = "<group>";
-		};
-		3836C2A02AF29CBF008F475F /* ScribbleLab AppClip */ = {
-			isa = PBXGroup;
-			children = (
-				3836C2A12AF29CBF008F475F /* ScribbleLab_AppClipApp.swift */,
-				3836C2A32AF29CBF008F475F /* ContentView.swift */,
-				3836C2A52AF29CBF008F475F /* Item.swift */,
-				3836C2A72AF29CC1008F475F /* Assets.xcassets */,
-				3836C2AC2AF29CC1008F475F /* ScribbleLab_AppClip.entitlements */,
-				3836C2AD2AF29CC1008F475F /* Info.plist */,
-				3836C2AE2AF29CC1008F475F /* ScribbleLab_AppClip.entitlements */,
-				3836C2A92AF29CC1008F475F /* Preview Content */,
-			);
-			path = "ScribbleLab AppClip";
-			sourceTree = "<group>";
-		};
-		3836C2A92AF29CC1008F475F /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				3836C2AA2AF29CC1008F475F /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		3852D7182B053C24007FAFF1 /* Shaders */ = {
@@ -1099,7 +1020,6 @@
 				3858A76D2AD1498D00FC6319 /* Configs */,
 				380264DF2B15050B001714AC /* Shared */,
 				38AE9C9A2AD0750F00B761E8 /* ScribbleLab */,
-				3836C2A02AF29CBF008F475F /* ScribbleLab AppClip */,
 				385F78972AD5C84B0096E504 /* SLStickerPack */,
 				38355EE42AD3DB3200392674 /* ScribbleLab-Widgets */,
 				38AE9CAF2AD0751100B761E8 /* ScribbleLabTests */,
@@ -1117,7 +1037,6 @@
 				38AE9CB62AD0751100B761E8 /* ScribbleLabUITests.xctest */,
 				38355EDE2AD3DB3200392674 /* ScribbleLab-WidgetsExtension.appex */,
 				385F78962AD5C84B0096E504 /* SLStickerPack.appex */,
-				3836C29F2AF29CBF008F475F /* ScribbleLab AppClip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1380,37 +1299,6 @@
 			productReference = 38355EDE2AD3DB3200392674 /* ScribbleLab-WidgetsExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		3836C29E2AF29CBF008F475F /* ScribbleLab AppClip */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3836C2B22AF29CC1008F475F /* Build configuration list for PBXNativeTarget "ScribbleLab AppClip" */;
-			buildPhases = (
-				3836C29B2AF29CBF008F475F /* Sources */,
-				3836C29C2AF29CBF008F475F /* Frameworks */,
-				3836C29D2AF29CBF008F475F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ScribbleLab AppClip";
-			packageProductDependencies = (
-				3835882A2AFEDAD800EEA1C3 /* GoogleSignIn */,
-				3835882C2AFEDAD800EEA1C3 /* GoogleSignInSwift */,
-				3835882E2AFEDAD800EEA1C3 /* FirebaseAnalytics */,
-				383588302AFEDAD800EEA1C3 /* FirebaseAppCheck */,
-				383588322AFEDAD800EEA1C3 /* FirebaseAuth */,
-				383588342AFEDAD800EEA1C3 /* FirebaseCrashlytics */,
-				383588362AFEDAD800EEA1C3 /* FirebaseFirestore */,
-				383588382AFEDAD800EEA1C3 /* FirebaseInAppMessaging-Beta */,
-				3835883A2AFEDAD800EEA1C3 /* FirebaseMessaging */,
-				3835883C2AFEDAD800EEA1C3 /* FirebasePerformance */,
-				3835883E2AFEDAD800EEA1C3 /* Kingfisher */,
-				383588402AFEDAF400EEA1C3 /* FirebaseFirestoreSwift */,
-			);
-			productName = "ScribbleLab AppClip";
-			productReference = 3836C29F2AF29CBF008F475F /* ScribbleLab AppClip.app */;
-			productType = "com.apple.product-type.application.on-demand-install-capable";
-		};
 		385F78952AD5C84B0096E504 /* SLStickerPack */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 385F789E2AD5C84C0096E504 /* Build configuration list for PBXNativeTarget "SLStickerPack" */;
@@ -1441,7 +1329,6 @@
 			dependencies = (
 				38355EF12AD3DB3400392674 /* PBXTargetDependency */,
 				385F789C2AD5C84C0096E504 /* PBXTargetDependency */,
-				3836C2B02AF29CC1008F475F /* PBXTargetDependency */,
 			);
 			name = ScribbleLab;
 			packageProductDependencies = (
@@ -1522,9 +1409,6 @@
 					38355EDD2AD3DB3200392674 = {
 						CreatedOnToolsVersion = 15.0;
 					};
-					3836C29E2AF29CBF008F475F = {
-						CreatedOnToolsVersion = 15.0;
-					};
 					385F78952AD5C84B0096E504 = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -1577,7 +1461,6 @@
 				38AE9CB52AD0751100B761E8 /* ScribbleLabUITests */,
 				38355EDD2AD3DB3200392674 /* ScribbleLab-WidgetsExtension */,
 				385F78952AD5C84B0096E504 /* SLStickerPack */,
-				3836C29E2AF29CBF008F475F /* ScribbleLab AppClip */,
 			);
 		};
 /* End PBXProject section */
@@ -1590,17 +1473,6 @@
 				385F788F2AD5C5D60096E504 /* Localizable.xcstrings in Resources */,
 				385F78A42AD5C86B0096E504 /* Assets.xcassets in Resources */,
 				38355EEE2AD3DB3400392674 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3836C29D2AF29CBF008F475F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3836C2AB2AF29CC1008F475F /* Preview Assets.xcassets in Resources */,
-				3836C2B92AF29CF5008F475F /* Assets.xcassets in Resources */,
-				3836C2BA2AF29CF8008F475F /* Localizable.xcstrings in Resources */,
-				3836C2A82AF29CC1008F475F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1657,16 +1529,6 @@
 				38355EEC2AD3DB3200392674 /* AppIntent.swift in Sources */,
 				38355EE62AD3DB3200392674 /* ScribbleLab_WidgetsBundle.swift in Sources */,
 				38355EEA2AD3DB3200392674 /* ScribbleLab_Widgets.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3836C29B2AF29CBF008F475F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3836C2A42AF29CBF008F475F /* ContentView.swift in Sources */,
-				3836C2A62AF29CBF008F475F /* Item.swift in Sources */,
-				3836C2A22AF29CBF008F475F /* ScribbleLab_AppClipApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1777,11 +1639,6 @@
 			isa = PBXTargetDependency;
 			target = 38355EDD2AD3DB3200392674 /* ScribbleLab-WidgetsExtension */;
 			targetProxy = 38355EF02AD3DB3400392674 /* PBXContainerItemProxy */;
-		};
-		3836C2B02AF29CC1008F475F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3836C29E2AF29CBF008F475F /* ScribbleLab AppClip */;
-			targetProxy = 3836C2AF2AF29CC1008F475F /* PBXContainerItemProxy */;
 		};
 		385F789C2AD5C84C0096E504 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2367,176 +2224,6 @@
 			};
 			name = RC;
 		};
-		3836C2B32AF29CC1008F475F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38355F032AD3DFED00392674 /* Debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "ScribbleLab AppClip/ScribbleLab_AppClip.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab AppClip/Preview Content\"";
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ScribbleLab AppClip/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = "0.0.1 alpha";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab.Clip;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		3836C2B42AF29CC1008F475F /* Alpha */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38355EFD2AD3DF9B00392674 /* Alpha.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "ScribbleLab AppClip/ScribbleLab_AppClip.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab AppClip/Preview Content\"";
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ScribbleLab AppClip/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = "0.0.1 alpha";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab.Clip;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Alpha;
-		};
-		3836C2B52AF29CC1008F475F /* Beta */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 385F788A2AD5C4410096E504 /* Beta.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "ScribbleLab AppClip/ScribbleLab_AppClip.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab AppClip/Preview Content\"";
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ScribbleLab AppClip/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = "0.0.1 alpha";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab.Clip;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Beta;
-		};
-		3836C2B62AF29CC1008F475F /* RC */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 385F788B2AD5C4530096E504 /* RC.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "ScribbleLab AppClip/ScribbleLab_AppClip.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab AppClip/Preview Content\"";
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ScribbleLab AppClip/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = "0.0.1 alpha";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab.Clip;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = RC;
-		};
-		3836C2B72AF29CC1008F475F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 385F788C2AD5C4690096E504 /* Release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "ScribbleLab AppClip/ScribbleLab_AppClip.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab AppClip/Preview Content\"";
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ScribbleLab AppClip/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = "0.0.1 alpha";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab.Clip;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		385F789F2AD5C84C0096E504 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 38355F032AD3DFED00392674 /* Debug.xcconfig */;
@@ -2929,18 +2616,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3836C2B22AF29CC1008F475F /* Build configuration list for PBXNativeTarget "ScribbleLab AppClip" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3836C2B32AF29CC1008F475F /* Debug */,
-				3836C2B42AF29CC1008F475F /* Alpha */,
-				3836C2B52AF29CC1008F475F /* Beta */,
-				3836C2B62AF29CC1008F475F /* RC */,
-				3836C2B72AF29CC1008F475F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		385F789E2AD5C84C0096E504 /* Build configuration list for PBXNativeTarget "SLStickerPack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -3120,66 +2795,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 382520E02AEE671C002ECED2 /* XCRemoteSwiftPackageReference "SwiftRUI" */;
 			productName = SwiftRUI;
-		};
-		3835882A2AFEDAD800EEA1C3 /* GoogleSignIn */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 385F78AD2AD5E11C0096E504 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
-			productName = GoogleSignIn;
-		};
-		3835882C2AFEDAD800EEA1C3 /* GoogleSignInSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 385F78AD2AD5E11C0096E504 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
-			productName = GoogleSignInSwift;
-		};
-		3835882E2AFEDAD800EEA1C3 /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		383588302AFEDAD800EEA1C3 /* FirebaseAppCheck */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAppCheck;
-		};
-		383588322AFEDAD800EEA1C3 /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		383588342AFEDAD800EEA1C3 /* FirebaseCrashlytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseCrashlytics;
-		};
-		383588362AFEDAD800EEA1C3 /* FirebaseFirestore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestore;
-		};
-		383588382AFEDAD800EEA1C3 /* FirebaseInAppMessaging-Beta */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseInAppMessaging-Beta";
-		};
-		3835883A2AFEDAD800EEA1C3 /* FirebaseMessaging */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseMessaging;
-		};
-		3835883C2AFEDAD800EEA1C3 /* FirebasePerformance */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebasePerformance;
-		};
-		3835883E2AFEDAD800EEA1C3 /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 380D93912AE4280900277D2D /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
-		};
-		383588402AFEDAF400EEA1C3 /* FirebaseFirestoreSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestoreSwift;
 		};
 		383588452AFEDC6F00EEA1C3 /* FirebasePerformance */ = {
 			isa = XCSwiftPackageProductDependency;
