@@ -49,10 +49,8 @@ struct CompleteRegistartionView: View {
                 .padding(.horizontal, 24)
             
             SLButton(text: "Register", font: .subheadline, backgroundColor: .orange, textColor: .black, cornerRadius: 10) {
-                Task {
-                    try await viewModel.createUser()
-                    try await vm.signIn()
-                }
+                Task { try await viewModel.createUser() }
+                Task { try await vm.signIn() }
 //                Task {
 //                    do {
 //                        try await viewModel.createUser()
