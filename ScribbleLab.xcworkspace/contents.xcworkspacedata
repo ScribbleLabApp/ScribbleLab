@@ -4,7 +4,4 @@
    <FileRef
       location = "group:ScribbleLab.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:../SLAComponents">
-   </FileRef>
 </Workspace>
