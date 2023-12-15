@@ -254,6 +254,9 @@
     "Accessibility" : {
 
     },
+    "Add Item" : {
+
+    },
     "Add New Timer" : {
 
     },
@@ -784,7 +787,6 @@
 
     },
     "Item at %@" : {
-      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1092,6 +1094,9 @@
       }
     },
     "Security mode" : {
+
+    },
+    "Select an item" : {
 
     },
     "Set up 2FA" : {
