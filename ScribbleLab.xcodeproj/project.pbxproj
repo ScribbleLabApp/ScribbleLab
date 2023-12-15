@@ -77,6 +77,10 @@
 		3868A3DE2AD2DBA300D4CAEC /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DD2AD2DBA300D4CAEC /* ImageView.swift */; };
 		3868A3E02AD2E2F800D4CAEC /* SLLicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DF2AD2E2F800D4CAEC /* SLLicenseView.swift */; };
 		3868A3E32AD2FE6600D4CAEC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3E22AD2FE6600D4CAEC /* ProfileView.swift */; };
+		38760F152B2CB44600CC73BD /* ScribbleLab_MacOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38760F142B2CB44600CC73BD /* ScribbleLab_MacOSApp.swift */; };
+		38760F172B2CB44600CC73BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38760F162B2CB44600CC73BD /* ContentView.swift */; };
+		38760F1B2B2CB44700CC73BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38760F1A2B2CB44700CC73BD /* Assets.xcassets */; };
+		38760F1E2B2CB44700CC73BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38760F1D2B2CB44700CC73BD /* Preview Assets.xcassets */; };
 		387B79362ADEDD9B0067E08B /* SLOtherSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387B79352ADEDD9B0067E08B /* SLOtherSettings.swift */; };
 		387F7F882B12087E001CC150 /* Draw+PencilKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F7F872B12087E001CC150 /* Draw+PencilKit.swift */; };
 		387F7F8A2B120948001CC150 /* DrawingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F7F892B120948001CC150 /* DrawingTest.swift */; };
@@ -268,6 +272,13 @@
 		3868A3DD2AD2DBA300D4CAEC /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		3868A3DF2AD2E2F800D4CAEC /* SLLicenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLLicenseView.swift; sourceTree = "<group>"; };
 		3868A3E22AD2FE6600D4CAEC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		38760F122B2CB44500CC73BD /* ScribbleLab MacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScribbleLab MacOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38760F142B2CB44600CC73BD /* ScribbleLab_MacOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLab_MacOSApp.swift; sourceTree = "<group>"; };
+		38760F162B2CB44600CC73BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		38760F1A2B2CB44700CC73BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38760F1D2B2CB44700CC73BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		38760F1F2B2CB44700CC73BD /* ScribbleLab_MacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScribbleLab_MacOS.entitlements; sourceTree = "<group>"; };
+		38760F262B2CEECE00CC73BD /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		387B79352ADEDD9B0067E08B /* SLOtherSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLOtherSettings.swift; sourceTree = "<group>"; };
 		387F7F872B12087E001CC150 /* Draw+PencilKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Draw+PencilKit.swift"; sourceTree = "<group>"; };
 		387F7F892B120948001CC150 /* DrawingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingTest.swift; sourceTree = "<group>"; };
@@ -330,6 +341,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		38760F0F2B2CB44500CC73BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38AE9C952AD0750F00B761E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -377,13 +395,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		380264DF2B15050B001714AC /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
 		38066B502AFEA20F001A88D5 /* Waiting */ = {
 			isa = PBXGroup;
 			children = (
@@ -822,6 +833,26 @@
 			path = Auth;
 			sourceTree = "<group>";
 		};
+		38760F132B2CB44600CC73BD /* ScribbleLab MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				38760F142B2CB44600CC73BD /* ScribbleLab_MacOSApp.swift */,
+				38760F162B2CB44600CC73BD /* ContentView.swift */,
+				38760F1A2B2CB44700CC73BD /* Assets.xcassets */,
+				38760F1F2B2CB44700CC73BD /* ScribbleLab_MacOS.entitlements */,
+				38760F1C2B2CB44700CC73BD /* Preview Content */,
+			);
+			path = "ScribbleLab MacOS";
+			sourceTree = "<group>";
+		};
+		38760F1C2B2CB44700CC73BD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				38760F1D2B2CB44700CC73BD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		387B79342ADEDD860067E08B /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -1018,12 +1049,12 @@
 				38ADB4D82AF6952C0019375B /* Documentation.docc */,
 				381B83B92B24E5D800E7E8E7 /* docs */,
 				3858A76D2AD1498D00FC6319 /* Configs */,
-				380264DF2B15050B001714AC /* Shared */,
 				38AE9C9A2AD0750F00B761E8 /* ScribbleLab */,
 				385F78972AD5C84B0096E504 /* SLStickerPack */,
 				38355EE42AD3DB3200392674 /* ScribbleLab-Widgets */,
 				38AE9CAF2AD0751100B761E8 /* ScribbleLabTests */,
 				38AE9CB92AD0751100B761E8 /* ScribbleLabUITests */,
+				38760F132B2CB44600CC73BD /* ScribbleLab MacOS */,
 				38355EDF2AD3DB3200392674 /* Frameworks */,
 				38AE9C992AD0750F00B761E8 /* Products */,
 			);
@@ -1037,6 +1068,7 @@
 				38AE9CB62AD0751100B761E8 /* ScribbleLabUITests.xctest */,
 				38355EDE2AD3DB3200392674 /* ScribbleLab-WidgetsExtension.appex */,
 				385F78962AD5C84B0096E504 /* SLStickerPack.appex */,
+				38760F122B2CB44500CC73BD /* ScribbleLab MacOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1056,6 +1088,7 @@
 				38AE9CA72AD0751100B761E8 /* Info.plist */,
 				38FFF93F2AE3C55F006719E2 /* GoogleService-Info.plist */,
 				38FB56EB2B239AFC00DEFE3C /* com.apple.uikit.inputalternatives.plist */,
+				38760F262B2CEECE00CC73BD /* PrivacyInfo.xcprivacy */,
 			);
 			path = ScribbleLab;
 			sourceTree = "<group>";
@@ -1314,6 +1347,23 @@
 			productReference = 385F78962AD5C84B0096E504 /* SLStickerPack.appex */;
 			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
 		};
+		38760F112B2CB44500CC73BD /* ScribbleLab MacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38760F252B2CB44700CC73BD /* Build configuration list for PBXNativeTarget "ScribbleLab MacOS" */;
+			buildPhases = (
+				38760F0E2B2CB44500CC73BD /* Sources */,
+				38760F0F2B2CB44500CC73BD /* Frameworks */,
+				38760F102B2CB44500CC73BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ScribbleLab MacOS";
+			productName = "ScribbleLab MacOS";
+			productReference = 38760F122B2CB44500CC73BD /* ScribbleLab MacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		38AE9C972AD0750F00B761E8 /* ScribbleLab */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38AE9CC02AD0751100B761E8 /* Build configuration list for PBXNativeTarget "ScribbleLab" */;
@@ -1412,6 +1462,9 @@
 					385F78952AD5C84B0096E504 = {
 						CreatedOnToolsVersion = 15.0;
 					};
+					38760F112B2CB44500CC73BD = {
+						CreatedOnToolsVersion = 15.1;
+					};
 					38AE9C972AD0750F00B761E8 = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -1461,6 +1514,7 @@
 				38AE9CB52AD0751100B761E8 /* ScribbleLabUITests */,
 				38355EDD2AD3DB3200392674 /* ScribbleLab-WidgetsExtension */,
 				385F78952AD5C84B0096E504 /* SLStickerPack */,
+				38760F112B2CB44500CC73BD /* ScribbleLab MacOS */,
 			);
 		};
 /* End PBXProject section */
@@ -1482,6 +1536,15 @@
 			files = (
 				385F78A52AD5C86B0096E504 /* Assets.xcassets in Resources */,
 				385F78992AD5C84C0096E504 /* Stickers.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38760F102B2CB44500CC73BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38760F1E2B2CB44700CC73BD /* Preview Assets.xcassets in Resources */,
+				38760F1B2B2CB44700CC73BD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1529,6 +1592,15 @@
 				38355EEC2AD3DB3200392674 /* AppIntent.swift in Sources */,
 				38355EE62AD3DB3200392674 /* ScribbleLab_WidgetsBundle.swift in Sources */,
 				38355EEA2AD3DB3200392674 /* ScribbleLab_Widgets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38760F0E2B2CB44500CC73BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38760F172B2CB44600CC73BD /* ContentView.swift in Sources */,
+				38760F152B2CB44600CC73BD /* ScribbleLab_MacOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2330,6 +2402,156 @@
 			};
 			name = Release;
 		};
+		38760F202B2CB44700CC73BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ScribbleLab MacOS/ScribbleLab_MacOS.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab MacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudio.ScribbleLab-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		38760F212B2CB44700CC73BD /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ScribbleLab MacOS/ScribbleLab_MacOS.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab MacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudio.ScribbleLab-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Alpha;
+		};
+		38760F222B2CB44700CC73BD /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ScribbleLab MacOS/ScribbleLab_MacOS.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab MacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudio.ScribbleLab-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Beta;
+		};
+		38760F232B2CB44700CC73BD /* RC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ScribbleLab MacOS/ScribbleLab_MacOS.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab MacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudio.ScribbleLab-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = RC;
+		};
+		38760F242B2CB44700CC73BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ScribbleLab MacOS/ScribbleLab_MacOS.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab MacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudio.ScribbleLab-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		38AE9CBE2AD0751100B761E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 38355F032AD3DFED00392674 /* Debug.xcconfig */;
@@ -2634,6 +2856,18 @@
 				385F78A12AD5C84C0096E504 /* Beta */,
 				385F78A22AD5C84C0096E504 /* RC */,
 				385F78A32AD5C84C0096E504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38760F252B2CB44700CC73BD /* Build configuration list for PBXNativeTarget "ScribbleLab MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38760F202B2CB44700CC73BD /* Debug */,
+				38760F212B2CB44700CC73BD /* Alpha */,
+				38760F222B2CB44700CC73BD /* Beta */,
+				38760F232B2CB44700CC73BD /* RC */,
+				38760F242B2CB44700CC73BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
