@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22C38C8D2B2CC33500FE4C73 /* SLAComponents in Frameworks */ = {isa = PBXBuildFile; productRef = 22C38C8C2B2CC33500FE4C73 /* SLAComponents */; };
 		38066B4F2AFE9F0E001A88D5 /* SLUpdateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38066B4E2AFE9F0E001A88D5 /* SLUpdateViewModel.swift */; };
 		38066B522AFEA235001A88D5 /* WaitSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38066B512AFEA235001A88D5 /* WaitSheetView.swift */; };
 		380BC6392B26029600DCF442 /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = 380BC6382B26029600DCF442 /* Stripe */; };
@@ -363,6 +364,7 @@
 				38E5BBB42AE41F2900FFFE7C /* Updates in Frameworks */,
 				380BC63D2B26029600DCF442 /* StripeIdentity in Frameworks */,
 				383588462AFEDC6F00EEA1C3 /* FirebasePerformance in Frameworks */,
+				22C38C8D2B2CC33500FE4C73 /* SLAComponents in Frameworks */,
 				380D93932AE4280900277D2D /* Kingfisher in Frameworks */,
 				380D93952AE4289500277D2D /* FirebaseFirestoreSwift in Frameworks */,
 				380BC6412B26029600DCF442 /* StripePayments in Frameworks */,
@@ -1405,6 +1407,7 @@
 				380BC63E2B26029600DCF442 /* StripePaymentSheet */,
 				380BC6402B26029600DCF442 /* StripePayments */,
 				380BC6422B26029600DCF442 /* StripePaymentsUI */,
+				22C38C8C2B2CC33500FE4C73 /* SLAComponents */,
 			);
 			productName = ScribbleLab;
 			productReference = 38AE9C982AD0750F00B761E8 /* ScribbleLab.app */;
@@ -1504,6 +1507,7 @@
 				381792632AFFC017002A4551 /* XCRemoteSwiftPackageReference "AlertToast" */,
 				38A5E9C02B03F0140037C668 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
 				380BC6372B26029600DCF442 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */,
+				22C38C8B2B2CC33500FE4C73 /* XCLocalSwiftPackageReference "SLAComponents" */,
 			);
 			productRefGroup = 38AE9C992AD0750F00B761E8 /* Products */;
 			projectDirPath = "";
@@ -2922,6 +2926,13 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		22C38C8B2B2CC33500FE4C73 /* XCLocalSwiftPackageReference "SLAComponents" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = SLAComponents;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCRemoteSwiftPackageReference section */
 		380BC6372B26029600DCF442 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */ = {
 			isa = XCRemoteSwiftPackageReference;
@@ -2990,6 +3001,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		22C38C8C2B2CC33500FE4C73 /* SLAComponents */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SLAComponents;
+		};
 		380BC6382B26029600DCF442 /* Stripe */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 380BC6372B26029600DCF442 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
