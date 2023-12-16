@@ -13,5 +13,5 @@ jobs:
         run: |
           xcodebuild \
             -scheme ScribbleLab \
-            -destination 'generic/platform=iOS' \
+            -destination 'platform=iOS Simulator,name=iPad Pro (12.9-inch)' \
             test
