@@ -59,6 +59,33 @@
 		3852D7212B054DBF007FAFF1 /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852D7202B054DBF007FAFF1 /* Particle.swift */; };
 		3858A7782AD14C9E00FC6319 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A7772AD14C9E00FC6319 /* HomeView.swift */; };
 		3858A77E2AD15E8900FC6319 /* NotificationSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A77D2AD15E8900FC6319 /* NotificationSheetView.swift */; };
+		385ABC2D2B2DEF4C005F90E6 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC2C2B2DEF4C005F90E6 /* GoogleSignIn */; };
+		385ABC2F2B2DEF4C005F90E6 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC2E2B2DEF4C005F90E6 /* GoogleSignInSwift */; };
+		385ABC312B2DEF4C005F90E6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC302B2DEF4C005F90E6 /* FirebaseAnalytics */; };
+		385ABC332B2DEF4C005F90E6 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC322B2DEF4C005F90E6 /* FirebaseAnalyticsSwift */; };
+		385ABC352B2DEF4C005F90E6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC342B2DEF4C005F90E6 /* FirebaseAuth */; };
+		385ABC372B2DEF4C005F90E6 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC362B2DEF4C005F90E6 /* FirebaseAuthCombine-Community */; };
+		385ABC392B2DEF4C005F90E6 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC382B2DEF4C005F90E6 /* FirebaseCrashlytics */; };
+		385ABC3B2B2DEF4C005F90E6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC3A2B2DEF4C005F90E6 /* FirebaseFirestore */; };
+		385ABC3D2B2DEF4C005F90E6 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC3C2B2DEF4C005F90E6 /* FirebaseFirestoreCombine-Community */; };
+		385ABC3F2B2DEF4C005F90E6 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC3E2B2DEF4C005F90E6 /* FirebaseFirestoreSwift */; };
+		385ABC412B2DEF4C005F90E6 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC402B2DEF4C005F90E6 /* FirebaseFunctions */; };
+		385ABC432B2DEF4C005F90E6 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC422B2DEF4C005F90E6 /* FirebaseInstallations */; };
+		385ABC452B2DEF4C005F90E6 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC442B2DEF4C005F90E6 /* FirebasePerformance */; };
+		385ABC472B2DEF4C005F90E6 /* Updates in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC462B2DEF4C005F90E6 /* Updates */; };
+		385ABC492B2DEF4C005F90E6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC482B2DEF4C005F90E6 /* Kingfisher */; };
+		385ABC4B2B2DEF4C005F90E6 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC4A2B2DEF4C005F90E6 /* iPhoneNumberField */; };
+		385ABC4D2B2DEF4C005F90E6 /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC4C2B2DEF4C005F90E6 /* Stripe */; };
+		385ABC4F2B2DEF4C005F90E6 /* StripeApplePay in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC4E2B2DEF4C005F90E6 /* StripeApplePay */; };
+		385ABC512B2DEF4C005F90E6 /* StripeCardScan in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC502B2DEF4C005F90E6 /* StripeCardScan */; };
+		385ABC532B2DEF4C005F90E6 /* StripeFinancialConnections in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC522B2DEF4C005F90E6 /* StripeFinancialConnections */; };
+		385ABC552B2DEF4C005F90E6 /* StripeIdentity in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC542B2DEF4C005F90E6 /* StripeIdentity */; };
+		385ABC572B2DEF4C005F90E6 /* StripePayments in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC562B2DEF4C005F90E6 /* StripePayments */; };
+		385ABC592B2DEF4C005F90E6 /* StripePaymentSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC582B2DEF4C005F90E6 /* StripePaymentSheet */; };
+		385ABC5B2B2DEF4C005F90E6 /* StripePaymentsUI in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC5A2B2DEF4C005F90E6 /* StripePaymentsUI */; };
+		385ABC5C2B2DF0B9005F90E6 /* ScribbleLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9C9B2AD0750F00B761E8 /* ScribbleLabApp.swift */; };
+		385ABC5D2B2DF0C1005F90E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380BC6472B2652A900DCF442 /* SceneDelegate.swift */; };
+		385ABC5E2B2DF0C4005F90E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383D238C2B2363490094001E /* AppDelegate.swift */; };
 		385F468E2AD31CD100D85410 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F468D2AD31CD100D85410 /* SignUpView.swift */; };
 		385F788E2AD5C56E0096E504 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 385F788D2AD5C56E0096E504 /* Localizable.xcstrings */; };
 		385F788F2AD5C5D60096E504 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 385F788D2AD5C56E0096E504 /* Localizable.xcstrings */; };
@@ -345,6 +372,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				385ABC332B2DEF4C005F90E6 /* FirebaseAnalyticsSwift in Frameworks */,
+				385ABC4B2B2DEF4C005F90E6 /* iPhoneNumberField in Frameworks */,
+				385ABC472B2DEF4C005F90E6 /* Updates in Frameworks */,
+				385ABC552B2DEF4C005F90E6 /* StripeIdentity in Frameworks */,
+				385ABC4F2B2DEF4C005F90E6 /* StripeApplePay in Frameworks */,
+				385ABC592B2DEF4C005F90E6 /* StripePaymentSheet in Frameworks */,
+				385ABC5B2B2DEF4C005F90E6 /* StripePaymentsUI in Frameworks */,
+				385ABC372B2DEF4C005F90E6 /* FirebaseAuthCombine-Community in Frameworks */,
+				385ABC532B2DEF4C005F90E6 /* StripeFinancialConnections in Frameworks */,
+				385ABC352B2DEF4C005F90E6 /* FirebaseAuth in Frameworks */,
+				385ABC432B2DEF4C005F90E6 /* FirebaseInstallations in Frameworks */,
+				385ABC3D2B2DEF4C005F90E6 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				385ABC392B2DEF4C005F90E6 /* FirebaseCrashlytics in Frameworks */,
+				385ABC3F2B2DEF4C005F90E6 /* FirebaseFirestoreSwift in Frameworks */,
+				385ABC572B2DEF4C005F90E6 /* StripePayments in Frameworks */,
+				385ABC2D2B2DEF4C005F90E6 /* GoogleSignIn in Frameworks */,
+				385ABC492B2DEF4C005F90E6 /* Kingfisher in Frameworks */,
+				385ABC3B2B2DEF4C005F90E6 /* FirebaseFirestore in Frameworks */,
+				385ABC2F2B2DEF4C005F90E6 /* GoogleSignInSwift in Frameworks */,
+				385ABC512B2DEF4C005F90E6 /* StripeCardScan in Frameworks */,
+				385ABC452B2DEF4C005F90E6 /* FirebasePerformance in Frameworks */,
+				385ABC4D2B2DEF4C005F90E6 /* Stripe in Frameworks */,
+				385ABC412B2DEF4C005F90E6 /* FirebaseFunctions in Frameworks */,
+				385ABC312B2DEF4C005F90E6 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1360,6 +1411,32 @@
 			dependencies = (
 			);
 			name = "ScribbleLab MacOS";
+			packageProductDependencies = (
+				385ABC2C2B2DEF4C005F90E6 /* GoogleSignIn */,
+				385ABC2E2B2DEF4C005F90E6 /* GoogleSignInSwift */,
+				385ABC302B2DEF4C005F90E6 /* FirebaseAnalytics */,
+				385ABC322B2DEF4C005F90E6 /* FirebaseAnalyticsSwift */,
+				385ABC342B2DEF4C005F90E6 /* FirebaseAuth */,
+				385ABC362B2DEF4C005F90E6 /* FirebaseAuthCombine-Community */,
+				385ABC382B2DEF4C005F90E6 /* FirebaseCrashlytics */,
+				385ABC3A2B2DEF4C005F90E6 /* FirebaseFirestore */,
+				385ABC3C2B2DEF4C005F90E6 /* FirebaseFirestoreCombine-Community */,
+				385ABC3E2B2DEF4C005F90E6 /* FirebaseFirestoreSwift */,
+				385ABC402B2DEF4C005F90E6 /* FirebaseFunctions */,
+				385ABC422B2DEF4C005F90E6 /* FirebaseInstallations */,
+				385ABC442B2DEF4C005F90E6 /* FirebasePerformance */,
+				385ABC462B2DEF4C005F90E6 /* Updates */,
+				385ABC482B2DEF4C005F90E6 /* Kingfisher */,
+				385ABC4A2B2DEF4C005F90E6 /* iPhoneNumberField */,
+				385ABC4C2B2DEF4C005F90E6 /* Stripe */,
+				385ABC4E2B2DEF4C005F90E6 /* StripeApplePay */,
+				385ABC502B2DEF4C005F90E6 /* StripeCardScan */,
+				385ABC522B2DEF4C005F90E6 /* StripeFinancialConnections */,
+				385ABC542B2DEF4C005F90E6 /* StripeIdentity */,
+				385ABC562B2DEF4C005F90E6 /* StripePayments */,
+				385ABC582B2DEF4C005F90E6 /* StripePaymentSheet */,
+				385ABC5A2B2DEF4C005F90E6 /* StripePaymentsUI */,
+			);
 			productName = "ScribbleLab MacOS";
 			productReference = 38760F122B2CB44500CC73BD /* ScribbleLab MacOS.app */;
 			productType = "com.apple.product-type.application";
@@ -1601,6 +1678,9 @@
 			files = (
 				38760F172B2CB44600CC73BD /* ContentView.swift in Sources */,
 				38760F152B2CB44600CC73BD /* ScribbleLab_MacOSApp.swift in Sources */,
+				385ABC5C2B2DF0B9005F90E6 /* ScribbleLabApp.swift in Sources */,
+				385ABC5E2B2DF0C4005F90E6 /* AppDelegate.swift in Sources */,
+				385ABC5D2B2DF0C1005F90E6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2405,7 +2485,7 @@
 		38760F202B2CB44700CC73BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Dev";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "ScribbleLab MacOS/ScribbleLab_MacOS.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
@@ -2417,6 +2497,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2435,7 +2517,7 @@
 		38760F212B2CB44700CC73BD /* Alpha */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Alpha";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "ScribbleLab MacOS/ScribbleLab_MacOS.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
@@ -2447,6 +2529,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2465,7 +2549,7 @@
 		38760F222B2CB44700CC73BD /* Beta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Beta";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "ScribbleLab MacOS/ScribbleLab_MacOS.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
@@ -2477,6 +2561,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2507,6 +2593,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2537,6 +2625,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3044,6 +3134,126 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebasePerformance;
+		};
+		385ABC2C2B2DEF4C005F90E6 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 385F78AD2AD5E11C0096E504 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		385ABC2E2B2DEF4C005F90E6 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 385F78AD2AD5E11C0096E504 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		385ABC302B2DEF4C005F90E6 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		385ABC322B2DEF4C005F90E6 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		385ABC342B2DEF4C005F90E6 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		385ABC362B2DEF4C005F90E6 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		385ABC382B2DEF4C005F90E6 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		385ABC3A2B2DEF4C005F90E6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		385ABC3C2B2DEF4C005F90E6 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		385ABC3E2B2DEF4C005F90E6 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		385ABC402B2DEF4C005F90E6 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		385ABC422B2DEF4C005F90E6 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		385ABC442B2DEF4C005F90E6 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		385ABC462B2DEF4C005F90E6 /* Updates */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38E5BBB22AE41F2900FFFE7C /* XCRemoteSwiftPackageReference "Updates" */;
+			productName = Updates;
+		};
+		385ABC482B2DEF4C005F90E6 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 380D93912AE4280900277D2D /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		385ABC4A2B2DEF4C005F90E6 /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38A5E9C02B03F0140037C668 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+		385ABC4C2B2DEF4C005F90E6 /* Stripe */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 380BC6372B26029600DCF442 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = Stripe;
+		};
+		385ABC4E2B2DEF4C005F90E6 /* StripeApplePay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 380BC6372B26029600DCF442 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeApplePay;
+		};
+		385ABC502B2DEF4C005F90E6 /* StripeCardScan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 380BC6372B26029600DCF442 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeCardScan;
+		};
+		385ABC522B2DEF4C005F90E6 /* StripeFinancialConnections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 380BC6372B26029600DCF442 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeFinancialConnections;
+		};
+		385ABC542B2DEF4C005F90E6 /* StripeIdentity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 380BC6372B26029600DCF442 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeIdentity;
+		};
+		385ABC562B2DEF4C005F90E6 /* StripePayments */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 380BC6372B26029600DCF442 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripePayments;
+		};
+		385ABC582B2DEF4C005F90E6 /* StripePaymentSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 380BC6372B26029600DCF442 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripePaymentSheet;
+		};
+		385ABC5A2B2DEF4C005F90E6 /* StripePaymentsUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 380BC6372B26029600DCF442 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripePaymentsUI;
 		};
 		385F78AE2AD5E11C0096E504 /* GoogleSignIn */ = {
 			isa = XCSwiftPackageProductDependency;

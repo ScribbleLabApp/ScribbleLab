@@ -10,7 +10,6 @@ import SwiftUI
 struct SLDarkmodeSettingsView: View {
     @Environment(\.colorScheme) var colorScheme
     
-    // Concept from https://medium.com/@amitsrivastava115/toggle-between-dark-and-light-mode-in-swiftui-across-whole-app-5ccfc06a8eca
     @AppStorage("isDarkMode") private var isDarkMode = false
     @State private var darkmodePicker = 0
     

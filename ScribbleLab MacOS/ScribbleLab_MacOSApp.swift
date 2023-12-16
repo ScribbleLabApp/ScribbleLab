@@ -18,6 +18,11 @@
 //
 
 import SwiftUI
+import TipKit
+
+import FirebaseCore
+import GoogleSignIn
+import FirebasePerformance
 
 @main
 struct ScribbleLab_MacOSApp: App {
