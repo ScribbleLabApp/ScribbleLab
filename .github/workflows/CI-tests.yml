@@ -17,4 +17,4 @@ jobs:
       - name: List Simulators 📱
         run: xcrun simctl list --json
       - name: Run tests (UI & Unit tests) ✅
-        run: xcodebuild -scheme ScribbleLab -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPad Pro (12.9-inch)' test
+        run: xcodebuild -scheme ScribbleLab -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPad Pro (12.9-inch) (6th generation)' test
