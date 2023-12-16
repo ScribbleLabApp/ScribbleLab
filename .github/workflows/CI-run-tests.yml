@@ -1,0 +1,17 @@
+name: CI-run-tests
+on:
+  workflow_dispatch:
+jobs:
+  run-unit-tests:
+    name: Run Unit Tests
+    runs-on: macos-13
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+  
+      - name: Run Unit Tests ✅
+        run: |
+          xcodebuild \
+            -scheme ScribbleLab \
+            -destination 'generic/platform=iOS' \
+            test
