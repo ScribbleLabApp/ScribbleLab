@@ -14,5 +14,7 @@ jobs:
         run: sudo xcode-select -switch /Applications/Xcode_15.0.1.app/Contents/Developer
       - name: List SDKs 🎊
         run: xcodebuild -showsdks
+      - name: List Simulators 📱
+        run: xcrun simctl list --json
       - name: Run tests (UI & Unit tests) ✅
         run: xcodebuild -scheme ScribbleLab -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPad Pro (12.9-inch)' test
