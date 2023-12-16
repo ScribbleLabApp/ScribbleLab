@@ -433,9 +433,11 @@
 
 
 
-ScribbleLab is a powerful text editor built by students, for students, written entirely and unapologetically for iOS, iPadOS and macOS. Features include timetables, reminders, study timers, cloud storage support for 3rd party companies like Google and Apple (iCloudDrive), homework module, powerful text editor, extensions (macOS), live collaboration (soon available) and more.
+ScribbleLab is a powerful text editor built by students, for students, written entirely and unapologetically for iOS, iPadOS and macOS. Features include cloud storage support for 3rd party companies like Google and Apple (iCloudDrive), powerful text editor, extensions (like homework module, ToDo's, and many more), live collaboration (soon available) and more.
 
+<!--
 <img src="https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/f4419203-bc35-403d-81b1-403c7d80531f">
+-->
 
 > [!IMPORTANT]
 > ScribbleLab is currently in development and not yet ready for production use. You are welcome to test the [latest alpha/dev build](https://github.com/ScribbleLabApp/ScribbleLab/releases/latest) at your own risk. Please leave any feedback [here](https://github.com/ScribbleLabApp/ScribbleLab/issues).
