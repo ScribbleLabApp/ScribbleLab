@@ -36,8 +36,22 @@ struct HomeView: View {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
                         Task { await CreateNewDocumentTip.createNewDocumentEvent.donate() }
+                        viewModifier.createDialogDisplayed.toggle()
                     } label: {
                         Image(systemName: "plus")
+                    }
+                    .confirmationDialog(
+                        "How do you like to create a new document?",
+                        isPresented: $viewModifier.createDialogDisplayed
+                    ) {
+                        Button("Scan document") {
+                            print("DEBUG: Scan document")
+                        }
+                        Button("Create from Template") {
+                           print("DEBUG: Create new document from Templates")
+                        }
+                    } message: {
+                        Text("Select how you'd like to create a new document.")
                     }
                     .popoverTip(createFirstDocumentTip)
                 }
@@ -62,6 +76,7 @@ struct HomeView: View {
                     .popoverTip(showNotificationTip)
                     .sheet(isPresented: $viewModifier.notificationSheetisPresented, content: {
                         NotificationSheetView()
+                            .presentationDragIndicator(.visible)
                     })
                 }
                 

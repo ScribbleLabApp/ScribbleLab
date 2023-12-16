@@ -12,6 +12,7 @@ class HomeViewModel: ObservableObject {
     @Published var notificationSheetisPresented = false
     @Published var settingsViewSheetisPresented = false
     @Published var allowNotificationsIsGarnted = false
+    @Published var createDialogDisplayed = false
     
     // DEV
     @Published var newNotification = false

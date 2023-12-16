@@ -153,13 +153,13 @@
 					<key>EndingColumnNumber</key>
 					<string>0</string>
 					<key>EndingLineNumber</key>
-					<string>58</string>
+					<string>72</string>
 					<key>StartingColumnNumber</key>
 					<string>0</string>
 					<key>StartingLineNumber</key>
-					<string>57</string>
+					<string>71</string>
 					<key>Timestamp</key>
-					<string>723914404.660797</string>
+					<string>724436392.016798</string>
 				</dict>
 				<key>rebasable-url</key>
 				<dict>
@@ -189,6 +189,53 @@
 			</dict>
 			<key>title</key>
 			<string>Only for Development</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>51</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>50</string>
+					<key>Timestamp</key>
+					<string>724436392.016821</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>ScribbleLab/ScribbleLab/Core/Home/HomeView.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>                           print("DEBUG: Create new document from Templates")
+</string>
+				<key>leading</key>
+				<string>                        }
+                        Button("Create from Template") {
+</string>
+				<key>trailing</key>
+				<string>                        }
+                    } message: {
+                        Text("Select how you'd like to create a new document.")
+</string>
+			</dict>
+			<key>title</key>
+			<string>TODO: Adding slCreateDocument from Template</string>
 			<key>type</key>
 			<string>bookmark</string>
 		</dict>

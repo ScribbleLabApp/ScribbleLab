@@ -54,7 +54,7 @@ struct ScribbleLabApp: App {
 //            SignUpView()
 //                .environmentObject(RegistrationViewModel())
 //                .environmentObject(SignInWithGoogleModel())
-                .preferredColorScheme(isDarkMode ? .dark : .light)
+//                .preferredColorScheme(isDarkMode ? .dark : .light)
         }
     }
     

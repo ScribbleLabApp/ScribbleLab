@@ -27,6 +27,12 @@ struct SLHelpView: View {
 //                    }
                     .tint(.black)
                     Button {
+                        
+                    } label: {
+                        Label("Report a crash", systemImage: "laptopcomputer.trianglebadge.exclamationmark")
+                    }
+                    .tint(.black)
+                    Button {
                         openURL(URL(string: "https://github.com/ScribbleLabApp/ScribbleLab/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml&title=%F0%9F%94%B4+%3Cbug+name%3E")!)
                     } label: {
                         Label("Report a translation issue", systemImage: "character.bubble.ja") // bubble.left.and.exclamationmark.bubble.right
@@ -42,10 +48,24 @@ struct SLHelpView: View {
                     Label("Ask a question", systemImage: "questionmark.bubble")
                     Label("Q&A", systemImage: "bubble.left.and.text.bubble.right.rtl")
                     Label("Documentation", systemImage: "book.and.wrench") // books.vertical
+                    Button {
+                        
+                    } label: {
+                        Label("Guide", systemImage: "character.book.closed")
+                    }
+                    .tint(.black)
                 } header: {
                     Text("Help")
                 } footer: {
                     Text("")
+                }
+                
+                Section() {
+                    NavigationLink {
+                        
+                    } label: {
+                        Label("Troubleshooting", systemImage: "exclamationmark.triangle")
+                    }
                 }
                 
                 Section {
