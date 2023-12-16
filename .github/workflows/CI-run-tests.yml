@@ -15,3 +15,10 @@ jobs:
             -scheme ScribbleLab \
             -destination 'platform=iOS Simulator,name=iPad Pro (12.9-inch)' \
             test
+
+      - name: Run UI Tests 📱
+        run: |
+          xcodebuild \
+            -scheme ScribbleLabUITests \
+            -destination 'platform=iOS Simulator,name=iPad Pro (12.9-inch)' \
+            test
