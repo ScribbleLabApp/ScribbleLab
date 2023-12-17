@@ -43,6 +43,11 @@ Request a review from one of our admin @N3v1.
 
 Note: If it is your first PR, an admin will need to request a review for you.
 
+> [!Note]
+> Please resolve all Violation errors in Xcode (except: TODO: warnings). Otherwise the swiftlint check on GitHub will fail.
+
+Once you submit the PR GitHub will run a couple of actions which run tests and SwiftLint (this can take a couple of minutes). Should a test fail, it cannot be merged until tests succeed.
+
 Make sure to resolve all merge-conflicts otherwise the `PR` cannot be merged.
 
 > **Important**: make sure your code is well documented so others can interact with your code easily!
