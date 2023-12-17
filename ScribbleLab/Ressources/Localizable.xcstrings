@@ -419,6 +419,9 @@
     "Create" : {
       "extractionState" : "manual"
     },
+    "Create from Template" : {
+
+    },
     "Create New Document" : {
 
     },
@@ -704,6 +707,9 @@
     "GTMSessionFetcher" : {
 
     },
+    "Guide" : {
+
+    },
     "HAPPYFALL2023" : {
 
     },
@@ -744,6 +750,9 @@
           }
         }
       }
+    },
+    "How do you like to create a new document?" : {
+
     },
     "http://www.apache.org/licenses/" : {
 
@@ -793,6 +802,9 @@
           }
         }
       }
+    },
+    "Join our Discord Community" : {
+
     },
     "Kickstart your note-taking experience" : {
 
@@ -1063,6 +1075,9 @@
     "Report a bug" : {
 
     },
+    "Report a crash" : {
+
+    },
     "Report a translation issue" : {
 
     },
@@ -1073,6 +1088,9 @@
 
     },
     "Save" : {
+
+    },
+    "Scan document" : {
 
     },
     "ScribbleLab - Auth & Privacy" : {
@@ -1092,6 +1110,9 @@
       }
     },
     "Security mode" : {
+
+    },
+    "Select how you'd like to create a new document." : {
 
     },
     "Set up 2FA" : {
@@ -1257,6 +1278,9 @@
           }
         }
       }
+    },
+    "Troubleshooting" : {
+
     },
     "Units" : {
       "localizations" : {

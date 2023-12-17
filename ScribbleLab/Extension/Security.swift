@@ -41,14 +41,18 @@ func unlockWithBiometrics(completion: @escaping BiometricUnlockCompletion) {
     if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error) {
         let reason = "Unlock with Face ID/Touch ID to open ScribbleLab"
         
-        context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) { success, authenticationError in
+        context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics,
+                               localizedReason: reason) { success, authenticationError in
             DispatchQueue.main.async {
                 if success {
                     completion(true, nil)
                 } else if let error = authenticationError {
                     completion(false, error)
                 } else {
-                    completion(false, NSError(domain: "ScribbleLab", code: -1, userInfo: [NSLocalizedDescriptionKey: "Biometric authentication failed."]))
+                    completion(false, NSError(domain: "ScribbleLab", code: -1,
+                                              userInfo: [NSLocalizedDescriptionKey: "Biometric authentication failed."]
+                                             )
+                    )
                 }
             }
         }

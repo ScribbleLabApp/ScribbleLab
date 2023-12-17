@@ -94,7 +94,7 @@ struct SLStudyPomodoroTimerView: View {
                             pomodoroModel.addNewTimer = false
                         }
                     
-                    NewTimerView()
+                    newTimerView()
                         .frame(maxHeight: .infinity, alignment: .bottom)
                         .offset(y: pomodoroModel.addNewTimer ? 0 : 400)
                 }
@@ -127,7 +127,7 @@ struct SLStudyPomodoroTimerView: View {
     
     // MARK: New Timer Bottom Sheet
     @ViewBuilder
-    func NewTimerView() -> some View {
+    func newTimerView() -> some View {
         VStack(spacing: 15) {
             Text("Add New Timer")
                 .font(.title2.bold())
@@ -213,6 +213,9 @@ struct SLStudyPomodoroTimerView: View {
     }
     
     // MARK: Reusable Context Menu Options
+    // swiftlint:disable identifier_name
+    // swiftlint:disable void_return
+    // swiftlint:disable return_arrow_whitespace
     @ViewBuilder
     func ContextMenuOptions(maxValue: Int, hint: String, onClick: @escaping (Int)->()) -> some View {
         ForEach(0...maxValue, id: \.self) { value in
@@ -221,6 +224,9 @@ struct SLStudyPomodoroTimerView: View {
             }
         }
     }
+    // swiftlint:enable identifier_name
+    // swiftlint:enable void_return
+    // swiftlint:enable return_arrow_whitespace
 }
 
 #Preview {

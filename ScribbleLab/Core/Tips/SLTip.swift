@@ -9,6 +9,7 @@ import SwiftUI
 import Foundation
 import TipKit
 
+// swiftlint:disable empty_count
 struct CreateNewDocumentTip: Tip {
     static let launchHomeScreenEvent = Event(id: "launchHomeScreen")
     static let createNewDocumentEvent = Event(id: "createNewocument")
@@ -70,3 +71,4 @@ struct ShowNotificationsTip: Tip {
         }
     }
 }
+// swiftlint:enable empty_count

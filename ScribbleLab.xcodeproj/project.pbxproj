@@ -1476,12 +1476,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38AE9CC02AD0751100B761E8 /* Build configuration list for PBXNativeTarget "ScribbleLab" */;
 			buildPhases = (
+				38454F882B2F25E700EED81F /* Swiftlint */,
 				38AE9C942AD0750F00B761E8 /* Sources */,
 				38AE9C952AD0750F00B761E8 /* Frameworks */,
 				38AE9C962AD0750F00B761E8 /* Resources */,
 				38355EF62AD3DB3400392674 /* Embed Foundation Extensions */,
 				3836C2B82AF29CC1008F475F /* Embed App Clips */,
-				38454F882B2F25E700EED81F /* Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -1706,10 +1706,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/swiftlint_Output",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export PATH=\"/opt/homebrew/bin:$PATH\"\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n\n";
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

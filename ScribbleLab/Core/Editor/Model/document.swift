@@ -14,6 +14,7 @@ extension UTType {
     }
 }
 
+// swiftlint:disable type_name
 struct test_doc_appDocument: FileDocument {
     var text: String
 
@@ -37,3 +38,4 @@ struct test_doc_appDocument: FileDocument {
         return .init(regularFileWithContents: data)
     }
 }
+// swiftlint:enable type_name
