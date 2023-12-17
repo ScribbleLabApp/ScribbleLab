@@ -9,6 +9,8 @@ import SwiftUI
 import Darwin
 import UserNotifications
 
+// swiftlint:disable force_unwrapping
+// swiftlint:disable line_length
 struct SLHelpView: View {
     @Environment(\.openURL) var openURL
     @State private var securityModeIsEnabled = false
@@ -16,7 +18,7 @@ struct SLHelpView: View {
     var body: some View {
         NavigationStack {
             List {
-                Section() {
+                Section {
                     Button {
                         openURL(URL(string: "https://github.com/ScribbleLabApp/ScribbleLab/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml&title=%F0%9F%94%B4+%3Cbug+name%3E")!)
                     } label: {
@@ -43,7 +45,7 @@ struct SLHelpView: View {
                     Text("To report a bug please follow our issue template.")
                 }
                 
-                Section() {
+                Section {
                     Button {
                         openURL(URL(string: "https://github.com/ScribbleLabApp/ScribbleLab/discussions/categories/q-a")!)
                     } label: {
@@ -84,7 +86,7 @@ struct SLHelpView: View {
                     Text("")
                 }
                 
-                Section() {
+                Section {
                     NavigationLink {
                         SLTroubleshootingView()
                     } label: {
@@ -111,6 +113,8 @@ struct SLHelpView: View {
         }
     }
 }
+// swiftlint:enable force_unwrapping
+// swiftlint:enable line_length
 
 #Preview {
     SLHelpView()

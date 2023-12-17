@@ -30,7 +30,8 @@ struct ScribbleLabApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
     // Check if darkmode is enabled:
-    /// A property of type Boolean that stores a boolean value that indicates the current state of the applications color scheme
+    /// A property of type Boolean that stores a boolean value that indicates 
+    /// the current state of the applications color scheme:
     /// Possible values:
     /// - false: Dark mode isn't enabled
     /// - true: Dark mode is enabled

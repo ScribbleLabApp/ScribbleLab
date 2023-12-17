@@ -97,8 +97,6 @@ class SLAuthService {
         self.userSession = Auth.auth().currentUser
         guard let currentUid = userSession?.uid else { return }
         self.currentUser = try await UserService.fetchUser(withUid: currentUid)
-        //                let snapshot = try await Firestore.firestore().collection("users").document(currentUid).getDocument()
-        //                self.currentUser = try? snapshot.data(as: User.self)
     }
     
     /// Signs the current user out of the application.

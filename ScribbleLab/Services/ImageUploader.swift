@@ -17,7 +17,7 @@ struct ImageUploader {
         let ref = Storage.storage().reference(withPath: "/profile_images/\(filename)")
         
         do {
-            let _ = try await ref.putDataAsync(imageData)
+            _ = try await ref.putDataAsync(imageData)
             let url = try await ref.downloadURL()
             return url.absoluteString
         } catch {

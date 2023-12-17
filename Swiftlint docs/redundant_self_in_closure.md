@@ -1,0 +1,219 @@
+# Redundant Self in Closure
+
+Explicit use of 'self' is not required
+
+* **Identifier:** redundant_self_in_closure
+* **Enabled by default:** No
+* **Supports autocorrection:** Yes
+* **Kind:** style
+* **Analyzer rule:** No
+* **Minimum Swift compiler version:** 5.0.0
+* **Default configuration:**
+  <table>
+  <thead>
+  <tr><th>Key</th><th>Value</th></tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td>
+  severity
+  </td>
+  <td>
+  warning
+  </td>
+  </tr>
+  </tbody>
+  </table>
+
+## Non Triggering Examples
+
+```swift
+    struct S {
+        var x = 0
+        func f(_ work: @escaping () -> Void) { work() }
+        func g() {
+            f {
+                x = 1
+                f { x = 1 }
+                g()
+            }
+        }
+    }
+```
+
+```swift
+    class C {
+        var x = 0
+        func f(_ work: @escaping () -> Void) { work() }
+        func g() {
+            f { [weak self] in
+                self?.x = 1
+                self?.g()
+                guard let self = self ?? C() else { return }
+                self?.x = 1
+            }
+            C().f { self.x = 1 }
+            f { [weak self] in if let self { x = 1 } }
+        }
+    }
+```
+
+```swift
+    struct S {
+        var x = 0, error = 0, exception = 0
+        var y: Int?, z: Int?, u: Int, v: Int?, w: Int?
+        func f(_ work: @escaping (Int) -> Void) { work() }
+        func g(x: Int) {
+            f { u in
+                self.x = x
+                let x = 1
+                self.x = 2
+                if let y, let v {
+                    self.y = 3
+                    self.v = 1
+                }
+                guard let z else {
+                    let v = 4
+                    self.x = 5
+                    self.v = 6
+                    return
+                }
+                self.z = 7
+                while let v { self.v = 8 }
+                for w in [Int]() { self.w = 9 }
+                self.u = u
+                do {} catch { self.error = 10 }
+                do {} catch let exception { self.exception = 11 }
+            }
+        }
+    }
+```
+
+```swift
+    enum E {
+        case a(Int)
+        case b(Int, Int)
+    }
+    struct S {
+        var x: E = .a(3), y: Int, z: Int
+        func f(_ work: @escaping () -> Void) { work() }
+        func g(x: Int) {
+            f {
+                switch x {
+                case let .a(y):
+                    self.y = 1
+                case .b(let y, var z):
+                    self.y = 2
+                    self.z = 3
+                }
+            }
+        }
+    }
+```
+
+## Triggering Examples
+
+```swift
+    struct S {
+        var x = 0
+        func f(_ work: @escaping () -> Void) { work() }
+        func g() {
+            f {
+                ↓self.x = 1
+                if ↓self.x == 1 { ↓self.g() }
+            }
+        }
+    }
+```
+
+```swift
+    class C {
+        var x = 0
+        func g() {
+            {
+                ↓self.x = 1
+                ↓self.g()
+            }()
+        }
+    }
+```
+
+```swift
+    class C {
+        var x = 0
+        func f(_ work: @escaping () -> Void) { work() }
+        func g() {
+            f { [self] in
+                ↓self.x = 1
+                ↓self.g()
+                f { self.x = 1 }
+            }
+        }
+    }
+```
+
+```swift
+    class C {
+        var x = 0
+        func f(_ work: @escaping () -> Void) { work() }
+        func g() {
+            f { [unowned self] in ↓self.x = 1 }
+            f { [self = self] in ↓self.x = 1 }
+            f { [s = self] in s.x = 1 }
+        }
+    }
+```
+
+```swift
+    struct S {
+        var x = 0
+        var y: Int?, z: Int?, v: Int?, w: Int?
+        func f(_ work: @escaping () -> Void) { work() }
+        func g(w: Int, _ v: Int) {
+            f {
+                self.w = 1
+                ↓self.x = 2
+                if let y { ↓self.x = 3 }
+                else { ↓self.y = 3 }
+                guard let z else {
+                    ↓self.z = 4
+                    ↓self.x = 5
+                    return
+                }
+                ↓self.y = 6
+                while let y { ↓self.x = 7 }
+                for y in [Int]() { ↓self.x = 8 }
+                self.v = 9
+                do {
+                    let x = 10
+                    self.x = 11
+                }
+                ↓self.x = 12
+            }
+        }
+    }
+```
+
+```swift
+    class C {
+        var x = 0
+        func f(_ work: @escaping () -> Void) { work() }
+        func g() {
+            f { [weak self] in
+                self?.x = 1
+                guard let self else { return }
+                ↓self.x = 1
+            }
+            f { [weak self] in
+                self?.x = 1
+                if let self = self else { ↓self.x = 1 }
+                self?.x = 1
+            }
+            f { [weak self] in
+                self?.x = 1
+                while let self else { ↓self.x = 1 }
+                self?.x = 1
+            }
+        }
+    }
+```

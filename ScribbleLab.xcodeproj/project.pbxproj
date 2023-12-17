@@ -1481,6 +1481,7 @@
 				38AE9C962AD0750F00B761E8 /* Resources */,
 				38355EF62AD3DB3400392674 /* Embed Foundation Extensions */,
 				3836C2B82AF29CC1008F475F /* Embed App Clips */,
+				38454F882B2F25E700EED81F /* Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -1690,6 +1691,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38454F882B2F25E700EED81F /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"/opt/homebrew/bin:$PATH\"\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		38355EDA2AD3DB3200392674 /* Sources */ = {
@@ -1978,6 +2000,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab/Preview Content\"";
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScribbleLab/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
@@ -2150,6 +2173,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab/Preview Content\"";
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScribbleLab/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
@@ -2322,6 +2346,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab/Preview Content\"";
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScribbleLab/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
@@ -2812,6 +2837,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab/Preview Content\"";
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScribbleLab/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
@@ -2851,6 +2877,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab/Preview Content\"";
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScribbleLab/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;

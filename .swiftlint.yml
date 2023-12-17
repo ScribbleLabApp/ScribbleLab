@@ -1,0 +1,62 @@
+# By default, SwiftLint uses a set of sensible default rules you can adjust:
+disabled_rules:
+  - colon
+  - comma
+  - control_statement
+  - trailing_whitespace
+  - vertical_whitespace
+
+opt_in_rules:
+  - empty_count
+  - force_unwrapping
+
+identifier_name:
+  min_length:
+    error: 3
+  exclude:
+    - vm
+    - id
+
+excluded:
+  - Configs/
+  - docc/
+  - docs/
+  - Documentation.docc
+  - ScribbleLabTests/
+  - ScribbleLabUITests/
+  - SLAComponents/
+  - Carthage
+  - Pods
+  - ScribbleLab/Core/Auth/
+
+allow_zero_lintable_files: false
+strict: false
+
+force_cast: warning
+force_try:
+  severity: warning
+line_length: 110
+type_body_length:
+  - 300
+  - 400
+file_length:
+  warning: 500
+  error: 1200
+
+type_name:
+  min_length: 3
+  max_length:
+    warning: 40
+    error: 50
+  excluded: iPhone
+  allowed_symbols: ["_"]
+
+identifier_name:
+  min_length:
+    error: 3
+  excluded:
+    - id
+    - URL
+    - GlobalAPIKey
+
+reporter: "xcode"
