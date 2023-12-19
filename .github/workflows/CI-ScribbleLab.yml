@@ -17,6 +17,10 @@ jobs:
           ruby-version: 3.2.2
       - name: Install Slather 💎
         run: gem install slather
+      - name: Install Homebrew 🍺
+        run: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+      - name: Install swiftlint 🍺
+        run: brew install swiftlint
       - name: List Xcode Versions 📋
         run: ls /Applications | grep Xcode
       - name: Select Xcode ✨
