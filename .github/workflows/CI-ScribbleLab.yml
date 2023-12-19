@@ -11,37 +11,27 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
-
       - name: Set up Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.8.0   # newest: 3.2.2 
-
       - name: Install Slather 💎
         run: gem install slather
-
       - name: List Xcode Versions 📋
         run: ls /Applications | grep Xcode
-
       - name: Select Xcode ✨
         run: sudo xcode-select -switch /Applications/Xcode_15.0.1.app/Contents/Developer
-
       - name: List SDKs 🎊
         run: xcodebuild -showsdks
-
       - name: List Simulators 📱
         run: xcrun simctl list --json
-
       - name: Run tests (UI & Unit tests) ✅
         run: xcodebuild -scheme ScribbleLab -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPad Pro (12.9-inch) (6th generation)' test
-
       - name: Generate Coverage Report 💎
         run: slather coverage --cobertura-xml
-
       - name: Upload Coverage to Codecov 📊
         uses: codecov/codecov-action@v3
         with:
-          #token: ${{ secrets.CODECOV_TOKEN }} 
           file: ./cobertura.xml
           env:
             CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
