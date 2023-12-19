@@ -14,7 +14,7 @@ jobs:
       - name: Set up Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.8.0   # newest: 3.2.2 
+          ruby-version: 3.2.2
       - name: Install Slather 💎
         run: gem install slather
       - name: List Xcode Versions 📋
