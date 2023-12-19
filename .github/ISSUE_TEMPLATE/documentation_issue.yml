@@ -1,0 +1,28 @@
+name: 📖 Documentation Issue
+description: Report a missing or wrong documentation
+title: 📖 <[Docs] Title>
+labels: enhancement, help-wanted, good-first-issue, documentation
+
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      placeholder: >-
+        A clear and concise description of what you would like to happen...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional Context
+      placeholder: >-
+        Any other context or considerations about the feature request...
+
+  - type: checkboxes
+    id: new-doc
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists for your documentation issue.
+      options:
+        - label: I have searched the existing issues
+          required: true
