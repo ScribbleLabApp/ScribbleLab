@@ -25,6 +25,8 @@ jobs:
         run: ls /Applications | grep Xcode
       - name: Select Xcode ✨
         run: sudo xcode-select -switch /Applications/Xcode_15.0.1.app/Contents/Developer
+      - name: Delete DerivedData directory 🗑️
+        run: rm -rf ~/Library/Developer/Xcode/DerivedData
       - name: List SDKs 🎊
         run: xcodebuild -showsdks
       - name: List Simulators 📱
