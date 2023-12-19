@@ -311,6 +311,7 @@
 
     },
     "Bottom %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -381,9 +382,6 @@
 
     },
     "Collaboration" : {
-
-    },
-    "Configuration" : {
 
     },
     "Confirm" : {
@@ -626,12 +624,6 @@
     "Extensions" : {
 
     },
-    "Favorite Emoji" : {
-
-    },
-    "Favorite Emoji:" : {
-
-    },
     "Features" : {
       "localizations" : {
         "de" : {
@@ -714,6 +706,7 @@
 
     },
     "Hello %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -810,6 +803,7 @@
 
     },
     "L" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -830,9 +824,6 @@
       }
     },
     "Large" : {
-
-    },
-    "Leading" : {
 
     },
     "License" : {
@@ -1167,6 +1158,7 @@
       }
     },
     "T %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1226,13 +1218,7 @@
     "This is a View to test the SLImageButtons!" : {
 
     },
-    "This is an example widget." : {
-
-    },
     "Those informations are needed if you want to report an issue" : {
-
-    },
-    "Time:" : {
 
     },
     "Timetable" : {
@@ -1264,9 +1250,6 @@
 
     },
     "Toggle the button to enable Darkmode. Note if your system is on a light scheme and you've selected Follow system scheme the darkmode setting will be ignored. Please select 'Ignore system scheme'." : {
-
-    },
-    "Trailing" : {
 
     },
     "Trash" : {

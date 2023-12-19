@@ -35,6 +35,7 @@ struct User: Identifiable, Hashable, Codable {
 
 // MOCK Users for testing purposes
 extension User {
+    // swiftlint:disable identifier_name
     static var MOCK_USERS: [User] = [
         .init(id: NSUUID().uuidString, username: "test1", 
               profileImageUrl: nil, fullname: "Test 1", 
@@ -43,5 +44,6 @@ extension User {
               profileImageUrl: nil, fullname: "Test 2", 
               email: "test2@gmail.com"),
     ]
+    // swiftlint:enable identifier_name
 }
 
