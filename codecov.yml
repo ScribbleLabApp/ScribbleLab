@@ -1,0 +1,4 @@
+ignore:
+  - "ScribbleLab/App/AppDelegate.swift"
+  - "ScribbleLab/App/SceneDelegate.swift"
+  - "ScribbleLab/App/Performance/PerformanceView.swift"

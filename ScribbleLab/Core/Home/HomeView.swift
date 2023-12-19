@@ -94,29 +94,9 @@ struct HomeView: View {
             }
             .tint(isDarkMode ? .white : .black)
         }
-        
-        // FIXME: Fix notification alert
         .onAppear {
-            let center = UNUserNotificationCenter.current()
-            center.requestAuthorization(options: [.alert, .sound, .badge, .provisional, .criticalAlert]) { granted, error in
-                
-                if let error = error {
-                    // Handle the error here.
-                    print("DEBUG:\(error.localizedDescription).")
-                }
-                
-                // FIXME: Rework this
-                if granted == granted {
-                    self.viewModifier.allowNotificationsIsGarnted.toggle()
-                }
-                // Provisional authorization granted.
-            }
-            
             Task {
                 await CreateNewDocumentTip.launchHomeScreenEvent.donate()
-            }
-            
-            Task {
                 await ShowNotificationsTip.launchHomeScreenEvent.donate()
             }
         }

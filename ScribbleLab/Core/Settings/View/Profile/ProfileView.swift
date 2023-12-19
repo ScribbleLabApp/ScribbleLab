@@ -72,11 +72,11 @@ struct ProfileView: View {
                     
                     Section() {
                         Button("Edit Profile") {
-                            
+                            print("DEBUG: Edit profile")
                         }
                     }
                     
-                    Section() {
+                    Section {
                         Picker(selection: .constant(1), label: Text("Profile Image Size")) {
                             Text("Small").tag(0)
                             Text("Medium").tag(1)

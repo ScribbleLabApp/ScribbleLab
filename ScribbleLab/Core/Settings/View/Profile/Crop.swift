@@ -35,7 +35,8 @@ enum Crop: Equatable {
     case square
     case custom(CGSize)
     
-    /// A function that returns a String value which contains the name of the case which will be displayed in an action everytime you select an image.
+    /// A function that returns a String value which contains the name of the case which will be displayed in an 
+    /// action everytime you select an image.
     func name() -> String {
         switch self {
         case .circle: return "Cricle"

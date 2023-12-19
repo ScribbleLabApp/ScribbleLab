@@ -23,6 +23,7 @@ struct DrawingTest: View {
     
     var body: some View {
         VStack {
+            // swiftlint:disable unused_closure_parameter
             Canvas { context, size in
                 for line in lines {
                     var path = Path()
@@ -32,6 +33,7 @@ struct DrawingTest: View {
                 
                 
             }
+            // swiftlint:enable unused_closure_parameter
             .gesture(DragGesture(minimumDistance: 0, coordinateSpace: .local)
                 .onChanged({ value in
 //                    let newPoint = value.location

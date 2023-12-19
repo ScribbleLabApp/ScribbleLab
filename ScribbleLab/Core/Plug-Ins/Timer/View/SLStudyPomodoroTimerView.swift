@@ -5,10 +5,6 @@
 //  Created by Nevio Hirani on 15.10.23.
 //
 
-// TODO: Show the estimated finished time. e.g.
-// 30 min Timer · currently 3.30pm
-// so Time + timer value = 4pm
-
 import SwiftUI
 
 struct SLStudyPomodoroTimerView: View {
@@ -24,7 +20,10 @@ struct SLStudyPomodoroTimerView: View {
                             // background
                             Circle()
                                 .trim(from: 0, to: 1)
-                                .stroke(Color.black.opacity(0.09), style: StrokeStyle(lineWidth: 35, lineCap: .round))
+                                .stroke(
+                                    Color.black.opacity(0.09), 
+                                    style: StrokeStyle(lineWidth: 35, lineCap: .round)
+                                )
                             
                             // shadow
                             Circle()
@@ -35,12 +34,23 @@ struct SLStudyPomodoroTimerView: View {
                             // ring
                             Circle()
                                 .trim(from: 0, to: pomodoroModel.progress)
-                                .stroke( LinearGradient(colors: [.red, .orange, .yellow], startPoint: .top, endPoint: .bottom), style: StrokeStyle(lineWidth: 35, lineCap: .round))
+                                .stroke(
+                                    LinearGradient(
+                                        colors: [.red, .orange, .yellow],
+                                        startPoint: .top,
+                                        endPoint: .bottom
+                                    ), style: StrokeStyle(lineWidth: 35, lineCap: .round)
+                                )
                             
                             // ring blur
                             Circle()
                                 .trim(from: 0, to: pomodoroModel.progress)
-                                .stroke( LinearGradient(colors: [.red, .orange, .yellow], startPoint: .top, endPoint: .bottom), style: StrokeStyle(lineWidth: 35, lineCap: .round))
+                                .stroke(
+                                    LinearGradient(
+                                        colors: [.red, .orange, .yellow],
+                                        startPoint: .top, endPoint: .bottom
+                                    ), style: StrokeStyle(lineWidth: 35, lineCap: .round)
+                                )
                                 .blur(radius: 10)
                             
                             // Timer string value
@@ -126,6 +136,7 @@ struct SLStudyPomodoroTimerView: View {
     }
     
     // MARK: New Timer Bottom Sheet
+    // swiftlint:disable function_body_length
     @ViewBuilder
     func newTimerView() -> some View {
         VStack(spacing: 15) {
@@ -211,6 +222,7 @@ struct SLStudyPomodoroTimerView: View {
                 .ignoresSafeArea()
         }
     }
+    // swiftlint:enable function_body_length
     
     // MARK: Reusable Context Menu Options
     // swiftlint:disable identifier_name

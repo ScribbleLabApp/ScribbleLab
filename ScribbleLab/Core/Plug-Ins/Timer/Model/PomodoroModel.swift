@@ -33,6 +33,7 @@ class PomodoroModel: NSObject, ObservableObject, UNUserNotificationCenterDelegat
     }
     
     // MARK: - Authorize Notifications
+    // swiftlint:disable line_length
     func authorizeNotifications() {
         UNUserNotificationCenter.current().requestAuthorization(options: [.sound, .alert, .badge, .provisional, .criticalAlert]) { _, _ in
             
@@ -41,10 +42,10 @@ class PomodoroModel: NSObject, ObservableObject, UNUserNotificationCenterDelegat
         // MARK: In-app notification
         UNUserNotificationCenter.current().delegate = self
     }
+    // swiftlint:enable line_length
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
         completionHandler([.sound, .banner])
     }
-    
     // MARK: - Start Timer
     func startTimer() {
         withAnimation(.easeInOut(duration: 0.25)) { isStarted = true }
@@ -57,7 +58,6 @@ class PomodoroModel: NSObject, ObservableObject, UNUserNotificationCenterDelegat
         addNewTimer = false
         notifyWhenTimerEnds()
     }
-    
     // MARK: - Stop Timer
     func stopTimer() {
         withAnimation {
@@ -137,4 +137,5 @@ class PomodoroModel: NSObject, ObservableObject, UNUserNotificationCenterDelegat
     func calculateEstimatedTime() {
         
     }
+    // swiftlint:enable line_length
 }

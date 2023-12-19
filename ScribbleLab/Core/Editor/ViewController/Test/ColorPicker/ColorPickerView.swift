@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// swiftlint:disable length violation
 struct ColorPickerView: View {
     let colors = [Color.red, Color.yellow, Color.orange, Color.green, Color.blue, Color.purple, Color.black, Color.gray]
     

@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+// swiftlint:disable unused_closure_parameter
 class ImageViewModel: ObservableObject {
     @Published var image: UIImage?
 
@@ -58,3 +59,4 @@ class ImageViewModel: ObservableObject {
         return imageCache?.object(forKey: key as NSString) as? UIImage
     }
 }
+// swiftlint:enable unused_closure_parameter

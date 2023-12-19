@@ -11,7 +11,7 @@ struct PackageLicense: View {
     var body: some View {
         NavigationStack {
             List {
-                Section() {
+                Section {
                     NavigationLink {
                         
                     } label: {
@@ -40,7 +40,9 @@ struct PackageLicense: View {
                 } header: {
                     Text("Licenses")
                 } footer: {
+                    // swiftlint:disable line_length
                     Text("While agreeing to our LICENSE you automatically agree to the LICENSES of our used Dependencies")
+                    // swiftlint:enable line_length
                 }
             }
                 .navigationTitle("License")

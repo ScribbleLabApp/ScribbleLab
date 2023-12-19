@@ -22,10 +22,13 @@ import SwiftUI
 /// Custom View Modifier
 extension View {
     @ViewBuilder
-    func particleEffect(systemImage: String, font: Font, status: Bool, activeTint: Color, inActiveTint: Color) -> some View {
+    func particleEffect(systemImage: String, font: Font, status: Bool,
+                        activeTint: Color, inActiveTint: Color) -> some View {
         self
             .modifier(
-                ParticleModifier(systemImage: systemImage, font: font, status: status, activeTint: activeTint, inActiveTint: inActiveTint)
+                ParticleModifier(systemImage: systemImage, font: font, 
+                                 status: status, activeTint: activeTint,
+                                 inActiveTint: inActiveTint)
             )
     }
 }

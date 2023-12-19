@@ -10,12 +10,12 @@ import SwiftUI
 struct NotificationSheetView: View {
     var body: some View {
         NavigationStack {
-//            ContentUnavailableView("You have no unread notifications", systemImage: "bell.badge.fill")
-//                .navigationTitle("Notifications")
             ScrollView {
+                // swiftlint:disable unused_closure_parameter
                 ForEach(0...10, id: \.self) { notification in
                     NotificationCell()
                 }
+                // swiftlint:enable unused_closure_parameter
             }
             .padding()
             .navigationTitle("Notifications")
