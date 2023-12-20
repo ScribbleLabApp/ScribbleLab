@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <a aria-label="Follow CodeMaster on Github" href="https://github.com/ScribbleLabApp" target="_blank">
+  <a aria-label="Follow ScribbleLabApp on Github" href="https://github.com/ScribbleLabApp" target="_blank">
     <img alt="" src="https://img.shields.io/badge/Follow%20@ScribbleLabApp-black.svg?style=for-the-badge&logo=Github">
   </a>
   <a aria-label="Read the Documentation" href="scribblelabapp.github.io/docs/" target="_blank">
