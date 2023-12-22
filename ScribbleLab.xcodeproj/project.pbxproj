@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3802CBFC2B342F980051F6D8 /* LocalConsole in Frameworks */ = {isa = PBXBuildFile; productRef = 3802CBFB2B342F980051F6D8 /* LocalConsole */; };
 		38066B4F2AFE9F0E001A88D5 /* SLUpdateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38066B4E2AFE9F0E001A88D5 /* SLUpdateViewModel.swift */; };
 		38066B522AFEA235001A88D5 /* WaitSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38066B512AFEA235001A88D5 /* WaitSheetView.swift */; };
 		380BC6392B26029600DCF442 /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = 380BC6382B26029600DCF442 /* Stripe */; };
@@ -383,6 +384,7 @@
 				382520E22AEE671C002ECED2 /* SwiftRUI in Frameworks */,
 				385F78B12AD5E11C0096E504 /* GoogleSignInSwift in Frameworks */,
 				38FFF9382AE3C18B006719E2 /* FirebaseFirestore in Frameworks */,
+				3802CBFC2B342F980051F6D8 /* LocalConsole in Frameworks */,
 				380BC6392B26029600DCF442 /* Stripe in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1435,6 +1437,7 @@
 				380BC6402B26029600DCF442 /* StripePayments */,
 				380BC6422B26029600DCF442 /* StripePaymentsUI */,
 				38EACB142B32D4BE007E7629 /* Toast */,
+				3802CBFB2B342F980051F6D8 /* LocalConsole */,
 			);
 			productName = ScribbleLab;
 			productReference = 38AE9C982AD0750F00B761E8 /* ScribbleLab.app */;
@@ -1532,6 +1535,7 @@
 				38A5E9C02B03F0140037C668 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
 				380BC6372B26029600DCF442 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */,
 				38EACB132B32D4BE007E7629 /* XCRemoteSwiftPackageReference "toast-swift" */,
+				3802CBFA2B342F980051F6D8 /* XCRemoteSwiftPackageReference "LocalConsole" */,
 			);
 			productRefGroup = 38AE9C992AD0750F00B761E8 /* Products */;
 			projectDirPath = "";
@@ -2814,6 +2818,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		3802CBFA2B342F980051F6D8 /* XCRemoteSwiftPackageReference "LocalConsole" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/duraidabdul/LocalConsole/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.12.1;
+			};
+		};
 		380BC6372B26029600DCF442 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/stripe/stripe-ios-spm";
@@ -2889,6 +2901,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		3802CBFB2B342F980051F6D8 /* LocalConsole */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3802CBFA2B342F980051F6D8 /* XCRemoteSwiftPackageReference "LocalConsole" */;
+			productName = LocalConsole;
+		};
 		380BC6382B26029600DCF442 /* Stripe */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 380BC6372B26029600DCF442 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
