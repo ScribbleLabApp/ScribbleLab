@@ -433,14 +433,21 @@
 
 
 
-ScribbleLab is a powerful text editor built by students, for students, written entirely and unapologetically for iOS, iPadOS and macOS. Features include cloud storage support for 3rd party companies like Google and Apple (iCloudDrive), powerful text editor, extensions (like homework module, ToDo's, and many more), live collaboration (soon available) and more.
+ScribbleLab is a customizable text editor built by students, for students, written entirely and unapologetically for iOS, iPadOS, and macOS.
+
+We offer:
+- a lightweight yet powerful editor
+- a visually appealing design
+- a friendly user experience
+- [features](#features) such as cloud storage, extensions, and more
 
 <!--
 <img src="https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/f4419203-bc35-403d-81b1-403c7d80531f">
--->
+-->  
+
 
 > [!IMPORTANT]
-> ScribbleLab is currently in development and not yet ready for production use. You are welcome to test the [latest alpha/dev build](https://github.com/ScribbleLabApp/ScribbleLab/releases/latest) at your own risk. Please leave any feedback [here](https://github.com/ScribbleLabApp/ScribbleLab/issues).
+> ScribbleLab is currently in development and not yet ready for production use. You are welcome to test the [latest alpha/dev build](https://github.com/ScribbleLabApp/ScribbleLab/releases/latest) at your own risk. We welcome feedback [here](https://github.com/ScribbleLabApp/ScribbleLab/issues).
 
 [![Deploy DocC](https://github.com/ScribbleLabApp/ScribbleLab/actions/workflows/publish-pages.yml/badge.svg?branch=main)](https://github.com/ScribbleLabApp/ScribbleLab/actions/workflows/publish-pages.yml)
 [![CI-ScribbleLab](https://github.com/ScribbleLabApp/ScribbleLab/actions/workflows/CI-ScribbleLab.yml/badge.svg)](https://github.com/ScribbleLabApp/ScribbleLab/actions/workflows/CI-ScribbleLab.yml)
@@ -448,80 +455,71 @@ ScribbleLab is a powerful text editor built by students, for students, written e
 [![SwiftLint](https://github.com/ScribbleLabApp/ScribbleLab/actions/workflows/lint.yml/badge.svg)](https://github.com/ScribbleLabApp/ScribbleLab/actions/workflows/lint.yml)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/BlockSyncHQ/blocksync)
 
-This repository is avalable in diffrent languages:
+This repository is available in different languages:
 [English](https://github.com/ScribbleLabApp/ScribbleLab/tree/main) · [Deutsch](https://github.com/ScribbleLabApp/docs/blob/main/translations/README~de.md)
 
-## Table of Contents
+## Contents
 
 - [Motivation](#motivation)
 - [Mission](#mission)
 - [Features](#features)
 - [Community](#community)
 - [Privacy](#privacy)
-- [Pricing Model](#pricing_model)
+- [Pricing Model](#pricing-model)
 - [Contributing](#contributing)
 - [Contributors](#contributors)
 - [License](#license)
 
 ## Motivation
-We at ScribbleLab found out that the existing text editors in the market were either too complicated, lacked essential features, or were difficult to customize for our specific needs. We thought "Why isn't there an app that has everything you need?" and that's why we decided to create our own text editor. We wanted the complete control over its functionality and features.
+We at ScribbleLab found that the existing text editors on the market were too complicated, lacked essential features, or were difficult to customize for our specific needs. 
+
+We thought, "Why isn't there an app that has everything you need?" 
+
+That's why we decided to create our own text editor, with complete control over its functionality and features.
 
 ## Mission
-Our mission at ScribbleLab is to create an app that makes everyday life easier for many students. 
-As a student, you often need to use different apps to organize your academic life. So, we decided to integrate four existing apps, namely Reminder, Calendar, Timetable, and Clock, into one app. We also gave it a new, visually appealing design and a seamless integration into our editor.
+Our mission at ScribbleLab is to create an app that makes everyday life easier for students. 
+
+Students often need to use multiple apps to organize their academic lives. With the workflows of students in mind, we combine four existing apps (Reminder, Calendar, Timetable, and Clock) into a single app with a visually appealing design and a seamlessly integrated editor.
 
 ![combination-cornerradius](https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/c577cdf3-4b84-479f-9129-c11cd95d4cbb)
 
-By creating our own text editor, we were able to design it with our workflow in mind and customize its features to our exact specifications. We made sure that the editor was **lightweight but yet powerful**, **fast**, and **user-friendly**.
-
-We strive to remain true to Apple's human interface guidelines and development patterns, ensuring ScribbleLab looks and feels like an application developed by Apple themselves, which includes a meticulous attention to detail.
+We strive to remain true to Apple's [human interface guidelines](https://developer.apple.com/design/human-interface-guidelines) and [design patterns](https://developer.apple.com/design/human-interface-guidelines/patterns), ensuring ScribbleLab looks and feels like an application developed by Apple themselves, with meticulous attention to detail.
 
 ## Features
-To fulfill our mission, we must provide our users with ...
-1. ... a visual appealing design.
-2. ... a great user experience.
-3. ... awsome features that simplify our user's lives.
+Our editor is the "Scribble" part of ScribbleLab, and our features comprise the "Lab".
 
-To enhance the visual appeal of our application, we put careful consideration into its design, resulting in a cute and well-coordinated color scheme.
-
-To ensure a great user experience, we strictly follow Apple's Human Interface Guidelines and development patterns. 
-
-
-Finally, as a student, you may find many apps with great features, but none that meet all your needs. That's where ScribbleLab comes in handy. Our app provides a comprehensive suite of powerful and useful tools. We offer our users access to:
+As a student, you may find many editor apps with great features, but none that meet all your needs. As a ScribbleLab user, you can access a comprehensive suite of powerful and useful tools, including:
 - a customizable timetable function
-- a fully customizable Calender
-- a study timer
-- a reminder and homework to-do lists
-- live collaborations `(soon avaiale)`
-- linking cloud storage from 3rd party companies like Dropbox, GoogleDrive, iCloudDrive, ...
-- customizable templates (pages, covers)
-- import and export PDF's, PNG's, and .scribble `(own file fromat soon available)` files
-- AI support `(ScribbleLab Pro only - soon available)`
-- Widgets:
-    - Study Timer widget
-    - calender widget
-    - reminder and homework to-do widget
+- a fully customizable calender widget
+- a study timer widget
+- reminder list widget
+- homework to-do list widget
+- live collaborations `(coming soon)`
+- linked cloud storage from third-party companies such as Dropbox, GoogleDrive, iCloudDrive, and more
+- customizable templates (pages, covers, etc)
+- import and export PDFs, PNGs, and .scribble `(own file format, coming soon)` files
+- AI support `(ScribbleLab Pro only - coming soon)`
 
 <img align="right" width="400" src="https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/1c466ab5-afb1-4b81-85e1-f064ec9cce6e">
 
-You might wonder, "How can an app be good if it has so many features? Is there a catch?" Our response is no. At ScribbleLab, we believe that our app improves with every feature we add. The purpose of ScribbleLab is to provide a platform where you can make notes related to school, work, or personal life ("scribble") and explore the various features we have to offer and customize them ("Lab"). You may wonder how we can provide users with a straightforward graphical interface, but we have that covered too. To keep the UI simple we moved some of the features into the Side Bar where you can acess it with a simple click.
+Many of our features are available from a sidebar where they can be accessed by a simple click.
 
-But you might wonder "How are they capable of adapting the features to their customers?" - Well the answer is this, we use the feedback from our community and testers.
+You might wonder, "How can an app be good if it has so many features? Is there a catch?"
+
+There's no catch. We believe that our app improves with every feature we add. To decide what features to include, we invite and assess feedback from our [community](#community) and testers, ensuring that our feature list is relevant and useful to students.
 
 ## Community
-Our community comprises of contributors from GitHub, testers, developers, and users. Join our [**Discord server `(coming soon)`**]() for improved communication within and among community members. 
+Our community comprises contributors from GitHub, testers, developers, and users. Join our [**Discord server `(coming soon)`**]() for improved communication among community members. 
 
 ## Privacy
-We at ScribbleLab believe that privacy is a fundamental right and should be treated with utmost importance. When it comes to personal data, it is important that it is stored securely and responsibly. 
-Therefore we're storing your data on your device or on your iCloud/GoogleDrive/Dropbox account, ensuring that the data is not accessible to unauthorized individuals or entities.
+Is it safe to create an account with ScribbleLab? Yes!
 
-At the same time, it is crucial that individuals have control over their data. They should be able to access and manage their data easily, 
-as well as have the option to delete it if they so choose. This is especially important in the context of data breaches, 
-where personal information can fall into the wrong hands. But with ScribbleLab it isn't possible accept someone hacks your device or cloud and steals your data.
+We at ScribbleLab believe that privacy is a fundamental right and should be treated with utmost importance. When it comes to personal data, it is important that it is stored securely and responsibly. It is crucial that individuals have control over their data. You should be able to access, manage, and delete your data easily and privately. This is especially important in the context of data breaches, where personal information can fall into the wrong hands. 
 
-When you create a ScribbleLab account, you are agreeing to our [License Agreement](LICENSE_AGREEMENT.md) as well as the licenses of our third-party packages. You might be wondering if it's safe to create an account with ScribbleLab. The answer is yes! We use [Google Firebase](https://firebase.google.com/), which includes [FirebaseAuth](https://firebase.google.com/docs/auth?hl=en), [FirebaseStorage](https://firebase.google.com/docs/storage?hl=en), and [Cloud Firestore](https://firebase.google.com/docs/firestore?hl=en), to securely store your data. This means that no one can access your data, not even us. We cannot see any of your personal data, such as created documents or cloud services. The only thing we can see is how many people have a ScribbleLab account. Furthermore we use Additionally, we use [Google Analytics](https://developers.google.com/analytics?hl=en) and [Google Crashlytics](https://firebase.google.com/docs/crashlytics?hl=en) to track crashes and other unusual events or bugs.
+Therefore, we store your data on your device or on your third-party cloud storage accounts only, ensuring that the data is not accessible to unauthorized individuals or entities. We use [Google Firebase](https://firebase.google.com/) (which includes [FirebaseAuth](https://firebase.google.com/docs/auth?hl=en), [FirebaseStorage](https://firebase.google.com/docs/storage?hl=en), and [Cloud Firestore](https://firebase.google.com/docs/firestore?hl=en)) to securely store your data. This means that no one can access your personal data, such as created documents or cloud services, not even us. The only thing we can see is how many people have a ScribbleLab account, along with data from [Google Analytics](https://developers.google.com/analytics?hl=en) and [Google Crashlytics](https://firebase.google.com/docs/crashlytics?hl=en) to track crashes and other unusual events or bugs.
 
-Ensuring the security of our software is a top priority for us, we regularly release software updates that include bug fixes and security 
+Ensuring the security of our software is a top priority for us. We regularly release software updates that include bug fixes and security 
 patches to keep your data and system secure. It is important to install these updates as soon as they become available to ensure that 
 you are protected from the latest threats.
 
@@ -529,45 +527,53 @@ To make the process of updating your software easier, we have implemented an aut
 to install new updates as soon as they become available. We highly recommend that you enable this feature so that you 
 always have the latest security updates installed.
 
-In addition to automatic updates, we also provide manual update instructions (macOS) on our website. Please make sure to follow these 
+In addition to automatic updates, we also provide manual update instructions for macOS on our website. Please make sure to follow these 
 instructions carefully to ensure a smooth update process.
 
 Remember, staying up to date with software updates is an essential part of maintaining the security and integrity of your system.
 
-> Note:
+> [!CAUTION]
 > No warranty is provided for testing Alpha, Beta, nightly, or RC builds. Use at your own risk.
 
+
 ## Pricing Model
-Well, our App follows the freemium scheme. That means we offer two versions: a free one (ScribbleLab Basic) and a paid one (ScribbleLab Pro). Additionally, we offer a ScribbleLab AI subscription for unlimited AI usage and grammar/writing correction.
+ScribbleLab follows the freemium scheme. This means that we offer two versions:
+- Free (ScribbleLab Basic)
+- Paid (ScribbleLab Pro - coming soon).
+Additionally, we will soon offer a ScribbleLab AI subscription for unlimited AI usage and grammar/writing correction.
 
-> Please note that the following versions of ScribbleLab are in development and won't be released until v.1.0 or later.
+> [!NOTE]
+> The Pro and AI versions of ScribbleLab are currently in development.
 
-You may be wondering about the benefits of subscribing to theScribbleLab Pro or AI. So, what exactly do you get with these subscriptions? Well, here's a comparison of the different subscriptions:
-<!--
-|                       | ScribbleLab Basic |  ScribbleLab Pro  |  ScribbleLab AI     |
-| :---------------:     | :---------------: | :---------------: | :---------------:   |
-|  **AI Support**       |		 yes*		|		yes*		|		yes			  |
-|  Ammount of requests  |		50			|		200			|	2k - unlimeted    |
-|  Learning Model       |        GPT3       |    GPT3.5 - Turbo |       GPT4          |
-|**Live Collaboration** |		 yes*	    |		yes			|       -             |
-|     **Timetable**     |        yes*       |       yes         |       -             |
-|      Price            |		 free		|		 			|	$14,99/month      |
+### Benefits Comparison
 
----
+|                         | ScribbleLab Basic | ScribbleLab Pro | ScribbleLab AI |
+|-------------------------|-------------------|-----------------|----------------|
+| **AI Support**          |        Yes*       |       Yes*      |       Yes      |
+| Daily Max AI Requests   |         50        |       200       | 2k - Unlimited |
+| Learning Model          |        GPT3       |  GPT3.5 - Turbo |      GPT4      |
+| **Live Collaborations** |        Yes*       |       Yes       |        -       |
+| **Timetable**           |        Yes*       |       Yes       |        -       |
+| **Price**               |        Free       |                 |  $14.99/month  |
+
+
 **AI Support:**
--  *ScribbleLab Basic offers only 50, Pro offers 200 and AI offers unlimited. The price for AI is calculated with 2k requests - after you reached 2k requests you have a 50 request limit per day. 
-- ScribbleLab uses ChatGPT and it's own AI service `(SOON AVAILABLE)` to provide AI support.
+-  *Requests per day*: ScribbleLab Basic offers 50, ScribbleLab Pro offers 200, and AI offers unlimited requests. The price for AI is calculated with 2k requests - after you reach 2k requests, you have a 50 request limit per day. 
+- ScribbleLab uses ChatGPT and its own AI service `(coming soon)` to provide AI support.
 
 **Live Collaboration:**
-- ScribbleLab Basic offers 
+- Details coming soon.
 
--->
+**Timetable**
+- Details coming soon,
 
 ## Contributing
 
 ## Contributors
 
 ## License
+When you create a ScribbleLab account, you are agreeing to our [License Agreement](LICENSE_AGREEMENT.md) as well as the licenses of our third-party packages. 
+
 This open-source project has been licensed under two separate licenses. The Apache 2.0 License applies to the entirety of the project, while the AGPL 3.0 License applies specifically to ScribbleLab's Auth code and service. The Apache 2.0 License is a permissive license that allows for the distribution of the software under certain terms and conditions. On the other hand, the AGPL 3.0 License is a copyleft license that requires any modifications or derivatives of the code to be released under the same license. It is important to note that the licenses are not interchangeable, and adherence to both is necessary for proper use and distribution of the project.
 
 [ScribbleLab's main LICENSE](LICENSE) · [ScribbleLab's Auth LICENSE](LICENSE-AUTH)
