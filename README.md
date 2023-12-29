@@ -547,25 +547,21 @@ Additionally, we will soon offer a ScribbleLab AI subscription for unlimited AI 
 
 ### Benefits Comparison
 
-|                         | ScribbleLab Basic | ScribbleLab Pro | ScribbleLab AI |
+|                         | ScribbleLab Basic | ScribbleLab Pro | Lifetime
 |-------------------------|-------------------|-----------------|----------------|
 | **AI Support**          |        Yes*       |       Yes*      |       Yes      |
-| Daily Max AI Requests   |         50        |       200       | 2k - Unlimited |
-| Learning Model          |        GPT3       |  GPT3.5 - Turbo |      GPT4      |
-| **Live Collaborations** |        Yes*       |       Yes       |        -       |
-| **Timetable**           |        Yes*       |       Yes       |        -       |
-| **Price**               |        Free       |                 |  $14.99/month  |
+| Montly Max AI Requests  |         50        |       200       | 2k - Unlimited |
+| Learning Model          |        GPT4       |  GPT4           |      GPT4      |
+| **Live Collaborations** |        Yes*       |       Yes       |       Yes      |
+| **Price**               |        Free       |   $.8.99/month  |        $30.99  |
 
 
 **AI Support:**
 -  *Requests per day*: ScribbleLab Basic offers 50, ScribbleLab Pro offers 200, and AI offers unlimited requests. The price for AI is calculated with 2k requests - after you reach 2k requests, you have a 50 request limit per day. 
-- ScribbleLab uses ChatGPT and its own AI service `(coming soon)` to provide AI support.
+- ScribbleLab uses ChatGPT and its own AI service ScribbleCompose`(coming soon)` to provide AI support.
 
 **Live Collaboration:**
 - Details coming soon.
-
-**Timetable**
-- Details coming soon,
 
 ## Contributing
 
