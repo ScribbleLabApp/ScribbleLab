@@ -171,6 +171,9 @@
         }
       }
     },
+    "01/01/2024" : {
+
+    },
     "2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form." : {
       "localizations" : {
         "nl" : {
@@ -254,6 +257,15 @@
     "Accessibility" : {
 
     },
+    "Account-Information" : {
+
+    },
+    "Account-Safety" : {
+
+    },
+    "Account-Settings" : {
+
+    },
     "Add New Timer" : {
 
     },
@@ -298,6 +310,7 @@
 
     },
     "BIRTHDAY01" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -369,9 +382,6 @@
     "Check for updates" : {
 
     },
-    "Clear Image Cache" : {
-
-    },
     "Click below to complete registration and start using ScribbleLab" : {
 
     },
@@ -382,6 +392,9 @@
 
     },
     "Collaboration" : {
+
+    },
+    "Configure 2FA" : {
 
     },
     "Confirm" : {
@@ -424,9 +437,6 @@
 
     },
     "Create one." : {
-
-    },
-    "Danger zone" : {
 
     },
     "Dangerzone" : {
@@ -488,9 +498,6 @@
     "Display name" : {
 
     },
-    "Do you really want to delete your account? This operation can't be undone" : {
-
-    },
     "Do you really want to delete your account? This operation cannot be undone" : {
 
     },
@@ -498,9 +505,6 @@
 
     },
     "Do you really want to reset your customized data. This operation cannot be undone" : {
-
-    },
-    "Do you really want to sign out? You'll be not able to use this app without signing in" : {
 
     },
     "Documentation" : {
@@ -534,7 +538,11 @@
         }
       }
     },
+    "E-Mail" : {
+
+    },
     "Edit" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -543,9 +551,6 @@
           }
         }
       }
-    },
-    "Edit Profile" : {
-
     },
     "Enable" : {
 
@@ -569,9 +574,6 @@
 
     },
     "Enroll for the nightly build programme" : {
-
-    },
-    "Enter a valid gift code" : {
 
     },
     "Enter your 2FA-Code" : {
@@ -661,9 +663,6 @@
         }
       }
     },
-    "FREE10" : {
-
-    },
     "General infos" : {
 
     },
@@ -702,9 +701,6 @@
     "Guide" : {
 
     },
-    "HAPPYFALL2023" : {
-
-    },
     "Hello %@" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -723,9 +719,6 @@
       }
     },
     "Hello, World!" : {
-
-    },
-    "HELLOWEEN2023" : {
 
     },
     "Help" : {
@@ -823,9 +816,6 @@
         }
       }
     },
-    "Large" : {
-
-    },
     "License" : {
       "localizations" : {
         "de" : {
@@ -852,6 +842,9 @@
         }
       }
     },
+    "Linked via" : {
+
+    },
     "Locations" : {
 
     },
@@ -876,6 +869,9 @@
         }
       }
     },
+    "Log out of ScribbleLab?" : {
+
+    },
     "Login" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -893,7 +889,13 @@
     "Manage Features" : {
 
     },
-    "Medium" : {
+    "Member since" : {
+
+    },
+    "Membership type" : {
+
+    },
+    "Membershipinfo" : {
 
     },
     "n/a" : {
@@ -920,6 +922,9 @@
 
     },
     "No account?" : {
+
+    },
+    "none" : {
 
     },
     "Notifications" : {
@@ -982,6 +987,9 @@
     "Password reset" : {
 
     },
+    "Permanently delete your ScribbleLabAccount?" : {
+
+    },
     "phone number in order to get 2FA Codes or" : {
 
     },
@@ -1007,9 +1015,6 @@
           }
         }
       }
-    },
-    "Profile Image Size" : {
-
     },
     "Purple" : {
       "localizations" : {
@@ -1040,18 +1045,6 @@
           }
         }
       }
-    },
-    "Redeem" : {
-
-    },
-    "Redeem a gift Code" : {
-
-    },
-    "Redeem Code" : {
-
-    },
-    "Redeemtion (BETA)" : {
-
     },
     "Reminder" : {
       "localizations" : {
@@ -1090,6 +1083,9 @@
     "ScribbleLab and ScribbleLabAuth (SLA) is a secure, reliable and easy-to-use authentication service that allows users to gain access to the application's resources through a simple and straightforward process. The ScribbleLab Auth Service is built on top of Firebase, a powerful and scalable database service, ensuring that user authentication is done in a secure and robust manner. \n " : {
 
     },
+    "ScribbleLabApp" : {
+
+    },
     "Search" : {
       "localizations" : {
         "de" : {
@@ -1104,9 +1100,6 @@
 
     },
     "Select how you'd like to create a new document." : {
-
-    },
-    "Set up 2FA" : {
 
     },
     "Setting up your ScribbleLabApp account" : {
@@ -1126,9 +1119,6 @@
 
     },
     "Sign Out" : {
-
-    },
-    "Small" : {
 
     },
     "Some simple settings to make the app even better" : {
@@ -1157,6 +1147,12 @@
         }
       }
     },
+    "Subscribe" : {
+
+    },
+    "Subscription type" : {
+
+    },
     "T %@" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -1167,9 +1163,6 @@
           }
         }
       }
-    },
-    "Tab on a gift code to redeem it" : {
-
     },
     "Tab on the 􀝖 to check your notifications" : {
       "localizations" : {
@@ -1194,10 +1187,13 @@
     "TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION" : {
 
     },
-    "Test User" : {
+    "Terms of Use" : {
 
     },
-    "test@gmail.com" : {
+    "Test" : {
+
+    },
+    "test01@gmail.com" : {
 
     },
     "These settings are responsible for the updates of this app. In order to enroll to the programmes you need to be registered to our ScribbleLab Developer Programm (free). Follow [this link](https://github.com/ScribbleLabApp/ScribbleLab) for a more detailed description." : {
@@ -1278,9 +1274,6 @@
     "Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License." : {
 
     },
-    "Unlimeted" : {
-
-    },
     "Update" : {
       "localizations" : {
         "de" : {
@@ -1300,9 +1293,6 @@
           }
         }
       }
-    },
-    "User Profile" : {
-
     },
     "Username" : {
       "localizations" : {
@@ -1428,6 +1418,12 @@
     "you can find your OTP Code" : {
 
     },
+    "You can learn more about how to manage subscriptions on our [help page](https://github.com/ScribbleLabApp/ScribbleLab)." : {
+
+    },
+    "You cannot undo this action." : {
+
+    },
     "You have no documents" : {
 
     },
@@ -1438,6 +1434,9 @@
 
     },
     "You may obtain a copy of the License at" : {
+
+    },
+    "You won't be able to use this App without an account. All your documets are safely syncronised in your Cloud." : {
 
     },
     "Your ScribbleLab Account information is used to enable services when you sign in, including other features like live collaboration, ... [**See how your data is managed...**](https://github.com/ScribbleLabApp/ScribbleLab)" : {

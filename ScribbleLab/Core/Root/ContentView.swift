@@ -12,9 +12,11 @@ struct ContentView: View {
 
     var body: some View {
         Group {
-            if $viewModel.userSession == nil {
+            if viewModel.userSession == nil { 
+                // FIXME: Old: $viewModel.userSession
                 SignUpView()
-            } else if let currentUser = viewModel.currentUser { // viewModel.currentUser != nil
+            } else if viewModel.userSession != nil {
+            // FIXME: else if let currentUser = viewModel.currentUser
                SLSideBarView()
             }
         }

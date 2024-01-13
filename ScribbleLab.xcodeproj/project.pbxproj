@@ -135,6 +135,11 @@
 		38AE9CBB2AD0751100B761E8 /* ScribbleLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9CBA2AD0751100B761E8 /* ScribbleLabUITests.swift */; };
 		38AE9CBD2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9CBC2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift */; };
 		38C666292B52D21900CAD099 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C666282B52D21900CAD099 /* SubscriptionView.swift */; };
+		38C6662C2B52EDE300CAD099 /* PermissionsSwiftUINotification in Frameworks */ = {isa = PBXBuildFile; productRef = 38C6662B2B52EDE300CAD099 /* PermissionsSwiftUINotification */; };
+		38C6662E2B52EDE300CAD099 /* PermissionsSwiftUIPhoto in Frameworks */ = {isa = PBXBuildFile; productRef = 38C6662D2B52EDE300CAD099 /* PermissionsSwiftUIPhoto */; };
+		38C666302B52EDE300CAD099 /* PermissionsSwiftUISiri in Frameworks */ = {isa = PBXBuildFile; productRef = 38C6662F2B52EDE300CAD099 /* PermissionsSwiftUISiri */; };
+		38C666322B53038200CAD099 /* PermissionsSwiftUICamera in Frameworks */ = {isa = PBXBuildFile; productRef = 38C666312B53038200CAD099 /* PermissionsSwiftUICamera */; };
+		38C666342B53241200CAD099 /* SLUnitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C666332B53241200CAD099 /* SLUnitsView.swift */; };
 		38C68B982B0D134300D16E86 /* SLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C68B972B0D134300D16E86 /* SLButton.swift */; };
 		38C68B9A2B0D1CA100D16E86 /* SLButton+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C68B992B0D1CA100D16E86 /* SLButton+Image.swift */; };
 		38D56F062AF59A0000CE3781 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D56F052AF59A0000CE3781 /* ImagePicker.swift */; };
@@ -307,6 +312,7 @@
 		38AE9CBA2AD0751100B761E8 /* ScribbleLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLabUITests.swift; sourceTree = "<group>"; };
 		38AE9CBC2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLabUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		38C666282B52D21900CAD099 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		38C666332B53241200CAD099 /* SLUnitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLUnitsView.swift; sourceTree = "<group>"; };
 		38C68B972B0D134300D16E86 /* SLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLButton.swift; sourceTree = "<group>"; };
 		38C68B992B0D1CA100D16E86 /* SLButton+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SLButton+Image.swift"; sourceTree = "<group>"; };
 		38D56F052AF59A0000CE3781 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -380,12 +386,16 @@
 				38FFF9322AE3C18B006719E2 /* FirebaseAuth in Frameworks */,
 				380BC63B2B26029600DCF442 /* StripeApplePay in Frameworks */,
 				38A24C752AED2A7700F81F07 /* FirebaseAnalyticsSwift in Frameworks */,
+				38C6662E2B52EDE300CAD099 /* PermissionsSwiftUIPhoto in Frameworks */,
+				38C6662C2B52EDE300CAD099 /* PermissionsSwiftUINotification in Frameworks */,
 				38FFF93C2AE3C18B006719E2 /* FirebaseStorage in Frameworks */,
 				382520E22AEE671C002ECED2 /* SwiftRUI in Frameworks */,
 				385F78B12AD5E11C0096E504 /* GoogleSignInSwift in Frameworks */,
 				38FFF9382AE3C18B006719E2 /* FirebaseFirestore in Frameworks */,
 				3802CBFC2B342F980051F6D8 /* LocalConsole in Frameworks */,
 				380BC6392B26029600DCF442 /* Stripe in Frameworks */,
+				38C666322B53038200CAD099 /* PermissionsSwiftUICamera in Frameworks */,
+				38C666302B52EDE300CAD099 /* PermissionsSwiftUISiri in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1178,6 +1188,7 @@
 		38D5C6812AD2887000D943A5 /* Units */ = {
 			isa = PBXGroup;
 			children = (
+				38C666332B53241200CAD099 /* SLUnitsView.swift */,
 			);
 			path = Units;
 			sourceTree = "<group>";
@@ -1438,6 +1449,10 @@
 				38EACB142B32D4BE007E7629 /* Toast */,
 				3802CBFB2B342F980051F6D8 /* LocalConsole */,
 				38EA6DE52B441A6100A04754 /* ThemeManager */,
+				38C6662B2B52EDE300CAD099 /* PermissionsSwiftUINotification */,
+				38C6662D2B52EDE300CAD099 /* PermissionsSwiftUIPhoto */,
+				38C6662F2B52EDE300CAD099 /* PermissionsSwiftUISiri */,
+				38C666312B53038200CAD099 /* PermissionsSwiftUICamera */,
 			);
 			productName = ScribbleLab;
 			productReference = 38AE9C982AD0750F00B761E8 /* ScribbleLab.app */;
@@ -1537,6 +1552,7 @@
 				38EACB132B32D4BE007E7629 /* XCRemoteSwiftPackageReference "toast-swift" */,
 				3802CBFA2B342F980051F6D8 /* XCRemoteSwiftPackageReference "LocalConsole" */,
 				38EA6DE42B441A6100A04754 /* XCRemoteSwiftPackageReference "ThemeManager" */,
+				38C6662A2B52EDE300CAD099 /* XCRemoteSwiftPackageReference "PermissionsSwiftUI" */,
 			);
 			productRefGroup = 38AE9C992AD0750F00B761E8 /* Products */;
 			projectDirPath = "";
@@ -1671,6 +1687,7 @@
 				38066B4F2AFE9F0E001A88D5 /* SLUpdateViewModel.swift in Sources */,
 				387F7F882B12087E001CC150 /* Draw+PencilKit.swift in Sources */,
 				38A24C712AED15B600F81F07 /* ImageUploader.swift in Sources */,
+				38C666342B53241200CAD099 /* SLUnitsView.swift in Sources */,
 				38FFF9452AE3CA6F006719E2 /* Application_utility.swift in Sources */,
 				3852D71C2B054C11007FAFF1 /* OTP+2FAViewModel.swift in Sources */,
 				38D56F062AF59A0000CE3781 /* ImagePicker.swift in Sources */,
@@ -1857,7 +1874,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = "0.0.1-alpha";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SL_COPYRIGHT = "Copyright © 2023-2024 ScribbleLabApp \\n All rights reserved";
@@ -1879,7 +1896,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLabTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLabTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -1898,7 +1915,7 @@
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLabUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLabUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -2002,7 +2019,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = "0.0.1-beta";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SL_COPYRIGHT = "Copyright © 2023-2024 ScribbleLabApp \\n All rights reserved";
@@ -2024,7 +2041,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLabTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLabTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -2043,7 +2060,7 @@
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLabUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLabUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -2147,7 +2164,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SL_COPYRIGHT = "Copyright © 2023-2024 ScribbleLabApp \\n All rights reserved";
@@ -2169,7 +2186,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLabTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLabTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -2188,7 +2205,7 @@
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLabUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLabUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -2207,9 +2224,10 @@
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SLStickerPack/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SLStickerPack;
 				INFOPLIST_KEY_NSStickerSharingLevel = OS;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab.SLStickerPack;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab.SLStickerPack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -2227,9 +2245,10 @@
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SLStickerPack/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SLStickerPack;
 				INFOPLIST_KEY_NSStickerSharingLevel = OS;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab.SLStickerPack;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab.SLStickerPack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -2247,9 +2266,10 @@
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SLStickerPack/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SLStickerPack;
 				INFOPLIST_KEY_NSStickerSharingLevel = OS;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab.SLStickerPack;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab.SLStickerPack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -2267,9 +2287,10 @@
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SLStickerPack/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SLStickerPack;
 				INFOPLIST_KEY_NSStickerSharingLevel = OS;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab.SLStickerPack;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab.SLStickerPack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -2287,9 +2308,10 @@
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SLStickerPack/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SLStickerPack;
 				INFOPLIST_KEY_NSStickerSharingLevel = OS;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab.SLStickerPack;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab.SLStickerPack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -2321,7 +2343,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudio.ScribbleLab-MacOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudios.ScribbleLab-MacOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -2353,7 +2375,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudio.ScribbleLab-MacOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudios.ScribbleLab-MacOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -2385,7 +2407,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudio.ScribbleLab-MacOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudios.ScribbleLab-MacOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -2417,7 +2439,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudio.ScribbleLab-MacOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudios.ScribbleLab-MacOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -2449,7 +2471,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudio.ScribbleLab-MacOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudios.ScribbleLab-MacOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -2610,7 +2632,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = "0.0.1-dev";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SL_COPYRIGHT = "Copyright © 2023-2024 ScribbleLabApp \\n All rights reserved";
@@ -2650,7 +2672,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLab;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SL_COPYRIGHT = "Copyright © 2023-2024 ScribbleLabApp \\n All rights reserved";
@@ -2672,7 +2694,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLabTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLabTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -2693,7 +2715,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLabTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLabTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -2712,7 +2734,7 @@
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLabUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLabUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -2731,7 +2753,7 @@
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.ScribbleLabUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLabUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -2872,6 +2894,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 0.10.1;
+			};
+		};
+		38C6662A2B52EDE300CAD099 /* XCRemoteSwiftPackageReference "PermissionsSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jevonmao/PermissionsSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.8;
 			};
 		};
 		38E5BBB22AE41F2900FFFE7C /* XCRemoteSwiftPackageReference "Updates" */ = {
@@ -3113,6 +3143,26 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 38A5E9C02B03F0140037C668 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
 			productName = iPhoneNumberField;
+		};
+		38C6662B2B52EDE300CAD099 /* PermissionsSwiftUINotification */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38C6662A2B52EDE300CAD099 /* XCRemoteSwiftPackageReference "PermissionsSwiftUI" */;
+			productName = PermissionsSwiftUINotification;
+		};
+		38C6662D2B52EDE300CAD099 /* PermissionsSwiftUIPhoto */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38C6662A2B52EDE300CAD099 /* XCRemoteSwiftPackageReference "PermissionsSwiftUI" */;
+			productName = PermissionsSwiftUIPhoto;
+		};
+		38C6662F2B52EDE300CAD099 /* PermissionsSwiftUISiri */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38C6662A2B52EDE300CAD099 /* XCRemoteSwiftPackageReference "PermissionsSwiftUI" */;
+			productName = PermissionsSwiftUISiri;
+		};
+		38C666312B53038200CAD099 /* PermissionsSwiftUICamera */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38C6662A2B52EDE300CAD099 /* XCRemoteSwiftPackageReference "PermissionsSwiftUI" */;
+			productName = PermissionsSwiftUICamera;
 		};
 		38E5BBB32AE41F2900FFFE7C /* Updates */ = {
 			isa = XCSwiftPackageProductDependency;

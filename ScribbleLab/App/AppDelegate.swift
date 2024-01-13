@@ -26,6 +26,10 @@ import FirebaseCore
 import GoogleSignIn
 import FirebasePerformance
 
+import PermissionsSwiftUISiri
+import PermissionsSwiftUICamera
+import PermissionsSwiftUINotification
+
 class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDelegate {
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil
@@ -49,7 +53,7 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
         return true
     }
     
-    private let logger = Logger(subsystem: "com.nhstudio.ScribbleLab", category: "MemoryWarning")
+    private let logger = Logger(subsystem: "com.nhstudios.ScribbleLab", category: "MemoryWarning")
     
     func applicationDidReceiveMemoryWarning(_ application: UIApplication) {
         logger.error("MEMORY ISSUE: Received memory warning!")

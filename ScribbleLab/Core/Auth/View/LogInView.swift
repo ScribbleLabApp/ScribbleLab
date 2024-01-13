@@ -27,7 +27,6 @@ struct LogInView: View {
     @Environment(\.dismiss) var dismiss
     @StateObject private var viewModel = LoginViewModel()
     @EnvironmentObject private var vm: SignInWithGoogleModel
-
     
     var body: some View {
         VStack {
@@ -111,6 +110,7 @@ struct LogInView: View {
             Spacer()
         }
         .padding()
+        .ignoresSafeArea(.keyboard, edges: .bottom)
     }
 }
 

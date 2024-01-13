@@ -45,6 +45,7 @@ struct ScribbleLabApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .preferredColorScheme(isDarkMode ? .dark : .light)
                 .environmentObject(ContentViewModel())
                 .task {
                     try? Tips.resetDatastore()
