@@ -1,9 +1,0 @@
-[
-    {
-        "id":  1,
-        "bundleId": "com.nhstudio.ScribbleLab",
-        "title": "App Alert",
-        "text": "TEST WARNING - APP STATE: DEV",
-        "confirmLabel": "OK"
-    }
-]

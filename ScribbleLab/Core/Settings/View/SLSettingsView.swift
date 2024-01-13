@@ -23,7 +23,6 @@ struct SLSettingsView: View {
     @Environment(\.openURL) var openURL
     @State private var resetAlertIsPresented = false
     @State private var deleteAccountIsPresented = false
-    @State private var redemtionSheetIsPresented = false
     
     var body: some View {
         NavigationStack {
@@ -50,13 +49,6 @@ struct SLSettingsView: View {
                             
                         }
                     }
-                    Label("Redeem Code", systemImage: "gift") // app.gift, giftcard
-                        .onTapGesture {
-                            redemtionSheetIsPresented.toggle()
-                        }
-                        .sheet(isPresented: $redemtionSheetIsPresented) {
-                            RedemtionSheetView()
-                        }
                 } header: {
                     Text("Profile")
                 } footer: {

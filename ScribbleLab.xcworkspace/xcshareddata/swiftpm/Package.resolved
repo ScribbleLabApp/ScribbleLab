@@ -199,6 +199,15 @@
       }
     },
     {
+      "identity" : "thememanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/N3v1/ThemeManager",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3dde7399437ce54599169c75ec31ffb73b760ac7"
+      }
+    },
+    {
       "identity" : "toast-swift",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/BastiaanJansen/toast-swift.git",

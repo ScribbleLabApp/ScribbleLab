@@ -134,6 +134,7 @@
 		38AE9CB12AD0751100B761E8 /* ScribbleLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9CB02AD0751100B761E8 /* ScribbleLabTests.swift */; };
 		38AE9CBB2AD0751100B761E8 /* ScribbleLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9CBA2AD0751100B761E8 /* ScribbleLabUITests.swift */; };
 		38AE9CBD2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9CBC2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift */; };
+		38C666292B52D21900CAD099 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C666282B52D21900CAD099 /* SubscriptionView.swift */; };
 		38C68B982B0D134300D16E86 /* SLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C68B972B0D134300D16E86 /* SLButton.swift */; };
 		38C68B9A2B0D1CA100D16E86 /* SLButton+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C68B992B0D1CA100D16E86 /* SLButton+Image.swift */; };
 		38D56F062AF59A0000CE3781 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D56F052AF59A0000CE3781 /* ImagePicker.swift */; };
@@ -141,12 +142,11 @@
 		38D5C68D2AD28D6F00D943A5 /* SLUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5C68C2AD28D6F00D943A5 /* SLUpdateView.swift */; };
 		38D5C6952AD2CAA100D943A5 /* SLContributorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5C6942AD2CAA100D943A5 /* SLContributorModel.swift */; };
 		38D5C6972AD2CC6200D943A5 /* SLContributorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5C6962AD2CC6200D943A5 /* SLContributorView.swift */; };
-		38E304702AF639F300103D71 /* Crop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E3046F2AF639F300103D71 /* Crop.swift */; };
 		38E5BBB42AE41F2900FFFE7C /* Updates in Frameworks */ = {isa = PBXBuildFile; productRef = 38E5BBB32AE41F2900FFFE7C /* Updates */; };
 		38E5BBB72AE4244600FFFE7C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5BBB62AE4244600FFFE7C /* User.swift */; };
+		38EA6DE62B441A6100A04754 /* ThemeManager in Frameworks */ = {isa = PBXBuildFile; productRef = 38EA6DE52B441A6100A04754 /* ThemeManager */; };
 		38EACB152B32D4BE007E7629 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 38EACB142B32D4BE007E7629 /* Toast */; };
 		38EFBE1D2AD6965C00CF0ECD /* PackageLicense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFBE1C2AD6965C00CF0ECD /* PackageLicense.swift */; };
-		38EFBE202AD6D1A400CF0ECD /* RedemtionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFBE1F2AD6D1A400CF0ECD /* RedemtionSheetView.swift */; };
 		38EFBE232AD6E4EF00CF0ECD /* RestartAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFBE222AD6E4EF00CF0ECD /* RestartAppView.swift */; };
 		38F59B8B2AEC4E0D00475B0B /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F59B8A2AEC4E0D00475B0B /* ResetPasswordView.swift */; };
 		38FB56EC2B239AFC00DEFE3C /* com.apple.uikit.inputalternatives.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38FB56EB2B239AFC00DEFE3C /* com.apple.uikit.inputalternatives.plist */; };
@@ -306,6 +306,7 @@
 		38AE9CB62AD0751100B761E8 /* ScribbleLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScribbleLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38AE9CBA2AD0751100B761E8 /* ScribbleLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLabUITests.swift; sourceTree = "<group>"; };
 		38AE9CBC2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38C666282B52D21900CAD099 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
 		38C68B972B0D134300D16E86 /* SLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLButton.swift; sourceTree = "<group>"; };
 		38C68B992B0D1CA100D16E86 /* SLButton+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SLButton+Image.swift"; sourceTree = "<group>"; };
 		38D56F052AF59A0000CE3781 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -313,10 +314,8 @@
 		38D5C68C2AD28D6F00D943A5 /* SLUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLUpdateView.swift; sourceTree = "<group>"; };
 		38D5C6942AD2CAA100D943A5 /* SLContributorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLContributorModel.swift; sourceTree = "<group>"; };
 		38D5C6962AD2CC6200D943A5 /* SLContributorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLContributorView.swift; sourceTree = "<group>"; };
-		38E3046F2AF639F300103D71 /* Crop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crop.swift; sourceTree = "<group>"; };
 		38E5BBB62AE4244600FFFE7C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		38EFBE1C2AD6965C00CF0ECD /* PackageLicense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageLicense.swift; sourceTree = "<group>"; };
-		38EFBE1F2AD6D1A400CF0ECD /* RedemtionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedemtionSheetView.swift; sourceTree = "<group>"; };
 		38EFBE222AD6E4EF00CF0ECD /* RestartAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartAppView.swift; sourceTree = "<group>"; };
 		38F59B8A2AEC4E0D00475B0B /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
 		38FB56EB2B239AFC00DEFE3C /* com.apple.uikit.inputalternatives.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = com.apple.uikit.inputalternatives.plist; sourceTree = "<group>"; };
@@ -373,6 +372,7 @@
 				38E5BBB42AE41F2900FFFE7C /* Updates in Frameworks */,
 				380BC63D2B26029600DCF442 /* StripeIdentity in Frameworks */,
 				383588462AFEDC6F00EEA1C3 /* FirebasePerformance in Frameworks */,
+				38EA6DE62B441A6100A04754 /* ThemeManager in Frameworks */,
 				380D93932AE4280900277D2D /* Kingfisher in Frameworks */,
 				380D93952AE4289500277D2D /* FirebaseFirestoreSwift in Frameworks */,
 				380BC6412B26029600DCF442 /* StripePayments in Frameworks */,
@@ -840,8 +840,7 @@
 			isa = PBXGroup;
 			children = (
 				3868A3E22AD2FE6600D4CAEC /* ProfileView.swift */,
-				38EFBE1F2AD6D1A400CF0ECD /* RedemtionSheetView.swift */,
-				38E3046F2AF639F300103D71 /* Crop.swift */,
+				38C666282B52D21900CAD099 /* SubscriptionView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -1438,6 +1437,7 @@
 				380BC6422B26029600DCF442 /* StripePaymentsUI */,
 				38EACB142B32D4BE007E7629 /* Toast */,
 				3802CBFB2B342F980051F6D8 /* LocalConsole */,
+				38EA6DE52B441A6100A04754 /* ThemeManager */,
 			);
 			productName = ScribbleLab;
 			productReference = 38AE9C982AD0750F00B761E8 /* ScribbleLab.app */;
@@ -1536,6 +1536,7 @@
 				380BC6372B26029600DCF442 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */,
 				38EACB132B32D4BE007E7629 /* XCRemoteSwiftPackageReference "toast-swift" */,
 				3802CBFA2B342F980051F6D8 /* XCRemoteSwiftPackageReference "LocalConsole" */,
+				38EA6DE42B441A6100A04754 /* XCRemoteSwiftPackageReference "ThemeManager" */,
 			);
 			productRefGroup = 38AE9C992AD0750F00B761E8 /* Products */;
 			projectDirPath = "";
@@ -1666,7 +1667,6 @@
 				38348BEE2B1A6A1A00846877 /* HomeViewModel.swift in Sources */,
 				38ADB4D92AF6952C0019375B /* Documentation.docc in Sources */,
 				38140A622AE3F61000753FB6 /* SLAuthService.swift in Sources */,
-				38E304702AF639F300103D71 /* Crop.swift in Sources */,
 				387F7F902B12265A001CC150 /* Constants.swift in Sources */,
 				38066B4F2AFE9F0E001A88D5 /* SLUpdateViewModel.swift in Sources */,
 				387F7F882B12087E001CC150 /* Draw+PencilKit.swift in Sources */,
@@ -1689,11 +1689,11 @@
 				38355ED92AD3D71900392674 /* IGButtonModifier.swift in Sources */,
 				385F468E2AD31CD100D85410 /* SignUpView.swift in Sources */,
 				38C68B9A2B0D1CA100D16E86 /* SLButton+Image.swift in Sources */,
-				38EFBE202AD6D1A400CF0ECD /* RedemtionSheetView.swift in Sources */,
 				387F7F8D2B122634001CC150 /* ColorPickerView.swift in Sources */,
 				380BC6482B2652A900DCF442 /* SceneDelegate.swift in Sources */,
 				385F78BA2AD5ECC10096E504 /* SLInfoView.swift in Sources */,
 				38EFBE1D2AD6965C00CF0ECD /* PackageLicense.swift in Sources */,
+				38C666292B52D21900CAD099 /* SubscriptionView.swift in Sources */,
 				38D5C6952AD2CAA100D943A5 /* SLContributorModel.swift in Sources */,
 				38140A662AE3F79800753FB6 /* RegistrationViewModel.swift in Sources */,
 				3886B2E12AD1ABC0002EF30E /* SLSideBarView.swift in Sources */,
@@ -2882,6 +2882,14 @@
 				minimumVersion = 1.6.1;
 			};
 		};
+		38EA6DE42B441A6100A04754 /* XCRemoteSwiftPackageReference "ThemeManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/N3v1/ThemeManager";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		38EACB132B32D4BE007E7629 /* XCRemoteSwiftPackageReference "toast-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/BastiaanJansen/toast-swift.git";
@@ -3110,6 +3118,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 38E5BBB22AE41F2900FFFE7C /* XCRemoteSwiftPackageReference "Updates" */;
 			productName = Updates;
+		};
+		38EA6DE52B441A6100A04754 /* ThemeManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38EA6DE42B441A6100A04754 /* XCRemoteSwiftPackageReference "ThemeManager" */;
+			productName = ThemeManager;
 		};
 		38EACB142B32D4BE007E7629 /* Toast */ = {
 			isa = XCSwiftPackageProductDependency;
