@@ -140,6 +140,7 @@
 		38C666302B52EDE300CAD099 /* PermissionsSwiftUISiri in Frameworks */ = {isa = PBXBuildFile; productRef = 38C6662F2B52EDE300CAD099 /* PermissionsSwiftUISiri */; };
 		38C666322B53038200CAD099 /* PermissionsSwiftUICamera in Frameworks */ = {isa = PBXBuildFile; productRef = 38C666312B53038200CAD099 /* PermissionsSwiftUICamera */; };
 		38C666342B53241200CAD099 /* SLUnitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C666332B53241200CAD099 /* SLUnitsView.swift */; };
+		38C666362B5334BC00CAD099 /* DocumentScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C666352B5334BC00CAD099 /* DocumentScannerView.swift */; };
 		38C68B982B0D134300D16E86 /* SLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C68B972B0D134300D16E86 /* SLButton.swift */; };
 		38C68B9A2B0D1CA100D16E86 /* SLButton+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C68B992B0D1CA100D16E86 /* SLButton+Image.swift */; };
 		38D56F062AF59A0000CE3781 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D56F052AF59A0000CE3781 /* ImagePicker.swift */; };
@@ -313,6 +314,7 @@
 		38AE9CBC2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLabUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		38C666282B52D21900CAD099 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
 		38C666332B53241200CAD099 /* SLUnitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLUnitsView.swift; sourceTree = "<group>"; };
+		38C666352B5334BC00CAD099 /* DocumentScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentScannerView.swift; sourceTree = "<group>"; };
 		38C68B972B0D134300D16E86 /* SLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLButton.swift; sourceTree = "<group>"; };
 		38C68B992B0D1CA100D16E86 /* SLButton+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SLButton+Image.swift"; sourceTree = "<group>"; };
 		38D56F052AF59A0000CE3781 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -1023,6 +1025,7 @@
 			isa = PBXGroup;
 			children = (
 				38A24C702AED15B600F81F07 /* ImageUploader.swift */,
+				38C666352B5334BC00CAD099 /* DocumentScannerView.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -1680,6 +1683,7 @@
 				381F1F132AD72DD6001B3B10 /* TestView.swift in Sources */,
 				380BC6462B260BB600DCF442 /* SLShopMainView.swift in Sources */,
 				383D238D2B2363490094001E /* AppDelegate.swift in Sources */,
+				38C666362B5334BC00CAD099 /* DocumentScannerView.swift in Sources */,
 				38348BEE2B1A6A1A00846877 /* HomeViewModel.swift in Sources */,
 				38ADB4D92AF6952C0019375B /* Documentation.docc in Sources */,
 				38140A622AE3F61000753FB6 /* SLAuthService.swift in Sources */,

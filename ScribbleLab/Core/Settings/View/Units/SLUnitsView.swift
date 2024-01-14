@@ -12,7 +12,9 @@ struct SLUnitsView: View {
         NavigationStack {
             Form {
                 Section {
-                    
+                    HStack {
+                        Text("")
+                    }
                 } header: {
                     
                 }

@@ -61,6 +61,7 @@ struct SignUpView: View {
                             .modifier(IGTextFieldModifier())
                             .autocorrectionDisabled()
                             .autocapitalization(.none)
+                            .keyboardType(.emailAddress)
                         
                         SecureField("Enter your password", text: $viewModel.password)
                             .modifier(IGTextFieldModifier())
@@ -123,6 +124,7 @@ struct SignUpView: View {
             }
             .padding()
         }
+        .ignoresSafeArea(.keyboard, edges: .bottom)
     }
 }
 

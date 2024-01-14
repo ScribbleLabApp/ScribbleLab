@@ -27,7 +27,7 @@ struct SLSettingsView: View {
     var body: some View {
         NavigationStack {
             List {
-                Section() {
+                Section {
                     NavigationLink {
                         ProfileView()
                     } label: {
@@ -55,10 +55,10 @@ struct SLSettingsView: View {
                     Text("With these settings you can customize your profile")
                 }
                 
-                Section() {
+                Section {
                     NavigationLink {
                         SLDarkmodeSettingsView()
-                    } label:{
+                    } label: {
                         Label("Darkmode", systemImage: "moon.fill")
                     }
                     Label("Units", systemImage: "ruler")
@@ -81,7 +81,7 @@ struct SLSettingsView: View {
                     Text("Some simple settings to make the app even better")
                 }
                 
-                Section() {
+                Section {
                     Button {
                         resetAlertIsPresented.toggle()
                     } label: {
@@ -89,10 +89,12 @@ struct SLSettingsView: View {
                             .foregroundStyle(Color.red)
                     }
                     .alert(isPresented: $resetAlertIsPresented) {
+                        // swiftlint:disable line_length
                         Alert(title: Text("Important message"), message: Text("Do you really want to reset your customized data. This operation cannot be undone"), primaryButton: .default(Text("Cancel"), action: {}), secondaryButton: .destructive(Text("Confirm").fontWeight(.semibold), action: {
                                 // TODO: Call the to factory setting func
                                 
                             }))
+                        // swiftlint:enable line_length
                         }
                     Button {
                         deleteAccountIsPresented.toggle()
@@ -101,10 +103,12 @@ struct SLSettingsView: View {
                     }
                     .alert(isPresented: $deleteAccountIsPresented) {
                         // FIXME: - Create confirm button with color red
+                        // swiftlint:disable line_length
                         Alert(title: Text("Important message"), message: Text("Do you really want to delete your account? This operation cannot be undone"), primaryButton: .default(Text("Cancel"), action: {}), secondaryButton: .destructive(Text("Confirm").fontWeight(.semibold), action: {
                             // TODO: Call the to factory setting func
                             
                         }))
+                        // swiftlint:enable line_length
                     }
                         .foregroundStyle(Color.red)
                 } header: {
@@ -113,9 +117,8 @@ struct SLSettingsView: View {
                     Text("These settings can cause loosing all you customized settings")
                 }
                 
-//                #if os(macOS)
                 // MARK: App Update Section
-                Section() {
+                Section {
                     NavigationLink {
                         SLUpdateView()
                     } label: {
@@ -135,13 +138,14 @@ struct SLSettingsView: View {
                             openURL(URL(string: "https://www.apple.com")!)
                         }
                 } header: {
-                    Text("")
+                    Text("Updates")
                 } footer: {
+                    // swiftlint:disable line_length
                     Text("These settings are responsible for the updates of this app. In order to enroll to the programmes you need to be registered to our ScribbleLab Developer Programm (free). Follow [this link](https://github.com/ScribbleLabApp/ScribbleLab) for a more detailed description.")
+                    // swiftlint:enable line_length
                 }
-//                #endif
                 
-                Section() {
+                Section {
                     NavigationLink {
                         SLInfoView()
                     } label: {
@@ -164,8 +168,6 @@ struct SLSettingsView: View {
                     }
                 } header: {
                     Text("Other")
-                } footer: {
-                    Text("")
                 }
             }
             .tint(.black)

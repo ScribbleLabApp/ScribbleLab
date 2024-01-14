@@ -66,6 +66,7 @@ struct LogInView: View {
                         .modifier(IGTextFieldModifier())
                         .autocorrectionDisabled()
                         .autocapitalization(.none)
+                        .keyboardType(.emailAddress)
                     
                     SecureField("Enter your password", text: $viewModel.password)
                         .modifier(IGTextFieldModifier())

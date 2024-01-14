@@ -9,26 +9,16 @@ import SwiftUI
 
 /// An extension that gets the build and version number of this xcodeproj
 /// as a String
-///
-//extension Bundle {
-//    var applicationVersionNumber: String? {
-//        return infoDictionary?["CFBundleShortVersionString"] as? String
-//    }
-//
-//    var applicationBuildNumber: String? {
-//        return infoDictionary?["CFBundleVersion"] as? String
-//    }
-//}
-
 extension Bundle {
-    public var appName: String           { getInfo("CFBundleName") }
-    public var displayName: String       { getInfo("CFBundleDisplayName") }
-    public var language: String          { getInfo("CFBundleDevelopmentRegion") }
-    public var identifier: String        { getInfo("CFBundleIdentifier") }
-    public var copyright: String         { getInfo("NSHumanReadableCopyright").replacingOccurrences(of: "\\\\n", with: "\n") }
+    public var appName: String { getInfo("CFBundleName") }
+    public var displayName: String { getInfo("CFBundleDisplayName") }
+    public var language: String { getInfo("CFBundleDevelopmentRegion") }
+    public var identifier: String { getInfo("CFBundleIdentifier") }
+    public var copyright: String { getInfo("NSHumanReadableCopyright")
+        .replacingOccurrences(of: "\\\\n", with: "\n") }
     
-    public var appBuild: String          { getInfo("CFBundleVersion") }
-    public var appVersionLong: String    { getInfo("CFBundleShortVersionString") }
+    public var appBuild: String { getInfo("CFBundleVersion") }
+    public var appVersionLong: String { getInfo("CFBundleShortVersionString") }
     
     fileprivate func getInfo(_ str: String) -> String { infoDictionary?[str] as? String ?? "An error occured" }
 }
@@ -45,7 +35,7 @@ struct SLInfoView: View {
     var body: some View {
         NavigationStack {
             List {
-                Section() {
+                Section {
                     HStack {
                         Text("App name")
                         Spacer()
@@ -101,7 +91,7 @@ struct SLInfoView: View {
                     Text("Those informations are needed if you want to report an issue")
                 }
                 
-                Section() {
+                Section {
                     NavigationLink {
                         PackageLicense()
                     } label: {

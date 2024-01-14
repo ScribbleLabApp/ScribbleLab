@@ -106,7 +106,7 @@ struct HomeView: View {
 #Preview {
     HomeView()
         .task {
-            try? Tips.resetDatastore()
+//            try? Tips.resetDatastore()
             try? Tips.configure([
                 .datastoreLocation(.applicationDefault)
             ])

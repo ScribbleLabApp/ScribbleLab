@@ -15,25 +15,22 @@ struct SLDarkmodeSettingsView: View {
     
     var body: some View {
         NavigationStack {
-            List  {
-                Section() {
+            List {
+                Section {
                     HStack {
                         Toggle(isOn: $isDarkMode) {
                             Text("Enable Darkmode")
                         }
                         .alert(isPresented: $isDarkMode) {
+                            // swiftlint:disable line_length
                             Alert(title: Text("Warning"), message: Text("Do you really want to enable Darkmode (beta)? Some modules are not adapted to darkmode."), primaryButton: .default(Text("Cancel"), action: {
                                     isDarkMode = false
                             }), secondaryButton: .destructive(Text("Enable").fontWeight(.semibold), action: {
                                     // TODO: Call the darkmode func
                                     isDarkMode = true
                                 }))
+                            // swiftlint:enable line_length
                             }
-//                        .onChange(of: dar, initial: true) {
-//                            print("Enable darkmode")
-//                            // TODO: Add darkmode func in version 1.2
-//                            
-//                        }
                     }
                     HStack {
                         // TODO: Link toggle and picker, add darkmode support in v.1.2
@@ -45,7 +42,9 @@ struct SLDarkmodeSettingsView: View {
                 } header: {
                     Text("Darkmode settings")
                 } footer: {
+                    // swiftlint:disable line_length
                     Text("Toggle the button to enable Darkmode. Note if your system is on a light scheme and you've selected Follow system scheme the darkmode setting will be ignored. Please select 'Ignore system scheme'.")
+                    // swiftlint:enable line_length
                 }
             }
             .navigationTitle("Darkmode (BETA)")
