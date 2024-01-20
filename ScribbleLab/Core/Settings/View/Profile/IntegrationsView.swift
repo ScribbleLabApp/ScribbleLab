@@ -38,7 +38,7 @@ struct IntegrationsView: View {
                     }
                     
                     NavigationLink {
-                        
+                        SLAppleSchoolworkIntegrationView()
                     } label: {
                         Text("Apple Schoolwork")
                     }
