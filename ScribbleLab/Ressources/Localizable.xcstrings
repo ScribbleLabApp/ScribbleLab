@@ -318,13 +318,13 @@
     "Apple Schoolwork" : {
 
     },
+    "Apple Schoolwork Settings" : {
+
+    },
     "Ask a question" : {
 
     },
     "Autocorrection" : {
-
-    },
-    "Bio or description" : {
 
     },
     "BIRTHDAY01" : {
@@ -1011,6 +1011,9 @@
         }
       }
     },
+    "Open Integration Documentation" : {
+
+    },
     "OR" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -1054,6 +1057,9 @@
     "Pomodoro Timer" : {
 
     },
+    "Premium (Development)" : {
+
+    },
     "Privacy" : {
       "localizations" : {
         "de" : {
@@ -1094,6 +1100,12 @@
         }
       }
     },
+    "Read our [documentation article](https://github.com/ScribbleLabApp/ScribbleLab) about how to use and configure Apple Schoolwork in ScribbleLab and how we are [managing and using your data](https://github.com/ScribbleLabApp/ScribbleLab)." : {
+
+    },
+    "Read our [documentation article](https://github.com/ScribbleLabApp/ScribbleLab) about how to use and configure Google Classroom in ScribbleLab and how we are [managing and using your data](https://github.com/ScribbleLabApp/ScribbleLab)." : {
+
+    },
     "Red" : {
       "localizations" : {
         "de" : {
@@ -1126,6 +1138,9 @@
     "Report a translation issue" : {
 
     },
+    "Reset Apple Schoolwork Settings" : {
+
+    },
     "Reset Google Classroom Settings" : {
 
     },
@@ -1136,6 +1151,9 @@
 
     },
     "Reset settings" : {
+
+    },
+    "Ressources" : {
 
     },
     "Restart Application" : {
@@ -1168,6 +1186,9 @@
           }
         }
       }
+    },
+    "Security Information" : {
+
     },
     "Security mode" : {
 
@@ -1282,6 +1303,9 @@
 
     },
     "test0101" : {
+
+    },
+    "Test0101" : {
 
     },
     "These settings are responsible for the updates of this app. In order to enroll to the programmes you need to be registered to our ScribbleLab Developer Programm (free). Follow [this link](https://github.com/ScribbleLabApp/ScribbleLab) for a more detailed description." : {
@@ -1490,9 +1514,6 @@
 
     },
     "While agreeing to our LICENSE you automatically agree to the LICENSES of our used Dependencies" : {
-
-    },
-    "With these settings you can customize your profile" : {
 
     },
     "Yellow" : {

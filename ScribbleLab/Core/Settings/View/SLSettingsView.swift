@@ -24,6 +24,8 @@ struct SLSettingsView: View {
     @State private var resetAlertIsPresented = false
     @State private var deleteAccountIsPresented = false
     
+    @AppStorage("isDarkMode") private var isDarkMode = false
+    
     var body: some View {
         NavigationStack {
             List {
@@ -36,14 +38,14 @@ struct SLSettingsView: View {
                         // also fetch their username and bio/description
                         // FIXME: Maybe change the bio to an streak feature
                         HStack {
-                            Image(systemName: "person.circle.fill")
+                            Image(systemName: "person")
                                 .resizable()
                                 .frame(width: 25, height: 25)
-                                .clipShape(Circle())
+//                                .clipShape(Circle())
                             VStack(alignment: .leading) {
-                                Text("Username")
+                                Text("Test0101") // username
                                     .font(.title2)
-                                Text("Bio or description")
+                                Text("Premium (Development)") // Subscription status
                                     .font(.footnote)
                             }
                             
@@ -51,8 +53,6 @@ struct SLSettingsView: View {
                     }
                 } header: {
                     Text("Profile")
-                } footer: {
-                    Text("With these settings you can customize your profile")
                 }
                 
                 Section {
@@ -174,7 +174,7 @@ struct SLSettingsView: View {
                     Text("Other")
                 }
             }
-            .tint(.black)
+            .tint(isDarkMode ? .white : .black)
             .navigationTitle("Settings")
         }
     }
