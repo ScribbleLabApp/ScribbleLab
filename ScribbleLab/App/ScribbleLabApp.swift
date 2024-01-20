@@ -22,7 +22,10 @@ import TipKit
 
 import FirebaseCore
 import GoogleSignIn
+
+#if os(iOS)
 import FirebasePerformance
+#endif
 
 @main
 struct ScribbleLabApp: App {
@@ -53,19 +56,13 @@ struct ScribbleLabApp: App {
                         .datastoreLocation(.applicationDefault)
                     ])
                 }
+            #if macOS
+                .frame(width: 500, height: 400)
+            #endif
 //            SignUpView()
 //                .environmentObject(RegistrationViewModel())
 //                .environmentObject(SignInWithGoogleModel())
 //                .preferredColorScheme(isDarkMode ? .dark : .light)
         }
     }
-    
-//    private mutating func setupSceneDelegate() {
-//        let scene = UIApplication.shared.connectedScenes.first
-//        if let windowScene = scene as? UIWindowScene {
-//            self.sceneDelegate = SceneDelegate()
-//            let options: UIScene.ConnectionOptions = Dictionary<String, Any>()
-//            self.sceneDelegate?.scene(windowScene, willConnectTo: windowScene.session, options: options)
-//        }
-//    }
 }

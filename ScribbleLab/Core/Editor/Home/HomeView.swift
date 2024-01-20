@@ -21,7 +21,7 @@ struct HomeView: View {
     let createFirstDocumentTip = CreateNewDocumentTip()
     let showNotificationTip = ShowNotificationsTip()
     // [END create_shared_instance_of_tip]
-        
+    
     var body: some View {
         NavigationStack {
             VStack {

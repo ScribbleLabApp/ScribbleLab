@@ -17,6 +17,7 @@
 //  limitations under the License.
 //
 
+#if os(iOS)
 import UIKit
 import SwiftUI
 import UserNotifications
@@ -26,16 +27,27 @@ import FirebaseCore
 import GoogleSignIn
 import FirebasePerformance
 
-import PermissionsSwiftUISiri
-import PermissionsSwiftUICamera
-import PermissionsSwiftUINotification
+//import PermissionsSwiftUICamera
+//import PermissionsSwiftUIPhotos
+//import PermissionsSwiftUINotification
+#elseif os(macOS)
+import AppKit
+import SwiftUI
+import UserNotifications
+import os.log
+
+import FirebaseCore
+import GoogleSignIn
+#endif
 
 class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDelegate {
+    var notificationSettings = NotificationSettingsModel()
+    
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil
     ) -> Bool {
         FirebaseApp.configure()
-
+        
         // Register for remote notifications. This shows a permission dialog on first run, to
         // show the dialog at a more appropriate time move this registration accordingly.
         // [START register_for_notifications]
@@ -44,7 +56,9 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
         let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
         UNUserNotificationCenter.current().requestAuthorization(
             options: authOptions,
-            completionHandler: { _, _ in }
+            completionHandler: { granted, _ in
+                self.notificationSettings.notificationAllowed = granted
+            }
         )
         
         application.registerForRemoteNotifications()

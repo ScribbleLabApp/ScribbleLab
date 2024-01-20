@@ -6,12 +6,18 @@
 //
 
 import SwiftUI
+import PermissionsSwiftUIPhoto
+import PermissionsSwiftUICamera
+import PermissionsSwiftUINotification
 
 struct SLSideBarView: View {
     @State private var notificationSheetisPresented = false
     @State private var settingsViewSheetisPresented = false
     // FIXME: Delete this state var when finishing the alpha version
     @State private var newNotification = false
+    
+    // MARK: Permission Modal sheet
+    @State private var showModal = false
     
     @AppStorage("isDarkMode") private var isDarkMode = false
     
@@ -105,6 +111,8 @@ struct SLSideBarView: View {
             
             HomeView()
         }
+        .JMAlert(showModal: $showModal, for: [.camera, .photo, .notification])
+        .changeHeaderTo("App Permissions")
     }
 }
 

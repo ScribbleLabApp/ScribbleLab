@@ -59,13 +59,17 @@ struct SLSettingsView: View {
                     NavigationLink {
                         SLDarkmodeSettingsView()
                     } label: {
-                        Label("Darkmode", systemImage: "moon.fill")
+                        Label("Appearance", systemImage: "moon.fill")
                     }
                     Label("Units", systemImage: "ruler")
                     Label("Apple Pencil", systemImage: "applepencil.and.scribble")
                     Label("Autocorrection", systemImage: "textformat.abc.dottedunderline")
                     Label("Accessibility", systemImage: "accessibility")
-                    Label("Notifications", systemImage: "bell.badge")
+                    NavigationLink {
+                        NotificationSettings()
+                    } label: {
+                        Label("Notifications", systemImage: "bell.badge")
+                    }
                     Label("Privacy", systemImage: "hand.raised.fill")
                     Label("Collaboration", systemImage: "person.2.badge.gearshape")
                     Label("Extensions", systemImage: "puzzlepiece.extension")

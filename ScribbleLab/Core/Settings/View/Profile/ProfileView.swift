@@ -46,7 +46,7 @@ struct ProfileView: View {
                             
                             Spacer()
                             
-                            Text("Test")
+                            Text("test0101") // FIXME: Fix force unwrapping
                                 .foregroundStyle(.secondary)
                         }
                         
@@ -64,7 +64,7 @@ struct ProfileView: View {
                             
                             Spacer()
                             
-                            Text("test01@gmail.com")
+                            Text("test@gmail.com")
                                 .tint(.secondary)
                         }
                     } header: {
@@ -94,6 +94,14 @@ struct ProfileView: View {
                     } header: {
                         Text("Account-Safety")
                     }
+                    
+                    Section {
+                        NavigationLink {
+                            IntegrationsView()
+                        } label: {
+                            Text("Integartions")
+                        }
+                    } header: {}
                     
                     Section {
                         Button("Terms of Use") {

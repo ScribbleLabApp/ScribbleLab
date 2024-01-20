@@ -15,9 +15,15 @@ struct ContentView: View {
             if viewModel.userSession == nil { 
                 // FIXME: Old: $viewModel.userSession
                 SignUpView()
+                #if os(macOS)
+                    .frame(width: 500, height: 400)
+                #endif
             } else if viewModel.userSession != nil {
             // FIXME: else if let currentUser = viewModel.currentUser
-               SLSideBarView()
+                SLSideBarView()
+                #if os(macOS)
+                    .frame(width: 500, height: 400)
+                #endif
             }
         }
     }

@@ -269,6 +269,15 @@
     "Add New Timer" : {
 
     },
+    "Allow integrations" : {
+
+    },
+    "Allow newsletter-notifications" : {
+
+    },
+    "Allow notifications" : {
+
+    },
     "Already have an account?" : {
 
     },
@@ -284,7 +293,13 @@
     "App settings" : {
 
     },
+    "App Updates & Events" : {
+
+    },
     "AppAuth" : {
+
+    },
+    "Appearance" : {
 
     },
     "APPENDIX: How to apply the Apache License to your work." : {
@@ -299,6 +314,9 @@
           }
         }
       }
+    },
+    "Apple Schoolwork" : {
+
     },
     "Ask a question" : {
 
@@ -388,10 +406,16 @@
     "Close" : {
 
     },
+    "Cloud Storage & Backup" : {
+
+    },
     "Cloud sync" : {
 
     },
     "Collaboration" : {
+
+    },
+    "Comments in shared docs" : {
 
     },
     "Configure 2FA" : {
@@ -406,6 +430,9 @@
           }
         }
       }
+    },
+    "Connect Google Classroom or Apple Schoolwork with ScribbleLab for a more enhanced study experience. Learn more about how to integrate Google Classroom/Apple Schoolwork into ScribbleLab and how we manage your data." : {
+
     },
     "Continue with Google" : {
       "extractionState" : "stale",
@@ -450,6 +477,7 @@
       }
     },
     "Darkmode" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -666,6 +694,12 @@
     "General infos" : {
 
     },
+    "Google Classroom" : {
+
+    },
+    "Google Classroom Settings" : {
+
+    },
     "GoogleSignIn" : {
 
     },
@@ -774,6 +808,15 @@
           }
         }
       }
+    },
+    "Integartions" : {
+
+    },
+    "Integrations" : {
+
+    },
+    "Invitation to shared docs" : {
+
     },
     "It could take some time.." : {
 
@@ -886,7 +929,16 @@
     "Login to access your ScribbleLabApp account." : {
 
     },
+    "Manage" : {
+
+    },
     "Manage Features" : {
+
+    },
+    "Manage Settings" : {
+
+    },
+    "Manage subscription" : {
 
     },
     "Member since" : {
@@ -908,6 +960,9 @@
         }
       }
     },
+    "Newsletter-Settings" : {
+
+    },
     "Next" : {
       "localizations" : {
         "de" : {
@@ -925,6 +980,9 @@
 
     },
     "none" : {
+
+    },
+    "Notification-Settings" : {
 
     },
     "Notifications" : {
@@ -1046,6 +1104,9 @@
         }
       }
     },
+    "Register for the newsletter" : {
+
+    },
     "Reminder" : {
       "localizations" : {
         "de" : {
@@ -1063,6 +1124,15 @@
 
     },
     "Report a translation issue" : {
+
+    },
+    "Reset Google Classroom Settings" : {
+
+    },
+    "Reset Integration Settings" : {
+
+    },
+    "Reset Notification Settings" : {
 
     },
     "Reset settings" : {
@@ -1086,6 +1156,9 @@
     "ScribbleLabApp" : {
 
     },
+    "ScribbleLink" : {
+
+    },
     "Search" : {
       "localizations" : {
         "de" : {
@@ -1100,6 +1173,12 @@
 
     },
     "Select how you'd like to create a new document." : {
+
+    },
+    "Select which newsletter emails you'd like to recieve. You can unsubscribe everytime from our [newsletter](https://github.com/ScribbleLabApp/ScribbleLab)." : {
+
+    },
+    "Select which types of notifications you would like to recieve." : {
 
     },
     "Setting up your ScribbleLabApp account" : {
@@ -1118,7 +1197,16 @@
     "Show Notifications" : {
 
     },
+    "Sign into Google Classroom" : {
+
+    },
     "Sign Out" : {
+
+    },
+    "Sign out of all integrations" : {
+
+    },
+    "Sign Out of Google Classroom" : {
 
     },
     "Some simple settings to make the app even better" : {
@@ -1190,10 +1278,10 @@
     "Terms of Use" : {
 
     },
-    "Test" : {
+    "test@gmail.com" : {
 
     },
-    "test01@gmail.com" : {
+    "test0101" : {
 
     },
     "These settings are responsible for the updates of this app. In order to enroll to the programmes you need to be registered to our ScribbleLab Developer Programm (free). Follow [this link](https://github.com/ScribbleLabApp/ScribbleLab) for a more detailed description." : {
@@ -1212,6 +1300,9 @@
 
     },
     "This is a View to test the SLImageButtons!" : {
+
+    },
+    "This option resets all customized settings to the factory standard. This option can't be undone and all customized settings will be reseted forever." : {
 
     },
     "Those informations are needed if you want to report an issue" : {
@@ -1272,6 +1363,9 @@
       }
     },
     "Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License." : {
+
+    },
+    "Unsubscribe" : {
 
     },
     "Update" : {
@@ -1356,6 +1450,9 @@
     "We're appriciate all of your contributions and bug fixes you've done in order to achive this powerful app" : {
 
     },
+    "Welcome to %@" : {
+
+    },
     "Welcome to Scribble Lab" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -1387,6 +1484,9 @@
 
     },
     "When Safe Mode is enabled, ScribbleLab starts with several features disabled to ensure maximum stability or detect errors. This process requires a restart." : {
+
+    },
+    "When you sign-up for our newsletter you agree to our Terms Of Use. You'll get weekly/monthly tips on the usage of ScribbleLab. You can unsubscribe everytime." : {
 
     },
     "While agreeing to our LICENSE you automatically agree to the LICENSES of our used Dependencies" : {

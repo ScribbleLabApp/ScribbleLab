@@ -22,9 +22,9 @@ import Firebase
 
 struct User: Identifiable, Hashable, Codable {
     let id: String
-    var username: String
-    var profileImageUrl: String?
-    var fullname: String?
+    var username: String = ""
+    var profileImageUrl: String? = nil
+    var fullname: String? = ""
     let email: String
     
     var iscurrentUser: Bool {
@@ -46,4 +46,3 @@ extension User {
     ]
     // swiftlint:enable identifier_name
 }
-
