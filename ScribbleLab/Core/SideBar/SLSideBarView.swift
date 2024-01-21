@@ -29,7 +29,7 @@ struct SLSideBarView: View {
                         Label("Favourite", systemImage: "star")
                     }
                     NavigationLink {
-                        
+                        SharedWithYouView()
                     } label: {
                         Label("Shared with You", systemImage: "shared.with.you")
                     }

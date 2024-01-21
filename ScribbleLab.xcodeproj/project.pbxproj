@@ -132,6 +132,7 @@
 		38B36C592B5D33E60009BA56 /* SLScribbleLinkIntegrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B36C582B5D33E60009BA56 /* SLScribbleLinkIntegrationView.swift */; };
 		38B36C5B2B5D47510009BA56 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B36C5A2B5D47510009BA56 /* StoreView.swift */; };
 		38B36C5E2B5D73D80009BA56 /* FavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B36C5D2B5D73D80009BA56 /* FavouriteView.swift */; };
+		38B36C622B5D770D0009BA56 /* SharedWithYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B36C612B5D770D0009BA56 /* SharedWithYouView.swift */; };
 		38BAF7C52B5AF6EF00BEE6A5 /* IntegrationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BAF7C42B5AF6EF00BEE6A5 /* IntegrationsView.swift */; };
 		38BAF7C72B5AFC1B00BEE6A5 /* SLGoogleClassroomIntegrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BAF7C62B5AFC1B00BEE6A5 /* SLGoogleClassroomIntegrationView.swift */; };
 		38C666292B52D21900CAD099 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C666282B52D21900CAD099 /* SubscriptionView.swift */; };
@@ -322,6 +323,7 @@
 		38B36C582B5D33E60009BA56 /* SLScribbleLinkIntegrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLScribbleLinkIntegrationView.swift; sourceTree = "<group>"; };
 		38B36C5A2B5D47510009BA56 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
 		38B36C5D2B5D73D80009BA56 /* FavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteView.swift; sourceTree = "<group>"; };
+		38B36C612B5D770D0009BA56 /* SharedWithYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedWithYouView.swift; sourceTree = "<group>"; };
 		38BAF7C42B5AF6EF00BEE6A5 /* IntegrationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationsView.swift; sourceTree = "<group>"; };
 		38BAF7C62B5AFC1B00BEE6A5 /* SLGoogleClassroomIntegrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLGoogleClassroomIntegrationView.swift; sourceTree = "<group>"; };
 		38C666282B52D21900CAD099 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
@@ -577,6 +579,7 @@
 		38348BEC2B1A614500846877 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				38B36C602B5D76FD0009BA56 /* SharedWithYou */,
 				38B36C5C2B5D73C80009BA56 /* Favourite */,
 			);
 			path = View;
@@ -1174,6 +1177,14 @@
 			path = Favourite;
 			sourceTree = "<group>";
 		};
+		38B36C602B5D76FD0009BA56 /* SharedWithYou */ = {
+			isa = PBXGroup;
+			children = (
+				38B36C612B5D770D0009BA56 /* SharedWithYouView.swift */,
+			);
+			path = SharedWithYou;
+			sourceTree = "<group>";
+		};
 		38BAF7C32B5AF65700BEE6A5 /* Integrations */ = {
 			isa = PBXGroup;
 			children = (
@@ -1746,6 +1757,7 @@
 				385F78BA2AD5ECC10096E504 /* SLInfoView.swift in Sources */,
 				38EFBE1D2AD6965C00CF0ECD /* PackageLicense.swift in Sources */,
 				38C666292B52D21900CAD099 /* SubscriptionView.swift in Sources */,
+				38B36C622B5D770D0009BA56 /* SharedWithYouView.swift in Sources */,
 				38D5C6952AD2CAA100D943A5 /* SLContributorModel.swift in Sources */,
 				38140A662AE3F79800753FB6 /* RegistrationViewModel.swift in Sources */,
 				3886B2E12AD1ABC0002EF30E /* SLSideBarView.swift in Sources */,
