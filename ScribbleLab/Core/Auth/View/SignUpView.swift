@@ -24,7 +24,7 @@ import FirebaseAuth
 import FirebaseCore
 
 struct SignUpView: View {
-    @AppStorage("isDarkMode") private var isDarkMode = false
+//    @AppStorage("isDarkMode") private var isDarkMode = false
     
     @State private var presentNoAccountPopUp = false
     @State private var tourSheetIsPresented = false
@@ -41,7 +41,7 @@ struct SignUpView: View {
             VStack {
                 Spacer()
                 
-                Image("logo-light-complex")
+                Image("logo-light-complex") // FIXME: Logo: darkmode
                     .resizable()
                     .scaledToFit()
                     .frame(width: 420)
@@ -118,7 +118,7 @@ struct SignUpView: View {
                     Text("By continuing I agree with ScribbleLabApp's ") + Text("[Terms of Use](https://github.com/ScribbleLabApp/ScribbleLab/blob/main/LICENSE_AGREEMENT.md)").underline()
                     Text("and ") + Text("[Privacy Policy](https://github.com/ScribbleLabApp/ScribbleLab/blob/main/PrivacyPolicy.md).").underline()
                 }
-                .tint(.black)
+                .tint(.primary)
                 .font(.headline)
                 .fontWeight(.medium)
             }

@@ -27,6 +27,7 @@ struct ContentView: View {
             if viewModel.userSession == nil { 
                 // FIXME: Old: $viewModel.userSession
                 SignUpView()
+                    .preferredColorScheme(.light)
                 #if os(macOS)
                     .frame(width: 500, height: 400)
                 #endif

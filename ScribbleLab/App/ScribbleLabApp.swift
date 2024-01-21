@@ -41,14 +41,14 @@ struct ScribbleLabApp: App {
     /// 
     /// To call the darkmode state add the @AppStorage property at the top in your Struct
     /// then call the declared isDarkMode argument.
-    @AppStorage("isDarkMode") private var isDarkMode = false
+//    @AppStorage("isDarkMode") private var isDarkMode = false
     
 //    var sceneDelegate: SceneDelegate?
     
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .preferredColorScheme(isDarkMode ? .dark : .light)
+//                .preferredColorScheme(isDarkMode ? .dark : .light)
                 .environmentObject(ContentViewModel())
                 .task {
                     try? Tips.resetDatastore()
