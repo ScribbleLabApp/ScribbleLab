@@ -24,6 +24,16 @@ struct SLSideBarView: View {
                         Label("Documents", systemImage: "house")
                     }
                     NavigationLink {
+                        
+                    } label: {
+                        Label("Favourite", systemImage: "star")
+                    }
+                    NavigationLink {
+                        
+                    } label: {
+                        Label("Shared with You", systemImage: "shared.with.you")
+                    }
+                    NavigationLink {
                         SLShopMainView()
                     } label: {
                         Label("Store", systemImage: "storefront")
@@ -33,8 +43,16 @@ struct SLSideBarView: View {
                     } label: {
                         Label("Account", systemImage: "wallet.pass")
                     }
-                    Label("Search", systemImage: "magnifyingglass")
-                    Label("Trash", systemImage: "trash")
+                    NavigationLink {
+                        
+                    } label: {
+                        Label("Search", systemImage: "magnifyingglass")
+                    }
+                    NavigationLink {
+                        
+                    } label: {
+                        Label("Trash", systemImage: "trash")
+                    }
                 }
                 
                 Section("Locations") {
