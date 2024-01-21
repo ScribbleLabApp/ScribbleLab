@@ -23,147 +23,136 @@ struct ProfileView: View {
     @State private var signOutWarningIsPresented = false
     @State private var deleteAccountWarning = false
     
-    @Environment(\.dismiss) var dismiss
-    
     var body: some View {
-        NavigationStack {
-            VStack {
-                Form {
-                    Section {
-                        NavigationLink {
-                            SubscriptionView()
-                        } label: {
-                            Text("Subscription type")
-                        }
-                        
-                        HStack {
-                            Text("Member since")
-                            
-                            Spacer()
-                            
-                            Text("01/01/2024")
-                                .foregroundStyle(.secondary)
-                        }
-                    } header: {
-                        Text("Membershipinfo")
+        VStack {
+            Form {
+                Section {
+                    NavigationLink {
+                        SubscriptionView()
+                    } label: {
+                        Text("Subscription type")
                     }
                     
-                    Section {
-                        HStack {
-                            Text("Username")
-                            
-                            Spacer()
-                            
-                            Text("test0101") // FIXME: Fix force unwrapping
-                                .foregroundStyle(.secondary)
-                        }
+                    HStack {
+                        Text("Member since")
                         
-                        HStack {
-                            Text("Linked via")
-                            
-                            Spacer()
-                            
-                            Text("ScribbleLabApp")
-                                .foregroundStyle(.secondary)
-                        }
+                        Spacer()
                         
-                        HStack {
-                            Text("E-Mail")
-                            
-                            Spacer()
-                            
-                            Text("test@gmail.com")
-                                .tint(.secondary)
-                        }
-                    } header: {
-                        Text("Account-Information")
+                        Text("01/01/2024")
+                            .foregroundStyle(.secondary)
                     }
-                    
-                    Section {
-                        Button("Change Password") {
-                            print("DEBUG: Change Password method called")
-                        }
-                        
-                        Button("Change Email") {
-                            print("DEBUG: Change Email method called")
-                        }
-                        
-                        Button("Change Username") {
-                            print("DEBUG: Change Username method called")
-                        }
-                    } header: {
-                        Text("Account-Settings")
-                    }
-                    
-                    Section {
-                        Button("Configure 2FA") {
-                            print("DEBUG: 2FA Configuration method called")
-                        }
-                    } header: {
-                        Text("Account-Safety")
-                    }
-                    
-                    Section {
-                        NavigationLink {
-                            IntegrationsView()
-                        } label: {
-                            Text("Integartions")
-                        }
-                    } header: {}
-                    
-                    Section {
-                        Button("Terms of Use") {
-                            print("DEBUG: TermsOfUsed requested")
-                        }
-                        
-                        Button {
-                            signOutWarningIsPresented.toggle()
-                        } label: {
-                            Text("Sign Out")
-                        }
-                        .confirmationDialog(
-                            "Log out of ScribbleLab?",
-                            isPresented: $signOutWarningIsPresented
-                        ) {
-                            Button("Sign Out", role: .destructive) {
-                                SLAuthService.shared.signOut()
-                            }
-                        } message: {
-                            Text("You won't be able to use this App without an account. All your documets are safely syncronised in your Cloud.")
-                        }
-                        
-                        Button("Delete Account") {
-                            deleteAccountWarning.toggle()
-                        }
-                        .tint(.red)
-                        .confirmationDialog(
-                            "Permanently delete your ScribbleLabAccount?",
-                            isPresented: $deleteAccountWarning
-                        ) {
-                            Button("Delete Account", role: .destructive) {
-                                
-                            }
-                        } message: {
-                            Text("You cannot undo this action.")
-                        }
-                    }
+                } header: {
+                    Text("Membershipinfo")
                 }
-            }
-            .navigationTitle("Account-Information")
-            .navigationBarTitleDisplayMode(.inline)
-            .toolbar {
-                ToolbarItem(placement: .topBarTrailing) {
-                    Button("Done") {
-                        dismiss()
-                        print("DEBUG: Screen dismissed")
+                
+                Section {
+                    HStack {
+                        Text("Username")
+                        
+                        Spacer()
+                        
+                        Text("test0101") // FIXME: Fix force unwrapping
+                            .foregroundStyle(.secondary)
                     }
-                    .tint(.primary).bold()
+                    
+                    HStack {
+                        Text("Linked via")
+                        
+                        Spacer()
+                        
+                        Text("ScribbleLabApp")
+                            .foregroundStyle(.secondary)
+                    }
+                    
+                    HStack {
+                        Text("E-Mail")
+                        
+                        Spacer()
+                        
+                        Text("test@gmail.com")
+                            .tint(.secondary)
+                    }
+                } header: {
+                    Text("Account-Information")
+                }
+                
+                Section {
+                    Button("Change Password") {
+                        print("DEBUG: Change Password method called")
+                    }
+                    
+                    Button("Change Email") {
+                        print("DEBUG: Change Email method called")
+                    }
+                    
+                    Button("Change Username") {
+                        print("DEBUG: Change Username method called")
+                    }
+                } header: {
+                    Text("Account-Settings")
+                }
+                
+                Section {
+                    Button("Configure 2FA") {
+                        print("DEBUG: 2FA Configuration method called")
+                    }
+                } header: {
+                    Text("Account-Safety")
+                }
+                
+                Section {
+                    NavigationLink {
+                        IntegrationsView()
+                    } label: {
+                        Text("Integartions")
+                    }
+                } header: {}
+                
+                Section {
+                    Button("Terms of Use") {
+                        print("DEBUG: TermsOfUsed requested")
+                    }
+                    
+                    Button {
+                        signOutWarningIsPresented.toggle()
+                    } label: {
+                        Text("Sign Out")
+                    }
+                    .confirmationDialog(
+                        "Log out of ScribbleLab?",
+                        isPresented: $signOutWarningIsPresented
+                    ) {
+                        Button("Sign Out", role: .destructive) {
+                            SLAuthService.shared.signOut()
+                        }
+                    } message: {
+                        Text("You won't be able to use this App without an account. All your documets are safely syncronised in your Cloud.")
+                    }
+                    
+                    Button("Delete Account") {
+                        deleteAccountWarning.toggle()
+                    }
+                    .tint(.red)
+                    .confirmationDialog(
+                        "Permanently delete your ScribbleLabAccount?",
+                        isPresented: $deleteAccountWarning
+                    ) {
+                        Button("Delete Account", role: .destructive) {
+                            
+                        }
+                    } message: {
+                        Text("You cannot undo this action.")
+                    }
                 }
             }
         }
+        .navigationTitle("Account-Information")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 #Preview {
-    ProfileView()
+    NavigationStack {
+        ProfileView()
+    }
 }

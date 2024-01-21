@@ -21,8 +21,9 @@ import SwiftUI
 
 struct IntegrationsView: View {
     @State private var allowIntegartions: Bool = true
+    
     var body: some View {
-        NavigationStack {
+//        NavigationStack {
             Form {
                 Section {
                     Toggle(isOn: $allowIntegartions) {
@@ -88,10 +89,12 @@ struct IntegrationsView: View {
                     }
                 }
             }
-        }
+//        }
     }
 }
 
 #Preview {
-    IntegrationsView()
+    NavigationStack {
+        IntegrationsView()
+    }
 }
