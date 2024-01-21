@@ -715,6 +715,9 @@
     "Check for updates" : {
 
     },
+    "Check your connection and try later again." : {
+
+    },
     "Click below to complete registration and start using ScribbleLab" : {
 
     },
@@ -1614,6 +1617,9 @@
         }
       }
     },
+    "Store is not available" : {
+
+    },
     "Study Timer" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -1872,9 +1878,6 @@
           }
         }
       }
-    },
-    "Welcome to the store" : {
-
     },
     "When Safe Mode is enabled, ScribbleLab starts with several features disabled to ensure maximum stability or detect errors. This process requires a restart." : {
 

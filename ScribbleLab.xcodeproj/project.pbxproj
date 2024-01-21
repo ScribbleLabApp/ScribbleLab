@@ -131,6 +131,7 @@
 		38AE9CBD2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9CBC2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift */; };
 		38B36C592B5D33E60009BA56 /* SLScribbleLinkIntegrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B36C582B5D33E60009BA56 /* SLScribbleLinkIntegrationView.swift */; };
 		38B36C5B2B5D47510009BA56 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B36C5A2B5D47510009BA56 /* StoreView.swift */; };
+		38B36C5E2B5D73D80009BA56 /* FavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B36C5D2B5D73D80009BA56 /* FavouriteView.swift */; };
 		38BAF7C52B5AF6EF00BEE6A5 /* IntegrationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BAF7C42B5AF6EF00BEE6A5 /* IntegrationsView.swift */; };
 		38BAF7C72B5AFC1B00BEE6A5 /* SLGoogleClassroomIntegrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BAF7C62B5AFC1B00BEE6A5 /* SLGoogleClassroomIntegrationView.swift */; };
 		38C666292B52D21900CAD099 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C666282B52D21900CAD099 /* SubscriptionView.swift */; };
@@ -320,6 +321,7 @@
 		38AE9CBC2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLabUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		38B36C582B5D33E60009BA56 /* SLScribbleLinkIntegrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLScribbleLinkIntegrationView.swift; sourceTree = "<group>"; };
 		38B36C5A2B5D47510009BA56 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
+		38B36C5D2B5D73D80009BA56 /* FavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteView.swift; sourceTree = "<group>"; };
 		38BAF7C42B5AF6EF00BEE6A5 /* IntegrationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationsView.swift; sourceTree = "<group>"; };
 		38BAF7C62B5AFC1B00BEE6A5 /* SLGoogleClassroomIntegrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLGoogleClassroomIntegrationView.swift; sourceTree = "<group>"; };
 		38C666282B52D21900CAD099 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
@@ -575,6 +577,7 @@
 		38348BEC2B1A614500846877 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				38B36C5C2B5D73C80009BA56 /* Favourite */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1163,6 +1166,14 @@
 			path = ScribbleLabUITests;
 			sourceTree = "<group>";
 		};
+		38B36C5C2B5D73C80009BA56 /* Favourite */ = {
+			isa = PBXGroup;
+			children = (
+				38B36C5D2B5D73D80009BA56 /* FavouriteView.swift */,
+			);
+			path = Favourite;
+			sourceTree = "<group>";
+		};
 		38BAF7C32B5AF65700BEE6A5 /* Integrations */ = {
 			isa = PBXGroup;
 			children = (
@@ -1678,6 +1689,7 @@
 			files = (
 				3852D71A2B053C38007FAFF1 /* Shaders.metal in Sources */,
 				3852D7212B054DBF007FAFF1 /* Particle.swift in Sources */,
+				38B36C5E2B5D73D80009BA56 /* FavouriteView.swift in Sources */,
 				385DC5D72B53FB0C00D1FE6E /* NotificationSettingsModel.swift in Sources */,
 				38BAF7C52B5AF6EF00BEE6A5 /* IntegrationsView.swift in Sources */,
 				3889688B2AF143C700F67F08 /* SettingsViewModel.swift in Sources */,

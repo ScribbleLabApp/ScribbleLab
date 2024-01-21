@@ -10,12 +10,9 @@ import SwiftUI
 struct SLShopMainView: View {
     var body: some View {
         VStack {
-            NavigationStack {
-                Text("Welcome to the store")
-                
-                .navigationTitle("Store")
-                .navigationBarTitleDisplayMode(.large)
-            }
+            ContentUnavailableView("Store is not available", systemImage: "wifi.exclamationmark", description: Text("Check your connection and try later again."))
+            .navigationTitle("Store")
+            .navigationBarTitleDisplayMode(.large)
         }
     }
 }

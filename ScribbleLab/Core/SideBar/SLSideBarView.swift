@@ -24,7 +24,7 @@ struct SLSideBarView: View {
                         Label("Documents", systemImage: "house")
                     }
                     NavigationLink {
-                        
+                        FavouriteView()
                     } label: {
                         Label("Favourite", systemImage: "star")
                     }
