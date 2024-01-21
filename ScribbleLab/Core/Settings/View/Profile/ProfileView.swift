@@ -20,10 +20,6 @@
 import SwiftUI
 
 struct ProfileView: View {
-    /// - View Properties
-    @AppStorage("isDarkMode") private var isDarkMode = false
-    
-    /// - Action Properties:
     @State private var signOutWarningIsPresented = false
     @State private var deleteAccountWarning = false
     
@@ -161,7 +157,7 @@ struct ProfileView: View {
                         dismiss()
                         print("DEBUG: Screen dismissed")
                     }
-                    .tint(.black).bold()
+                    .tint(.primary).bold()
                 }
             }
         }

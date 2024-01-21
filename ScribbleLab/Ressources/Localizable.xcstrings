@@ -263,6 +263,9 @@
     "Accessibility" : {
 
     },
+    "Account" : {
+
+    },
     "Account-Information" : {
 
     },
@@ -387,9 +390,6 @@
 
     },
     "by creating ScribbleLab account." : {
-
-    },
-    "Calender" : {
 
     },
     "Cancel" : {
@@ -587,6 +587,9 @@
     "Download" : {
 
     },
+    "Dropbox" : {
+
+    },
     "E-Mail" : {
 
     },
@@ -721,6 +724,9 @@
     "Google Classroom Settings" : {
 
     },
+    "GoogleDrive" : {
+
+    },
     "GoogleSignIn" : {
 
     },
@@ -783,6 +789,7 @@
 
     },
     "Homework" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1150,6 +1157,7 @@
 
     },
     "Reminder" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1196,6 +1204,12 @@
 
     },
     "Scan document" : {
+
+    },
+    "ScribbleCloud" : {
+
+    },
+    "ScribbleLab" : {
 
     },
     "ScribbleLab - Auth & Privacy" : {
@@ -1260,6 +1274,9 @@
     "Share subscription" : {
 
     },
+    "Show AppStore: ScribbleLink" : {
+
+    },
     "Show Notifications" : {
 
     },
@@ -1295,6 +1312,7 @@
       }
     },
     "Study Timer" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1381,6 +1399,7 @@
 
     },
     "Timetable" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1555,6 +1574,9 @@
 
     },
     "When Safe Mode is enabled, ScribbleLab starts with several features disabled to ensure maximum stability or detect errors. This process requires a restart." : {
+
+    },
+    "When you rescan the status of ScribbleLink, you allow us to search for ScribbleLink in your Application folder." : {
 
     },
     "When you sign-up for our newsletter you agree to our Terms Of Use. You'll get weekly/monthly tips on the usage of ScribbleLab. You can unsubscribe everytime." : {

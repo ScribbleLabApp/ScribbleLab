@@ -11,15 +11,8 @@ import PermissionsSwiftUICamera
 import PermissionsSwiftUINotification
 
 struct SLSideBarView: View {
-    @State private var notificationSheetisPresented = false
-    @State private var settingsViewSheetisPresented = false
-    // FIXME: Delete this state var when finishing the alpha version
-    @State private var newNotification = false
-    
     // MARK: Permission Modal sheet
     @State private var showModal = false
-    
-//    @AppStorage("isDarkMode") private var isDarkMode = false
     
     var body: some View {
         NavigationView {
@@ -45,15 +38,14 @@ struct SLSideBarView: View {
                 }
                 
                 Section("Locations") {
-                    // FIXME: Show locations like clouds and sth like that
-                    Label("iCloud Drive", systemImage: "icloud") // icloud.square.fill
-//                        .symbolRenderingMode(.multicolor)
+                    Label("iCloud Drive", systemImage: "icloud")
                     Label("ScribbleCloud", systemImage: "icloud")
+                    Label("GoogleDrive", systemImage: "icloud")
+                    Label("Dropbox", systemImage: "icloud")
                     Label("On this iPad", systemImage: "ipad.gen2")
                 }
                 
                 Section("Tags") {
-                    // FIXME: Change color of the tags
                     Label("Red", systemImage: "circle.fill").foregroundStyle(.red)
                     Label("Orange", systemImage: "circle.fill").foregroundStyle(.orange)
                     Label("Yellow", systemImage: "circle.fill").foregroundStyle(.yellow)
@@ -64,9 +56,9 @@ struct SLSideBarView: View {
                 }
             }
             .listStyle(SidebarListStyle())
-            .navigationTitle("Documents")
+            .navigationTitle("ScribbleLab")
             .navigationBarTitleDisplayMode(.large)
-//            .tint(.orange)
+            
             HomeView()
         }
         .tint(.orange)
