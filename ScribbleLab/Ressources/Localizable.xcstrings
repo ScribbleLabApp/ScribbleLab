@@ -155,6 +155,9 @@
         }
       }
     },
+    "1" : {
+
+    },
     "1. Definitions." : {
       "localizations" : {
         "de" : {
@@ -170,6 +173,9 @@
           }
         }
       }
+    },
+    "1.0.0-alpha" : {
+
     },
     "01/01/2024" : {
 
@@ -269,6 +275,9 @@
     "Add New Timer" : {
 
     },
+    "Allow document syncing" : {
+
+    },
     "Allow integrations" : {
 
     },
@@ -291,6 +300,9 @@
 
     },
     "App settings" : {
+
+    },
+    "App Store" : {
 
     },
     "App Updates & Events" : {
@@ -327,6 +339,9 @@
     "Autocorrection" : {
 
     },
+    "available" : {
+
+    },
     "BIRTHDAY01" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -351,6 +366,9 @@
           }
         }
       }
+    },
+    "Build" : {
+
     },
     "Build Number" : {
 
@@ -565,6 +583,9 @@
           }
         }
       }
+    },
+    "Download" : {
+
     },
     "E-Mail" : {
 
@@ -799,6 +820,9 @@
     "Important message" : {
 
     },
+    "In App-Purchases" : {
+
+    },
     "Info" : {
       "localizations" : {
         "de" : {
@@ -941,6 +965,9 @@
     "Manage subscription" : {
 
     },
+    "Managing your school day made easy" : {
+
+    },
     "Member since" : {
 
     },
@@ -1010,6 +1037,9 @@
           }
         }
       }
+    },
+    "Open" : {
+
     },
     "Open Integration Documentation" : {
 
@@ -1138,6 +1168,9 @@
     "Report a translation issue" : {
 
     },
+    "Rescan status for ScribbleLink" : {
+
+    },
     "Reset Apple Schoolwork Settings" : {
 
     },
@@ -1175,6 +1208,12 @@
 
     },
     "ScribbleLink" : {
+
+    },
+    "ScribbleLink Core" : {
+
+    },
+    "ScribbleLink Integrations Settings" : {
 
     },
     "Search" : {
@@ -1215,6 +1254,12 @@
         }
       }
     },
+    "Share document metadata" : {
+
+    },
+    "Share subscription" : {
+
+    },
     "Show Notifications" : {
 
     },
@@ -1234,6 +1279,9 @@
 
     },
     "Start new" : {
+
+    },
+    "Status" : {
 
     },
     "Store" : {
@@ -1426,7 +1474,6 @@
 
     },
     "Version" : {
-      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {

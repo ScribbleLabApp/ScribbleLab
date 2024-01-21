@@ -129,6 +129,8 @@
 		38AE9CB12AD0751100B761E8 /* ScribbleLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9CB02AD0751100B761E8 /* ScribbleLabTests.swift */; };
 		38AE9CBB2AD0751100B761E8 /* ScribbleLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9CBA2AD0751100B761E8 /* ScribbleLabUITests.swift */; };
 		38AE9CBD2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9CBC2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift */; };
+		38B36C592B5D33E60009BA56 /* SLScribbleLinkIntegrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B36C582B5D33E60009BA56 /* SLScribbleLinkIntegrationView.swift */; };
+		38B36C5B2B5D47510009BA56 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B36C5A2B5D47510009BA56 /* StoreView.swift */; };
 		38BAF7C52B5AF6EF00BEE6A5 /* IntegrationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BAF7C42B5AF6EF00BEE6A5 /* IntegrationsView.swift */; };
 		38BAF7C72B5AFC1B00BEE6A5 /* SLGoogleClassroomIntegrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BAF7C62B5AFC1B00BEE6A5 /* SLGoogleClassroomIntegrationView.swift */; };
 		38C666292B52D21900CAD099 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C666282B52D21900CAD099 /* SubscriptionView.swift */; };
@@ -316,6 +318,8 @@
 		38AE9CB62AD0751100B761E8 /* ScribbleLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScribbleLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38AE9CBA2AD0751100B761E8 /* ScribbleLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLabUITests.swift; sourceTree = "<group>"; };
 		38AE9CBC2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38B36C582B5D33E60009BA56 /* SLScribbleLinkIntegrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLScribbleLinkIntegrationView.swift; sourceTree = "<group>"; };
+		38B36C5A2B5D47510009BA56 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
 		38BAF7C42B5AF6EF00BEE6A5 /* IntegrationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationsView.swift; sourceTree = "<group>"; };
 		38BAF7C62B5AFC1B00BEE6A5 /* SLGoogleClassroomIntegrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLGoogleClassroomIntegrationView.swift; sourceTree = "<group>"; };
 		38C666282B52D21900CAD099 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
@@ -479,13 +483,6 @@
 			children = (
 			);
 			path = SLAI;
-			sourceTree = "<group>";
-		};
-		381B83B92B24E5D800E7E8E7 /* docs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = docs;
 			sourceTree = "<group>";
 		};
 		381E0B332ADC134C00A2A836 /* Model */ = {
@@ -1097,7 +1094,6 @@
 			children = (
 				385F78AB2AD5DDED0096E504 /* Settings.bundle */,
 				38ADB4D82AF6952C0019375B /* Documentation.docc */,
-				381B83B92B24E5D800E7E8E7 /* docs */,
 				3858A76D2AD1498D00FC6319 /* Configs */,
 				38AE9C9A2AD0750F00B761E8 /* ScribbleLab */,
 				385F78972AD5C84B0096E504 /* SLStickerPack */,
@@ -1172,6 +1168,7 @@
 			children = (
 				38BAF7C62B5AFC1B00BEE6A5 /* SLGoogleClassroomIntegrationView.swift */,
 				385EEEEF2B5C0D87004A0E1F /* SLAppleSchoolworkIntegrationView.swift */,
+				38B36C582B5D33E60009BA56 /* SLScribbleLinkIntegrationView.swift */,
 			);
 			path = Integrations;
 			sourceTree = "<group>";
@@ -1181,6 +1178,7 @@
 			children = (
 				38C68B972B0D134300D16E86 /* SLButton.swift */,
 				38C68B992B0D1CA100D16E86 /* SLButton+Image.swift */,
+				38B36C5A2B5D47510009BA56 /* StoreView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -1745,6 +1743,7 @@
 				38355ED72AD3D52D00392674 /* IGTextFieldModifier.swift in Sources */,
 				3836C2962AF144DC008F475F /* WaitView.swift in Sources */,
 				38066B522AFEA235001A88D5 /* WaitSheetView.swift in Sources */,
+				38B36C592B5D33E60009BA56 /* SLScribbleLinkIntegrationView.swift in Sources */,
 				38D5C68D2AD28D6F00D943A5 /* SLUpdateView.swift in Sources */,
 				385ABC602B2E0AAD005F90E6 /* Security.swift in Sources */,
 				38AE9C9C2AD0750F00B761E8 /* ScribbleLabApp.swift in Sources */,
@@ -1759,6 +1758,7 @@
 				38ADE8172B1D1F44002229A2 /* NotificationSettings.swift in Sources */,
 				387F7F8A2B120948001CC150 /* DrawingTest.swift in Sources */,
 				38FFF9422AE3C7C9006719E2 /* SignInWithGoogleModel.swift in Sources */,
+				38B36C5B2B5D47510009BA56 /* StoreView.swift in Sources */,
 				38CB09092B5411FA00E0C224 /* OnboardingFeature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

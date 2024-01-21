@@ -44,7 +44,7 @@ struct IntegrationsView: View {
                     }
                     
                     NavigationLink {
-                        
+                        SLScribbleLinkIntegrationView()
                     } label: {
                         Text("ScribbleLink")
                     }

@@ -11,7 +11,7 @@ import UserNotifications
 
 struct HomeView: View {
     @StateObject var viewModifier = HomeViewModel()
-    @AppStorage("isDarkMode") private var isDarkMode = false
+//    @AppStorage("isDarkMode") private var isDarkMode = false
     
     // [START dev_properties_test]
     @State private var documentsAvailable = false
@@ -92,7 +92,7 @@ struct HomeView: View {
                     })
                 }
             }
-            .tint(isDarkMode ? .white : .black)
+            .tint(/*isDarkMode ? .white : .black*/.primary)
         }
         .onAppear {
             Task {

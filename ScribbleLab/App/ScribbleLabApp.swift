@@ -56,7 +56,7 @@ struct ScribbleLabApp: App {
                         .datastoreLocation(.applicationDefault)
                     ])
                 }
-            #if macOS
+            #if os(macOS)
                 .frame(width: 500, height: 400)
             #endif
 //            SignUpView()

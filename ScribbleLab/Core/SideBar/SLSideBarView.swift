@@ -19,7 +19,7 @@ struct SLSideBarView: View {
     // MARK: Permission Modal sheet
     @State private var showModal = false
     
-    @AppStorage("isDarkMode") private var isDarkMode = false
+//    @AppStorage("isDarkMode") private var isDarkMode = false
     
     var body: some View {
         NavigationView {
@@ -36,23 +36,10 @@ struct SLSideBarView: View {
                         Label("Store", systemImage: "storefront")
                     }
                     NavigationLink {
-                        
+                        ProfileView()
                     } label: {
-                        Label("Timetable", systemImage: "calendar.badge.clock")
+                        Label("Account", systemImage: "wallet.pass")
                     }
-                    NavigationLink {
-                        
-                    } label: {
-                        Label("Calender", systemImage: "calendar")
-                    }
-                    NavigationLink {
-                        SLStudyPomodoroTimerView()
-                            .environmentObject(PomodoroModel())
-                    } label: {
-                        Label("Study Timer", systemImage: "timer")
-                    }
-                    Label("Reminder", systemImage: "exclamationmark.bubble")
-                    Label("Homework", systemImage: "doc.text")
                     Label("Search", systemImage: "magnifyingglass")
                     Label("Trash", systemImage: "trash")
                 }
@@ -61,56 +48,28 @@ struct SLSideBarView: View {
                     // FIXME: Show locations like clouds and sth like that
                     Label("iCloud Drive", systemImage: "icloud") // icloud.square.fill
 //                        .symbolRenderingMode(.multicolor)
+                    Label("ScribbleCloud", systemImage: "icloud")
                     Label("On this iPad", systemImage: "ipad.gen2")
                 }
                 
                 Section("Tags") {
                     // FIXME: Change color of the tags
-                    Label("Red", systemImage: "circle.fill")
-                    Label("Orange", systemImage: "circle.fill")
-                    Label("Yellow", systemImage: "circle.fill")
-                    Label("Green", systemImage: "circle.fill")
-                    Label("Blue", systemImage: "circle.fill")
-                    Label("Purple", systemImage: "circle.fill")
-                    Label("Gray", systemImage: "circle.fill")
+                    Label("Red", systemImage: "circle.fill").foregroundStyle(.red)
+                    Label("Orange", systemImage: "circle.fill").foregroundStyle(.orange)
+                    Label("Yellow", systemImage: "circle.fill").foregroundStyle(.yellow)
+                    Label("Green", systemImage: "circle.fill").foregroundStyle(.green)
+                    Label("Blue", systemImage: "circle.fill").foregroundStyle(.blue)
+                    Label("Purple", systemImage: "circle.fill").foregroundStyle(.purple)
+                    Label("Gray", systemImage: "circle.fill").foregroundStyle(.gray)
                 }
-                
             }
             .listStyle(SidebarListStyle())
-            .tint(.black)
             .navigationTitle("Documents")
             .navigationBarTitleDisplayMode(.large)
-            
-//            .toolbar {
-//                // FIXME: Show NotificationSheet
-//                ToolbarItem(placement: .navigationBarTrailing) {
-//                    Button {
-//                        notificationSheetisPresented.toggle()
-//                    } label: {
-//                        // TODO: Check if the user has new notifications if yes change the icon to "bell.badge"
-//                        Image(systemName: newNotification ? "bell.badge" : "bell") // bell.badge
-//                    }
-//                    .sheet(isPresented: $notificationSheetisPresented, content: {
-//                        NotificationSheetView()
-//                    })
-//                }
-//                
-//                // FIXME: TODO: Show Settings sheet
-//                ToolbarItem(placement: .navigationBarTrailing) {
-//                    Button {
-//                        settingsViewSheetisPresented.toggle()
-//                    } label: {
-//                        Image(systemName: "gearshape")
-//                    }
-//                    .sheet(isPresented: $settingsViewSheetisPresented, content: {
-//                        Text("hi")
-//                    })
-//                }
-//            }
-            .tint(isDarkMode ? .white : .black)
-            
+//            .tint(.orange)
             HomeView()
         }
+        .tint(.orange)
         .JMAlert(showModal: $showModal, for: [.camera, .photo, .notification])
         .changeHeaderTo("App Permissions")
     }

@@ -24,8 +24,6 @@ struct SLSettingsView: View {
     @State private var resetAlertIsPresented = false
     @State private var deleteAccountIsPresented = false
     
-    @AppStorage("isDarkMode") private var isDarkMode = false
-    
     var body: some View {
         NavigationStack {
             List {
@@ -174,7 +172,7 @@ struct SLSettingsView: View {
                     Text("Other")
                 }
             }
-            .tint(isDarkMode ? .white : .black)
+            .tint(.primary)
             .navigationTitle("Settings")
         }
     }
