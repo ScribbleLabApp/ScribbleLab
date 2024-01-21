@@ -553,7 +553,8 @@ Additionally, we will soon offer a ScribbleLab AI subscription for unlimited AI 
 | Montly Max AI Requests  |         50        |       200       | 2k - Unlimited |
 | Learning Model          |        GPT4       |  GPT4           |      GPT4      |
 | **Live Collaborations** |        Yes*       |       Yes       |       Yes      |
-| **Price**               |        Free       |   $.8.99/month  |        $30.99  |
+| Cloud Storage           |        2GB        |       15 GB     |     > 40 GB    |
+| **Price**               |        Free       |   $9.99/month   |        $40.99  |
 
 
 **AI Support:**
