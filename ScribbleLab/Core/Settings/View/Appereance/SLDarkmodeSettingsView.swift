@@ -21,7 +21,8 @@ import SwiftUI
 
 struct SLDarkmodeSettingsView: View {
     @Environment(\.colorScheme) var colorScheme
-    @StateObject var viewModel = CircleCheckboxModel()
+    @StateObject var themeModel = CircleCheckboxModel()
+    @StateObject var viewModel = SLDarkmodeSettingsViewModel()
     
     var body: some View {
         Form {
@@ -37,9 +38,9 @@ struct SLDarkmodeSettingsView: View {
                                 .fontWeight(.semibold)
                             
                             // SLCircularCheckbox(selectedTheme: $selectedTheme, onTap: switchTheme, theme: .alwaysDark)
-                            SLCircularCheckbox(selectedTheme: $viewModel.selectedTheme, onTap: {
-                                viewModel.selectedTheme = .alwaysDark
-                                viewModel.switchTheme()
+                            SLCircularCheckbox(selectedTheme: $themeModel.selectedTheme, onTap: {
+                                themeModel.selectedTheme = .alwaysDark
+                                themeModel.switchTheme()
                             }, theme: .alwaysDark)
                         }
                         
@@ -51,15 +52,15 @@ struct SLDarkmodeSettingsView: View {
                                 .fontWeight(.semibold)
                             
                             // SLCircularCheckbox(selectedTheme: $selectedTheme, onTap: switchTheme, theme: .alwaysLight)
-                            SLCircularCheckbox(selectedTheme: $viewModel.selectedTheme, onTap: {
-                                viewModel.selectedTheme = .alwaysLight
-                                viewModel.switchTheme()
+                            SLCircularCheckbox(selectedTheme: $themeModel.selectedTheme, onTap: {
+                                themeModel.selectedTheme = .alwaysLight
+                                themeModel.switchTheme()
                             }, theme: .alwaysLight)
                         }
                         Spacer()
-                    }.disabled(viewModel.useSystemColor)
+                    }.disabled(themeModel.useSystemColor)
                     
-                    if viewModel.useSystemColor {
+                    if themeModel.useSystemColor {
                         Color.gray.opacity(0.15)
                     }
                 }
@@ -67,7 +68,7 @@ struct SLDarkmodeSettingsView: View {
                 // [CUSTOM PICKER END]
                 
                 // FIXME: Toggle unused
-                Toggle(isOn: $viewModel.useSystemColor) {
+                Toggle(isOn: $themeModel.useSystemColor) {
                     Text("Use system settings")
                 }
             } header: {
@@ -83,13 +84,32 @@ struct SLDarkmodeSettingsView: View {
             } footer: {
                 Text("You can create your own color theme by following our templates. Please remember that the feature is in BETA.")
             }
+            
+            Section {
+                NavigationLink {
+                    
+                } label: {
+                    Text("Custom color themes")
+                }
+            } footer: {
+                Text("View, customize, and use all of your self-created appearances in ScribbleLab.")
+            }
         }
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 Button {
                     print("DEBUG: Customize ScribbleLab")
+                    viewModel.customThemeDialogDisplayed.toggle()
                 } label: {
                     Image(systemName: "paintbrush")
+                }
+                .confirmationDialog(
+                    "What would you like to do?",
+                    isPresented: $viewModel.customThemeDialogDisplayed
+                ) {
+                    Button("Create new custom Theme") {
+                        print("DEBUG: Create new custom theme")
+                    }
                 }
             }
         }

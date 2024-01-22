@@ -31,6 +31,7 @@
 		381C1DE62B5E8CF500F73B5E /* SegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C1DE52B5E8CF500F73B5E /* SegmentedPicker.swift */; };
 		381C1DE92B5EC73500F73B5E /* SLCircularCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C1DE82B5EC73500F73B5E /* SLCircularCheckbox.swift */; };
 		381C1DED2B5ECEF000F73B5E /* CircleCheckboxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C1DEC2B5ECEF000F73B5E /* CircleCheckboxModel.swift */; };
+		381C1DF02B5EE4E700F73B5E /* SLDarkmodeSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C1DEF2B5EE4E700F73B5E /* SLDarkmodeSettingsViewModel.swift */; };
 		381E0B362ADC136400A2A836 /* PomodoroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381E0B352ADC136400A2A836 /* PomodoroModel.swift */; };
 		381E0B382ADC14E300A2A836 /* SLStudyPomodoroTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381E0B372ADC14E300A2A836 /* SLStudyPomodoroTimerView.swift */; };
 		381F1F132AD72DD6001B3B10 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F1F122AD72DD6001B3B10 /* TestView.swift */; };
@@ -237,6 +238,7 @@
 		381C1DE52B5E8CF500F73B5E /* SegmentedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPicker.swift; sourceTree = "<group>"; };
 		381C1DE82B5EC73500F73B5E /* SLCircularCheckbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCircularCheckbox.swift; sourceTree = "<group>"; };
 		381C1DEC2B5ECEF000F73B5E /* CircleCheckboxModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCheckboxModel.swift; sourceTree = "<group>"; };
+		381C1DEF2B5EE4E700F73B5E /* SLDarkmodeSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLDarkmodeSettingsViewModel.swift; sourceTree = "<group>"; };
 		381E0B352ADC136400A2A836 /* PomodoroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroModel.swift; sourceTree = "<group>"; };
 		381E0B372ADC14E300A2A836 /* SLStudyPomodoroTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLStudyPomodoroTimerView.swift; sourceTree = "<group>"; };
 		381F1F122AD72DD6001B3B10 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
@@ -523,6 +525,14 @@
 				381C1DEC2B5ECEF000F73B5E /* CircleCheckboxModel.swift */,
 			);
 			path = CircleCheckboxModel;
+			sourceTree = "<group>";
+		};
+		381C1DEE2B5EE4D300F73B5E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				381C1DEF2B5EE4E700F73B5E /* SLDarkmodeSettingsViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		381E0B332ADC134C00A2A836 /* Model */ = {
@@ -1273,6 +1283,7 @@
 		38D5C6802AD2886B00D943A5 /* Appereance */ = {
 			isa = PBXGroup;
 			children = (
+				381C1DEE2B5EE4D300F73B5E /* ViewModel */,
 				38D5C68A2AD28B9D00D943A5 /* SLDarkmodeSettingsView.swift */,
 			);
 			path = Appereance;
@@ -1798,6 +1809,7 @@
 				38D5C68B2AD28B9D00D943A5 /* SLDarkmodeSettingsView.swift in Sources */,
 				3836C29A2AF1BB86008F475F /* EditProfileViewModel.swift in Sources */,
 				3868A3E32AD2FE6600D4CAEC /* ProfileView.swift in Sources */,
+				381C1DF02B5EE4E700F73B5E /* SLDarkmodeSettingsViewModel.swift in Sources */,
 				38355ED92AD3D71900392674 /* IGButtonModifier.swift in Sources */,
 				385F468E2AD31CD100D85410 /* SignUpView.swift in Sources */,
 				38C68B9A2B0D1CA100D16E86 /* SLButton+Image.swift in Sources */,

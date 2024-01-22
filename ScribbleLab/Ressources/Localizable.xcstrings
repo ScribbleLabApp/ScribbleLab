@@ -790,10 +790,16 @@
     "Create from Template" : {
 
     },
+    "Create new custom Theme" : {
+
+    },
     "Create New Document" : {
 
     },
     "Create one." : {
+
+    },
+    "Custom color themes" : {
 
     },
     "Customization" : {
@@ -1840,6 +1846,9 @@
         }
       }
     },
+    "View, customize, and use all of your self-created appearances in ScribbleLab." : {
+
+    },
     "Warning" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -1892,6 +1901,9 @@
           }
         }
       }
+    },
+    "What would you like to do?" : {
+
     },
     "What's new in %@" : {
 
