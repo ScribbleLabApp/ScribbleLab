@@ -11,11 +11,9 @@ import UserNotifications
 
 struct HomeView: View {
     @StateObject var viewModifier = HomeViewModel()
-     
-    // [START create_shared_instance_of_tip]
+    
     let createFirstDocumentTip = CreateNewDocumentTip()
     let showNotificationTip = ShowNotificationsTip()
-    // [END create_shared_instance_of_tip]
     
     var body: some View {
         VStack {
@@ -24,7 +22,6 @@ struct HomeView: View {
             ContentUnavailableView("You have no documents", systemImage: "doc.viewfinder.fill")
         }
         .navigationTitle("Documents")
-//        .tint(.primary)
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button {
@@ -84,7 +81,6 @@ struct HomeView: View {
                 })
             }
         }
-//        .tint(.orange)
         .tint(.primary)
         .onAppear {
             Task {

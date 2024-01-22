@@ -451,6 +451,15 @@
         }
       }
     },
+    "Account Privacy" : {
+
+    },
+    "Account Protection" : {
+
+    },
+    "Account Settings" : {
+
+    },
     "Account-Information" : {
       "localizations" : {
         "de" : {
@@ -519,6 +528,12 @@
     "Always light" : {
 
     },
+    "Analytics & Improvements" : {
+
+    },
+    "Analytics & Usage data" : {
+
+    },
     "and " : {
       "localizations" : {
         "de" : {
@@ -538,6 +553,9 @@
           }
         }
       }
+    },
+    "App data protection report" : {
+
     },
     "App name" : {
       "localizations" : {
@@ -698,6 +716,9 @@
     "by creating ScribbleLab account." : {
 
     },
+    "Camera" : {
+
+    },
     "Cancel" : {
 
     },
@@ -848,6 +869,9 @@
         }
       }
     },
+    "Data protection & Security" : {
+
+    },
     "Delete account" : {
       "localizations" : {
         "de" : {
@@ -859,6 +883,12 @@
       }
     },
     "Delete Account" : {
+
+    },
+    "Developer" : {
+
+    },
+    "Developer Mode" : {
 
     },
     "Display name" : {
@@ -1000,6 +1030,9 @@
           }
         }
       }
+    },
+    "File access" : {
+
     },
     "Forgot password?" : {
 
@@ -1291,6 +1324,9 @@
     "Membershipinfo" : {
 
     },
+    "Microphone" : {
+
+    },
     "n/a" : {
       "localizations" : {
         "de" : {
@@ -1321,6 +1357,9 @@
 
     },
     "No account?" : {
+
+    },
+    "No documents found" : {
 
     },
     "none" : {
@@ -1399,6 +1438,9 @@
 
     },
     "phone number in order to get 2FA Codes or" : {
+
+    },
+    "Photo Libary" : {
 
     },
     "Pomodoro Timer" : {
@@ -1528,6 +1570,9 @@
     "ScribbleLab and ScribbleLabAuth (SLA) is a secure, reliable and easy-to-use authentication service that allows users to gain access to the application's resources through a simple and straightforward process. The ScribbleLab Auth Service is built on top of Firebase, a powerful and scalable database service, ensuring that user authentication is done in a secure and robust manner. \n " : {
 
     },
+    "ScribbleLab requires access for all access listed above. For a more detailed description of how and why Scribble Lab uses and requires these accesses, click on the accesses." : {
+
+    },
     "ScribbleLabApp" : {
 
     },
@@ -1550,10 +1595,19 @@
         }
       }
     },
+    "Search for your Documents" : {
+
+    },
+    "Security" : {
+
+    },
     "Security Information" : {
 
     },
     "Security mode" : {
+
+    },
+    "Security Mode" : {
 
     },
     "Select how you'd like to create a new document." : {
@@ -1765,7 +1819,13 @@
         }
       }
     },
+    "Trash can is empty" : {
+
+    },
     "Troubleshooting" : {
+
+    },
+    "Try again." : {
 
     },
     "Tutorials" : {
@@ -1806,6 +1866,9 @@
           }
         }
       }
+    },
+    "Usage Data" : {
+
     },
     "Use system settings" : {
 
@@ -1971,6 +2034,9 @@
 
     },
     "You won't be able to use this App without an account. All your documets are safely syncronised in your Cloud." : {
+
+    },
+    "You're good to go" : {
 
     },
     "Your ScribbleLab Account information is used to enable services when you sign in, including other features like live collaboration, ... [**See how your data is managed...**](https://github.com/ScribbleLabApp/ScribbleLab)" : {

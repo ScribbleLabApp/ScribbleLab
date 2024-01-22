@@ -69,7 +69,11 @@ struct SLSettingsView: View {
                     } label: {
                         Label("Notifications", systemImage: "bell.badge")
                     }
-                    Label("Privacy", systemImage: "hand.raised.fill")
+                    NavigationLink {
+                        SLPrivacySettingsView()
+                    } label: {
+                        Label("Privacy", systemImage: "hand.raised.fill")
+                    }
                     Label("Collaboration", systemImage: "person.2.badge.gearshape")
                     Label("Extensions", systemImage: "puzzlepiece.extension")
                     Label("Cloud sync", systemImage: "icloud")
@@ -82,6 +86,14 @@ struct SLSettingsView: View {
                     Text("App settings")
                 } footer: {
                     Text("Some simple settings to make the app even better")
+                }
+                
+                Section {
+                    NavigationLink {
+                        
+                    } label: {
+                        Label("Developer", systemImage: "hammer.fill")
+                    }
                 }
                 
                 Section {

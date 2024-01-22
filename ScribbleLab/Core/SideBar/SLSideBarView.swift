@@ -44,12 +44,12 @@ struct SLSideBarView: View {
                         Label("Account", systemImage: "wallet.pass")
                     }
                     NavigationLink {
-                        
+                        SearchView()
                     } label: {
                         Label("Search", systemImage: "magnifyingglass")
                     }
                     NavigationLink {
-                        
+                        TrashView()
                     } label: {
                         Label("Trash", systemImage: "trash")
                     }

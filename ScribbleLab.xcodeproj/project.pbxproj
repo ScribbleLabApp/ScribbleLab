@@ -32,6 +32,9 @@
 		381C1DE92B5EC73500F73B5E /* SLCircularCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C1DE82B5EC73500F73B5E /* SLCircularCheckbox.swift */; };
 		381C1DED2B5ECEF000F73B5E /* CircleCheckboxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C1DEC2B5ECEF000F73B5E /* CircleCheckboxModel.swift */; };
 		381C1DF02B5EE4E700F73B5E /* SLDarkmodeSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C1DEF2B5EE4E700F73B5E /* SLDarkmodeSettingsViewModel.swift */; };
+		381C1DF22B5EF4B200F73B5E /* SLPrivacySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C1DF12B5EF4B200F73B5E /* SLPrivacySettingsView.swift */; };
+		381C1DF52B5EFD1900F73B5E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C1DF42B5EFD1900F73B5E /* SearchView.swift */; };
+		381C1DF82B5EFF7B00F73B5E /* TrashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C1DF72B5EFF7B00F73B5E /* TrashView.swift */; };
 		381E0B362ADC136400A2A836 /* PomodoroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381E0B352ADC136400A2A836 /* PomodoroModel.swift */; };
 		381E0B382ADC14E300A2A836 /* SLStudyPomodoroTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381E0B372ADC14E300A2A836 /* SLStudyPomodoroTimerView.swift */; };
 		381F1F132AD72DD6001B3B10 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F1F122AD72DD6001B3B10 /* TestView.swift */; };
@@ -239,6 +242,9 @@
 		381C1DE82B5EC73500F73B5E /* SLCircularCheckbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCircularCheckbox.swift; sourceTree = "<group>"; };
 		381C1DEC2B5ECEF000F73B5E /* CircleCheckboxModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCheckboxModel.swift; sourceTree = "<group>"; };
 		381C1DEF2B5EE4E700F73B5E /* SLDarkmodeSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLDarkmodeSettingsViewModel.swift; sourceTree = "<group>"; };
+		381C1DF12B5EF4B200F73B5E /* SLPrivacySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLPrivacySettingsView.swift; sourceTree = "<group>"; };
+		381C1DF42B5EFD1900F73B5E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		381C1DF72B5EFF7B00F73B5E /* TrashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashView.swift; sourceTree = "<group>"; };
 		381E0B352ADC136400A2A836 /* PomodoroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroModel.swift; sourceTree = "<group>"; };
 		381E0B372ADC14E300A2A836 /* SLStudyPomodoroTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLStudyPomodoroTimerView.swift; sourceTree = "<group>"; };
 		381F1F122AD72DD6001B3B10 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
@@ -535,6 +541,22 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		381C1DF32B5EFD0A00F73B5E /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				381C1DF42B5EFD1900F73B5E /* SearchView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		381C1DF62B5EFF4D00F73B5E /* Trash */ = {
+			isa = PBXGroup;
+			children = (
+				381C1DF72B5EFF7B00F73B5E /* TrashView.swift */,
+			);
+			path = Trash;
+			sourceTree = "<group>";
+		};
 		381E0B332ADC134C00A2A836 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -625,6 +647,8 @@
 		38348BEC2B1A614500846877 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				381C1DF62B5EFF4D00F73B5E /* Trash */,
+				381C1DF32B5EFD0A00F73B5E /* Search */,
 				38B36C632B5D95880009BA56 /* ScribbleCloud */,
 				38B36C602B5D76FD0009BA56 /* SharedWithYou */,
 				38B36C5C2B5D73C80009BA56 /* Favourite */,
@@ -1323,6 +1347,7 @@
 		38D5C6852AD2888F00D943A5 /* Privacy */ = {
 			isa = PBXGroup;
 			children = (
+				381C1DF12B5EF4B200F73B5E /* SLPrivacySettingsView.swift */,
 			);
 			path = Privacy;
 			sourceTree = "<group>";
@@ -1768,12 +1793,14 @@
 				387B79362ADEDD9B0067E08B /* SLOtherSettings.swift in Sources */,
 				38F59B8B2AEC4E0D00475B0B /* ResetPasswordView.swift in Sources */,
 				38B36C652B5D95FD0009BA56 /* ScribbleCloudOverviewView.swift in Sources */,
+				381C1DF82B5EFF7B00F73B5E /* TrashView.swift in Sources */,
 				385F78B32AD5E4FE0096E504 /* LogInView.swift in Sources */,
 				38EFBE232AD6E4EF00CF0ECD /* RestartAppView.swift in Sources */,
 				389FD4332B1BD22800C7DCC1 /* ResetPasswordModel.swift in Sources */,
 				3886B2DE2AD19F34002EF30E /* SLSettingsView.swift in Sources */,
 				381E0B362ADC136400A2A836 /* PomodoroModel.swift in Sources */,
 				385F78BE2AD5ED720096E504 /* SLHelpView.swift in Sources */,
+				381C1DF22B5EF4B200F73B5E /* SLPrivacySettingsView.swift in Sources */,
 				38140A642AE3F6D200753FB6 /* LoginViewModel.swift in Sources */,
 				38C68B982B0D134300D16E86 /* SLButton.swift in Sources */,
 				3828B2432B1FA5BE00D66BD8 /* NotificationCell.swift in Sources */,
@@ -1821,6 +1848,7 @@
 				38C666292B52D21900CAD099 /* SubscriptionView.swift in Sources */,
 				38B36C622B5D770D0009BA56 /* SharedWithYouView.swift in Sources */,
 				381C1DE62B5E8CF500F73B5E /* SegmentedPicker.swift in Sources */,
+				381C1DF52B5EFD1900F73B5E /* SearchView.swift in Sources */,
 				38D5C6952AD2CAA100D943A5 /* SLContributorModel.swift in Sources */,
 				38140A662AE3F79800753FB6 /* RegistrationViewModel.swift in Sources */,
 				3886B2E12AD1ABC0002EF30E /* SLSideBarView.swift in Sources */,
