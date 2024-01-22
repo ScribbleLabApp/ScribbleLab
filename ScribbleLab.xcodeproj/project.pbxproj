@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -1572,7 +1572,7 @@
 				};
 			};
 			buildConfigurationList = 38AE9C932AD0750F00B761E8 /* Build configuration list for PBXProject "ScribbleLab" */;
-			compatibilityVersion = "Xcode 15.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
