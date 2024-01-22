@@ -81,6 +81,13 @@ struct SLSideBarView: View {
             .listStyle(SidebarListStyle())
             .navigationTitle("ScribbleLab")
             .navigationBarTitleDisplayMode(.large)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button("Edit") {
+                        print("DEBUG: Rearrange sidebar")
+                    }
+                }
+            }
             
             HomeView()
         }

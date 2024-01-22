@@ -8,18 +8,36 @@
 import SwiftUI
 
 struct SharedWithYouView: View {
-    @State private var hasSharedDocuments: Bool = false
+    
     @State private var createDialogDisplayed: Bool = false
     @State private var notificationSheetisPresented: Bool = false
     @State private var settingsViewSheetisPresented: Bool = false
     
+    @State private var sortOption = DocumentSortOptionFavourite.date
+    
     var body: some View {
         VStack {
-            if hasSharedDocuments == true {
-                Text("HI")
-            } else {
-                ContentUnavailableView("You have no shared Documents", systemImage: "shared.with.you.slash", description: Text("To share a document, simply tab on 􀈂 or create a shared link."))
+            Divider()
+            
+            HStack {
+                Spacer()
+                
+                SegmentedPicker(selection: $sortOption)
+                    .padding(.horizontal)
+
+                Spacer()
+                
+                Button {
+                    print("DEBUG: Select documents")
+                } label: {
+                    Image(systemName: "checkmark.circle")
+                        .foregroundStyle(.orange)
+                }
+                .padding(.horizontal)
             }
+            .padding()
+            
+            ContentUnavailableView("You have no shared Documents", systemImage: "shared.with.you.slash", description: Text("To share a document, simply tab on 􀈂 or create a shared link."))
         }
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
@@ -80,5 +98,7 @@ struct SharedWithYouView: View {
 }
 
 #Preview {
-    SharedWithYouView()
+    NavigationStack {
+        SharedWithYouView()
+    }
 }

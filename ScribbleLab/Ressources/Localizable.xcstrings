@@ -894,7 +894,6 @@
 
     },
     "Edit" : {
-      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1086,12 +1085,6 @@
 
     },
     "Help" : {
-
-    },
-    "Hi" : {
-
-    },
-    "HI" : {
 
     },
     "Homework" : {
@@ -1608,6 +1601,9 @@
 
     },
     "Some simple settings to make the app even better" : {
+
+    },
+    "Sort By" : {
 
     },
     "Start new" : {

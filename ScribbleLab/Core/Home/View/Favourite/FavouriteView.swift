@@ -13,13 +13,31 @@ struct FavouriteView: View {
     @State private var notificationSheetisPresented: Bool = false
     @State private var settingsViewSheetisPresented: Bool = false
     
+    @State private var sortOption: DocumentSortOptionFavourite = .date
+    
     var body: some View {
         VStack {
-            if hasStarredDocuments == true {
-                Text("HI")
-            } else {
-                ContentUnavailableView("You have no starred Documents", systemImage: "star.slash", description: Text("To star a document, press the 􀊴 Button."))
+            Divider()
+            
+            HStack {
+                Spacer()
+                
+                SegmentedPicker(selection: $sortOption)
+                    .padding(.horizontal)
+                
+                Spacer()
+                
+                Button {
+                    print("DEBUG: Select documents")
+                } label: {
+                    Image(systemName: "checkmark.circle")
+                        .foregroundStyle(.orange)
+                }
+                .padding(.horizontal)
             }
+            .padding()
+            
+            ContentUnavailableView("You have no starred Documents", systemImage: "star.slash", description: Text("To star a document, press the 􀊴 Button."))
         }
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
@@ -80,5 +98,7 @@ struct FavouriteView: View {
 }
 
 #Preview {
-    FavouriteView()
+    NavigationStack {
+        FavouriteView()
+    }
 }

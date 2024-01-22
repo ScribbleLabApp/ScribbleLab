@@ -11,10 +11,6 @@ import UserNotifications
 
 struct HomeView: View {
     @StateObject var viewModifier = HomeViewModel()
-    
-    // [START dev_properties_test]
-    @State private var documentsAvailable = false
-    // [END dev_properties_test]
      
     // [START create_shared_instance_of_tip]
     let createFirstDocumentTip = CreateNewDocumentTip()
@@ -23,11 +19,9 @@ struct HomeView: View {
     
     var body: some View {
         VStack {
-            if documentsAvailable == true {
-                Text("Hi")
-            } else {
-                ContentUnavailableView("You have no documents", systemImage: "doc.viewfinder.fill")
-            }
+            Divider()
+            
+            ContentUnavailableView("You have no documents", systemImage: "doc.viewfinder.fill")
         }
         .navigationTitle("Documents")
         .toolbar {
@@ -59,7 +53,6 @@ struct HomeView: View {
                 } label: {
                     Image(systemName: "storefront")
                 }
-                /* .popoverTip(createFirstDocumentTip) */
             }
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button {
@@ -90,7 +83,7 @@ struct HomeView: View {
                 })
             }
         }
-        .tint(/*isDarkMode ? .white : .black*/.primary)
+        .tint(.primary)
         .onAppear {
             Task {
                 await CreateNewDocumentTip.launchHomeScreenEvent.donate()
@@ -104,7 +97,7 @@ struct HomeView: View {
     NavigationStack {
         HomeView()
             .task {
-                //            try? Tips.resetDatastore()
+                try? Tips.resetDatastore()
                 try? Tips.configure([
                     .datastoreLocation(.applicationDefault)
                 ])
