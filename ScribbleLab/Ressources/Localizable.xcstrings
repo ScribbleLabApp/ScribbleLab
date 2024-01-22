@@ -513,6 +513,12 @@
     "Already have an account?" : {
 
     },
+    "Always dark" : {
+
+    },
+    "Always light" : {
+
+    },
     "and " : {
       "localizations" : {
         "de" : {
@@ -570,6 +576,9 @@
 
     },
     "Appearance" : {
+
+    },
+    "Appearance (BETA)" : {
 
     },
     "APPENDIX: How to apply the Apache License to your work." : {
@@ -775,6 +784,9 @@
     "Create" : {
       "extractionState" : "manual"
     },
+    "Create a new color theme" : {
+
+    },
     "Create from Template" : {
 
     },
@@ -782,6 +794,9 @@
 
     },
     "Create one." : {
+
+    },
+    "Customization" : {
 
     },
     "Dangerzone" : {
@@ -806,6 +821,7 @@
       }
     },
     "Darkmode (BETA)" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -816,6 +832,7 @@
       }
     },
     "Darkmode settings" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -838,16 +855,10 @@
     "Delete Account" : {
 
     },
-    "Display mode" : {
-
-    },
     "Display name" : {
 
     },
     "Do you really want to delete your account? This operation cannot be undone" : {
-
-    },
-    "Do you really want to enable Darkmode (beta)? Some modules are not adapted to darkmode." : {
 
     },
     "Do you really want to reset your customized data. This operation cannot be undone" : {
@@ -902,12 +913,6 @@
           }
         }
       }
-    },
-    "Enable" : {
-
-    },
-    "Enable Darkmode" : {
-
     },
     "Enable Security mode (BETA)" : {
 
@@ -989,9 +994,6 @@
           }
         }
       }
-    },
-    "Follow system scheme" : {
-
     },
     "Forgot password?" : {
 
@@ -1118,9 +1120,6 @@
       }
     },
     "Identifier" : {
-
-    },
-    "Ignore system scheme" : {
 
     },
     "Important message" : {
@@ -1688,6 +1687,9 @@
     "Test0101" : {
 
     },
+    "Theme" : {
+
+    },
     "These settings are responsible for the updates of this app. In order to enroll to the programmes you need to be registered to our ScribbleLab Developer Programm (free). Follow [this link](https://github.com/ScribbleLabApp/ScribbleLab) for a more detailed description." : {
 
     },
@@ -1747,9 +1749,6 @@
     "To star a document, press the 􀊴 Button." : {
 
     },
-    "Toggle the button to enable Darkmode. Note if your system is on a light scheme and you've selected Follow system scheme the darkmode setting will be ignored. Please select 'Ignore system scheme'." : {
-
-    },
     "Trash" : {
       "localizations" : {
         "de" : {
@@ -1802,6 +1801,9 @@
         }
       }
     },
+    "Use system settings" : {
+
+    },
     "Username" : {
       "localizations" : {
         "de" : {
@@ -1839,6 +1841,7 @@
       }
     },
     "Warning" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -1924,6 +1927,9 @@
           }
         }
       }
+    },
+    "You can create your own color theme by following our templates. Please remember that the feature is in BETA." : {
+
     },
     "you can find your OTP Code" : {
 
