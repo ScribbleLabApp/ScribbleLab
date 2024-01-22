@@ -82,7 +82,7 @@ struct SLScribbleLinkIntegrationView: View {
                                 .padding(7.5)
                                 .background {
                                     Capsule()
-                                        .foregroundStyle(Color.gray)
+                                        .foregroundStyle(Color.orange)
                                         .frame(width: 80, height: 30)
                                 }
                                 .foregroundStyle(.white)

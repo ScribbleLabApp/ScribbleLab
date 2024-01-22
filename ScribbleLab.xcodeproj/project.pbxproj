@@ -133,6 +133,7 @@
 		38B36C5B2B5D47510009BA56 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B36C5A2B5D47510009BA56 /* StoreView.swift */; };
 		38B36C5E2B5D73D80009BA56 /* FavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B36C5D2B5D73D80009BA56 /* FavouriteView.swift */; };
 		38B36C622B5D770D0009BA56 /* SharedWithYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B36C612B5D770D0009BA56 /* SharedWithYouView.swift */; };
+		38B36C652B5D95FD0009BA56 /* ScribbleCloudOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B36C642B5D95FD0009BA56 /* ScribbleCloudOverviewView.swift */; };
 		38BAF7C52B5AF6EF00BEE6A5 /* IntegrationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BAF7C42B5AF6EF00BEE6A5 /* IntegrationsView.swift */; };
 		38BAF7C72B5AFC1B00BEE6A5 /* SLGoogleClassroomIntegrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BAF7C62B5AFC1B00BEE6A5 /* SLGoogleClassroomIntegrationView.swift */; };
 		38C666292B52D21900CAD099 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C666282B52D21900CAD099 /* SubscriptionView.swift */; };
@@ -324,6 +325,7 @@
 		38B36C5A2B5D47510009BA56 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
 		38B36C5D2B5D73D80009BA56 /* FavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteView.swift; sourceTree = "<group>"; };
 		38B36C612B5D770D0009BA56 /* SharedWithYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedWithYouView.swift; sourceTree = "<group>"; };
+		38B36C642B5D95FD0009BA56 /* ScribbleCloudOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleCloudOverviewView.swift; sourceTree = "<group>"; };
 		38BAF7C42B5AF6EF00BEE6A5 /* IntegrationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationsView.swift; sourceTree = "<group>"; };
 		38BAF7C62B5AFC1B00BEE6A5 /* SLGoogleClassroomIntegrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLGoogleClassroomIntegrationView.swift; sourceTree = "<group>"; };
 		38C666282B52D21900CAD099 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
@@ -579,6 +581,7 @@
 		38348BEC2B1A614500846877 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				38B36C632B5D95880009BA56 /* ScribbleCloud */,
 				38B36C602B5D76FD0009BA56 /* SharedWithYou */,
 				38B36C5C2B5D73C80009BA56 /* Favourite */,
 			);
@@ -1185,6 +1188,14 @@
 			path = SharedWithYou;
 			sourceTree = "<group>";
 		};
+		38B36C632B5D95880009BA56 /* ScribbleCloud */ = {
+			isa = PBXGroup;
+			children = (
+				38B36C642B5D95FD0009BA56 /* ScribbleCloudOverviewView.swift */,
+			);
+			path = ScribbleCloud;
+			sourceTree = "<group>";
+		};
 		38BAF7C32B5AF65700BEE6A5 /* Integrations */ = {
 			isa = PBXGroup;
 			children = (
@@ -1709,6 +1720,7 @@
 				38AD22322B10F6A100663C37 /* Network.swift in Sources */,
 				387B79362ADEDD9B0067E08B /* SLOtherSettings.swift in Sources */,
 				38F59B8B2AEC4E0D00475B0B /* ResetPasswordView.swift in Sources */,
+				38B36C652B5D95FD0009BA56 /* ScribbleCloudOverviewView.swift in Sources */,
 				385F78B32AD5E4FE0096E504 /* LogInView.swift in Sources */,
 				38EFBE232AD6E4EF00CF0ECD /* RestartAppView.swift in Sources */,
 				389FD4332B1BD22800C7DCC1 /* ResetPasswordModel.swift in Sources */,

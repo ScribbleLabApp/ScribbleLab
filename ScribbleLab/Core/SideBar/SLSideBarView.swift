@@ -55,6 +55,11 @@ struct SLSideBarView: View {
                     }
                 }
                 
+                Section("Learning Center") {
+                    Label("Tutorials", systemImage: "book.closed.fill")
+                    Label("News", systemImage: "newspaper")
+                }
+                
                 Section("Locations") {
                     Label("iCloud Drive", systemImage: "icloud")
                     Label("ScribbleCloud", systemImage: "icloud")

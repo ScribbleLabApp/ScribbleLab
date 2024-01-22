@@ -1091,6 +1091,9 @@
     "Hi" : {
 
     },
+    "HI" : {
+
+    },
     "Homework" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -1192,6 +1195,9 @@
           }
         }
       }
+    },
+    "Learning Center" : {
+
     },
     "License" : {
       "localizations" : {
@@ -1296,6 +1302,9 @@
           }
         }
       }
+    },
+    "News" : {
+
     },
     "Newsletter-Settings" : {
 
@@ -1733,7 +1742,13 @@
     "To set 2FA up you need to give us a valide" : {
 
     },
+    "To share a document, simply tab on 􀈂 or create a shared link." : {
+
+    },
     "to sign in via phone number" : {
+
+    },
+    "To star a document, press the 􀊴 Button." : {
 
     },
     "Toggle the button to enable Darkmode. Note if your system is on a light scheme and you've selected Follow system scheme the darkmode setting will be ignored. Please select 'Ignore system scheme'." : {
@@ -1750,6 +1765,9 @@
       }
     },
     "Troubleshooting" : {
+
+    },
+    "Tutorials" : {
 
     },
     "Units" : {
@@ -1849,9 +1867,6 @@
     "We're appriciate all of your contributions and bug fixes you've done in order to achive this powerful app" : {
 
     },
-    "Welcome to %@" : {
-
-    },
     "Welcome to Scribble Lab" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -1878,6 +1893,9 @@
           }
         }
       }
+    },
+    "What's new in %@" : {
+
     },
     "When Safe Mode is enabled, ScribbleLab starts with several features disabled to ensure maximum stability or detect errors. This process requires a restart." : {
 
@@ -1921,6 +1939,12 @@
 
     },
     "You have no documents" : {
+
+    },
+    "You have no shared Documents" : {
+
+    },
+    "You have no starred Documents" : {
 
     },
     "You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License." : {

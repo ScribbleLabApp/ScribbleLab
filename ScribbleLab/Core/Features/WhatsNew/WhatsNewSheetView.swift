@@ -26,7 +26,7 @@ struct WhatsNewSheetView: View {
                 .scaledToFit()
                 .frame(width: 128, height: 128)
             
-            Text("Welcome to \(appName)")
+            Text("What's new in \(appName)")
                 .font(.largeTitle)
                 .fontWeight(.semibold)
                 .multilineTextAlignment(.center)
