@@ -29,6 +29,8 @@
 		381792652AFFC017002A4551 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = 381792642AFFC017002A4551 /* AlertToast */; };
 		381C1DE32B5E8BCA00F73B5E /* DocumentSortOptionFavourite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C1DE22B5E8BCA00F73B5E /* DocumentSortOptionFavourite.swift */; };
 		381C1DE62B5E8CF500F73B5E /* SegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C1DE52B5E8CF500F73B5E /* SegmentedPicker.swift */; };
+		381C1DE92B5EC73500F73B5E /* SLCircularCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C1DE82B5EC73500F73B5E /* SLCircularCheckbox.swift */; };
+		381C1DED2B5ECEF000F73B5E /* CircleCheckboxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C1DEC2B5ECEF000F73B5E /* CircleCheckboxModel.swift */; };
 		381E0B362ADC136400A2A836 /* PomodoroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381E0B352ADC136400A2A836 /* PomodoroModel.swift */; };
 		381E0B382ADC14E300A2A836 /* SLStudyPomodoroTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381E0B372ADC14E300A2A836 /* SLStudyPomodoroTimerView.swift */; };
 		381F1F132AD72DD6001B3B10 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F1F122AD72DD6001B3B10 /* TestView.swift */; };
@@ -233,6 +235,8 @@
 		38140A6B2AE3FB6F00753FB6 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		381C1DE22B5E8BCA00F73B5E /* DocumentSortOptionFavourite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentSortOptionFavourite.swift; sourceTree = "<group>"; };
 		381C1DE52B5E8CF500F73B5E /* SegmentedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPicker.swift; sourceTree = "<group>"; };
+		381C1DE82B5EC73500F73B5E /* SLCircularCheckbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCircularCheckbox.swift; sourceTree = "<group>"; };
+		381C1DEC2B5ECEF000F73B5E /* CircleCheckboxModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCheckboxModel.swift; sourceTree = "<group>"; };
 		381E0B352ADC136400A2A836 /* PomodoroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroModel.swift; sourceTree = "<group>"; };
 		381E0B372ADC14E300A2A836 /* SLStudyPomodoroTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLStudyPomodoroTimerView.swift; sourceTree = "<group>"; };
 		381F1F122AD72DD6001B3B10 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
@@ -506,9 +510,19 @@
 		381C1DE42B5E8CE700F73B5E /* Picker */ = {
 			isa = PBXGroup;
 			children = (
+				381C1DEB2B5ECEDB00F73B5E /* CircleCheckboxModel */,
 				381C1DE52B5E8CF500F73B5E /* SegmentedPicker.swift */,
+				381C1DE82B5EC73500F73B5E /* SLCircularCheckbox.swift */,
 			);
 			path = Picker;
+			sourceTree = "<group>";
+		};
+		381C1DEB2B5ECEDB00F73B5E /* CircleCheckboxModel */ = {
+			isa = PBXGroup;
+			children = (
+				381C1DEC2B5ECEF000F73B5E /* CircleCheckboxModel.swift */,
+			);
+			path = CircleCheckboxModel;
 			sourceTree = "<group>";
 		};
 		381E0B332ADC134C00A2A836 /* Model */ = {
@@ -1038,7 +1052,7 @@
 				38D5C6832AD2887E00D943A5 /* Accessibility */,
 				38D5C6822AD2887600D943A5 /* ApplePencil */,
 				38D5C6812AD2887000D943A5 /* Units */,
-				38D5C6802AD2886B00D943A5 /* Theme */,
+				38D5C6802AD2886B00D943A5 /* Appereance */,
 				3886B2DD2AD19F34002EF30E /* SLSettingsView.swift */,
 			);
 			path = View;
@@ -1256,12 +1270,12 @@
 			path = Timer;
 			sourceTree = "<group>";
 		};
-		38D5C6802AD2886B00D943A5 /* Theme */ = {
+		38D5C6802AD2886B00D943A5 /* Appereance */ = {
 			isa = PBXGroup;
 			children = (
 				38D5C68A2AD28B9D00D943A5 /* SLDarkmodeSettingsView.swift */,
 			);
-			path = Theme;
+			path = Appereance;
 			sourceTree = "<group>";
 		};
 		38D5C6812AD2887000D943A5 /* Units */ = {
@@ -1773,7 +1787,9 @@
 				38A5E9BD2B03D7730037C668 /* OTPTextFieldView.swift in Sources */,
 				3868A3E02AD2E2F800D4CAEC /* SLLicenseView.swift in Sources */,
 				38D5C6972AD2CC6200D943A5 /* SLContributorView.swift in Sources */,
+				381C1DE92B5EC73500F73B5E /* SLCircularCheckbox.swift in Sources */,
 				385ABC662B2E3361005F90E6 /* SLTroubleshootingView.swift in Sources */,
+				381C1DED2B5ECEF000F73B5E /* CircleCheckboxModel.swift in Sources */,
 				38ADE8112B1D1253002229A2 /* SLTip.swift in Sources */,
 				38140A6C2AE3FB6F00753FB6 /* ContentViewModel.swift in Sources */,
 				3858A7782AD14C9E00FC6319 /* HomeView.swift in Sources */,

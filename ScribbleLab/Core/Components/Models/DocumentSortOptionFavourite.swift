@@ -11,7 +11,7 @@ enum DocumentSortOptionFavourite: String, CaseIterable, Identifiable {
     case date = "Date"
     case owner = "Owner"
     case title = "Title"
-    case changes = "Changes"
+    case changes = "Modification date"
     
     var id: String { self.rawValue }
 }

@@ -40,6 +40,7 @@ struct SLSettingsView: View {
                                 .resizable()
                                 .frame(width: 25, height: 25)
 //                                .clipShape(Circle())
+                                .foregroundStyle(.orange)
                             VStack(alignment: .leading) {
                                 Text("Test0101") // username
                                     .font(.title2)
@@ -172,7 +173,7 @@ struct SLSettingsView: View {
                     Text("Other")
                 }
             }
-            .tint(.primary)
+            .tint(.orange) // .primary
             .navigationTitle("Settings")
         }
     }
