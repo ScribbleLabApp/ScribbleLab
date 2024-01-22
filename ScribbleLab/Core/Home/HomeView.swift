@@ -24,6 +24,7 @@ struct HomeView: View {
             ContentUnavailableView("You have no documents", systemImage: "doc.viewfinder.fill")
         }
         .navigationTitle("Documents")
+//        .tint(.primary)
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button {
@@ -83,6 +84,7 @@ struct HomeView: View {
                 })
             }
         }
+//        .tint(.orange)
         .tint(.primary)
         .onAppear {
             Task {

@@ -15,7 +15,7 @@ struct CreateNewDocumentTip: Tip {
     static let createNewDocumentEvent = Event(id: "createNewocument")
     
     var title: Text {
-        Text("Create New Document")
+        Text("Create New Document").foregroundStyle(.orange)
     }
     
     var message: Text? {

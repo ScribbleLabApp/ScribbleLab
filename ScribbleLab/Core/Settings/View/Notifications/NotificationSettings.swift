@@ -23,75 +23,76 @@ struct NotificationSettings: View {
     @ObservedObject var notificationSettings = NotificationSettingsModel()
     
     var body: some View {
-        NavigationStack {
-            Form {
-                Section {
-                    Toggle(isOn: $notificationSettings.notificationAllowed) {
-                        Text("Allow notifications")
-                    }
-                    .onChange(of: notificationSettings.notificationAllowed) { newValue in
-                        if !newValue {
-                            // If notifications are not allowed
-                            notificationSettings.notifyWhenChangesMade = false
-                            notificationSettings.notifyWhenRecievedInvitation = false
-                            notificationSettings.notifyWhenAppUpdates = false
-                        } else {
-                            notificationSettings.notifyWhenChangesMade = true
-                            notificationSettings.notifyWhenRecievedInvitation = true
-                            notificationSettings.notifyWhenAppUpdates = true
-                        }
-                    }
+        Form {
+            Section {
+                Toggle(isOn: $notificationSettings.notificationAllowed) {
+                    Text("Allow notifications")
                 }
-                
-                Section {
-                    Toggle(isOn: $notificationSettings.notifyWhenChangesMade) {
-                        Text("Comments in shared docs")
+                .onChange(of: notificationSettings.notificationAllowed) { newValue in
+                    if !newValue {
+                        // If notifications are not allowed
+                        notificationSettings.notifyWhenChangesMade = false
+                        notificationSettings.notifyWhenRecievedInvitation = false
+                        notificationSettings.notifyWhenAppUpdates = false
+                    } else {
+                        notificationSettings.notifyWhenChangesMade = true
+                        notificationSettings.notifyWhenRecievedInvitation = true
+                        notificationSettings.notifyWhenAppUpdates = true
                     }
-                    .disabled(!notificationSettings.notificationAllowed)
-                    
-                    Toggle(isOn: $notificationSettings.notifyWhenRecievedInvitation) {
-                        Text("Invitation to shared docs")
-                    }
-                    .disabled(!notificationSettings.notificationAllowed)
-                    
-                    Toggle(isOn: $notificationSettings.notifyWhenAppUpdates) {
-                        Text("App Updates & Events")
-                    }
-                    .disabled(!notificationSettings.notificationAllowed)
-                } header: {
-                    Text("Notification-Settings")
-                } footer: {
-                    Text("Select which types of notifications you would like to recieve.")
-                }
-                
-                Section {
-                    NavigationLink {
-                        NewsletterSettingsView()
-                    } label: {
-                        Text("Newsletter-Settings")
-                    }
-                } footer: {
-                    Text("Select which newsletter emails you'd like to recieve. You can unsubscribe everytime from our [newsletter](https://github.com/ScribbleLabApp/ScribbleLab).")
-                }
-                
-                Section {
-                    Button {
-                        notificationSettings.resetNotificationSettings()
-                    } label: {
-                        Text("Reset Notification Settings")
-                            .foregroundStyle(.red)
-                    }
-                    .disabled(!notificationSettings.notificationAllowed)
-                } footer: {
-                    Text("This option resets all customized settings to the factory standard. This option can't be undone and all customized settings will be reseted forever.")
                 }
             }
-            .navigationTitle("Notifications")
-            .navigationBarTitleDisplayMode(.inline)
+            
+            Section {
+                Toggle(isOn: $notificationSettings.notifyWhenChangesMade) {
+                    Text("Comments in shared docs")
+                }
+                .disabled(!notificationSettings.notificationAllowed)
+                
+                Toggle(isOn: $notificationSettings.notifyWhenRecievedInvitation) {
+                    Text("Invitation to shared docs")
+                }
+                .disabled(!notificationSettings.notificationAllowed)
+                
+                Toggle(isOn: $notificationSettings.notifyWhenAppUpdates) {
+                    Text("App Updates & Events")
+                }
+                .disabled(!notificationSettings.notificationAllowed)
+            } header: {
+                Text("Notification-Settings")
+            } footer: {
+                Text("Select which types of notifications you would like to recieve.")
+            }
+            
+            Section {
+                NavigationLink {
+                    NewsletterSettingsView()
+                } label: {
+                    Text("Newsletter-Settings")
+                }
+            } footer: {
+                Text("Select which newsletter emails you'd like to recieve. You can unsubscribe everytime from our [newsletter](https://github.com/ScribbleLabApp/ScribbleLab).")
+            }
+            
+            Section {
+                Button {
+                    notificationSettings.resetNotificationSettings()
+                } label: {
+                    Text("Reset Notification Settings")
+                        .foregroundStyle(.red)
+                }
+                .disabled(!notificationSettings.notificationAllowed)
+            } footer: {
+                Text("This option resets all customized settings to the factory standard. This option can't be undone and all customized settings will be reseted forever.")
+            }
         }
+        .navigationTitle("Notifications")
+        .navigationBarTitleDisplayMode(.inline)
+        .tint(.orange)
     }
 }
 
 #Preview {
-    NotificationSettings()
+    NavigationStack {
+        NotificationSettings()
+    }
 }

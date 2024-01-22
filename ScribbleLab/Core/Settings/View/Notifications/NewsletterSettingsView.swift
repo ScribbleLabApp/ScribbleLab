@@ -69,6 +69,7 @@ struct NewsletterSettingsView: View {
                     }
                 }
             }
+            .tint(.orange)
         }
     }
 }
