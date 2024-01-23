@@ -96,6 +96,8 @@
 		3868A3E02AD2E2F800D4CAEC /* SLLicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DF2AD2E2F800D4CAEC /* SLLicenseView.swift */; };
 		3868A3E32AD2FE6600D4CAEC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3E22AD2FE6600D4CAEC /* ProfileView.swift */; };
 		3874329B2B5FADAB00D7A864 /* DeveloperSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874329A2B5FADAB00D7A864 /* DeveloperSettingsView.swift */; };
+		3874329D2B5FCBB400D7A864 /* HomeSortOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874329C2B5FCBB400D7A864 /* HomeSortOption.swift */; };
+		387432A32B5FCF7800D7A864 /* SLDisplayStyleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387432A22B5FCF7800D7A864 /* SLDisplayStyleButton.swift */; };
 		38760F172B2CB44600CC73BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38760F162B2CB44600CC73BD /* ContentView.swift */; };
 		38760F1B2B2CB44700CC73BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38760F1A2B2CB44700CC73BD /* Assets.xcassets */; };
 		38760F1E2B2CB44700CC73BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38760F1D2B2CB44700CC73BD /* Preview Assets.xcassets */; };
@@ -298,6 +300,8 @@
 		3868A3DF2AD2E2F800D4CAEC /* SLLicenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLLicenseView.swift; sourceTree = "<group>"; };
 		3868A3E22AD2FE6600D4CAEC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		3874329A2B5FADAB00D7A864 /* DeveloperSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperSettingsView.swift; sourceTree = "<group>"; };
+		3874329C2B5FCBB400D7A864 /* HomeSortOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSortOption.swift; sourceTree = "<group>"; };
+		387432A22B5FCF7800D7A864 /* SLDisplayStyleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLDisplayStyleButton.swift; sourceTree = "<group>"; };
 		38760F122B2CB44500CC73BD /* ScribbleLab MacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScribbleLab MacOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38760F142B2CB44600CC73BD /* ScribbleLab_MacOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLab_MacOSApp.swift; sourceTree = "<group>"; };
 		38760F162B2CB44600CC73BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -963,6 +967,15 @@
 			path = Developer;
 			sourceTree = "<group>";
 		};
+		387432A12B5FCF5100D7A864 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				3874329C2B5FCBB400D7A864 /* HomeSortOption.swift */,
+				387432A22B5FCF7800D7A864 /* SLDisplayStyleButton.swift */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
 		38760F132B2CB44600CC73BD /* ScribbleLab MacOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -1289,6 +1302,7 @@
 		38C68B962B0D133100D16E86 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				387432A12B5FCF5100D7A864 /* Sort */,
 				381C1DE42B5E8CE700F73B5E /* Picker */,
 				38C68B972B0D134300D16E86 /* SLButton.swift */,
 				38C68B992B0D1CA100D16E86 /* SLButton+Image.swift */,
@@ -1823,6 +1837,7 @@
 				38ADB4D92AF6952C0019375B /* Documentation.docc in Sources */,
 				38140A622AE3F61000753FB6 /* SLAuthService.swift in Sources */,
 				387F7F902B12265A001CC150 /* Constants.swift in Sources */,
+				3874329D2B5FCBB400D7A864 /* HomeSortOption.swift in Sources */,
 				38066B4F2AFE9F0E001A88D5 /* SLUpdateViewModel.swift in Sources */,
 				387F7F882B12087E001CC150 /* Draw+PencilKit.swift in Sources */,
 				38A24C712AED15B600F81F07 /* ImageUploader.swift in Sources */,
@@ -1848,6 +1863,7 @@
 				3836C29A2AF1BB86008F475F /* EditProfileViewModel.swift in Sources */,
 				3868A3E32AD2FE6600D4CAEC /* ProfileView.swift in Sources */,
 				381C1DF02B5EE4E700F73B5E /* SLDarkmodeSettingsViewModel.swift in Sources */,
+				387432A32B5FCF7800D7A864 /* SLDisplayStyleButton.swift in Sources */,
 				38355ED92AD3D71900392674 /* IGButtonModifier.swift in Sources */,
 				385F468E2AD31CD100D85410 /* SignUpView.swift in Sources */,
 				38C68B9A2B0D1CA100D16E86 /* SLButton+Image.swift in Sources */,

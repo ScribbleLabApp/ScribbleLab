@@ -12,12 +12,37 @@ import UserNotifications
 struct HomeView: View {
     @StateObject var viewModifier = HomeViewModel()
     
+    @State private var sortOption = DocumentSortOptionFavourite.date
+    
     let createFirstDocumentTip = CreateNewDocumentTip()
     let showNotificationTip = ShowNotificationsTip()
     
     var body: some View {
         VStack {
             Divider()
+            
+            HStack {
+                Spacer()
+                
+                SegmentedPicker(selection: $sortOption)
+                    .padding(.horizontal)
+
+                Spacer()
+                
+                HStack {
+                    Button {
+                        print("DEBUG: Select documents")
+                    } label: {
+                        Image(systemName: "checkmark.circle")
+                            .foregroundStyle(.orange)
+                    }
+                    .padding(.horizontal)
+                    
+                    SLDisplayStyleButton(displayStyle: $viewModifier.displayStyle)
+                        .padding(.horizontal)
+                }
+            }
+            .padding()
             
             ContentUnavailableView("You have no documents", systemImage: "doc.viewfinder.fill")
         }

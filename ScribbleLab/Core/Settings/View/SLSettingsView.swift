@@ -90,7 +90,7 @@ struct SLSettingsView: View {
                 
                 Section {
                     NavigationLink {
-                        
+                        DeveloperSettingsView()
                     } label: {
                         Label("Developer", systemImage: "hammer.fill")
                     }
