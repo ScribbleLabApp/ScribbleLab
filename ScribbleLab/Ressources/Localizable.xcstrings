@@ -1146,6 +1146,9 @@
     "Help" : {
 
     },
+    "Hi" : {
+
+    },
     "Homework" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -1179,6 +1182,9 @@
     "Identifier" : {
 
     },
+    "Ignore and dismiss Crash report" : {
+
+    },
     "Important message" : {
 
     },
@@ -1205,6 +1211,9 @@
 
     },
     "It could take some time.." : {
+
+    },
+    "It seems like you've experienced a crash.\nDo you like to share some details of your crash to help\nuse to improve ScribbleLab?" : {
 
     },
     "Item at %@" : {
@@ -1595,6 +1604,9 @@
 
     },
     "ScribbleLab and ScribbleLabAuth (SLA) is a secure, reliable and easy-to-use authentication service that allows users to gain access to the application's resources through a simple and straightforward process. The ScribbleLab Auth Service is built on top of Firebase, a powerful and scalable database service, ensuring that user authentication is done in a secure and robust manner. \n " : {
+
+    },
+    "ScribbleLab Crash Report" : {
 
     },
     "ScribbleLab requires access for all access listed above. For a more detailed description of how and why Scribble Lab uses and requires these accesses, click on the accesses." : {

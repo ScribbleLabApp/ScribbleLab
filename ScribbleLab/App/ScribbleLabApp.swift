@@ -25,6 +25,7 @@ import GoogleSignIn
 
 #if os(iOS)
 import FirebasePerformance
+import FirebaseCrashlytics
 #endif
 
 @main
@@ -32,23 +33,9 @@ struct ScribbleLabApp: App {
     // register app delegate for Firebase setup
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
-    // Check if darkmode is enabled:
-    /// A property of type Boolean that stores a boolean value that indicates 
-    /// the current state of the applications color scheme:
-    /// Possible values:
-    /// - false: Dark mode isn't enabled
-    /// - true: Dark mode is enabled
-    /// 
-    /// To call the darkmode state add the @AppStorage property at the top in your Struct
-    /// then call the declared isDarkMode argument.
-//    @AppStorage("isDarkMode") private var isDarkMode = false
-    
-//    var sceneDelegate: SceneDelegate?
-    
     var body: some Scene {
         WindowGroup {
             ContentView()
-//                .preferredColorScheme(isDarkMode ? .dark : .light)
                 .environmentObject(ContentViewModel())
                 .task {
                     try? Tips.resetDatastore()

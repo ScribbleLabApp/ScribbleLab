@@ -26,10 +26,11 @@ import os.log
 import FirebaseCore
 import GoogleSignIn
 import FirebasePerformance
+import FirebaseCrashlytics
 
-//import PermissionsSwiftUICamera
-//import PermissionsSwiftUIPhotos
-//import PermissionsSwiftUINotification
+// import PermissionsSwiftUICamera
+// import PermissionsSwiftUIPhotos
+// import PermissionsSwiftUINotification
 #elseif os(macOS)
 import AppKit
 import SwiftUI
@@ -63,6 +64,12 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
         
         application.registerForRemoteNotifications()
         // [END register_for_notifications]
+        
+        // [START setting_up_an_exeption_handler]
+        NSSetUncaughtExceptionHandler { exception in
+            Crashlytics.crashlytics().record(error: exception as! NSError)
+        }
+        // [END setting_up_an_exeption_handler]
         
         return true
     }

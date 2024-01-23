@@ -52,6 +52,7 @@
 		3836C2962AF144DC008F475F /* WaitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836C2952AF144DC008F475F /* WaitView.swift */; };
 		3836C29A2AF1BB86008F475F /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836C2992AF1BB86008F475F /* EditProfileViewModel.swift */; };
 		383D238D2B2363490094001E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383D238C2B2363490094001E /* AppDelegate.swift */; };
+		384079D02B600E7A0059523C /* CrashReportSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384079CF2B600E7A0059523C /* CrashReportSheet.swift */; };
 		3852D71A2B053C38007FAFF1 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 3852D7192B053C38007FAFF1 /* Shaders.metal */; };
 		3852D71C2B054C11007FAFF1 /* OTP+2FAViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852D71B2B054C11007FAFF1 /* OTP+2FAViewModel.swift */; };
 		3852D71F2B054D18007FAFF1 /* ParticleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852D71E2B054D18007FAFF1 /* ParticleEffect.swift */; };
@@ -269,6 +270,7 @@
 		3836C2952AF144DC008F475F /* WaitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitView.swift; sourceTree = "<group>"; };
 		3836C2992AF1BB86008F475F /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
 		383D238C2B2363490094001E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		384079CF2B600E7A0059523C /* CrashReportSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashReportSheet.swift; sourceTree = "<group>"; };
 		3852D7192B053C38007FAFF1 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 		3852D71B2B054C11007FAFF1 /* OTP+2FAViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OTP+2FAViewModel.swift"; sourceTree = "<group>"; };
 		3852D71E2B054D18007FAFF1 /* ParticleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEffect.swift; sourceTree = "<group>"; };
@@ -717,6 +719,14 @@
 				383588432AFEDB4000EEA1C3 /* PerformanceView.swift */,
 			);
 			path = Performance;
+			sourceTree = "<group>";
+		};
+		384079CE2B600E660059523C /* Crash Report */ = {
+			isa = PBXGroup;
+			children = (
+				384079CF2B600E7A0059523C /* CrashReportSheet.swift */,
+			);
+			path = "Crash Report";
 			sourceTree = "<group>";
 		};
 		3852D7182B053C24007FAFF1 /* Shaders */ = {
@@ -1302,6 +1312,7 @@
 		38C68B962B0D133100D16E86 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				384079CE2B600E660059523C /* Crash Report */,
 				387432A12B5FCF5100D7A864 /* Sort */,
 				381C1DE42B5E8CE700F73B5E /* Picker */,
 				38C68B972B0D134300D16E86 /* SLButton.swift */,
@@ -1903,6 +1914,7 @@
 				38FFF9422AE3C7C9006719E2 /* SignInWithGoogleModel.swift in Sources */,
 				381C1DE32B5E8BCA00F73B5E /* DocumentSortOptionFavourite.swift in Sources */,
 				38B36C5B2B5D47510009BA56 /* StoreView.swift in Sources */,
+				384079D02B600E7A0059523C /* CrashReportSheet.swift in Sources */,
 				38CB09092B5411FA00E0C224 /* OnboardingFeature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

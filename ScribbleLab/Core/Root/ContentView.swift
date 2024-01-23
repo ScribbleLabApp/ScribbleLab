@@ -19,6 +19,9 @@
 
 import SwiftUI
 
+import Firebase
+import FirebaseCrashlytics
+
 struct ContentView: View {
     @StateObject var viewModel = ContentViewModel()
 
@@ -28,15 +31,26 @@ struct ContentView: View {
                 // FIXME: Old: $viewModel.userSession
                 SignUpView()
                     .preferredColorScheme(.light)
+                    .sheet(isPresented: $viewModel.showCrashReportSheet) {
+                        CrashReportSheet()
+                    }
                 #if os(macOS)
                     .frame(width: 500, height: 400)
                 #endif
             } else if viewModel.userSession != nil {
             // FIXME: else if let currentUser = viewModel.currentUser
                 SLSideBarView()
+                    .sheet(isPresented: $viewModel.showCrashReportSheet) {
+                        CrashReportSheet()
+                    }
                 #if os(macOS)
                     .frame(width: 500, height: 400)
                 #endif
+            }
+        }
+        .onAppear {
+            if Crashlytics.crashlytics().didCrashDuringPreviousExecution() {
+                viewModel.showCrashReportSheet = true
             }
         }
     }
