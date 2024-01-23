@@ -95,6 +95,7 @@
 		3868A3DE2AD2DBA300D4CAEC /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DD2AD2DBA300D4CAEC /* ImageView.swift */; };
 		3868A3E02AD2E2F800D4CAEC /* SLLicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DF2AD2E2F800D4CAEC /* SLLicenseView.swift */; };
 		3868A3E32AD2FE6600D4CAEC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3E22AD2FE6600D4CAEC /* ProfileView.swift */; };
+		3874329B2B5FADAB00D7A864 /* DeveloperSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874329A2B5FADAB00D7A864 /* DeveloperSettingsView.swift */; };
 		38760F172B2CB44600CC73BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38760F162B2CB44600CC73BD /* ContentView.swift */; };
 		38760F1B2B2CB44700CC73BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38760F1A2B2CB44700CC73BD /* Assets.xcassets */; };
 		38760F1E2B2CB44700CC73BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38760F1D2B2CB44700CC73BD /* Preview Assets.xcassets */; };
@@ -296,6 +297,7 @@
 		3868A3DD2AD2DBA300D4CAEC /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		3868A3DF2AD2E2F800D4CAEC /* SLLicenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLLicenseView.swift; sourceTree = "<group>"; };
 		3868A3E22AD2FE6600D4CAEC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3874329A2B5FADAB00D7A864 /* DeveloperSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperSettingsView.swift; sourceTree = "<group>"; };
 		38760F122B2CB44500CC73BD /* ScribbleLab MacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScribbleLab MacOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38760F142B2CB44600CC73BD /* ScribbleLab_MacOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLab_MacOSApp.swift; sourceTree = "<group>"; };
 		38760F162B2CB44600CC73BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -953,6 +955,14 @@
 			path = Auth;
 			sourceTree = "<group>";
 		};
+		387432992B5FAD9C00D7A864 /* Developer */ = {
+			isa = PBXGroup;
+			children = (
+				3874329A2B5FADAB00D7A864 /* DeveloperSettingsView.swift */,
+			);
+			path = Developer;
+			sourceTree = "<group>";
+		};
 		38760F132B2CB44600CC73BD /* ScribbleLab MacOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -1069,6 +1079,7 @@
 		3886B2DB2AD19F26002EF30E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				387432992B5FAD9C00D7A864 /* Developer */,
 				38BAF7C32B5AF65700BEE6A5 /* Integrations */,
 				385ABC612B2E3330005F90E6 /* Troubleshooting */,
 				387B79342ADEDD860067E08B /* Other */,
@@ -1853,6 +1864,7 @@
 				38140A662AE3F79800753FB6 /* RegistrationViewModel.swift in Sources */,
 				3886B2E12AD1ABC0002EF30E /* SLSideBarView.swift in Sources */,
 				3828B2452B1FA7A400D66BD8 /* NotificationCellModel.swift in Sources */,
+				3874329B2B5FADAB00D7A864 /* DeveloperSettingsView.swift in Sources */,
 				3883D3012AFF9D6F007C00A3 /* document.swift in Sources */,
 				38E5BBB72AE4244600FFFE7C /* User.swift in Sources */,
 				38355ED72AD3D52D00392674 /* IGTextFieldModifier.swift in Sources */,

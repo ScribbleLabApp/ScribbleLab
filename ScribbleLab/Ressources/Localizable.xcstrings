@@ -519,6 +519,9 @@
     "Allow notifications" : {
 
     },
+    "Allow usage of Pre-Releases" : {
+
+    },
     "Already have an account?" : {
 
     },
@@ -748,6 +751,12 @@
     "Check your connection and try later again." : {
 
     },
+    "Clear ScribbleLab chache" : {
+
+    },
+    "Clear ScribbleLab's experience cache to instantly view recently modified app settings. Integrations will not be affected." : {
+
+    },
     "Click below to complete registration and start using ScribbleLab" : {
 
     },
@@ -782,6 +791,9 @@
     "Connect Google Classroom or Apple Schoolwork with ScribbleLab for a more enhanced study experience. Learn more about how to integrate Google Classroom/Apple Schoolwork into ScribbleLab and how we manage your data." : {
 
     },
+    "Connection status" : {
+
+    },
     "Continue with Google" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -792,6 +804,9 @@
           }
         }
       }
+    },
+    "Contributor settings" : {
+
     },
     "Contributors" : {
 
@@ -889,6 +904,9 @@
 
     },
     "Developer Mode" : {
+
+    },
+    "Diagnosis" : {
 
     },
     "Display name" : {
@@ -1306,6 +1324,9 @@
     "Manage Features" : {
 
     },
+    "Manage Pre-Release Versions" : {
+
+    },
     "Manage Settings" : {
 
     },
@@ -1336,6 +1357,9 @@
           }
         }
       }
+    },
+    "Network & Connection" : {
+
     },
     "News" : {
 
@@ -1444,6 +1468,9 @@
 
     },
     "Pomodoro Timer" : {
+
+    },
+    "Pre-Releases & Dev-Builds" : {
 
     },
     "Premium (Development)" : {
@@ -1738,6 +1765,9 @@
     "Terms of Use" : {
 
     },
+    "Test Accounts" : {
+
+    },
     "test@gmail.com" : {
 
     },
@@ -2010,6 +2040,9 @@
 
     },
     "You can learn more about how to manage subscriptions on our [help page](https://github.com/ScribbleLabApp/ScribbleLab)." : {
+
+    },
+    "You can use a test account to test your changes made. When using a ScribbleLabApp Test account you agree to our [Terms Of Usage](https://github.com/ScribbleLabApp/ScribbleLab), [Code Of Conduct](https://github.com/ScribbleLabApp/ScribbleLab)" : {
 
     },
     "You cannot undo this action." : {

@@ -24,6 +24,7 @@ struct CreateNewDocumentTip: Tip {
     
     var image: Image? {
         Image(systemName: "doc.badge.plus")
+//            .renderingMode(.template)
     }
     
     var rules: [Rule] {
