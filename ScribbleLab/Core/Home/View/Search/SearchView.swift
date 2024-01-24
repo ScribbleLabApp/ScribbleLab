@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SearchView: View {
     @State private var sortOption = DocumentSortOptionFavourite.date
+    @State var displayStyle: SortOption = .symbols
     
     @State private var notificationSheetisPresented: Bool = false
     @State private var settingsViewSheetisPresented: Bool = false
@@ -29,13 +30,26 @@ struct SearchView: View {
 
                 Spacer()
                 
-                Button {
-                    print("DEBUG: Select documents")
-                } label: {
-                    Image(systemName: "checkmark.circle")
-                        .foregroundStyle(.orange)
+                HStack {
+                    Button {
+                        print("DEBUG: Select documents")
+                    } label: {
+                        Image(systemName: "checkmark.circle")
+                            .foregroundStyle(.orange)
+                    }
+                    .padding(.horizontal)
+                    
+                    Button {
+                        
+                    } label: {
+                        Image(systemName: "trash")
+                    }
+                    .padding(.horizontal)
+                    
+                    SLDisplayStyleButton(displayStyle: $displayStyle)
+                        .padding(.horizontal)
                 }
-                .padding(.horizontal)
+                .tint(.orange)
             }
             .padding()
             

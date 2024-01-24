@@ -38,9 +38,17 @@ struct HomeView: View {
                     }
                     .padding(.horizontal)
                     
+                    Button {
+                        
+                    } label: {
+                        Image(systemName: "trash")
+                    }
+                    .padding(.horizontal)
+                    
                     SLDisplayStyleButton(displayStyle: $viewModifier.displayStyle)
                         .padding(.horizontal)
                 }
+                .tint(.orange)
             }
             .padding()
             

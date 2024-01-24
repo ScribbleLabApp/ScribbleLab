@@ -9,6 +9,7 @@ import SwiftUI
 
 struct TrashView: View {
     @State private var sortOption = DocumentSortOptionFavourite.date
+    @State var displayStyle: SortOption = .symbols
     
     @State private var searchText = ""
     @State private var searchIsActive = false
@@ -25,13 +26,26 @@ struct TrashView: View {
 
                 Spacer()
                 
-                Button {
-                    print("DEBUG: Select documents")
-                } label: {
-                    Image(systemName: "checkmark.circle")
-                        .foregroundStyle(.orange)
+                HStack {
+                    Button {
+                        print("DEBUG: Select documents")
+                    } label: {
+                        Image(systemName: "checkmark.circle")
+                            .foregroundStyle(.orange)
+                    }
+                    .padding(.horizontal)
+                    
+                    Button {
+                        
+                    } label: {
+                        Image(systemName: "trash.slash")
+                    }
+                    .padding(.horizontal)
+                    
+                    SLDisplayStyleButton(displayStyle: $displayStyle)
+                        .padding(.horizontal)
                 }
-                .padding(.horizontal)
+                .tint(.orange)
             }
             .padding()
             

@@ -14,6 +14,7 @@ struct SharedWithYouView: View {
     @State private var settingsViewSheetisPresented: Bool = false
     
     @State private var sortOption = DocumentSortOptionFavourite.date
+    @State var displayStyle: SortOption = .symbols
     
     var body: some View {
         VStack {
@@ -27,13 +28,26 @@ struct SharedWithYouView: View {
 
                 Spacer()
                 
-                Button {
-                    print("DEBUG: Select documents")
-                } label: {
-                    Image(systemName: "checkmark.circle")
-                        .foregroundStyle(.orange)
+                HStack {
+                    Button {
+                        print("DEBUG: Select documents")
+                    } label: {
+                        Image(systemName: "checkmark.circle")
+                            .foregroundStyle(.orange)
+                    }
+                    .padding(.horizontal)
+                    
+                    Button {
+                        
+                    } label: {
+                        Image(systemName: "trash")
+                    }
+                    .padding(.horizontal)
+                    
+                    SLDisplayStyleButton(displayStyle: $displayStyle)
+                        .padding(.horizontal)
                 }
-                .padding(.horizontal)
+                .tint(.orange)
             }
             .padding()
             

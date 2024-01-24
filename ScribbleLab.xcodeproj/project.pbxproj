@@ -53,6 +53,7 @@
 		3836C29A2AF1BB86008F475F /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836C2992AF1BB86008F475F /* EditProfileViewModel.swift */; };
 		383D238D2B2363490094001E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383D238C2B2363490094001E /* AppDelegate.swift */; };
 		384079D02B600E7A0059523C /* CrashReportSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384079CF2B600E7A0059523C /* CrashReportSheet.swift */; };
+		384079E92B614D050059523C /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384079E82B614D050059523C /* ShareViewController.swift */; };
 		3852D71A2B053C38007FAFF1 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 3852D7192B053C38007FAFF1 /* Shaders.metal */; };
 		3852D71C2B054C11007FAFF1 /* OTP+2FAViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852D71B2B054C11007FAFF1 /* OTP+2FAViewModel.swift */; };
 		3852D71F2B054D18007FAFF1 /* ParticleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852D71E2B054D18007FAFF1 /* ParticleEffect.swift */; };
@@ -271,6 +272,7 @@
 		3836C2992AF1BB86008F475F /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
 		383D238C2B2363490094001E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		384079CF2B600E7A0059523C /* CrashReportSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashReportSheet.swift; sourceTree = "<group>"; };
+		384079E82B614D050059523C /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		3852D7192B053C38007FAFF1 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 		3852D71B2B054C11007FAFF1 /* OTP+2FAViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OTP+2FAViewModel.swift"; sourceTree = "<group>"; };
 		3852D71E2B054D18007FAFF1 /* ParticleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEffect.swift; sourceTree = "<group>"; };
@@ -729,6 +731,22 @@
 			path = "Crash Report";
 			sourceTree = "<group>";
 		};
+		384079E62B614CD60059523C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				384079E72B614CDC0059523C /* ShareExtension */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		384079E72B614CDC0059523C /* ShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				384079E82B614D050059523C /* ShareViewController.swift */,
+			);
+			path = ShareExtension;
+			sourceTree = "<group>";
+		};
 		3852D7182B053C24007FAFF1 /* Shaders */ = {
 			isa = PBXGroup;
 			children = (
@@ -751,6 +769,7 @@
 		3858A76B2AD1497300FC6319 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				384079E62B614CD60059523C /* Extensions */,
 				383588422AFEDB2200EEA1C3 /* Performance */,
 				38140A672AE3F80C00753FB6 /* Service */,
 				38FFF9432AE3CA52006719E2 /* ViewController */,
@@ -1839,6 +1858,7 @@
 				381C1DF22B5EF4B200F73B5E /* SLPrivacySettingsView.swift in Sources */,
 				38140A642AE3F6D200753FB6 /* LoginViewModel.swift in Sources */,
 				38C68B982B0D134300D16E86 /* SLButton.swift in Sources */,
+				384079E92B614D050059523C /* ShareViewController.swift in Sources */,
 				3828B2432B1FA5BE00D66BD8 /* NotificationCell.swift in Sources */,
 				381F1F132AD72DD6001B3B10 /* TestView.swift in Sources */,
 				380BC6462B260BB600DCF442 /* SLShopMainView.swift in Sources */,
@@ -2030,7 +2050,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 38355EFD2AD3DF9B00392674 /* Alpha.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconAlpha;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
@@ -2176,7 +2195,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 385F788A2AD5C4410096E504 /* Beta.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconBeta;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
@@ -2322,7 +2340,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 385F788B2AD5C4530096E504 /* RC.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
@@ -2796,7 +2813,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 38355F032AD3DFED00392674 /* Debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDev;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
@@ -2837,7 +2853,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 385F788C2AD5C4690096E504 /* Release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
