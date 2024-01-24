@@ -545,6 +545,7 @@ Additionally, we will soon offer a ScribbleLab AI subscription for unlimited AI 
 > [!NOTE]
 > The Pro and AI versions of ScribbleLab are currently in development.
 
+<!--
 ### Benefits Comparison
 
 |                         | ScribbleLab Basic | ScribbleLab Pro | Lifetime
@@ -563,6 +564,7 @@ Additionally, we will soon offer a ScribbleLab AI subscription for unlimited AI 
 
 **Live Collaboration:**
 - Details coming soon.
+-->
 
 ## Contributing
 
