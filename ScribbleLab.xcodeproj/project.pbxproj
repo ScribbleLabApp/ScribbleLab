@@ -100,6 +100,7 @@
 		385F78B32AD5E4FE0096E504 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F78B22AD5E4FE0096E504 /* LogInView.swift */; };
 		385F78BA2AD5ECC10096E504 /* SLInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F78B92AD5ECC10096E504 /* SLInfoView.swift */; };
 		385F78BE2AD5ED720096E504 /* SLHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F78BD2AD5ED720096E504 /* SLHelpView.swift */; };
+		386845172B654AA800C375E1 /* LearningCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386845162B654AA800C375E1 /* LearningCenterView.swift */; };
 		3868A3DC2AD2DB0000D4CAEC /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DB2AD2DB0000D4CAEC /* ImageViewModel.swift */; };
 		3868A3DE2AD2DBA300D4CAEC /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DD2AD2DBA300D4CAEC /* ImageView.swift */; };
 		3868A3E02AD2E2F800D4CAEC /* SLLicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DF2AD2E2F800D4CAEC /* SLLicenseView.swift */; };
@@ -171,6 +172,9 @@
 		38D5C68D2AD28D6F00D943A5 /* SLUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5C68C2AD28D6F00D943A5 /* SLUpdateView.swift */; };
 		38D5C6952AD2CAA100D943A5 /* SLContributorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5C6942AD2CAA100D943A5 /* SLContributorModel.swift */; };
 		38D5C6972AD2CC6200D943A5 /* SLContributorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5C6962AD2CC6200D943A5 /* SLContributorView.swift */; };
+		38D84A402B6553BD00BE884B /* LearningCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D84A3F2B6553BD00BE884B /* LearningCell.swift */; };
+		38D84A422B65577400BE884B /* LerningCenterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D84A412B65577400BE884B /* LerningCenterModel.swift */; };
+		38D84A462B65624000BE884B /* SLWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D84A452B65624000BE884B /* SLWebView.swift */; };
 		38E5BBB42AE41F2900FFFE7C /* Updates in Frameworks */ = {isa = PBXBuildFile; productRef = 38E5BBB32AE41F2900FFFE7C /* Updates */; };
 		38E5BBB72AE4244600FFFE7C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5BBB62AE4244600FFFE7C /* User.swift */; };
 		38EA6DE62B441A6100A04754 /* ThemeManager in Frameworks */ = {isa = PBXBuildFile; productRef = 38EA6DE52B441A6100A04754 /* ThemeManager */; };
@@ -320,6 +324,7 @@
 		385F78B22AD5E4FE0096E504 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 		385F78B92AD5ECC10096E504 /* SLInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLInfoView.swift; sourceTree = "<group>"; };
 		385F78BD2AD5ED720096E504 /* SLHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLHelpView.swift; sourceTree = "<group>"; };
+		386845162B654AA800C375E1 /* LearningCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningCenterView.swift; sourceTree = "<group>"; };
 		3868A3DB2AD2DB0000D4CAEC /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
 		3868A3DD2AD2DBA300D4CAEC /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		3868A3DF2AD2E2F800D4CAEC /* SLLicenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLLicenseView.swift; sourceTree = "<group>"; };
@@ -386,6 +391,9 @@
 		38D5C68C2AD28D6F00D943A5 /* SLUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLUpdateView.swift; sourceTree = "<group>"; };
 		38D5C6942AD2CAA100D943A5 /* SLContributorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLContributorModel.swift; sourceTree = "<group>"; };
 		38D5C6962AD2CC6200D943A5 /* SLContributorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLContributorView.swift; sourceTree = "<group>"; };
+		38D84A3F2B6553BD00BE884B /* LearningCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningCell.swift; sourceTree = "<group>"; };
+		38D84A412B65577400BE884B /* LerningCenterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LerningCenterModel.swift; sourceTree = "<group>"; };
+		38D84A452B65624000BE884B /* SLWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLWebView.swift; sourceTree = "<group>"; };
 		38DF1FDB2B5C0FC6001D896B /* ClassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ClassKit.framework; path = System/Library/Frameworks/ClassKit.framework; sourceTree = SDKROOT; };
 		38E5BBB62AE4244600FFFE7C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		38EFBE1C2AD6965C00CF0ECD /* PackageLicense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageLicense.swift; sourceTree = "<group>"; };
@@ -685,6 +693,7 @@
 		38348BEC2B1A614500846877 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				386845122B654A6900C375E1 /* LearningCenter */,
 				381C1DF62B5EFF4D00F73B5E /* Trash */,
 				381C1DF32B5EFD0A00F73B5E /* Search */,
 				38B36C632B5D95880009BA56 /* ScribbleCloud */,
@@ -807,6 +816,7 @@
 		3858A76B2AD1497300FC6319 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				38D84A432B65622700BE884B /* Helpers */,
 				384079E62B614CD60059523C /* Extensions */,
 				383588422AFEDB2200EEA1C3 /* Performance */,
 				38140A672AE3F80C00753FB6 /* Service */,
@@ -1004,6 +1014,40 @@
 				38EFBE222AD6E4EF00CF0ECD /* RestartAppView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		386845122B654A6900C375E1 /* LearningCenter */ = {
+			isa = PBXGroup;
+			children = (
+				386845132B654A7400C375E1 /* Tutroials */,
+			);
+			path = LearningCenter;
+			sourceTree = "<group>";
+		};
+		386845132B654A7400C375E1 /* Tutroials */ = {
+			isa = PBXGroup;
+			children = (
+				38D84A3E2B65539100BE884B /* Components */,
+				386845142B654A7B00C375E1 /* View */,
+				386845152B654A8000C375E1 /* Models */,
+			);
+			path = Tutroials;
+			sourceTree = "<group>";
+		};
+		386845142B654A7B00C375E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				386845162B654AA800C375E1 /* LearningCenterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		386845152B654A8000C375E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				38D84A412B65577400BE884B /* LerningCenterModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		3868A3E12AD2FCC300D4CAEC /* Profile */ = {
@@ -1531,6 +1575,30 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		38D84A3E2B65539100BE884B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				38D84A3F2B6553BD00BE884B /* LearningCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		38D84A432B65622700BE884B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				38D84A442B65622B00BE884B /* WKWebView */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		38D84A442B65622B00BE884B /* WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				38D84A452B65624000BE884B /* SLWebView.swift */,
+			);
+			path = WKWebView;
+			sourceTree = "<group>";
+		};
 		38E5BBB52AE4243D00FFFE7C /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -1938,6 +2006,7 @@
 				3886B2DE2AD19F34002EF30E /* SLSettingsView.swift in Sources */,
 				381E0B362ADC136400A2A836 /* PomodoroModel.swift in Sources */,
 				385F78BE2AD5ED720096E504 /* SLHelpView.swift in Sources */,
+				386845172B654AA800C375E1 /* LearningCenterView.swift in Sources */,
 				381C1DF22B5EF4B200F73B5E /* SLPrivacySettingsView.swift in Sources */,
 				38140A642AE3F6D200753FB6 /* LoginViewModel.swift in Sources */,
 				38C68B982B0D134300D16E86 /* SLButton.swift in Sources */,
@@ -1981,14 +2050,17 @@
 				387432A32B5FCF7800D7A864 /* SLDisplayStyleButton.swift in Sources */,
 				38355ED92AD3D71900392674 /* IGButtonModifier.swift in Sources */,
 				385F468E2AD31CD100D85410 /* SignUpView.swift in Sources */,
+				38D84A422B65577400BE884B /* LerningCenterModel.swift in Sources */,
 				38C68B9A2B0D1CA100D16E86 /* SLButton+Image.swift in Sources */,
 				387F7F8D2B122634001CC150 /* ColorPickerView.swift in Sources */,
 				380BC6482B2652A900DCF442 /* SceneDelegate.swift in Sources */,
+				38D84A402B6553BD00BE884B /* LearningCell.swift in Sources */,
 				385EEEF02B5C0D87004A0E1F /* SLAppleSchoolworkIntegrationView.swift in Sources */,
 				385F78BA2AD5ECC10096E504 /* SLInfoView.swift in Sources */,
 				38EFBE1D2AD6965C00CF0ECD /* PackageLicense.swift in Sources */,
 				38C666292B52D21900CAD099 /* SubscriptionView.swift in Sources */,
 				38B36C622B5D770D0009BA56 /* SharedWithYouView.swift in Sources */,
+				38D84A462B65624000BE884B /* SLWebView.swift in Sources */,
 				381C1DE62B5E8CF500F73B5E /* SegmentedPicker.swift in Sources */,
 				381C1DF52B5EFD1900F73B5E /* SearchView.swift in Sources */,
 				38D5C6952AD2CAA100D943A5 /* SLContributorModel.swift in Sources */,

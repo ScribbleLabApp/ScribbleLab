@@ -56,7 +56,11 @@ struct SLSideBarView: View {
                 }
                 
                 Section("Learning Center") {
-                    Label("Tutorials", systemImage: "book.closed.fill")
+                    NavigationLink {
+                        LearningCenterView()
+                    } label: {
+                        Label("Tutorials", systemImage: "book.closed.fill")
+                    }
                     Label("News", systemImage: "newspaper")
                 }
                 

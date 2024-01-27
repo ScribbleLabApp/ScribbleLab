@@ -45,8 +45,133 @@ struct HomeView: View {
                     }
                     .padding(.horizontal)
                     
-                    SLDisplayStyleButton(displayStyle: $viewModifier.displayStyle)
-                        .padding(.horizontal)
+                    // FIXME: Fix display style logic
+                    Menu {
+                        Button {
+                            
+                        } label: {
+                            Label("Symbols", systemImage: "square.grid.2x2")
+                        }
+                        Button {
+                            
+                        } label: {
+                            Label("List", systemImage: "list.bullet")
+                        }
+                        Button {
+                            
+                        } label: {
+                            Label("Column", systemImage: "rectangle.split.3x1")
+                        }
+                        
+                        Divider()
+                        
+                        Menu {
+                            Button {
+                                
+                            } label: {
+                                Label("Ascending", systemImage: "list.bullet")
+                            }
+                            Button {
+                                
+                            } label: {
+                                Label("Descending", systemImage: "list.bullet")
+                            }
+                        } label: {
+                            Label("Name", systemImage: "") // textformat.size
+                        }
+                        
+                        Button {
+                            
+                        } label: {
+                            Label("Type", systemImage: "")
+                        }
+                        
+                        Menu {
+                            Button {
+                                
+                            } label: {
+                                Label("Ascending", systemImage: "list.bullet")
+                            }
+                            Button {
+                                
+                            } label: {
+                                Label("Descending", systemImage: "list.bullet")
+                            }
+                        } label: {
+                            Label("Date", systemImage: "")
+                        }
+                        
+                        Menu {
+                            Button {
+                                
+                            } label: {
+                                Label("Ascending", systemImage: "list.bullet")
+                            }
+                            Button {
+                                
+                            } label: {
+                                Label("Descending", systemImage: "list.bullet")
+                            }
+                        } label: {
+                            Label("Size", systemImage: "")
+                        }
+                        
+                        Button {
+                            
+                        } label: {
+                            Label("Tags", systemImage: "") // tag
+                        }
+                        
+                        Divider()
+                        
+                        Menu {
+                            Text("Group by:")
+                                .font(.footnote)
+                            
+                            Button {
+                                
+                            } label: {
+                                Label("None", systemImage: "") // tag
+                            }
+                            
+                            Button {
+                                
+                            } label: {
+                                Label("Type", systemImage: "") // tag
+                            }
+                            
+                            Button {
+                                
+                            } label: {
+                                Label("Date", systemImage: "") // tag
+                            }
+                            
+                            Button {
+                                
+                            } label: {
+                                Label("Size", systemImage: "") // tag
+                            }
+                            
+                            Button {
+                                
+                            } label: {
+                                Label("Shared by", systemImage: "") // tag
+                            }
+                            
+                            Divider()
+                            
+                            Button {
+                                
+                            } label: {
+                                Label("Show all suffix", systemImage: "") // tag
+                            }
+                        } label: {
+                            Label("Display options", systemImage: "")
+                        }
+                    } label: {
+                        SLDisplayStyleButton(displayStyle: $viewModifier.displayStyle)
+                            .padding(.horizontal) // line.3.horizontal.decrease.circle
+                    }
                 }
                 .tint(.orange)
             }
@@ -128,7 +253,7 @@ struct HomeView: View {
     NavigationStack {
         HomeView()
             .task {
-                try? Tips.resetDatastore()
+//                try? Tips.resetDatastore()
                 try? Tips.configure([
                     .datastoreLocation(.applicationDefault)
                 ])

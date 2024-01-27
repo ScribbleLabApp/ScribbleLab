@@ -635,6 +635,9 @@
     "Apple Schoolwork Settings" : {
 
     },
+    "Ascending" : {
+
+    },
     "Ask a question" : {
 
     },
@@ -772,6 +775,9 @@
     "Collaboration" : {
 
     },
+    "Column" : {
+
+    },
     "Comments in shared docs" : {
 
     },
@@ -887,6 +893,9 @@
     "Data protection & Security" : {
 
     },
+    "Date" : {
+
+    },
     "Delete account" : {
       "localizations" : {
         "de" : {
@@ -900,6 +909,9 @@
     "Delete Account" : {
 
     },
+    "Descending" : {
+
+    },
     "Developer" : {
 
     },
@@ -910,6 +922,9 @@
 
     },
     "Display name" : {
+
+    },
+    "Display options" : {
 
     },
     "Do you really want to delete your account? This operation cannot be undone" : {
@@ -1079,6 +1094,9 @@
     "General infos" : {
 
     },
+    "Get Started with ScribbleLab" : {
+
+    },
     "Google Classroom" : {
 
     },
@@ -1113,6 +1131,9 @@
           }
         }
       }
+    },
+    "Group by:" : {
+
     },
     "GTMAppAuth" : {
 
@@ -1286,6 +1307,9 @@
     "Linked via" : {
 
     },
+    "List" : {
+
+    },
     "Locations" : {
 
     },
@@ -1367,6 +1391,9 @@
         }
       }
     },
+    "Name" : {
+
+    },
     "Network & Connection" : {
 
     },
@@ -1396,6 +1423,9 @@
 
     },
     "none" : {
+
+    },
+    "None" : {
 
     },
     "Notification-Settings" : {
@@ -1525,6 +1555,9 @@
         }
       }
     },
+    "Quick Tips" : {
+
+    },
     "Read our [documentation article](https://github.com/ScribbleLabApp/ScribbleLab) about how to use and configure Apple Schoolwork in ScribbleLab and how we are [managing and using your data](https://github.com/ScribbleLabApp/ScribbleLab)." : {
 
     },
@@ -1612,6 +1645,9 @@
     "ScribbleLab requires access for all access listed above. For a more detailed description of how and why Scribble Lab uses and requires these accesses, click on the accesses." : {
 
     },
+    "ScribbleLab User Guide" : {
+
+    },
     "ScribbleLabApp" : {
 
     },
@@ -1649,6 +1685,9 @@
     "Security Mode" : {
 
     },
+    "See all" : {
+
+    },
     "Select how you'd like to create a new document." : {
 
     },
@@ -1677,7 +1716,13 @@
     "Share subscription" : {
 
     },
+    "Shared by" : {
+
+    },
     "Shared with You" : {
+
+    },
+    "Show all suffix" : {
 
     },
     "Show AppStore: ScribbleLink" : {
@@ -1696,6 +1741,9 @@
 
     },
     "Sign Out of Google Classroom" : {
+
+    },
+    "Size" : {
 
     },
     "Some simple settings to make the app even better" : {
@@ -1738,6 +1786,9 @@
 
     },
     "Subscription type" : {
+
+    },
+    "Symbols" : {
 
     },
     "T %@" : {
@@ -1871,6 +1922,9 @@
 
     },
     "Tutorials" : {
+
+    },
+    "Type" : {
 
     },
     "Units" : {
@@ -2008,6 +2062,9 @@
       }
     },
     "What would you like to do?" : {
+
+    },
+    "What's New" : {
 
     },
     "What's new in %@" : {
