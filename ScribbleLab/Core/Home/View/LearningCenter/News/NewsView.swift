@@ -10,14 +10,34 @@ import SwiftUI
 struct NewsView: View {
     var body: some View {
         ScrollView {
-            HStack {
-                RoundedRectangle(cornerRadius: 15)
-                    .frame(width: 100, height: 70)
-            }
+//            List {
+                ForEach(0 ... 10, id: \.self) { news in
+                    HStack {
+                        RoundedRectangle(cornerRadius: 15)
+                            .frame(width: 160, height: 85)
+                        
+                        VStack(alignment: .leading) {
+                            Text("Lorem ipsum dolor sit amet")
+                                .font(.title2)
+                                .fontWeight(.semibold)
+                                .tint(.primary)
+                            
+                            Text("27. January 2024")
+                                .font(.subheadline)
+                                .foregroundStyle(.secondary)
+                            
+                            Text("Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.")
+                        }
+                    }
+                }
+//            }
+            .navigationTitle("News")
         }
     }
 }
 
 #Preview {
-    NewsView()
+    NavigationStack {
+        NewsView()
+    }
 }
