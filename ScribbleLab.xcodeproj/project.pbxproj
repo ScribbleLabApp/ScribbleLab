@@ -175,6 +175,7 @@
 		38D84A402B6553BD00BE884B /* LearningCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D84A3F2B6553BD00BE884B /* LearningCell.swift */; };
 		38D84A422B65577400BE884B /* LerningCenterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D84A412B65577400BE884B /* LerningCenterModel.swift */; };
 		38D84A462B65624000BE884B /* SLWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D84A452B65624000BE884B /* SLWebView.swift */; };
+		38D84A492B656AA300BE884B /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D84A482B656AA300BE884B /* NewsView.swift */; };
 		38E5BBB42AE41F2900FFFE7C /* Updates in Frameworks */ = {isa = PBXBuildFile; productRef = 38E5BBB32AE41F2900FFFE7C /* Updates */; };
 		38E5BBB72AE4244600FFFE7C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5BBB62AE4244600FFFE7C /* User.swift */; };
 		38EA6DE62B441A6100A04754 /* ThemeManager in Frameworks */ = {isa = PBXBuildFile; productRef = 38EA6DE52B441A6100A04754 /* ThemeManager */; };
@@ -394,6 +395,7 @@
 		38D84A3F2B6553BD00BE884B /* LearningCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningCell.swift; sourceTree = "<group>"; };
 		38D84A412B65577400BE884B /* LerningCenterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LerningCenterModel.swift; sourceTree = "<group>"; };
 		38D84A452B65624000BE884B /* SLWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLWebView.swift; sourceTree = "<group>"; };
+		38D84A482B656AA300BE884B /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
 		38DF1FDB2B5C0FC6001D896B /* ClassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ClassKit.framework; path = System/Library/Frameworks/ClassKit.framework; sourceTree = SDKROOT; };
 		38E5BBB62AE4244600FFFE7C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		38EFBE1C2AD6965C00CF0ECD /* PackageLicense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageLicense.swift; sourceTree = "<group>"; };
@@ -1019,6 +1021,7 @@
 		386845122B654A6900C375E1 /* LearningCenter */ = {
 			isa = PBXGroup;
 			children = (
+				38D84A472B656A8B00BE884B /* News */,
 				386845132B654A7400C375E1 /* Tutroials */,
 			);
 			path = LearningCenter;
@@ -1599,6 +1602,14 @@
 			path = WKWebView;
 			sourceTree = "<group>";
 		};
+		38D84A472B656A8B00BE884B /* News */ = {
+			isa = PBXGroup;
+			children = (
+				38D84A482B656AA300BE884B /* NewsView.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
 		38E5BBB52AE4243D00FFFE7C /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -2017,6 +2028,7 @@
 				383D238D2B2363490094001E /* AppDelegate.swift in Sources */,
 				38C666362B5334BC00CAD099 /* DocumentScannerView.swift in Sources */,
 				38348BEE2B1A6A1A00846877 /* HomeViewModel.swift in Sources */,
+				38D84A492B656AA300BE884B /* NewsView.swift in Sources */,
 				38ADB4D92AF6952C0019375B /* Documentation.docc in Sources */,
 				38140A622AE3F61000753FB6 /* SLAuthService.swift in Sources */,
 				387F7F902B12265A001CC150 /* Constants.swift in Sources */,
