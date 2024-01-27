@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct NewsView: View {
+    @State private var searchText = ""
     var body: some View {
         ScrollView {
 //            List {
@@ -27,12 +28,16 @@ struct NewsView: View {
                                 .foregroundStyle(.secondary)
                             
                             Text("Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.")
+                            
+                            Divider()
                         }
                     }
+                    .padding(.horizontal)
                 }
 //            }
             .navigationTitle("News")
         }
+        .searchable(text: $searchText)
     }
 }
 
