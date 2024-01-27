@@ -54,6 +54,13 @@
 		383D238D2B2363490094001E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383D238C2B2363490094001E /* AppDelegate.swift */; };
 		384079D02B600E7A0059523C /* CrashReportSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384079CF2B600E7A0059523C /* CrashReportSheet.swift */; };
 		384079E92B614D050059523C /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384079E82B614D050059523C /* ShareViewController.swift */; };
+		384079EC2B6177DB0059523C /* ContributionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384079EB2B6177DB0059523C /* ContributionLabel.swift */; };
+		384079ED2B6177DB0059523C /* ContributionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384079EB2B6177DB0059523C /* ContributionLabel.swift */; };
+		384079EF2B61A4A90059523C /* ContributionLabelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384079EE2B61A4A90059523C /* ContributionLabelModel.swift */; };
+		384079F02B61A4A90059523C /* ContributionLabelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384079EE2B61A4A90059523C /* ContributionLabelModel.swift */; };
+		384079F82B63EA960059523C /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384079F72B63EA960059523C /* ShareViewController.swift */; };
+		384079FB2B63EA960059523C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 384079F92B63EA960059523C /* MainInterface.storyboard */; };
+		384079FF2B63EA960059523C /* SLShareExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 384079F52B63EA960059523C /* SLShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3852D71A2B053C38007FAFF1 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 3852D7192B053C38007FAFF1 /* Shaders.metal */; };
 		3852D71C2B054C11007FAFF1 /* OTP+2FAViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852D71B2B054C11007FAFF1 /* OTP+2FAViewModel.swift */; };
 		3852D71F2B054D18007FAFF1 /* ParticleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852D71E2B054D18007FAFF1 /* ParticleEffect.swift */; };
@@ -184,6 +191,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		384079FD2B63EA960059523C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38AE9C902AD0750F00B761E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 384079F42B63EA960059523C;
+			remoteInfo = SLShareExtension;
+		};
 		385F789B2AD5C84C0096E504 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 38AE9C902AD0750F00B761E8 /* Project object */;
@@ -215,6 +229,7 @@
 			dstSubfolderSpec = 13;
 			files = (
 				385F789D2AD5C84C0096E504 /* SLStickerPack.appex in Embed Foundation Extensions */,
+				384079FF2B63EA960059523C /* SLShareExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +288,12 @@
 		383D238C2B2363490094001E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		384079CF2B600E7A0059523C /* CrashReportSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashReportSheet.swift; sourceTree = "<group>"; };
 		384079E82B614D050059523C /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		384079EB2B6177DB0059523C /* ContributionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributionLabel.swift; sourceTree = "<group>"; };
+		384079EE2B61A4A90059523C /* ContributionLabelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributionLabelModel.swift; sourceTree = "<group>"; };
+		384079F52B63EA960059523C /* SLShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SLShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		384079F72B63EA960059523C /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		384079FA2B63EA960059523C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		384079FC2B63EA960059523C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3852D7192B053C38007FAFF1 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 		3852D71B2B054C11007FAFF1 /* OTP+2FAViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OTP+2FAViewModel.swift"; sourceTree = "<group>"; };
 		3852D71E2B054D18007FAFF1 /* ParticleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEffect.swift; sourceTree = "<group>"; };
@@ -377,6 +398,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		384079F22B63EA960059523C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38760F0F2B2CB44500CC73BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -745,6 +773,16 @@
 				384079E82B614D050059523C /* ShareViewController.swift */,
 			);
 			path = ShareExtension;
+			sourceTree = "<group>";
+		};
+		384079F62B63EA960059523C /* SLShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				384079F72B63EA960059523C /* ShareViewController.swift */,
+				384079F92B63EA960059523C /* MainInterface.storyboard */,
+				384079FC2B63EA960059523C /* Info.plist */,
+			);
+			path = SLShareExtension;
 			sourceTree = "<group>";
 		};
 		3852D7182B053C24007FAFF1 /* Shaders */ = {
@@ -1231,6 +1269,7 @@
 				38AE9CAF2AD0751100B761E8 /* ScribbleLabTests */,
 				38AE9CB92AD0751100B761E8 /* ScribbleLabUITests */,
 				38760F132B2CB44600CC73BD /* ScribbleLab MacOS */,
+				384079F62B63EA960059523C /* SLShareExtension */,
 				38355EDF2AD3DB3200392674 /* Frameworks */,
 				38AE9C992AD0750F00B761E8 /* Products */,
 			);
@@ -1244,6 +1283,7 @@
 				38AE9CB62AD0751100B761E8 /* ScribbleLabUITests.xctest */,
 				385F78962AD5C84B0096E504 /* SLStickerPack.appex */,
 				38760F122B2CB44500CC73BD /* ScribbleLab MacOS.app */,
+				384079F52B63EA960059523C /* SLShareExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1476,6 +1516,7 @@
 			children = (
 				38D5C6942AD2CAA100D943A5 /* SLContributorModel.swift */,
 				3868A3DB2AD2DB0000D4CAEC /* ImageViewModel.swift */,
+				384079EE2B61A4A90059523C /* ContributionLabelModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1485,6 +1526,7 @@
 			children = (
 				38D5C6962AD2CC6200D943A5 /* SLContributorView.swift */,
 				3868A3DD2AD2DBA300D4CAEC /* ImageView.swift */,
+				384079EB2B6177DB0059523C /* ContributionLabel.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1532,6 +1574,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		384079F42B63EA960059523C /* SLShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38407A002B63EA960059523C /* Build configuration list for PBXNativeTarget "SLShareExtension" */;
+			buildPhases = (
+				384079F12B63EA960059523C /* Sources */,
+				384079F22B63EA960059523C /* Frameworks */,
+				384079F32B63EA960059523C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLShareExtension;
+			productName = SLShareExtension;
+			productReference = 384079F52B63EA960059523C /* SLShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		385F78952AD5C84B0096E504 /* SLStickerPack */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 385F789E2AD5C84C0096E504 /* Build configuration list for PBXNativeTarget "SLStickerPack" */;
@@ -1595,6 +1654,7 @@
 			);
 			dependencies = (
 				385F789C2AD5C84C0096E504 /* PBXTargetDependency */,
+				384079FE2B63EA960059523C /* PBXTargetDependency */,
 			);
 			name = ScribbleLab;
 			packageProductDependencies = (
@@ -1679,6 +1739,9 @@
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					384079F42B63EA960059523C = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					385F78952AD5C84B0096E504 = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -1738,11 +1801,20 @@
 				38AE9CB52AD0751100B761E8 /* ScribbleLabUITests */,
 				38AE9CAB2AD0751100B761E8 /* ScribbleLabTests */,
 				385F78952AD5C84B0096E504 /* SLStickerPack */,
+				384079F42B63EA960059523C /* SLShareExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		384079F32B63EA960059523C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				384079FB2B63EA960059523C /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		385F78942AD5C84B0096E504 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1820,15 +1892,25 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		384079F12B63EA960059523C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				384079F82B63EA960059523C /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38760F0E2B2CB44500CC73BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				384079ED2B6177DB0059523C /* ContributionLabel.swift in Sources */,
 				389740552B5BD7740051EEC4 /* ScribbleLabApp.swift in Sources */,
 				38760F172B2CB44600CC73BD /* ContentView.swift in Sources */,
 				389102B42B5BDB1B00ED0C3A /* ContentView.swift in Sources */,
 				385ABC5E2B2DF0C4005F90E6 /* AppDelegate.swift in Sources */,
 				389102B52B5BDB6500ED0C3A /* ContentViewModel.swift in Sources */,
+				384079F02B61A4A90059523C /* ContributionLabelModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1841,6 +1923,7 @@
 				38B36C5E2B5D73D80009BA56 /* FavouriteView.swift in Sources */,
 				385DC5D72B53FB0C00D1FE6E /* NotificationSettingsModel.swift in Sources */,
 				38BAF7C52B5AF6EF00BEE6A5 /* IntegrationsView.swift in Sources */,
+				384079EC2B6177DB0059523C /* ContributionLabel.swift in Sources */,
 				3889688B2AF143C700F67F08 /* SettingsViewModel.swift in Sources */,
 				3858A77E2AD15E8900FC6319 /* NotificationSheetView.swift in Sources */,
 				383588442AFEDB4000EEA1C3 /* PerformanceView.swift in Sources */,
@@ -1879,6 +1962,7 @@
 				38D56F062AF59A0000CE3781 /* ImagePicker.swift in Sources */,
 				385DC5DA2B5402C900D1FE6E /* WhatsNewSheetView.swift in Sources */,
 				385DC5D52B53EE4A00D1FE6E /* NewsletterSettingsView.swift in Sources */,
+				384079EF2B61A4A90059523C /* ContributionLabelModel.swift in Sources */,
 				38A5E9BD2B03D7730037C668 /* OTPTextFieldView.swift in Sources */,
 				3868A3E02AD2E2F800D4CAEC /* SLLicenseView.swift in Sources */,
 				38D5C6972AD2CC6200D943A5 /* SLContributorView.swift in Sources */,
@@ -1963,6 +2047,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		384079FE2B63EA960059523C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 384079F42B63EA960059523C /* SLShareExtension */;
+			targetProxy = 384079FD2B63EA960059523C /* PBXContainerItemProxy */;
+		};
 		385F789C2AD5C84C0096E504 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 385F78952AD5C84B0096E504 /* SLStickerPack */;
@@ -1979,6 +2068,17 @@
 			targetProxy = 38AE9CB72AD0751100B761E8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		384079F92B63EA960059523C /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				384079FA2B63EA960059523C /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		38355EFE2AD3DFCC00392674 /* Alpha */ = {
@@ -2050,6 +2150,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 38355EFD2AD3DF9B00392674 /* Alpha.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconAlpha;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
@@ -2195,6 +2296,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 385F788A2AD5C4410096E504 /* Beta.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconBeta;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
@@ -2340,6 +2442,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 385F788B2AD5C4530096E504 /* RC.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
@@ -2415,6 +2518,141 @@
 				TEST_TARGET_NAME = ScribbleLab;
 			};
 			name = RC;
+		};
+		38407A012B63EA960059523C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SLShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SLShareExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab.SLShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38407A022B63EA960059523C /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SLShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SLShareExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab.SLShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Alpha;
+		};
+		38407A032B63EA960059523C /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SLShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SLShareExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab.SLShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Beta;
+		};
+		38407A042B63EA960059523C /* RC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SLShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SLShareExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab.SLShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = RC;
+		};
+		38407A052B63EA960059523C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SLShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SLShareExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab.SLShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
 		};
 		385F789F2AD5C84C0096E504 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2813,6 +3051,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 38355F032AD3DFED00392674 /* Debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDev;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
@@ -2853,6 +3092,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 385F788C2AD5C4690096E504 /* Release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
@@ -2972,6 +3212,18 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		38407A002B63EA960059523C /* Build configuration list for PBXNativeTarget "SLShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38407A012B63EA960059523C /* Debug */,
+				38407A022B63EA960059523C /* Alpha */,
+				38407A032B63EA960059523C /* Beta */,
+				38407A042B63EA960059523C /* RC */,
+				38407A052B63EA960059523C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		385F789E2AD5C84C0096E504 /* Build configuration list for PBXNativeTarget "SLStickerPack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -12,33 +12,26 @@ struct SLContributorView: View {
     @State private var openGitHubLink = false
     
     var body: some View {
-        NavigationStack {
-            List {
-                Section() {
+            Form {
+                Section {
                     ForEach(SLContributorModel.allCases) { contributors in
-                        HStack {
+                        Button {
+                            openURL(URL(string: contributors.githubURL)!)
+                        } label: {
                             // FIXME: Load images from Github
-//                            Image(contributors.urlStringAdress)
-                            Image(systemName: "person.circle.fill")
-                            VStack(alignment: .leading) {
-                                HStack {
-                                    Text(contributors.name)
-                                        .fontWeight(.semibold)
-                                    Text(contributors.land)
+                            HStack {
+                                Image(systemName: "person.circle.fill")
+                                
+                                VStack(alignment: .leading) {
+                                    HStack {
+                                        Text(contributors.name)
+                                            .fontWeight(.semibold)
+                                    }
                                 }
-                                Text(contributors.section)
-                            }
-                            
-                            Spacer()
-                            
-                            Button {
-//                                openGitHubLink.toggle()
-                            } label: {
-                                Image("github")
-                                    .foregroundColor(.black)
-                            }
-                            .onTapGesture {
-                                openURL(URL(string: contributors.githubURL)!)
+                                
+                                Spacer()
+                                
+                                ContributionLabel(contribution: contributors.section, width: 120, height: 30)
                             }
                         }
                     }
@@ -48,12 +41,14 @@ struct SLContributorView: View {
                     Text("We're appriciate all of your contributions and bug fixes you've done in order to achive this powerful app")
                 }
             }
-                .navigationTitle("Contributors")
-                .navigationBarTitleDisplayMode(.inline)
-        }
+            .navigationTitle("Contributors")
+            .navigationBarTitleDisplayMode(.inline)
+            .tint(.orange)
     }
 }
 
 #Preview {
-    SLContributorView()
+    NavigationStack {
+        SLContributorView()
+    }
 }
