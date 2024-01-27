@@ -10,8 +10,8 @@
   <a aria-label="Read the Documentation" href="scribblelabapp.github.io/docs/" target="_blank">
     <img alt="" src="https://img.shields.io/badge/Documentation-black.svg?style=for-the-badge&logo=readthedocs&logoColor=blue">
   </a>
-  <a aria-label="Join the community on Discord (Soon)" href="" target="_blank">
-    <img alt="" src="https://img.shields.io/badge/Join%20the%20community%20(Soon)-black.svg?style=for-the-badge&logo=Discord">
+  <a aria-label="Join the community on Discord" href="https://discord.gg/UUjMpKRqXM" target="_blank">
+    <img alt="" src="https://img.shields.io/badge/Join%20the%20community%20-black.svg?style=for-the-badge&logo=Discord">
   </a>
 </p>
 
