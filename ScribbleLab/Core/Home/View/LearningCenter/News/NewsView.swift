@@ -13,31 +13,28 @@ struct NewsView: View {
         ScrollView {
 //            List {
                 ForEach(0 ... 10, id: \.self) { news in
-                    HStack {
-                        RoundedRectangle(cornerRadius: 15)
-                            .frame(width: 160, height: 85)
-                        
-                        VStack(alignment: .leading) {
-                            Text("Lorem ipsum dolor sit amet")
-                                .font(.title2)
-                                .fontWeight(.semibold)
-                                .tint(.primary)
-                            
-                            Text("27. January 2024")
-                                .font(.subheadline)
-                                .foregroundStyle(.secondary)
-                            
-                            Text("Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.")
-                            
-                            Divider()
-                        }
+                    NewsCell(
+                        title: "Lorem ipsum dolor sit amet",
+                        date: "27. January 2024",
+                        description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren."
+                    ) {
+                        NewsDetail()
                     }
-                    .padding(.horizontal)
                 }
 //            }
             .navigationTitle("News")
         }
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                Button {
+                    
+                } label: {
+                    Image(systemName: "ellipsis.circle")
+                }
+            }
+        }
         .searchable(text: $searchText)
+        .tint(.orange)
     }
 }
 

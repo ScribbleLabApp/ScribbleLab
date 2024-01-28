@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct LearningCenterView: View {
+    @State private var searchText = ""
+    
     var body: some View {
         ScrollView {
             
@@ -133,14 +135,26 @@ struct LearningCenterView: View {
                     }
                 }
             }
-            
             .navigationTitle("Tutorials")
         }
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                Button {
+                    
+                } label: {
+                    Image(systemName: "ellipsis.circle")
+                }
+            }
+        }
+        .searchable(text: $searchText)
+        
         .padding()
         .tint(.orange)
     }
 }
 
 #Preview {
-    LearningCenterView()
+    NavigationStack {
+        LearningCenterView()
+    }
 }
