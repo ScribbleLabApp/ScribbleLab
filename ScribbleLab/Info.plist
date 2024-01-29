@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>ScribbleLab needs to add Photos to your Photo Libary</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>ScribbleLab needs to access your Photo Libary to import Images to your Notebooks.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>ScribbleLab want to use FaceID to secure your Files</string>
+	<key>NSCameraUsageDescription</key>
+	<string>ScribbleLab needs to access your camera to scan documents</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>

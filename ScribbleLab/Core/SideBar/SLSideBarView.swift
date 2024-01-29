@@ -6,9 +6,6 @@
 //
 
 import SwiftUI
-import PermissionsSwiftUIPhoto
-import PermissionsSwiftUICamera
-import PermissionsSwiftUINotification
 
 struct SLSideBarView: View {
     // MARK: Permission Modal sheet
@@ -100,8 +97,6 @@ struct SLSideBarView: View {
             HomeView()
         }
         .tint(.orange)
-        .JMAlert(showModal: $showModal, for: [.camera, .photo, .notification])
-        .changeHeaderTo("App Permissions")
     }
 }
 

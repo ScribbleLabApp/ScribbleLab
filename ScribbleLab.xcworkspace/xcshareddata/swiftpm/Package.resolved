@@ -154,6 +154,15 @@
       }
     },
     {
+      "identity" : "permissionskit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sparrowcode/PermissionsKit",
+      "state" : {
+        "revision" : "8d6b3d6db7d0654a4e4fe31bbf6556dec6fc3d13",
+        "version" : "10.0.1"
+      }
+    },
+    {
       "identity" : "permissionsswiftui",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/jevonmao/PermissionsSwiftUI",
