@@ -570,6 +570,9 @@ Additionally, we will soon offer a ScribbleLab AI subscription for unlimited AI 
 
 ## Contributors
 
+## Activity
+![Alt](https://repobeats.axiom.co/api/embed/d8d42dc7013c583d48502fe84223ce417c502c23.svg "Repobeats analytics image")
+
 ## License
 When you create a ScribbleLab account, you are agreeing to our [License Agreement](LICENSE_AGREEMENT.md) as well as the licenses of our third-party packages. 
 
