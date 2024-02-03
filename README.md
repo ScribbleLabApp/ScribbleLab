@@ -15,8 +15,7 @@
   </a>
 </p>
 
-
-<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!--
 <svg version="1.1" id="livetype" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="120.6600037px" height="41px" viewBox="0 0 120.6600037 41" enable-background="new 0 0 120.6600037 41"
 	 xml:space="preserve">
@@ -209,7 +208,6 @@
 </svg>
 
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="livetype" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="157.1100006px" height="41px" viewBox="0 0 157.1100006 41" enable-background="new 0 0 157.1100006 41"
 	 xml:space="preserve">
@@ -431,7 +429,7 @@
 </g>
 </svg>
 
-
+-->
 
 ScribbleLab is a customizable text editor built by students, for students, written entirely and unapologetically for iOS, iPadOS, and macOS.
 
@@ -449,26 +447,12 @@ We offer:
 > [!IMPORTANT]
 > ScribbleLab is currently in development and not yet ready for production use. You are welcome to test the [latest alpha/dev build](https://github.com/ScribbleLabApp/ScribbleLab/releases/latest) at your own risk. We welcome feedback [here](https://github.com/ScribbleLabApp/ScribbleLab/issues).
 
-[![Deploy DocC](https://github.com/ScribbleLabApp/ScribbleLab/actions/workflows/publish-pages.yml/badge.svg?branch=main)](https://github.com/ScribbleLabApp/ScribbleLab/actions/workflows/publish-pages.yml)
 [![CI-ScribbleLab](https://github.com/ScribbleLabApp/ScribbleLab/actions/workflows/CI-ScribbleLab.yml/badge.svg)](https://github.com/ScribbleLabApp/ScribbleLab/actions/workflows/CI-ScribbleLab.yml)
-[![CI- Update Build Number](https://github.com/ScribbleLabApp/ScribbleLab/actions/workflows/CI-bumb-build-number.yml/badge.svg)](https://github.com/ScribbleLabApp/ScribbleLab/actions/workflows/CI-bumb-build-number.yml)
 [![SwiftLint](https://github.com/ScribbleLabApp/ScribbleLab/actions/workflows/lint.yml/badge.svg)](https://github.com/ScribbleLabApp/ScribbleLab/actions/workflows/lint.yml)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/BlockSyncHQ/blocksync)
 
 This repository is available in different languages:
 [English](https://github.com/ScribbleLabApp/ScribbleLab/tree/main) · [Deutsch](https://github.com/ScribbleLabApp/docs/blob/main/translations/README~de.md)
-
-## Contents
-
-- [Motivation](#motivation)
-- [Mission](#mission)
-- [Features](#features)
-- [Community](#community)
-- [Privacy](#privacy)
-- [Pricing Model](#pricing-model)
-- [Contributing](#contributing)
-- [Contributors](#contributors)
-- [License](#license)
 
 ## Motivation
 We at ScribbleLab found that the existing text editors on the market were too complicated, lacked essential features, or were difficult to customize for our specific needs. 
@@ -480,9 +464,11 @@ That's why we decided to create our own text editor, with complete control over 
 ## Mission
 Our mission at ScribbleLab is to create an app that makes everyday life easier for students. 
 
-Students often need to use multiple apps to organize their academic lives. With the workflows of students in mind, we combine four existing apps (Reminder, Calendar, Timetable, and Clock) into a single app with a visually appealing design and a seamlessly integrated editor.
+Students often need to use multiple apps to organize their academic lives. With the workflows of students in mind, we combine four existing apps (Reminder, Calendar, Timetable, and Clock) into two apps with a visually appealing design and a seamlessly integrated editor: **ScribbleLab** and **ScribbleLink**
 
+<!--
 ![combination-cornerradius](https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/c577cdf3-4b84-479f-9129-c11cd95d4cbb)
+-->
 
 We strive to remain true to Apple's [human interface guidelines](https://developer.apple.com/design/human-interface-guidelines) and [design patterns](https://developer.apple.com/design/human-interface-guidelines/patterns), ensuring ScribbleLab looks and feels like an application developed by Apple themselves, with meticulous attention to detail.
 
@@ -490,18 +476,12 @@ We strive to remain true to Apple's [human interface guidelines](https://develop
 Our editor is the "Scribble" part of ScribbleLab, and our features comprise the "Lab".
 
 As a student, you may find many editor apps with great features, but none that meet all your needs. As a ScribbleLab user, you can access a comprehensive suite of powerful and useful tools, including:
-- a customizable timetable function
-- a fully customizable calender widget
-- a study timer widget
-- reminder list widget
-- homework to-do list widget
 - live collaborations `(coming soon)`
 - linked cloud storage from third-party companies such as Dropbox, GoogleDrive, iCloudDrive, and more
 - customizable templates (pages, covers, etc)
 - import and export PDFs, PNGs, and .scribble `(own file format, coming soon)` files
-- AI support `(ScribbleLab Pro only - coming soon)`
-
-<img align="right" width="400" src="https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/1c466ab5-afb1-4b81-85e1-f064ec9cce6e">
+- AI support `(coming soon)`
+- Integration with ScribbleLink
 
 Many of our features are available from a sidebar where they can be accessed by a simple click.
 
@@ -510,7 +490,7 @@ You might wonder, "How can an app be good if it has so many features? Is there a
 There's no catch. We believe that our app improves with every feature we add. To decide what features to include, we invite and assess feedback from our [community](#community) and testers, ensuring that our feature list is relevant and useful to students.
 
 ## Community
-Our community comprises contributors from GitHub, testers, developers, and users. Join our [**Discord server `(coming soon)`**]() for improved communication among community members. 
+Our community comprises contributors from GitHub, testers, developers, and users. Join our [**Discord server**](https://discord.gg/7eyQFUws7A) for improved communication among community members. 
 
 ## Privacy
 Is it safe to create an account with ScribbleLab? Yes!
@@ -535,7 +515,7 @@ Remember, staying up to date with software updates is an essential part of maint
 > [!CAUTION]
 > No warranty is provided for testing Alpha, Beta, nightly, or RC builds. Use at your own risk.
 
-
+<!--
 ## Pricing Model
 ScribbleLab follows the freemium scheme. This means that we offer two versions:
 - Free (ScribbleLab Basic)
@@ -545,7 +525,6 @@ Additionally, we will soon offer a ScribbleLab AI subscription for unlimited AI 
 > [!NOTE]
 > The Pro and AI versions of ScribbleLab are currently in development.
 
-<!--
 ### Benefits Comparison
 
 |                         | ScribbleLab Basic | ScribbleLab Pro | Lifetime
@@ -567,8 +546,11 @@ Additionally, we will soon offer a ScribbleLab AI subscription for unlimited AI 
 -->
 
 ## Contributing
+Be part of the next revolution in code editing by contributing to the project. This is a community-led effort, so we welcome as many contributors who can help. Read the [Contribution Guide](https://github.com/ScribbleLabApp/ScribbleLab/blob/main/CONTRIBUTING.md) for more information.
 
-## Contributors
+This project spans [multiple repositories](https://github.com/ScribbleLabApp/ScribbleLab#related-repositories) so instead of browsing issues in the issues tab, it may be helpful to find an issue to get started on in our [project board](https://github.com/orgs/ScribbleLabApp/projects/1/views/1).
+
+For issues we want to focus on that are most relevant at any given time, please see the issues scoped to our current iteration [here]().
 
 ## Activity
 ![Alt](https://repobeats.axiom.co/api/embed/d8d42dc7013c583d48502fe84223ce417c502c23.svg "Repobeats analytics image")
