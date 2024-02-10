@@ -14,6 +14,8 @@ class HomeViewModel: ObservableObject {
     @Published var allowNotificationsIsGarnted = false
     @Published var createDialogDisplayed = false
     
+    @Published var showCreateNotebook = false
+    
     @Published var displayStyle: SortOption = .symbols
     
     // DEV

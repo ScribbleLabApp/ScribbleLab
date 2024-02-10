@@ -182,26 +182,98 @@ struct HomeView: View {
         .navigationTitle("Documents")
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
-                Button {
-                    Task { await CreateNewDocumentTip.createNewDocumentEvent.donate() }
-                    viewModifier.createDialogDisplayed.toggle()
+                Menu {
+                    Button {
+                        viewModifier.showCreateNotebook.toggle()
+                    } label: {
+                        Label("Notebook", systemImage: "book.closed")
+                    }
+                    .sheet(isPresented: $viewModifier.showCreateNotebook) {
+                        CreateNotebookView()
+                            .navigationBarBackButtonHidden()
+                    }
+                    Button {
+                        
+                    } label: {
+                        Label("Index cards", systemImage: "")
+                    }
+                    Button {
+                        
+                    } label: {
+                        Label("Folder", systemImage: "folder")
+                    }
+                    Button {
+                        
+                    } label: {
+                        Label("Scan Documents", systemImage: "doc.viewfinder")
+                    }
+                    Button {
+                        
+                    } label: {
+                        Label("Take a picture", systemImage: "camera")
+                    }
+                    Button {
+                        
+                    } label: {
+                        Label("Import", systemImage: "square.and.arrow.down")
+                    }
+                    Button {
+                        
+                    } label: {
+                        Label("Quick note", systemImage: "square.and.pencil")
+                    }
                 } label: {
-                    Image(systemName: "plus")
-                }
-                .confirmationDialog(
-                    "How do you like to create a new document?",
-                    isPresented: $viewModifier.createDialogDisplayed
-                ) {
-                    Button("Scan document") {
-                        print("DEBUG: Scan document")
+                    Button {
+                        Task { await CreateNewDocumentTip.createNewDocumentEvent.donate() }
+                        viewModifier.createDialogDisplayed.toggle()
+                    } label: {
+                        Image(systemName: "plus")
                     }
-                    Button("Create from Template") {
-                        print("DEBUG: Create new document from Templates")
-                    }
-                } message: {
-                    Text("Select how you'd like to create a new document.")
-                }
+//                }
+//                    .confirmationDialog(
+//                        "How do you like to create a new document?",
+//                        isPresented: $viewModifier.createDialogDisplayed
+//                    ) {
+//                        Button {
+//                            
+//                        } label: {
+//                            Label("Notebook", systemImage: "book.closed")
+//                        }
+//                        Button {
+//                            
+//                        } label: {
+//                            Label("Index cards", systemImage: "")
+//                        }
+//                        Button {
+//                            
+//                        } label: {
+//                            Label("Folder", systemImage: "folder")
+//                        }
+//                        Button {
+//                            
+//                        } label: {
+//                            Label("Scan Documents", systemImage: "doc.viewfinder")
+//                        }
+//                        Button {
+//                            
+//                        } label: {
+//                            Label("Take a picture", systemImage: "camera")
+//                        }
+//                        Button {
+//                            
+//                        } label: {
+//                            Label("Import", systemImage: "square.and.arrow.down")
+//                        }
+//                        Button {
+//                            
+//                        } label: {
+//                            Label("Quick note", systemImage: "square.and.pencil")
+//                        }
+//                    } message: {
+//                        Text("Select how you'd like to create a new document.")
+//                    }
                 .popoverTip(createFirstDocumentTip)
+                }
             }
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button {

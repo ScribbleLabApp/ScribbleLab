@@ -12,13 +12,13 @@
 					<key>EndingColumnNumber</key>
 					<string>0</string>
 					<key>EndingLineNumber</key>
-					<string>41</string>
+					<string>51</string>
 					<key>StartingColumnNumber</key>
 					<string>0</string>
 					<key>StartingLineNumber</key>
-					<string>40</string>
+					<string>50</string>
 					<key>Timestamp</key>
-					<string>727717273.605016</string>
+					<string>728671788.9460011</string>
 				</dict>
 				<key>rebasable-url</key>
 				<dict>
@@ -153,13 +153,13 @@
 					<key>EndingColumnNumber</key>
 					<string>0</string>
 					<key>EndingLineNumber</key>
-					<string>219</string>
+					<string>291</string>
 					<key>StartingColumnNumber</key>
 					<string>0</string>
 					<key>StartingLineNumber</key>
-					<string>218</string>
+					<string>290</string>
 					<key>Timestamp</key>
-					<string>728055192.085703</string>
+					<string>728225579.679131</string>
 				</dict>
 				<key>rebasable-url</key>
 				<dict>
@@ -200,13 +200,13 @@
 					<key>EndingColumnNumber</key>
 					<string>0</string>
 					<key>EndingLineNumber</key>
-					<string>199</string>
+					<string>237</string>
 					<key>StartingColumnNumber</key>
 					<string>0</string>
 					<key>StartingLineNumber</key>
-					<string>198</string>
+					<string>236</string>
 					<key>Timestamp</key>
-					<string>728055192.085728</string>
+					<string>728225579.679157</string>
 				</dict>
 				<key>rebasable-url</key>
 				<dict>
@@ -222,16 +222,16 @@
 			<key>text-context</key>
 			<dict>
 				<key>focused</key>
-				<string>                        print("DEBUG: Create new document from Templates")
+				<string>//                        Button {
 </string>
 				<key>leading</key>
-				<string>                    }
-                    Button("Create from Template") {
+				<string>//                        isPresented: $viewModifier.createDialogDisplayed
+//                    ) {
 </string>
 				<key>trailing</key>
-				<string>                    }
-                } message: {
-                    Text("Select how you'd like to create a new document.")
+				<string>//                            
+//                        } label: {
+//                            Label("Notebook", systemImage: "book.closed")
 </string>
 			</dict>
 			<key>title</key>

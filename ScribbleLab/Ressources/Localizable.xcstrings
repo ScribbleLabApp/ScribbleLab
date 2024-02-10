@@ -506,6 +506,9 @@
         }
       }
     },
+    "Allow In-App Notifications" : {
+
+    },
     "Allow integrations" : {
       "localizations" : {
         "de" : {
@@ -757,6 +760,9 @@
     "Check your connection and try later again." : {
 
     },
+    "Choose which topics you would like to receive notifications about." : {
+
+    },
     "Clear ScribbleLab chache" : {
 
     },
@@ -776,6 +782,9 @@
 
     },
     "Collaboration" : {
+
+    },
+    "Color" : {
 
     },
     "Column" : {
@@ -824,6 +833,18 @@
 
     },
     "Copyright [2023] [ScribbleLab]" : {
+
+    },
+    "Cover" : {
+
+    },
+    "COVER" : {
+
+    },
+    "Cover name" : {
+
+    },
+    "Cover-Templates" : {
 
     },
     "Create" : {
@@ -1073,6 +1094,9 @@
     "Find out more" : {
 
     },
+    "Folder" : {
+
+    },
     "Forgot password?" : {
 
     },
@@ -1098,6 +1122,9 @@
       }
     },
     "General infos" : {
+
+    },
+    "Get practical tips on features and more directly in ScribbleLab." : {
 
     },
     "Get Started with ScribbleLab" : {
@@ -1212,10 +1239,16 @@
     "Ignore and dismiss Crash report" : {
 
     },
+    "Import" : {
+
+    },
     "Important message" : {
 
     },
     "In App-Purchases" : {
+
+    },
+    "Index cards" : {
 
     },
     "Info" : {
@@ -1227,6 +1260,9 @@
           }
         }
       }
+    },
+    "Instructions, tips and tricks" : {
+
     },
     "Integartions" : {
 
@@ -1310,6 +1346,9 @@
         }
       }
     },
+    "Lines" : {
+
+    },
     "Linked via" : {
 
     },
@@ -1390,6 +1429,9 @@
     "Membershipinfo" : {
 
     },
+    "Messages" : {
+
+    },
     "Microphone" : {
 
     },
@@ -1407,6 +1449,12 @@
 
     },
     "Network & Connection" : {
+
+    },
+    "New functions" : {
+
+    },
+    "New Notebook" : {
 
     },
     "News" : {
@@ -1441,6 +1489,9 @@
 
     },
     "None" : {
+
+    },
+    "Notebook" : {
 
     },
     "Notification-Settings" : {
@@ -1509,6 +1560,12 @@
         }
       }
     },
+    "Other marketing notifications" : {
+
+    },
+    "PAPER" : {
+
+    },
     "Password reset" : {
 
     },
@@ -1569,6 +1626,9 @@
           }
         }
       }
+    },
+    "Quick note" : {
+
     },
     "Quick Tips" : {
 
@@ -1642,6 +1702,9 @@
     "Scan document" : {
 
     },
+    "Scan Documents" : {
+
+    },
     "ScribbleCloud" : {
 
     },
@@ -1709,9 +1772,6 @@
     "Select which newsletter emails you'd like to recieve. You can unsubscribe everytime from our [newsletter](https://github.com/ScribbleLabApp/ScribbleLab)." : {
 
     },
-    "Select which types of notifications you would like to recieve." : {
-
-    },
     "Setting up your ScribbleLabApp account" : {
 
     },
@@ -1771,6 +1831,9 @@
 
     },
     "Status" : {
+
+    },
+    "Stay up to date with push notifications." : {
 
     },
     "Store" : {
@@ -1837,6 +1900,9 @@
         }
       }
     },
+    "Take a picture" : {
+
+    },
     "TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION" : {
 
     },
@@ -1893,6 +1959,9 @@
         }
       }
     },
+    "Title" : {
+
+    },
     "To apply the Apache License to your work, attach the following boilerplate notice, with the fields enclosed by brackets '[]' replaced with your own identifying information. (Don't include the brackets!)  The text should be enclosed in the appropriate comment syntax for the file format. We also recommend that a file or class name and description of purpose be included on the same 'printed page' as the copyright notice for easier identification within third-party archives." : {
 
     },
@@ -1937,6 +2006,9 @@
 
     },
     "Tutorials" : {
+
+    },
+    "Tutorials and articles" : {
 
     },
     "Type" : {

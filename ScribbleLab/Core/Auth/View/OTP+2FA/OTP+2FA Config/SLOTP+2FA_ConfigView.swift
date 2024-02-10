@@ -18,7 +18,7 @@
 //
 
 import SwiftUI
-import SwiftRUI
+//import SwiftRUI
 import GoogleSignIn
 import GoogleSignInSwift
 import FirebaseAuth

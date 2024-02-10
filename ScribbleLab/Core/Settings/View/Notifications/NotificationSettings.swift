@@ -31,18 +31,55 @@ struct NotificationSettings: View {
                 .onChange(of: notificationSettings.notificationAllowed) { newValue in
                     if !newValue {
                         // If notifications are not allowed
-                        notificationSettings.notifyWhenChangesMade = false
-                        notificationSettings.notifyWhenRecievedInvitation = false
-                        notificationSettings.notifyWhenAppUpdates = false
+                        notificationSettings.notifyWhenChangesMade = true
+                        notificationSettings.notifyWhenRecievedInvitation = true
+                        notificationSettings.newFunctions = true
+                        notificationSettings.instructionsTippsTricks = true
+                        notificationSettings.tutorials = true
+                        notificationSettings.notifyWhenAppUpdates = true
+                        notificationSettings.otherNotifications = true
+                        notificationSettings.inAppNotifications = true
                     } else {
                         notificationSettings.notifyWhenChangesMade = true
                         notificationSettings.notifyWhenRecievedInvitation = true
+                        notificationSettings.newFunctions = true
+                        notificationSettings.instructionsTippsTricks = true
+                        notificationSettings.tutorials = true
                         notificationSettings.notifyWhenAppUpdates = true
+                        notificationSettings.otherNotifications = true
+                        notificationSettings.inAppNotifications = true
                     }
                 }
+            } footer: {
+                Text("Stay up to date with push notifications.")
             }
             
             Section {
+                Toggle(isOn: $notificationSettings.newFunctions) {
+                    Text("New functions")
+                }
+                .disabled(!notificationSettings.notificationAllowed)
+                
+                Toggle(isOn: $notificationSettings.instructionsTippsTricks) {
+                    Text("Instructions, tips and tricks")
+                }
+                .disabled(!notificationSettings.notificationAllowed)
+                
+                Toggle(isOn: $notificationSettings.tutorials) {
+                    Text("Tutorials and articles")
+                }
+                .disabled(!notificationSettings.notificationAllowed)
+                
+                Toggle(isOn: $notificationSettings.notifyWhenAppUpdates) {
+                    Text("App Updates & Events")
+                }
+                .disabled(!notificationSettings.notificationAllowed)
+                
+                Toggle(isOn: $notificationSettings.otherNotifications) {
+                    Text("Other marketing notifications")
+                }
+                .disabled(!notificationSettings.notificationAllowed)
+                
                 Toggle(isOn: $notificationSettings.notifyWhenChangesMade) {
                     Text("Comments in shared docs")
                 }
@@ -52,15 +89,10 @@ struct NotificationSettings: View {
                     Text("Invitation to shared docs")
                 }
                 .disabled(!notificationSettings.notificationAllowed)
-                
-                Toggle(isOn: $notificationSettings.notifyWhenAppUpdates) {
-                    Text("App Updates & Events")
-                }
-                .disabled(!notificationSettings.notificationAllowed)
             } header: {
                 Text("Notification-Settings")
             } footer: {
-                Text("Select which types of notifications you would like to recieve.")
+                Text("Choose which topics you would like to receive notifications about.")
             }
             
             Section {
@@ -71,6 +103,15 @@ struct NotificationSettings: View {
                 }
             } footer: {
                 Text("Select which newsletter emails you'd like to recieve. You can unsubscribe everytime from our [newsletter](https://github.com/ScribbleLabApp/ScribbleLab).")
+            }
+            
+            Section {
+                Toggle("Allow In-App Notifications", isOn: $notificationSettings.inAppNotifications)
+                    .disabled(!notificationSettings.notificationAllowed)
+            } header: {
+                Text("Messages")
+            } footer: {
+                Text("Get practical tips on features and more directly in ScribbleLab.")
             }
             
             Section {

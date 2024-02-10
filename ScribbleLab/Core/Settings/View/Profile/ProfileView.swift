@@ -23,6 +23,8 @@ struct ProfileView: View {
     @State private var signOutWarningIsPresented = false
     @State private var deleteAccountWarning = false
     
+    @State private var resetPasswordSheet = false
+    
     var body: some View {
         VStack {
             Form {
@@ -78,8 +80,11 @@ struct ProfileView: View {
                 
                 Section {
                     Button("Change Password") {
-                        print("DEBUG: Change Password method called")
-                    }
+                        print("DEBUG: Reset password state is:  \(resetPasswordSheet)")
+                        resetPasswordSheet.toggle()
+                    }.sheet(isPresented: $resetPasswordSheet, content: {
+                        ResetPasswordView()
+                    })
                     
                     Button("Change Email") {
                         print("DEBUG: Change Email method called")
