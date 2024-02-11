@@ -11,6 +11,8 @@ struct AskNotificationView: View {
     var body: some View {
         VStack {
             Image(.notification)
+                .ignoresSafeArea()
+            
             Image(.memoji)
         }
     }

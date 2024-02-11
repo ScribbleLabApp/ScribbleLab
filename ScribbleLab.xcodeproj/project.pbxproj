@@ -58,9 +58,6 @@
 		384079ED2B6177DB0059523C /* ContributionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384079EB2B6177DB0059523C /* ContributionLabel.swift */; };
 		384079EF2B61A4A90059523C /* ContributionLabelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384079EE2B61A4A90059523C /* ContributionLabelModel.swift */; };
 		384079F02B61A4A90059523C /* ContributionLabelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384079EE2B61A4A90059523C /* ContributionLabelModel.swift */; };
-		384079F82B63EA960059523C /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384079F72B63EA960059523C /* ShareViewController.swift */; };
-		384079FB2B63EA960059523C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 384079F92B63EA960059523C /* MainInterface.storyboard */; };
-		384079FF2B63EA960059523C /* SLShareExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 384079F52B63EA960059523C /* SLShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3852D71A2B053C38007FAFF1 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 3852D7192B053C38007FAFF1 /* Shaders.metal */; };
 		3852D71C2B054C11007FAFF1 /* OTP+2FAViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852D71B2B054C11007FAFF1 /* OTP+2FAViewModel.swift */; };
 		3852D71F2B054D18007FAFF1 /* ParticleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852D71E2B054D18007FAFF1 /* ParticleEffect.swift */; };
@@ -169,7 +166,6 @@
 		38D0CF4F2B6796C90051B356 /* FaceIDPermission in Frameworks */ = {isa = PBXBuildFile; productRef = 38D0CF4E2B6796C90051B356 /* FaceIDPermission */; };
 		38D0CF512B6796C90051B356 /* NotificationPermission in Frameworks */ = {isa = PBXBuildFile; productRef = 38D0CF502B6796C90051B356 /* NotificationPermission */; };
 		38D0CF532B6796C90051B356 /* PhotoLibraryPermission in Frameworks */ = {isa = PBXBuildFile; productRef = 38D0CF522B6796C90051B356 /* PhotoLibraryPermission */; };
-		38D0CF562B6797570051B356 /* PermissionRequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D0CF552B6797570051B356 /* PermissionRequestHelper.swift */; };
 		38D0CF592B67C1090051B356 /* CreateNotebookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D0CF582B67C1090051B356 /* CreateNotebookView.swift */; };
 		38D56F062AF59A0000CE3781 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D56F052AF59A0000CE3781 /* ImagePicker.swift */; };
 		38D5C68B2AD28B9D00D943A5 /* SLDarkmodeSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5C68A2AD28B9D00D943A5 /* SLDarkmodeSettingsView.swift */; };
@@ -201,13 +197,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		384079FD2B63EA960059523C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 38AE9C902AD0750F00B761E8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 384079F42B63EA960059523C;
-			remoteInfo = SLShareExtension;
-		};
 		385F789B2AD5C84C0096E504 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 38AE9C902AD0750F00B761E8 /* Project object */;
@@ -239,7 +228,6 @@
 			dstSubfolderSpec = 13;
 			files = (
 				385F789D2AD5C84C0096E504 /* SLStickerPack.appex in Embed Foundation Extensions */,
-				384079FF2B63EA960059523C /* SLShareExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,10 +288,6 @@
 		384079E82B614D050059523C /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		384079EB2B6177DB0059523C /* ContributionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributionLabel.swift; sourceTree = "<group>"; };
 		384079EE2B61A4A90059523C /* ContributionLabelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributionLabelModel.swift; sourceTree = "<group>"; };
-		384079F52B63EA960059523C /* SLShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SLShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		384079F72B63EA960059523C /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
-		384079FA2B63EA960059523C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		384079FC2B63EA960059523C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3852D7192B053C38007FAFF1 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 		3852D71B2B054C11007FAFF1 /* OTP+2FAViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OTP+2FAViewModel.swift"; sourceTree = "<group>"; };
 		3852D71E2B054D18007FAFF1 /* ParticleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEffect.swift; sourceTree = "<group>"; };
@@ -394,7 +378,6 @@
 		38C68B972B0D134300D16E86 /* SLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLButton.swift; sourceTree = "<group>"; };
 		38C68B992B0D1CA100D16E86 /* SLButton+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SLButton+Image.swift"; sourceTree = "<group>"; };
 		38CB09082B5411FA00E0C224 /* OnboardingFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFeature.swift; sourceTree = "<group>"; };
-		38D0CF552B6797570051B356 /* PermissionRequestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionRequestHelper.swift; sourceTree = "<group>"; };
 		38D0CF582B67C1090051B356 /* CreateNotebookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNotebookView.swift; sourceTree = "<group>"; };
 		38D56F052AF59A0000CE3781 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		38D5C68A2AD28B9D00D943A5 /* SLDarkmodeSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLDarkmodeSettingsView.swift; sourceTree = "<group>"; };
@@ -418,13 +401,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		384079F22B63EA960059523C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		38760F0F2B2CB44500CC73BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -792,16 +768,6 @@
 				384079E82B614D050059523C /* ShareViewController.swift */,
 			);
 			path = ShareExtension;
-			sourceTree = "<group>";
-		};
-		384079F62B63EA960059523C /* SLShareExtension */ = {
-			isa = PBXGroup;
-			children = (
-				384079F72B63EA960059523C /* ShareViewController.swift */,
-				384079F92B63EA960059523C /* MainInterface.storyboard */,
-				384079FC2B63EA960059523C /* Info.plist */,
-			);
-			path = SLShareExtension;
 			sourceTree = "<group>";
 		};
 		3852D7182B053C24007FAFF1 /* Shaders */ = {
@@ -1296,7 +1262,6 @@
 				38AE9CAF2AD0751100B761E8 /* ScribbleLabTests */,
 				38AE9CB92AD0751100B761E8 /* ScribbleLabUITests */,
 				38760F132B2CB44600CC73BD /* ScribbleLab MacOS */,
-				384079F62B63EA960059523C /* SLShareExtension */,
 				38355EDF2AD3DB3200392674 /* Frameworks */,
 				38AE9C992AD0750F00B761E8 /* Products */,
 			);
@@ -1310,7 +1275,6 @@
 				38AE9CB62AD0751100B761E8 /* ScribbleLabUITests.xctest */,
 				385F78962AD5C84B0096E504 /* SLStickerPack.appex */,
 				38760F122B2CB44500CC73BD /* ScribbleLab MacOS.app */,
-				384079F52B63EA960059523C /* SLShareExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1411,7 +1375,6 @@
 		38D0CF542B6797480051B356 /* Permissions */ = {
 			isa = PBXGroup;
 			children = (
-				38D0CF552B6797570051B356 /* PermissionRequestHelper.swift */,
 			);
 			path = Permissions;
 			sourceTree = "<group>";
@@ -1652,23 +1615,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		384079F42B63EA960059523C /* SLShareExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 38407A002B63EA960059523C /* Build configuration list for PBXNativeTarget "SLShareExtension" */;
-			buildPhases = (
-				384079F12B63EA960059523C /* Sources */,
-				384079F22B63EA960059523C /* Frameworks */,
-				384079F32B63EA960059523C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SLShareExtension;
-			productName = SLShareExtension;
-			productReference = 384079F52B63EA960059523C /* SLShareExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		385F78952AD5C84B0096E504 /* SLStickerPack */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 385F789E2AD5C84C0096E504 /* Build configuration list for PBXNativeTarget "SLStickerPack" */;
@@ -1733,7 +1679,6 @@
 			);
 			dependencies = (
 				385F789C2AD5C84C0096E504 /* PBXTargetDependency */,
-				384079FE2B63EA960059523C /* PBXTargetDependency */,
 			);
 			name = ScribbleLab;
 			packageProductDependencies = (
@@ -1817,9 +1762,6 @@
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					384079F42B63EA960059523C = {
-						CreatedOnToolsVersion = 15.2;
-					};
 					385F78952AD5C84B0096E504 = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -1881,20 +1823,11 @@
 				38AE9CB52AD0751100B761E8 /* ScribbleLabUITests */,
 				38AE9CAB2AD0751100B761E8 /* ScribbleLabTests */,
 				385F78952AD5C84B0096E504 /* SLStickerPack */,
-				384079F42B63EA960059523C /* SLShareExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		384079F32B63EA960059523C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				384079FB2B63EA960059523C /* MainInterface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		385F78942AD5C84B0096E504 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1972,14 +1905,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		384079F12B63EA960059523C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				384079F82B63EA960059523C /* ShareViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		38760F0E2B2CB44500CC73BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2094,7 +2019,6 @@
 				38D5C68D2AD28D6F00D943A5 /* SLUpdateView.swift in Sources */,
 				385ABC602B2E0AAD005F90E6 /* Security.swift in Sources */,
 				38AE9C9C2AD0750F00B761E8 /* ScribbleLabApp.swift in Sources */,
-				38D0CF562B6797570051B356 /* PermissionRequestHelper.swift in Sources */,
 				38140A692AE3F81900753FB6 /* UserService.swift in Sources */,
 				3868A3DE2AD2DBA300D4CAEC /* ImageView.swift in Sources */,
 				380D93972AE42C6600277D2D /* CompleteRegistartionView.swift in Sources */,
@@ -2137,11 +2061,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		384079FE2B63EA960059523C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 384079F42B63EA960059523C /* SLShareExtension */;
-			targetProxy = 384079FD2B63EA960059523C /* PBXContainerItemProxy */;
-		};
 		385F789C2AD5C84C0096E504 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 385F78952AD5C84B0096E504 /* SLStickerPack */;
@@ -2158,17 +2077,6 @@
 			targetProxy = 38AE9CB72AD0751100B761E8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		384079F92B63EA960059523C /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				384079FA2B63EA960059523C /* Base */,
-			);
-			name = MainInterface.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		38355EFE2AD3DFCC00392674 /* Alpha */ = {
@@ -2254,7 +2162,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScribbleLab/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "ScribbleLab needs to access your camera to scan documents";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "ScribbleLab want to use FaceID to secure your Files";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "ScribbleLab needs to add Photos to your Photo Libary";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "ScribbleLab needs to access your Photo Libary to import Images to your Notebooks.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -2400,7 +2312,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScribbleLab/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "ScribbleLab needs to access your camera to scan documents";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "ScribbleLab want to use FaceID to secure your Files";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "ScribbleLab needs to add Photos to your Photo Libary";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "ScribbleLab needs to access your Photo Libary to import Images to your Notebooks.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -2546,7 +2462,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScribbleLab/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "ScribbleLab needs to access your camera to scan documents";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "ScribbleLab want to use FaceID to secure your Files";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "ScribbleLab needs to add Photos to your Photo Libary";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "ScribbleLab needs to access your Photo Libary to import Images to your Notebooks.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -2608,141 +2528,6 @@
 				TEST_TARGET_NAME = ScribbleLab;
 			};
 			name = RC;
-		};
-		38407A012B63EA960059523C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SLShareExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SLShareExtension;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab.SLShareExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		38407A022B63EA960059523C /* Alpha */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SLShareExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SLShareExtension;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab.SLShareExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Alpha;
-		};
-		38407A032B63EA960059523C /* Beta */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SLShareExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SLShareExtension;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab.SLShareExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Beta;
-		};
-		38407A042B63EA960059523C /* RC */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SLShareExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SLShareExtension;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab.SLShareExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = RC;
-		};
-		38407A052B63EA960059523C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SLShareExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SLShareExtension;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab.SLShareExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
 		};
 		385F789F2AD5C84C0096E504 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3155,7 +2940,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScribbleLab/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "ScribbleLab needs to access your camera to scan documents";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "ScribbleLab want to use FaceID to secure your Files";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "ScribbleLab needs to add Photos to your Photo Libary";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "ScribbleLab needs to access your Photo Libary to import Images to your Notebooks.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -3196,7 +2985,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScribbleLab/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "ScribbleLab needs to access your camera to scan documents";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "ScribbleLab want to use FaceID to secure your Files";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "ScribbleLab needs to add Photos to your Photo Libary";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "ScribbleLab needs to access your Photo Libary to import Images to your Notebooks.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -3302,18 +3095,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		38407A002B63EA960059523C /* Build configuration list for PBXNativeTarget "SLShareExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				38407A012B63EA960059523C /* Debug */,
-				38407A022B63EA960059523C /* Alpha */,
-				38407A032B63EA960059523C /* Beta */,
-				38407A042B63EA960059523C /* RC */,
-				38407A052B63EA960059523C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		385F789E2AD5C84C0096E504 /* Build configuration list for PBXNativeTarget "SLStickerPack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -1,9 +1,4 @@
-<!--![Pre-order_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_121217](https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/7486cc03-d3aa-4a5c-9d23-c153e536a89b)![Pre-order_on_the_App_Store_Badge_US-UK_RGB_blk_121217](https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/61de547e-25c1-44c8-8b88-db07107d757d)<p align="center">
-  <img src="https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/d0f29969-ca3a-42c8-91d4-a3d437226ed9" alt="Logo" height="128">
-  <h1 align="center">ScribbleLab for iPadOS and macOS</h1>
-</p>
--->
-![scribblelab header](https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/eb1953ca-f14f-43ba-84d9-a50b7db93303)
+![Header](https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/eb1953ca-f14f-43ba-84d9-a50b7db93303)
 
 <!--
 <p align="center">
@@ -18,21 +13,12 @@
   </a>
 </p>
 -->
+
 ## ScribbleLab for iOS, macOS and visionOS
 
-ScribbleLab is a customizable text editor built by students, for students, written entirely and unapologetically for iOS, iPadOS, and macOS.
+ScribbleLab is a revolutionary text editor designed exclusively for students, delivering a seamless experience across iOS, macOS and visionOS platforms. Created by students, for students, it offers a lightweight yet powerful editor with a visually appealing design and a user-friendly interface.
 
-We offer:
-- a lightweight yet powerful editor
-- a visually appealing design
-- a friendly user experience
-- [features](#features) such as cloud storage, extensions, and more
-
-<!--
-<img src="https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/f4419203-bc35-403d-81b1-403c7d80531f">
--->  
-
-> [!IMPORTANT]
+> [!NOTE]
 > ScribbleLab is currently in development and not yet ready for production use. You are welcome to test the [latest alpha/dev build](https://github.com/ScribbleLabApp/ScribbleLab/releases/latest) at your own risk. We welcome feedback [here](https://github.com/ScribbleLabApp/ScribbleLab/issues).
 
 This README is available in different languages:
@@ -55,21 +41,22 @@ We strive to remain true to Apple's [human interface guidelines](https://develop
 ## Features
 Our editor is the "Scribble" part of ScribbleLab, and our features comprise the "Lab".
 
-As a student, you may find many editor apps with great features, but none that meet all your needs. As a ScribbleLab user, you can access a comprehensive suite of powerful and useful tools, including:
-- live collaborations `(coming soon)`
-- linked cloud storage from third-party companies such as Dropbox, GoogleDrive, iCloudDrive, and more
-- customizable templates (pages, covers, etc)
-- import and export PDFs, PNGs, and .scribble `(own file format, coming soon)` files
-- AI support `(coming soon)`
+ScribbleLab offers a comprehensive suite of tools, including:
+
+- Live collaborations (coming soon)
+- Linked cloud storage (Dropbox, GoogleDrive, iCloudDrive, etc.)
+- Customizable templates (pages, covers, etc.)
+- Import/export PDFs, PNGs, and .scribble files (own file format, coming soon)
+- AI support (coming soon)
 - Integration with ScribbleLink
+
+Features are easily accessible from a sidebar, providing a powerful yet user-friendly experience. Our feature selection is driven by community and tester feedback, ensuring relevance and usefulness to students.
 
 Many of our features are available from a sidebar where they can be accessed by a simple click.
 
-You might wonder, "How can an app be good if it has so many features? Is there a catch?"
-
-There's no catch. We believe that our app improves with every feature we add. To decide what features to include, we invite and assess feedback from our [community](#community) and testers, ensuring that our feature list is relevant and useful to students.
-
 ## Community
+To decide what features to include, we invite and assess feedback from our [community](https://discord.gg/7eyQFUws7A) and testers, ensuring that our feature list is relevant and useful to students.
+
 Our community comprises contributors from GitHub, testers, developers, and users. Join our [**Discord server**](https://discord.gg/7eyQFUws7A) for improved communication among community members. 
 
 ## Privacy
