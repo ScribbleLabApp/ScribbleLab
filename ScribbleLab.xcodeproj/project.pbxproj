@@ -98,6 +98,7 @@
 		385F78B32AD5E4FE0096E504 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F78B22AD5E4FE0096E504 /* LogInView.swift */; };
 		385F78BA2AD5ECC10096E504 /* SLInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F78B92AD5ECC10096E504 /* SLInfoView.swift */; };
 		385F78BE2AD5ED720096E504 /* SLHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F78BD2AD5ED720096E504 /* SLHelpView.swift */; };
+		3861EF5A2B7934D900071F3B /* SlideOverCard in Frameworks */ = {isa = PBXBuildFile; productRef = 3861EF592B7934D900071F3B /* SlideOverCard */; };
 		386845172B654AA800C375E1 /* LearningCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386845162B654AA800C375E1 /* LearningCenterView.swift */; };
 		3868A3DC2AD2DB0000D4CAEC /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DB2AD2DB0000D4CAEC /* ImageViewModel.swift */; };
 		3868A3DE2AD2DBA300D4CAEC /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DD2AD2DBA300D4CAEC /* ImageView.swift */; };
@@ -437,6 +438,7 @@
 				385F78AF2AD5E11C0096E504 /* GoogleSignIn in Frameworks */,
 				381792652AFFC017002A4551 /* AlertToast in Frameworks */,
 				38E5BBB42AE41F2900FFFE7C /* Updates in Frameworks */,
+				3861EF5A2B7934D900071F3B /* SlideOverCard in Frameworks */,
 				38D0CF512B6796C90051B356 /* NotificationPermission in Frameworks */,
 				380BC63D2B26029600DCF442 /* StripeIdentity in Frameworks */,
 				383588462AFEDC6F00EEA1C3 /* FirebasePerformance in Frameworks */,
@@ -1711,6 +1713,7 @@
 				38D0CF4E2B6796C90051B356 /* FaceIDPermission */,
 				38D0CF502B6796C90051B356 /* NotificationPermission */,
 				38D0CF522B6796C90051B356 /* PhotoLibraryPermission */,
+				3861EF592B7934D900071F3B /* SlideOverCard */,
 			);
 			productName = ScribbleLab;
 			productReference = 38AE9C982AD0750F00B761E8 /* ScribbleLab.app */;
@@ -1813,6 +1816,7 @@
 				38C6662A2B52EDE300CAD099 /* XCRemoteSwiftPackageReference "PermissionsSwiftUI" */,
 				38D0CF4B2B6796C90051B356 /* XCRemoteSwiftPackageReference "PermissionsKit" */,
 				380943A12B6E84C600047DA0 /* XCRemoteSwiftPackageReference "Sparkle" */,
+				3861EF582B7934D900071F3B /* XCRemoteSwiftPackageReference "SlideOverCard" */,
 			);
 			productRefGroup = 38AE9C992AD0750F00B761E8 /* Products */;
 			projectDirPath = "";
@@ -3226,6 +3230,14 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		3861EF582B7934D900071F3B /* XCRemoteSwiftPackageReference "SlideOverCard" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joogps/SlideOverCard.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
 		38A5E9C02B03F0140037C668 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
@@ -3424,6 +3436,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 385F78AD2AD5E11C0096E504 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
 			productName = GoogleSignInSwift;
+		};
+		3861EF592B7934D900071F3B /* SlideOverCard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3861EF582B7934D900071F3B /* XCRemoteSwiftPackageReference "SlideOverCard" */;
+			productName = SlideOverCard;
 		};
 		38A24C722AED2A7700F81F07 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;

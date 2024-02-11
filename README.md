@@ -89,8 +89,10 @@ This project spans [multiple repositories](https://github.com/ScribbleLabApp/Scr
 
 For issues we want to focus on that are most relevant at any given time, please see the issues scoped to our current iteration [here]().
 
+<!--
 ## Activity
 ![Alt](https://repobeats.axiom.co/api/embed/d8d42dc7013c583d48502fe84223ce417c502c23.svg "Repobeats analytics image")
+-->
 
 ## License
 When you create a ScribbleLab account, you are agreeing to our [License Agreement](LICENSE_AGREEMENT.md) as well as the licenses of our third-party packages. 
