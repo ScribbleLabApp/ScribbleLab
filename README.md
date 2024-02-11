@@ -1,8 +1,11 @@
-![Pre-order_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_121217](https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/7486cc03-d3aa-4a5c-9d23-c153e536a89b)![Pre-order_on_the_App_Store_Badge_US-UK_RGB_blk_121217](https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/61de547e-25c1-44c8-8b88-db07107d757d)<p align="center">
+<!--![Pre-order_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_121217](https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/7486cc03-d3aa-4a5c-9d23-c153e536a89b)![Pre-order_on_the_App_Store_Badge_US-UK_RGB_blk_121217](https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/61de547e-25c1-44c8-8b88-db07107d757d)<p align="center">
   <img src="https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/d0f29969-ca3a-42c8-91d4-a3d437226ed9" alt="Logo" height="128">
   <h1 align="center">ScribbleLab for iPadOS and macOS</h1>
 </p>
+-->
+![scribblelab header](https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/eb1953ca-f14f-43ba-84d9-a50b7db93303)
 
+<!--
 <p align="center">
   <a aria-label="Follow ScribbleLabApp on Github" href="https://github.com/ScribbleLabApp" target="_blank">
     <img alt="" src="https://img.shields.io/badge/Follow%20@ScribbleLabApp-black.svg?style=for-the-badge&logo=Github">
@@ -14,6 +17,8 @@
     <img alt="" src="https://img.shields.io/badge/Join%20the%20community%20-black.svg?style=for-the-badge&logo=Discord">
   </a>
 </p>
+-->
+## ScribbleLab for iOS, macOS and visionOS
 
 ScribbleLab is a customizable text editor built by students, for students, written entirely and unapologetically for iOS, iPadOS, and macOS.
 
@@ -30,11 +35,7 @@ We offer:
 > [!IMPORTANT]
 > ScribbleLab is currently in development and not yet ready for production use. You are welcome to test the [latest alpha/dev build](https://github.com/ScribbleLabApp/ScribbleLab/releases/latest) at your own risk. We welcome feedback [here](https://github.com/ScribbleLabApp/ScribbleLab/issues).
 
-[![CI-ScribbleLab](https://github.com/ScribbleLabApp/ScribbleLab/actions/workflows/CI-ScribbleLab.yml/badge.svg)](https://github.com/ScribbleLabApp/ScribbleLab/actions/workflows/CI-ScribbleLab.yml)
-[![SwiftLint](https://github.com/ScribbleLabApp/ScribbleLab/actions/workflows/lint.yml/badge.svg)](https://github.com/ScribbleLabApp/ScribbleLab/actions/workflows/lint.yml)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/BlockSyncHQ/blocksync)
-
-This repository is available in different languages:
+This README is available in different languages:
 [English](https://github.com/ScribbleLabApp/ScribbleLab/tree/main) · [Deutsch](https://github.com/ScribbleLabApp/docs/blob/main/translations/README~de.md)
 
 ## Motivation
