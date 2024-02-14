@@ -3,6 +3,7 @@ name: Update SPM
 on:
   schedule:
     - cron: '0 0 */2 * *'  # Run every 2 days
+  workflow_dispatch:
 
 jobs:
   update-dependencies:
