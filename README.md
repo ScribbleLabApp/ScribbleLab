@@ -1,17 +1,9 @@
 ![Header](https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/eb1953ca-f14f-43ba-84d9-a50b7db93303)
 
 <!--
-<p align="center">
-  <a aria-label="Follow ScribbleLabApp on Github" href="https://github.com/ScribbleLabApp" target="_blank">
-    <img alt="" src="https://img.shields.io/badge/Follow%20@ScribbleLabApp-black.svg?style=for-the-badge&logo=Github">
-  </a>
-  <a aria-label="Read the Documentation" href="scribblelabapp.github.io/docs/" target="_blank">
-    <img alt="" src="https://img.shields.io/badge/Documentation-black.svg?style=for-the-badge&logo=readthedocs&logoColor=blue">
-  </a>
-  <a aria-label="Join the community on Discord" href="https://discord.gg/UUjMpKRqXM" target="_blank">
-    <img alt="" src="https://img.shields.io/badge/Join%20the%20community%20-black.svg?style=for-the-badge&logo=Discord">
-  </a>
-</p>
+  TODO's:
+    - link to related repositories
+    - add translations
 -->
 
 ## ScribbleLab for iOS, macOS and visionOS
@@ -101,3 +93,10 @@ When you create a ScribbleLab account, you are agreeing to our [License Agreemen
 This open-source project has been licensed under two separate licenses. The Apache 2.0 License applies to the entirety of the project, while the AGPL 3.0 License applies specifically to ScribbleLab's Auth code and service. The Apache 2.0 License is a permissive license that allows for the distribution of the software under certain terms and conditions. On the other hand, the AGPL 3.0 License is a copyleft license that requires any modifications or derivatives of the code to be released under the same license. It is important to note that the licenses are not interchangeable, and adherence to both is necessary for proper use and distribution of the project.
 
 [ScribbleLab's main LICENSE](LICENSE) · [ScribbleLab's Auth LICENSE](LICENSE-AUTH)
+
+## Support Us
+Your support is valuable to us and helps us dedicate more time to enhancing and maintaining this repository. Here's how you can contribute:
+
+**⭐️ Leave a Star**: If you find this repository useful or interesting, please consider leaving a star on GitHub. Your stars help us gain visibility and encourage others in the community to discover and benefit from this work.
+
+**📲 Share with Friends:** If you like the idea behind this project, please share it with your friends, colleagues, or anyone who might find it valuable.
