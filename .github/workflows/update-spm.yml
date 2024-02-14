@@ -1,9 +1,8 @@
-name: Update Swift Dependencies
+name: Update SPM
 
 on:
-  pull_request:
-    paths:
-      - '.github/workflows/update-dependencies.yml'
+  schedule:
+    - cron: '0 0 */2 * *'  # Run every 2 days
 
 jobs:
   update-dependencies:
@@ -18,10 +17,25 @@ jobs:
         xcodebuild -resolvePackageDependencies
         swift package update
 
+    - name: Check for changes
+      id: check_changes
+      run: |
+        git diff --exit-code || echo "::set-output name=changes::true"
+
     - name: Commit and push changes
+      if: steps.check_changes.outputs.changes == 'true'
       run: |
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
+        git checkout -b auto-update-dependencies
         git add .
-        git commit -m "Update dependencies"
-        git push
+        git commit -m "Auto-update dependencies"
+        git push origin auto-update-dependencies
+
+    - name: Create Pull Request
+      if: steps.check_changes.outputs.changes == 'true'
+      uses: peter-evans/create-pull-request@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        commit-message: "Auto-update dependencies"
+        branch: auto-update-dependencies
