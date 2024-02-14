@@ -21,8 +21,9 @@ ScribbleLab is a revolutionary text editor designed exclusively for students, de
 > [!NOTE]
 > ScribbleLab is currently in development and not yet ready for production use. You are welcome to test the [latest alpha/dev build](https://github.com/ScribbleLabApp/ScribbleLab/releases/latest) at your own risk. We welcome feedback [here](https://github.com/ScribbleLabApp/ScribbleLab/issues).
 
+### Translations
 This README is available in different languages:
-[English](https://github.com/ScribbleLabApp/ScribbleLab/tree/main) · [Deutsch](https://github.com/ScribbleLabApp/docs/blob/main/translations/README~de.md)
+[English](https://github.com/ScribbleLabApp/ScribbleLab/tree/main) · [Deutsch](https://github.com/ScribbleLabApp/docs/blob/main/translations/README~de.md) · [Italiano `(non ancora disponibile)`]() · [日本語 `(まだ利用できません)`]()
 
 ## Motivation
 We at ScribbleLab found that the existing text editors on the market were too complicated, lacked essential features, or were difficult to customize for our specific needs. 
