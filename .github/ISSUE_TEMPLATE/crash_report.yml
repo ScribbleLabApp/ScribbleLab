@@ -1,7 +1,7 @@
 name: 🧨 Crash Report
 description: Something is not working as expected.
-title: 🧨 <crash report>
-labels: crash
+title: "[Crash]: <description>"
+labels: "P3", "type: crash", "needs review"
 
 body:
   - type: markdown

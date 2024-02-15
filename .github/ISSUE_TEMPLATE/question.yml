@@ -1,7 +1,7 @@
 name: 🙋 Question
 description: Questions about this project
-title: 🙋 <feature title>
-labels: question
+title: "[Question]: <description>"
+labels: "type: question"
 
 body:
   - type: textarea
