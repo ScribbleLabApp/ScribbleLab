@@ -1,7 +1,7 @@
 name: 🔴 Bug report
 description: Something is not working as expected.
-title: 🔴 <bug name>
-labels: bug
+title: "[BUG]: <description>"
+labels: "type: bug"
 
 body:
   - type: markdown
