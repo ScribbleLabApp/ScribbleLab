@@ -235,15 +235,6 @@
       }
     },
     {
-      "identity" : "swiftrui",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Sweekwang/SwiftRUI.git",
-      "state" : {
-        "branch" : "main",
-        "revision" : "647109cb9f2f7809914d2c5462673dcd1a7f79c4"
-      }
-    },
-    {
       "identity" : "swiftui-introspect",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/siteline/SwiftUI-Introspect",

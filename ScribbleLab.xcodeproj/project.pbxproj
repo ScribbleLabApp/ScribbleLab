@@ -1779,7 +1779,6 @@
 				38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				38E5BBB22AE41F2900FFFE7C /* XCRemoteSwiftPackageReference "Updates" */,
 				380D93912AE4280900277D2D /* XCRemoteSwiftPackageReference "Kingfisher" */,
-				382520E02AEE671C002ECED2 /* XCRemoteSwiftPackageReference "SwiftRUI" */,
 				381792632AFFC017002A4551 /* XCRemoteSwiftPackageReference "AlertToast" */,
 				38A5E9C02B03F0140037C668 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
 				380BC6372B26029600DCF442 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */,
@@ -3185,14 +3184,6 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.3.9;
-			};
-		};
-		382520E02AEE671C002ECED2 /* XCRemoteSwiftPackageReference "SwiftRUI" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Sweekwang/SwiftRUI.git";
-			requirement = {
-				branch = main;
-				kind = branch;
 			};
 		};
 		385F78AD2AD5E11C0096E504 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
