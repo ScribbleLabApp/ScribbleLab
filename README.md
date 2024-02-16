@@ -13,6 +13,9 @@ ScribbleLab is a revolutionary text editor designed exclusively for students, de
 > [!NOTE]
 > ScribbleLab is currently in development and not yet ready for production use. You are welcome to test the [latest alpha/dev build](https://github.com/ScribbleLabApp/ScribbleLab/releases/latest) at your own risk. We welcome feedback [here](https://github.com/ScribbleLabApp/ScribbleLab/issues).
 
+> [!WARNING]
+> ScribbleLab is not working as expected on iOS 17.4 beta. Please use Xcode 15.2 and iOS 17.3.1. Our developers are currently investigating this issue.
+
 ### Translations
 This README is available in different languages:
 [English](https://github.com/ScribbleLabApp/ScribbleLab/tree/main) · [Deutsch](https://github.com/ScribbleLabApp/docs/blob/main/translations/README~de.md) · [Italiano `(non ancora disponibile)`]() · [日本語 `(まだ利用できません)`]()
