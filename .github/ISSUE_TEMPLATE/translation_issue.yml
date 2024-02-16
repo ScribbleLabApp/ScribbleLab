@@ -2,9 +2,9 @@ name: 🌎 Translation Issue
 description: Something is not working as expected.
 title: "[i18n]: Translation issue in {description}"
 labels: 
-  - "scope: i18n"
-  - "P3"
-  - "good first issue"
+  - "scope: i18n",
+  - "P3",
+  - "good first issue",
   - "help wanted"
 
 body:

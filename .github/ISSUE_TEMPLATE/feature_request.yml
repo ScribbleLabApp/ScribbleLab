@@ -2,8 +2,8 @@ name: ✨ Feature request
 description: Suggest an idea for this project
 title: "[Feature]: {description}"
 labels: 
-  - "type: feature"
-  - "needs review"
+  - "type: feature",
+  - "needs review",
   - "help wanted"
 
 body:
