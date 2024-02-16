@@ -33,7 +33,7 @@
 		<key>SLShareExtension.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>3</integer>
 		</dict>
 		<key>SLStickerPack.xcscheme_^#shared#^_</key>
 		<dict>
@@ -48,7 +48,7 @@
 		<key>ScribbleLab MacOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>4</integer>
 		</dict>
 		<key>ScribbleLab macOS.xcscheme_^#shared#^_</key>
 		<dict>
