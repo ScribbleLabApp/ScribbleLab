@@ -41,6 +41,7 @@ struct AskNotificationView: View {
             VStack(spacing: 25) {
                 Button {
                     // TODO: PermissionKit ~> ask NotificationPermission
+                    print("DEBUG: Ask for NotificationPermission")
                 } label: {
                     Text("Turn on notifications")
                         .font(.subheadline)
