@@ -1,6 +1,6 @@
 name: 🙋 Question
 description: Questions about this project
-title: "[Question]: <description>"
+title: "[Question]: {description}"
 labels: "type: question"
 
 body:

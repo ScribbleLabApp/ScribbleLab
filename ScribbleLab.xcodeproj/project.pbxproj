@@ -71,7 +71,6 @@
 		385ABC492B2DEF4C005F90E6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC482B2DEF4C005F90E6 /* Kingfisher */; };
 		385ABC5E2B2DF0C4005F90E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383D238C2B2363490094001E /* AppDelegate.swift */; };
 		385ABC602B2E0AAD005F90E6 /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385ABC5F2B2E0AAC005F90E6 /* Security.swift */; };
-		385ABC662B2E3361005F90E6 /* SLTroubleshootingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385ABC652B2E3361005F90E6 /* SLTroubleshootingView.swift */; };
 		385DC5D52B53EE4A00D1FE6E /* NewsletterSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DC5D42B53EE4A00D1FE6E /* NewsletterSettingsView.swift */; };
 		385DC5D72B53FB0C00D1FE6E /* NotificationSettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DC5D62B53FB0C00D1FE6E /* NotificationSettingsModel.swift */; };
 		385DC5DA2B5402C900D1FE6E /* WhatsNewSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DC5D92B5402C900D1FE6E /* WhatsNewSheetView.swift */; };
@@ -288,7 +287,6 @@
 		3858A77D2AD15E8900FC6319 /* NotificationSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSheetView.swift; sourceTree = "<group>"; };
 		385925A92B77B3C400CB87C2 /* AskNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskNotificationView.swift; sourceTree = "<group>"; };
 		385ABC5F2B2E0AAC005F90E6 /* Security.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Security.swift; sourceTree = "<group>"; };
-		385ABC652B2E3361005F90E6 /* SLTroubleshootingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLTroubleshootingView.swift; sourceTree = "<group>"; };
 		385DC5D42B53EE4A00D1FE6E /* NewsletterSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsletterSettingsView.swift; sourceTree = "<group>"; };
 		385DC5D62B53FB0C00D1FE6E /* NotificationSettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsModel.swift; sourceTree = "<group>"; };
 		385DC5D92B5402C900D1FE6E /* WhatsNewSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewSheetView.swift; sourceTree = "<group>"; };
@@ -883,31 +881,6 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
-		385ABC612B2E3330005F90E6 /* Troubleshooting */ = {
-			isa = PBXGroup;
-			children = (
-				385ABC642B2E334E005F90E6 /* Model */,
-				385ABC622B2E333E005F90E6 /* View */,
-			);
-			path = Troubleshooting;
-			sourceTree = "<group>";
-		};
-		385ABC622B2E333E005F90E6 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				385ABC652B2E3361005F90E6 /* SLTroubleshootingView.swift */,
-			);
-			name = View;
-			path = "../New Group/New Group";
-			sourceTree = "<group>";
-		};
-		385ABC642B2E334E005F90E6 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		385DC5D82B5402B300D1FE6E /* WhatsNew */ = {
 			isa = PBXGroup;
 			children = (
@@ -1144,7 +1117,6 @@
 			children = (
 				387432992B5FAD9C00D7A864 /* Developer */,
 				38BAF7C32B5AF65700BEE6A5 /* Integrations */,
-				385ABC612B2E3330005F90E6 /* Troubleshooting */,
 				387B79342ADEDD860067E08B /* Other */,
 				3868A3E12AD2FCC300D4CAEC /* Profile */,
 				38D5C6912AD2CA5400D943A5 /* Contributors */,
@@ -1152,13 +1124,8 @@
 				38D5C68F2AD2CA4A00D943A5 /* Help */,
 				38D5C68E2AD2CA4600D943A5 /* Info */,
 				38D5C6892AD288E100D943A5 /* Updates */,
-				38D5C6882AD288AC00D943A5 /* Cloud sync */,
-				38D5C6872AD288A500D943A5 /* Extensions */,
-				38D5C6862AD2889900D943A5 /* Collaboration */,
 				38D5C6852AD2888F00D943A5 /* Privacy */,
 				38D5C6842AD2888600D943A5 /* Notifications */,
-				38D5C6832AD2887E00D943A5 /* Accessibility */,
-				38D5C6822AD2887600D943A5 /* ApplePencil */,
 				38D5C6812AD2887000D943A5 /* Units */,
 				38D5C6802AD2886B00D943A5 /* Appereance */,
 				3886B2DD2AD19F34002EF30E /* SLSettingsView.swift */,
@@ -1406,20 +1373,6 @@
 			path = Units;
 			sourceTree = "<group>";
 		};
-		38D5C6822AD2887600D943A5 /* ApplePencil */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ApplePencil;
-			sourceTree = "<group>";
-		};
-		38D5C6832AD2887E00D943A5 /* Accessibility */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Accessibility;
-			sourceTree = "<group>";
-		};
 		38D5C6842AD2888600D943A5 /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
@@ -1435,27 +1388,6 @@
 				381C1DF12B5EF4B200F73B5E /* SLPrivacySettingsView.swift */,
 			);
 			path = Privacy;
-			sourceTree = "<group>";
-		};
-		38D5C6862AD2889900D943A5 /* Collaboration */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Collaboration;
-			sourceTree = "<group>";
-		};
-		38D5C6872AD288A500D943A5 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		38D5C6882AD288AC00D943A5 /* Cloud sync */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Cloud sync";
 			sourceTree = "<group>";
 		};
 		38D5C6892AD288E100D943A5 /* Updates */ = {
@@ -1951,7 +1883,6 @@
 				3868A3E02AD2E2F800D4CAEC /* SLLicenseView.swift in Sources */,
 				38D5C6972AD2CC6200D943A5 /* SLContributorView.swift in Sources */,
 				381C1DE92B5EC73500F73B5E /* SLCircularCheckbox.swift in Sources */,
-				385ABC662B2E3361005F90E6 /* SLTroubleshootingView.swift in Sources */,
 				381C1DED2B5ECEF000F73B5E /* CircleCheckboxModel.swift in Sources */,
 				38ADE8112B1D1253002229A2 /* SLTip.swift in Sources */,
 				38140A6C2AE3FB6F00753FB6 /* ContentViewModel.swift in Sources */,

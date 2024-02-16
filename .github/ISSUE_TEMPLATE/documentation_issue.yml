@@ -1,7 +1,12 @@
 name: 📖 Documentation Issue
 description: Report a missing or wrong documentation
-title: "[Docs]: <description>"
-labels: "scope: docs", "type: feature", "P1", "good first issue", "help wanted"
+title: "[Docs]: {description}"
+labels: 
+  - "scope: docs"
+  - "type: feature"
+  - "P1"
+  - "good first issue"
+  - "help wanted"
 
 body:
   - type: textarea
