@@ -11,16 +11,9 @@
 		38066B4F2AFE9F0E001A88D5 /* SLUpdateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38066B4E2AFE9F0E001A88D5 /* SLUpdateViewModel.swift */; };
 		38066B522AFEA235001A88D5 /* WaitSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38066B512AFEA235001A88D5 /* WaitSheetView.swift */; };
 		380943A32B6E84C600047DA0 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 380943A22B6E84C600047DA0 /* Sparkle */; };
-		380BC6392B26029600DCF442 /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = 380BC6382B26029600DCF442 /* Stripe */; };
-		380BC63B2B26029600DCF442 /* StripeApplePay in Frameworks */ = {isa = PBXBuildFile; productRef = 380BC63A2B26029600DCF442 /* StripeApplePay */; };
-		380BC63D2B26029600DCF442 /* StripeIdentity in Frameworks */ = {isa = PBXBuildFile; productRef = 380BC63C2B26029600DCF442 /* StripeIdentity */; };
-		380BC63F2B26029600DCF442 /* StripePaymentSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 380BC63E2B26029600DCF442 /* StripePaymentSheet */; };
-		380BC6412B26029600DCF442 /* StripePayments in Frameworks */ = {isa = PBXBuildFile; productRef = 380BC6402B26029600DCF442 /* StripePayments */; };
-		380BC6432B26029600DCF442 /* StripePaymentsUI in Frameworks */ = {isa = PBXBuildFile; productRef = 380BC6422B26029600DCF442 /* StripePaymentsUI */; };
 		380BC6462B260BB600DCF442 /* SLShopMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380BC6452B260BB600DCF442 /* SLShopMainView.swift */; };
 		380BC6482B2652A900DCF442 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380BC6472B2652A900DCF442 /* SceneDelegate.swift */; };
 		380D93932AE4280900277D2D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 380D93922AE4280900277D2D /* Kingfisher */; };
-		380D93952AE4289500277D2D /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 380D93942AE4289500277D2D /* FirebaseFirestoreSwift */; };
 		380D93972AE42C6600277D2D /* CompleteRegistartionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380D93962AE42C6600277D2D /* CompleteRegistartionView.swift */; };
 		38140A622AE3F61000753FB6 /* SLAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38140A612AE3F61000753FB6 /* SLAuthService.swift */; };
 		38140A642AE3F6D200753FB6 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38140A632AE3F6D200753FB6 /* LoginViewModel.swift */; };
@@ -72,9 +65,6 @@
 		385ABC352B2DEF4C005F90E6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC342B2DEF4C005F90E6 /* FirebaseAuth */; };
 		385ABC372B2DEF4C005F90E6 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC362B2DEF4C005F90E6 /* FirebaseAuthCombine-Community */; };
 		385ABC392B2DEF4C005F90E6 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC382B2DEF4C005F90E6 /* FirebaseCrashlytics */; };
-		385ABC3B2B2DEF4C005F90E6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC3A2B2DEF4C005F90E6 /* FirebaseFirestore */; };
-		385ABC3D2B2DEF4C005F90E6 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC3C2B2DEF4C005F90E6 /* FirebaseFirestoreCombine-Community */; };
-		385ABC3F2B2DEF4C005F90E6 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC3E2B2DEF4C005F90E6 /* FirebaseFirestoreSwift */; };
 		385ABC412B2DEF4C005F90E6 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC402B2DEF4C005F90E6 /* FirebaseFunctions */; };
 		385ABC432B2DEF4C005F90E6 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC422B2DEF4C005F90E6 /* FirebaseInstallations */; };
 		385ABC452B2DEF4C005F90E6 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC442B2DEF4C005F90E6 /* FirebasePerformance */; };
@@ -178,6 +168,8 @@
 		38D84A462B65624000BE884B /* SLWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D84A452B65624000BE884B /* SLWebView.swift */; };
 		38D84A492B656AA300BE884B /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D84A482B656AA300BE884B /* NewsView.swift */; };
 		38D84A4B2B6663FE00BE884B /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D84A4A2B6663FE00BE884B /* NewsCell.swift */; };
+		38E056502B7FAC3D00A688AE /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 38E0564F2B7FAC3D00A688AE /* FirebaseFirestore */; };
+		38E056522B7FAC3D00A688AE /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 38E056512B7FAC3D00A688AE /* FirebaseFirestoreSwift */; };
 		38E5BBB42AE41F2900FFFE7C /* Updates in Frameworks */ = {isa = PBXBuildFile; productRef = 38E5BBB32AE41F2900FFFE7C /* Updates */; };
 		38E5BBB72AE4244600FFFE7C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5BBB62AE4244600FFFE7C /* User.swift */; };
 		38EA6DE62B441A6100A04754 /* ThemeManager in Frameworks */ = {isa = PBXBuildFile; productRef = 38EA6DE52B441A6100A04754 /* ThemeManager */; };
@@ -189,7 +181,6 @@
 		38FFF9322AE3C18B006719E2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF9312AE3C18B006719E2 /* FirebaseAuth */; };
 		38FFF9342AE3C18B006719E2 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF9332AE3C18B006719E2 /* FirebaseCrashlytics */; };
 		38FFF9362AE3C18B006719E2 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF9352AE3C18B006719E2 /* FirebaseDatabase */; };
-		38FFF9382AE3C18B006719E2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF9372AE3C18B006719E2 /* FirebaseFirestore */; };
 		38FFF93A2AE3C18B006719E2 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF9392AE3C18B006719E2 /* FirebaseInstallations */; };
 		38FFF93C2AE3C18B006719E2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF93B2AE3C18B006719E2 /* FirebaseStorage */; };
 		38FFF9402AE3C55F006719E2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38FFF93F2AE3C55F006719E2 /* GoogleService-Info.plist */; };
@@ -411,12 +402,9 @@
 				385ABC372B2DEF4C005F90E6 /* FirebaseAuthCombine-Community in Frameworks */,
 				385ABC352B2DEF4C005F90E6 /* FirebaseAuth in Frameworks */,
 				385ABC432B2DEF4C005F90E6 /* FirebaseInstallations in Frameworks */,
-				385ABC3D2B2DEF4C005F90E6 /* FirebaseFirestoreCombine-Community in Frameworks */,
 				385ABC392B2DEF4C005F90E6 /* FirebaseCrashlytics in Frameworks */,
-				385ABC3F2B2DEF4C005F90E6 /* FirebaseFirestoreSwift in Frameworks */,
 				385ABC2D2B2DEF4C005F90E6 /* GoogleSignIn in Frameworks */,
 				385ABC492B2DEF4C005F90E6 /* Kingfisher in Frameworks */,
-				385ABC3B2B2DEF4C005F90E6 /* FirebaseFirestore in Frameworks */,
 				385ABC2F2B2DEF4C005F90E6 /* GoogleSignInSwift in Frameworks */,
 				385ABC452B2DEF4C005F90E6 /* FirebasePerformance in Frameworks */,
 				385ABC412B2DEF4C005F90E6 /* FirebaseFunctions in Frameworks */,
@@ -429,35 +417,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				38EACB152B32D4BE007E7629 /* Toast in Frameworks */,
-				380BC6432B26029600DCF442 /* StripePaymentsUI in Frameworks */,
 				38A5E9C22B03F0140037C668 /* iPhoneNumberField in Frameworks */,
 				38FFF9362AE3C18B006719E2 /* FirebaseDatabase in Frameworks */,
 				38FFF93A2AE3C18B006719E2 /* FirebaseInstallations in Frameworks */,
 				38A24C732AED2A7700F81F07 /* FirebaseAnalytics in Frameworks */,
-				380BC63F2B26029600DCF442 /* StripePaymentSheet in Frameworks */,
 				385F78AF2AD5E11C0096E504 /* GoogleSignIn in Frameworks */,
 				381792652AFFC017002A4551 /* AlertToast in Frameworks */,
 				38E5BBB42AE41F2900FFFE7C /* Updates in Frameworks */,
 				3861EF5A2B7934D900071F3B /* SlideOverCard in Frameworks */,
 				38D0CF512B6796C90051B356 /* NotificationPermission in Frameworks */,
-				380BC63D2B26029600DCF442 /* StripeIdentity in Frameworks */,
 				383588462AFEDC6F00EEA1C3 /* FirebasePerformance in Frameworks */,
 				38EA6DE62B441A6100A04754 /* ThemeManager in Frameworks */,
 				380D93932AE4280900277D2D /* Kingfisher in Frameworks */,
-				380D93952AE4289500277D2D /* FirebaseFirestoreSwift in Frameworks */,
-				380BC6412B26029600DCF442 /* StripePayments in Frameworks */,
 				38FFF9342AE3C18B006719E2 /* FirebaseCrashlytics in Frameworks */,
 				38FFF9322AE3C18B006719E2 /* FirebaseAuth in Frameworks */,
-				380BC63B2B26029600DCF442 /* StripeApplePay in Frameworks */,
+				38E056502B7FAC3D00A688AE /* FirebaseFirestore in Frameworks */,
 				38A24C752AED2A7700F81F07 /* FirebaseAnalyticsSwift in Frameworks */,
 				38D0CF532B6796C90051B356 /* PhotoLibraryPermission in Frameworks */,
 				38D0CF4F2B6796C90051B356 /* FaceIDPermission in Frameworks */,
 				38FFF93C2AE3C18B006719E2 /* FirebaseStorage in Frameworks */,
 				38D0CF4D2B6796C90051B356 /* CameraPermission in Frameworks */,
 				385F78B12AD5E11C0096E504 /* GoogleSignInSwift in Frameworks */,
-				38FFF9382AE3C18B006719E2 /* FirebaseFirestore in Frameworks */,
 				3802CBFC2B342F980051F6D8 /* LocalConsole in Frameworks */,
-				380BC6392B26029600DCF442 /* Stripe in Frameworks */,
+				38E056522B7FAC3D00A688AE /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1653,9 +1635,6 @@
 				385ABC342B2DEF4C005F90E6 /* FirebaseAuth */,
 				385ABC362B2DEF4C005F90E6 /* FirebaseAuthCombine-Community */,
 				385ABC382B2DEF4C005F90E6 /* FirebaseCrashlytics */,
-				385ABC3A2B2DEF4C005F90E6 /* FirebaseFirestore */,
-				385ABC3C2B2DEF4C005F90E6 /* FirebaseFirestoreCombine-Community */,
-				385ABC3E2B2DEF4C005F90E6 /* FirebaseFirestoreSwift */,
 				385ABC402B2DEF4C005F90E6 /* FirebaseFunctions */,
 				385ABC422B2DEF4C005F90E6 /* FirebaseInstallations */,
 				385ABC442B2DEF4C005F90E6 /* FirebasePerformance */,
@@ -1689,23 +1668,15 @@
 				38FFF9312AE3C18B006719E2 /* FirebaseAuth */,
 				38FFF9332AE3C18B006719E2 /* FirebaseCrashlytics */,
 				38FFF9352AE3C18B006719E2 /* FirebaseDatabase */,
-				38FFF9372AE3C18B006719E2 /* FirebaseFirestore */,
 				38FFF9392AE3C18B006719E2 /* FirebaseInstallations */,
 				38FFF93B2AE3C18B006719E2 /* FirebaseStorage */,
 				38E5BBB32AE41F2900FFFE7C /* Updates */,
 				380D93922AE4280900277D2D /* Kingfisher */,
-				380D93942AE4289500277D2D /* FirebaseFirestoreSwift */,
 				38A24C722AED2A7700F81F07 /* FirebaseAnalytics */,
 				38A24C742AED2A7700F81F07 /* FirebaseAnalyticsSwift */,
 				383588452AFEDC6F00EEA1C3 /* FirebasePerformance */,
 				381792642AFFC017002A4551 /* AlertToast */,
 				38A5E9C12B03F0140037C668 /* iPhoneNumberField */,
-				380BC6382B26029600DCF442 /* Stripe */,
-				380BC63A2B26029600DCF442 /* StripeApplePay */,
-				380BC63C2B26029600DCF442 /* StripeIdentity */,
-				380BC63E2B26029600DCF442 /* StripePaymentSheet */,
-				380BC6402B26029600DCF442 /* StripePayments */,
-				380BC6422B26029600DCF442 /* StripePaymentsUI */,
 				38EACB142B32D4BE007E7629 /* Toast */,
 				3802CBFB2B342F980051F6D8 /* LocalConsole */,
 				38EA6DE52B441A6100A04754 /* ThemeManager */,
@@ -1714,6 +1685,8 @@
 				38D0CF502B6796C90051B356 /* NotificationPermission */,
 				38D0CF522B6796C90051B356 /* PhotoLibraryPermission */,
 				3861EF592B7934D900071F3B /* SlideOverCard */,
+				38E0564F2B7FAC3D00A688AE /* FirebaseFirestore */,
+				38E056512B7FAC3D00A688AE /* FirebaseFirestoreSwift */,
 			);
 			productName = ScribbleLab;
 			productReference = 38AE9C982AD0750F00B761E8 /* ScribbleLab.app */;
@@ -3307,45 +3280,10 @@
 			package = 380943A12B6E84C600047DA0 /* XCRemoteSwiftPackageReference "Sparkle" */;
 			productName = Sparkle;
 		};
-		380BC6382B26029600DCF442 /* Stripe */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 380BC6372B26029600DCF442 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
-			productName = Stripe;
-		};
-		380BC63A2B26029600DCF442 /* StripeApplePay */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 380BC6372B26029600DCF442 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
-			productName = StripeApplePay;
-		};
-		380BC63C2B26029600DCF442 /* StripeIdentity */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 380BC6372B26029600DCF442 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
-			productName = StripeIdentity;
-		};
-		380BC63E2B26029600DCF442 /* StripePaymentSheet */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 380BC6372B26029600DCF442 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
-			productName = StripePaymentSheet;
-		};
-		380BC6402B26029600DCF442 /* StripePayments */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 380BC6372B26029600DCF442 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
-			productName = StripePayments;
-		};
-		380BC6422B26029600DCF442 /* StripePaymentsUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 380BC6372B26029600DCF442 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
-			productName = StripePaymentsUI;
-		};
 		380D93922AE4280900277D2D /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 380D93912AE4280900277D2D /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
-		};
-		380D93942AE4289500277D2D /* FirebaseFirestoreSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestoreSwift;
 		};
 		381792642AFFC017002A4551 /* AlertToast */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -3391,21 +3329,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseCrashlytics;
-		};
-		385ABC3A2B2DEF4C005F90E6 /* FirebaseFirestore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestore;
-		};
-		385ABC3C2B2DEF4C005F90E6 /* FirebaseFirestoreCombine-Community */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseFirestoreCombine-Community";
-		};
-		385ABC3E2B2DEF4C005F90E6 /* FirebaseFirestoreSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestoreSwift;
 		};
 		385ABC402B2DEF4C005F90E6 /* FirebaseFunctions */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -3477,6 +3400,16 @@
 			package = 38D0CF4B2B6796C90051B356 /* XCRemoteSwiftPackageReference "PermissionsKit" */;
 			productName = PhotoLibraryPermission;
 		};
+		38E0564F2B7FAC3D00A688AE /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		38E056512B7FAC3D00A688AE /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
 		38E5BBB32AE41F2900FFFE7C /* Updates */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 38E5BBB22AE41F2900FFFE7C /* XCRemoteSwiftPackageReference "Updates" */;
@@ -3506,11 +3439,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseDatabase;
-		};
-		38FFF9372AE3C18B006719E2 /* FirebaseFirestore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestore;
 		};
 		38FFF9392AE3C18B006719E2 /* FirebaseInstallations */ = {
 			isa = XCSwiftPackageProductDependency;
