@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct AskNotificationView: View {
+    @Environment(\.dismiss) var dismiss
     var body: some View {
         VStack {
             Spacer()
@@ -39,7 +40,7 @@ struct AskNotificationView: View {
             
             VStack(spacing: 25) {
                 Button {
-                    
+                    // TODO: PermissionKit ~> ask NotificationPermission
                 } label: {
                     Text("Turn on notifications")
                         .font(.subheadline)
@@ -55,7 +56,7 @@ struct AskNotificationView: View {
                 
                 
                 Button {
-                    
+                    dismiss()
                 } label: {
                     Text("Another time")
                         .font(.subheadline)
