@@ -2,8 +2,8 @@ name: 🧨 Crash Report
 description: Something is not working as expected.
 title: "[Crash]: {description}"
 labels: 
-  - "P3",
-  - "type: crash",
+  - "P3"
+  - "type: crash"
   - "needs review"
 
 body:

@@ -2,7 +2,7 @@ name: 🔴 Bug report
 description: Something is not working as expected.
 title: "[BUG]: {description}"
 labels: 
-  - "type: bug",
+  - "type: bug"
   - "needs review"
 
 body:
