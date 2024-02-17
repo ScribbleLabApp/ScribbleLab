@@ -103,3 +103,31 @@ Your support is valuable to us and helps us dedicate more time to enhancing and 
 **⭐️ Leave a Star**: If you find this repository useful or interesting, please consider leaving a star on GitHub. Your stars help us gain visibility and encourage others in the community to discover and benefit from this work.
 
 **📲 Share with Friends:** If you like the idea behind this project, please share it with your friends, colleagues, or anyone who might find it valuable.
+
+
+## Related Repositories
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/ScribbleLabApp/ScribbleLink">
+        <img src="ScribbleLab/Ressources/Assets.xcassets/Logos/Documentation.imageset/ScribbleLab.png" height="128">
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;ScribbleLink&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      </a>
+    </td>
+  <!---->
+  <td align="center">
+      <a href="https://github.com/ScribbleLabApp/ScribbleCompose">
+        <img src="ScribbleLab/Ressources/Assets.xcassets/Logos/Documentation.imageset/ScribbleLab.png" height="128">
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;ScribbleCompose&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      </a>
+    </td>
+  <!---->
+  <td align="center">
+      <a href="https://github.com/ScribbleLabApp/AvatarKit">
+        <img src="https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/965258c0-6947-4742-ba4e-90523a808df1" width="128" height="128">
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AvatarKit&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      </a>
+    </td>
+  </tr>
+</table>
