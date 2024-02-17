@@ -26,23 +26,37 @@ struct SLSettingsView: View {
     
     var body: some View {
         NavigationStack {
-            List {
+            
+            Form {
+                Section {
+                    HStack {
+                        Image(systemName: "heart.square.fill")
+                            .resizable()
+                            .frame(width: 25, height: 25)
+                            .padding(.horizontal, 7)
+                            .foregroundStyle(.primary)
+                        
+                        VStack(alignment: .leading) {
+                            Text("Thank You!")
+                                .font(.headline)
+                            Text("You have successfully bought the premium version.")
+                        }
+                    }
+                }
+                
                 Section {
                     NavigationLink {
                         ProfileView()
                     } label: {
                         // TODO: Delete MOCK data
-                        // let the user updload an profile picture and store it on their device
-                        // also fetch their username and bio/description
-                        // FIXME: Maybe change the bio to an streak feature
                         HStack {
                             Image(systemName: "person")
                                 .resizable()
                                 .frame(width: 25, height: 25)
-//                                .clipShape(Circle())
+                            //                                .clipShape(Circle())
                                 .foregroundStyle(.orange)
                             VStack(alignment: .leading) {
-                                Text("Test0101") // username
+                                Text("Test-Account") // username
                                     .font(.title2)
                                 Text("Premium (Development)") // Subscription status
                                     .font(.footnote)
@@ -54,6 +68,11 @@ struct SLSettingsView: View {
                         AvatarView()
                     } label: {
                         Label("Avartar", systemImage: "sparkles")
+                    }
+                    NavigationLink {
+                        
+                    } label: {
+                        Label("Streak", systemImage: "flame")
                     }
                 } header: {
                     Text("Profile")
@@ -111,11 +130,11 @@ struct SLSettingsView: View {
                     .alert(isPresented: $resetAlertIsPresented) {
                         // swiftlint:disable line_length
                         Alert(title: Text("Important message"), message: Text("Do you really want to reset your customized data. This operation cannot be undone"), primaryButton: .default(Text("Cancel"), action: {}), secondaryButton: .destructive(Text("Confirm").fontWeight(.semibold), action: {
-                                // TODO: Call the to factory setting func
-                                
-                            }))
+                            // TODO: Call the to factory setting func
+                            
+                        }))
                         // swiftlint:enable line_length
-                        }
+                    }
                     Button {
                         deleteAccountIsPresented.toggle()
                     } label: {
@@ -130,7 +149,7 @@ struct SLSettingsView: View {
                         }))
                         // swiftlint:enable line_length
                     }
-                        .foregroundStyle(Color.red)
+                    .foregroundStyle(Color.red)
                 } header: {
                     Text("Dangerzone")
                 } footer: {
