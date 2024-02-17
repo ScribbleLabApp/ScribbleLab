@@ -88,7 +88,7 @@ struct SLHelpView: View {
                 
                 Section {
                     NavigationLink {
-                        SLTroubleshootingView()
+//                        SLTroubleshootingView()
                     } label: {
                         Label("Troubleshooting", systemImage: "exclamationmark.triangle")
                     }

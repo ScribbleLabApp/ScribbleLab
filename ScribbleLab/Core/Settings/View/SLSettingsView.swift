@@ -47,8 +47,13 @@ struct SLSettingsView: View {
                                 Text("Premium (Development)") // Subscription status
                                     .font(.footnote)
                             }
-                            
+                            .padding(.horizontal, 12)
                         }
+                    }
+                    NavigationLink {
+                        AvatarView()
+                    } label: {
+                        Label("Avartar", systemImage: "sparkles")
                     }
                 } header: {
                     Text("Profile")

@@ -77,9 +77,6 @@
 		385EEEF02B5C0D87004A0E1F /* SLAppleSchoolworkIntegrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385EEEEF2B5C0D87004A0E1F /* SLAppleSchoolworkIntegrationView.swift */; };
 		385F468E2AD31CD100D85410 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F468D2AD31CD100D85410 /* SignUpView.swift */; };
 		385F788E2AD5C56E0096E504 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 385F788D2AD5C56E0096E504 /* Localizable.xcstrings */; };
-		385F78992AD5C84C0096E504 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385F78982AD5C84C0096E504 /* Stickers.xcassets */; };
-		385F789D2AD5C84C0096E504 /* SLStickerPack.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 385F78962AD5C84B0096E504 /* SLStickerPack.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		385F78A52AD5C86B0096E504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38AE9CA12AD0751100B761E8 /* Assets.xcassets */; };
 		385F78A82AD5D2170096E504 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385F78A72AD5D2170096E504 /* Launch Screen.storyboard */; };
 		385F78AC2AD5DDEE0096E504 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 385F78AB2AD5DDED0096E504 /* Settings.bundle */; };
 		385F78AF2AD5E11C0096E504 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 385F78AE2AD5E11C0096E504 /* GoogleSignIn */; };
@@ -107,6 +104,8 @@
 		387F7F902B12265A001CC150 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F7F8F2B12265A001CC150 /* Constants.swift */; };
 		387F7F962B12387E001CC150 /* DrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F7F952B12387E001CC150 /* DrawingViewController.swift */; };
 		3883D3012AFF9D6F007C00A3 /* document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3883D3002AFF9D6F007C00A3 /* document.swift */; };
+		388472872B80C35F00D61AEE /* CreateAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388472862B80C35F00D61AEE /* CreateAvatarView.swift */; };
+		388472892B80C4FE00D61AEE /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388472882B80C4FE00D61AEE /* AvatarView.swift */; };
 		3886B2DE2AD19F34002EF30E /* SLSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886B2DD2AD19F34002EF30E /* SLSettingsView.swift */; };
 		3886B2E12AD1ABC0002EF30E /* SLSideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886B2E02AD1ABC0002EF30E /* SLSideBarView.swift */; };
 		3889688B2AF143C700F67F08 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3889688A2AF143C700F67F08 /* SettingsViewModel.swift */; };
@@ -188,13 +187,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		385F789B2AD5C84C0096E504 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 38AE9C902AD0750F00B761E8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 385F78952AD5C84B0096E504;
-			remoteInfo = SLStickerPack;
-		};
 		38AE9CAD2AD0751100B761E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 38AE9C902AD0750F00B761E8 /* Project object */;
@@ -218,7 +210,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				385F789D2AD5C84C0096E504 /* SLStickerPack.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,9 +287,6 @@
 		385F788B2AD5C4530096E504 /* RC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = RC.xcconfig; sourceTree = "<group>"; };
 		385F788C2AD5C4690096E504 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		385F788D2AD5C56E0096E504 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
-		385F78962AD5C84B0096E504 /* SLStickerPack.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SLStickerPack.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		385F78982AD5C84C0096E504 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
-		385F789A2AD5C84C0096E504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		385F78A62AD5D0C50096E504 /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
 		385F78A72AD5D2170096E504 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		385F78AB2AD5DDED0096E504 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
@@ -328,6 +316,8 @@
 		387F7F8F2B12265A001CC150 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		387F7F952B12387E001CC150 /* DrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewController.swift; sourceTree = "<group>"; };
 		3883D3002AFF9D6F007C00A3 /* document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = document.swift; sourceTree = "<group>"; };
+		388472862B80C35F00D61AEE /* CreateAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAvatarView.swift; sourceTree = "<group>"; };
+		388472882B80C4FE00D61AEE /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		3886B2DD2AD19F34002EF30E /* SLSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLSettingsView.swift; sourceTree = "<group>"; };
 		3886B2E02AD1ABC0002EF30E /* SLSideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLSideBarView.swift; sourceTree = "<group>"; };
 		3889688A2AF143C700F67F08 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
@@ -916,15 +906,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		385F78972AD5C84B0096E504 /* SLStickerPack */ = {
-			isa = PBXGroup;
-			children = (
-				385F78982AD5C84C0096E504 /* Stickers.xcassets */,
-				385F789A2AD5C84C0096E504 /* Info.plist */,
-			);
-			path = SLStickerPack;
-			sourceTree = "<group>";
-		};
 		385F78B72AD5ECAD0096E504 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -1112,9 +1093,50 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		388472812B80C21400D61AEE /* Avartar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Avartar;
+			sourceTree = "<group>";
+		};
+		388472822B80C33700D61AEE /* Avartar */ = {
+			isa = PBXGroup;
+			children = (
+				388472852B80C34A00D61AEE /* Service */,
+				388472842B80C34300D61AEE /* View */,
+				388472832B80C33E00D61AEE /* Model */,
+			);
+			path = Avartar;
+			sourceTree = "<group>";
+		};
+		388472832B80C33E00D61AEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		388472842B80C34300D61AEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				388472862B80C35F00D61AEE /* CreateAvatarView.swift */,
+				388472882B80C4FE00D61AEE /* AvatarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		388472852B80C34A00D61AEE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		3886B2DB2AD19F26002EF30E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				388472812B80C21400D61AEE /* Avartar */,
 				387432992B5FAD9C00D7A864 /* Developer */,
 				38BAF7C32B5AF65700BEE6A5 /* Integrations */,
 				387B79342ADEDD860067E08B /* Other */,
@@ -1209,7 +1231,6 @@
 				38ADB4D82AF6952C0019375B /* Documentation.docc */,
 				3858A76D2AD1498D00FC6319 /* Configs */,
 				38AE9C9A2AD0750F00B761E8 /* ScribbleLab */,
-				385F78972AD5C84B0096E504 /* SLStickerPack */,
 				38AE9CAF2AD0751100B761E8 /* ScribbleLabTests */,
 				38AE9CB92AD0751100B761E8 /* ScribbleLabUITests */,
 				38760F132B2CB44600CC73BD /* ScribbleLab MacOS */,
@@ -1224,7 +1245,6 @@
 				38AE9C982AD0750F00B761E8 /* ScribbleLab.app */,
 				38AE9CAC2AD0751100B761E8 /* ScribbleLabTests.xctest */,
 				38AE9CB62AD0751100B761E8 /* ScribbleLabUITests.xctest */,
-				385F78962AD5C84B0096E504 /* SLStickerPack.appex */,
 				38760F122B2CB44500CC73BD /* ScribbleLab MacOS.app */,
 			);
 			name = Products;
@@ -1491,6 +1511,7 @@
 		38E5BBB52AE4243D00FFFE7C /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				388472822B80C33700D61AEE /* Avartar */,
 				38E5BBB62AE4244600FFFE7C /* User.swift */,
 				385ABC5F2B2E0AAC005F90E6 /* Security.swift */,
 			);
@@ -1531,21 +1552,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		385F78952AD5C84B0096E504 /* SLStickerPack */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 385F789E2AD5C84C0096E504 /* Build configuration list for PBXNativeTarget "SLStickerPack" */;
-			buildPhases = (
-				385F78942AD5C84B0096E504 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SLStickerPack;
-			productName = SLStickerPack;
-			productReference = 385F78962AD5C84B0096E504 /* SLStickerPack.appex */;
-			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
-		};
 		38760F112B2CB44500CC73BD /* ScribbleLab MacOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38760F252B2CB44700CC73BD /* Build configuration list for PBXNativeTarget "ScribbleLab MacOS" */;
@@ -1591,7 +1597,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				385F789C2AD5C84C0096E504 /* PBXTargetDependency */,
 			);
 			name = ScribbleLab;
 			packageProductDependencies = (
@@ -1670,9 +1675,6 @@
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					385F78952AD5C84B0096E504 = {
-						CreatedOnToolsVersion = 15.0;
-					};
 					38760F112B2CB44500CC73BD = {
 						CreatedOnToolsVersion = 15.1;
 					};
@@ -1730,21 +1732,11 @@
 				38760F112B2CB44500CC73BD /* ScribbleLab MacOS */,
 				38AE9CB52AD0751100B761E8 /* ScribbleLabUITests */,
 				38AE9CAB2AD0751100B761E8 /* ScribbleLabTests */,
-				385F78952AD5C84B0096E504 /* SLStickerPack */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		385F78942AD5C84B0096E504 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				385F78A52AD5C86B0096E504 /* Assets.xcassets in Resources */,
-				385F78992AD5C84C0096E504 /* Stickers.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		38760F102B2CB44500CC73BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1836,6 +1828,7 @@
 				3852D7212B054DBF007FAFF1 /* Particle.swift in Sources */,
 				38B36C5E2B5D73D80009BA56 /* FavouriteView.swift in Sources */,
 				385DC5D72B53FB0C00D1FE6E /* NotificationSettingsModel.swift in Sources */,
+				388472872B80C35F00D61AEE /* CreateAvatarView.swift in Sources */,
 				38BAF7C52B5AF6EF00BEE6A5 /* IntegrationsView.swift in Sources */,
 				384079EC2B6177DB0059523C /* ContributionLabel.swift in Sources */,
 				3889688B2AF143C700F67F08 /* SettingsViewModel.swift in Sources */,
@@ -1886,6 +1879,7 @@
 				381C1DED2B5ECEF000F73B5E /* CircleCheckboxModel.swift in Sources */,
 				38ADE8112B1D1253002229A2 /* SLTip.swift in Sources */,
 				38140A6C2AE3FB6F00753FB6 /* ContentViewModel.swift in Sources */,
+				388472892B80C4FE00D61AEE /* AvatarView.swift in Sources */,
 				3858A7782AD14C9E00FC6319 /* HomeView.swift in Sources */,
 				38AE9C9E2AD0750F00B761E8 /* ContentView.swift in Sources */,
 				38A5E9C52B03F09C0037C668 /* SLOTP+2FA_ConfigView.swift in Sources */,
@@ -1968,11 +1962,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		385F789C2AD5C84C0096E504 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 385F78952AD5C84B0096E504 /* SLStickerPack */;
-			targetProxy = 385F789B2AD5C84C0096E504 /* PBXContainerItemProxy */;
-		};
 		38AE9CAE2AD0751100B761E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 38AE9C972AD0750F00B761E8 /* ScribbleLab */;
@@ -2436,111 +2425,6 @@
 			};
 			name = RC;
 		};
-		385F789F2AD5C84C0096E504 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38355F032AD3DFED00392674 /* Debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SLStickerPack/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SLStickerPack;
-				INFOPLIST_KEY_NSStickerSharingLevel = OS;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab.SLStickerPack;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		385F78A02AD5C84C0096E504 /* Alpha */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38355EFD2AD3DF9B00392674 /* Alpha.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SLStickerPack/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SLStickerPack;
-				INFOPLIST_KEY_NSStickerSharingLevel = OS;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab.SLStickerPack;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Alpha;
-		};
-		385F78A12AD5C84C0096E504 /* Beta */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 385F788A2AD5C4410096E504 /* Beta.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SLStickerPack/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SLStickerPack;
-				INFOPLIST_KEY_NSStickerSharingLevel = OS;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab.SLStickerPack;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Beta;
-		};
-		385F78A22AD5C84C0096E504 /* RC */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 385F788B2AD5C4530096E504 /* RC.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SLStickerPack/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SLStickerPack;
-				INFOPLIST_KEY_NSStickerSharingLevel = OS;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab.SLStickerPack;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = RC;
-		};
-		385F78A32AD5C84C0096E504 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 385F788C2AD5C4690096E504 /* Release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SLStickerPack/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SLStickerPack;
-				INFOPLIST_KEY_NSStickerSharingLevel = OS;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.ScribbleLab.SLStickerPack;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		38760F202B2CB44700CC73BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3002,18 +2886,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		385F789E2AD5C84C0096E504 /* Build configuration list for PBXNativeTarget "SLStickerPack" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				385F789F2AD5C84C0096E504 /* Debug */,
-				385F78A02AD5C84C0096E504 /* Alpha */,
-				385F78A12AD5C84C0096E504 /* Beta */,
-				385F78A22AD5C84C0096E504 /* RC */,
-				385F78A32AD5C84C0096E504 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		38760F252B2CB44700CC73BD /* Build configuration list for PBXNativeTarget "ScribbleLab MacOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

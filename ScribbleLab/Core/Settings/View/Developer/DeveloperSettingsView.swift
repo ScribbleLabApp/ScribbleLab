@@ -56,6 +56,14 @@ struct DeveloperSettingsView: View {
                 Text("You can use a test account to test your changes made. When using a ScribbleLabApp Test account you agree to our [Terms Of Usage](https://github.com/ScribbleLabApp/ScribbleLab), [Code Of Conduct](https://github.com/ScribbleLabApp/ScribbleLab)")
                 // swiftlint:enable line_length
             }
+            
+            Section {
+                NavigationLink("Test") {
+                    AskNotificationView()
+                }
+            } header: {
+                Text("Test")
+            }
             #endif
         }
         .navigationTitle("Developer")
