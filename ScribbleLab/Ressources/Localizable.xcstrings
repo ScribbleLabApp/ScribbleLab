@@ -1891,6 +1891,9 @@
     "Store is not available" : {
 
     },
+    "Streak" : {
+
+    },
     "Study Timer" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -1957,13 +1960,16 @@
     "Test Accounts" : {
 
     },
+    "Test-Account" : {
+
+    },
     "test@gmail.com" : {
 
     },
     "test0101" : {
 
     },
-    "Test0101" : {
+    "Thank You!" : {
 
     },
     "Theme" : {
@@ -2262,6 +2268,9 @@
 
     },
     "You have no starred Documents" : {
+
+    },
+    "You have successfully bought the premium version." : {
 
     },
     "You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License." : {

@@ -18,42 +18,54 @@
 //
 
 import SwiftUI
+import ConfettiSwiftUI
 
 struct SLSettingsView: View {
     @Environment(\.openURL) var openURL
     @State private var resetAlertIsPresented = false
     @State private var deleteAccountIsPresented = false
     
+    @State private var counter: Int = 0
+    
+    // [START]: ONLY FOR DEVELOPMENT
+    @State private var premium = true
+    // [END]: ONLY FOR DEVELOPMENT
+    
     var body: some View {
         NavigationStack {
-            
             Form {
                 Section {
-                    HStack {
-                        Image(systemName: "heart.square.fill")
-                            .resizable()
-                            .frame(width: 25, height: 25)
-                            .padding(.horizontal, 7)
-                            .foregroundStyle(.primary)
-                        
-                        VStack(alignment: .leading) {
-                            Text("Thank You!")
-                                .font(.headline)
-                            Text("You have successfully bought the premium version.")
+                    Button {
+                        counter += 1
+                    } label: {
+                        HStack {
+                            Image(systemName: "heart.square.fill")
+                                .resizable()
+                                .frame(width: 25, height: 25)
+                                .padding(.horizontal, 7)
+                                .foregroundStyle(.primary)
+                            
+                            VStack(alignment: .leading) {
+                                Text("Thank You!")
+                                    .font(.headline)
+                                Text("You have successfully bought the premium version.")
+                            }
                         }
                     }
+                    .tint(.primary)
                 }
+                .confettiCannon(counter: $counter, num: 30, confettis: [.text("❤️"), .text("🧡")])
                 
                 Section {
                     NavigationLink {
                         ProfileView()
                     } label: {
-                        // TODO: Delete MOCK data
+                        // TODO: Profile Image & Username
                         HStack {
                             Image(systemName: "person")
                                 .resizable()
                                 .frame(width: 25, height: 25)
-                            //                                .clipShape(Circle())
+//                                .clipShape(Circle())
                                 .foregroundStyle(.orange)
                             VStack(alignment: .leading) {
                                 Text("Test-Account") // username
@@ -189,7 +201,7 @@ struct SLSettingsView: View {
                         SLInfoView()
                     } label: {
                         Label("Info", systemImage: "info.bubble")
-                    } // info.circle
+                    }
                     NavigationLink {
                         SLHelpView()
                     } label: {
@@ -209,7 +221,7 @@ struct SLSettingsView: View {
                     Text("Other")
                 }
             }
-            .tint(.orange) // .primary
+            .tint(.orange)
             .navigationTitle("Settings")
         }
     }
