@@ -76,7 +76,7 @@ struct AvatarView: View {
                                 Spacer()
                                 
                                 Image(systemName: "chevron.right")
-                                    .font(.footnote)
+                                    .font(.caption)
                                     .fontWeight(.semibold)
                                     .foregroundStyle(.secondary)
                             }

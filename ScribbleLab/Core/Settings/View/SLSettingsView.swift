@@ -219,6 +219,12 @@ struct SLSettingsView: View {
                     }
                 } header: {
                     Text("Other")
+                } footer: {
+                    Text("Developed with ❤️ by ScribbleLabApp")
+                        .font(.subheadline)
+                        .frame(maxWidth: .infinity)
+                        .padding(.top)
+                        .padding(.bottom, 5)
                 }
             }
             .tint(.orange)
