@@ -26,7 +26,8 @@ struct AvatarView: View {
                                 Image(.memoji)
                                     .resizable()
                                     .scaledToFit()
-                                    .frame(width: 500, alignment: .center)
+                                    .frame(width: UIScreen.main.bounds.width / 2, alignment: .center) // 500
+                                    .padding()
                                 
                                 Text("Avatars")
                                     .font(.headline)

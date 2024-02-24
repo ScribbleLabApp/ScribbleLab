@@ -172,6 +172,9 @@
         }
       }
     },
+    "[ScribbleLabApp](https://github.com/ScribbleLabApp)" : {
+
+    },
     "[Terms of Use](https://github.com/ScribbleLabApp/ScribbleLab/blob/main/LICENSE_AGREEMENT.md)" : {
       "localizations" : {
         "de" : {
@@ -957,7 +960,7 @@
     "Descending" : {
 
     },
-    "Developed with ❤️ by ScribbleLabApp" : {
+    "Developed with ❤️ by " : {
 
     },
     "Developer" : {

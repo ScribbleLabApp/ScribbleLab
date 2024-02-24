@@ -220,11 +220,17 @@ struct SLSettingsView: View {
                 } header: {
                     Text("Other")
                 } footer: {
-                    Text("Developed with ❤️ by ScribbleLabApp")
-                        .font(.subheadline)
-                        .frame(maxWidth: .infinity)
-                        .padding(.top)
-                        .padding(.bottom, 5)
+                    HStack(spacing: 1) {
+                        Text("Developed with ❤️ by ")
+                            .font(.subheadline)
+                            
+                        Text("[ScribbleLabApp](https://github.com/ScribbleLabApp)")
+                            .underline()
+                            .font(.subheadline)
+                    }
+                    .padding(.bottom, 5)
+                    .padding(.top)
+                    .frame(maxWidth: .infinity)
                 }
             }
             .tint(.orange)
