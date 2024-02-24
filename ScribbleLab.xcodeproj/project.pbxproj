@@ -319,6 +319,7 @@
 		3883D3002AFF9D6F007C00A3 /* document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = document.swift; sourceTree = "<group>"; };
 		388472862B80C35F00D61AEE /* CreateAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAvatarView.swift; sourceTree = "<group>"; };
 		388472882B80C4FE00D61AEE /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		388473572B8A87C500D61AEE /* Uninstaller.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Uninstaller.sh; sourceTree = "<group>"; };
 		3886B2DD2AD19F34002EF30E /* SLSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLSettingsView.swift; sourceTree = "<group>"; };
 		3886B2E02AD1ABC0002EF30E /* SLSideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLSideBarView.swift; sourceTree = "<group>"; };
 		3889688A2AF143C700F67F08 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
@@ -1135,6 +1136,14 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		388473562B8A87AF00D61AEE /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				388473572B8A87C500D61AEE /* Uninstaller.sh */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		3886B2DB2AD19F26002EF30E /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -1231,6 +1240,7 @@
 			children = (
 				385F78AB2AD5DDED0096E504 /* Settings.bundle */,
 				38ADB4D82AF6952C0019375B /* Documentation.docc */,
+				388473562B8A87AF00D61AEE /* Tools */,
 				3858A76D2AD1498D00FC6319 /* Configs */,
 				38AE9C9A2AD0750F00B761E8 /* ScribbleLab */,
 				38AE9CAF2AD0751100B761E8 /* ScribbleLabTests */,
