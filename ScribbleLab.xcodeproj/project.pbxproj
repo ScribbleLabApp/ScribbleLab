@@ -10,7 +10,6 @@
 		3802CBFC2B342F980051F6D8 /* LocalConsole in Frameworks */ = {isa = PBXBuildFile; productRef = 3802CBFB2B342F980051F6D8 /* LocalConsole */; };
 		38066B4F2AFE9F0E001A88D5 /* SLUpdateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38066B4E2AFE9F0E001A88D5 /* SLUpdateViewModel.swift */; };
 		38066B522AFEA235001A88D5 /* WaitSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38066B512AFEA235001A88D5 /* WaitSheetView.swift */; };
-		380943A32B6E84C600047DA0 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 380943A22B6E84C600047DA0 /* Sparkle */; };
 		380BC6462B260BB600DCF442 /* SLShopMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380BC6452B260BB600DCF442 /* SLShopMainView.swift */; };
 		380BC6482B2652A900DCF442 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380BC6472B2652A900DCF442 /* SceneDelegate.swift */; };
 		380D93932AE4280900277D2D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 380D93922AE4280900277D2D /* Kingfisher */; };
@@ -45,6 +44,7 @@
 		3836C2962AF144DC008F475F /* WaitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836C2952AF144DC008F475F /* WaitView.swift */; };
 		3836C29A2AF1BB86008F475F /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836C2992AF1BB86008F475F /* EditProfileViewModel.swift */; };
 		383D238D2B2363490094001E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383D238C2B2363490094001E /* AppDelegate.swift */; };
+		383ED5E72B8E3D060055A07B /* Pow in Frameworks */ = {isa = PBXBuildFile; productRef = 383ED5E62B8E3D060055A07B /* Pow */; };
 		384079D02B600E7A0059523C /* CrashReportSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384079CF2B600E7A0059523C /* CrashReportSheet.swift */; };
 		384079E92B614D050059523C /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384079E82B614D050059523C /* ShareViewController.swift */; };
 		384079EC2B6177DB0059523C /* ContributionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384079EB2B6177DB0059523C /* ContributionLabel.swift */; };
@@ -107,6 +107,7 @@
 		388472872B80C35F00D61AEE /* CreateAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388472862B80C35F00D61AEE /* CreateAvatarView.swift */; };
 		388472892B80C4FE00D61AEE /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388472882B80C4FE00D61AEE /* AvatarView.swift */; };
 		3884728C2B80E23300D61AEE /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3884728B2B80E23300D61AEE /* ConfettiSwiftUI */; };
+		3884735C2B8BD07E00D61AEE /* AppearanceProviding in Frameworks */ = {isa = PBXBuildFile; productRef = 3884735B2B8BD07E00D61AEE /* AppearanceProviding */; };
 		3886B2DE2AD19F34002EF30E /* SLSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886B2DD2AD19F34002EF30E /* SLSettingsView.swift */; };
 		3886B2E12AD1ABC0002EF30E /* SLSideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886B2E02AD1ABC0002EF30E /* SLSideBarView.swift */; };
 		3889688B2AF143C700F67F08 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3889688A2AF143C700F67F08 /* SettingsViewModel.swift */; };
@@ -169,7 +170,6 @@
 		38D84A4B2B6663FE00BE884B /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D84A4A2B6663FE00BE884B /* NewsCell.swift */; };
 		38E056502B7FAC3D00A688AE /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 38E0564F2B7FAC3D00A688AE /* FirebaseFirestore */; };
 		38E056522B7FAC3D00A688AE /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 38E056512B7FAC3D00A688AE /* FirebaseFirestoreSwift */; };
-		38E5BBB42AE41F2900FFFE7C /* Updates in Frameworks */ = {isa = PBXBuildFile; productRef = 38E5BBB32AE41F2900FFFE7C /* Updates */; };
 		38E5BBB72AE4244600FFFE7C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5BBB62AE4244600FFFE7C /* User.swift */; };
 		38EA6DE62B441A6100A04754 /* ThemeManager in Frameworks */ = {isa = PBXBuildFile; productRef = 38EA6DE52B441A6100A04754 /* ThemeManager */; };
 		38EACB152B32D4BE007E7629 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 38EACB142B32D4BE007E7629 /* Toast */; };
@@ -387,7 +387,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				380943A32B6E84C600047DA0 /* Sparkle in Frameworks */,
 				385ABC332B2DEF4C005F90E6 /* FirebaseAnalyticsSwift in Frameworks */,
 				385ABC372B2DEF4C005F90E6 /* FirebaseAuthCombine-Community in Frameworks */,
 				385ABC352B2DEF4C005F90E6 /* FirebaseAuth in Frameworks */,
@@ -409,12 +408,13 @@
 				38EACB152B32D4BE007E7629 /* Toast in Frameworks */,
 				38A5E9C22B03F0140037C668 /* iPhoneNumberField in Frameworks */,
 				38FFF9362AE3C18B006719E2 /* FirebaseDatabase in Frameworks */,
+				3884735C2B8BD07E00D61AEE /* AppearanceProviding in Frameworks */,
 				38FFF93A2AE3C18B006719E2 /* FirebaseInstallations in Frameworks */,
 				38A24C732AED2A7700F81F07 /* FirebaseAnalytics in Frameworks */,
 				3884728C2B80E23300D61AEE /* ConfettiSwiftUI in Frameworks */,
 				385F78AF2AD5E11C0096E504 /* GoogleSignIn in Frameworks */,
 				381792652AFFC017002A4551 /* AlertToast in Frameworks */,
-				38E5BBB42AE41F2900FFFE7C /* Updates in Frameworks */,
+				383ED5E72B8E3D060055A07B /* Pow in Frameworks */,
 				3861EF5A2B7934D900071F3B /* SlideOverCard in Frameworks */,
 				38D0CF512B6796C90051B356 /* NotificationPermission in Frameworks */,
 				383588462AFEDC6F00EEA1C3 /* FirebasePerformance in Frameworks */,
@@ -1589,7 +1589,6 @@
 				385ABC422B2DEF4C005F90E6 /* FirebaseInstallations */,
 				385ABC442B2DEF4C005F90E6 /* FirebasePerformance */,
 				385ABC482B2DEF4C005F90E6 /* Kingfisher */,
-				380943A22B6E84C600047DA0 /* Sparkle */,
 			);
 			productName = "ScribbleLab MacOS";
 			productReference = 38760F122B2CB44500CC73BD /* ScribbleLab MacOS.app */;
@@ -1619,7 +1618,6 @@
 				38FFF9352AE3C18B006719E2 /* FirebaseDatabase */,
 				38FFF9392AE3C18B006719E2 /* FirebaseInstallations */,
 				38FFF93B2AE3C18B006719E2 /* FirebaseStorage */,
-				38E5BBB32AE41F2900FFFE7C /* Updates */,
 				380D93922AE4280900277D2D /* Kingfisher */,
 				38A24C722AED2A7700F81F07 /* FirebaseAnalytics */,
 				38A24C742AED2A7700F81F07 /* FirebaseAnalyticsSwift */,
@@ -1637,6 +1635,8 @@
 				38E0564F2B7FAC3D00A688AE /* FirebaseFirestore */,
 				38E056512B7FAC3D00A688AE /* FirebaseFirestoreSwift */,
 				3884728B2B80E23300D61AEE /* ConfettiSwiftUI */,
+				3884735B2B8BD07E00D61AEE /* AppearanceProviding */,
+				383ED5E62B8E3D060055A07B /* Pow */,
 			);
 			productName = ScribbleLab;
 			productReference = 38AE9C982AD0750F00B761E8 /* ScribbleLab.app */;
@@ -1724,19 +1724,18 @@
 			packageReferences = (
 				385F78AD2AD5E11C0096E504 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				38E5BBB22AE41F2900FFFE7C /* XCRemoteSwiftPackageReference "Updates" */,
 				380D93912AE4280900277D2D /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				381792632AFFC017002A4551 /* XCRemoteSwiftPackageReference "AlertToast" */,
 				38A5E9C02B03F0140037C668 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
-				380BC6372B26029600DCF442 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */,
 				38EACB132B32D4BE007E7629 /* XCRemoteSwiftPackageReference "toast-swift" */,
 				3802CBFA2B342F980051F6D8 /* XCRemoteSwiftPackageReference "LocalConsole" */,
 				38EA6DE42B441A6100A04754 /* XCRemoteSwiftPackageReference "ThemeManager" */,
 				38C6662A2B52EDE300CAD099 /* XCRemoteSwiftPackageReference "PermissionsSwiftUI" */,
 				38D0CF4B2B6796C90051B356 /* XCRemoteSwiftPackageReference "PermissionsKit" */,
-				380943A12B6E84C600047DA0 /* XCRemoteSwiftPackageReference "Sparkle" */,
 				3861EF582B7934D900071F3B /* XCRemoteSwiftPackageReference "SlideOverCard" */,
 				3884728A2B80E23300D61AEE /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+				3884735A2B8BD07E00D61AEE /* XCRemoteSwiftPackageReference "AppearanceProviding" */,
+				383ED5E52B8E3D060055A07B /* XCRemoteSwiftPackageReference "Pow" */,
 			);
 			productRefGroup = 38AE9C992AD0750F00B761E8 /* Products */;
 			projectDirPath = "";
@@ -2071,7 +2070,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScribbleLab/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
+				INFOPLIST_KEY_CFBundleDisplayName = "ScribbleLab-alpha";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSCameraUsageDescription = "ScribbleLab needs to access your camera to scan documents";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "ScribbleLab want to use FaceID to secure your Files";
@@ -2221,7 +2220,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScribbleLab/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
+				INFOPLIST_KEY_CFBundleDisplayName = "ScribbleLab-beta";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSCameraUsageDescription = "ScribbleLab needs to access your camera to scan documents";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "ScribbleLab want to use FaceID to secure your Files";
@@ -2744,7 +2743,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScribbleLab/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
+				INFOPLIST_KEY_CFBundleDisplayName = "ScribbleLab-dev";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSCameraUsageDescription = "ScribbleLab needs to access your camera to scan documents";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "ScribbleLab want to use FaceID to secure your Files";
@@ -2971,22 +2970,6 @@
 				minimumVersion = 1.12.1;
 			};
 		};
-		380943A12B6E84C600047DA0 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/sparkle-project/Sparkle";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.5.2;
-			};
-		};
-		380BC6372B26029600DCF442 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/stripe/stripe-ios-spm";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 23.18.3;
-			};
-		};
 		380D93912AE4280900277D2D /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
@@ -3001,6 +2984,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.3.9;
+			};
+		};
+		383ED5E52B8E3D060055A07B /* XCRemoteSwiftPackageReference "Pow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/EmergeTools/Pow.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.3;
 			};
 		};
 		385F78AD2AD5E11C0096E504 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
@@ -3027,6 +3018,14 @@
 				minimumVersion = 1.1.0;
 			};
 		};
+		3884735A2B8BD07E00D61AEE /* XCRemoteSwiftPackageReference "AppearanceProviding" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JamesSedlacek/AppearanceProviding.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		38A5E9C02B03F0140037C668 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
@@ -3049,14 +3048,6 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 10.0.1;
-			};
-		};
-		38E5BBB22AE41F2900FFFE7C /* XCRemoteSwiftPackageReference "Updates" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/rwbutler/Updates.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.6.1;
 			};
 		};
 		38EA6DE42B441A6100A04754 /* XCRemoteSwiftPackageReference "ThemeManager" */ = {
@@ -3091,11 +3082,6 @@
 			package = 3802CBFA2B342F980051F6D8 /* XCRemoteSwiftPackageReference "LocalConsole" */;
 			productName = LocalConsole;
 		};
-		380943A22B6E84C600047DA0 /* Sparkle */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 380943A12B6E84C600047DA0 /* XCRemoteSwiftPackageReference "Sparkle" */;
-			productName = Sparkle;
-		};
 		380D93922AE4280900277D2D /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 380D93912AE4280900277D2D /* XCRemoteSwiftPackageReference "Kingfisher" */;
@@ -3110,6 +3096,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebasePerformance;
+		};
+		383ED5E62B8E3D060055A07B /* Pow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 383ED5E52B8E3D060055A07B /* XCRemoteSwiftPackageReference "Pow" */;
+			productName = Pow;
 		};
 		385ABC2C2B2DEF4C005F90E6 /* GoogleSignIn */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -3186,6 +3177,11 @@
 			package = 3884728A2B80E23300D61AEE /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
 			productName = ConfettiSwiftUI;
 		};
+		3884735B2B8BD07E00D61AEE /* AppearanceProviding */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3884735A2B8BD07E00D61AEE /* XCRemoteSwiftPackageReference "AppearanceProviding" */;
+			productName = AppearanceProviding;
+		};
 		38A24C722AED2A7700F81F07 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
@@ -3230,11 +3226,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestoreSwift;
-		};
-		38E5BBB32AE41F2900FFFE7C /* Updates */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38E5BBB22AE41F2900FFFE7C /* XCRemoteSwiftPackageReference "Updates" */;
-			productName = Updates;
 		};
 		38EA6DE52B441A6100A04754 /* ThemeManager */ = {
 			isa = XCSwiftPackageProductDependency;

@@ -20,11 +20,23 @@
 import UIKit
 import SwiftUI
 import Foundation
+import AppearanceProviding
 
 enum ThemeState: Equatable {
     case alwaysDark
     case alwaysLight
     case systemSettings
+    
+    var appereanceProvider: AppearanceProvider {
+        switch self {
+        case .alwaysDark:
+            return .init(defaultAppearance: .dark)
+        case .alwaysLight:
+            return .init(defaultAppearance: .light)
+        case .systemSettings:
+            return .init(defaultAppearance: .dark)
+        }
+    }
 }
 
 class CircleCheckboxModel: ObservableObject {

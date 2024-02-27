@@ -37,6 +37,15 @@
       }
     },
     {
+      "identity" : "appearanceproviding",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JamesSedlacek/AppearanceProviding.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "26ff4e5a80f6f753ba42c1bd0b3f203d17e609e8"
+      }
+    },
+    {
       "identity" : "confettiswiftui",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/simibac/ConfettiSwiftUI",
@@ -199,6 +208,15 @@
       }
     },
     {
+      "identity" : "pow",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/EmergeTools/Pow.git",
+      "state" : {
+        "revision" : "cc014eba4b65f689cadc281ad925de5607f2adc9",
+        "version" : "1.0.3"
+      }
+    },
+    {
       "identity" : "promises",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/promises.git",
@@ -214,24 +232,6 @@
       "state" : {
         "revision" : "98af5370e49d3d51efb387aacee0245ec656e32b",
         "version" : "2.1.0"
-      }
-    },
-    {
-      "identity" : "sparkle",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/sparkle-project/Sparkle",
-      "state" : {
-        "revision" : "47d3d90aee3c52b6f61d04ceae426e607df62347",
-        "version" : "2.5.2"
-      }
-    },
-    {
-      "identity" : "stripe-ios-spm",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/stripe/stripe-ios-spm",
-      "state" : {
-        "revision" : "41c7583f2840544bd616c2594344002480e32a66",
-        "version" : "23.22.0"
       }
     },
     {
@@ -268,15 +268,6 @@
       "state" : {
         "revision" : "9a40b722b6eeb9683d47e3584501e81525741291",
         "version" : "2.1.2"
-      }
-    },
-    {
-      "identity" : "updates",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/rwbutler/Updates.git",
-      "state" : {
-        "revision" : "8890afb36ef25ea88166dd3b3dba34d5303e59e4",
-        "version" : "1.6.1"
       }
     }
   ],
