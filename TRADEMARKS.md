@@ -1,4 +1,7 @@
-# ScribbleLabApp's Trademark Guidelines
+# ScribbleLabApp's Legal & Trademark Guidelines
+
+> [!NOTE]
+> We have a guide available that explains how to properly use our logos and copy contents. You can find it [here](https://github.com/ScribbleLabApp/docs/blob/main/docs/trademark-usage/TRADEMARK_USAGE.md.).
 
 This trademark policy was prepared to help you understand how to use the ScribbleLabApp trademarks, service marks and logos.
 
