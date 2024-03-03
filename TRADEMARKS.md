@@ -59,7 +59,7 @@ To request the use of the trademarks in a manner or for a purpose not expressly 
 
 ## To report misuse
 
-If you want to report misuse of a ScribbleLabApp trademark, please email [hello@tldraw.com](mailto://scribblelabapp.dev@gmail.com).
+If you want to report misuse of a ScribbleLabApp trademark, please email [scribblelabapp.dev@gmail.com](mailto://scribblelabapp.dev@gmail.com).
 
 Last updated: March 3 2024
 
