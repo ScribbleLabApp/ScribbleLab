@@ -226,6 +226,15 @@
       }
     },
     {
+      "identity" : "setting",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/aheze/Setting",
+      "state" : {
+        "revision" : "f506b13b2024fc3e7585b6e4f8290f6f1525127c",
+        "version" : "1.0.1"
+      }
+    },
+    {
       "identity" : "slideovercard",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/joogps/SlideOverCard.git",

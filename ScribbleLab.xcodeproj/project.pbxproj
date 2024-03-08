@@ -71,6 +71,7 @@
 		385ABC492B2DEF4C005F90E6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 385ABC482B2DEF4C005F90E6 /* Kingfisher */; };
 		385ABC5E2B2DF0C4005F90E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383D238C2B2363490094001E /* AppDelegate.swift */; };
 		385ABC602B2E0AAD005F90E6 /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385ABC5F2B2E0AAC005F90E6 /* Security.swift */; };
+		385B8D2B2B9B7AB100DD4768 /* Setting in Frameworks */ = {isa = PBXBuildFile; productRef = 385B8D2A2B9B7AB100DD4768 /* Setting */; };
 		385DC5D52B53EE4A00D1FE6E /* NewsletterSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DC5D42B53EE4A00D1FE6E /* NewsletterSettingsView.swift */; };
 		385DC5D72B53FB0C00D1FE6E /* NotificationSettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DC5D62B53FB0C00D1FE6E /* NotificationSettingsModel.swift */; };
 		385DC5DA2B5402C900D1FE6E /* WhatsNewSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DC5D92B5402C900D1FE6E /* WhatsNewSheetView.swift */; };
@@ -429,6 +430,7 @@
 				38FFF93C2AE3C18B006719E2 /* FirebaseStorage in Frameworks */,
 				38D0CF4D2B6796C90051B356 /* CameraPermission in Frameworks */,
 				385F78B12AD5E11C0096E504 /* GoogleSignInSwift in Frameworks */,
+				385B8D2B2B9B7AB100DD4768 /* Setting in Frameworks */,
 				3802CBFC2B342F980051F6D8 /* LocalConsole in Frameworks */,
 				38E056522B7FAC3D00A688AE /* FirebaseFirestoreSwift in Frameworks */,
 			);
@@ -1637,6 +1639,7 @@
 				3884728B2B80E23300D61AEE /* ConfettiSwiftUI */,
 				3884735B2B8BD07E00D61AEE /* AppearanceProviding */,
 				383ED5E62B8E3D060055A07B /* Pow */,
+				385B8D2A2B9B7AB100DD4768 /* Setting */,
 			);
 			productName = ScribbleLab;
 			productReference = 38AE9C982AD0750F00B761E8 /* ScribbleLab.app */;
@@ -1736,6 +1739,7 @@
 				3884728A2B80E23300D61AEE /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
 				3884735A2B8BD07E00D61AEE /* XCRemoteSwiftPackageReference "AppearanceProviding" */,
 				383ED5E52B8E3D060055A07B /* XCRemoteSwiftPackageReference "Pow" */,
+				385B8D292B9B7AB100DD4768 /* XCRemoteSwiftPackageReference "Setting" */,
 			);
 			productRefGroup = 38AE9C992AD0750F00B761E8 /* Products */;
 			projectDirPath = "";
@@ -2994,6 +2998,14 @@
 				minimumVersion = 1.0.3;
 			};
 		};
+		385B8D292B9B7AB100DD4768 /* XCRemoteSwiftPackageReference "Setting" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aheze/Setting";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
 		385F78AD2AD5E11C0096E504 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
@@ -3156,6 +3168,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 380D93912AE4280900277D2D /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		385B8D2A2B9B7AB100DD4768 /* Setting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 385B8D292B9B7AB100DD4768 /* XCRemoteSwiftPackageReference "Setting" */;
+			productName = Setting;
 		};
 		385F78AE2AD5E11C0096E504 /* GoogleSignIn */ = {
 			isa = XCSwiftPackageProductDependency;
