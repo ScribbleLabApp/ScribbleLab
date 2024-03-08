@@ -83,6 +83,49 @@ struct SettingsView: View {
                     SettingPage(title: "Developer Settings") {}
                         .previewIcon("hammer.fill", color: .gray)
                 }
+                
+                SettingGroup(header: "Resources") {
+                    SettingButton(title: "Operation manual") {
+                        if let url = URL(string: "https://github.com/ScribbleLabApp/ScribbleLab") {
+                            #if os(iOS)
+                            UIApplication.shared.open(url)
+                            #else
+                            NSWorkspace.shared.open(url)
+                            #endif
+                        }
+                    }
+                    
+                    SettingButton(title: "Documentation") {
+                        if let url = URL(string: "https://github.com/ScribbleLabApp/ScribbleLab") {
+                            #if os(iOS)
+                            UIApplication.shared.open(url)
+                            #else
+                            NSWorkspace.shared.open(url)
+                            #endif
+                        }
+                    }
+                    
+                    SettingButton(title: "Status page") {
+                        if let url = URL(string: "https://github.com/ScribbleLabApp/ScribbleLab") {
+                            #if os(iOS)
+                            UIApplication.shared.open(url)
+                            #else
+                            NSWorkspace.shared.open(url)
+                            #endif
+                        }
+                    }
+                    
+                    SettingButton(title: "Visit us on GitHub") {
+                        if let url = URL(string: "https://github.com/ScribbleLabApp/ScribbleLab") {
+                            #if os(iOS)
+                            UIApplication.shared.open(url)
+                            #else
+                            NSWorkspace.shared.open(url)
+                            #endif
+                        }
+                    }
+                    
+                }
             }
         }
     }
