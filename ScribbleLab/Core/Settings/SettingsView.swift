@@ -42,9 +42,13 @@ struct SettingsView: View {
                             .onTapGesture {
                                 confettiTrigger += 1
                             }
-                            .confettiCannon(counter: $confettiTrigger, num: 30, confettis: [.text("❤️"), .text("🧡"), .text("💛")])
+                            .confettiCannon(
+                                counter: $confettiTrigger,
+                                num: 30,
+                                confettis: [.text("❤️"), .text("🧡"), .text("💛")]
+                            )
                         }
-//                        .tint(.primary)
+                    //                        .tint(.primary)
                 }
                 
                 SettingGroup(header: "Profile") {
@@ -62,7 +66,7 @@ struct SettingsView: View {
                     SettingPage(title: "Notifications") {
                         notification
                     }
-                        .previewIcon("bell.badge.fill", color: .red)
+                    .previewIcon("bell.badge.fill", color: .red)
                     
                     SettingPage(title: "Focus (BETA)") {}
                         .previewIcon("moon.fill", color: .indigo)
@@ -72,7 +76,7 @@ struct SettingsView: View {
                     SettingPage(title: "General") {
                         general
                     }
-                        .previewIcon("gear", color: .gray)
+                    .previewIcon("gear", color: .gray)
                     
                     SettingPage(title: "Appereance") {}
                         .previewIcon("sun.max.fill", color: .blue)
@@ -80,7 +84,9 @@ struct SettingsView: View {
                     SettingPage(title: "Accessibility (BETA)") {}
                         .previewIcon("accessibility", color: .blue)
                     
-                    SettingPage(title: "Privacy & Security") {}
+                    SettingPage(title: "Privacy & Security") {
+                        privacy
+                    }
                         .previewIcon("hand.raised.fill", color: .blue)
                 }
                 
@@ -88,47 +94,47 @@ struct SettingsView: View {
                     SettingPage(title: "Developer Settings") {
                         developer
                     }
-                        .previewIcon("hammer.fill", color: .gray)
+                    .previewIcon("hammer.fill", color: .gray)
                 }
                 
                 SettingGroup(header: "Resources") {
                     SettingButton(title: "Operation manual") {
                         if let url = URL(string: "https://github.com/ScribbleLabApp/ScribbleLab") {
-                            #if os(iOS)
+#if os(iOS)
                             UIApplication.shared.open(url)
-                            #else
+#else
                             NSWorkspace.shared.open(url)
-                            #endif
+#endif
                         }
                     }
                     
                     SettingButton(title: "Documentation") {
                         if let url = URL(string: "https://github.com/ScribbleLabApp/ScribbleLab") {
-                            #if os(iOS)
+#if os(iOS)
                             UIApplication.shared.open(url)
-                            #else
+#else
                             NSWorkspace.shared.open(url)
-                            #endif
+#endif
                         }
                     }
                     
                     SettingButton(title: "Status page") {
                         if let url = URL(string: "https://github.com/ScribbleLabApp/ScribbleLab") {
-                            #if os(iOS)
+#if os(iOS)
                             UIApplication.shared.open(url)
-                            #else
+#else
                             NSWorkspace.shared.open(url)
-                            #endif
+#endif
                         }
                     }
                     
                     SettingButton(title: "Visit us on GitHub") {
                         if let url = URL(string: "https://github.com/ScribbleLabApp/ScribbleLab") {
-                            #if os(iOS)
+#if os(iOS)
                             UIApplication.shared.open(url)
-                            #else
+#else
                             NSWorkspace.shared.open(url)
-                            #endif
+#endif
                         }
                     }
                     
@@ -240,11 +246,11 @@ struct SettingsView: View {
                     .overlay {
                         Image(systemName: "bell.badge.fill")
                             .foregroundStyle(.white)
-    //                        .foregroundColor(.blue)
+                        //                        .foregroundColor(.blue)
                             .font(.title.bold())
                     }
                     .frame(height: 150)
-                .padding(.horizontal, 16)
+                    .padding(.horizontal, 16)
                 
                 Text("Push-Notifications")
                     .fontWeight(.semibold)
@@ -300,6 +306,8 @@ struct SettingsView: View {
     
     // MARK: - Developer Settings
     @AppStorage("isDeveloper") var isDeveloper: Bool = true // FIXME: db request to check if user is eligible to see developer settings
+    @AppStorage("plugInDevelopment") var plugInDevelopment: Bool = false
+    
     @SettingBuilder var developer: some Setting {
         // TODO: Only display developer settings if user is enrolled to ScribbleLabApp Developer Programm
         SettingCustomView {
@@ -333,14 +341,30 @@ struct SettingsView: View {
             SettingPage(title: "Experimental Feature Flags") {}
         }
         
-        SettingGroup {
-            SettingButton(title: "Clear Diagnosis") {
-                print("DEBUG: Clear diagnosis")
-            }
+        SettingGroup(header: "Plug-In Testing", footer: "Clear the Plug-In experience cache to instantly view recently morphed Plug-In experiences. Embedded Plug-Ins do not use this cache.") {
+            SettingToggle(title: "Allow plug-in testing", isOn: $plugInDevelopment)
+            
+            SettingPage(title: "Local Experiences") {}
+            
+            SettingPage(title: "Diagnose") {}
+            
+            SettingButton(title: "Clear experience cache") {}
         }
         
-        SettingGroup {
+        SettingGroup(header: "AvatarKit Testing") {
+            SettingPage(title: "Diagnosis") {}
             
+            SettingButton(title: "Clear Avatar cache") {}
+        }
+        
+        SettingGroup(header: "Troubleshooting", footer: "Clear ScribbleLab's experience cache to instantly view recently modified app settings. Integrations won't be affected.") {
+            SettingPage(title: "Diagnosis") {}
+            
+            SettingButton(title: "Clear ScribbleLab cache") {}
+        }
+        
+        SettingGroup(header: "Network & Connection") {
+            SettingPage(title: "Conection status") {}
         }
     }
     
@@ -348,6 +372,77 @@ struct SettingsView: View {
     
     // MARK: - Focus Settings
     
+    // MARK: - Privacy & Security
+    @AppStorage("developerMode") var developerMode: Bool = true // FIXME: change later to false
+    @AppStorage("securityMode") var securityMode: Bool = false
+    
+    @SettingBuilder var privacy: some Setting {
+        SettingCustomView {
+            VStack {
+                Color.blue
+                    .opacity(0.75)
+                    .cornerRadius(12)
+                    .overlay {
+                        Image(systemName: "hand.raised.fill")
+                            .foregroundStyle(.white)
+                            .font(.title.bold())
+                    }
+                    .frame(height: 150)
+                    .padding(.horizontal, 16)
+                
+                Text("Data protection & Security")
+                    .fontWeight(.semibold)
+                    .font(.title)
+                
+                Text("Manage ScribbleLab's access to your data")
+                    .foregroundStyle(.secondary)
+                    .font(.footnote)
+            }
+        }
+        
+        SettingGroup(header: "Access", footer: "ScribbleLab requires access for all access listed above. For a more detailed description of how and why Scribble Lab uses and requires these accesses, click on the required access.") {
+            SettingPage(title: "Photo Libary") {}
+                .previewIcon("photo.stack", color: .red)
+            
+            SettingPage(title: "Microphone") {}
+                .previewIcon("mic", color: .orange)
+            
+            SettingPage(title: "Camera") {}
+                .previewIcon("camera", color: .red)
+            
+            SettingPage(title: "File access") {}
+                .previewIcon("folder", color: .red)
+        }
+        
+        SettingGroup {
+            SettingPage(title: "Analytics") {}
+                .previewIcon("app.connected.to.app.below.fill", color: .orange)
+            
+            SettingPage(title: "Usage Data") {} // TODO: Change symbol
+                .previewIcon("app.connected.to.app.below.fill", color: .orange)
+        }
+        
+        SettingGroup(header: "Account Safety") {
+            SettingPage(title: "Configure 2FA") {} // TODO: Change symbol
+                .previewIcon("lock.fill", color: .gray)
+            
+            SettingPage(title: "Backup Keys") {}
+                .previewIcon("key.fill", color: .gray)
+        }
+        
+        SettingGroup(footer: "Require ScribbleLab to be unlocked with Face ID.") {
+            SettingPage(title: "Screen lock") {}
+                .previewIcon("lock.shield", color: .gray)
+            
+            SettingPage(title: "Document lock") {} // TODO: Custom Password or FaceID
+                .previewIcon("lock.doc", color: .gray)
+        }
+        
+        SettingGroup(header: "Security") {
+            SettingToggle(title: "Security Mode", isOn: $securityMode)
+            SettingToggle(title: "Developer Mode", isOn: $developerMode)
+        }
+    }
 }
 
 #Preview {
