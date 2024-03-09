@@ -75,6 +75,7 @@
 		385B8D2D2B9B7D5700DD4768 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385B8D2C2B9B7D5700DD4768 /* SettingsView.swift */; };
 		385B8D2F2B9BA4C900DD4768 /* GeneralSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385B8D2E2B9BA4C900DD4768 /* GeneralSettingsView.swift */; };
 		385B8D312B9BD47E00DD4768 /* NotificationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385B8D302B9BD47E00DD4768 /* NotificationSettingsView.swift */; };
+		385B8D332B9BE9E400DD4768 /* SLDeveloperSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385B8D322B9BE9E400DD4768 /* SLDeveloperSettingsView.swift */; };
 		385DC5D52B53EE4A00D1FE6E /* NewsletterSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DC5D42B53EE4A00D1FE6E /* NewsletterSettingsView.swift */; };
 		385DC5D72B53FB0C00D1FE6E /* NotificationSettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DC5D62B53FB0C00D1FE6E /* NotificationSettingsModel.swift */; };
 		385DC5DA2B5402C900D1FE6E /* WhatsNewSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DC5D92B5402C900D1FE6E /* WhatsNewSheetView.swift */; };
@@ -286,6 +287,7 @@
 		385B8D2C2B9B7D5700DD4768 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		385B8D2E2B9BA4C900DD4768 /* GeneralSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralSettingsView.swift; sourceTree = "<group>"; };
 		385B8D302B9BD47E00DD4768 /* NotificationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsView.swift; sourceTree = "<group>"; };
+		385B8D322B9BE9E400DD4768 /* SLDeveloperSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLDeveloperSettingsView.swift; sourceTree = "<group>"; };
 		385DC5D42B53EE4A00D1FE6E /* NewsletterSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsletterSettingsView.swift; sourceTree = "<group>"; };
 		385DC5D62B53FB0C00D1FE6E /* NotificationSettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsModel.swift; sourceTree = "<group>"; };
 		385DC5D92B5402C900D1FE6E /* WhatsNewSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewSheetView.swift; sourceTree = "<group>"; };
@@ -865,6 +867,7 @@
 				385B8D2C2B9B7D5700DD4768 /* SettingsView.swift */,
 				385B8D2E2B9BA4C900DD4768 /* GeneralSettingsView.swift */,
 				385B8D302B9BD47E00DD4768 /* NotificationSettingsView.swift */,
+				385B8D322B9BE9E400DD4768 /* SLDeveloperSettingsView.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -1961,6 +1964,7 @@
 				38FFF9422AE3C7C9006719E2 /* SignInWithGoogleModel.swift in Sources */,
 				381C1DE32B5E8BCA00F73B5E /* DocumentSortOptionFavourite.swift in Sources */,
 				38B36C5B2B5D47510009BA56 /* StoreView.swift in Sources */,
+				385B8D332B9BE9E400DD4768 /* SLDeveloperSettingsView.swift in Sources */,
 				384079D02B600E7A0059523C /* CrashReportSheet.swift in Sources */,
 				385B8D2D2B9B7D5700DD4768 /* SettingsView.swift in Sources */,
 				38CB09092B5411FA00E0C224 /* OnboardingFeature.swift in Sources */,

@@ -10,6 +10,7 @@ import Setting
 
 struct NotificationSettingsView: View {
     @AppStorage("notificationsGranted") var notificationsGranted: Bool = true // TODO: link with AppDelegate
+    
     @AppStorage("notifyWhenChangesMade") var notifyWhenChangesMade: Bool = true
     @AppStorage("notifyWhenRecievedInvitation") var notifyWhenRecievedInvitation: Bool = false
     @AppStorage("instructionsTippsTricks") var instructionsTippsTricks: Bool = true
@@ -43,10 +44,11 @@ struct NotificationSettingsView: View {
     }
     
     var body: some View {
-        SettingStack {
+        SettingStack(isSearchable: true) {
             SettingPage(title: "Notifications") {
                 SettingGroup(footer: "Stay up to date with push notifications.") {
                     SettingToggle(title: "Allow notifications", isOn: $notificationsGranted)
+                    // TODO: Link `notificationsGranted` with other notification cases except for `inAppNotifications` and `updateReminders`
                 }
                 
                 SettingGroup(header: "Notification Settings") {
@@ -59,6 +61,13 @@ struct NotificationSettingsView: View {
                     
                     SettingToggle(title: "In-App notifications", isOn: .constant(true))
                     SettingToggle(title: "Updates", isOn: .constant(true))
+                }
+                
+                SettingGroup {
+                    SettingButton(title: "Reset settings") {
+                        resetSettings()
+                        print("DEBUG: Settings are resetted to standart.")
+                    }
                 }
             }
         }
