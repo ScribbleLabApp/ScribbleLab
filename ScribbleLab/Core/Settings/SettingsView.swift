@@ -8,6 +8,7 @@
 import SwiftUI
 import Setting
 import ConfettiSwiftUI
+import DeveloperToolsSupport
 
 struct SettingsView: View {
     @State private var confettiTrigger: Int = 0
@@ -43,7 +44,7 @@ struct SettingsView: View {
                             }
                             .confettiCannon(counter: $confettiTrigger, num: 30, confettis: [.text("❤️"), .text("🧡"), .text("💛")])
                         }
-                        .tint(.primary)
+//                        .tint(.primary)
                 }
                 
                 SettingGroup(header: "Profile") {
@@ -84,7 +85,9 @@ struct SettingsView: View {
                 }
                 
                 SettingGroup(footer: "Access advanced configurations and debugging tools in our Developer Settings.") {
-                    SettingPage(title: "Developer Settings") {}
+                    SettingPage(title: "Developer Settings") {
+                        developer
+                    }
                         .previewIcon("hammer.fill", color: .gray)
                 }
                 
@@ -207,6 +210,11 @@ struct SettingsView: View {
     @AppStorage("updateReminders") var updateReminders: Bool = true
     
     /**
+     Index representing the selected push-notification language
+     */
+    @AppStorage("languageIndex") var languageIndex = 0
+    
+    /**
      Reset modified NotificationSettings.
      */
     func resetSettings() {
@@ -219,10 +227,36 @@ struct SettingsView: View {
         
         inAppNotifications = true
         updateReminders = true
+        
+        languageIndex = 0
     }
     
     @SettingBuilder var notification: some Setting {
-        SettingGroup(footer: "Stay up to date with push notifications.") {
+        SettingCustomView {
+            VStack {
+                Color.darkOrange
+                    .opacity(0.75)
+                    .cornerRadius(12)
+                    .overlay {
+                        Image(systemName: "bell.badge.fill")
+                            .foregroundStyle(.white)
+    //                        .foregroundColor(.blue)
+                            .font(.title.bold())
+                    }
+                    .frame(height: 150)
+                .padding(.horizontal, 16)
+                
+                Text("Push-Notifications")
+                    .fontWeight(.semibold)
+                    .font(.title)
+                
+                Text("ScribbleLab sends you push notifications to let you know about new content and updates.")
+                    .foregroundStyle(.secondary)
+                    .font(.footnote)
+            }
+        }
+        
+        SettingGroup(footer: "Stay up to date with push notifications from ScribbleLab. When you deny push-notifications you'll still get in-app notifications or important alerts.") {
             SettingToggle(title: "Allow notifications", isOn: $notificationsGranted)
             // TODO: Link `notificationsGranted` with other notification cases except for `inAppNotifications` and `updateReminders`
         }
@@ -239,19 +273,81 @@ struct SettingsView: View {
             SettingToggle(title: "Updates", isOn: .constant(true))
         }
         
-        SettingGroup {
+        SettingGroup(footer: "Please note that the ScribbleLab cannot retrieve the currently set languages ​​from the push notification provider. Therefore, the languages ​​selected may not be the language displayed.") {
+            SettingPicker(
+                title: "Notification language (BETA)",
+                choices: ["🇺🇸", "🇩🇪", "n/a", "n/a"],
+                selectedIndex: $languageIndex,
+                choicesConfiguration: .init(
+                    pickerDisplayMode: .menu
+                )
+            )
+        }
+        
+        SettingGroup(footer: "WARNING: Resetting notification settings will permanently erase all custom configurations. Once reset, any personalized preferences, alerts, or customizations will be irreversibly lost. You can still customize your notification settings again.") {
             SettingButton(title: "Reset settings") {
                 resetSettings()
                 print("DEBUG: Settings are resetted to standart.")
             }
         }
+        
+        SettingGroup(footer: "You can cancel or resubscribe to your push notification subscription at any time.") {
+            SettingButton(title: "Cancel subscription") {
+                notificationsGranted = false
+            }
+        }
     }
     
     // MARK: - Developer Settings
+    @AppStorage("isDeveloper") var isDeveloper: Bool = true // FIXME: db request to check if user is eligible to see developer settings
+    @SettingBuilder var developer: some Setting {
+        // TODO: Only display developer settings if user is enrolled to ScribbleLabApp Developer Programm
+        SettingCustomView {
+            VStack {
+                Color.gray
+                    .opacity(0.75)
+                    .cornerRadius(12)
+                    .overlay {
+                        Image(systemName: "hammer.fill")
+                            .foregroundStyle(.white)
+                            .font(.title.bold())
+                    }
+                    .frame(height: 150)
+                    .padding(.horizontal, 16)
+                
+                Text("ScribbleLab Developer")
+                    .fontWeight(.semibold)
+                    .font(.title)
+                
+                Text("Access ScribbleLab's hidden Developer settings, access Developer Resources & access experimental feature flags.")
+                    .foregroundStyle(.secondary)
+                    .font(.footnote)
+            }
+        }
+        
+        SettingGroup {
+            SettingToggle(title: "Enable developer mode", isOn: $isDeveloper)
+        }
+        
+        SettingGroup(header: "Experimental") {
+            SettingPage(title: "Experimental Feature Flags") {}
+        }
+        
+        SettingGroup {
+            SettingButton(title: "Clear Diagnosis") {
+                print("DEBUG: Clear diagnosis")
+            }
+        }
+        
+        SettingGroup {
+            
+        }
+    }
     
     // MARK: - Profile Settings
     
     // MARK: - Focus Settings
+    
 }
 
 #Preview {
