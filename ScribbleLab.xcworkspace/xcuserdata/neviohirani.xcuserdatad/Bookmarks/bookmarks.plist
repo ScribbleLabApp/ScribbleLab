@@ -153,13 +153,13 @@
 					<key>EndingColumnNumber</key>
 					<string>0</string>
 					<key>EndingLineNumber</key>
-					<string>291</string>
+					<string>293</string>
 					<key>StartingColumnNumber</key>
 					<string>0</string>
 					<key>StartingLineNumber</key>
-					<string>290</string>
+					<string>292</string>
 					<key>Timestamp</key>
-					<string>728225579.679131</string>
+					<string>731703161.461367</string>
 				</dict>
 				<key>rebasable-url</key>
 				<dict>
@@ -184,7 +184,7 @@
 				<key>trailing</key>
 				<string>                } label: {
                     Image(systemName: viewModifier.newNotification ? "bell.badge" : "bell")
-                }
+                        .tint(.primary)
 </string>
 			</dict>
 			<key>title</key>
@@ -200,13 +200,13 @@
 					<key>EndingColumnNumber</key>
 					<string>0</string>
 					<key>EndingLineNumber</key>
-					<string>237</string>
+					<string>238</string>
 					<key>StartingColumnNumber</key>
 					<string>0</string>
 					<key>StartingLineNumber</key>
-					<string>236</string>
+					<string>237</string>
 					<key>Timestamp</key>
-					<string>728225579.679157</string>
+					<string>731703161.461391</string>
 				</dict>
 				<key>rebasable-url</key>
 				<dict>

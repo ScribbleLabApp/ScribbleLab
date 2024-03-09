@@ -228,6 +228,7 @@ struct HomeView: View {
                         viewModifier.createDialogDisplayed.toggle()
                     } label: {
                         Image(systemName: "plus")
+                            .tint(.primary)
                     }
 //                }
 //                    .confirmationDialog(
@@ -280,6 +281,7 @@ struct HomeView: View {
                     Task { /* TODO: Store tip */ }
                 } label: {
                     Image(systemName: "storefront")
+                        .tint(.primary)
                 }
             }
             ToolbarItem(placement: .navigationBarTrailing) {
@@ -291,6 +293,7 @@ struct HomeView: View {
                     viewModifier.newNotification.toggle()
                 } label: {
                     Image(systemName: viewModifier.newNotification ? "bell.badge" : "bell")
+                        .tint(.primary)
                 }
                 .popoverTip(showNotificationTip)
                 .sheet(isPresented: $viewModifier.notificationSheetisPresented, content: {
@@ -305,6 +308,7 @@ struct HomeView: View {
                     viewModifier.settingsViewSheetisPresented.toggle()
                 } label: {
                     Image(systemName: "gearshape")
+                        .tint(.primary)
                 }
                 .sheet(isPresented: $viewModifier.settingsViewSheetisPresented, content: {
 //                    SLSettingsView()
@@ -312,7 +316,7 @@ struct HomeView: View {
                 })
             }
         }
-        .tint(.primary)
+//        .tint(.primary)
         .onAppear {
             Task {
                 await CreateNewDocumentTip.launchHomeScreenEvent.donate()

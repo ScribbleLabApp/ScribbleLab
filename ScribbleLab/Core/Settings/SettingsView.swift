@@ -100,41 +100,41 @@ struct SettingsView: View {
                 SettingGroup(header: "Resources") {
                     SettingButton(title: "Operation manual") {
                         if let url = URL(string: "https://github.com/ScribbleLabApp/ScribbleLab") {
-#if os(iOS)
+                            #if os(iOS)
                             UIApplication.shared.open(url)
-#else
+                            #else
                             NSWorkspace.shared.open(url)
-#endif
+                            #endif
                         }
                     }
                     
                     SettingButton(title: "Documentation") {
                         if let url = URL(string: "https://github.com/ScribbleLabApp/ScribbleLab") {
-#if os(iOS)
+                            #if os(iOS)
                             UIApplication.shared.open(url)
-#else
+                            #else
                             NSWorkspace.shared.open(url)
-#endif
+                            #endif
                         }
                     }
                     
                     SettingButton(title: "Status page") {
                         if let url = URL(string: "https://github.com/ScribbleLabApp/ScribbleLab") {
-#if os(iOS)
+                            #if os(iOS)
                             UIApplication.shared.open(url)
-#else
+                            #else
                             NSWorkspace.shared.open(url)
-#endif
+                            #endif
                         }
                     }
                     
                     SettingButton(title: "Visit us on GitHub") {
                         if let url = URL(string: "https://github.com/ScribbleLabApp/ScribbleLab") {
-#if os(iOS)
+                            #if os(iOS)
                             UIApplication.shared.open(url)
-#else
+                            #else
                             NSWorkspace.shared.open(url)
-#endif
+                            #endif
                         }
                     }
                     
@@ -305,6 +305,7 @@ struct SettingsView: View {
     }
     
     // MARK: - Developer Settings
+    
     @AppStorage("isDeveloper") var isDeveloper: Bool = true // FIXME: db request to check if user is eligible to see developer settings
     @AppStorage("plugInDevelopment") var plugInDevelopment: Bool = false
     
@@ -373,6 +374,7 @@ struct SettingsView: View {
     // MARK: - Focus Settings
     
     // MARK: - Privacy & Security
+    
     @AppStorage("developerMode") var developerMode: Bool = true // FIXME: change later to false
     @AppStorage("securityMode") var securityMode: Bool = false
     
