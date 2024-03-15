@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/abseil-cpp-binary.git",
       "state" : {
-        "revision" : "bfc0b6f81adc06ce5121eb23f628473638d67c5c",
-        "version" : "1.2022062300.0"
+        "revision" : "df308b8b46607675f2b9ec8e569109008f9155ce",
+        "version" : "1.2022062300.1"
       }
     },
     {
@@ -32,17 +32,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/openid/AppAuth-iOS.git",
       "state" : {
-        "revision" : "71cde449f13d453227e687458144bde372d30fc7",
-        "version" : "1.6.2"
+        "revision" : "269c90515328c24f90b2ed17a67c8a796b485448",
+        "version" : "1.7.2"
       }
     },
     {
       "identity" : "appearanceproviding",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/JamesSedlacek/AppearanceProviding.git",
+      "location" : "https://github.com/JamesSedlacek/AppearanceProviding",
       "state" : {
         "branch" : "main",
-        "revision" : "26ff4e5a80f6f753ba42c1bd0b3f203d17e609e8"
+        "revision" : "63d8c7ed5b0ad4d882ef163e833e3b47650c8dda"
       }
     },
     {
@@ -59,8 +59,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/firebase/firebase-ios-sdk",
       "state" : {
-        "revision" : "f91c8167141d0279726c6f6d9d4a47c026785cbc",
-        "version" : "10.21.0"
+        "revision" : "be49849dcba96f2b5ee550d4eceb2c0fa27dade4",
+        "version" : "10.22.1"
       }
     },
     {
@@ -68,8 +68,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/GoogleAppMeasurement.git",
       "state" : {
-        "revision" : "cb8617fab75d181270a1d8f763f26b15c73e2e1e",
-        "version" : "10.21.0"
+        "revision" : "482cfa4e5880f0a29f66ecfd60c5a62af28bd1f0",
+        "version" : "10.22.1"
       }
     },
     {
@@ -77,8 +77,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/GoogleDataTransport.git",
       "state" : {
-        "revision" : "a732a4b47f59e4f725a2ea10f0c77e93a7131117",
-        "version" : "9.3.0"
+        "revision" : "a637d318ae7ae246b02d7305121275bc75ed5565",
+        "version" : "9.4.0"
       }
     },
     {
@@ -95,8 +95,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/GoogleUtilities.git",
       "state" : {
-        "revision" : "bc27fad73504f3d4af235de451f02ee22586ebd3",
-        "version" : "7.12.1"
+        "revision" : "26c898aed8bed13b8a63057ee26500abbbcb8d55",
+        "version" : "7.13.1"
       }
     },
     {
@@ -104,8 +104,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/grpc-binary.git",
       "state" : {
-        "revision" : "a673bc2937fbe886dd1f99c401b01b6d977a9c98",
-        "version" : "1.49.1"
+        "revision" : "ea4cb5cc0c39c732b85386263116d2e2fdbbdc61",
+        "version" : "1.49.2"
       }
     },
     {
@@ -158,8 +158,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/firebase/leveldb.git",
       "state" : {
-        "revision" : "9d108e9112aa1d65ce508facf804674546116d9c",
-        "version" : "1.22.3"
+        "revision" : "43aaef65e0c665daadf848761d560e446d350d3d",
+        "version" : "1.22.4"
       }
     },
     {
@@ -176,8 +176,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/firebase/nanopb.git",
       "state" : {
-        "revision" : "819d0a2173aff699fb8c364b6fb906f7cdb1a692",
-        "version" : "2.30909.0"
+        "revision" : "b7e1104502eca3a213b46303391ca4d3bc8ddec1",
+        "version" : "2.30910.0"
       }
     },
     {
@@ -194,8 +194,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/jevonmao/PermissionsSwiftUI",
       "state" : {
-        "revision" : "bfc53b2c7c065d1d99fcfca082709419783ba956",
-        "version" : "1.5.9"
+        "revision" : "94b6eaf87d8009757bdf61b64caa74c097c418fa",
+        "version" : "1.5.11"
       }
     },
     {
@@ -203,8 +203,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/marmelroy/PhoneNumberKit",
       "state" : {
-        "revision" : "301e2c1931ab294aa7c1bbabf2ed5fe7a78f1549",
-        "version" : "3.7.8"
+        "revision" : "a8d72d9c90f8336aff6fd6002976d7e36f4fbe8c",
+        "version" : "3.7.9"
       }
     },
     {
@@ -221,8 +221,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/promises.git",
       "state" : {
-        "revision" : "e70e889c0196c76d22759eb50d6a0270ca9f1d9e",
-        "version" : "2.3.1"
+        "revision" : "540318ecedd63d883069ae7f1ed811a2df00b6ac",
+        "version" : "2.4.0"
       }
     },
     {
@@ -259,15 +259,6 @@
       "state" : {
         "revision" : "121c146fe591b1320238d054ae35c81ffa45f45a",
         "version" : "0.12.0"
-      }
-    },
-    {
-      "identity" : "thememanager",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/N3v1/ThemeManager",
-      "state" : {
-        "branch" : "main",
-        "revision" : "eb570ac7ab50fd600846d4f161ecc87c1b67cd59"
       }
     },
     {

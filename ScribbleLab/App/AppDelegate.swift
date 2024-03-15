@@ -48,8 +48,10 @@ import FirebaseCore
 import GoogleSignIn
 #endif
 
-class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDelegate {
-    var notificationSettings = NotificationSettingsModel()
+class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDelegate, ObservableObject {
+//    var notificationSettings = NotificationSettingsModel()
+    
+    @Published var notificationAllowed: Bool = false
     
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil
@@ -64,8 +66,11 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
         let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
         UNUserNotificationCenter.current().requestAuthorization(
             options: authOptions,
-            completionHandler: { granted, _ in
-                self.notificationSettings.notificationAllowed = granted
+            completionHandler: { /*granted, _ in*/ [weak self] granted, _ in
+//                self.notificationSettings.notificationAllowed = granted
+                DispatchQueue.main.async {
+                    self?.notificationAllowed = granted
+                }
             }
         )
         

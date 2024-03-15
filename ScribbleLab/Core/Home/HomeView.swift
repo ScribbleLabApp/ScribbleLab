@@ -230,50 +230,7 @@ struct HomeView: View {
                         Image(systemName: "plus")
                             .tint(.primary)
                     }
-//                }
-//                    .confirmationDialog(
-//                        "How do you like to create a new document?",
-//                        isPresented: $viewModifier.createDialogDisplayed
-//                    ) {
-//                        Button {
-//                            
-//                        } label: {
-//                            Label("Notebook", systemImage: "book.closed")
-//                        }
-//                        Button {
-//                            
-//                        } label: {
-//                            Label("Index cards", systemImage: "")
-//                        }
-//                        Button {
-//                            
-//                        } label: {
-//                            Label("Folder", systemImage: "folder")
-//                        }
-//                        Button {
-//                            
-//                        } label: {
-//                            Label("Scan Documents", systemImage: "doc.viewfinder")
-//                        }
-//                        Button {
-//                            
-//                        } label: {
-//                            Label("Take a picture", systemImage: "camera")
-//                        }
-//                        Button {
-//                            
-//                        } label: {
-//                            Label("Import", systemImage: "square.and.arrow.down")
-//                        }
-//                        Button {
-//                            
-//                        } label: {
-//                            Label("Quick note", systemImage: "square.and.pencil")
-//                        }
-//                    } message: {
-//                        Text("Select how you'd like to create a new document.")
-//                    }
-                .popoverTip(createFirstDocumentTip)
+                    .popoverTip(createFirstDocumentTip)
                 }
             }
             ToolbarItem(placement: .navigationBarTrailing) {
@@ -313,6 +270,7 @@ struct HomeView: View {
                 .sheet(isPresented: $viewModifier.settingsViewSheetisPresented, content: {
 //                    SLSettingsView()
                     SettingsView()
+                        .environmentObject(AppDelegate())
                 })
             }
         }

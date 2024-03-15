@@ -33,8 +33,6 @@ import TipKit
 import FirebaseCore
 import GoogleSignIn
 
-import AppearanceProviding
-
 #if os(iOS)
 import FirebasePerformance
 import FirebaseCrashlytics
@@ -55,7 +53,6 @@ struct ScribbleLabApp: App {
                         .datastoreLocation(.applicationDefault)
                     ])
                 }
-                .setAppearance()
             #if os(macOS)
                 .frame(width: 500, height: 400)
             #endif
