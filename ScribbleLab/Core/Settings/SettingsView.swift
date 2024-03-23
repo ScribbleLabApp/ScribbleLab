@@ -309,8 +309,6 @@ struct SettingsView: View {
     
     // MARK: - Notification Settings
     
-//    @AppStorage("notificationsGranted") var notificationsGranted: Bool = true // TODO: link with AppDelegate
-    // Using appDelegate.notificationsAllowed for above
     @EnvironmentObject var appDelegate: AppDelegate
     
     @AppStorage("notifyWhenChangesMade") var notifyWhenChangesMade: Bool = true
@@ -334,6 +332,8 @@ struct SettingsView: View {
      Index representing the selected push-notification language
      */
     @AppStorage("languageIndex") var languageIndex = 0
+    
+    var notificationLanguage: [String] = ["🇺🇸", "🇩🇪", "🇮🇹", "n/a"]
     
     /**
      Reset modified NotificationSettings.
@@ -397,7 +397,7 @@ struct SettingsView: View {
         SettingGroup(footer: "Please note that the ScribbleLab cannot retrieve the currently set languages ​​from the push notification provider. Therefore, the languages ​​selected may not be the language displayed.") {
             SettingPicker(
                 title: "Notification language (BETA)",
-                choices: ["🇺🇸", "🇩🇪", "n/a", "n/a"],
+                choices: notificationLanguage, /* choices: ["🇺🇸", "🇩🇪", "🇮🇹", "n/a"], */
                 selectedIndex: $languageIndex,
                 choicesConfiguration: .init(
                     pickerDisplayMode: .menu
@@ -590,9 +590,10 @@ struct SettingsView: View {
         }
     }
 }
-// swiftlint:enable type_body_length
-// swiftlint:enable line_length
 
 #Preview {
     SettingsView()
 }
+
+// swiftlint:enable type_body_length
+// swiftlint:enable line_length
