@@ -12,13 +12,13 @@
 					<key>EndingColumnNumber</key>
 					<string>0</string>
 					<key>EndingLineNumber</key>
-					<string>53</string>
+					<string>51</string>
 					<key>StartingColumnNumber</key>
 					<string>0</string>
 					<key>StartingLineNumber</key>
-					<string>52</string>
+					<string>50</string>
 					<key>Timestamp</key>
-					<string>730583173.3793941</string>
+					<string>731966698.1012371</string>
 				</dict>
 				<key>rebasable-url</key>
 				<dict>
@@ -153,13 +153,13 @@
 					<key>EndingColumnNumber</key>
 					<string>0</string>
 					<key>EndingLineNumber</key>
-					<string>291</string>
+					<string>250</string>
 					<key>StartingColumnNumber</key>
 					<string>0</string>
 					<key>StartingLineNumber</key>
-					<string>290</string>
+					<string>249</string>
 					<key>Timestamp</key>
-					<string>728225579.679131</string>
+					<string>732212357.1666681</string>
 				</dict>
 				<key>rebasable-url</key>
 				<dict>
@@ -184,7 +184,7 @@
 				<key>trailing</key>
 				<string>                } label: {
                     Image(systemName: viewModifier.newNotification ? "bell.badge" : "bell")
-                }
+                        .tint(.primary)
 </string>
 			</dict>
 			<key>title</key>
@@ -198,15 +198,15 @@
 				<key>location-parameters</key>
 				<dict>
 					<key>EndingColumnNumber</key>
-					<string>0</string>
+					<string>21</string>
 					<key>EndingLineNumber</key>
-					<string>237</string>
+					<string>231</string>
 					<key>StartingColumnNumber</key>
-					<string>0</string>
+					<string>21</string>
 					<key>StartingLineNumber</key>
-					<string>236</string>
+					<string>231</string>
 					<key>Timestamp</key>
-					<string>728225579.679157</string>
+					<string>732212357.150324</string>
 				</dict>
 				<key>rebasable-url</key>
 				<dict>
@@ -222,16 +222,15 @@
 			<key>text-context</key>
 			<dict>
 				<key>focused</key>
-				<string>//                        Button {
-</string>
+				<string></string>
 				<key>leading</key>
-				<string>//                        isPresented: $viewModifier.createDialogDisplayed
-//                    ) {
-</string>
+				<string>                        Image(systemName: "plus")
+                            .tint(.primary)
+                    }</string>
 				<key>trailing</key>
-				<string>//                            
-//                        } label: {
-//                            Label("Notebook", systemImage: "book.closed")
+				<string>
+                    .popoverTip(createFirstDocumentTip)
+                }
 </string>
 			</dict>
 			<key>title</key>

@@ -444,6 +444,9 @@
     "28. January 2024" : {
 
     },
+    "Access ScribbleLab's hidden Developer settings, access Developer Resources & access experimental feature flags." : {
+
+    },
     "Accessibility" : {
 
     },
@@ -623,6 +626,9 @@
           }
         }
       }
+    },
+    "Appereance" : {
+
     },
     "Apple Pencil" : {
       "localizations" : {
@@ -893,6 +899,9 @@
 
     },
     "Customization" : {
+
+    },
+    "Customize ScribbleLab's appereance" : {
 
     },
     "Dangerzone" : {
@@ -1369,6 +1378,9 @@
         }
       }
     },
+    "License Agreement" : {
+
+    },
     "LICENSE AGREEMENT" : {
 
     },
@@ -1451,6 +1463,9 @@
 
     },
     "Manage Pre-Release Versions" : {
+
+    },
+    "Manage ScribbleLab's access to your data" : {
 
     },
     "Manage Settings" : {
@@ -1662,6 +1677,9 @@
         }
       }
     },
+    "Push-Notifications" : {
+
+    },
     "Q&A" : {
       "localizations" : {
         "de" : {
@@ -1765,7 +1783,13 @@
     "ScribbleLab Crash Report" : {
 
     },
+    "ScribbleLab Developer" : {
+
+    },
     "ScribbleLab requires access for all access listed above. For a more detailed description of how and why Scribble Lab uses and requires these accesses, click on the accesses." : {
+
+    },
+    "ScribbleLab sends you push notifications to let you know about new content and updates." : {
 
     },
     "ScribbleLab User Guide" : {
@@ -2221,6 +2245,9 @@
 
     },
     "When Safe Mode is enabled, ScribbleLab starts with several features disabled to ensure maximum stability or detect errors. This process requires a restart." : {
+
+    },
+    "When using ScribbleLabApp's services you agree to our license." : {
 
     },
     "When you rescan the status of ScribbleLink, you allow us to search for ScribbleLink in your Application folder." : {
