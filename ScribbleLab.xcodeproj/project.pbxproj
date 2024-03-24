@@ -147,6 +147,11 @@
 		38B36C5E2B5D73D80009BA56 /* FavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B36C5D2B5D73D80009BA56 /* FavouriteView.swift */; };
 		38B36C622B5D770D0009BA56 /* SharedWithYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B36C612B5D770D0009BA56 /* SharedWithYouView.swift */; };
 		38B36C652B5D95FD0009BA56 /* ScribbleCloudOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B36C642B5D95FD0009BA56 /* ScribbleCloudOverviewView.swift */; };
+		38B7BB632BAF6BEB00DAB556 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B7BB622BAF6BEB00DAB556 /* Main.swift */; };
+		38B7BB652BAF6BEB00DAB556 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B7BB642BAF6BEB00DAB556 /* ContentView.swift */; };
+		38B7BB672BAF6BED00DAB556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38B7BB662BAF6BED00DAB556 /* Assets.xcassets */; };
+		38B7BB6A2BAF6BED00DAB556 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38B7BB692BAF6BED00DAB556 /* Preview Assets.xcassets */; };
+		38B7BB752BAF6C4200DAB556 /* SLUpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B7BB742BAF6C4200DAB556 /* SLUpdateService.swift */; };
 		38BAF7C52B5AF6EF00BEE6A5 /* IntegrationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BAF7C42B5AF6EF00BEE6A5 /* IntegrationsView.swift */; };
 		38BAF7C72B5AFC1B00BEE6A5 /* SLGoogleClassroomIntegrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BAF7C62B5AFC1B00BEE6A5 /* SLGoogleClassroomIntegrationView.swift */; };
 		38C666292B52D21900CAD099 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C666282B52D21900CAD099 /* SubscriptionView.swift */; };
@@ -186,6 +191,7 @@
 		38FFF93C2AE3C18B006719E2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF93B2AE3C18B006719E2 /* FirebaseStorage */; };
 		38FFF9422AE3C7C9006719E2 /* SignInWithGoogleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FFF9412AE3C7C9006719E2 /* SignInWithGoogleModel.swift */; };
 		38FFF9452AE3CA6F006719E2 /* Application_utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FFF9442AE3CA6F006719E2 /* Application_utility.swift */; };
+		0CACB42CDF40405BB2507D6E /* Sentry in Frameworks */ = {isa = PBXBuildFile; productRef = FA52FE9EA91747D0A4AEF70C /* Sentry */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -354,6 +360,13 @@
 		38B36C5D2B5D73D80009BA56 /* FavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteView.swift; sourceTree = "<group>"; };
 		38B36C612B5D770D0009BA56 /* SharedWithYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedWithYouView.swift; sourceTree = "<group>"; };
 		38B36C642B5D95FD0009BA56 /* ScribbleCloudOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleCloudOverviewView.swift; sourceTree = "<group>"; };
+		38B7BB602BAF6BEB00DAB556 /* SLUpdateService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLUpdateService.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B7BB622BAF6BEB00DAB556 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		38B7BB642BAF6BEB00DAB556 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		38B7BB662BAF6BED00DAB556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38B7BB692BAF6BED00DAB556 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		38B7BB6B2BAF6BED00DAB556 /* SLUpdateService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SLUpdateService.entitlements; sourceTree = "<group>"; };
+		38B7BB742BAF6C4200DAB556 /* SLUpdateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLUpdateService.swift; sourceTree = "<group>"; };
 		38BAF7C42B5AF6EF00BEE6A5 /* IntegrationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationsView.swift; sourceTree = "<group>"; };
 		38BAF7C62B5AFC1B00BEE6A5 /* SLGoogleClassroomIntegrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLGoogleClassroomIntegrationView.swift; sourceTree = "<group>"; };
 		38C666282B52D21900CAD099 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
@@ -400,6 +413,7 @@
 				385ABC452B2DEF4C005F90E6 /* FirebasePerformance in Frameworks */,
 				385ABC412B2DEF4C005F90E6 /* FirebaseFunctions in Frameworks */,
 				385ABC312B2DEF4C005F90E6 /* FirebaseAnalytics in Frameworks */,
+				0CACB42CDF40405BB2507D6E /* Sentry in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +447,7 @@
 				385B8D2B2B9B7AB100DD4768 /* Setting in Frameworks */,
 				3802CBFC2B342F980051F6D8 /* LocalConsole in Frameworks */,
 				38E056522B7FAC3D00A688AE /* FirebaseFirestoreSwift in Frameworks */,
+				0CACB42CDF40405BB2507D6E /* Sentry in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +455,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CACB42CDF40405BB2507D6E /* Sentry in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +463,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CACB42CDF40405BB2507D6E /* Sentry in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38B7BB5D2BAF6BEB00DAB556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CACB42CDF40405BB2507D6E /* Sentry in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1249,6 +1274,7 @@
 				38AE9CAF2AD0751100B761E8 /* ScribbleLabTests */,
 				38AE9CB92AD0751100B761E8 /* ScribbleLabUITests */,
 				38760F132B2CB44600CC73BD /* ScribbleLab MacOS */,
+				38B7BB612BAF6BEB00DAB556 /* SLUpdateService */,
 				38355EDF2AD3DB3200392674 /* Frameworks */,
 				38AE9C992AD0750F00B761E8 /* Products */,
 			);
@@ -1261,6 +1287,7 @@
 				38AE9CAC2AD0751100B761E8 /* ScribbleLabTests.xctest */,
 				38AE9CB62AD0751100B761E8 /* ScribbleLabUITests.xctest */,
 				38760F122B2CB44500CC73BD /* ScribbleLab MacOS.app */,
+				38B7BB602BAF6BEB00DAB556 /* SLUpdateService.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1333,6 +1360,43 @@
 				38B36C642B5D95FD0009BA56 /* ScribbleCloudOverviewView.swift */,
 			);
 			path = ScribbleCloud;
+			sourceTree = "<group>";
+		};
+		38B7BB612BAF6BEB00DAB556 /* SLUpdateService */ = {
+			isa = PBXGroup;
+			children = (
+				38B7BB722BAF6C2000DAB556 /* Animation */,
+				38B7BB732BAF6C2800DAB556 /* Service */,
+				38B7BB622BAF6BEB00DAB556 /* Main.swift */,
+				38B7BB642BAF6BEB00DAB556 /* ContentView.swift */,
+				38B7BB662BAF6BED00DAB556 /* Assets.xcassets */,
+				38B7BB6B2BAF6BED00DAB556 /* SLUpdateService.entitlements */,
+				38B7BB682BAF6BED00DAB556 /* Preview Content */,
+			);
+			path = SLUpdateService;
+			sourceTree = "<group>";
+		};
+		38B7BB682BAF6BED00DAB556 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				38B7BB692BAF6BED00DAB556 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		38B7BB722BAF6C2000DAB556 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		38B7BB732BAF6C2800DAB556 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				38B7BB742BAF6C4200DAB556 /* SLUpdateService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		38BAF7C32B5AF65700BEE6A5 /* Integrations */ = {
@@ -1681,6 +1745,27 @@
 			productReference = 38AE9CB62AD0751100B761E8 /* ScribbleLabUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		38B7BB5F2BAF6BEB00DAB556 /* SLUpdateService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38B7BB6C2BAF6BED00DAB556 /* Build configuration list for PBXNativeTarget "SLUpdateService" */;
+			buildPhases = (
+				38B7BB5C2BAF6BEB00DAB556 /* Sources */,
+				38B7BB5D2BAF6BEB00DAB556 /* Frameworks */,
+				38B7BB5E2BAF6BEB00DAB556 /* Resources */,
+				F71635B72B0243909B2D4659 /* Upload Debug Symbols to Sentry */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLUpdateService;
+			productName = SLUpdateService;
+			productReference = 38B7BB602BAF6BEB00DAB556 /* SLUpdateService.app */;
+			productType = "com.apple.product-type.application";
+			packageProductDependencies = (
+				FA52FE9EA91747D0A4AEF70C /* Sentry */,
+			);
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1704,6 +1789,9 @@
 					38AE9CB52AD0751100B761E8 = {
 						CreatedOnToolsVersion = 15.0;
 						TestTargetID = 38AE9C972AD0750F00B761E8;
+					};
+					38B7BB5F2BAF6BEB00DAB556 = {
+						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
@@ -1739,6 +1827,7 @@
 				383ED5E52B8E3D060055A07B /* XCRemoteSwiftPackageReference "Pow" */,
 				385B8D292B9B7AB100DD4768 /* XCRemoteSwiftPackageReference "Setting" */,
 				385E11E92BA0ED6800225AF8 /* XCRemoteSwiftPackageReference "AppearanceProviding" */,
+				60294CE4C918487CBEA736E0 /* XCRemoteSwiftPackageReference "sentry-cocoa" */,
 			);
 			productRefGroup = 38AE9C992AD0750F00B761E8 /* Products */;
 			projectDirPath = "";
@@ -1748,6 +1837,7 @@
 				38760F112B2CB44500CC73BD /* ScribbleLab MacOS */,
 				38AE9CB52AD0751100B761E8 /* ScribbleLabUITests */,
 				38AE9CAB2AD0751100B761E8 /* ScribbleLabTests */,
+				38B7BB5F2BAF6BEB00DAB556 /* SLUpdateService */,
 			);
 		};
 /* End PBXProject section */
@@ -1796,6 +1886,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		38B7BB5E2BAF6BEB00DAB556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B7BB6A2BAF6BED00DAB556 /* Preview Assets.xcassets in Resources */,
+				38B7BB672BAF6BED00DAB556 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -1817,6 +1916,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n\n";
+		};
+		F71635B72B0243909B2D4659 /* Upload Debug Symbols to Sentry */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Upload Debug Symbols to Sentry";
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+			);
+			outputPaths = (
+			);
+			shellPath = /bin/sh;
+			shellScript = "# This script is responsable to upload debug symbols and source context for Sentry.\nif which sentry-cli >/dev/null; then\nexport SENTRY_ORG=scribblelabapp\nexport SENTRY_PROJECT=apple-ios\nERROR=$(sentry-cli debug-files upload --include-sources \"$DWARF_DSYM_FOLDER_PATH\" 2>&1 >/dev/null)\nif [ ! $? -eq 0 ]; then\necho \"warning: sentry-cli - $ERROR\"\nfi\nelse\necho \"warning: sentry-cli not installed, download from https://github.com/getsentry/sentry-cli/releases\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1973,6 +2087,16 @@
 			files = (
 				38AE9CBD2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift in Sources */,
 				38AE9CBB2AD0751100B761E8 /* ScribbleLabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38B7BB5C2BAF6BEB00DAB556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B7BB652BAF6BEB00DAB556 /* ContentView.swift in Sources */,
+				38B7BB632BAF6BEB00DAB556 /* Main.swift in Sources */,
+				38B7BB752BAF6C4200DAB556 /* SLUpdateService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2900,6 +3024,156 @@
 			};
 			name = Release;
 		};
+		38B7BB6D2BAF6BED00DAB556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SLUpdateService/SLUpdateService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SLUpdateService/Preview Content\"";
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Update Service";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.SLUpdateService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+			};
+			name = Debug;
+		};
+		38B7BB6E2BAF6BED00DAB556 /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SLUpdateService/SLUpdateService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SLUpdateService/Preview Content\"";
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Update Service";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.SLUpdateService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+			};
+			name = Alpha;
+		};
+		38B7BB6F2BAF6BED00DAB556 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SLUpdateService/SLUpdateService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SLUpdateService/Preview Content\"";
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Update Service";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.SLUpdateService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+			};
+			name = Beta;
+		};
+		38B7BB702BAF6BED00DAB556 /* RC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SLUpdateService/SLUpdateService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SLUpdateService/Preview Content\"";
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Update Service";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.SLUpdateService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+			};
+			name = RC;
+		};
+		38B7BB712BAF6BED00DAB556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SLUpdateService/SLUpdateService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SLUpdateService/Preview Content\"";
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Update Service";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.SLUpdateService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2959,6 +3233,18 @@
 				38355F072AD3E01A00392674 /* Beta */,
 				38355F0C2AD3E02000392674 /* RC */,
 				38AE9CC82AD0751100B761E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38B7BB6C2BAF6BED00DAB556 /* Build configuration list for PBXNativeTarget "SLUpdateService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38B7BB6D2BAF6BED00DAB556 /* Debug */,
+				38B7BB6E2BAF6BED00DAB556 /* Alpha */,
+				38B7BB6F2BAF6BED00DAB556 /* Beta */,
+				38B7BB702BAF6BED00DAB556 /* RC */,
+				38B7BB712BAF6BED00DAB556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3076,6 +3362,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 10.16.0;
+			};
+		};
+		60294CE4C918487CBEA736E0 /* XCRemoteSwiftPackageReference "sentry-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getsentry/sentry-cocoa/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -3265,6 +3559,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		FA52FE9EA91747D0A4AEF70C /* Sentry */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60294CE4C918487CBEA736E0 /* XCRemoteSwiftPackageReference "sentry-cocoa" */;
+			productName = Sentry;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

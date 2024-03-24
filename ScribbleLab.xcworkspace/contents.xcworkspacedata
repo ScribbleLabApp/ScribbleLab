@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:ScribbleLab.xcodeproj">
+      location = "group:../SLAComponents">
    </FileRef>
    <FileRef
-      location = "group:../SLAComponents">
+      location = "group:Developer Support/ScribbleDeveloper/ScribbleDeveloper.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ScribbleLab.xcodeproj">
    </FileRef>
 </Workspace>
