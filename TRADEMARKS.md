@@ -22,7 +22,7 @@ Whenever you use one of our marks, you must always do so in a way that does not 
 
 Do not use the ScribbleLabApp marks in any way that could mistakenly imply that ScribbleLabApp has reviewed, approved or guaranteed your goods or services. You also cannot use our logo on your website in a way that suggests that your website is an official website or that we endorse your website. You can, though, say you like the ScribbleLabApp software, that you use ScribbleLab or any associated apps, that the analytics are powered by ScribbleLabApp or that you participate in the ScribbleLabApp community.
 
-Do not use the "sl", "SL", "SLA", "SC", "AF", "SCA" prefix in a way that could mistakenly imply that your product is related to ScribbleLabApp. For example, an analytics product that uses ScribbleLabApp should not use the name "slanalytics".
+Do not use the "sl", "SL", "SLA", "SC", "AF", "AP", "SCA" prefix in a way that could mistakenly imply that your product is related to ScribbleLabApp. For example, an analytics product that uses ScribbleLabApp should not use the name "slanalytics".
 
 You may not use or register our marks or variations of them as part of your trademark, business, product, service, app, domain name, social media account or business indicator. You may not use our marks as a part of an advertising campaign. You may not display ScribbleLabApp's trademarks more prominently than your product, service or company name. You may not use ScribbleLabApp's trademarks on merchandise for sale (e.g., selling t-shirts, mugs, etc).
 

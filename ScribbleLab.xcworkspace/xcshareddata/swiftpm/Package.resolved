@@ -226,6 +226,15 @@
       }
     },
     {
+      "identity" : "sentry-cocoa",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/getsentry/sentry-cocoa/",
+      "state" : {
+        "revision" : "56157a1aea8c49a1050c1845033089bf813ea3c5",
+        "version" : "8.22.2"
+      }
+    },
+    {
       "identity" : "setting",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/aheze/Setting",

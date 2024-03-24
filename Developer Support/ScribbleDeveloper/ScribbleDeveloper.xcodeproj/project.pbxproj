@@ -15,6 +15,10 @@
 		38B7BB412BAF555800DAB556 /* Beta.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 38B7BB402BAF555800DAB556 /* Beta.xcconfig */; };
 		38B7BB432BAF556D00DAB556 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 38B7BB422BAF556D00DAB556 /* Debug.xcconfig */; };
 		38B7BB452BAF557B00DAB556 /* Realease.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 38B7BB442BAF557B00DAB556 /* Realease.xcconfig */; };
+		38B7BB4D2BAF67A400DAB556 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38B7BB4C2BAF67A400DAB556 /* MainMenu.xib */; };
+		38B7BB7C2BAF717600DAB556 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 38B7BB7B2BAF717600DAB556 /* .swiftlint.yml */; };
+		38B7BB7F2BAF72B700DAB556 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B7BB7E2BAF72B700DAB556 /* Log.swift */; };
+		38B7BB822BAF75A500DAB556 /* ScribbleProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B7BB812BAF75A500DAB556 /* ScribbleProject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		38B7BB402BAF555800DAB556 /* Beta.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Beta.xcconfig; sourceTree = "<group>"; };
 		38B7BB422BAF556D00DAB556 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		38B7BB442BAF557B00DAB556 /* Realease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Realease.xcconfig; sourceTree = "<group>"; };
+		38B7BB4C2BAF67A400DAB556 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		38B7BB7B2BAF717600DAB556 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = .swiftlint.yml; path = ScribbleDeveloper/.swiftlint.yml; sourceTree = SOURCE_ROOT; };
+		38B7BB7E2BAF72B700DAB556 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		38B7BB812BAF75A500DAB556 /* ScribbleProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleProject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +69,10 @@
 		38B7BB2D2BAF54CE00DAB556 /* ScribbleDeveloper */ = {
 			isa = PBXGroup;
 			children = (
-				38B7BB2E2BAF54CE00DAB556 /* ScribbleDeveloperApp.swift */,
-				38B7BB302BAF54CE00DAB556 /* ContentView.swift */,
+				38B7BB4A2BAF635600DAB556 /* App */,
+				38B7BB4B2BAF635800DAB556 /* Core */,
+				38B7BB7D2BAF729700DAB556 /* Utils */,
+				38B7BB7B2BAF717600DAB556 /* .swiftlint.yml */,
 				38B7BB322BAF54CF00DAB556 /* Assets.xcassets */,
 				38B7BB372BAF54CF00DAB556 /* ScribbleDeveloper.entitlements */,
 				38B7BB342BAF54CF00DAB556 /* Preview Content */,
@@ -89,6 +99,32 @@
 			path = Configs;
 			sourceTree = "<group>";
 		};
+		38B7BB4A2BAF635600DAB556 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				38B7BB2E2BAF54CE00DAB556 /* ScribbleDeveloperApp.swift */,
+				38B7BB4C2BAF67A400DAB556 /* MainMenu.xib */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		38B7BB4B2BAF635800DAB556 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				38B7BB302BAF54CE00DAB556 /* ContentView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		38B7BB7D2BAF729700DAB556 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				38B7BB7E2BAF72B700DAB556 /* Log.swift */,
+				38B7BB812BAF75A500DAB556 /* ScribbleProject.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -96,6 +132,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38B7BB3A2BAF54CF00DAB556 /* Build configuration list for PBXNativeTarget "ScribbleDeveloper" */;
 			buildPhases = (
+				38B7BB802BAF72C300DAB556 /* SwiftLint */,
 				38B7BB272BAF54CE00DAB556 /* Sources */,
 				38B7BB282BAF54CE00DAB556 /* Frameworks */,
 				38B7BB292BAF54CE00DAB556 /* Resources */,
@@ -147,16 +184,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38B7BB7C2BAF717600DAB556 /* .swiftlint.yml in Resources */,
 				38B7BB452BAF557B00DAB556 /* Realease.xcconfig in Resources */,
 				38B7BB412BAF555800DAB556 /* Beta.xcconfig in Resources */,
 				38B7BB3F2BAF554F00DAB556 /* Alpha.xcconfig in Resources */,
 				38B7BB362BAF54CF00DAB556 /* Preview Assets.xcassets in Resources */,
 				38B7BB432BAF556D00DAB556 /* Debug.xcconfig in Resources */,
+				38B7BB4D2BAF67A400DAB556 /* MainMenu.xib in Resources */,
 				38B7BB332BAF54CF00DAB556 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38B7BB802BAF72C300DAB556 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/ScribbleDeveloper/.swiftlint.yml",
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		38B7BB272BAF54CE00DAB556 /* Sources */ = {
@@ -164,7 +225,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				38B7BB312BAF54CE00DAB556 /* ContentView.swift in Sources */,
+				38B7BB822BAF75A500DAB556 /* ScribbleProject.swift in Sources */,
 				38B7BB2F2BAF54CE00DAB556 /* ScribbleDeveloperApp.swift in Sources */,
+				38B7BB7F2BAF72B700DAB556 /* Log.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +272,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -273,7 +336,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -306,6 +369,7 @@
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = ScribbleDeveloper;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
@@ -337,6 +401,7 @@
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = ScribbleDeveloper;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
@@ -391,7 +456,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -432,6 +497,7 @@
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = ScribbleDeveloper;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
@@ -486,7 +552,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -527,6 +593,7 @@
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = ScribbleDeveloper;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
