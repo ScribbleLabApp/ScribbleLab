@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3877EDB72BB072D700A60946 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3877EDB62BB072D700A60946 /* AppDelegate.swift */; };
 		38B7BB2F2BAF54CE00DAB556 /* ScribbleDeveloperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B7BB2E2BAF54CE00DAB556 /* ScribbleDeveloperApp.swift */; };
 		38B7BB312BAF54CE00DAB556 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B7BB302BAF54CE00DAB556 /* ContentView.swift */; };
 		38B7BB332BAF54CF00DAB556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38B7BB322BAF54CF00DAB556 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3877EDB62BB072D700A60946 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38B7BB2B2BAF54CE00DAB556 /* ScribbleDeveloper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScribbleDeveloper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38B7BB2E2BAF54CE00DAB556 /* ScribbleDeveloperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleDeveloperApp.swift; sourceTree = "<group>"; };
 		38B7BB302BAF54CE00DAB556 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			children = (
 				38B7BB2E2BAF54CE00DAB556 /* ScribbleDeveloperApp.swift */,
 				38B7BB4C2BAF67A400DAB556 /* MainMenu.xib */,
+				3877EDB62BB072D700A60946 /* AppDelegate.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				38B7BB312BAF54CE00DAB556 /* ContentView.swift in Sources */,
 				38B7BB822BAF75A500DAB556 /* ScribbleProject.swift in Sources */,
 				38B7BB2F2BAF54CE00DAB556 /* ScribbleDeveloperApp.swift in Sources */,
+				3877EDB72BB072D700A60946 /* AppDelegate.swift in Sources */,
 				38B7BB7F2BAF72B700DAB556 /* Log.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

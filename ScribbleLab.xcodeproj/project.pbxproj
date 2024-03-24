@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CACB42CDF40405BB2507D6E /* Sentry in Frameworks */ = {isa = PBXBuildFile; productRef = FA52FE9EA91747D0A4AEF70C /* Sentry */; };
 		3802CBFC2B342F980051F6D8 /* LocalConsole in Frameworks */ = {isa = PBXBuildFile; productRef = 3802CBFB2B342F980051F6D8 /* LocalConsole */; };
 		38066B4F2AFE9F0E001A88D5 /* SLUpdateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38066B4E2AFE9F0E001A88D5 /* SLUpdateViewModel.swift */; };
 		38066B522AFEA235001A88D5 /* WaitSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38066B512AFEA235001A88D5 /* WaitSheetView.swift */; };
@@ -100,6 +101,11 @@
 		38760F172B2CB44600CC73BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38760F162B2CB44600CC73BD /* ContentView.swift */; };
 		38760F1B2B2CB44700CC73BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38760F1A2B2CB44700CC73BD /* Assets.xcassets */; };
 		38760F1E2B2CB44700CC73BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38760F1D2B2CB44700CC73BD /* Preview Assets.xcassets */; };
+		3877EDB12BB071D000A60946 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		3877EDB22BB071D000A60946 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		3877EDB32BB071D000A60946 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		3877EDB42BB071D000A60946 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		3877EDB52BB071D000A60946 /* Sentry in Frameworks */ = {isa = PBXBuildFile; productRef = FA52FE9EA91747D0A4AEF70C /* Sentry */; };
 		387B79362ADEDD9B0067E08B /* SLOtherSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387B79352ADEDD9B0067E08B /* SLOtherSettings.swift */; };
 		387F7F882B12087E001CC150 /* Draw+PencilKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F7F872B12087E001CC150 /* Draw+PencilKit.swift */; };
 		387F7F8A2B120948001CC150 /* DrawingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F7F892B120948001CC150 /* DrawingTest.swift */; };
@@ -191,7 +197,6 @@
 		38FFF93C2AE3C18B006719E2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF93B2AE3C18B006719E2 /* FirebaseStorage */; };
 		38FFF9422AE3C7C9006719E2 /* SignInWithGoogleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FFF9412AE3C7C9006719E2 /* SignInWithGoogleModel.swift */; };
 		38FFF9452AE3CA6F006719E2 /* Application_utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FFF9442AE3CA6F006719E2 /* Application_utility.swift */; };
-		0CACB42CDF40405BB2507D6E /* Sentry in Frameworks */ = {isa = PBXBuildFile; productRef = FA52FE9EA91747D0A4AEF70C /* Sentry */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -413,7 +418,7 @@
 				385ABC452B2DEF4C005F90E6 /* FirebasePerformance in Frameworks */,
 				385ABC412B2DEF4C005F90E6 /* FirebaseFunctions in Frameworks */,
 				385ABC312B2DEF4C005F90E6 /* FirebaseAnalytics in Frameworks */,
-				0CACB42CDF40405BB2507D6E /* Sentry in Frameworks */,
+				3877EDB12BB071D000A60946 /* (null) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,7 +460,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CACB42CDF40405BB2507D6E /* Sentry in Frameworks */,
+				3877EDB32BB071D000A60946 /* (null) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,7 +468,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CACB42CDF40405BB2507D6E /* Sentry in Frameworks */,
+				3877EDB22BB071D000A60946 /* (null) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,7 +476,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CACB42CDF40405BB2507D6E /* Sentry in Frameworks */,
+				3877EDB42BB071D000A60946 /* (null) in Frameworks */,
+				3877EDB52BB071D000A60946 /* Sentry in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1759,12 +1765,12 @@
 			dependencies = (
 			);
 			name = SLUpdateService;
-			productName = SLUpdateService;
-			productReference = 38B7BB602BAF6BEB00DAB556 /* SLUpdateService.app */;
-			productType = "com.apple.product-type.application";
 			packageProductDependencies = (
 				FA52FE9EA91747D0A4AEF70C /* Sentry */,
 			);
+			productName = SLUpdateService;
+			productReference = 38B7BB602BAF6BEB00DAB556 /* SLUpdateService.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -1922,13 +1928,13 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-			name = "Upload Debug Symbols to Sentry";
 			inputPaths = (
 				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
 			);
+			name = "Upload Debug Symbols to Sentry";
 			outputPaths = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# This script is responsable to upload debug symbols and source context for Sentry.\nif which sentry-cli >/dev/null; then\nexport SENTRY_ORG=scribblelabapp\nexport SENTRY_PROJECT=apple-ios\nERROR=$(sentry-cli debug-files upload --include-sources \"$DWARF_DSYM_FOLDER_PATH\" 2>&1 >/dev/null)\nif [ ! $? -eq 0 ]; then\necho \"warning: sentry-cli - $ERROR\"\nfi\nelse\necho \"warning: sentry-cli not installed, download from https://github.com/getsentry/sentry-cli/releases\"\nfi\n";
 		};
@@ -3033,6 +3039,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_ASSET_PATHS = "\"SLUpdateService/Preview Content\"";
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -3050,7 +3057,6 @@
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 			};
 			name = Debug;
 		};
@@ -3063,6 +3069,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_ASSET_PATHS = "\"SLUpdateService/Preview Content\"";
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -3080,7 +3087,6 @@
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 			};
 			name = Alpha;
 		};
@@ -3093,6 +3099,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_ASSET_PATHS = "\"SLUpdateService/Preview Content\"";
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -3110,7 +3117,6 @@
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 			};
 			name = Beta;
 		};
@@ -3123,6 +3129,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_ASSET_PATHS = "\"SLUpdateService/Preview Content\"";
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -3140,7 +3147,6 @@
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 			};
 			name = RC;
 		};
@@ -3153,6 +3159,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_ASSET_PATHS = "\"SLUpdateService/Preview Content\"";
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -3170,7 +3177,6 @@
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 			};
 			name = Release;
 		};
