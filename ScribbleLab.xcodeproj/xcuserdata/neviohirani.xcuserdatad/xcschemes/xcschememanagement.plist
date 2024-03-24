@@ -33,17 +33,17 @@
 		<key>SLShareExtension.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>4</integer>
 		</dict>
 		<key>SLStickerPack.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<key>SLUpdateService.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>6</integer>
 		</dict>
 		<key>ScribbleLab AppClip.xcscheme_^#shared#^_</key>
 		<dict>
@@ -53,7 +53,7 @@
 		<key>ScribbleLab MacOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>5</integer>
 		</dict>
 		<key>ScribbleLab macOS.xcscheme_^#shared#^_</key>
 		<dict>
@@ -63,7 +63,7 @@
 		<key>ScribbleLab-WidgetsExtension.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<key>ScribbleLab-macOS.xcscheme_^#shared#^_</key>
 		<dict>
@@ -73,7 +73,7 @@
 		<key>ScribbleLab.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>ScribbleLabShareExtension.xcscheme</key>
 		<dict>
