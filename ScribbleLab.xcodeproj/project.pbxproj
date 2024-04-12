@@ -83,6 +83,7 @@
 		386BF6AD2B666D8E00EF97E8 /* NewsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386BF6AC2B666D8E00EF97E8 /* NewsDetail.swift */; };
 		38721C062BC99B16002F2AA9 /* Process+Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38721C052BC99B16002F2AA9 /* Process+Launch.swift */; };
 		38721C082BC99B16002F2AA9 /* Process+Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38721C052BC99B16002F2AA9 /* Process+Launch.swift */; };
+		38721C0A2BC9BC0A002F2AA9 /* DockProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38721C092BC9BC0A002F2AA9 /* DockProgress.swift */; };
 		3874329B2B5FADAB00D7A864 /* DeveloperSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874329A2B5FADAB00D7A864 /* DeveloperSettingsView.swift */; };
 		3874329D2B5FCBB400D7A864 /* HomeSortOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874329C2B5FCBB400D7A864 /* HomeSortOption.swift */; };
 		387432A32B5FCF7800D7A864 /* SLDisplayStyleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387432A22B5FCF7800D7A864 /* SLDisplayStyleButton.swift */; };
@@ -294,6 +295,7 @@
 		3868A3E22AD2FE6600D4CAEC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		386BF6AC2B666D8E00EF97E8 /* NewsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetail.swift; sourceTree = "<group>"; };
 		38721C052BC99B16002F2AA9 /* Process+Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Process+Launch.swift"; sourceTree = "<group>"; };
+		38721C092BC9BC0A002F2AA9 /* DockProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockProgress.swift; sourceTree = "<group>"; };
 		3874329A2B5FADAB00D7A864 /* DeveloperSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperSettingsView.swift; sourceTree = "<group>"; };
 		3874329C2B5FCBB400D7A864 /* HomeSortOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSortOption.swift; sourceTree = "<group>"; };
 		387432A22B5FCF7800D7A864 /* SLDisplayStyleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLDisplayStyleButton.swift; sourceTree = "<group>"; };
@@ -720,6 +722,7 @@
 			isa = PBXGroup;
 			children = (
 				384079E72B614CDC0059523C /* ShareExtension */,
+				38721C092BC9BC0A002F2AA9 /* DockProgress.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1357,13 +1360,6 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		38D0CF542B6797480051B356 /* Permissions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Permissions;
-			sourceTree = "<group>";
-		};
 		38D0CF572B67C0D70051B356 /* Create */ = {
 			isa = PBXGroup;
 			children = (
@@ -1498,7 +1494,6 @@
 		38D84A432B65622700BE884B /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				38D0CF542B6797480051B356 /* Permissions */,
 				38D84A442B65622B00BE884B /* WKWebView */,
 			);
 			path = Helpers;
@@ -1913,6 +1908,7 @@
 				3828B2452B1FA7A400D66BD8 /* NotificationCellModel.swift in Sources */,
 				38D84A4B2B6663FE00BE884B /* NewsCell.swift in Sources */,
 				3874329B2B5FADAB00D7A864 /* DeveloperSettingsView.swift in Sources */,
+				38721C0A2BC9BC0A002F2AA9 /* DockProgress.swift in Sources */,
 				3883D3012AFF9D6F007C00A3 /* document.swift in Sources */,
 				38E5BBB72AE4244600FFFE7C /* User.swift in Sources */,
 				38355ED72AD3D52D00392674 /* IGTextFieldModifier.swift in Sources */,
