@@ -29,5 +29,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate, ObservableObject {
     
     var statusItem: NSStatusItem?
     
+    // private var updateModel: UpdateObservedModel = .shared
+    // private var languageRegistery: LanguageRegistry = .shared
     
+    var cancellable = Set<AnyCancellable>()
 }

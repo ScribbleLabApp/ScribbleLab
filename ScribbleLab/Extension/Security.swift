@@ -49,9 +49,13 @@ func unlockWithBiometrics(completion: @escaping BiometricUnlockCompletion) {
                 } else if let error = authenticationError {
                     completion(false, error)
                 } else {
-                    completion(false, NSError(domain: "ScribbleLab", code: -1,
-                                              userInfo: [NSLocalizedDescriptionKey: "Biometric authentication failed."]
-                                             )
+                    completion(
+                        false,
+                        NSError(
+                            domain: "ScribbleLab", 
+                            code: -1,
+                            userInfo: [NSLocalizedDescriptionKey: "Biometric authentication failed."]
+                        )
                     )
                 }
             }

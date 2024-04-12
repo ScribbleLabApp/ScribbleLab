@@ -105,8 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				38B7BB2E2BAF54CE00DAB556 /* ScribbleDeveloperApp.swift */,
-				38B7BB4C2BAF67A400DAB556 /* MainMenu.xib */,
 				3877EDB62BB072D700A60946 /* AppDelegate.swift */,
+				38B7BB4C2BAF67A400DAB556 /* MainMenu.xib */,
 			);
 			path = App;
 			sourceTree = "<group>";
