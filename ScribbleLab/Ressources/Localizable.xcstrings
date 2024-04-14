@@ -756,7 +756,7 @@
 
     },
     "Cancel" : {
-
+      "comment" : "Cancel"
     },
     "Categories" : {
       "extractionState" : "manual",
@@ -1566,6 +1566,9 @@
           }
         }
       }
+    },
+    "Ok" : {
+      "comment" : "Ok"
     },
     "OK" : {
 

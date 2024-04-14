@@ -37,6 +37,7 @@ import FirebaseCore
 import GoogleSignIn
 import FirebasePerformance
 import FirebaseCrashlytics
+import ScribbleCoreServices
 
 #elseif os(macOS)
 import AppKit
@@ -86,10 +87,10 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
         return true
     }
     
-    private let logger = Logger(subsystem: "com.nhstudiios.ScribbleLab", category: "MemoryWarning")
+    let scnLog = SCNLog(subsystem: "com.nhstudiios.ScribbleLab")
     
     func applicationDidReceiveMemoryWarning(_ application: UIApplication) {
-        logger.error("MEMORY ISSUE: Received memory warning!")
+        scnLog.memoryWarning("AppDelegate Received memory warning!")
     }
     
     // The method should call the handleURL method of GIDSignIn instance, 

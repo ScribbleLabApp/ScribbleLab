@@ -34,6 +34,8 @@
 		381F1F132AD72DD6001B3B10 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F1F122AD72DD6001B3B10 /* TestView.swift */; };
 		3828B2432B1FA5BE00D66BD8 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828B2422B1FA5BE00D66BD8 /* NotificationCell.swift */; };
 		3828B2452B1FA7A400D66BD8 /* NotificationCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828B2442B1FA7A400D66BD8 /* NotificationCellModel.swift */; };
+		38316F632BCBB68B0026B9BB /* ScribbleCoreServices in Frameworks */ = {isa = PBXBuildFile; productRef = 38316F622BCBB68B0026B9BB /* ScribbleCoreServices */; };
+		38316F652BCBB68B0026B9BB /* ScribbleCoreServicesObjc in Frameworks */ = {isa = PBXBuildFile; productRef = 38316F642BCBB68B0026B9BB /* ScribbleCoreServicesObjc */; };
 		38348BEE2B1A6A1A00846877 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38348BED2B1A6A1900846877 /* HomeViewModel.swift */; };
 		38348BF22B1A981100846877 /* testAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38348BF12B1A981100846877 /* testAuthentication.swift */; };
 		38348BF62B1A9F0200846877 /* testLogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38348BF52B1A9F0200846877 /* testLogIn.swift */; };
@@ -394,7 +396,9 @@
 				385E11EB2BA0ED6800225AF8 /* AppearanceProviding in Frameworks */,
 				38FFF93A2AE3C18B006719E2 /* FirebaseInstallations in Frameworks */,
 				38A24C732AED2A7700F81F07 /* FirebaseAnalytics in Frameworks */,
+				38316F652BCBB68B0026B9BB /* ScribbleCoreServicesObjc in Frameworks */,
 				3884728C2B80E23300D61AEE /* ConfettiSwiftUI in Frameworks */,
+				38316F632BCBB68B0026B9BB /* ScribbleCoreServices in Frameworks */,
 				385F78AF2AD5E11C0096E504 /* GoogleSignIn in Frameworks */,
 				381792652AFFC017002A4551 /* AlertToast in Frameworks */,
 				383ED5E72B8E3D060055A07B /* Pow in Frameworks */,
@@ -1615,6 +1619,8 @@
 				383ED5E62B8E3D060055A07B /* Pow */,
 				385B8D2A2B9B7AB100DD4768 /* Setting */,
 				385E11EA2BA0ED6800225AF8 /* AppearanceProviding */,
+				38316F622BCBB68B0026B9BB /* ScribbleCoreServices */,
+				38316F642BCBB68B0026B9BB /* ScribbleCoreServicesObjc */,
 			);
 			productName = ScribbleLab;
 			productReference = 38AE9C982AD0750F00B761E8 /* ScribbleLab.app */;
@@ -1736,6 +1742,7 @@
 				385B8D292B9B7AB100DD4768 /* XCRemoteSwiftPackageReference "Setting" */,
 				385E11E92BA0ED6800225AF8 /* XCRemoteSwiftPackageReference "AppearanceProviding" */,
 				60294CE4C918487CBEA736E0 /* XCRemoteSwiftPackageReference "sentry-cocoa" */,
+				38316F612BCBB68B0026B9BB /* XCRemoteSwiftPackageReference "ScribbleCoreServices" */,
 			);
 			productRefGroup = 38AE9C992AD0750F00B761E8 /* Products */;
 			projectDirPath = "";
@@ -2993,6 +3000,14 @@
 				minimumVersion = 1.3.9;
 			};
 		};
+		38316F612BCBB68B0026B9BB /* XCRemoteSwiftPackageReference "ScribbleCoreServices" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ScribbleLabApp/ScribbleCoreServices.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		383ED5E52B8E3D060055A07B /* XCRemoteSwiftPackageReference "Pow" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/EmergeTools/Pow.git";
@@ -3106,6 +3121,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 381792632AFFC017002A4551 /* XCRemoteSwiftPackageReference "AlertToast" */;
 			productName = AlertToast;
+		};
+		38316F622BCBB68B0026B9BB /* ScribbleCoreServices */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38316F612BCBB68B0026B9BB /* XCRemoteSwiftPackageReference "ScribbleCoreServices" */;
+			productName = ScribbleCoreServices;
+		};
+		38316F642BCBB68B0026B9BB /* ScribbleCoreServicesObjc */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38316F612BCBB68B0026B9BB /* XCRemoteSwiftPackageReference "ScribbleCoreServices" */;
+			productName = ScribbleCoreServicesObjc;
 		};
 		383588452AFEDC6F00EEA1C3 /* FirebasePerformance */ = {
 			isa = XCSwiftPackageProductDependency;

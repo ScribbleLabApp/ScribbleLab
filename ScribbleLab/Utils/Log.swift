@@ -17,7 +17,7 @@ let Log = Logger( // swiftlint:disable:this identifier_name
     category: "ScribbleLab"
 )
 
-extension View {
+public extension View {
     /// Log
     /// This enables:
     ///
