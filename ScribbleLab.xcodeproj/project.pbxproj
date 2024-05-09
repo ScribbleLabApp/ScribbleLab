@@ -84,15 +84,12 @@
 		3868A3E32AD2FE6600D4CAEC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3E22AD2FE6600D4CAEC /* ProfileView.swift */; };
 		386BF6AD2B666D8E00EF97E8 /* NewsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386BF6AC2B666D8E00EF97E8 /* NewsDetail.swift */; };
 		38721C062BC99B16002F2AA9 /* Process+Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38721C052BC99B16002F2AA9 /* Process+Launch.swift */; };
-		38721C082BC99B16002F2AA9 /* Process+Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38721C052BC99B16002F2AA9 /* Process+Launch.swift */; };
 		38721C0A2BC9BC0A002F2AA9 /* DockProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38721C092BC9BC0A002F2AA9 /* DockProgress.swift */; };
 		3874329B2B5FADAB00D7A864 /* DeveloperSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874329A2B5FADAB00D7A864 /* DeveloperSettingsView.swift */; };
 		3874329D2B5FCBB400D7A864 /* HomeSortOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874329C2B5FCBB400D7A864 /* HomeSortOption.swift */; };
 		387432A32B5FCF7800D7A864 /* SLDisplayStyleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387432A22B5FCF7800D7A864 /* SLDisplayStyleButton.swift */; };
 		3877EDB22BB071D000A60946 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		3877EDB32BB071D000A60946 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		3877EDB42BB071D000A60946 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		3877EDB52BB071D000A60946 /* Sentry in Frameworks */ = {isa = PBXBuildFile; productRef = FA52FE9EA91747D0A4AEF70C /* Sentry */; };
 		387B79362ADEDD9B0067E08B /* SLOtherSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387B79352ADEDD9B0067E08B /* SLOtherSettings.swift */; };
 		387F7F882B12087E001CC150 /* Draw+PencilKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F7F872B12087E001CC150 /* Draw+PencilKit.swift */; };
 		387F7F8A2B120948001CC150 /* DrawingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F7F892B120948001CC150 /* DrawingTest.swift */; };
@@ -111,6 +108,15 @@
 		38A24C712AED15B600F81F07 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A24C702AED15B600F81F07 /* ImageUploader.swift */; };
 		38A24C732AED2A7700F81F07 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 38A24C722AED2A7700F81F07 /* FirebaseAnalytics */; };
 		38A24C752AED2A7700F81F07 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 38A24C742AED2A7700F81F07 /* FirebaseAnalyticsSwift */; };
+		38A5E3232BECF1ED009A8885 /* SCSUpdateServiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5E3222BECF1ED009A8885 /* SCSUpdateServiceApp.swift */; };
+		38A5E3252BECF1ED009A8885 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5E3242BECF1ED009A8885 /* ContentView.swift */; };
+		38A5E3272BECF1EE009A8885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A5E3262BECF1EE009A8885 /* Assets.xcassets */; };
+		38A5E32A2BECF1EE009A8885 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A5E3292BECF1EE009A8885 /* Preview Assets.xcassets */; };
+		38A5E3392BECF235009A8885 /* ScribbleLab_macOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5E3382BECF235009A8885 /* ScribbleLab_macOSApp.swift */; };
+		38A5E33B2BECF235009A8885 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5E33A2BECF235009A8885 /* ContentView.swift */; };
+		38A5E33D2BECF237009A8885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A5E33C2BECF237009A8885 /* Assets.xcassets */; };
+		38A5E3402BECF237009A8885 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A5E33F2BECF237009A8885 /* Preview Assets.xcassets */; };
+		38A5E3492BECF27D009A8885 /* ScribbleCoreServices in Frameworks */ = {isa = PBXBuildFile; productRef = 38A5E3482BECF27D009A8885 /* ScribbleCoreServices */; };
 		38A5E9BB2B03D4E80037C668 /* SLOTP+2FAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5E9BA2B03D4E80037C668 /* SLOTP+2FAView.swift */; };
 		38A5E9BD2B03D7730037C668 /* OTPTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5E9BC2B03D7730037C668 /* OTPTextFieldView.swift */; };
 		38A5E9C22B03F0140037C668 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 38A5E9C12B03F0140037C668 /* iPhoneNumberField */; };
@@ -121,7 +127,6 @@
 		38AB46322B16524000DC9D1C /* Alpha.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 38355EFD2AD3DF9B00392674 /* Alpha.xcconfig */; };
 		38AB46332B16524000DC9D1C /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 38355F032AD3DFED00392674 /* Debug.xcconfig */; };
 		38AD22322B10F6A100663C37 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AD22312B10F6A100663C37 /* Network.swift */; };
-		38ADB4D92AF6952C0019375B /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 38ADB4D82AF6952C0019375B /* Documentation.docc */; };
 		38ADE8112B1D1253002229A2 /* SLTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ADE8102B1D1253002229A2 /* SLTip.swift */; };
 		38ADE8172B1D1F44002229A2 /* NotificationSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ADE8162B1D1F44002229A2 /* NotificationSettings.swift */; };
 		38AE9C9C2AD0750F00B761E8 /* ScribbleLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9C9B2AD0750F00B761E8 /* ScribbleLabApp.swift */; };
@@ -136,11 +141,6 @@
 		38B36C5E2B5D73D80009BA56 /* FavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B36C5D2B5D73D80009BA56 /* FavouriteView.swift */; };
 		38B36C622B5D770D0009BA56 /* SharedWithYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B36C612B5D770D0009BA56 /* SharedWithYouView.swift */; };
 		38B36C652B5D95FD0009BA56 /* ScribbleCloudOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B36C642B5D95FD0009BA56 /* ScribbleCloudOverviewView.swift */; };
-		38B7BB632BAF6BEB00DAB556 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B7BB622BAF6BEB00DAB556 /* Main.swift */; };
-		38B7BB652BAF6BEB00DAB556 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B7BB642BAF6BEB00DAB556 /* ContentView.swift */; };
-		38B7BB672BAF6BED00DAB556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38B7BB662BAF6BED00DAB556 /* Assets.xcassets */; };
-		38B7BB6A2BAF6BED00DAB556 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38B7BB692BAF6BED00DAB556 /* Preview Assets.xcassets */; };
-		38B7BB752BAF6C4200DAB556 /* SLUpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B7BB742BAF6C4200DAB556 /* SLUpdateService.swift */; };
 		38BAF7C52B5AF6EF00BEE6A5 /* IntegrationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BAF7C42B5AF6EF00BEE6A5 /* IntegrationsView.swift */; };
 		38BAF7C72B5AFC1B00BEE6A5 /* SLGoogleClassroomIntegrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BAF7C62B5AFC1B00BEE6A5 /* SLGoogleClassroomIntegrationView.swift */; };
 		38C666292B52D21900CAD099 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C666282B52D21900CAD099 /* SubscriptionView.swift */; };
@@ -311,18 +311,28 @@
 		3883D3002AFF9D6F007C00A3 /* document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = document.swift; sourceTree = "<group>"; };
 		388472862B80C35F00D61AEE /* CreateAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAvatarView.swift; sourceTree = "<group>"; };
 		388472882B80C4FE00D61AEE /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
-		388473572B8A87C500D61AEE /* Uninstaller.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Uninstaller.sh; sourceTree = "<group>"; };
 		3886B2DD2AD19F34002EF30E /* SLSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLSettingsView.swift; sourceTree = "<group>"; };
 		3886B2E02AD1ABC0002EF30E /* SLSideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLSideBarView.swift; sourceTree = "<group>"; };
 		3889688A2AF143C700F67F08 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		389FD4302B1B886100C7DCC1 /* testPaswordReset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testPaswordReset.swift; sourceTree = "<group>"; };
 		389FD4322B1BD22800C7DCC1 /* ResetPasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordModel.swift; sourceTree = "<group>"; };
 		38A24C702AED15B600F81F07 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
+		38A5E3202BECF1EC009A8885 /* SCSUpdateService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCSUpdateService.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A5E3222BECF1ED009A8885 /* SCSUpdateServiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSUpdateServiceApp.swift; sourceTree = "<group>"; };
+		38A5E3242BECF1ED009A8885 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		38A5E3262BECF1EE009A8885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38A5E3292BECF1EE009A8885 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		38A5E32B2BECF1EE009A8885 /* SCSUpdateService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SCSUpdateService.entitlements; sourceTree = "<group>"; };
+		38A5E3362BECF235009A8885 /* ScribbleLab macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScribbleLab macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A5E3382BECF235009A8885 /* ScribbleLab_macOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLab_macOSApp.swift; sourceTree = "<group>"; };
+		38A5E33A2BECF235009A8885 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		38A5E33C2BECF237009A8885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38A5E33F2BECF237009A8885 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		38A5E3412BECF237009A8885 /* ScribbleLab_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScribbleLab_macOS.entitlements; sourceTree = "<group>"; };
 		38A5E9BA2B03D4E80037C668 /* SLOTP+2FAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SLOTP+2FAView.swift"; sourceTree = "<group>"; };
 		38A5E9BC2B03D7730037C668 /* OTPTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextFieldView.swift; sourceTree = "<group>"; };
 		38A5E9C42B03F09C0037C668 /* SLOTP+2FA_ConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SLOTP+2FA_ConfigView.swift"; sourceTree = "<group>"; };
 		38AD22312B10F6A100663C37 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
-		38ADB4D82AF6952C0019375B /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		38ADE8102B1D1253002229A2 /* SLTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLTip.swift; sourceTree = "<group>"; };
 		38ADE8162B1D1F44002229A2 /* NotificationSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettings.swift; sourceTree = "<group>"; };
 		38AE9C982AD0750F00B761E8 /* ScribbleLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScribbleLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -342,13 +352,6 @@
 		38B36C5D2B5D73D80009BA56 /* FavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteView.swift; sourceTree = "<group>"; };
 		38B36C612B5D770D0009BA56 /* SharedWithYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedWithYouView.swift; sourceTree = "<group>"; };
 		38B36C642B5D95FD0009BA56 /* ScribbleCloudOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleCloudOverviewView.swift; sourceTree = "<group>"; };
-		38B7BB602BAF6BEB00DAB556 /* SLUpdateService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLUpdateService.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		38B7BB622BAF6BEB00DAB556 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
-		38B7BB642BAF6BEB00DAB556 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		38B7BB662BAF6BED00DAB556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		38B7BB692BAF6BED00DAB556 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		38B7BB6B2BAF6BED00DAB556 /* SLUpdateService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SLUpdateService.entitlements; sourceTree = "<group>"; };
-		38B7BB742BAF6C4200DAB556 /* SLUpdateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLUpdateService.swift; sourceTree = "<group>"; };
 		38BAF7C42B5AF6EF00BEE6A5 /* IntegrationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationsView.swift; sourceTree = "<group>"; };
 		38BAF7C62B5AFC1B00BEE6A5 /* SLGoogleClassroomIntegrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLGoogleClassroomIntegrationView.swift; sourceTree = "<group>"; };
 		38C666282B52D21900CAD099 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
@@ -380,6 +383,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		38A5E31D2BECF1EC009A8885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A5E3332BECF235009A8885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A5E3492BECF27D009A8885 /* ScribbleCoreServices in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38AE9C952AD0750F00B761E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -429,15 +447,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3877EDB22BB071D000A60946 /* (null) in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		38B7BB5D2BAF6BEB00DAB556 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3877EDB42BB071D000A60946 /* (null) in Frameworks */,
-				3877EDB52BB071D000A60946 /* Sentry in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1108,14 +1117,6 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
-		388473562B8A87AF00D61AEE /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				388473572B8A87C500D61AEE /* Uninstaller.sh */,
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
 		3886B2DB2AD19F26002EF30E /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -1165,6 +1166,46 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		38A5E3212BECF1ED009A8885 /* SCSUpdateService */ = {
+			isa = PBXGroup;
+			children = (
+				38A5E3222BECF1ED009A8885 /* SCSUpdateServiceApp.swift */,
+				38A5E3242BECF1ED009A8885 /* ContentView.swift */,
+				38A5E3262BECF1EE009A8885 /* Assets.xcassets */,
+				38A5E32B2BECF1EE009A8885 /* SCSUpdateService.entitlements */,
+				38A5E3282BECF1EE009A8885 /* Preview Content */,
+			);
+			path = SCSUpdateService;
+			sourceTree = "<group>";
+		};
+		38A5E3282BECF1EE009A8885 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				38A5E3292BECF1EE009A8885 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		38A5E3372BECF235009A8885 /* ScribbleLab macOS */ = {
+			isa = PBXGroup;
+			children = (
+				38A5E3382BECF235009A8885 /* ScribbleLab_macOSApp.swift */,
+				38A5E33A2BECF235009A8885 /* ContentView.swift */,
+				38A5E33C2BECF237009A8885 /* Assets.xcassets */,
+				38A5E3412BECF237009A8885 /* ScribbleLab_macOS.entitlements */,
+				38A5E33E2BECF237009A8885 /* Preview Content */,
+			);
+			path = "ScribbleLab macOS";
+			sourceTree = "<group>";
+		};
+		38A5E33E2BECF237009A8885 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				38A5E33F2BECF237009A8885 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		38A5E9B92B03D4A60037C668 /* OTP+2FA */ = {
 			isa = PBXGroup;
 			children = (
@@ -1211,13 +1252,12 @@
 			isa = PBXGroup;
 			children = (
 				385F78AB2AD5DDED0096E504 /* Settings.bundle */,
-				38ADB4D82AF6952C0019375B /* Documentation.docc */,
-				388473562B8A87AF00D61AEE /* Tools */,
 				3858A76D2AD1498D00FC6319 /* Configs */,
 				38AE9C9A2AD0750F00B761E8 /* ScribbleLab */,
 				38AE9CAF2AD0751100B761E8 /* ScribbleLabTests */,
 				38AE9CB92AD0751100B761E8 /* ScribbleLabUITests */,
-				38B7BB612BAF6BEB00DAB556 /* SLUpdateService */,
+				38A5E3212BECF1ED009A8885 /* SCSUpdateService */,
+				38A5E3372BECF235009A8885 /* ScribbleLab macOS */,
 				38355EDF2AD3DB3200392674 /* Frameworks */,
 				38AE9C992AD0750F00B761E8 /* Products */,
 			);
@@ -1229,7 +1269,8 @@
 				38AE9C982AD0750F00B761E8 /* ScribbleLab.app */,
 				38AE9CAC2AD0751100B761E8 /* ScribbleLabTests.xctest */,
 				38AE9CB62AD0751100B761E8 /* ScribbleLabUITests.xctest */,
-				38B7BB602BAF6BEB00DAB556 /* SLUpdateService.app */,
+				38A5E3202BECF1EC009A8885 /* SCSUpdateService.app */,
+				38A5E3362BECF235009A8885 /* ScribbleLab macOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1302,43 +1343,6 @@
 				38B36C642B5D95FD0009BA56 /* ScribbleCloudOverviewView.swift */,
 			);
 			path = ScribbleCloud;
-			sourceTree = "<group>";
-		};
-		38B7BB612BAF6BEB00DAB556 /* SLUpdateService */ = {
-			isa = PBXGroup;
-			children = (
-				38B7BB722BAF6C2000DAB556 /* Animation */,
-				38B7BB732BAF6C2800DAB556 /* Service */,
-				38B7BB622BAF6BEB00DAB556 /* Main.swift */,
-				38B7BB642BAF6BEB00DAB556 /* ContentView.swift */,
-				38B7BB662BAF6BED00DAB556 /* Assets.xcassets */,
-				38B7BB6B2BAF6BED00DAB556 /* SLUpdateService.entitlements */,
-				38B7BB682BAF6BED00DAB556 /* Preview Content */,
-			);
-			path = SLUpdateService;
-			sourceTree = "<group>";
-		};
-		38B7BB682BAF6BED00DAB556 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				38B7BB692BAF6BED00DAB556 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		38B7BB722BAF6C2000DAB556 /* Animation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Animation;
-			sourceTree = "<group>";
-		};
-		38B7BB732BAF6C2800DAB556 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				38B7BB742BAF6C4200DAB556 /* SLUpdateService.swift */,
-			);
-			path = Service;
 			sourceTree = "<group>";
 		};
 		38BAF7C32B5AF65700BEE6A5 /* Integrations */ = {
@@ -1559,6 +1563,43 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		38A5E31F2BECF1EC009A8885 /* SCSUpdateService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38A5E32C2BECF1EE009A8885 /* Build configuration list for PBXNativeTarget "SCSUpdateService" */;
+			buildPhases = (
+				38A5E31C2BECF1EC009A8885 /* Sources */,
+				38A5E31D2BECF1EC009A8885 /* Frameworks */,
+				38A5E31E2BECF1EC009A8885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCSUpdateService;
+			productName = SCSUpdateService;
+			productReference = 38A5E3202BECF1EC009A8885 /* SCSUpdateService.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38A5E3352BECF235009A8885 /* ScribbleLab macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38A5E3422BECF237009A8885 /* Build configuration list for PBXNativeTarget "ScribbleLab macOS" */;
+			buildPhases = (
+				38A5E3322BECF235009A8885 /* Sources */,
+				38A5E3332BECF235009A8885 /* Frameworks */,
+				38A5E3342BECF235009A8885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ScribbleLab macOS";
+			packageProductDependencies = (
+				38A5E3482BECF27D009A8885 /* ScribbleCoreServices */,
+			);
+			productName = "ScribbleLab macOS";
+			productReference = 38A5E3362BECF235009A8885 /* ScribbleLab macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		38AE9C972AD0750F00B761E8 /* ScribbleLab */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38AE9CC02AD0751100B761E8 /* Build configuration list for PBXNativeTarget "ScribbleLab" */;
@@ -1645,27 +1686,6 @@
 			productReference = 38AE9CB62AD0751100B761E8 /* ScribbleLabUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		38B7BB5F2BAF6BEB00DAB556 /* SLUpdateService */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 38B7BB6C2BAF6BED00DAB556 /* Build configuration list for PBXNativeTarget "SLUpdateService" */;
-			buildPhases = (
-				38B7BB5C2BAF6BEB00DAB556 /* Sources */,
-				38B7BB5D2BAF6BEB00DAB556 /* Frameworks */,
-				38B7BB5E2BAF6BEB00DAB556 /* Resources */,
-				F71635B72B0243909B2D4659 /* Upload Debug Symbols to Sentry */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SLUpdateService;
-			packageProductDependencies = (
-				FA52FE9EA91747D0A4AEF70C /* Sentry */,
-			);
-			productName = SLUpdateService;
-			productReference = 38B7BB602BAF6BEB00DAB556 /* SLUpdateService.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1673,9 +1693,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1520;
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					38A5E31F2BECF1EC009A8885 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					38A5E3352BECF235009A8885 = {
+						CreatedOnToolsVersion = 15.4;
+					};
 					38AE9C972AD0750F00B761E8 = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -1686,9 +1712,6 @@
 					38AE9CB52AD0751100B761E8 = {
 						CreatedOnToolsVersion = 15.0;
 						TestTargetID = 38AE9C972AD0750F00B761E8;
-					};
-					38B7BB5F2BAF6BEB00DAB556 = {
-						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
@@ -1734,12 +1757,31 @@
 				38AE9C972AD0750F00B761E8 /* ScribbleLab */,
 				38AE9CB52AD0751100B761E8 /* ScribbleLabUITests */,
 				38AE9CAB2AD0751100B761E8 /* ScribbleLabTests */,
-				38B7BB5F2BAF6BEB00DAB556 /* SLUpdateService */,
+				38A5E31F2BECF1EC009A8885 /* SCSUpdateService */,
+				38A5E3352BECF235009A8885 /* ScribbleLab macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		38A5E31E2BECF1EC009A8885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A5E32A2BECF1EE009A8885 /* Preview Assets.xcassets in Resources */,
+				38A5E3272BECF1EE009A8885 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A5E3342BECF235009A8885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A5E3402BECF237009A8885 /* Preview Assets.xcassets in Resources */,
+				38A5E33D2BECF237009A8885 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38AE9C962AD0750F00B761E8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1773,15 +1815,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38B7BB5E2BAF6BEB00DAB556 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38B7BB6A2BAF6BED00DAB556 /* Preview Assets.xcassets in Resources */,
-				38B7BB672BAF6BED00DAB556 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -1804,24 +1837,27 @@
 			shellPath = /bin/sh;
 			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n\n";
 		};
-		F71635B72B0243909B2D4659 /* Upload Debug Symbols to Sentry */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
-			);
-			name = "Upload Debug Symbols to Sentry";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# This script is responsable to upload debug symbols and source context for Sentry.\nif which sentry-cli >/dev/null; then\nexport SENTRY_ORG=scribblelabapp\nexport SENTRY_PROJECT=apple-ios\nERROR=$(sentry-cli debug-files upload --include-sources \"$DWARF_DSYM_FOLDER_PATH\" 2>&1 >/dev/null)\nif [ ! $? -eq 0 ]; then\necho \"warning: sentry-cli - $ERROR\"\nfi\nelse\necho \"warning: sentry-cli not installed, download from https://github.com/getsentry/sentry-cli/releases\"\nfi\n";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		38A5E31C2BECF1EC009A8885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A5E3252BECF1ED009A8885 /* ContentView.swift in Sources */,
+				38A5E3232BECF1ED009A8885 /* SCSUpdateServiceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A5E3322BECF235009A8885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A5E33B2BECF235009A8885 /* ContentView.swift in Sources */,
+				38A5E3392BECF235009A8885 /* ScribbleLab_macOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38AE9C942AD0750F00B761E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1860,7 +1896,6 @@
 				38C666362B5334BC00CAD099 /* DocumentScannerView.swift in Sources */,
 				38348BEE2B1A6A1A00846877 /* HomeViewModel.swift in Sources */,
 				38D84A492B656AA300BE884B /* NewsView.swift in Sources */,
-				38ADB4D92AF6952C0019375B /* Documentation.docc in Sources */,
 				38140A622AE3F61000753FB6 /* SLAuthService.swift in Sources */,
 				387F7F902B12265A001CC150 /* Constants.swift in Sources */,
 				3874329D2B5FCBB400D7A864 /* HomeSortOption.swift in Sources */,
@@ -1962,17 +1997,6 @@
 			files = (
 				38AE9CBD2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift in Sources */,
 				38AE9CBB2AD0751100B761E8 /* ScribbleLabUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		38B7BB5C2BAF6BEB00DAB556 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38721C082BC99B16002F2AA9 /* Process+Launch.swift in Sources */,
-				38B7BB652BAF6BEB00DAB556 /* ContentView.swift in Sources */,
-				38B7BB632BAF6BEB00DAB556 /* Main.swift in Sources */,
-				38B7BB752BAF6C4200DAB556 /* SLUpdateService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2445,6 +2469,276 @@
 			};
 			name = RC;
 		};
+		38A5E32D2BECF1EE009A8885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SCSUpdateService/SCSUpdateService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SCSUpdateService/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.SCSUpdateService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		38A5E32E2BECF1EE009A8885 /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SCSUpdateService/SCSUpdateService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SCSUpdateService/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.SCSUpdateService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Alpha;
+		};
+		38A5E32F2BECF1EE009A8885 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SCSUpdateService/SCSUpdateService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SCSUpdateService/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.SCSUpdateService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Beta;
+		};
+		38A5E3302BECF1EE009A8885 /* RC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SCSUpdateService/SCSUpdateService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SCSUpdateService/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.SCSUpdateService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = RC;
+		};
+		38A5E3312BECF1EE009A8885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SCSUpdateService/SCSUpdateService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SCSUpdateService/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.SCSUpdateService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		38A5E3432BECF237009A8885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ScribbleLab macOS/ScribbleLab_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab macOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudios.ScribbleLab-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		38A5E3442BECF237009A8885 /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ScribbleLab macOS/ScribbleLab_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab macOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudios.ScribbleLab-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Alpha;
+		};
+		38A5E3452BECF237009A8885 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ScribbleLab macOS/ScribbleLab_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab macOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudios.ScribbleLab-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Beta;
+		};
+		38A5E3462BECF237009A8885 /* RC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ScribbleLab macOS/ScribbleLab_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab macOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudios.ScribbleLab-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = RC;
+		};
+		38A5E3472BECF237009A8885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ScribbleLab macOS/ScribbleLab_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab macOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudios.ScribbleLab-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		38AE9CBE2AD0751100B761E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 38355F032AD3DFED00392674 /* Debug.xcconfig */;
@@ -2740,159 +3034,33 @@
 			};
 			name = Release;
 		};
-		38B7BB6D2BAF6BED00DAB556 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SLUpdateService/SLUpdateService.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_ASSET_PATHS = "\"SLUpdateService/Preview Content\"";
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Update Service";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudiios.SLUpdateService;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		38B7BB6E2BAF6BED00DAB556 /* Alpha */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SLUpdateService/SLUpdateService.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_ASSET_PATHS = "\"SLUpdateService/Preview Content\"";
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Update Service";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudiios.SLUpdateService;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Alpha;
-		};
-		38B7BB6F2BAF6BED00DAB556 /* Beta */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SLUpdateService/SLUpdateService.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_ASSET_PATHS = "\"SLUpdateService/Preview Content\"";
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Update Service";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudiios.SLUpdateService;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Beta;
-		};
-		38B7BB702BAF6BED00DAB556 /* RC */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SLUpdateService/SLUpdateService.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_ASSET_PATHS = "\"SLUpdateService/Preview Content\"";
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Update Service";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudiios.SLUpdateService;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = RC;
-		};
-		38B7BB712BAF6BED00DAB556 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SLUpdateService/SLUpdateService.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_ASSET_PATHS = "\"SLUpdateService/Preview Content\"";
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Update Service";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudiios.SLUpdateService;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		38A5E32C2BECF1EE009A8885 /* Build configuration list for PBXNativeTarget "SCSUpdateService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A5E32D2BECF1EE009A8885 /* Debug */,
+				38A5E32E2BECF1EE009A8885 /* Alpha */,
+				38A5E32F2BECF1EE009A8885 /* Beta */,
+				38A5E3302BECF1EE009A8885 /* RC */,
+				38A5E3312BECF1EE009A8885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38A5E3422BECF237009A8885 /* Build configuration list for PBXNativeTarget "ScribbleLab macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A5E3432BECF237009A8885 /* Debug */,
+				38A5E3442BECF237009A8885 /* Alpha */,
+				38A5E3452BECF237009A8885 /* Beta */,
+				38A5E3462BECF237009A8885 /* RC */,
+				38A5E3472BECF237009A8885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		38AE9C932AD0750F00B761E8 /* Build configuration list for PBXProject "ScribbleLab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2937,18 +3105,6 @@
 				38355F072AD3E01A00392674 /* Beta */,
 				38355F0C2AD3E02000392674 /* RC */,
 				38AE9CC82AD0751100B761E8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		38B7BB6C2BAF6BED00DAB556 /* Build configuration list for PBXNativeTarget "SLUpdateService" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				38B7BB6D2BAF6BED00DAB556 /* Debug */,
-				38B7BB6E2BAF6BED00DAB556 /* Alpha */,
-				38B7BB6F2BAF6BED00DAB556 /* Beta */,
-				38B7BB702BAF6BED00DAB556 /* RC */,
-				38B7BB712BAF6BED00DAB556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3161,6 +3317,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAnalyticsSwift;
+		};
+		38A5E3482BECF27D009A8885 /* ScribbleCoreServices */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38316F612BCBB68B0026B9BB /* XCRemoteSwiftPackageReference "ScribbleCoreServices" */;
+			productName = ScribbleCoreServices;
 		};
 		38A5E9C12B03F0140037C668 /* iPhoneNumberField */ = {
 			isa = XCSwiftPackageProductDependency;
