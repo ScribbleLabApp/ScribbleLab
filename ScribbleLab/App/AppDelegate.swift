@@ -27,7 +27,6 @@
 //                                                                                               //
 // ===---------------------------------------------------------------------------------------=== //
 
-#if os(iOS)
 import UIKit
 import SwiftUI
 import UserNotifications
@@ -38,16 +37,6 @@ import GoogleSignIn
 import FirebasePerformance
 import FirebaseCrashlytics
 import ScribbleCoreServices
-
-#elseif os(macOS)
-import AppKit
-import SwiftUI
-import UserNotifications
-import os.log
-
-import FirebaseCore
-import GoogleSignIn
-#endif
 
 class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDelegate, ObservableObject {
 //    var notificationSettings = NotificationSettingsModel()
@@ -87,11 +76,13 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
         return true
     }
     
+    // [START setting_up_scnLogger]
     let scnLog = SCNLog(subsystem: "com.nhstudiios.ScribbleLab")
     
     func applicationDidReceiveMemoryWarning(_ application: UIApplication) {
         scnLog.memoryWarning("AppDelegate Received memory warning!")
     }
+    // [END setting_up_scnLogger]
     
     // The method should call the handleURL method of GIDSignIn instance, 
     // which will properly handle the URL that SL recieves at the end of the auth process.
