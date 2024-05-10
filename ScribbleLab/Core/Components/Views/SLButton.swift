@@ -53,7 +53,7 @@ struct SLButtonView: View {
                 .cornerRadius(cornerRadius) // 10
                 // MARK: -  Stroke of the Button (if backgroundColor = .clear):
                 .background {
-                    RoundedRectangle(cornerRadius: 13)
+                    RoundedRectangle(cornerRadius: cornerRadius)
                         .fill(Color(red: 248/255, green: 248/255, blue: 248/255))
                         .strokeBorder(Color(red: 194/255, green: 194/255, blue: 194/255), lineWidth: 0.5)
                 }

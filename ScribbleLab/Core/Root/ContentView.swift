@@ -24,13 +24,15 @@ import FirebaseCrashlytics
 
 struct ContentView: View {
     @StateObject var viewModel = ContentViewModel()
+    @State private var features: [FeatureCell] = onbordingItems
 
     var body: some View {
         Group {
             if viewModel.userSession == nil { 
                 // FIXME: Old: $viewModel.userSession
-                SignUpView()
-                    .preferredColorScheme(.light)
+                OnboardingView(features: features)
+//                SignUpView()
+//                    .preferredColorScheme(.light)
                     .sheet(isPresented: $viewModel.showCrashReportSheet) {
                         CrashReportSheet()
                     }

@@ -27,9 +27,11 @@ struct CompleteRegistartionView: View {
     @State private var isTaskCompleted = false
     @State private var showAlert = false
     @State private var alertMessage = ""
+    
+    @State private var onboardingIsShown = false
        
     var body: some View {
-        VStack (spacing: 12){
+        VStack (spacing: 12) {
             
             Spacer()
             
@@ -49,24 +51,35 @@ struct CompleteRegistartionView: View {
                 .padding(.horizontal, 24)
             
             SLButton(text: "Register", font: .subheadline, backgroundColor: .orange, textColor: .black, cornerRadius: 10) {
+                
+                defer {
+                    onboardingIsShown.toggle()
+                }
+                
                 Task {
                     try await viewModel.createUser()
                     try await vm.signIn()
                 }
-//                Task {
-//                    do {
-//                        try await viewModel.createUser()
-//                        // Task completed successfully
-//                        DispatchQueue.main.asyncAfter(deadline: .now() + 30) {
-//                            isTaskCompleted = true // Display the view after 30 seconds
-//                        }
-//                    } catch {
-//                        alertMessage = error.localizedDescription
-//                        showAlert.toggle()
-//                    }
-//                }
             }
             .padding(.vertical)
+            .sheet(isPresented: $onboardingIsShown){
+                NavigationStack {
+                    VStack {
+                        NotificationOnboardingView()
+                    }
+                    .toolbar {
+                        ToolbarItem(placement: .topBarTrailing) {
+                            Button {
+                                dismiss()
+                                onboardingIsShown.toggle()
+                            } label: {
+                                Image(systemName: "xmark.circle.fill")
+                                    .tint(.secondary)
+                            }
+                        }
+                    }
+                }
+            }
             
             Spacer()
         }
@@ -94,7 +107,9 @@ struct CompleteRegistartionView: View {
 }
 
 #Preview {
-    CompleteRegistartionView()
-        .environmentObject(RegistrationViewModel())
+    NavigationStack {
+        CompleteRegistartionView()
+            .environmentObject(RegistrationViewModel())
         .environmentObject(LoginViewModel())
+    }
 }

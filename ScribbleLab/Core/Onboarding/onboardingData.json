@@ -1,0 +1,20 @@
+[
+    {
+        "imageName": "person-illustartion-orange",
+        "title": "Improve your note-taking Experience",
+        "description": "Experience seamless digital note-taking with our intuitive features\n designed to enhance your productivity and organization",
+        "id": 1001
+    },
+    {
+        "imageName": "boy_things_illustration",
+        "title": "Simplify and Organize Your Workspace",
+        "description": "Say goodbye to clutter and chaos as you transition to a streamlined digital workspace,\n making it easier than ever to manage your tasks and documents.",
+        "id": 1002
+    },
+    {
+        "imageName": "",
+        "title": "Boost Your Academic Performance",
+        "description": "Achieve academic excellence with our specialized tools and resources,\n tailored to help you improve your grades and overall performance in your studies.",
+        "id": 1003
+    }
+]

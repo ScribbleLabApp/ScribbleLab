@@ -30,6 +30,8 @@
 import SwiftUI
 import TipKit
 
+import ScribbleCoreServices
+
 import FirebaseCore
 import GoogleSignIn
 
@@ -42,6 +44,8 @@ import FirebaseCrashlytics
 struct ScribbleLabApp: App {
     // register app delegate for Firebase setup
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
+    public let scnLog = SCNLog(subsystem: "com.nhstudiiios.ScribleLab")
     
     var body: some Scene {
         WindowGroup {

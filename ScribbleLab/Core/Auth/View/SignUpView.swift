@@ -26,6 +26,8 @@ import FirebaseCore
 struct SignUpView: View {
 //    @AppStorage("isDarkMode") private var isDarkMode = false
     
+    @Environment(\.colorScheme) var colorScheme
+    
     @State private var presentNoAccountPopUp = false
     @State private var tourSheetIsPresented = false
     
@@ -41,11 +43,17 @@ struct SignUpView: View {
             VStack {
                 Spacer()
                 
-                Image("logo-light-complex") // FIXME: Logo: darkmode
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 420)
-                
+                if colorScheme == .dark {
+                    Image("logo-dark-complex") // FIXME: Logo: darkmode
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 420)
+                } else {
+                    Image("logo-light-complex") // FIXME: Logo: darkmode
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 420)
+                }
                 VStack {
                     Text("Kickstart your note-taking experience")
                     Text("by creating ScribbleLab account.")
@@ -107,7 +115,7 @@ struct SignUpView: View {
                             Text("Log In").bold()
                                 .foregroundStyle(.orange)
                         }
-                        .foregroundStyle(.black)
+                        .tint(.primary)
                         
                     }
                 }
@@ -116,7 +124,7 @@ struct SignUpView: View {
                 
                 VStack {
                     Text("By continuing I agree with ScribbleLabApp's ") + Text("[Terms of Use](https://github.com/ScribbleLabApp/ScribbleLab/blob/main/LICENSE_AGREEMENT.md)").underline()
-                    Text("and ") + Text("[Privacy Policy](https://github.com/ScribbleLabApp/ScribbleLab/blob/main/PrivacyPolicy.md).").underline()
+                    Text("and ") + Text(" [Privacy Policy](https://github.com/ScribbleLabApp/ScribbleLab/blob/main/PrivacyPolicy.md).").underline()
                 }
                 .tint(.primary)
                 .font(.headline)

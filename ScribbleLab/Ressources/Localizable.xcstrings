@@ -4,6 +4,12 @@
     "" : {
 
     },
+    " [Privacy Policy](https://github.com/ScribbleLabApp/ScribbleLab/blob/main/PrivacyPolicy.md)." : {
+
+    },
+    " Enable Notifications" : {
+
+    },
     "'Contribution' shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, 'submitted' means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as 'Not a Contribution.'" : {
       "localizations" : {
         "de" : {
@@ -163,6 +169,7 @@
       }
     },
     "[Privacy Policy](https://github.com/ScribbleLabApp/ScribbleLab/blob/main/PrivacyPolicy.md)." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -537,12 +544,6 @@
     "Already have an account?" : {
 
     },
-    "Always dark" : {
-
-    },
-    "Always light" : {
-
-    },
     "Analytics & Improvements" : {
 
     },
@@ -614,9 +615,6 @@
     "Appearance" : {
 
     },
-    "Appearance (BETA)" : {
-
-    },
     "APPENDIX: How to apply the Apache License to your work." : {
       "localizations" : {
         "de" : {
@@ -673,15 +671,6 @@
       }
     },
     "Avartar" : {
-
-    },
-    "Avatar" : {
-
-    },
-    "Avatar-Settings" : {
-
-    },
-    "Avatars" : {
 
     },
     "BIRTHDAY01" : {
@@ -747,6 +736,9 @@
       }
     },
     "By continuing I agree with ScribbleLabApp's " : {
+
+    },
+    "By continuing, you confirm that you have read, understand, and\n agree to our [Privacy Policy](https://github.com/ScribbleLabApp) and [Terms and Conditions](https://github.com/ScribbleLabApp)." : {
 
     },
     "by creating ScribbleLab account." : {
@@ -874,31 +866,13 @@
     "Create" : {
       "extractionState" : "manual"
     },
-    "Create a new color theme" : {
-
-    },
-    "Create Avartar" : {
-
-    },
     "Create from Template" : {
-
-    },
-    "Create new custom Theme" : {
 
     },
     "Create New Document" : {
 
     },
     "Create one." : {
-
-    },
-    "Create your avatar" : {
-
-    },
-    "Custom color themes" : {
-
-    },
-    "Customization" : {
 
     },
     "Customize ScribbleLab's appereance" : {
@@ -1111,9 +1085,6 @@
         }
       }
     },
-    "Express Yourself Beyond Words – Unleash the Power of Your Avatar on ScribbleLab" : {
-
-    },
     "Extensions" : {
 
     },
@@ -1167,6 +1138,9 @@
 
     },
     "Get practical tips on features and more directly in ScribbleLab." : {
+
+    },
+    "Get Started" : {
 
     },
     "Get Started with ScribbleLab" : {
@@ -1359,12 +1333,6 @@
         }
       }
     },
-    "Learn more" : {
-
-    },
-    "Learn more about how to create and manage avatars by visiting our docs" : {
-
-    },
     "Learning Center" : {
 
     },
@@ -1454,9 +1422,6 @@
 
     },
     "Manage" : {
-
-    },
-    "Manage Avatars" : {
 
     },
     "Manage Features" : {
@@ -1823,9 +1788,6 @@
     "Security" : {
 
     },
-    "Security & Privacy" : {
-
-    },
     "Security Information" : {
 
     },
@@ -1903,6 +1865,12 @@
 
     },
     "Status" : {
+
+    },
+    "Stay in the Know:" : {
+
+    },
+    "Stay in the loop! Enable Notifications to receive updates on changes made by\n collaborators or catch other important messages. Customize your preferences in\n **Settings > Notifications** to tailor your notification experience to your liking." : {
 
     },
     "Stay up to date with push notifications." : {
@@ -2002,9 +1970,6 @@
     "Thank You!" : {
 
     },
-    "Theme" : {
-
-    },
     "These settings are responsible for the updates of this app. In order to enroll to the programmes you need to be registered to our ScribbleLab Developer Programm (free). Follow [this link](https://github.com/ScribbleLabApp/ScribbleLab) for a more detailed description." : {
 
     },
@@ -2027,6 +1992,9 @@
 
     },
     "Those informations are needed if you want to report an issue" : {
+
+    },
+    "Time Sensitive" : {
 
     },
     "Timetable" : {
@@ -2137,9 +2105,6 @@
     "Usage Data" : {
 
     },
-    "Use system settings" : {
-
-    },
     "Username" : {
       "localizations" : {
         "de" : {
@@ -2175,9 +2140,6 @@
           }
         }
       }
-    },
-    "View, customize, and use all of your self-created appearances in ScribbleLab." : {
-
     },
     "Warning" : {
       "extractionState" : "stale",
@@ -2232,16 +2194,10 @@
         }
       }
     },
-    "What would you like to do?" : {
-
-    },
     "What's New" : {
 
     },
     "What's new in %@" : {
-
-    },
-    "When creating an avatar you agree to ScribbleLab's Terms Of Use and LICENSE" : {
 
     },
     "When Safe Mode is enabled, ScribbleLab starts with several features disabled to ensure maximum stability or detect errors. This process requires a restart." : {
@@ -2278,9 +2234,6 @@
           }
         }
       }
-    },
-    "You can create your own color theme by following our templates. Please remember that the feature is in BETA." : {
-
     },
     "you can find your OTP Code" : {
 

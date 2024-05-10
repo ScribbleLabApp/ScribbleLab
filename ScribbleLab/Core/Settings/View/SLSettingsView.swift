@@ -77,7 +77,7 @@ struct SLSettingsView: View {
                         }
                     }
                     NavigationLink {
-                        AvatarView()
+                        
                     } label: {
                         Label("Avartar", systemImage: "sparkles")
                     }
@@ -92,7 +92,6 @@ struct SLSettingsView: View {
                 
                 Section {
                     NavigationLink {
-                        SLDarkmodeSettingsView()
                     } label: {
                         Label("Appearance", systemImage: "moon.fill")
                     }

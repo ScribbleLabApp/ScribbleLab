@@ -12,7 +12,7 @@ struct NotificationSheetView: View {
         NavigationStack {
             ScrollView {
                 // swiftlint:disable unused_closure_parameter
-                ForEach(0...10, id: \.self) { notification in
+                ForEach(0...10, id: \.self) { _ in
                     NotificationCell()
                 }
                 // swiftlint:enable unused_closure_parameter
