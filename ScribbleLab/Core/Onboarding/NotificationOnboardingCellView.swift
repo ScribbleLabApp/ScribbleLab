@@ -3,7 +3,7 @@
 //  ScribbleLab
 //
 //  Copyright (c) 2023 - 2024 ScribbleLabApp.
-//  Copyright (c) 2024 Mcrich - All rights reserved.
+//  Copyright (c) 2024 Morris Richman (Mcrich23) - All rights reserved.
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -17,6 +17,9 @@
 //  See the License for the specific language governing permissions and
 //  limitations under the License.
 //
+//  Authors:
+//  - Mcrich: https://github.com/Mcrich23
+//  - NH: https://github.com/N3v1
 
 import SwiftUI
 import ScribbleCoreServices
