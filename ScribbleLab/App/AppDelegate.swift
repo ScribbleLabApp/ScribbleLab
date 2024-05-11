@@ -30,17 +30,14 @@
 import UIKit
 import SwiftUI
 import UserNotifications
-import os.log
+import ScribbleCoreServices
 
 import FirebaseCore
 import GoogleSignIn
 import FirebasePerformance
 import FirebaseCrashlytics
-import ScribbleCoreServices
 
 class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDelegate, ObservableObject {
-//    var notificationSettings = NotificationSettingsModel()
-    
     @Published var notificationAllowed: Bool = false
     
     func application(_ application: UIApplication,
@@ -54,10 +51,10 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
         UNUserNotificationCenter.current().delegate = self
 
         let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
+        
         UNUserNotificationCenter.current().requestAuthorization(
             options: authOptions,
             completionHandler: { /*granted, _ in*/ [weak self] granted, _ in
-//                self.notificationSettings.notificationAllowed = granted
                 DispatchQueue.main.async {
                     self?.notificationAllowed = granted
                 }
@@ -77,10 +74,12 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
     }
     
     // [START setting_up_scnLogger]
+    /*
     let scnLog = SCNLog(subsystem: "com.nhstudiios.ScribbleLab")
+    */
     
     func applicationDidReceiveMemoryWarning(_ application: UIApplication) {
-        scnLog.memoryWarning("AppDelegate Received memory warning!")
+        SCNLoggingAgent.shared.logger.memoryWarning("AppDelegate Received memory warning!")
     }
     // [END setting_up_scnLogger]
     

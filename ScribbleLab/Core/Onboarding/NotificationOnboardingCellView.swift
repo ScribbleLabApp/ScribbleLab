@@ -30,7 +30,7 @@ struct NotificationOnboardingCellView: View {
         case message, collaboration_request, permission
         
         var id: Int {
-            switch self { // permission, collaboration_request, message
+            switch self {
             case .message:
                 0
             case .collaboration_request:
@@ -99,7 +99,7 @@ struct NotificationOnboardingCellView: View {
         }
         
         for notification in notifications {
-            var id: Int {
+            var id: Int { // FIXME: switch `notification.reverseId` with notification.id
                 if notifications == Notification.allCases.reversed() {
                     notification.reverseId
                 } else {
@@ -178,8 +178,7 @@ struct NotificationOnboardingCellView: View {
 struct ScrollOffsetPreferenceKey: PreferenceKey {
     static var defaultValue: CGPoint = .zero
 
-    static func reduce(value: inout CGPoint, nextValue: () -> CGPoint) {
-    }
+    static func reduce(value: inout CGPoint, nextValue: () -> CGPoint) { }
 }
 
 struct NotificationAlertView: View {

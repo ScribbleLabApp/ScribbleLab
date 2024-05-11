@@ -1,5 +1,5 @@
 {
-  "originHash" : "d94c3b66b899b731312191ce330cac7e4bd0aa4441298625f5bc557437b14b6b",
+  "originHash" : "f0341c625e15b430eb28cf479a232309a2b4e0629e76f1610fb2986dac210644",
   "pins" : [
     {
       "identity" : "abseil-cpp-binary",
@@ -78,8 +78,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/GoogleUtilities.git",
       "state" : {
-        "revision" : "8e5d57ed87057cd7b0e4e8f474d9e78f73eb85f7",
-        "version" : "7.13.2"
+        "revision" : "57a1d307f42df690fdef2637f3e5b776da02aad6",
+        "version" : "7.13.3"
       }
     },
     {
@@ -164,15 +164,6 @@
       }
     },
     {
-      "identity" : "permissionskit",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/sparrowcode/PermissionsKit",
-      "state" : {
-        "revision" : "8d6b3d6db7d0654a4e4fe31bbf6556dec6fc3d13",
-        "version" : "10.0.1"
-      }
-    },
-    {
       "identity" : "phonenumberkit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/marmelroy/PhoneNumberKit",
@@ -205,7 +196,7 @@
       "location" : "https://github.com/ScribbleLabApp/ScribbleCoreServices.git",
       "state" : {
         "branch" : "main",
-        "revision" : "143ab26b74c2e100275e8cfe0c33250e0f43cf70"
+        "revision" : "18be462234eef52de58674de6b63db1cd5943e7e"
       }
     },
     {

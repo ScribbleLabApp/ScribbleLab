@@ -27,25 +27,22 @@
 //                                                                                               //
 // ===---------------------------------------------------------------------------------------=== //
 
-import SwiftUI
 import TipKit
-
+import SwiftUI
 import ScribbleCoreServices
-
 import FirebaseCore
 import GoogleSignIn
-
-#if os(iOS)
 import FirebasePerformance
 import FirebaseCrashlytics
-#endif
 
 @main
 struct ScribbleLabApp: App {
-    // register app delegate for Firebase setup
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
-    public let scnLog = SCNLog(subsystem: "com.nhstudiiios.ScribleLab")
+    init() {
+        _ = SCNLoggingAgent.shared
+        SCNLoggingAgent.shared.logger.log("SCNLoggingAgent: SCNLogStream successfully initialized")
+    }
     
     var body: some Scene {
         WindowGroup {
@@ -57,13 +54,6 @@ struct ScribbleLabApp: App {
                         .datastoreLocation(.applicationDefault)
                     ])
                 }
-            #if os(macOS)
-                .frame(width: 500, height: 400)
-            #endif
-//            SignUpView()
-//                .environmentObject(RegistrationViewModel())
-//                .environmentObject(SignInWithGoogleModel())
-//                .preferredColorScheme(isDarkMode ? .dark : .light)
         }
     }
 }

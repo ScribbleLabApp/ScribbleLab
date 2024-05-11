@@ -193,6 +193,7 @@
       }
     },
     "%lld %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -215,6 +216,7 @@
       }
     },
     "%lld hr" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -231,6 +233,7 @@
       }
     },
     "%lld min" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -247,6 +250,7 @@
       }
     },
     "%lld sec" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -505,9 +509,6 @@
           }
         }
       }
-    },
-    "Add New Timer" : {
-
     },
     "Allow document syncing" : {
       "localizations" : {
@@ -786,9 +787,6 @@
 
     },
     "Click below to complete registration and start using ScribbleLab" : {
-
-    },
-    "Close" : {
 
     },
     "Cloud Storage & Backup" : {
@@ -1603,9 +1601,6 @@
     "Photo Libary" : {
 
     },
-    "Pomodoro Timer" : {
-
-    },
     "Pre-Releases & Dev-Builds" : {
 
     },
@@ -1722,9 +1717,6 @@
 
     },
     "Restart Application" : {
-
-    },
-    "Save" : {
 
     },
     "Scan document" : {
@@ -1859,9 +1851,6 @@
 
     },
     "Sort By" : {
-
-    },
-    "Start new" : {
 
     },
     "Status" : {
@@ -2275,9 +2264,6 @@
 
     },
     "Your ScribbleLab Account information is used to enable services when you sign in, including other features like live collaboration, ... [**See how your data is managed...**](https://github.com/ScribbleLabApp/ScribbleLab)" : {
-
-    },
-    "Your Study session is finished! 🎉" : {
 
     }
   },
