@@ -18,43 +18,35 @@
 //
 
 import SwiftUI
-
 import Firebase
 import FirebaseCrashlytics
+import ScribbleCoreServices
 
 struct ContentView: View {
     @StateObject var viewModel = ContentViewModel()
     @State private var features: [FeatureCell] = onbordingItems
+    
+    @ObservedObject var crashAgent = SCSCrashExceptionAgent.shared
 
     var body: some View {
         Group {
-            if viewModel.userSession == nil { 
-                // FIXME: Old: $viewModel.userSession
+            if viewModel.userSession == nil {
                 OnboardingView(features: features)
-//                SignUpView()
-//                    .preferredColorScheme(.light)
-                    .sheet(isPresented: $viewModel.showCrashReportSheet) {
+                    .sheet(isPresented: $crashAgent.isUncaughtExceptionRecorded) {
                         CrashReportSheet()
                     }
-                #if os(macOS)
-                    .frame(width: 500, height: 400)
-                #endif
             } else if viewModel.userSession != nil {
-            // FIXME: else if let currentUser = viewModel.currentUser
                 SLSideBarView()
-                    .sheet(isPresented: $viewModel.showCrashReportSheet) {
+                    .sheet(isPresented: $crashAgent.isUncaughtExceptionRecorded) { // $viewModel.showCrashReportSheet
                         CrashReportSheet()
                     }
-                #if os(macOS)
-                    .frame(width: 500, height: 400)
-                #endif
             }
         }
-        .onAppear {
-            if Crashlytics.crashlytics().didCrashDuringPreviousExecution() {
-                viewModel.showCrashReportSheet = true
-            }
-        }
+//        .onAppear {
+//            if Crashlytics.crashlytics().didCrashDuringPreviousExecution() {
+//                viewModel.showCrashReportSheet = true
+//            }
+//        }
     }
 }
 

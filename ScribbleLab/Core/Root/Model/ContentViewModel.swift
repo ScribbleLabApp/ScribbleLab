@@ -32,7 +32,7 @@ import FirebaseAuth
     @Published var currentUser: User?
     
     /// Check the state of NSSetUncaughtExceptionHandler
-    @Published var showCrashReportSheet = false
+//    @Published var showCrashReportSheet = false
     
     /// Initializes the ContentViewModel.
     init() {

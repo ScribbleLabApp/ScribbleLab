@@ -35,7 +35,6 @@
 		38348BF82B1A9F5A00846877 /* testRegestration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38348BF72B1A9F5A00846877 /* testRegestration.swift */; };
 		38355ED72AD3D52D00392674 /* IGTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38355ED62AD3D52D00392674 /* IGTextFieldModifier.swift */; };
 		38355ED92AD3D71900392674 /* IGButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38355ED82AD3D71900392674 /* IGButtonModifier.swift */; };
-		383588442AFEDB4000EEA1C3 /* PerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383588432AFEDB4000EEA1C3 /* PerformanceView.swift */; };
 		383588462AFEDC6F00EEA1C3 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 383588452AFEDC6F00EEA1C3 /* FirebasePerformance */; };
 		3836C2962AF144DC008F475F /* WaitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836C2952AF144DC008F475F /* WaitView.swift */; };
 		3836C29A2AF1BB86008F475F /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836C2992AF1BB86008F475F /* EditProfileViewModel.swift */; };
@@ -91,6 +90,7 @@
 		387CC3302BEE49A100B5B907 /* SCSNetworkMonitorAgent.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = 387CC3242BEE49A000B5B907 /* SCSNetworkMonitorAgent.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		387CC3392BEFC43800B5B907 /* SCSLoggingAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387CC3382BEFC43800B5B907 /* SCSLoggingAgent.swift */; };
 		387CC33B2BEFC96400B5B907 /* SCSNotificationAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387CC33A2BEFC96400B5B907 /* SCSNotificationAgent.swift */; };
+		387CC33D2BEFD4B000B5B907 /* SCSCrashExceptionAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387CC33C2BEFD4B000B5B907 /* SCSCrashExceptionAgent.swift */; };
 		387F7F882B12087E001CC150 /* Draw+PencilKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F7F872B12087E001CC150 /* Draw+PencilKit.swift */; };
 		387F7F8A2B120948001CC150 /* DrawingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F7F892B120948001CC150 /* DrawingTest.swift */; };
 		387F7F8D2B122634001CC150 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F7F8C2B122634001CC150 /* ColorPickerView.swift */; };
@@ -260,7 +260,6 @@
 		38355EF72AD3DB5E00392674 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		38355EFD2AD3DF9B00392674 /* Alpha.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Alpha.xcconfig; sourceTree = "<group>"; };
 		38355F032AD3DFED00392674 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		383588432AFEDB4000EEA1C3 /* PerformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceView.swift; sourceTree = "<group>"; };
 		3836C2952AF144DC008F475F /* WaitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitView.swift; sourceTree = "<group>"; };
 		3836C2992AF1BB86008F475F /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
 		383D238C2B2363490094001E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -314,6 +313,7 @@
 		387CC32D2BEE49A100B5B907 /* SCSNetworkMonitorAgent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SCSNetworkMonitorAgent.entitlements; sourceTree = "<group>"; };
 		387CC3382BEFC43800B5B907 /* SCSLoggingAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSLoggingAgent.swift; sourceTree = "<group>"; };
 		387CC33A2BEFC96400B5B907 /* SCSNotificationAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSNotificationAgent.swift; sourceTree = "<group>"; };
+		387CC33C2BEFD4B000B5B907 /* SCSCrashExceptionAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSCrashExceptionAgent.swift; sourceTree = "<group>"; };
 		387F7F872B12087E001CC150 /* Draw+PencilKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Draw+PencilKit.swift"; sourceTree = "<group>"; };
 		387F7F892B120948001CC150 /* DrawingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingTest.swift; sourceTree = "<group>"; };
 		387F7F8C2B122634001CC150 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
@@ -486,9 +486,11 @@
 		38140A672AE3F80C00753FB6 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				387CC33E2BEFF30000B5B907 /* DTIntegration */,
 				38140A682AE3F81900753FB6 /* UserService.swift */,
 				387CC3382BEFC43800B5B907 /* SCSLoggingAgent.swift */,
 				387CC33A2BEFC96400B5B907 /* SCSNotificationAgent.swift */,
+				387CC33C2BEFD4B000B5B907 /* SCSCrashExceptionAgent.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -669,14 +671,6 @@
 			path = Tags;
 			sourceTree = "<group>";
 		};
-		383588422AFEDB2200EEA1C3 /* Performance */ = {
-			isa = PBXGroup;
-			children = (
-				383588432AFEDB4000EEA1C3 /* PerformanceView.swift */,
-			);
-			path = Performance;
-			sourceTree = "<group>";
-		};
 		384079CE2B600E660059523C /* Crash Report */ = {
 			isa = PBXGroup;
 			children = (
@@ -703,7 +697,6 @@
 				380BC6472B2652A900DCF442 /* SceneDelegate.swift */,
 				38AE9C9B2AD0750F00B761E8 /* ScribbleLabApp.swift */,
 				385F78A72AD5D2170096E504 /* Launch Screen.storyboard */,
-				383588422AFEDB2200EEA1C3 /* Performance */,
 				38140A672AE3F80C00753FB6 /* Service */,
 				38FFF9432AE3CA52006719E2 /* ViewController */,
 			);
@@ -970,6 +963,13 @@
 				387CC32D2BEE49A100B5B907 /* SCSNetworkMonitorAgent.entitlements */,
 			);
 			path = SCSNetworkMonitorAgent;
+			sourceTree = "<group>";
+		};
+		387CC33E2BEFF30000B5B907 /* DTIntegration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DTIntegration;
 			sourceTree = "<group>";
 		};
 		387F7F862B120863001CC150 /* Drawing */ = {
@@ -1815,6 +1815,7 @@
 				38D0CF592B67C1090051B356 /* CreateNotebookView.swift in Sources */,
 				3852D7212B054DBF007FAFF1 /* Particle.swift in Sources */,
 				387CC3392BEFC43800B5B907 /* SCSLoggingAgent.swift in Sources */,
+				387CC33D2BEFD4B000B5B907 /* SCSCrashExceptionAgent.swift in Sources */,
 				38B36C5E2B5D73D80009BA56 /* FavouriteView.swift in Sources */,
 				385DC5D72B53FB0C00D1FE6E /* NotificationSettingsModel.swift in Sources */,
 				38BAF7C52B5AF6EF00BEE6A5 /* IntegrationsView.swift in Sources */,
@@ -1823,7 +1824,6 @@
 				387CC3152BED196100B5B907 /* OnboardingData.swift in Sources */,
 				3889688B2AF143C700F67F08 /* SettingsViewModel.swift in Sources */,
 				3858A77E2AD15E8900FC6319 /* NotificationSheetView.swift in Sources */,
-				383588442AFEDB4000EEA1C3 /* PerformanceView.swift in Sources */,
 				387B79362ADEDD9B0067E08B /* SLOtherSettings.swift in Sources */,
 				38F59B8B2AEC4E0D00475B0B /* ResetPasswordView.swift in Sources */,
 				38B36C652B5D95FD0009BA56 /* ScribbleCloudOverviewView.swift in Sources */,

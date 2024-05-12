@@ -45,52 +45,58 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
     ) -> Bool {
         FirebaseApp.configure()
         
-        // Register for remote notifications. This shows a permission dialog on first run, to
-        // show the dialog at a more appropriate time move this registration accordingly.
-        // [START register_for_notifications]
-        UNUserNotificationCenter.current().delegate = self
+        /*
+        Register for remote notifications. This shows a permission dialog on first run, to
+        show the dialog at a more appropriate time move this registration accordingly.
+        [START register_for_notifications]
+         
+            ```swift
+            UNUserNotificationCenter.current().delegate = self
 
-        let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
+            let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
         
-        UNUserNotificationCenter.current().requestAuthorization(
-            options: authOptions,
-            completionHandler: { /*granted, _ in*/ [weak self] granted, _ in
-                DispatchQueue.main.async {
-                    self?.notificationAllowed = granted
+            UNUserNotificationCenter.current().requestAuthorization(
+                options: authOptions,
+                completionHandler: { /*granted, _ in*/ [weak self] granted, _ in
+                    DispatchQueue.main.async {
+                        self?.notificationAllowed = granted
+                    }
                 }
-            }
-        )
+            )
+            ```
+         */
         
         application.registerForRemoteNotifications()
-        // [END register_for_notifications]
         
-        // [START setting_up_an_exeption_handler]
-        NSSetUncaughtExceptionHandler { exception in
-            Crashlytics.crashlytics().record(error: exception as! NSError)
+        /*
+         MARK: setting_up_an_exeption_handler
+         
+            ```swift
+            NSSetUncaughtExceptionHandler { exception in
+                Crashlytics.crashlytics().record(error: exception as! NSError)
+            }
+            ```
+         */
+        
+        if Crashlytics.crashlytics().didCrashDuringPreviousExecution() {
+            SCSCrashExceptionAgent.shared.isUncaughtExceptionRecorded = true
         }
-        // [END setting_up_an_exeption_handler]
         
         return true
     }
     
-    // [START setting_up_scnLogger]
-    /*
-    let scnLog = SCNLog(subsystem: "com.nhstudiios.ScribbleLab")
-    */
-    
     func applicationDidReceiveMemoryWarning(_ application: UIApplication) {
         SCNLoggingAgent.shared.logger.memoryWarning("AppDelegate Received memory warning!")
     }
-    // [END setting_up_scnLogger]
     
-    // The method should call the handleURL method of GIDSignIn instance, 
-    // which will properly handle the URL that SL recieves at the end of the auth process.
-    // [START setting_up_GID]
-    
+    // MARK: - setting_up_GID
+    /*
+     The method should call the handleURL method of GIDSignIn instance,
+     which will properly handle the URL that SL recieves at the end of the auth process.
+     */
     @available(iOS 9.0, *)
     func application(_ application: UIApplication,
                      open url: URL, options: [UIApplication.OpenURLOptionsKey: Any] = [:]) -> Bool {
         return GIDSignIn.sharedInstance.handle(url)
     }
-    // [END setting_up_GID]
 }
