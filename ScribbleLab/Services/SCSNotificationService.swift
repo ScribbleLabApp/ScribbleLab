@@ -19,7 +19,6 @@
 
 import Foundation
 import UserNotifications
-import NotificationPermission
 import NotificationCenter
 import ScribbleCoreServices
 

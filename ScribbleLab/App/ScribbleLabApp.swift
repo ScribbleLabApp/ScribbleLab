@@ -40,9 +40,11 @@ struct ScribbleLabApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
     init() {
+        // SCNLoggingAgent
         _ = SCNLoggingAgent.shared
         SCNLoggingAgent.shared.logger.log("SCNLoggingAgent: SCNLogStream successfully initialized")
         
+        // SCSNotificationService
         _ = SCSNotificationService.shared
         SCNLoggingAgent.shared.logger.log("SCSNotificationService: Check Notification Permission State")
         SCSNotificationService.shared.checkNotificationPermissionStatus()

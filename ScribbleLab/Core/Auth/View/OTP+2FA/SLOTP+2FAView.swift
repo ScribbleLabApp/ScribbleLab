@@ -23,7 +23,6 @@ import GoogleSignIn
 import GoogleSignInSwift
 import FirebaseAuth
 import FirebaseCore
-import AlertToast
 
 struct SLOTP_2FAView: View {
     @State private var otpcode = ""

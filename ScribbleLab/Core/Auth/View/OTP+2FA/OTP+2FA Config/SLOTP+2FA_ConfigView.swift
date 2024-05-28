@@ -23,7 +23,6 @@ import GoogleSignIn
 import GoogleSignInSwift
 import FirebaseAuth
 import FirebaseCore
-import AlertToast
 import iPhoneNumberField
 
 struct SLOTP_2FA_ConfigView: View {
