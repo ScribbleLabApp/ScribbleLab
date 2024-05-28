@@ -3,7 +3,7 @@
 //  ScribbleLabApp.swift                                                                         //
 //  ScribbleLabCore                                                                              //
 //                                                                                               //
-//  Copyright (c) 2023 - 2024 ScribbleLabApp.                                                    //
+//  Copyright (c) 2023 - 2024 ScribbleLabApp. All rights reserved.                               //
 //                                                                                               //
 //  Licensed under the Apache License, Version 2.0 (the "License");                              //
 //  you may not use this file except in compliance with the License.                             //
@@ -42,6 +42,11 @@ struct ScribbleLabApp: App {
     init() {
         _ = SCNLoggingAgent.shared
         SCNLoggingAgent.shared.logger.log("SCNLoggingAgent: SCNLogStream successfully initialized")
+        
+        _ = SCSNotificationService.shared
+        SCNLoggingAgent.shared.logger.log("SCSNotificationService: Check Notification Permission State")
+        SCSNotificationService.shared.checkNotificationPermissionStatus()
+        SCNLoggingAgent.shared.logger.log("Permission State: \(SCSNotificationService.shared.isNotificationAuthorized)")
     }
     
     var body: some Scene {

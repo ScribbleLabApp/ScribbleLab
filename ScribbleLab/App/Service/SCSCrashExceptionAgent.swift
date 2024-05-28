@@ -58,5 +58,7 @@ class SCSCrashExceptionAgent: NSObject, ObservableObject {
     func exceptionHandler(exception: NSException) {
         Crashlytics.crashlytics().record(error: exception as! NSError)
         self.isUncaughtExceptionRecorded = true
+        
+        SCNLoggingAgent.shared.logger.error("CrashException: An uncaught exception has been recorded!")
     }
 }

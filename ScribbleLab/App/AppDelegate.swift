@@ -3,7 +3,7 @@
 //  AppDelegate.swift                                                                            //
 //  ScribbleLabCore                                                                              //
 //                                                                                               //
-//  Copyright (c) 2023 - 2024 ScribbleLabApp.                                                    //
+//  Copyright (c) 2023 - 2024 ScribbleLabApp. All rights reserved.                               //
 //                                                                                               //
 //  Licensed under the Apache License, Version 2.0 (the "License");                              //
 //  you may not use this file except in compliance with the License.                             //
@@ -37,46 +37,16 @@ import GoogleSignIn
 import FirebasePerformance
 import FirebaseCrashlytics
 
-class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDelegate, ObservableObject {
+class AppDelegate: NSObject, UIApplicationDelegate, /*UNUserNotificationCenterDelegate,*/ ObservableObject {
     @Published var notificationAllowed: Bool = false
     
-    func application(_ application: UIApplication,
-                     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil
+    func application(
+        _ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil
     ) -> Bool {
         FirebaseApp.configure()
         
-        /*
-        Register for remote notifications. This shows a permission dialog on first run, to
-        show the dialog at a more appropriate time move this registration accordingly.
-        [START register_for_notifications]
-         
-            ```swift
-            UNUserNotificationCenter.current().delegate = self
-
-            let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
-        
-            UNUserNotificationCenter.current().requestAuthorization(
-                options: authOptions,
-                completionHandler: { /*granted, _ in*/ [weak self] granted, _ in
-                    DispatchQueue.main.async {
-                        self?.notificationAllowed = granted
-                    }
-                }
-            )
-            ```
-         */
-        
         application.registerForRemoteNotifications()
-        
-        /*
-         MARK: setting_up_an_exeption_handler
-         
-            ```swift
-            NSSetUncaughtExceptionHandler { exception in
-                Crashlytics.crashlytics().record(error: exception as! NSError)
-            }
-            ```
-         */
         
         if Crashlytics.crashlytics().didCrashDuringPreviousExecution() {
             SCSCrashExceptionAgent.shared.isUncaughtExceptionRecorded = true
@@ -89,14 +59,21 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
         SCNLoggingAgent.shared.logger.memoryWarning("AppDelegate Received memory warning!")
     }
     
+    func applicationWillTerminate(_ application: UIApplication) {
+        SCNLoggingAgent.shared.logger.debug("Termination: State == .editor ?? saveDocument() : nil")
+    }
+    
     // MARK: - setting_up_GID
     /*
      The method should call the handleURL method of GIDSignIn instance,
      which will properly handle the URL that SL recieves at the end of the auth process.
      */
     @available(iOS 9.0, *)
-    func application(_ application: UIApplication,
-                     open url: URL, options: [UIApplication.OpenURLOptionsKey: Any] = [:]) -> Bool {
+    func application(
+        _ application: UIApplication,
+        open url: URL,
+        options: [UIApplication.OpenURLOptionsKey: Any] = [:]
+    ) -> Bool {
         return GIDSignIn.sharedInstance.handle(url)
     }
 }

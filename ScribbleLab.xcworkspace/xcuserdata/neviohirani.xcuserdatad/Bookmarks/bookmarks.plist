@@ -5,145 +5,398 @@
 	<key>top-level-items</key>
 	<array>
 		<dict>
-			<key>destination</key>
-			<dict>
-				<key>location-parameters</key>
+			<key>children</key>
+			<array>
 				<dict>
-					<key>EndingColumnNumber</key>
-					<string>0</string>
-					<key>EndingLineNumber</key>
-					<string>52</string>
-					<key>StartingColumnNumber</key>
-					<string>0</string>
-					<key>StartingLineNumber</key>
-					<string>51</string>
-					<key>Timestamp</key>
-					<string>737133869.1351219</string>
-				</dict>
-				<key>rebasable-url</key>
-				<dict>
-					<key>base</key>
-					<string>workspace</string>
-					<key>payload</key>
+					<key>destination</key>
 					<dict>
-						<key>relative-path</key>
-						<string>ScribbleLab/ScribbleLab/App/ScribbleLabApp.swift</string>
+						<key>location-parameters</key>
+						<dict>
+							<key>EndingColumnNumber</key>
+							<string>0</string>
+							<key>EndingLineNumber</key>
+							<string>231</string>
+							<key>StartingColumnNumber</key>
+							<string>0</string>
+							<key>StartingLineNumber</key>
+							<string>230</string>
+							<key>Timestamp</key>
+							<string>737401588.701423</string>
+						</dict>
+						<key>rebasable-url</key>
+						<dict>
+							<key>base</key>
+							<string>workspace</string>
+							<key>payload</key>
+							<dict>
+								<key>relative-path</key>
+								<string>ScribbleLab/ScribbleLab/Core/Home/HomeView.swift</string>
+							</dict>
+						</dict>
 					</dict>
-				</dict>
-			</dict>
-			<key>text-context</key>
-			<dict>
-				<key>focused</key>
-				<string>                    try? Tips.resetDatastore()
-</string>
-				<key>leading</key>
-				<string>                .environmentObject(ContentViewModel())
-                .task {
-</string>
-				<key>trailing</key>
-				<string>                    try? Tips.configure([
-                        .datastoreLocation(.applicationDefault)
-                    ])
-</string>
-			</dict>
-			<key>title</key>
-			<string>DEV: Only for Testing purposes</string>
-			<key>type</key>
-			<string>bookmark</string>
-		</dict>
-		<dict>
-			<key>destination</key>
-			<dict>
-				<key>location-parameters</key>
-				<dict>
-					<key>EndingColumnNumber</key>
-					<string>0</string>
-					<key>EndingLineNumber</key>
-					<string>36</string>
-					<key>StartingColumnNumber</key>
-					<string>0</string>
-					<key>StartingLineNumber</key>
-					<string>35</string>
-					<key>Timestamp</key>
-					<string>727688943.4953949</string>
-				</dict>
-				<key>rebasable-url</key>
-				<dict>
-					<key>base</key>
-					<string>workspace</string>
-					<key>payload</key>
+					<key>text-context</key>
 					<dict>
-						<key>relative-path</key>
-						<string>ScribbleLab/ScribbleLab/Core/Tips/SLTip.swift</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>text-context</key>
-			<dict>
-				<key>focused</key>
-				<string>            event.donations.count &lt; 7
+						<key>focused</key>
+						<string>                    }
 </string>
-				<key>leading</key>
-				<string>        
+						<key>leading</key>
+						<string>                        Image(systemName: "plus")
+                            .tint(.primary)
+</string>
+						<key>trailing</key>
+						<string>                    .popoverTip(createFirstDocumentTip)
+                }
+            }
+</string>
+					</dict>
+					<key>title</key>
+					<string>TODO: Adding slCreateDocument from Template</string>
+					<key>type</key>
+					<string>bookmark</string>
+				</dict>
+				<dict>
+					<key>destination</key>
+					<dict>
+						<key>location-parameters</key>
+						<dict>
+							<key>EndingColumnNumber</key>
+							<string>0</string>
+							<key>EndingLineNumber</key>
+							<string>249</string>
+							<key>StartingColumnNumber</key>
+							<string>0</string>
+							<key>StartingLineNumber</key>
+							<string>248</string>
+							<key>Timestamp</key>
+							<string>737401588.701406</string>
+						</dict>
+						<key>rebasable-url</key>
+						<dict>
+							<key>base</key>
+							<string>workspace</string>
+							<key>payload</key>
+							<dict>
+								<key>relative-path</key>
+								<string>ScribbleLab/ScribbleLab/Core/Home/HomeView.swift</string>
+							</dict>
+						</dict>
+					</dict>
+					<key>text-context</key>
+					<dict>
+						<key>focused</key>
+						<string>                    viewModifier.newNotification.toggle()
+</string>
+						<key>leading</key>
+						<string>                        await ShowNotificationsTip.visitNotificationViewEvent.donate()
+                    }
+</string>
+						<key>trailing</key>
+						<string>                } label: {
+                    Image(systemName: viewModifier.newNotification ? "bell.badge" : "bell")
+                        .tint(.primary)
+</string>
+					</dict>
+					<key>title</key>
+					<string>Only for Development</string>
+					<key>type</key>
+					<string>bookmark</string>
+				</dict>
+				<dict>
+					<key>destination</key>
+					<dict>
+						<key>location-parameters</key>
+						<dict>
+							<key>EndingColumnNumber</key>
+							<string>0</string>
+							<key>EndingLineNumber</key>
+							<string>231</string>
+							<key>StartingColumnNumber</key>
+							<string>0</string>
+							<key>StartingLineNumber</key>
+							<string>230</string>
+							<key>Timestamp</key>
+							<string>737401588.701423</string>
+						</dict>
+						<key>rebasable-url</key>
+						<dict>
+							<key>base</key>
+							<string>workspace</string>
+							<key>payload</key>
+							<dict>
+								<key>relative-path</key>
+								<string>ScribbleLab/ScribbleLab/Core/Home/HomeView.swift</string>
+							</dict>
+						</dict>
+					</dict>
+					<key>text-context</key>
+					<dict>
+						<key>focused</key>
+						<string>                    }
+</string>
+						<key>leading</key>
+						<string>                        Image(systemName: "plus")
+                            .tint(.primary)
+</string>
+						<key>trailing</key>
+						<string>                    .popoverTip(createFirstDocumentTip)
+                }
+            }
+</string>
+					</dict>
+					<key>title</key>
+					<string>TODO: Adding slCreateDocument from Template</string>
+					<key>type</key>
+					<string>bookmark</string>
+				</dict>
+				<dict>
+					<key>destination</key>
+					<dict>
+						<key>location-parameters</key>
+						<dict>
+							<key>EndingColumnNumber</key>
+							<string>0</string>
+							<key>EndingLineNumber</key>
+							<string>231</string>
+							<key>StartingColumnNumber</key>
+							<string>0</string>
+							<key>StartingLineNumber</key>
+							<string>230</string>
+							<key>Timestamp</key>
+							<string>737401588.701423</string>
+						</dict>
+						<key>rebasable-url</key>
+						<dict>
+							<key>base</key>
+							<string>workspace</string>
+							<key>payload</key>
+							<dict>
+								<key>relative-path</key>
+								<string>ScribbleLab/ScribbleLab/Core/Home/HomeView.swift</string>
+							</dict>
+						</dict>
+					</dict>
+					<key>text-context</key>
+					<dict>
+						<key>focused</key>
+						<string>                    }
+</string>
+						<key>leading</key>
+						<string>                        Image(systemName: "plus")
+                            .tint(.primary)
+</string>
+						<key>trailing</key>
+						<string>                    .popoverTip(createFirstDocumentTip)
+                }
+            }
+</string>
+					</dict>
+					<key>title</key>
+					<string>TODO: Adding slCreateDocument from Template</string>
+					<key>type</key>
+					<string>bookmark</string>
+				</dict>
+				<dict>
+					<key>destination</key>
+					<dict>
+						<key>location-parameters</key>
+						<dict>
+							<key>EndingColumnNumber</key>
+							<string>0</string>
+							<key>EndingLineNumber</key>
+							<string>36</string>
+							<key>StartingColumnNumber</key>
+							<string>0</string>
+							<key>StartingLineNumber</key>
+							<string>35</string>
+							<key>Timestamp</key>
+							<string>727688943.4953949</string>
+						</dict>
+						<key>rebasable-url</key>
+						<dict>
+							<key>base</key>
+							<string>workspace</string>
+							<key>payload</key>
+							<dict>
+								<key>relative-path</key>
+								<string>ScribbleLab/ScribbleLab/Core/Tips/SLTip.swift</string>
+							</dict>
+						</dict>
+					</dict>
+					<key>text-context</key>
+					<dict>
+						<key>focused</key>
+						<string>            event.donations.count &lt; 7
+</string>
+						<key>leading</key>
+						<string>        
         #Rule(Self.launchHomeScreenEvent) { event in
 </string>
-				<key>trailing</key>
-				<string>        }
+						<key>trailing</key>
+						<string>        }
     }
 }
 </string>
-			</dict>
-			<key>title</key>
-			<string>TODO: Display tip after visiting the screen 3 times until max 7 time</string>
-			<key>type</key>
-			<string>bookmark</string>
-		</dict>
-		<dict>
-			<key>destination</key>
-			<dict>
-				<key>location-parameters</key>
-				<dict>
-					<key>EndingColumnNumber</key>
-					<string>0</string>
-					<key>EndingLineNumber</key>
-					<string>59</string>
-					<key>StartingColumnNumber</key>
-					<string>0</string>
-					<key>StartingLineNumber</key>
-					<string>58</string>
-					<key>Timestamp</key>
-					<string>727688943.495374</string>
-				</dict>
-				<key>rebasable-url</key>
-				<dict>
-					<key>base</key>
-					<string>workspace</string>
-					<key>payload</key>
-					<dict>
-						<key>relative-path</key>
-						<string>ScribbleLab/ScribbleLab/Core/Tips/SLTip.swift</string>
 					</dict>
+					<key>title</key>
+					<string>TODO: Display tip after visiting the screen 3 times until max 7 time</string>
+					<key>type</key>
+					<string>bookmark</string>
 				</dict>
-			</dict>
-			<key>text-context</key>
-			<dict>
-				<key>focused</key>
-				<string>                    
+				<dict>
+					<key>destination</key>
+					<dict>
+						<key>location-parameters</key>
+						<dict>
+							<key>EndingColumnNumber</key>
+							<string>0</string>
+							<key>EndingLineNumber</key>
+							<string>59</string>
+							<key>StartingColumnNumber</key>
+							<string>0</string>
+							<key>StartingLineNumber</key>
+							<string>58</string>
+							<key>Timestamp</key>
+							<string>727688943.495374</string>
+						</dict>
+						<key>rebasable-url</key>
+						<dict>
+							<key>base</key>
+							<string>workspace</string>
+							<key>payload</key>
+							<dict>
+								<key>relative-path</key>
+								<string>ScribbleLab/ScribbleLab/Core/Tips/SLTip.swift</string>
+							</dict>
+						</dict>
+					</dict>
+					<key>text-context</key>
+					<dict>
+						<key>focused</key>
+						<string>                    
 </string>
-				<key>leading</key>
-				<string>                title: "Configure Notifications",
+						<key>leading</key>
+						<string>                title: "Configure Notifications",
                 perform: {
 </string>
-				<key>trailing</key>
-				<string>                }
+						<key>trailing</key>
+						<string>                }
             )
         ]
 </string>
-			</dict>
+					</dict>
+					<key>title</key>
+					<string>TODO: Redirect to the NotificationSettings</string>
+					<key>type</key>
+					<string>bookmark</string>
+				</dict>
+			</array>
 			<key>title</key>
-			<string>TODO: Redirect to the NotificationSettings</string>
+			<string>TODO:</string>
 			<key>type</key>
-			<string>bookmark</string>
+			<string>group</string>
+		</dict>
+		<dict>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>destination</key>
+					<dict>
+						<key>location-parameters</key>
+						<dict>
+							<key>EndingColumnNumber</key>
+							<string>0</string>
+							<key>EndingLineNumber</key>
+							<string>57</string>
+							<key>StartingColumnNumber</key>
+							<string>0</string>
+							<key>StartingLineNumber</key>
+							<string>56</string>
+							<key>Timestamp</key>
+							<string>738581305.110536</string>
+						</dict>
+						<key>rebasable-url</key>
+						<dict>
+							<key>base</key>
+							<string>workspace</string>
+							<key>payload</key>
+							<dict>
+								<key>relative-path</key>
+								<string>ScribbleLab/ScribbleLab/App/ScribbleLabApp.swift</string>
+							</dict>
+						</dict>
+					</dict>
+					<key>text-context</key>
+					<dict>
+						<key>focused</key>
+						<string>                    try? Tips.resetDatastore()
+</string>
+						<key>leading</key>
+						<string>                .environmentObject(ContentViewModel())
+                .task {
+</string>
+						<key>trailing</key>
+						<string>                    try? Tips.configure([
+                        .datastoreLocation(.applicationDefault)
+                    ])
+</string>
+					</dict>
+					<key>title</key>
+					<string>DEV: Only for Testing purposes</string>
+					<key>type</key>
+					<string>bookmark</string>
+				</dict>
+				<dict>
+					<key>destination</key>
+					<dict>
+						<key>location-parameters</key>
+						<dict>
+							<key>EndingColumnNumber</key>
+							<string>0</string>
+							<key>EndingLineNumber</key>
+							<string>63</string>
+							<key>StartingColumnNumber</key>
+							<string>100</string>
+							<key>StartingLineNumber</key>
+							<string>62</string>
+							<key>Timestamp</key>
+							<string>738320888.51466</string>
+						</dict>
+						<key>rebasable-url</key>
+						<dict>
+							<key>base</key>
+							<string>workspace</string>
+							<key>payload</key>
+							<dict>
+								<key>relative-path</key>
+								<string>ScribbleLab/ScribbleLab/App/AppDelegate.swift</string>
+							</dict>
+						</dict>
+					</dict>
+					<key>text-context</key>
+					<dict>
+						<key>focused</key>
+						<string>
+</string>
+						<key>leading</key>
+						<string>    
+    func applicationWillTerminate(_ application: UIApplication) {
+        SCNLoggingAgent.shared.logger.debug("Termination: State == .editor ?? saveDocument() : nil")</string>
+						<key>trailing</key>
+						<string>    }
+    
+    // MARK: - setting_up_GID
+</string>
+					</dict>
+					<key>title</key>
+					<string>DEBUG: Placeholder</string>
+					<key>type</key>
+					<string>bookmark</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>DEBUG:</string>
+			<key>type</key>
+			<string>group</string>
 		</dict>
 		<dict>
 			<key>destination</key>
@@ -153,13 +406,13 @@
 					<key>EndingColumnNumber</key>
 					<string>0</string>
 					<key>EndingLineNumber</key>
-					<string>250</string>
+					<string>249</string>
 					<key>StartingColumnNumber</key>
 					<string>0</string>
 					<key>StartingLineNumber</key>
-					<string>249</string>
+					<string>248</string>
 					<key>Timestamp</key>
-					<string>732212357.1666681</string>
+					<string>737401588.701406</string>
 				</dict>
 				<key>rebasable-url</key>
 				<dict>
@@ -189,99 +442,6 @@
 			</dict>
 			<key>title</key>
 			<string>Only for Development</string>
-			<key>type</key>
-			<string>bookmark</string>
-		</dict>
-		<dict>
-			<key>destination</key>
-			<dict>
-				<key>location-parameters</key>
-				<dict>
-					<key>EndingColumnNumber</key>
-					<string>21</string>
-					<key>EndingLineNumber</key>
-					<string>231</string>
-					<key>StartingColumnNumber</key>
-					<string>21</string>
-					<key>StartingLineNumber</key>
-					<string>231</string>
-					<key>Timestamp</key>
-					<string>732212357.150324</string>
-				</dict>
-				<key>rebasable-url</key>
-				<dict>
-					<key>base</key>
-					<string>workspace</string>
-					<key>payload</key>
-					<dict>
-						<key>relative-path</key>
-						<string>ScribbleLab/ScribbleLab/Core/Home/HomeView.swift</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>text-context</key>
-			<dict>
-				<key>focused</key>
-				<string></string>
-				<key>leading</key>
-				<string>                        Image(systemName: "plus")
-                            .tint(.primary)
-                    }</string>
-				<key>trailing</key>
-				<string>
-                    .popoverTip(createFirstDocumentTip)
-                }
-</string>
-			</dict>
-			<key>title</key>
-			<string>TODO: Adding slCreateDocument from Template</string>
-			<key>type</key>
-			<string>bookmark</string>
-		</dict>
-		<dict>
-			<key>destination</key>
-			<dict>
-				<key>location-parameters</key>
-				<dict>
-					<key>EndingColumnNumber</key>
-					<string>0</string>
-					<key>EndingLineNumber</key>
-					<string>78</string>
-					<key>StartingColumnNumber</key>
-					<string>0</string>
-					<key>StartingLineNumber</key>
-					<string>77</string>
-					<key>Timestamp</key>
-					<string>727640301.579347</string>
-				</dict>
-				<key>rebasable-url</key>
-				<dict>
-					<key>base</key>
-					<string>workspace</string>
-					<key>payload</key>
-					<dict>
-						<key>relative-path</key>
-						<string>ScribbleLab/ScribbleLab/Core/Settings/View/Help/View/SLHelpView.swift</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>text-context</key>
-			<dict>
-				<key>focused</key>
-				<string>                        openURL(URL(string: "https://github.com/ScribbleLabApp/ScribbleLab")!)
-</string>
-				<key>leading</key>
-				<string>                    
-                    Button {
-</string>
-				<key>trailing</key>
-				<string>                    } label: {
-                        Label("Guide", systemImage: "character.book.closed")
-                    }
-</string>
-			</dict>
-			<key>title</key>
-			<string>TODO: Replace Link</string>
 			<key>type</key>
 			<string>bookmark</string>
 		</dict>

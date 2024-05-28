@@ -24,38 +24,38 @@ import SwiftUI
 import UserNotifications
 import ScribbleCoreServices
 
-// NotificationAgent manages notification permissions and settings.
-//
-// NotificationAgent is a singleton class that provides functionality to check and request notification permissions,
-// as well as monitor notification settings. It conforms to ObservableObject and UNUserNotificationCenterDelegate protocols.
-//
-//  ```swift
-//  // Request notification permission
-//  NotificationAgent.shared.requestNotificationPermission()
-//  ```
-//
+/// NotificationAgent manages notification permissions and settings.
+///
+/// NotificationAgent is a singleton class that provides functionality to check and request notification permissions,
+/// as well as monitor notification settings. It conforms to ObservableObject and UNUserNotificationCenterDelegate protocols.
+///
+///  ```swift
+///  // Request notification permission
+///  NotificationAgent.shared.requestNotificationPermission()
+///  ```
+///
 class NotificationAgent: NSObject, ObservableObject, UNUserNotificationCenterDelegate, SCSNotificationAgent {
     
-    // The shared instance of NotificationAgent.
+    /// The shared instance of NotificationAgent.
     static let shared = NotificationAgent()
     
-    // The current notification permission status.
+    /// The current notification permission status.
     @Published var notificationPermissionStatus: UNAuthorizationStatus = .notDetermined
     
-    // Initializes a new instance of NotificationAgent.
-    //
-    // This method sets the delegate of the UNUserNotificationCenter to the instance of NotificationAgent
-    // and checks the current notification permission status.
+    /// Initializes a new instance of NotificationAgent.
+    ///
+    /// This method sets the delegate of the UNUserNotificationCenter to the instance of NotificationAgent
+    /// and checks the current notification permission status.
     private override init() {
         super.init()
         UNUserNotificationCenter.current().delegate = self
         checkNotificationPermissionStatus()
     }
     
-    // Requests notification permission from the user.
-    //
-    // This method requests authorization to display alerts, badges, and play sounds for notifications.
-    // Upon user response, it updates the notificationPermissionStatus accordingly.
+    /// Requests notification permission from the user.
+    ///
+    /// This method requests authorization to display alerts, badges, and play sounds for notifications.
+    /// Upon user response, it updates the notificationPermissionStatus accordingly.
     func requestNotificationPermission() {
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { [weak self] granted, error in
             guard let self = self else { return }
@@ -69,9 +69,9 @@ class NotificationAgent: NSObject, ObservableObject, UNUserNotificationCenterDel
         }
     }
     
-    // Checks the current notification permission status.
-    //
-    // This method retrieves the notification settings and updates the notificationPermissionStatus accordingly.
+    /// Checks the current notification permission status.
+    ///
+    /// This method retrieves the notification settings and updates the notificationPermissionStatus accordingly.
     private func checkNotificationPermissionStatus() {
         UNUserNotificationCenter.current().getNotificationSettings { [weak self] settings in
             guard let self = self else { return }

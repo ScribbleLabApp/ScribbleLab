@@ -189,8 +189,7 @@ struct HomeView: View {
                         Label("Notebook", systemImage: "book.closed")
                     }
                     .sheet(isPresented: $viewModifier.showCreateNotebook) {
-                        CreateNotebookView()
-                            .navigationBarBackButtonHidden()
+                        
                     }
                     Button {
                         

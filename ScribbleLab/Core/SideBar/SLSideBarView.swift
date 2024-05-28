@@ -25,21 +25,22 @@ struct SLSideBarView: View {
                     } label: {
                         Label("Favourite", systemImage: "star")
                     }
+                    //                    NavigationLink {
+                    //                        SharedWithYouView()
+                    //                    } label: {
+                    //                        Label("Shared with You", systemImage: "shared.with.you")
+                    //                    }
+                    //                    NavigationLink {
+                    //
+                    //                    } label: {
+                    //                        Label("Store", systemImage: "storefront")
+                    //                    }
                     NavigationLink {
-                        SharedWithYouView()
+                        ToDoView()
                     } label: {
-                        Label("Shared with You", systemImage: "shared.with.you")
+                        Label("Tasks", systemImage: "briefcase")
                     }
-                    NavigationLink {
-                        SLShopMainView()
-                    } label: {
-                        Label("Store", systemImage: "storefront")
-                    }
-                    NavigationLink {
-                        ProfileView()
-                    } label: {
-                        Label("Account", systemImage: "wallet.pass")
-                    }
+                    
                     NavigationLink {
                         SearchView()
                     } label: {
