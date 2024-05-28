@@ -182,7 +182,7 @@ class SCSNotificationService: NSObject, SCSNotificationAgent, UNUserNotification
     /// the settings accordingly. If notifications are disabled, it updates the status to `.denied`.
     /// If notifications are enabled, it requests authorization again.
     func toggleNotificationPermission(isEnabled: Bool) {
-        if isEnabled {
+        if (isEnabled) {
             requestNotificationPermission()
         } else {
             notificationPermissionStatus = .denied
@@ -227,8 +227,139 @@ extension SCSNotificationService {
     }
 }
 
-// MARK: - Notification Type
+// MARK: - Notification Types
 
 extension SCSNotificationService {
     
+    /// Enum representing notification categories.
+    ///
+    /// This enum represents the sub categories of notifications that ScribbleLab provides.
+    enum NotificationCategory: String, CaseIterable {
+        case news
+        case other
+        case offers
+        case updates
+        case tutorials
+        case instructions
+        case newFunctions
+        case recievedInvitation
+        case changesMadeToDocument
+    }
+    
+    /// Sets the permission status for a specific notification category.
+    ///
+    /// - Parameters:
+    ///   - category: The notification category.
+    ///   - isEnabled: A Boolean value indicating whether the permission for the category is enabled.
+    func setCategoryPermission(category: NotificationCategory, isEnabled: Bool) {
+        UserDefaults.standard.set(isEnabled, forKey: category.rawValue)
+    }
+    
+    /// Retrieves the permission status for a specific notification category.
+    ///
+    /// - Parameter category: The notification category.
+    /// - Returns: A Boolean value indicating whether the permission for the category is enabled.
+    func isCategoryPermissionEnabled(category: NotificationCategory) -> Bool {
+        return UserDefaults.standard.bool(forKey: category.rawValue)
+    }
+    
+    /// Lists the permission status for all notification categories.
+    ///
+    /// - Returns: A dictionary containing notification categories as keys and their corresponding permission status as values.
+    func listCategoriesPermissions() -> [NotificationCategory: Bool] {
+        var categoriesPermissions = [NotificationCategory: Bool]()
+        for category in NotificationCategory.allCases {
+            categoriesPermissions[category] = isCategoryPermissionEnabled(category: category)
+        }
+        return categoriesPermissions
+    }
+    
+    /// Resets all notification category permissions to their default values (enabled).
+    func resetNotificationSettingsToDefault() {
+        for category in NotificationCategory.allCases {
+            setCategoryPermission(category: category, isEnabled: true)
+        }
+    }
+}
+
+// MARK: - Notification language
+
+extension SCSNotificationService {
+    
+    /// An enum representing different notification languages.
+    ///
+    /// > Important:
+    /// > Notification Language Setting is experimental at the moment.
+    enum NotificationLanguage: String, CaseIterable {
+        case en_us
+        case de_de
+        case it_ita
+        case system
+        
+        /// Emoji representation of each language for display purposes.
+        var langIcon: String {
+            switch self {
+            case .en_us:
+                return "🇺🇸"
+            case .de_de:
+                return "🇩🇪"
+            case .it_ita:
+                return "🇮🇹"
+            case .system:
+                return ""
+            }
+        }
+    }
+    
+    /// Key for storing notification language in UserDefaults.
+    private var notificationLanguageKey: String {
+        return "NotificationLanguage"
+    }
+    
+    /// Gets the selected notification language from UserDefaults.
+    var selectedNotificationLanguage: NotificationLanguage {
+        get {
+            guard let storedLanguage = UserDefaults.standard.string(forKey: notificationLanguageKey),
+                  let language = NotificationLanguage(rawValue: storedLanguage) else {
+                // If no language is stored, return the default (system) language
+                return .system
+            }
+            return language
+        }
+        set {
+            UserDefaults.standard.set(newValue.rawValue, forKey: notificationLanguageKey)
+        }
+    }
+    
+    /// Resets the notification language to the default (system) language.
+    ///
+    /// This function removes the stored notification language from UserDefaults, resetting it to the default system language.
+    func resetNotificationLanguageToDefault() {
+        UserDefaults.standard.removeObject(forKey: notificationLanguageKey)
+    }
+}
+
+// MARK: - Ressources
+
+extension SCSNotificationService {
+    
+    enum Descriptions: CaseIterable {
+        case notifications
+        case notificationLangs
+        case resetSettings
+        case cancelSub
+        
+        var text: String {
+            switch self {
+            case .notifications:
+                return "Stay up to date with push notifications from ScribbleLab. When you deny push notifications, you'll still receive in-app notifications or important alerts."
+            case .notificationLangs:
+                return "Please note that ScribbleLab may not retrieve the currently set languages from the push notification provider. Therefore, the selected languages may not match the languages displayed."
+            case .resetSettings:
+                return "WARNING: Resetting notification settings will permanently erase all custom configurations. Once reset, any personalized preferences, alerts, or customizations will be irreversibly lost. You can still customize your notification settings again."
+            case .cancelSub:
+                return "You can cancel or resubscribe to your push notification subscription at any time."
+            }
+        }
+    }
 }
