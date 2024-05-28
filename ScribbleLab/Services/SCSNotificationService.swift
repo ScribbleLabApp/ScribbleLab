@@ -78,7 +78,11 @@ class SCSNotificationService: NSObject, SCSNotificationAgent, UNUserNotification
     static let shared = SCSNotificationService()
     
     /// The current notification permission status.
-    var notificationPermissionStatus: UNAuthorizationStatus = .notDetermined
+    var notificationPermissionStatus: UNAuthorizationStatus = .notDetermined {
+        didSet {
+            saveNotificationPermissionStatus()
+        }
+    }
     
     /// Initializes a new instance of `SCSNotificationService`.
     ///
@@ -87,6 +91,7 @@ class SCSNotificationService: NSObject, SCSNotificationAgent, UNUserNotification
     override init() {
         super.init()
         UNUserNotificationCenter.current().delegate = self
+        notificationPermissionStatus = loadNotificationPermissionStatus()
         checkNotificationPermissionStatus()
     }
     
@@ -142,7 +147,6 @@ class SCSNotificationService: NSObject, SCSNotificationAgent, UNUserNotification
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: timeInterval, repeats: false)
         let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
         
-        
         UNUserNotificationCenter.current().add(request) { error in
             if let error = error {
                 SCNLoggingAgent.shared.logger.error("Error scheduling notification: \(error)")
@@ -158,7 +162,35 @@ class SCSNotificationService: NSObject, SCSNotificationAgent, UNUserNotification
     var isNotificationAuthorized: Bool {
         return notificationPermissionStatus == .authorized || notificationPermissionStatus == .provisional
     }
+    
+    /// Saves the current notification permission status to UserDefaults.
+    private func saveNotificationPermissionStatus() {
+        UserDefaults.standard.set(notificationPermissionStatus.rawValue, forKey: "notificationPermissionStatus")
+    }
+    
+    /// Loads the notification permission status from UserDefaults.
+    /// - Returns: The loaded `UNAuthorizationStatus`.
+    private func loadNotificationPermissionStatus() -> UNAuthorizationStatus {
+        let rawValue = UserDefaults.standard.integer(forKey: "notificationPermissionStatus")
+        return UNAuthorizationStatus(rawValue: rawValue) ?? .notDetermined
+    }
+    
+    /// Toggles the notification permission status locally and updates the settings.
+    /// - Parameter isEnabled: A boolean indicating whether notifications are enabled.
+    ///
+    /// This method allows toggling the notification permission status locally and updates
+    /// the settings accordingly. If notifications are disabled, it updates the status to `.denied`.
+    /// If notifications are enabled, it requests authorization again.
+    func toggleNotificationPermission(isEnabled: Bool) {
+        if isEnabled {
+            requestNotificationPermission()
+        } else {
+            notificationPermissionStatus = .denied
+        }
+    }
 }
+
+// MARK: - UNUserNotificationCenterDelegate
 
 extension SCSNotificationService {
     /// Called when a notification is delivered to a foreground app.
@@ -171,8 +203,7 @@ extension SCSNotificationService {
     /// in the foreground. It specifies how the notification should be presented (e.g., alert, sound, badge).
     func userNotificationCenter(
         _ center: UNUserNotificationCenter,
-        willPresent notification:
-        UNNotification,
+        willPresent notification: UNNotification,
         withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void
     ) {
         completionHandler([.alert, .sound, .badge])
@@ -194,4 +225,10 @@ extension SCSNotificationService {
     ) {
         completionHandler()
     }
+}
+
+// MARK: - Notification Type
+
+extension SCSNotificationService {
+    
 }
