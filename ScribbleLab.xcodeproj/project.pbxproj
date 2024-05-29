@@ -70,6 +70,8 @@
 		3868A3E32AD2FE6600D4CAEC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3E22AD2FE6600D4CAEC /* ProfileView.swift */; };
 		386BF6AD2B666D8E00EF97E8 /* NewsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386BF6AC2B666D8E00EF97E8 /* NewsDetail.swift */; };
 		386D6FE82C05CDE500AE65F3 /* SCSNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386D6FE72C05CDE500AE65F3 /* SCSNotificationService.swift */; };
+		386D6FED2C0601F800AE65F3 /* Default_Light.slcolortheme in Resources */ = {isa = PBXBuildFile; fileRef = 386D6FEC2C0601F800AE65F3 /* Default_Light.slcolortheme */; };
+		386D6FEF2C065E5E00AE65F3 /* Default_Dark.slcolortheme in Resources */ = {isa = PBXBuildFile; fileRef = 386D6FEE2C065E5E00AE65F3 /* Default_Dark.slcolortheme */; };
 		38721C0A2BC9BC0A002F2AA9 /* NSApplication+DockProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38721C092BC9BC0A002F2AA9 /* NSApplication+DockProgress.swift */; };
 		38726E2B2C031B61003B1BD2 /* SCSNetworkingAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38726E2A2C031B61003B1BD2 /* SCSNetworkingAgent.swift */; };
 		3874329B2B5FADAB00D7A864 /* DeveloperSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874329A2B5FADAB00D7A864 /* DeveloperSettingsView.swift */; };
@@ -283,6 +285,8 @@
 		3868A3E22AD2FE6600D4CAEC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		386BF6AC2B666D8E00EF97E8 /* NewsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetail.swift; sourceTree = "<group>"; };
 		386D6FE72C05CDE500AE65F3 /* SCSNotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSNotificationService.swift; sourceTree = "<group>"; };
+		386D6FEC2C0601F800AE65F3 /* Default_Light.slcolortheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Default_Light.slcolortheme; sourceTree = "<group>"; };
+		386D6FEE2C065E5E00AE65F3 /* Default_Dark.slcolortheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Default_Dark.slcolortheme; sourceTree = "<group>"; };
 		38721C092BC9BC0A002F2AA9 /* NSApplication+DockProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSApplication+DockProgress.swift"; sourceTree = "<group>"; };
 		38726E2A2C031B61003B1BD2 /* SCSNetworkingAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSNetworkingAgent.swift; sourceTree = "<group>"; };
 		3874329A2B5FADAB00D7A864 /* DeveloperSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperSettingsView.swift; sourceTree = "<group>"; };
@@ -648,6 +652,7 @@
 				380BC6472B2652A900DCF442 /* SceneDelegate.swift */,
 				38AE9C9B2AD0750F00B761E8 /* ScribbleLabApp.swift */,
 				385F78A72AD5D2170096E504 /* Launch Screen.storyboard */,
+				386D6FEB2C06016B00AE65F3 /* Appearance */,
 				38140A672AE3F80C00753FB6 /* Service */,
 				38FFF9432AE3CA52006719E2 /* ViewController */,
 			);
@@ -846,6 +851,15 @@
 				385F468B2AD31C9A00D85410 /* Model */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		386D6FEB2C06016B00AE65F3 /* Appearance */ = {
+			isa = PBXGroup;
+			children = (
+				386D6FEC2C0601F800AE65F3 /* Default_Light.slcolortheme */,
+				386D6FEE2C065E5E00AE65F3 /* Default_Dark.slcolortheme */,
+			);
+			path = Appearance;
 			sourceTree = "<group>";
 		};
 		387432992B5FAD9C00D7A864 /* Developer */ = {
@@ -1619,11 +1633,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				386D6FEF2C065E5E00AE65F3 /* Default_Dark.slcolortheme in Resources */,
 				38AE9CA52AD0751100B761E8 /* Preview Assets.xcassets in Resources */,
 				387CC31B2BED2FD100B5B907 /* onboardingData.json in Resources */,
 				38AE9CA22AD0751100B761E8 /* Assets.xcassets in Resources */,
 				38AB46312B16524000DC9D1C /* Release.xcconfig in Resources */,
 				385F78AC2AD5DDEE0096E504 /* Settings.bundle in Resources */,
+				386D6FED2C0601F800AE65F3 /* Default_Light.slcolortheme in Resources */,
 				38D83CF82BE4D345006260DE /* GoogleService-Info.plist in Resources */,
 				385F78A82AD5D2170096E504 /* Launch Screen.storyboard in Resources */,
 				38AB462F2B16524000DC9D1C /* Beta.xcconfig in Resources */,

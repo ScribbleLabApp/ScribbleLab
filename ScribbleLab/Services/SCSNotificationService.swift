@@ -22,6 +22,8 @@ import UserNotifications
 import NotificationCenter
 import ScribbleCoreServices
 
+// swiftlint:disable identifier_name
+
 /// Protocol defining the interface for notification agent.
 ///
 /// The `SCSNotificationAgent` protocol provides an interface for handling
@@ -363,3 +365,5 @@ extension SCSNotificationService {
         }
     }
 }
+
+// swiftlint:enable identifier_name
