@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3802CBFC2B342F980051F6D8 /* LocalConsole in Frameworks */ = {isa = PBXBuildFile; productRef = 3802CBFB2B342F980051F6D8 /* LocalConsole */; };
+		3804FE822C078F6F0094AE84 /* DocumentEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3804FE812C078F6F0094AE84 /* DocumentEditorView.swift */; };
 		38066B4F2AFE9F0E001A88D5 /* SLUpdateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38066B4E2AFE9F0E001A88D5 /* SLUpdateViewModel.swift */; };
 		38066B522AFEA235001A88D5 /* WaitSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38066B512AFEA235001A88D5 /* WaitSheetView.swift */; };
 		380BC6482B2652A900DCF442 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380BC6472B2652A900DCF442 /* SceneDelegate.swift */; };
@@ -153,9 +154,11 @@
 		38E056502B7FAC3D00A688AE /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 38E0564F2B7FAC3D00A688AE /* FirebaseFirestore */; };
 		38E056522B7FAC3D00A688AE /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 38E056512B7FAC3D00A688AE /* FirebaseFirestoreSwift */; };
 		38E5BBB72AE4244600FFFE7C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5BBB62AE4244600FFFE7C /* User.swift */; };
+		38ED98A22C0A75C80029C97B /* SCSThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ED98A12C0A75C80029C97B /* SCSThemeManager.swift */; };
 		38EFBE1D2AD6965C00CF0ECD /* PackageLicense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFBE1C2AD6965C00CF0ECD /* PackageLicense.swift */; };
 		38EFBE232AD6E4EF00CF0ECD /* RestartAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFBE222AD6E4EF00CF0ECD /* RestartAppView.swift */; };
 		38F59B8B2AEC4E0D00475B0B /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F59B8A2AEC4E0D00475B0B /* ResetPasswordView.swift */; };
+		38FD90652C1488AB001D815C /* PencilDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD90642C1488AB001D815C /* PencilDetector.m */; };
 		38FFF9322AE3C18B006719E2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF9312AE3C18B006719E2 /* FirebaseAuth */; };
 		38FFF9342AE3C18B006719E2 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF9332AE3C18B006719E2 /* FirebaseCrashlytics */; };
 		38FFF9362AE3C18B006719E2 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF9352AE3C18B006719E2 /* FirebaseDatabase */; };
@@ -224,6 +227,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3804FE812C078F6F0094AE84 /* DocumentEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentEditorView.swift; sourceTree = "<group>"; };
 		38066B4E2AFE9F0E001A88D5 /* SLUpdateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLUpdateViewModel.swift; sourceTree = "<group>"; };
 		38066B512AFEA235001A88D5 /* WaitSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitSheetView.swift; sourceTree = "<group>"; };
 		380BC6472B2652A900DCF442 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -367,9 +371,13 @@
 		38D84A4A2B6663FE00BE884B /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		38DF1FDB2B5C0FC6001D896B /* ClassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ClassKit.framework; path = System/Library/Frameworks/ClassKit.framework; sourceTree = SDKROOT; };
 		38E5BBB62AE4244600FFFE7C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		38ED98A12C0A75C80029C97B /* SCSThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSThemeManager.swift; sourceTree = "<group>"; };
 		38EFBE1C2AD6965C00CF0ECD /* PackageLicense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageLicense.swift; sourceTree = "<group>"; };
 		38EFBE222AD6E4EF00CF0ECD /* RestartAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartAppView.swift; sourceTree = "<group>"; };
 		38F59B8A2AEC4E0D00475B0B /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		38FD90622C148888001D815C /* PencilDetector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PencilDetector.h; sourceTree = "<group>"; };
+		38FD90632C1488AB001D815C /* ScribbleLab-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScribbleLab-Bridging-Header.h"; sourceTree = "<group>"; };
+		38FD90642C1488AB001D815C /* PencilDetector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PencilDetector.m; sourceTree = "<group>"; };
 		38FFF9412AE3C7C9006719E2 /* SignInWithGoogleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithGoogleModel.swift; sourceTree = "<group>"; };
 		38FFF9442AE3CA6F006719E2 /* Application_utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application_utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -444,6 +452,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3804FE802C078F1E0094AE84 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				3804FE812C078F6F0094AE84 /* DocumentEditorView.swift */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
 		38066B502AFEA20F001A88D5 /* Waiting */ = {
 			isa = PBXGroup;
 			children = (
@@ -470,6 +486,7 @@
 				387CC33A2BEFC96400B5B907 /* SCSNotificationAgent.swift */,
 				387CC33C2BEFD4B000B5B907 /* SCSCrashExceptionAgent.swift */,
 				38726E2A2C031B61003B1BD2 /* SCSNetworkingAgent.swift */,
+				38ED98A12C0A75C80029C97B /* SCSThemeManager.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -651,6 +668,7 @@
 				383D238C2B2363490094001E /* AppDelegate.swift */,
 				380BC6472B2652A900DCF442 /* SceneDelegate.swift */,
 				38AE9C9B2AD0750F00B761E8 /* ScribbleLabApp.swift */,
+				38FD90632C1488AB001D815C /* ScribbleLab-Bridging-Header.h */,
 				385F78A72AD5D2170096E504 /* Launch Screen.storyboard */,
 				386D6FEB2C06016B00AE65F3 /* Appearance */,
 				38140A672AE3F80C00753FB6 /* Service */,
@@ -664,6 +682,7 @@
 			children = (
 				3868A3ED2AD3079200D4CAEC /* Auth */,
 				38355ED52AD3D50F00392674 /* Components */,
+				3804FE802C078F1E0094AE84 /* Editor */,
 				38A5E34F2BECFE72009A8885 /* Onboarding */,
 				38C7B6E12BF3DAA600F31E46 /* Services */,
 				3886B2DF2AD1ABA3002EF30E /* SideBar */,
@@ -965,6 +984,8 @@
 			children = (
 				38A24C702AED15B600F81F07 /* ImageUploader.swift */,
 				386D6FE72C05CDE500AE65F3 /* SCSNotificationService.swift */,
+				38FD90622C148888001D815C /* PencilDetector.h */,
+				38FD90642C1488AB001D815C /* PencilDetector.m */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -1549,6 +1570,7 @@
 					};
 					38AE9C972AD0750F00B761E8 = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1540;
 					};
 					38AE9CAB2AD0751100B761E8 = {
 						CreatedOnToolsVersion = 15.0;
@@ -1749,9 +1771,11 @@
 				383D238D2B2363490094001E /* AppDelegate.swift in Sources */,
 				38348BEE2B1A6A1A00846877 /* HomeViewModel.swift in Sources */,
 				38D84A492B656AA300BE884B /* NewsView.swift in Sources */,
+				3804FE822C078F6F0094AE84 /* DocumentEditorView.swift in Sources */,
 				38140A622AE3F61000753FB6 /* SLAuthService.swift in Sources */,
 				3874329D2B5FCBB400D7A864 /* HomeSortOption.swift in Sources */,
 				38066B4F2AFE9F0E001A88D5 /* SLUpdateViewModel.swift in Sources */,
+				38FD90652C1488AB001D815C /* PencilDetector.m in Sources */,
 				38A24C712AED15B600F81F07 /* ImageUploader.swift in Sources */,
 				38C666342B53241200CAD099 /* SLUnitsView.swift in Sources */,
 				38FFF9452AE3CA6F006719E2 /* Application_utility.swift in Sources */,
@@ -1766,6 +1790,7 @@
 				387CC3102BED151400B5B907 /* OnboardingFeatureCell.swift in Sources */,
 				387CC31F2BEE023200B5B907 /* NotificationOnboardingView.swift in Sources */,
 				387CC31D2BEDF96200B5B907 /* NotificationOnboardingCellView.swift in Sources */,
+				38ED98A22C0A75C80029C97B /* SCSThemeManager.swift in Sources */,
 				38154F292BF923DD001DF5B4 /* ToDoView.swift in Sources */,
 				38ADE8112B1D1253002229A2 /* SLTip.swift in Sources */,
 				38140A6C2AE3FB6F00753FB6 /* ContentViewModel.swift in Sources */,
@@ -1937,6 +1962,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconAlpha;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -1970,6 +1996,8 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SL_COPYRIGHT = "Copyright © 2023-2024 ScribbleLabApp \\n All rights reserved";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ScribbleLab/App/ScribbleLab-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2088,6 +2116,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconBeta;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -2121,6 +2150,8 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SL_COPYRIGHT = "Copyright © 2023-2024 ScribbleLabApp \\n All rights reserved";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ScribbleLab/App/ScribbleLab-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2239,6 +2270,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -2272,6 +2304,8 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SL_COPYRIGHT = "Copyright © 2023-2024 ScribbleLabApp \\n All rights reserved";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ScribbleLab/App/ScribbleLab-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2838,6 +2872,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDev;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -2871,6 +2906,8 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SL_COPYRIGHT = "Copyright © 2023-2024 ScribbleLabApp \\n All rights reserved";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ScribbleLab/App/ScribbleLab-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2883,6 +2920,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -2916,6 +2954,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SL_COPYRIGHT = "Copyright © 2023-2024 ScribbleLabApp \\n All rights reserved";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ScribbleLab/App/ScribbleLab-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

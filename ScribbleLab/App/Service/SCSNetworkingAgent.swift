@@ -28,7 +28,7 @@ import Network
     public private(set) var isInternetConnected = false
     
     private let monitor = NWPathMonitor()
-    private let monitorQueue = DispatchQueue(label: "com.nhsystems.ScribbleLab.NetworkMonitor")
+    private let monitorQueue = DispatchQueue(label: "com.nhsystems.ScribbleLab.networkMonitor")
     
     public init() {
         startMonitoring()

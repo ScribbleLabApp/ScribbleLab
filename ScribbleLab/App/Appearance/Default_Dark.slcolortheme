@@ -23,53 +23,54 @@
 -->
 <plist version="1.0">
 <dict>
-    <key>SCMetadata<\key>
+    <key>SCMetadata</key>
     <array>
-        <key>SCAuthor<\key>
+        <key>SCAuthor</key>
         <string>ScribbleLabApp</string>
         <key>SCHumanReadableCopyright</key>
         <string>Copyright © ScribbleLabApp 2024</string>
-        <key>SCLicense<\key>
-        <string>Apache 2.0<\string>
-        <key>SCDistributionURL<\key>
-        <string>https://github.com/ScribbleLabApp/ScribbleLab<\string>
-        <key>SCColorSchemeType<\key>
-        <string>dark<\string>
+        <key>SCLicense</key>
+        <string>Apache 2.0</string>
+        <key>SCDistributionURL</key>
+        <string>https://github.com/ScribbleLabApp/ScribbleLab</string>
+        <key>SCColorSchemeType</key>
+        <string>light</string>
         <key>SCColorSpaceName</key>
-        <string>display_P3<\string>
-        <key>SCColorThemeName<\key>
+        <string>display_P3</string>
+        <key>SCColorThemeName</key>
         <string>default.dark</string>
-        <key>SCColorThemeDisplayName<\key>
-        <string>Default (Dark)<\string>
+        <key>SCColorThemeDisplayName</key>
+        <string>Default (Dark)</string>
         <key>SCSemanticClass</key>
         <string>scribble.theme.default_dark</string>
-        <key>SCDescription<\key>
-        <string>ScribbleLab bundled theme<\string>
-        <key>SCColorThemeVersion<\key>
-        <string>0.0.1<\string>
-        <key>SCColorThemeOverviewImageURL<\key>
-        <string><\string>
-    <\array>
+        <key>SCDescription</key>
+        <string>ScribbleLab bundled theme</string>
+        <key>SCColorThemeVersion</key>
+        <string>0.0.1</string>
+        <key>SCColorThemeOverviewImageURL</key>
+        <string></string>
+    </array>
     
     <key>SCSettings</key>
     <array>
-        <key>SCBackgroundColor<\key>
-        <string>#000000<\string>
+        <key>SCBackgroundColor</key>
+        <string>#000000</string>
             
-        <key>SCSelectionColor<\key>
-        <string>#FFAD48<\string>
+        <key>SCSelectionColor</key>
+        <string>#FFAD48</string>
             
-        <key>SCTextColor<\key>
-        <string>#FFFFFF<\string>
+        <key>SCTextColor</key>
+        <string>#000000</string>
             
-        <key>SCPrimaryColor<\key>
-        <string>#EC8334<\string>
+        <key>SCPrimaryColor</key>
+        <string>#EC8334</string>
             
-        <key>SCSecondaryColor<\key>
-        <string>#85848A<\string>
-    <\array>
+        <key>SCSecondaryColor</key>
+        <string>#85848A</string>
+    </array>
         
     <key>uuid</key>
-    <string>1002</string>
+    <string>1001</string>
 <dict/>
 </plist>
+
