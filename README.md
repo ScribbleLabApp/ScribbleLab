@@ -1,3 +1,8 @@
+> [!NOTE]
+> @N3v1 is currently working on other libraries that are needed for ScribbleLab. Please excuse the lack of activity. ScribbleEditorKit will receive updates in the near future.
+> 
+> For updates regarding this project, please contact our maintainer @N3v1.
+
 ![Header](https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/eb1953ca-f14f-43ba-84d9-a50b7db93303)
 
 <!--
