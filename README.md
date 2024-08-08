@@ -2,7 +2,7 @@
 > [@N3v1](https://github/N3v1) is currently working on other libraries that are needed for ScribbleLab. Please excuse the lack of activity. ScribbleLab will receive updates in the near future.
 > 
 > For updates regarding this project, please contact our maintainer [@N3v1](https://github/N3v1).
-> If you are intrested in the development process of ScribbleLab join our Discord Server [here](https://discord.gg/eRCe7tFuBk).
+> If you are intrested in the development process of ScribbleLab join our Discord Server [here](https://discord.gg/Y5mUJbNC8h).
 
 ![Header](https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/eb1953ca-f14f-43ba-84d9-a50b7db93303)
 
@@ -54,9 +54,9 @@ Features are easily accessible from a sidebar, providing a powerful yet user-fri
 Many of our features are available from a sidebar where they can be accessed by a simple click.
 
 ## Community
-To decide what features to include, we invite and assess feedback from our [community](https://discord.gg/7eyQFUws7A) and testers, ensuring that our feature list is relevant and useful to students.
+To decide what features to include, we invite and assess feedback from our [community](https://discord.gg/Y5mUJbNC8h) and testers, ensuring that our feature list is relevant and useful to students.
 
-Our community comprises contributors from GitHub, testers, developers, and users. Join our [**Discord server**](https://discord.gg/7eyQFUws7A) for improved communication among community members. 
+Our community comprises contributors from GitHub, testers, developers, and users. Join our [**Discord server**](https://discord.gg/Y5mUJbNC8h) for improved communication among community members. 
 
 ## Privacy
 Is it safe to create an account with ScribbleLab? Yes!
