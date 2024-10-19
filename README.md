@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> A new updatee version of this repository will be published soon. You got questions? - Join our discord community or message our maintainer [@n3v1](https://github.com/N3v1).
+
 > [!NOTE]
 > [@N3v1](https://github/N3v1) is currently working on other libraries that are needed for ScribbleLab. Please excuse the lack of activity. ScribbleLab will receive updates in the near future.
 > 
