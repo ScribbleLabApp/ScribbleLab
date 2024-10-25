@@ -96,14 +96,8 @@ iOSInjectionProject/
 .vscode
 
 # Instruments files
-ScribbleLab-11-28-2023.trace
-ScribbleLab-Launch-11-28-2023.trace
+*.trace
 
 # Firebase Setup
 GoogleService-Info.plist
-
-# Custom build paths
-docc/
-ScribbleLab/GoogleService-Info.plist
-
 .sentryclirc
