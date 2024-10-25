@@ -1,0 +1,46 @@
+name: Compile gyb sources
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+    compile_gyb_sources:
+        runs-on: macOS-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v3
+            - name: Run generate_sources.sh
+              run: |
+                chmod +x ./Utilities/generate_sources.sh
+                ./Utilities/generate_sources.sh
+            
+            - name: Check for changes
+              id: check_changes
+              run: |
+                git diff --quiet || echo "Change detected"
+            - name: Commit and push changes
+              if: steps.check_changes.outputs.changed == 'true'
+              run: |
+                git config user.name "GitHub Actions"
+                git config user.email "actions@github.com"
+                git add .
+                git commit -m "(automated/ci): Generate missing swift.gyb Sources"
+                git push origin HEAD:automated-update-sourcefile-generation
+            - name: Install GitHub CLI on macOS
+              run: |
+                  brew install gh
+              
+            - name: Create Pull Request
+              if: steps.check_changes.outputs.changed == 'true'
+              run: |
+                gh auth login --with-token <<< "${{ secrets.GITHUB_TOKEN }}"
+                gh pr create --title "Automated compiling of gyb sources" \
+                             --body "This pull request includes newly generated sources after running the gyb compilation." \
+                             --base main \
+                             --head automated-update-sourcefile-generation \
+                             --repo ${{ github.repository }}

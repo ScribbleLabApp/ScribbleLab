@@ -1,0 +1,45 @@
+name: Build & Test ScribbleLab
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    strategy:
+      matrix:
+        os: [macOS, iOS]
+        configuration: [Alpha, Beta, Debug, Release]
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Select Xcode version
+        run: sudo xcode-select --switch /Applications/Xcode_16.app/Contents/Developer
+
+      - name: Install dependencies
+        run: |
+          swift package update
+
+      - name: Build project using Matrix build system
+        run: |
+          if [ "${{ matrix.os }}" == "iOS" ]; then
+            xcodebuild -scheme ScribbleLab -configuration ${{ matrix.configuration }} build
+          else
+            xcodebuild -scheme ScribbleLab -configuration ${{ matrix.configuration }} build
+          fi
+
+      - name: Run Tests
+        run: |
+          if [ "${{ matrix.os }}" == "iOS" ]; then
+            xcodebuild test -scheme ScribbleLab -configuration ${{ matrix.configuration }}
+          else
+            xcodebuild test -scheme ScribbleLab -configuration ${{ matrix.configuration }}
+          fi

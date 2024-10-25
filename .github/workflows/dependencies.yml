@@ -1,17 +1,17 @@
-name: Update SPM
+name: Update Dependencies
 
 on:
   schedule:
-    - cron: '0 0 */2 * *'  # Run every 2 days
+    - cron: '0 0 */2 * *'
   workflow_dispatch:
 
 jobs:
   update-dependencies:
-    runs-on: macos-14
+    runs-on: macos-latest
     
     steps:
     - name: Select Xcode
-      run: sudo xcode-select -switch /Applications/Xcode_15.0.1.app/Contents/Developer
+      run: sudo xcode-select -switch /Applications/Xcode_16.app/Contents/Developer
 
     - name: Delete DerivedData directory
       run: rm -rf ~/Library/Developer/Xcode/DerivedData
@@ -36,7 +36,7 @@ jobs:
         git config --local user.name "GitHub Actions"
         git checkout -b auto-update-dependencies
         git add .
-        git commit -m "Auto-update dependencies"
+        git commit -m "(chore/ci): Auto-update dependencies"
         git push origin auto-update-dependencies
 
     - name: Create Pull Request
