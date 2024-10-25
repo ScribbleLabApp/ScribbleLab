@@ -27,9 +27,9 @@ jobs:
       - name: Build project using Matrix build system
         run: |
           if [ "${{ matrix.os }}" == "iOS" ]; then
-            xcodebuild -scheme ScribbleLab -configuration ${{ matrix.configuration }} build
+            xcodebuild -scheme ScribbleLab -configuration ${{ matrix.configuration }} CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO build
           else
-            xcodebuild -scheme ScribbleLab -configuration ${{ matrix.configuration }} build
+            xcodebuild -scheme ScribbleLab -configuration ${{ matrix.configuration }} CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO build
           fi
 
       - name: Run Tests
