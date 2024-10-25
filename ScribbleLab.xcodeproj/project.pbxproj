@@ -21,6 +21,10 @@
 		388038A02CCBF59F002494B7 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 3880389F2CCBF59F002494B7 /* FirebasePerformance */; };
 		388038A22CCBF59F002494B7 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 388038A12CCBF59F002494B7 /* FirebaseStorage */; };
 		388038A92CCBF74A002494B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 388038A82CCBF74A002494B7 /* GoogleService-Info.plist */; };
+		388038AC2CCBF7E1002494B7 /* AccessibilityKit in Frameworks */ = {isa = PBXBuildFile; productRef = 388038AB2CCBF7E1002494B7 /* AccessibilityKit */; };
+		388038AE2CCBF7E1002494B7 /* ScribbleFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 388038AD2CCBF7E1002494B7 /* ScribbleFoundation */; };
+		388038B02CCBF7E1002494B7 /* ScribbleFoundationUI in Frameworks */ = {isa = PBXBuildFile; productRef = 388038AF2CCBF7E1002494B7 /* ScribbleFoundationUI */; };
+		388038B22CCBF7E1002494B7 /* UpdateService in Frameworks */ = {isa = PBXBuildFile; productRef = 388038B12CCBF7E1002494B7 /* UpdateService */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,11 +85,15 @@
 			files = (
 				388038922CCBF59F002494B7 /* FirebaseAnalytics in Frameworks */,
 				3880389E2CCBF59F002494B7 /* FirebaseInstallations in Frameworks */,
+				388038AE2CCBF7E1002494B7 /* ScribbleFoundation in Frameworks */,
+				388038B02CCBF7E1002494B7 /* ScribbleFoundationUI in Frameworks */,
 				388038A22CCBF59F002494B7 /* FirebaseStorage in Frameworks */,
 				388038982CCBF59F002494B7 /* FirebaseCrashlytics in Frameworks */,
+				388038AC2CCBF7E1002494B7 /* AccessibilityKit in Frameworks */,
 				388038962CCBF59F002494B7 /* FirebaseCore in Frameworks */,
 				388038942CCBF59F002494B7 /* FirebaseAuth in Frameworks */,
 				3880389A2CCBF59F002494B7 /* FirebaseDynamicLinks in Frameworks */,
+				388038B22CCBF7E1002494B7 /* UpdateService in Frameworks */,
 				388038A02CCBF59F002494B7 /* FirebasePerformance in Frameworks */,
 				3880389C2CCBF59F002494B7 /* FirebaseFirestore in Frameworks */,
 			);
@@ -185,6 +193,10 @@
 				3880389D2CCBF59F002494B7 /* FirebaseInstallations */,
 				3880389F2CCBF59F002494B7 /* FirebasePerformance */,
 				388038A12CCBF59F002494B7 /* FirebaseStorage */,
+				388038AB2CCBF7E1002494B7 /* AccessibilityKit */,
+				388038AD2CCBF7E1002494B7 /* ScribbleFoundation */,
+				388038AF2CCBF7E1002494B7 /* ScribbleFoundationUI */,
+				388038B12CCBF7E1002494B7 /* UpdateService */,
 			);
 			productName = ScribbleLab;
 			productReference = 388DC8042CCBE36F00C80FF9 /* ScribbleLab.app */;
@@ -270,6 +282,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				388038902CCBF59E002494B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				388038AA2CCBF7E1002494B7 /* XCRemoteSwiftPackageReference "ScribbleFoundation" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 388DC8052CCBE36F00C80FF9 /* Products */;
@@ -1051,6 +1064,14 @@
 				minimumVersion = 11.4.0;
 			};
 		};
+		388038AA2CCBF7E1002494B7 /* XCRemoteSwiftPackageReference "ScribbleFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ScribbleLabApp/ScribbleFoundation.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1098,6 +1119,26 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 388038902CCBF59E002494B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		388038AB2CCBF7E1002494B7 /* AccessibilityKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 388038AA2CCBF7E1002494B7 /* XCRemoteSwiftPackageReference "ScribbleFoundation" */;
+			productName = AccessibilityKit;
+		};
+		388038AD2CCBF7E1002494B7 /* ScribbleFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 388038AA2CCBF7E1002494B7 /* XCRemoteSwiftPackageReference "ScribbleFoundation" */;
+			productName = ScribbleFoundation;
+		};
+		388038AF2CCBF7E1002494B7 /* ScribbleFoundationUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 388038AA2CCBF7E1002494B7 /* XCRemoteSwiftPackageReference "ScribbleFoundation" */;
+			productName = ScribbleFoundationUI;
+		};
+		388038B12CCBF7E1002494B7 /* UpdateService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 388038AA2CCBF7E1002494B7 /* XCRemoteSwiftPackageReference "ScribbleFoundation" */;
+			productName = UpdateService;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

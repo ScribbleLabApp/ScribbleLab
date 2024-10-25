@@ -1,5 +1,5 @@
 {
-  "originHash" : "a1569f9895aa2be8e24832f98525d5da4eb90b5d158a82691c15b47eb72a13d7",
+  "originHash" : "eb7f08bb7cf702ed0a8367d89967a6664f9268b5ad9de47fc644133c37794dd5",
   "pins" : [
     {
       "identity" : "abseil-cpp-binary",
@@ -107,6 +107,24 @@
       "state" : {
         "revision" : "540318ecedd63d883069ae7f1ed811a2df00b6ac",
         "version" : "2.4.0"
+      }
+    },
+    {
+      "identity" : "scribblefoundation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ScribbleLabApp/ScribbleFoundation.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "feead46f6b4ba38616594a7ec845d2db65ef2f0b"
+      }
+    },
+    {
+      "identity" : "swift-atomics",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-atomics.git",
+      "state" : {
+        "revision" : "cd142fd2f64be2100422d658e7411e39489da985",
+        "version" : "1.2.0"
       }
     },
     {
