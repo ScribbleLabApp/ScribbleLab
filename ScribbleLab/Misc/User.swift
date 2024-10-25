@@ -35,7 +35,8 @@ import FirebaseAuth
 /// A model that represents a user in the ScribbleLab application.
 ///
 /// `SLUser` holds essential user information, such as a unique identifier, username, email, and profile image URL.
-/// Additionally, it offers a computed property to determine if the `SLUser` instance represents the currently logged-in user.
+/// Additionally, it offers a computed property to determine if the `SLUser` instance represents the currently
+/// logged-in user.
 ///
 /// - Note: `SLUser` conforms to `Identifiable`, `Hashable`, and `Codable`, making it suitable for lists, comparison,
 ///         and serialization.
@@ -54,7 +55,7 @@ struct SLUser: Identifiable, Hashable, Codable {
     /// An optional URL string pointing to the user’s profile image.
     ///
     /// This image is displayed as the user’s avatar within the application. If `nil`, a default image can be used.
-    var profileImageUrl: String? = nil
+    var profileImageUrl: String?
     
     /// The user's full name.
     ///
