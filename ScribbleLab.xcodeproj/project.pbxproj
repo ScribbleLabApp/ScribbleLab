@@ -3,1683 +3,226 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		3802CBFC2B342F980051F6D8 /* LocalConsole in Frameworks */ = {isa = PBXBuildFile; productRef = 3802CBFB2B342F980051F6D8 /* LocalConsole */; };
-		3804FE822C078F6F0094AE84 /* DocumentEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3804FE812C078F6F0094AE84 /* DocumentEditorView.swift */; };
-		38066B4F2AFE9F0E001A88D5 /* SLUpdateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38066B4E2AFE9F0E001A88D5 /* SLUpdateViewModel.swift */; };
-		38066B522AFEA235001A88D5 /* WaitSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38066B512AFEA235001A88D5 /* WaitSheetView.swift */; };
-		380BC6482B2652A900DCF442 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380BC6472B2652A900DCF442 /* SceneDelegate.swift */; };
-		380D93932AE4280900277D2D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 380D93922AE4280900277D2D /* Kingfisher */; };
-		380D93972AE42C6600277D2D /* CompleteRegistartionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380D93962AE42C6600277D2D /* CompleteRegistartionView.swift */; };
-		38140A622AE3F61000753FB6 /* SLAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38140A612AE3F61000753FB6 /* SLAuthService.swift */; };
-		38140A642AE3F6D200753FB6 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38140A632AE3F6D200753FB6 /* LoginViewModel.swift */; };
-		38140A662AE3F79800753FB6 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38140A652AE3F79800753FB6 /* RegistrationViewModel.swift */; };
-		38140A692AE3F81900753FB6 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38140A682AE3F81900753FB6 /* UserService.swift */; };
-		38140A6C2AE3FB6F00753FB6 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38140A6B2AE3FB6F00753FB6 /* ContentViewModel.swift */; };
-		38154F292BF923DD001DF5B4 /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38154F282BF923DD001DF5B4 /* ToDoView.swift */; };
-		381C1DE32B5E8BCA00F73B5E /* DocumentSortOptionFavourite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C1DE22B5E8BCA00F73B5E /* DocumentSortOptionFavourite.swift */; };
-		381C1DE62B5E8CF500F73B5E /* SegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C1DE52B5E8CF500F73B5E /* SegmentedPicker.swift */; };
-		381C1DF22B5EF4B200F73B5E /* SLPrivacySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C1DF12B5EF4B200F73B5E /* SLPrivacySettingsView.swift */; };
-		381C1DF52B5EFD1900F73B5E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C1DF42B5EFD1900F73B5E /* SearchView.swift */; };
-		381C1DF82B5EFF7B00F73B5E /* TrashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C1DF72B5EFF7B00F73B5E /* TrashView.swift */; };
-		3828B2432B1FA5BE00D66BD8 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828B2422B1FA5BE00D66BD8 /* NotificationCell.swift */; };
-		3828B2452B1FA7A400D66BD8 /* NotificationCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828B2442B1FA7A400D66BD8 /* NotificationCellModel.swift */; };
-		38316F632BCBB68B0026B9BB /* ScribbleCoreServices in Frameworks */ = {isa = PBXBuildFile; productRef = 38316F622BCBB68B0026B9BB /* ScribbleCoreServices */; };
-		38316F652BCBB68B0026B9BB /* ScribbleCoreServicesObjc in Frameworks */ = {isa = PBXBuildFile; productRef = 38316F642BCBB68B0026B9BB /* ScribbleCoreServicesObjc */; };
-		38348BEE2B1A6A1A00846877 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38348BED2B1A6A1900846877 /* HomeViewModel.swift */; };
-		38348BF22B1A981100846877 /* testAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38348BF12B1A981100846877 /* testAuthentication.swift */; };
-		38348BF62B1A9F0200846877 /* testLogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38348BF52B1A9F0200846877 /* testLogIn.swift */; };
-		38348BF82B1A9F5A00846877 /* testRegestration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38348BF72B1A9F5A00846877 /* testRegestration.swift */; };
-		38355ED72AD3D52D00392674 /* IGTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38355ED62AD3D52D00392674 /* IGTextFieldModifier.swift */; };
-		38355ED92AD3D71900392674 /* IGButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38355ED82AD3D71900392674 /* IGButtonModifier.swift */; };
-		383588462AFEDC6F00EEA1C3 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 383588452AFEDC6F00EEA1C3 /* FirebasePerformance */; };
-		3836C2962AF144DC008F475F /* WaitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836C2952AF144DC008F475F /* WaitView.swift */; };
-		3836C29A2AF1BB86008F475F /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836C2992AF1BB86008F475F /* EditProfileViewModel.swift */; };
-		383D238D2B2363490094001E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383D238C2B2363490094001E /* AppDelegate.swift */; };
-		383ED5E72B8E3D060055A07B /* Pow in Frameworks */ = {isa = PBXBuildFile; productRef = 383ED5E62B8E3D060055A07B /* Pow */; };
-		384079D02B600E7A0059523C /* CrashReportSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384079CF2B600E7A0059523C /* CrashReportSheet.swift */; };
-		384079EC2B6177DB0059523C /* ContributionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384079EB2B6177DB0059523C /* ContributionLabel.swift */; };
-		384079EF2B61A4A90059523C /* ContributionLabelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384079EE2B61A4A90059523C /* ContributionLabelModel.swift */; };
-		3852D71C2B054C11007FAFF1 /* OTP+2FAViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852D71B2B054C11007FAFF1 /* OTP+2FAViewModel.swift */; };
-		3852D71F2B054D18007FAFF1 /* ParticleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852D71E2B054D18007FAFF1 /* ParticleEffect.swift */; };
-		3852D7212B054DBF007FAFF1 /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852D7202B054DBF007FAFF1 /* Particle.swift */; };
-		3858A7782AD14C9E00FC6319 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A7772AD14C9E00FC6319 /* HomeView.swift */; };
-		3858A77E2AD15E8900FC6319 /* NotificationSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858A77D2AD15E8900FC6319 /* NotificationSheetView.swift */; };
-		385925AA2B77B3C400CB87C2 /* AskNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385925A92B77B3C400CB87C2 /* AskNotificationView.swift */; };
-		385B8D2B2B9B7AB100DD4768 /* Setting in Frameworks */ = {isa = PBXBuildFile; productRef = 385B8D2A2B9B7AB100DD4768 /* Setting */; };
-		385B8D2D2B9B7D5700DD4768 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385B8D2C2B9B7D5700DD4768 /* SettingsView.swift */; };
-		385DC5D52B53EE4A00D1FE6E /* NewsletterSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DC5D42B53EE4A00D1FE6E /* NewsletterSettingsView.swift */; };
-		385DC5D72B53FB0C00D1FE6E /* NotificationSettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385DC5D62B53FB0C00D1FE6E /* NotificationSettingsModel.swift */; };
-		385EEEF02B5C0D87004A0E1F /* SLAppleSchoolworkIntegrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385EEEEF2B5C0D87004A0E1F /* SLAppleSchoolworkIntegrationView.swift */; };
-		385F468E2AD31CD100D85410 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F468D2AD31CD100D85410 /* SignUpView.swift */; };
-		385F788E2AD5C56E0096E504 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 385F788D2AD5C56E0096E504 /* Localizable.xcstrings */; };
-		385F78A82AD5D2170096E504 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385F78A72AD5D2170096E504 /* Launch Screen.storyboard */; };
-		385F78AC2AD5DDEE0096E504 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 385F78AB2AD5DDED0096E504 /* Settings.bundle */; };
-		385F78AF2AD5E11C0096E504 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 385F78AE2AD5E11C0096E504 /* GoogleSignIn */; };
-		385F78B12AD5E11C0096E504 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 385F78B02AD5E11C0096E504 /* GoogleSignInSwift */; };
-		385F78B32AD5E4FE0096E504 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F78B22AD5E4FE0096E504 /* LogInView.swift */; };
-		385F78BA2AD5ECC10096E504 /* SLInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F78B92AD5ECC10096E504 /* SLInfoView.swift */; };
-		385F78BE2AD5ED720096E504 /* SLHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F78BD2AD5ED720096E504 /* SLHelpView.swift */; };
-		3861EF5A2B7934D900071F3B /* SlideOverCard in Frameworks */ = {isa = PBXBuildFile; productRef = 3861EF592B7934D900071F3B /* SlideOverCard */; };
-		386845172B654AA800C375E1 /* LearningCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386845162B654AA800C375E1 /* LearningCenterView.swift */; };
-		3868A3DC2AD2DB0000D4CAEC /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DB2AD2DB0000D4CAEC /* ImageViewModel.swift */; };
-		3868A3DE2AD2DBA300D4CAEC /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DD2AD2DBA300D4CAEC /* ImageView.swift */; };
-		3868A3E02AD2E2F800D4CAEC /* SLLicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3DF2AD2E2F800D4CAEC /* SLLicenseView.swift */; };
-		3868A3E32AD2FE6600D4CAEC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868A3E22AD2FE6600D4CAEC /* ProfileView.swift */; };
-		386BF6AD2B666D8E00EF97E8 /* NewsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386BF6AC2B666D8E00EF97E8 /* NewsDetail.swift */; };
-		386D6FE82C05CDE500AE65F3 /* SCSNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386D6FE72C05CDE500AE65F3 /* SCSNotificationService.swift */; };
-		386D6FED2C0601F800AE65F3 /* Default_Light.slcolortheme in Resources */ = {isa = PBXBuildFile; fileRef = 386D6FEC2C0601F800AE65F3 /* Default_Light.slcolortheme */; };
-		386D6FEF2C065E5E00AE65F3 /* Default_Dark.slcolortheme in Resources */ = {isa = PBXBuildFile; fileRef = 386D6FEE2C065E5E00AE65F3 /* Default_Dark.slcolortheme */; };
-		38721C0A2BC9BC0A002F2AA9 /* NSApplication+DockProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38721C092BC9BC0A002F2AA9 /* NSApplication+DockProgress.swift */; };
-		38726E2B2C031B61003B1BD2 /* SCSNetworkingAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38726E2A2C031B61003B1BD2 /* SCSNetworkingAgent.swift */; };
-		3874329B2B5FADAB00D7A864 /* DeveloperSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874329A2B5FADAB00D7A864 /* DeveloperSettingsView.swift */; };
-		3874329D2B5FCBB400D7A864 /* HomeSortOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874329C2B5FCBB400D7A864 /* HomeSortOption.swift */; };
-		387432A32B5FCF7800D7A864 /* SLDisplayStyleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387432A22B5FCF7800D7A864 /* SLDisplayStyleButton.swift */; };
-		3877EDB22BB071D000A60946 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		3877EDB32BB071D000A60946 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		387B79362ADEDD9B0067E08B /* SLOtherSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387B79352ADEDD9B0067E08B /* SLOtherSettings.swift */; };
-		387CC3102BED151400B5B907 /* OnboardingFeatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387CC30F2BED151400B5B907 /* OnboardingFeatureCell.swift */; };
-		387CC3152BED196100B5B907 /* OnboardingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387CC3142BED196100B5B907 /* OnboardingData.swift */; };
-		387CC3182BED1EE100B5B907 /* FeatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387CC3172BED1EE100B5B907 /* FeatureCell.swift */; };
-		387CC31B2BED2FD100B5B907 /* onboardingData.json in Resources */ = {isa = PBXBuildFile; fileRef = 387CC3162BED1CEE00B5B907 /* onboardingData.json */; };
-		387CC31D2BEDF96200B5B907 /* NotificationOnboardingCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387CC31C2BEDF96200B5B907 /* NotificationOnboardingCellView.swift */; };
-		387CC31F2BEE023200B5B907 /* NotificationOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387CC31E2BEE023200B5B907 /* NotificationOnboardingView.swift */; };
-		387CC3272BEE49A100B5B907 /* SCSNetworkMonitorAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387CC3262BEE49A100B5B907 /* SCSNetworkMonitorAgent.swift */; };
-		387CC3292BEE49A100B5B907 /* SCSNetworkMonitorAgentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387CC3282BEE49A100B5B907 /* SCSNetworkMonitorAgentProtocol.swift */; };
-		387CC32B2BEE49A100B5B907 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387CC32A2BEE49A100B5B907 /* main.swift */; };
-		387CC3302BEE49A100B5B907 /* SCSNetworkMonitorAgent.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = 387CC3242BEE49A000B5B907 /* SCSNetworkMonitorAgent.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		387CC3392BEFC43800B5B907 /* SCSLoggingAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387CC3382BEFC43800B5B907 /* SCSLoggingAgent.swift */; };
-		387CC33B2BEFC96400B5B907 /* SCSNotificationAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387CC33A2BEFC96400B5B907 /* SCSNotificationAgent.swift */; };
-		387CC33D2BEFD4B000B5B907 /* SCSCrashExceptionAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387CC33C2BEFD4B000B5B907 /* SCSCrashExceptionAgent.swift */; };
-		3884728C2B80E23300D61AEE /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3884728B2B80E23300D61AEE /* ConfettiSwiftUI */; };
-		3886B2DE2AD19F34002EF30E /* SLSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886B2DD2AD19F34002EF30E /* SLSettingsView.swift */; };
-		3886B2E12AD1ABC0002EF30E /* SLSideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886B2E02AD1ABC0002EF30E /* SLSideBarView.swift */; };
-		3889688B2AF143C700F67F08 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3889688A2AF143C700F67F08 /* SettingsViewModel.swift */; };
-		389FD4312B1B886100C7DCC1 /* testPaswordReset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389FD4302B1B886100C7DCC1 /* testPaswordReset.swift */; };
-		389FD4332B1BD22800C7DCC1 /* ResetPasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389FD4322B1BD22800C7DCC1 /* ResetPasswordModel.swift */; };
-		38A24C712AED15B600F81F07 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A24C702AED15B600F81F07 /* ImageUploader.swift */; };
-		38A24C732AED2A7700F81F07 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 38A24C722AED2A7700F81F07 /* FirebaseAnalytics */; };
-		38A24C752AED2A7700F81F07 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 38A24C742AED2A7700F81F07 /* FirebaseAnalyticsSwift */; };
-		38A5E3232BECF1ED009A8885 /* SCSUpdateServiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5E3222BECF1ED009A8885 /* SCSUpdateServiceApp.swift */; };
-		38A5E3252BECF1ED009A8885 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5E3242BECF1ED009A8885 /* ContentView.swift */; };
-		38A5E3272BECF1EE009A8885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A5E3262BECF1EE009A8885 /* Assets.xcassets */; };
-		38A5E32A2BECF1EE009A8885 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A5E3292BECF1EE009A8885 /* Preview Assets.xcassets */; };
-		38A5E3392BECF235009A8885 /* ScribbleLab_macOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5E3382BECF235009A8885 /* ScribbleLab_macOSApp.swift */; };
-		38A5E33B2BECF235009A8885 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5E33A2BECF235009A8885 /* ContentView.swift */; };
-		38A5E33D2BECF237009A8885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A5E33C2BECF237009A8885 /* Assets.xcassets */; };
-		38A5E3402BECF237009A8885 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A5E33F2BECF237009A8885 /* Preview Assets.xcassets */; };
-		38A5E3492BECF27D009A8885 /* ScribbleCoreServices in Frameworks */ = {isa = PBXBuildFile; productRef = 38A5E3482BECF27D009A8885 /* ScribbleCoreServices */; };
-		38A5E3512BECFE9B009A8885 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5E3502BECFE9B009A8885 /* OnboardingView.swift */; };
-		38A5E9BB2B03D4E80037C668 /* SLOTP+2FAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5E9BA2B03D4E80037C668 /* SLOTP+2FAView.swift */; };
-		38A5E9BD2B03D7730037C668 /* OTPTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5E9BC2B03D7730037C668 /* OTPTextFieldView.swift */; };
-		38A5E9C22B03F0140037C668 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 38A5E9C12B03F0140037C668 /* iPhoneNumberField */; };
-		38A5E9C52B03F09C0037C668 /* SLOTP+2FA_ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5E9C42B03F09C0037C668 /* SLOTP+2FA_ConfigView.swift */; };
-		38AB462F2B16524000DC9D1C /* Beta.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 385F788A2AD5C4410096E504 /* Beta.xcconfig */; };
-		38AB46302B16524000DC9D1C /* RC.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 385F788B2AD5C4530096E504 /* RC.xcconfig */; };
-		38AB46312B16524000DC9D1C /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 385F788C2AD5C4690096E504 /* Release.xcconfig */; };
-		38AB46322B16524000DC9D1C /* Alpha.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 38355EFD2AD3DF9B00392674 /* Alpha.xcconfig */; };
-		38AB46332B16524000DC9D1C /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 38355F032AD3DFED00392674 /* Debug.xcconfig */; };
-		38ADE8112B1D1253002229A2 /* SLTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ADE8102B1D1253002229A2 /* SLTip.swift */; };
-		38ADE8172B1D1F44002229A2 /* NotificationSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ADE8162B1D1F44002229A2 /* NotificationSettings.swift */; };
-		38AE9C9C2AD0750F00B761E8 /* ScribbleLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9C9B2AD0750F00B761E8 /* ScribbleLabApp.swift */; };
-		38AE9C9E2AD0750F00B761E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9C9D2AD0750F00B761E8 /* ContentView.swift */; };
-		38AE9CA22AD0751100B761E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38AE9CA12AD0751100B761E8 /* Assets.xcassets */; };
-		38AE9CA52AD0751100B761E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38AE9CA42AD0751100B761E8 /* Preview Assets.xcassets */; };
-		38AE9CB12AD0751100B761E8 /* ScribbleLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9CB02AD0751100B761E8 /* ScribbleLabTests.swift */; };
-		38AE9CBB2AD0751100B761E8 /* ScribbleLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9CBA2AD0751100B761E8 /* ScribbleLabUITests.swift */; };
-		38AE9CBD2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE9CBC2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift */; };
-		38B36C592B5D33E60009BA56 /* SLScribbleLinkIntegrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B36C582B5D33E60009BA56 /* SLScribbleLinkIntegrationView.swift */; };
-		38B36C5B2B5D47510009BA56 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B36C5A2B5D47510009BA56 /* StoreView.swift */; };
-		38B36C5E2B5D73D80009BA56 /* FavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B36C5D2B5D73D80009BA56 /* FavouriteView.swift */; };
-		38B36C622B5D770D0009BA56 /* SharedWithYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B36C612B5D770D0009BA56 /* SharedWithYouView.swift */; };
-		38B36C652B5D95FD0009BA56 /* ScribbleCloudOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B36C642B5D95FD0009BA56 /* ScribbleCloudOverviewView.swift */; };
-		38BAF7C52B5AF6EF00BEE6A5 /* IntegrationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BAF7C42B5AF6EF00BEE6A5 /* IntegrationsView.swift */; };
-		38BAF7C72B5AFC1B00BEE6A5 /* SLGoogleClassroomIntegrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BAF7C62B5AFC1B00BEE6A5 /* SLGoogleClassroomIntegrationView.swift */; };
-		38C666292B52D21900CAD099 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C666282B52D21900CAD099 /* SubscriptionView.swift */; };
-		38C666342B53241200CAD099 /* SLUnitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C666332B53241200CAD099 /* SLUnitsView.swift */; };
-		38C68B982B0D134300D16E86 /* SLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C68B972B0D134300D16E86 /* SLButton.swift */; };
-		38C68B9A2B0D1CA100D16E86 /* SLButton+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C68B992B0D1CA100D16E86 /* SLButton+Image.swift */; };
-		38D56F062AF59A0000CE3781 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D56F052AF59A0000CE3781 /* ImagePicker.swift */; };
-		38D5C68D2AD28D6F00D943A5 /* SLUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5C68C2AD28D6F00D943A5 /* SLUpdateView.swift */; };
-		38D5C6952AD2CAA100D943A5 /* SLContributorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5C6942AD2CAA100D943A5 /* SLContributorModel.swift */; };
-		38D5C6972AD2CC6200D943A5 /* SLContributorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5C6962AD2CC6200D943A5 /* SLContributorView.swift */; };
-		38D83CF82BE4D345006260DE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38D83CF72BE4D345006260DE /* GoogleService-Info.plist */; };
-		38D84A402B6553BD00BE884B /* LearningCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D84A3F2B6553BD00BE884B /* LearningCell.swift */; };
-		38D84A422B65577400BE884B /* LerningCenterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D84A412B65577400BE884B /* LerningCenterModel.swift */; };
-		38D84A492B656AA300BE884B /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D84A482B656AA300BE884B /* NewsView.swift */; };
-		38D84A4B2B6663FE00BE884B /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D84A4A2B6663FE00BE884B /* NewsCell.swift */; };
-		38E056502B7FAC3D00A688AE /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 38E0564F2B7FAC3D00A688AE /* FirebaseFirestore */; };
-		38E056522B7FAC3D00A688AE /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 38E056512B7FAC3D00A688AE /* FirebaseFirestoreSwift */; };
-		38E5BBB72AE4244600FFFE7C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5BBB62AE4244600FFFE7C /* User.swift */; };
-		38ED98A22C0A75C80029C97B /* SCSThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ED98A12C0A75C80029C97B /* SCSThemeManager.swift */; };
-		38EFBE1D2AD6965C00CF0ECD /* PackageLicense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFBE1C2AD6965C00CF0ECD /* PackageLicense.swift */; };
-		38EFBE232AD6E4EF00CF0ECD /* RestartAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFBE222AD6E4EF00CF0ECD /* RestartAppView.swift */; };
-		38F59B8B2AEC4E0D00475B0B /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F59B8A2AEC4E0D00475B0B /* ResetPasswordView.swift */; };
-		38FD90652C1488AB001D815C /* PencilDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD90642C1488AB001D815C /* PencilDetector.m */; };
-		38FFF9322AE3C18B006719E2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF9312AE3C18B006719E2 /* FirebaseAuth */; };
-		38FFF9342AE3C18B006719E2 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF9332AE3C18B006719E2 /* FirebaseCrashlytics */; };
-		38FFF9362AE3C18B006719E2 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF9352AE3C18B006719E2 /* FirebaseDatabase */; };
-		38FFF93A2AE3C18B006719E2 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF9392AE3C18B006719E2 /* FirebaseInstallations */; };
-		38FFF93C2AE3C18B006719E2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 38FFF93B2AE3C18B006719E2 /* FirebaseStorage */; };
-		38FFF9422AE3C7C9006719E2 /* SignInWithGoogleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FFF9412AE3C7C9006719E2 /* SignInWithGoogleModel.swift */; };
-		38FFF9452AE3CA6F006719E2 /* Application_utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FFF9442AE3CA6F006719E2 /* Application_utility.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
-		387CC32E2BEE49A100B5B907 /* PBXContainerItemProxy */ = {
+		388DC8162CCBE37200C80FF9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 38AE9C902AD0750F00B761E8 /* Project object */;
+			containerPortal = 388DC7FC2CCBE36F00C80FF9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 387CC3232BEE49A000B5B907;
-			remoteInfo = SCSNetworkMonitorAgent;
-		};
-		38AE9CAD2AD0751100B761E8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 38AE9C902AD0750F00B761E8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 38AE9C972AD0750F00B761E8;
+			remoteGlobalIDString = 388DC8032CCBE36F00C80FF9;
 			remoteInfo = ScribbleLab;
 		};
-		38AE9CB72AD0751100B761E8 /* PBXContainerItemProxy */ = {
+		388DC8202CCBE37200C80FF9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 38AE9C902AD0750F00B761E8 /* Project object */;
+			containerPortal = 388DC7FC2CCBE36F00C80FF9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 38AE9C972AD0750F00B761E8;
+			remoteGlobalIDString = 388DC8032CCBE36F00C80FF9;
 			remoteInfo = ScribbleLab;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		38355EF62AD3DB3400392674 /* Embed Foundation Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-			);
-			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3836C2B82AF29CC1008F475F /* Embed App Clips */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			name = "Embed App Clips";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		387CC3372BEE49A100B5B907 /* Embed XPC Services */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
-			dstSubfolderSpec = 16;
-			files = (
-				387CC3302BEE49A100B5B907 /* SCSNetworkMonitorAgent.xpc in Embed XPC Services */,
-			);
-			name = "Embed XPC Services";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		3804FE812C078F6F0094AE84 /* DocumentEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentEditorView.swift; sourceTree = "<group>"; };
-		38066B4E2AFE9F0E001A88D5 /* SLUpdateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLUpdateViewModel.swift; sourceTree = "<group>"; };
-		38066B512AFEA235001A88D5 /* WaitSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitSheetView.swift; sourceTree = "<group>"; };
-		380BC6472B2652A900DCF442 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		380D93962AE42C6600277D2D /* CompleteRegistartionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteRegistartionView.swift; sourceTree = "<group>"; };
-		38140A612AE3F61000753FB6 /* SLAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLAuthService.swift; sourceTree = "<group>"; };
-		38140A632AE3F6D200753FB6 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		38140A652AE3F79800753FB6 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
-		38140A682AE3F81900753FB6 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
-		38140A6B2AE3FB6F00753FB6 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
-		38154F282BF923DD001DF5B4 /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
-		381C1DE22B5E8BCA00F73B5E /* DocumentSortOptionFavourite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentSortOptionFavourite.swift; sourceTree = "<group>"; };
-		381C1DE52B5E8CF500F73B5E /* SegmentedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPicker.swift; sourceTree = "<group>"; };
-		381C1DF12B5EF4B200F73B5E /* SLPrivacySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLPrivacySettingsView.swift; sourceTree = "<group>"; };
-		381C1DF42B5EFD1900F73B5E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
-		381C1DF72B5EFF7B00F73B5E /* TrashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashView.swift; sourceTree = "<group>"; };
-		3828B2422B1FA5BE00D66BD8 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
-		3828B2442B1FA7A400D66BD8 /* NotificationCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCellModel.swift; sourceTree = "<group>"; };
-		38348BED2B1A6A1900846877 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		38348BF12B1A981100846877 /* testAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAuthentication.swift; sourceTree = "<group>"; };
-		38348BF52B1A9F0200846877 /* testLogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testLogIn.swift; sourceTree = "<group>"; };
-		38348BF72B1A9F5A00846877 /* testRegestration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testRegestration.swift; sourceTree = "<group>"; };
-		38355ED62AD3D52D00392674 /* IGTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGTextFieldModifier.swift; sourceTree = "<group>"; };
-		38355ED82AD3D71900392674 /* IGButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGButtonModifier.swift; sourceTree = "<group>"; };
-		38355EE02AD3DB3200392674 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
-		38355EE22AD3DB3200392674 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		38355EF72AD3DB5E00392674 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		38355EFD2AD3DF9B00392674 /* Alpha.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Alpha.xcconfig; sourceTree = "<group>"; };
-		38355F032AD3DFED00392674 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		3836C2952AF144DC008F475F /* WaitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitView.swift; sourceTree = "<group>"; };
-		3836C2992AF1BB86008F475F /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
-		383D238C2B2363490094001E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		384079CF2B600E7A0059523C /* CrashReportSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashReportSheet.swift; sourceTree = "<group>"; };
-		384079EB2B6177DB0059523C /* ContributionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributionLabel.swift; sourceTree = "<group>"; };
-		384079EE2B61A4A90059523C /* ContributionLabelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributionLabelModel.swift; sourceTree = "<group>"; };
-		3852D71B2B054C11007FAFF1 /* OTP+2FAViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OTP+2FAViewModel.swift"; sourceTree = "<group>"; };
-		3852D71E2B054D18007FAFF1 /* ParticleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEffect.swift; sourceTree = "<group>"; };
-		3852D7202B054DBF007FAFF1 /* Particle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
-		3858A7772AD14C9E00FC6319 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		3858A77D2AD15E8900FC6319 /* NotificationSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSheetView.swift; sourceTree = "<group>"; };
-		385925A92B77B3C400CB87C2 /* AskNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskNotificationView.swift; sourceTree = "<group>"; };
-		385B8D2C2B9B7D5700DD4768 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		385DC5D42B53EE4A00D1FE6E /* NewsletterSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsletterSettingsView.swift; sourceTree = "<group>"; };
-		385DC5D62B53FB0C00D1FE6E /* NotificationSettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsModel.swift; sourceTree = "<group>"; };
-		385EEEEF2B5C0D87004A0E1F /* SLAppleSchoolworkIntegrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLAppleSchoolworkIntegrationView.swift; sourceTree = "<group>"; };
-		385F468D2AD31CD100D85410 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
-		385F788A2AD5C4410096E504 /* Beta.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Beta.xcconfig; sourceTree = "<group>"; };
-		385F788B2AD5C4530096E504 /* RC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = RC.xcconfig; sourceTree = "<group>"; };
-		385F788C2AD5C4690096E504 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		385F788D2AD5C56E0096E504 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
-		385F78A72AD5D2170096E504 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		385F78AB2AD5DDED0096E504 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		385F78B22AD5E4FE0096E504 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
-		385F78B92AD5ECC10096E504 /* SLInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLInfoView.swift; sourceTree = "<group>"; };
-		385F78BD2AD5ED720096E504 /* SLHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLHelpView.swift; sourceTree = "<group>"; };
-		386845162B654AA800C375E1 /* LearningCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningCenterView.swift; sourceTree = "<group>"; };
-		3868A3DB2AD2DB0000D4CAEC /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
-		3868A3DD2AD2DBA300D4CAEC /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
-		3868A3DF2AD2E2F800D4CAEC /* SLLicenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLLicenseView.swift; sourceTree = "<group>"; };
-		3868A3E22AD2FE6600D4CAEC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		386BF6AC2B666D8E00EF97E8 /* NewsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetail.swift; sourceTree = "<group>"; };
-		386D6FE72C05CDE500AE65F3 /* SCSNotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSNotificationService.swift; sourceTree = "<group>"; };
-		386D6FEC2C0601F800AE65F3 /* Default_Light.slcolortheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Default_Light.slcolortheme; sourceTree = "<group>"; };
-		386D6FEE2C065E5E00AE65F3 /* Default_Dark.slcolortheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Default_Dark.slcolortheme; sourceTree = "<group>"; };
-		38721C092BC9BC0A002F2AA9 /* NSApplication+DockProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSApplication+DockProgress.swift"; sourceTree = "<group>"; };
-		38726E2A2C031B61003B1BD2 /* SCSNetworkingAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSNetworkingAgent.swift; sourceTree = "<group>"; };
-		3874329A2B5FADAB00D7A864 /* DeveloperSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperSettingsView.swift; sourceTree = "<group>"; };
-		3874329C2B5FCBB400D7A864 /* HomeSortOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSortOption.swift; sourceTree = "<group>"; };
-		387432A22B5FCF7800D7A864 /* SLDisplayStyleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLDisplayStyleButton.swift; sourceTree = "<group>"; };
-		38760F262B2CEECE00CC73BD /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		387B79352ADEDD9B0067E08B /* SLOtherSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLOtherSettings.swift; sourceTree = "<group>"; };
-		387CC30F2BED151400B5B907 /* OnboardingFeatureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFeatureCell.swift; sourceTree = "<group>"; };
-		387CC3142BED196100B5B907 /* OnboardingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingData.swift; sourceTree = "<group>"; };
-		387CC3162BED1CEE00B5B907 /* onboardingData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = onboardingData.json; sourceTree = "<group>"; };
-		387CC3172BED1EE100B5B907 /* FeatureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCell.swift; sourceTree = "<group>"; };
-		387CC31C2BEDF96200B5B907 /* NotificationOnboardingCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationOnboardingCellView.swift; sourceTree = "<group>"; };
-		387CC31E2BEE023200B5B907 /* NotificationOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationOnboardingView.swift; sourceTree = "<group>"; };
-		387CC3242BEE49A000B5B907 /* SCSNetworkMonitorAgent.xpc */ = {isa = PBXFileReference; explicitFileType = "wrapper.xpc-service"; includeInIndex = 0; path = SCSNetworkMonitorAgent.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
-		387CC3262BEE49A100B5B907 /* SCSNetworkMonitorAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSNetworkMonitorAgent.swift; sourceTree = "<group>"; };
-		387CC3282BEE49A100B5B907 /* SCSNetworkMonitorAgentProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSNetworkMonitorAgentProtocol.swift; sourceTree = "<group>"; };
-		387CC32A2BEE49A100B5B907 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		387CC32C2BEE49A100B5B907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		387CC32D2BEE49A100B5B907 /* SCSNetworkMonitorAgent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SCSNetworkMonitorAgent.entitlements; sourceTree = "<group>"; };
-		387CC3382BEFC43800B5B907 /* SCSLoggingAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSLoggingAgent.swift; sourceTree = "<group>"; };
-		387CC33A2BEFC96400B5B907 /* SCSNotificationAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSNotificationAgent.swift; sourceTree = "<group>"; };
-		387CC33C2BEFD4B000B5B907 /* SCSCrashExceptionAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSCrashExceptionAgent.swift; sourceTree = "<group>"; };
-		3886B2DD2AD19F34002EF30E /* SLSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLSettingsView.swift; sourceTree = "<group>"; };
-		3886B2E02AD1ABC0002EF30E /* SLSideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLSideBarView.swift; sourceTree = "<group>"; };
-		3889688A2AF143C700F67F08 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
-		389FD4302B1B886100C7DCC1 /* testPaswordReset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testPaswordReset.swift; sourceTree = "<group>"; };
-		389FD4322B1BD22800C7DCC1 /* ResetPasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordModel.swift; sourceTree = "<group>"; };
-		38A24C702AED15B600F81F07 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
-		38A5E3202BECF1EC009A8885 /* SCSUpdateService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCSUpdateService.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		38A5E3222BECF1ED009A8885 /* SCSUpdateServiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSUpdateServiceApp.swift; sourceTree = "<group>"; };
-		38A5E3242BECF1ED009A8885 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		38A5E3262BECF1EE009A8885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		38A5E3292BECF1EE009A8885 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		38A5E32B2BECF1EE009A8885 /* SCSUpdateService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SCSUpdateService.entitlements; sourceTree = "<group>"; };
-		38A5E3362BECF235009A8885 /* ScribbleLab macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScribbleLab macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		38A5E3382BECF235009A8885 /* ScribbleLab_macOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLab_macOSApp.swift; sourceTree = "<group>"; };
-		38A5E33A2BECF235009A8885 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		38A5E33C2BECF237009A8885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		38A5E33F2BECF237009A8885 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		38A5E3412BECF237009A8885 /* ScribbleLab_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScribbleLab_macOS.entitlements; sourceTree = "<group>"; };
-		38A5E3502BECFE9B009A8885 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		38A5E9BA2B03D4E80037C668 /* SLOTP+2FAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SLOTP+2FAView.swift"; sourceTree = "<group>"; };
-		38A5E9BC2B03D7730037C668 /* OTPTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextFieldView.swift; sourceTree = "<group>"; };
-		38A5E9C42B03F09C0037C668 /* SLOTP+2FA_ConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SLOTP+2FA_ConfigView.swift"; sourceTree = "<group>"; };
-		38ADE8102B1D1253002229A2 /* SLTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLTip.swift; sourceTree = "<group>"; };
-		38ADE8162B1D1F44002229A2 /* NotificationSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettings.swift; sourceTree = "<group>"; };
-		38AE9C982AD0750F00B761E8 /* ScribbleLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScribbleLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		38AE9C9B2AD0750F00B761E8 /* ScribbleLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLabApp.swift; sourceTree = "<group>"; };
-		38AE9C9D2AD0750F00B761E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		38AE9CA12AD0751100B761E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		38AE9CA42AD0751100B761E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		38AE9CA62AD0751100B761E8 /* ScribbleLab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScribbleLab.entitlements; sourceTree = "<group>"; };
-		38AE9CA72AD0751100B761E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38AE9CAC2AD0751100B761E8 /* ScribbleLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScribbleLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		38AE9CB02AD0751100B761E8 /* ScribbleLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLabTests.swift; sourceTree = "<group>"; };
-		38AE9CB62AD0751100B761E8 /* ScribbleLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScribbleLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		38AE9CBA2AD0751100B761E8 /* ScribbleLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLabUITests.swift; sourceTree = "<group>"; };
-		38AE9CBC2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleLabUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		38B36C582B5D33E60009BA56 /* SLScribbleLinkIntegrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLScribbleLinkIntegrationView.swift; sourceTree = "<group>"; };
-		38B36C5A2B5D47510009BA56 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
-		38B36C5D2B5D73D80009BA56 /* FavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteView.swift; sourceTree = "<group>"; };
-		38B36C612B5D770D0009BA56 /* SharedWithYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedWithYouView.swift; sourceTree = "<group>"; };
-		38B36C642B5D95FD0009BA56 /* ScribbleCloudOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleCloudOverviewView.swift; sourceTree = "<group>"; };
-		38BAF7C42B5AF6EF00BEE6A5 /* IntegrationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationsView.swift; sourceTree = "<group>"; };
-		38BAF7C62B5AFC1B00BEE6A5 /* SLGoogleClassroomIntegrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLGoogleClassroomIntegrationView.swift; sourceTree = "<group>"; };
-		38C666282B52D21900CAD099 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
-		38C666332B53241200CAD099 /* SLUnitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLUnitsView.swift; sourceTree = "<group>"; };
-		38C68B972B0D134300D16E86 /* SLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLButton.swift; sourceTree = "<group>"; };
-		38C68B992B0D1CA100D16E86 /* SLButton+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SLButton+Image.swift"; sourceTree = "<group>"; };
-		38D56F052AF59A0000CE3781 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
-		38D5C68C2AD28D6F00D943A5 /* SLUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLUpdateView.swift; sourceTree = "<group>"; };
-		38D5C6942AD2CAA100D943A5 /* SLContributorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLContributorModel.swift; sourceTree = "<group>"; };
-		38D5C6962AD2CC6200D943A5 /* SLContributorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLContributorView.swift; sourceTree = "<group>"; };
-		38D83CF72BE4D345006260DE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		38D84A3F2B6553BD00BE884B /* LearningCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningCell.swift; sourceTree = "<group>"; };
-		38D84A412B65577400BE884B /* LerningCenterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LerningCenterModel.swift; sourceTree = "<group>"; };
-		38D84A482B656AA300BE884B /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
-		38D84A4A2B6663FE00BE884B /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
-		38DF1FDB2B5C0FC6001D896B /* ClassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ClassKit.framework; path = System/Library/Frameworks/ClassKit.framework; sourceTree = SDKROOT; };
-		38E5BBB62AE4244600FFFE7C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		38ED98A12C0A75C80029C97B /* SCSThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSThemeManager.swift; sourceTree = "<group>"; };
-		38EFBE1C2AD6965C00CF0ECD /* PackageLicense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageLicense.swift; sourceTree = "<group>"; };
-		38EFBE222AD6E4EF00CF0ECD /* RestartAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartAppView.swift; sourceTree = "<group>"; };
-		38F59B8A2AEC4E0D00475B0B /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
-		38FD90622C148888001D815C /* PencilDetector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PencilDetector.h; sourceTree = "<group>"; };
-		38FD90632C1488AB001D815C /* ScribbleLab-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScribbleLab-Bridging-Header.h"; sourceTree = "<group>"; };
-		38FD90642C1488AB001D815C /* PencilDetector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PencilDetector.m; sourceTree = "<group>"; };
-		38FFF9412AE3C7C9006719E2 /* SignInWithGoogleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithGoogleModel.swift; sourceTree = "<group>"; };
-		38FFF9442AE3CA6F006719E2 /* Application_utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application_utility.swift; sourceTree = "<group>"; };
+		388DC8042CCBE36F00C80FF9 /* ScribbleLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScribbleLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		388DC8152CCBE37200C80FF9 /* ScribbleLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScribbleLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		388DC81F2CCBE37200C80FF9 /* ScribbleLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScribbleLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		388DC8062CCBE36F00C80FF9 /* ScribbleLab */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ScribbleLab;
+			sourceTree = "<group>";
+		};
+		388DC8182CCBE37200C80FF9 /* ScribbleLabTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ScribbleLabTests;
+			sourceTree = "<group>";
+		};
+		388DC8222CCBE37200C80FF9 /* ScribbleLabUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ScribbleLabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
-		387CC3212BEE49A000B5B907 /* Frameworks */ = {
+		388DC8012CCBE36F00C80FF9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38A5E31D2BECF1EC009A8885 /* Frameworks */ = {
+		388DC8122CCBE37200C80FF9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38A5E3332BECF235009A8885 /* Frameworks */ = {
+		388DC81C2CCBE37200C80FF9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38A5E3492BECF27D009A8885 /* ScribbleCoreServices in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		38AE9C952AD0750F00B761E8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38A5E9C22B03F0140037C668 /* iPhoneNumberField in Frameworks */,
-				38FFF9362AE3C18B006719E2 /* FirebaseDatabase in Frameworks */,
-				38FFF93A2AE3C18B006719E2 /* FirebaseInstallations in Frameworks */,
-				38A24C732AED2A7700F81F07 /* FirebaseAnalytics in Frameworks */,
-				38316F652BCBB68B0026B9BB /* ScribbleCoreServicesObjc in Frameworks */,
-				3884728C2B80E23300D61AEE /* ConfettiSwiftUI in Frameworks */,
-				38316F632BCBB68B0026B9BB /* ScribbleCoreServices in Frameworks */,
-				385F78AF2AD5E11C0096E504 /* GoogleSignIn in Frameworks */,
-				383ED5E72B8E3D060055A07B /* Pow in Frameworks */,
-				3861EF5A2B7934D900071F3B /* SlideOverCard in Frameworks */,
-				383588462AFEDC6F00EEA1C3 /* FirebasePerformance in Frameworks */,
-				380D93932AE4280900277D2D /* Kingfisher in Frameworks */,
-				38FFF9342AE3C18B006719E2 /* FirebaseCrashlytics in Frameworks */,
-				38FFF9322AE3C18B006719E2 /* FirebaseAuth in Frameworks */,
-				38E056502B7FAC3D00A688AE /* FirebaseFirestore in Frameworks */,
-				38A24C752AED2A7700F81F07 /* FirebaseAnalyticsSwift in Frameworks */,
-				38FFF93C2AE3C18B006719E2 /* FirebaseStorage in Frameworks */,
-				385F78B12AD5E11C0096E504 /* GoogleSignInSwift in Frameworks */,
-				385B8D2B2B9B7AB100DD4768 /* Setting in Frameworks */,
-				3802CBFC2B342F980051F6D8 /* LocalConsole in Frameworks */,
-				38E056522B7FAC3D00A688AE /* FirebaseFirestoreSwift in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		38AE9CA92AD0751100B761E8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3877EDB32BB071D000A60946 /* (null) in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		38AE9CB32AD0751100B761E8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3877EDB22BB071D000A60946 /* (null) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3804FE802C078F1E0094AE84 /* Editor */ = {
+		388DC7FB2CCBE36F00C80FF9 = {
 			isa = PBXGroup;
 			children = (
-				3804FE812C078F6F0094AE84 /* DocumentEditorView.swift */,
+				388DC8062CCBE36F00C80FF9 /* ScribbleLab */,
+				388DC8182CCBE37200C80FF9 /* ScribbleLabTests */,
+				388DC8222CCBE37200C80FF9 /* ScribbleLabUITests */,
+				388DC8052CCBE36F00C80FF9 /* Products */,
 			);
-			path = Editor;
 			sourceTree = "<group>";
 		};
-		38066B502AFEA20F001A88D5 /* Waiting */ = {
+		388DC8052CCBE36F00C80FF9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3836C2952AF144DC008F475F /* WaitView.swift */,
-				38066B512AFEA235001A88D5 /* WaitSheetView.swift */,
-			);
-			path = Waiting;
-			sourceTree = "<group>";
-		};
-		38140A602AE3F5FF00753FB6 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				38140A612AE3F61000753FB6 /* SLAuthService.swift */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		38140A672AE3F80C00753FB6 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				387CC33E2BEFF30000B5B907 /* DTIntegration */,
-				38140A682AE3F81900753FB6 /* UserService.swift */,
-				387CC3382BEFC43800B5B907 /* SCSLoggingAgent.swift */,
-				387CC33A2BEFC96400B5B907 /* SCSNotificationAgent.swift */,
-				387CC33C2BEFD4B000B5B907 /* SCSCrashExceptionAgent.swift */,
-				38726E2A2C031B61003B1BD2 /* SCSNetworkingAgent.swift */,
-				38ED98A12C0A75C80029C97B /* SCSThemeManager.swift */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		38140A6A2AE3FB6200753FB6 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				38140A6B2AE3FB6F00753FB6 /* ContentViewModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		381C1DE12B5E8BA500F73B5E /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				381C1DE22B5E8BCA00F73B5E /* DocumentSortOptionFavourite.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		381C1DE42B5E8CE700F73B5E /* Picker */ = {
-			isa = PBXGroup;
-			children = (
-				381C1DE52B5E8CF500F73B5E /* SegmentedPicker.swift */,
-			);
-			path = Picker;
-			sourceTree = "<group>";
-		};
-		381C1DF32B5EFD0A00F73B5E /* Search */ = {
-			isa = PBXGroup;
-			children = (
-				381C1DF42B5EFD1900F73B5E /* SearchView.swift */,
-			);
-			path = Search;
-			sourceTree = "<group>";
-		};
-		381C1DF62B5EFF4D00F73B5E /* Trash */ = {
-			isa = PBXGroup;
-			children = (
-				381C1DF72B5EFF7B00F73B5E /* TrashView.swift */,
-			);
-			path = Trash;
-			sourceTree = "<group>";
-		};
-		382520E32AEE676D002ECED2 /* Reset Password */ = {
-			isa = PBXGroup;
-			children = (
-				38F59B8A2AEC4E0D00475B0B /* ResetPasswordView.swift */,
-			);
-			path = "Reset Password";
-			sourceTree = "<group>";
-		};
-		3828B2402B1FA5A900D66BD8 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				3828B2422B1FA5BE00D66BD8 /* NotificationCell.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		3828B2412B1FA5AD00D66BD8 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				3828B2442B1FA7A400D66BD8 /* NotificationCellModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		3828B2472B1FA8C100D66BD8 /* Notifications */ = {
-			isa = PBXGroup;
-			children = (
-				3828B2492B1FA90A00D66BD8 /* Core */,
-				3828B2482B1FA90300D66BD8 /* Service */,
-				3828B2412B1FA5AD00D66BD8 /* Model */,
-				3828B2402B1FA5A900D66BD8 /* View */,
-			);
-			path = Notifications;
-			sourceTree = "<group>";
-		};
-		3828B2482B1FA90300D66BD8 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				385925A82B77943D00CB87C2 /* UI */,
-				385DC5D62B53FB0C00D1FE6E /* NotificationSettingsModel.swift */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		3828B2492B1FA90A00D66BD8 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		38348BEB2B1A613B00846877 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				38348BED2B1A6A1900846877 /* HomeViewModel.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		38348BEC2B1A614500846877 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				386845122B654A6900C375E1 /* LearningCenter */,
-				381C1DF62B5EFF4D00F73B5E /* Trash */,
-				381C1DF32B5EFD0A00F73B5E /* Search */,
-				38B36C632B5D95880009BA56 /* ScribbleCloud */,
-				38B36C602B5D76FD0009BA56 /* SharedWithYou */,
-				38B36C5C2B5D73C80009BA56 /* Favourite */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		38348BF32B1A985000846877 /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-				38348BF12B1A981100846877 /* testAuthentication.swift */,
-				38348BF52B1A9F0200846877 /* testLogIn.swift */,
-				38348BF72B1A9F5A00846877 /* testRegestration.swift */,
-				389FD4302B1B886100C7DCC1 /* testPaswordReset.swift */,
-			);
-			path = Auth;
-			sourceTree = "<group>";
-		};
-		38348BF42B1A985A00846877 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				38AE9CB02AD0751100B761E8 /* ScribbleLabTests.swift */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		38355ED52AD3D50F00392674 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				381C1DE12B5E8BA500F73B5E /* Models */,
-				38C68B962B0D133100D16E86 /* Views */,
-				3852D71D2B054D07007FAFF1 /* Effects */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		38355EDF2AD3DB3200392674 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				38355EF72AD3DB5E00392674 /* XCTest.framework */,
-				38355EE02AD3DB3200392674 /* WidgetKit.framework */,
-				38355EE22AD3DB3200392674 /* SwiftUI.framework */,
-				38DF1FDB2B5C0FC6001D896B /* ClassKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		384079CE2B600E660059523C /* Crash Report */ = {
-			isa = PBXGroup;
-			children = (
-				384079CF2B600E7A0059523C /* CrashReportSheet.swift */,
-			);
-			path = "Crash Report";
-			sourceTree = "<group>";
-		};
-		3852D71D2B054D07007FAFF1 /* Effects */ = {
-			isa = PBXGroup;
-			children = (
-				3852D71E2B054D18007FAFF1 /* ParticleEffect.swift */,
-				3852D7202B054DBF007FAFF1 /* Particle.swift */,
-				38355ED62AD3D52D00392674 /* IGTextFieldModifier.swift */,
-				38355ED82AD3D71900392674 /* IGButtonModifier.swift */,
-			);
-			path = Effects;
-			sourceTree = "<group>";
-		};
-		3858A76B2AD1497300FC6319 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				383D238C2B2363490094001E /* AppDelegate.swift */,
-				380BC6472B2652A900DCF442 /* SceneDelegate.swift */,
-				38AE9C9B2AD0750F00B761E8 /* ScribbleLabApp.swift */,
-				38FD90632C1488AB001D815C /* ScribbleLab-Bridging-Header.h */,
-				385F78A72AD5D2170096E504 /* Launch Screen.storyboard */,
-				386D6FEB2C06016B00AE65F3 /* Appearance */,
-				38140A672AE3F80C00753FB6 /* Service */,
-				38FFF9432AE3CA52006719E2 /* ViewController */,
-			);
-			path = App;
-			sourceTree = "<group>";
-		};
-		3858A76C2AD1497700FC6319 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				3868A3ED2AD3079200D4CAEC /* Auth */,
-				38355ED52AD3D50F00392674 /* Components */,
-				3804FE802C078F1E0094AE84 /* Editor */,
-				38A5E34F2BECFE72009A8885 /* Onboarding */,
-				38C7B6E12BF3DAA600F31E46 /* Services */,
-				3886B2DF2AD1ABA3002EF30E /* SideBar */,
-				38ADE80F2B1D1232002229A2 /* Tips */,
-				38C7B6E02BF3DAA100F31E46 /* UI */,
-				3858A76F2AD14AB400FC6319 /* Root */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		3858A76D2AD1498D00FC6319 /* Configs */ = {
-			isa = PBXGroup;
-			children = (
-				38355EFD2AD3DF9B00392674 /* Alpha.xcconfig */,
-				385F788A2AD5C4410096E504 /* Beta.xcconfig */,
-				38355F032AD3DFED00392674 /* Debug.xcconfig */,
-				385F788B2AD5C4530096E504 /* RC.xcconfig */,
-				385F788C2AD5C4690096E504 /* Release.xcconfig */,
-			);
-			path = Configs;
-			sourceTree = "<group>";
-		};
-		3858A76E2AD14A9C00FC6319 /* Ressources */ = {
-			isa = PBXGroup;
-			children = (
-				38760F262B2CEECE00CC73BD /* PrivacyInfo.xcprivacy */,
-				38AE9CA12AD0751100B761E8 /* Assets.xcassets */,
-				385F788D2AD5C56E0096E504 /* Localizable.xcstrings */,
-			);
-			path = Ressources;
-			sourceTree = "<group>";
-		};
-		3858A76F2AD14AB400FC6319 /* Root */ = {
-			isa = PBXGroup;
-			children = (
-				38140A6A2AE3FB6200753FB6 /* Model */,
-				38AE9C9D2AD0750F00B761E8 /* ContentView.swift */,
-			);
-			path = Root;
-			sourceTree = "<group>";
-		};
-		3858A7712AD14AC200FC6319 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				38348BEC2B1A614500846877 /* View */,
-				38348BEB2B1A613B00846877 /* Models */,
-				3858A7772AD14C9E00FC6319 /* HomeView.swift */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		3858A7752AD14B5C00FC6319 /* Settings */ = {
-			isa = PBXGroup;
-			children = (
-				3886B2DC2AD19F2A002EF30E /* Model */,
-				3886B2DB2AD19F26002EF30E /* View */,
-				385B8D2C2B9B7D5700DD4768 /* SettingsView.swift */,
-			);
-			path = Settings;
-			sourceTree = "<group>";
-		};
-		3858A77C2AD15E7400FC6319 /* Notifications */ = {
-			isa = PBXGroup;
-			children = (
-				3858A77D2AD15E8900FC6319 /* NotificationSheetView.swift */,
-			);
-			path = Notifications;
-			sourceTree = "<group>";
-		};
-		385925A82B77943D00CB87C2 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				385925A92B77B3C400CB87C2 /* AskNotificationView.swift */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		385F468B2AD31C9A00D85410 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				38A5E9C62B03FDD10037C668 /* OTP+2FA Services */,
-				38FFF9412AE3C7C9006719E2 /* SignInWithGoogleModel.swift */,
-				38140A632AE3F6D200753FB6 /* LoginViewModel.swift */,
-				38140A652AE3F79800753FB6 /* RegistrationViewModel.swift */,
-				389FD4322B1BD22800C7DCC1 /* ResetPasswordModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		385F468C2AD31CA000D85410 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				38A5E9B92B03D4A60037C668 /* OTP+2FA */,
-				38066B502AFEA20F001A88D5 /* Waiting */,
-				382520E32AEE676D002ECED2 /* Reset Password */,
-				385F468D2AD31CD100D85410 /* SignUpView.swift */,
-				385F78B22AD5E4FE0096E504 /* LogInView.swift */,
-				380D93962AE42C6600277D2D /* CompleteRegistartionView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		385F78B72AD5ECAD0096E504 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		385F78B82AD5ECB60096E504 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				38EFBE1B2AD6964100CF0ECD /* License */,
-				385F78B92AD5ECC10096E504 /* SLInfoView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		385F78BB2AD5ED620096E504 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		385F78BC2AD5ED660096E504 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				385F78BD2AD5ED720096E504 /* SLHelpView.swift */,
-				38EFBE222AD6E4EF00CF0ECD /* RestartAppView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		386845122B654A6900C375E1 /* LearningCenter */ = {
-			isa = PBXGroup;
-			children = (
-				38D84A472B656A8B00BE884B /* News */,
-				386845132B654A7400C375E1 /* Tutroials */,
-			);
-			path = LearningCenter;
-			sourceTree = "<group>";
-		};
-		386845132B654A7400C375E1 /* Tutroials */ = {
-			isa = PBXGroup;
-			children = (
-				38D84A3E2B65539100BE884B /* Components */,
-				386845142B654A7B00C375E1 /* View */,
-				386845152B654A8000C375E1 /* Models */,
-			);
-			path = Tutroials;
-			sourceTree = "<group>";
-		};
-		386845142B654A7B00C375E1 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				386845162B654AA800C375E1 /* LearningCenterView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		386845152B654A8000C375E1 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				38D84A412B65577400BE884B /* LerningCenterModel.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		3868A3E12AD2FCC300D4CAEC /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-				3868A3E22AD2FE6600D4CAEC /* ProfileView.swift */,
-				38C666282B52D21900CAD099 /* SubscriptionView.swift */,
-				38BAF7C42B5AF6EF00BEE6A5 /* IntegrationsView.swift */,
-			);
-			path = Profile;
-			sourceTree = "<group>";
-		};
-		3868A3ED2AD3079200D4CAEC /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-				38140A602AE3F5FF00753FB6 /* Service */,
-				385F468C2AD31CA000D85410 /* View */,
-				385F468B2AD31C9A00D85410 /* Model */,
-			);
-			path = Auth;
-			sourceTree = "<group>";
-		};
-		386D6FEB2C06016B00AE65F3 /* Appearance */ = {
-			isa = PBXGroup;
-			children = (
-				386D6FEC2C0601F800AE65F3 /* Default_Light.slcolortheme */,
-				386D6FEE2C065E5E00AE65F3 /* Default_Dark.slcolortheme */,
-			);
-			path = Appearance;
-			sourceTree = "<group>";
-		};
-		387432992B5FAD9C00D7A864 /* Developer */ = {
-			isa = PBXGroup;
-			children = (
-				3874329A2B5FADAB00D7A864 /* DeveloperSettingsView.swift */,
-			);
-			path = Developer;
-			sourceTree = "<group>";
-		};
-		387432A12B5FCF5100D7A864 /* Sort */ = {
-			isa = PBXGroup;
-			children = (
-				3874329C2B5FCBB400D7A864 /* HomeSortOption.swift */,
-				387432A22B5FCF7800D7A864 /* SLDisplayStyleButton.swift */,
-			);
-			path = Sort;
-			sourceTree = "<group>";
-		};
-		387B79342ADEDD860067E08B /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				387B793A2ADEE1BF0067E08B /* View */,
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
-		387B793A2ADEE1BF0067E08B /* View */ = {
-			isa = PBXGroup;
-			children = (
-				387B79352ADEDD9B0067E08B /* SLOtherSettings.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		387CC3252BEE49A100B5B907 /* SCSNetworkMonitorAgent */ = {
-			isa = PBXGroup;
-			children = (
-				387CC3262BEE49A100B5B907 /* SCSNetworkMonitorAgent.swift */,
-				387CC3282BEE49A100B5B907 /* SCSNetworkMonitorAgentProtocol.swift */,
-				387CC32A2BEE49A100B5B907 /* main.swift */,
-				387CC32C2BEE49A100B5B907 /* Info.plist */,
-				387CC32D2BEE49A100B5B907 /* SCSNetworkMonitorAgent.entitlements */,
-			);
-			path = SCSNetworkMonitorAgent;
-			sourceTree = "<group>";
-		};
-		387CC33E2BEFF30000B5B907 /* DTIntegration */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DTIntegration;
-			sourceTree = "<group>";
-		};
-		388472812B80C21400D61AEE /* Avartar */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Avartar;
-			sourceTree = "<group>";
-		};
-		3886B2DB2AD19F26002EF30E /* View */ = {
-			isa = PBXGroup;
-			children = (
-				388472812B80C21400D61AEE /* Avartar */,
-				387432992B5FAD9C00D7A864 /* Developer */,
-				38BAF7C32B5AF65700BEE6A5 /* Integrations */,
-				387B79342ADEDD860067E08B /* Other */,
-				3868A3E12AD2FCC300D4CAEC /* Profile */,
-				38D5C6912AD2CA5400D943A5 /* Contributors */,
-				38D5C6902AD2CA4E00D943A5 /* License */,
-				38D5C68F2AD2CA4A00D943A5 /* Help */,
-				38D5C68E2AD2CA4600D943A5 /* Info */,
-				38D5C6892AD288E100D943A5 /* Updates */,
-				38D5C6852AD2888F00D943A5 /* Privacy */,
-				38D5C6842AD2888600D943A5 /* Notifications */,
-				38D5C6812AD2887000D943A5 /* Units */,
-				3886B2DD2AD19F34002EF30E /* SLSettingsView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		3886B2DC2AD19F2A002EF30E /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				38D56F042AF599EA00CE3781 /* Profile */,
-				3889688A2AF143C700F67F08 /* SettingsViewModel.swift */,
-				38066B4E2AFE9F0E001A88D5 /* SLUpdateViewModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		3886B2DF2AD1ABA3002EF30E /* SideBar */ = {
-			isa = PBXGroup;
-			children = (
-				3886B2E02AD1ABC0002EF30E /* SLSideBarView.swift */,
-			);
-			path = SideBar;
-			sourceTree = "<group>";
-		};
-		38A24C6F2AED159A00F81F07 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				38A24C702AED15B600F81F07 /* ImageUploader.swift */,
-				386D6FE72C05CDE500AE65F3 /* SCSNotificationService.swift */,
-				38FD90622C148888001D815C /* PencilDetector.h */,
-				38FD90642C1488AB001D815C /* PencilDetector.m */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		38A5E3212BECF1ED009A8885 /* SCSUpdateService */ = {
-			isa = PBXGroup;
-			children = (
-				38A5E3222BECF1ED009A8885 /* SCSUpdateServiceApp.swift */,
-				38A5E3242BECF1ED009A8885 /* ContentView.swift */,
-				38A5E3262BECF1EE009A8885 /* Assets.xcassets */,
-				38A5E32B2BECF1EE009A8885 /* SCSUpdateService.entitlements */,
-				38A5E3282BECF1EE009A8885 /* Preview Content */,
-			);
-			path = SCSUpdateService;
-			sourceTree = "<group>";
-		};
-		38A5E3282BECF1EE009A8885 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				38A5E3292BECF1EE009A8885 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		38A5E3372BECF235009A8885 /* ScribbleLab macOS */ = {
-			isa = PBXGroup;
-			children = (
-				38A5E34E2BECF71E009A8885 /* App */,
-				38A5E34A2BECF6DE009A8885 /* Core */,
-				38A5E33C2BECF237009A8885 /* Assets.xcassets */,
-				38A5E3412BECF237009A8885 /* ScribbleLab_macOS.entitlements */,
-				38A5E33E2BECF237009A8885 /* Preview Content */,
-			);
-			path = "ScribbleLab macOS";
-			sourceTree = "<group>";
-		};
-		38A5E33E2BECF237009A8885 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				38A5E33F2BECF237009A8885 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		38A5E34A2BECF6DE009A8885 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				38A5E34B2BECF6E8009A8885 /* Auth */,
-				38A5E34C2BECF6EF009A8885 /* Onboarding */,
-				38A5E34D2BECF6FC009A8885 /* Root */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		38A5E34B2BECF6E8009A8885 /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Auth;
-			sourceTree = "<group>";
-		};
-		38A5E34C2BECF6EF009A8885 /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Onboarding;
-			sourceTree = "<group>";
-		};
-		38A5E34D2BECF6FC009A8885 /* Root */ = {
-			isa = PBXGroup;
-			children = (
-				38A5E33A2BECF235009A8885 /* ContentView.swift */,
-			);
-			path = Root;
-			sourceTree = "<group>";
-		};
-		38A5E34E2BECF71E009A8885 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				38A5E3382BECF235009A8885 /* ScribbleLab_macOSApp.swift */,
-			);
-			path = App;
-			sourceTree = "<group>";
-		};
-		38A5E34F2BECFE72009A8885 /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				387CC3162BED1CEE00B5B907 /* onboardingData.json */,
-				38A5E3502BECFE9B009A8885 /* OnboardingView.swift */,
-				387CC30F2BED151400B5B907 /* OnboardingFeatureCell.swift */,
-				387CC3142BED196100B5B907 /* OnboardingData.swift */,
-				387CC3172BED1EE100B5B907 /* FeatureCell.swift */,
-				387CC31C2BEDF96200B5B907 /* NotificationOnboardingCellView.swift */,
-				387CC31E2BEE023200B5B907 /* NotificationOnboardingView.swift */,
-			);
-			path = Onboarding;
-			sourceTree = "<group>";
-		};
-		38A5E9B92B03D4A60037C668 /* OTP+2FA */ = {
-			isa = PBXGroup;
-			children = (
-				38A5E9C32B03F0430037C668 /* OTP+2FA Config */,
-				38A5E9BA2B03D4E80037C668 /* SLOTP+2FAView.swift */,
-				38A5E9BC2B03D7730037C668 /* OTPTextFieldView.swift */,
-			);
-			path = "OTP+2FA";
-			sourceTree = "<group>";
-		};
-		38A5E9C32B03F0430037C668 /* OTP+2FA Config */ = {
-			isa = PBXGroup;
-			children = (
-				38A5E9C42B03F09C0037C668 /* SLOTP+2FA_ConfigView.swift */,
-			);
-			path = "OTP+2FA Config";
-			sourceTree = "<group>";
-		};
-		38A5E9C62B03FDD10037C668 /* OTP+2FA Services */ = {
-			isa = PBXGroup;
-			children = (
-				3852D71B2B054C11007FAFF1 /* OTP+2FAViewModel.swift */,
-			);
-			path = "OTP+2FA Services";
-			sourceTree = "<group>";
-		};
-		38ADE80F2B1D1232002229A2 /* Tips */ = {
-			isa = PBXGroup;
-			children = (
-				38ADE8102B1D1253002229A2 /* SLTip.swift */,
-			);
-			path = Tips;
-			sourceTree = "<group>";
-		};
-		38AE9C8F2AD0750F00B761E8 = {
-			isa = PBXGroup;
-			children = (
-				385F78AB2AD5DDED0096E504 /* Settings.bundle */,
-				3858A76D2AD1498D00FC6319 /* Configs */,
-				38AE9C9A2AD0750F00B761E8 /* ScribbleLab */,
-				38AE9CAF2AD0751100B761E8 /* ScribbleLabTests */,
-				38AE9CB92AD0751100B761E8 /* ScribbleLabUITests */,
-				38A5E3212BECF1ED009A8885 /* SCSUpdateService */,
-				38A5E3372BECF235009A8885 /* ScribbleLab macOS */,
-				387CC3252BEE49A100B5B907 /* SCSNetworkMonitorAgent */,
-				38355EDF2AD3DB3200392674 /* Frameworks */,
-				38AE9C992AD0750F00B761E8 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		38AE9C992AD0750F00B761E8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				38AE9C982AD0750F00B761E8 /* ScribbleLab.app */,
-				38AE9CAC2AD0751100B761E8 /* ScribbleLabTests.xctest */,
-				38AE9CB62AD0751100B761E8 /* ScribbleLabUITests.xctest */,
-				38A5E3202BECF1EC009A8885 /* SCSUpdateService.app */,
-				38A5E3362BECF235009A8885 /* ScribbleLab macOS.app */,
-				387CC3242BEE49A000B5B907 /* SCSNetworkMonitorAgent.xpc */,
+				388DC8042CCBE36F00C80FF9 /* ScribbleLab.app */,
+				388DC8152CCBE37200C80FF9 /* ScribbleLabTests.xctest */,
+				388DC81F2CCBE37200C80FF9 /* ScribbleLabUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		38AE9C9A2AD0750F00B761E8 /* ScribbleLab */ = {
-			isa = PBXGroup;
-			children = (
-				3828B2472B1FA8C100D66BD8 /* Notifications */,
-				38A24C6F2AED159A00F81F07 /* Services */,
-				3858A76B2AD1497300FC6319 /* App */,
-				3858A76C2AD1497700FC6319 /* Core */,
-				38E5BBB52AE4243D00FFFE7C /* Extension */,
-				3858A76E2AD14A9C00FC6319 /* Ressources */,
-				38AE9CA32AD0751100B761E8 /* Preview Content */,
-				38AE9CA62AD0751100B761E8 /* ScribbleLab.entitlements */,
-				38AE9CA72AD0751100B761E8 /* Info.plist */,
-				38D83CF72BE4D345006260DE /* GoogleService-Info.plist */,
-			);
-			path = ScribbleLab;
-			sourceTree = "<group>";
-		};
-		38AE9CA32AD0751100B761E8 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				38AE9CA42AD0751100B761E8 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		38AE9CAF2AD0751100B761E8 /* ScribbleLabTests */ = {
-			isa = PBXGroup;
-			children = (
-				38348BF42B1A985A00846877 /* Main */,
-				38348BF32B1A985000846877 /* Auth */,
-			);
-			path = ScribbleLabTests;
-			sourceTree = "<group>";
-		};
-		38AE9CB92AD0751100B761E8 /* ScribbleLabUITests */ = {
-			isa = PBXGroup;
-			children = (
-				38AE9CBA2AD0751100B761E8 /* ScribbleLabUITests.swift */,
-				38AE9CBC2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift */,
-			);
-			path = ScribbleLabUITests;
-			sourceTree = "<group>";
-		};
-		38B36C5C2B5D73C80009BA56 /* Favourite */ = {
-			isa = PBXGroup;
-			children = (
-				38B36C5D2B5D73D80009BA56 /* FavouriteView.swift */,
-			);
-			path = Favourite;
-			sourceTree = "<group>";
-		};
-		38B36C602B5D76FD0009BA56 /* SharedWithYou */ = {
-			isa = PBXGroup;
-			children = (
-				38B36C612B5D770D0009BA56 /* SharedWithYouView.swift */,
-			);
-			path = SharedWithYou;
-			sourceTree = "<group>";
-		};
-		38B36C632B5D95880009BA56 /* ScribbleCloud */ = {
-			isa = PBXGroup;
-			children = (
-				38B36C642B5D95FD0009BA56 /* ScribbleCloudOverviewView.swift */,
-			);
-			path = ScribbleCloud;
-			sourceTree = "<group>";
-		};
-		38BAF7C32B5AF65700BEE6A5 /* Integrations */ = {
-			isa = PBXGroup;
-			children = (
-				38BAF7C62B5AFC1B00BEE6A5 /* SLGoogleClassroomIntegrationView.swift */,
-				385EEEEF2B5C0D87004A0E1F /* SLAppleSchoolworkIntegrationView.swift */,
-				38B36C582B5D33E60009BA56 /* SLScribbleLinkIntegrationView.swift */,
-			);
-			path = Integrations;
-			sourceTree = "<group>";
-		};
-		38C68B962B0D133100D16E86 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				384079CE2B600E660059523C /* Crash Report */,
-				387432A12B5FCF5100D7A864 /* Sort */,
-				381C1DE42B5E8CE700F73B5E /* Picker */,
-				38C68B972B0D134300D16E86 /* SLButton.swift */,
-				38C68B992B0D1CA100D16E86 /* SLButton+Image.swift */,
-				38B36C5A2B5D47510009BA56 /* StoreView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		38C7B6E02BF3DAA100F31E46 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				3858A7752AD14B5C00FC6319 /* Settings */,
-				3858A77C2AD15E7400FC6319 /* Notifications */,
-				3858A7712AD14AC200FC6319 /* Home */,
-				38C7B6E22BF3DB4B00F31E46 /* ToDo (Home) */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		38C7B6E12BF3DAA600F31E46 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		38C7B6E22BF3DB4B00F31E46 /* ToDo (Home) */ = {
-			isa = PBXGroup;
-			children = (
-				38154F282BF923DD001DF5B4 /* ToDoView.swift */,
-			);
-			path = "ToDo (Home)";
-			sourceTree = "<group>";
-		};
-		38D56F042AF599EA00CE3781 /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-				3836C2992AF1BB86008F475F /* EditProfileViewModel.swift */,
-				38D56F052AF59A0000CE3781 /* ImagePicker.swift */,
-			);
-			path = Profile;
-			sourceTree = "<group>";
-		};
-		38D5C6812AD2887000D943A5 /* Units */ = {
-			isa = PBXGroup;
-			children = (
-				38C666332B53241200CAD099 /* SLUnitsView.swift */,
-			);
-			path = Units;
-			sourceTree = "<group>";
-		};
-		38D5C6842AD2888600D943A5 /* Notifications */ = {
-			isa = PBXGroup;
-			children = (
-				38ADE8162B1D1F44002229A2 /* NotificationSettings.swift */,
-				385DC5D42B53EE4A00D1FE6E /* NewsletterSettingsView.swift */,
-			);
-			path = Notifications;
-			sourceTree = "<group>";
-		};
-		38D5C6852AD2888F00D943A5 /* Privacy */ = {
-			isa = PBXGroup;
-			children = (
-				381C1DF12B5EF4B200F73B5E /* SLPrivacySettingsView.swift */,
-			);
-			path = Privacy;
-			sourceTree = "<group>";
-		};
-		38D5C6892AD288E100D943A5 /* Updates */ = {
-			isa = PBXGroup;
-			children = (
-				38D5C68C2AD28D6F00D943A5 /* SLUpdateView.swift */,
-			);
-			path = Updates;
-			sourceTree = "<group>";
-		};
-		38D5C68E2AD2CA4600D943A5 /* Info */ = {
-			isa = PBXGroup;
-			children = (
-				385F78B82AD5ECB60096E504 /* View */,
-				385F78B72AD5ECAD0096E504 /* Model */,
-			);
-			path = Info;
-			sourceTree = "<group>";
-		};
-		38D5C68F2AD2CA4A00D943A5 /* Help */ = {
-			isa = PBXGroup;
-			children = (
-				385F78BC2AD5ED660096E504 /* View */,
-				385F78BB2AD5ED620096E504 /* Model */,
-			);
-			path = Help;
-			sourceTree = "<group>";
-		};
-		38D5C6902AD2CA4E00D943A5 /* License */ = {
-			isa = PBXGroup;
-			children = (
-				3868A3DF2AD2E2F800D4CAEC /* SLLicenseView.swift */,
-			);
-			path = License;
-			sourceTree = "<group>";
-		};
-		38D5C6912AD2CA5400D943A5 /* Contributors */ = {
-			isa = PBXGroup;
-			children = (
-				38D5C6932AD2CA7A00D943A5 /* View */,
-				38D5C6922AD2CA7100D943A5 /* Model */,
-			);
-			path = Contributors;
-			sourceTree = "<group>";
-		};
-		38D5C6922AD2CA7100D943A5 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				38D5C6942AD2CAA100D943A5 /* SLContributorModel.swift */,
-				3868A3DB2AD2DB0000D4CAEC /* ImageViewModel.swift */,
-				384079EE2B61A4A90059523C /* ContributionLabelModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		38D5C6932AD2CA7A00D943A5 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				38D5C6962AD2CC6200D943A5 /* SLContributorView.swift */,
-				3868A3DD2AD2DBA300D4CAEC /* ImageView.swift */,
-				384079EB2B6177DB0059523C /* ContributionLabel.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		38D84A3E2B65539100BE884B /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				38D84A3F2B6553BD00BE884B /* LearningCell.swift */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		38D84A472B656A8B00BE884B /* News */ = {
-			isa = PBXGroup;
-			children = (
-				38D84A482B656AA300BE884B /* NewsView.swift */,
-				38D84A4A2B6663FE00BE884B /* NewsCell.swift */,
-				386BF6AC2B666D8E00EF97E8 /* NewsDetail.swift */,
-			);
-			path = News;
-			sourceTree = "<group>";
-		};
-		38E5BBB52AE4243D00FFFE7C /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				38721C092BC9BC0A002F2AA9 /* NSApplication+DockProgress.swift */,
-				38E5BBB62AE4244600FFFE7C /* User.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		38EFBE1B2AD6964100CF0ECD /* License */ = {
-			isa = PBXGroup;
-			children = (
-				38EFBE1E2AD6A2F700CF0ECD /* AppAuth */,
-				38EFBE1C2AD6965C00CF0ECD /* PackageLicense.swift */,
-			);
-			path = License;
-			sourceTree = "<group>";
-		};
-		38EFBE1E2AD6A2F700CF0ECD /* AppAuth */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AppAuth;
-			sourceTree = "<group>";
-		};
-		38FFF9432AE3CA52006719E2 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				38FFF9442AE3CA6F006719E2 /* Application_utility.swift */,
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		387CC3232BEE49A000B5B907 /* SCSNetworkMonitorAgent */ = {
+		388DC8032CCBE36F00C80FF9 /* ScribbleLab */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 387CC3312BEE49A100B5B907 /* Build configuration list for PBXNativeTarget "SCSNetworkMonitorAgent" */;
+			buildConfigurationList = 388DC8292CCBE37200C80FF9 /* Build configuration list for PBXNativeTarget "ScribbleLab" */;
 			buildPhases = (
-				387CC3202BEE49A000B5B907 /* Sources */,
-				387CC3212BEE49A000B5B907 /* Frameworks */,
-				387CC3222BEE49A000B5B907 /* Resources */,
+				388DC8002CCBE36F00C80FF9 /* Sources */,
+				388DC8012CCBE36F00C80FF9 /* Frameworks */,
+				388DC8022CCBE36F00C80FF9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SCSNetworkMonitorAgent;
-			productName = SCSNetworkMonitorAgent;
-			productReference = 387CC3242BEE49A000B5B907 /* SCSNetworkMonitorAgent.xpc */;
-			productType = "com.apple.product-type.xpc-service";
-		};
-		38A5E31F2BECF1EC009A8885 /* SCSUpdateService */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 38A5E32C2BECF1EE009A8885 /* Build configuration list for PBXNativeTarget "SCSUpdateService" */;
-			buildPhases = (
-				38A5E31C2BECF1EC009A8885 /* Sources */,
-				38A5E31D2BECF1EC009A8885 /* Frameworks */,
-				38A5E31E2BECF1EC009A8885 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SCSUpdateService;
-			productName = SCSUpdateService;
-			productReference = 38A5E3202BECF1EC009A8885 /* SCSUpdateService.app */;
-			productType = "com.apple.product-type.application";
-		};
-		38A5E3352BECF235009A8885 /* ScribbleLab macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 38A5E3422BECF237009A8885 /* Build configuration list for PBXNativeTarget "ScribbleLab macOS" */;
-			buildPhases = (
-				38A5E3322BECF235009A8885 /* Sources */,
-				38A5E3332BECF235009A8885 /* Frameworks */,
-				38A5E3342BECF235009A8885 /* Resources */,
-				387CC3372BEE49A100B5B907 /* Embed XPC Services */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				387CC32F2BEE49A100B5B907 /* PBXTargetDependency */,
-			);
-			name = "ScribbleLab macOS";
-			packageProductDependencies = (
-				38A5E3482BECF27D009A8885 /* ScribbleCoreServices */,
-			);
-			productName = "ScribbleLab macOS";
-			productReference = 38A5E3362BECF235009A8885 /* ScribbleLab macOS.app */;
-			productType = "com.apple.product-type.application";
-		};
-		38AE9C972AD0750F00B761E8 /* ScribbleLab */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 38AE9CC02AD0751100B761E8 /* Build configuration list for PBXNativeTarget "ScribbleLab" */;
-			buildPhases = (
-				38454F882B2F25E700EED81F /* Swiftlint */,
-				38AE9C942AD0750F00B761E8 /* Sources */,
-				38AE9C952AD0750F00B761E8 /* Frameworks */,
-				38AE9C962AD0750F00B761E8 /* Resources */,
-				38355EF62AD3DB3400392674 /* Embed Foundation Extensions */,
-				3836C2B82AF29CC1008F475F /* Embed App Clips */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+			fileSystemSynchronizedGroups = (
+				388DC8062CCBE36F00C80FF9 /* ScribbleLab */,
 			);
 			name = ScribbleLab;
 			packageProductDependencies = (
-				385F78AE2AD5E11C0096E504 /* GoogleSignIn */,
-				385F78B02AD5E11C0096E504 /* GoogleSignInSwift */,
-				38FFF9312AE3C18B006719E2 /* FirebaseAuth */,
-				38FFF9332AE3C18B006719E2 /* FirebaseCrashlytics */,
-				38FFF9352AE3C18B006719E2 /* FirebaseDatabase */,
-				38FFF9392AE3C18B006719E2 /* FirebaseInstallations */,
-				38FFF93B2AE3C18B006719E2 /* FirebaseStorage */,
-				380D93922AE4280900277D2D /* Kingfisher */,
-				38A24C722AED2A7700F81F07 /* FirebaseAnalytics */,
-				38A24C742AED2A7700F81F07 /* FirebaseAnalyticsSwift */,
-				383588452AFEDC6F00EEA1C3 /* FirebasePerformance */,
-				38A5E9C12B03F0140037C668 /* iPhoneNumberField */,
-				3802CBFB2B342F980051F6D8 /* LocalConsole */,
-				3861EF592B7934D900071F3B /* SlideOverCard */,
-				38E0564F2B7FAC3D00A688AE /* FirebaseFirestore */,
-				38E056512B7FAC3D00A688AE /* FirebaseFirestoreSwift */,
-				3884728B2B80E23300D61AEE /* ConfettiSwiftUI */,
-				383ED5E62B8E3D060055A07B /* Pow */,
-				385B8D2A2B9B7AB100DD4768 /* Setting */,
-				38316F622BCBB68B0026B9BB /* ScribbleCoreServices */,
-				38316F642BCBB68B0026B9BB /* ScribbleCoreServicesObjc */,
 			);
 			productName = ScribbleLab;
-			productReference = 38AE9C982AD0750F00B761E8 /* ScribbleLab.app */;
+			productReference = 388DC8042CCBE36F00C80FF9 /* ScribbleLab.app */;
 			productType = "com.apple.product-type.application";
 		};
-		38AE9CAB2AD0751100B761E8 /* ScribbleLabTests */ = {
+		388DC8142CCBE37200C80FF9 /* ScribbleLabTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 38AE9CC32AD0751100B761E8 /* Build configuration list for PBXNativeTarget "ScribbleLabTests" */;
+			buildConfigurationList = 388DC82C2CCBE37200C80FF9 /* Build configuration list for PBXNativeTarget "ScribbleLabTests" */;
 			buildPhases = (
-				38AE9CA82AD0751100B761E8 /* Sources */,
-				38AE9CA92AD0751100B761E8 /* Frameworks */,
-				38AE9CAA2AD0751100B761E8 /* Resources */,
+				388DC8112CCBE37200C80FF9 /* Sources */,
+				388DC8122CCBE37200C80FF9 /* Frameworks */,
+				388DC8132CCBE37200C80FF9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				38AE9CAE2AD0751100B761E8 /* PBXTargetDependency */,
+				388DC8172CCBE37200C80FF9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				388DC8182CCBE37200C80FF9 /* ScribbleLabTests */,
 			);
 			name = ScribbleLabTests;
+			packageProductDependencies = (
+			);
 			productName = ScribbleLabTests;
-			productReference = 38AE9CAC2AD0751100B761E8 /* ScribbleLabTests.xctest */;
+			productReference = 388DC8152CCBE37200C80FF9 /* ScribbleLabTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		38AE9CB52AD0751100B761E8 /* ScribbleLabUITests */ = {
+		388DC81E2CCBE37200C80FF9 /* ScribbleLabUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 38AE9CC62AD0751100B761E8 /* Build configuration list for PBXNativeTarget "ScribbleLabUITests" */;
+			buildConfigurationList = 388DC82F2CCBE37200C80FF9 /* Build configuration list for PBXNativeTarget "ScribbleLabUITests" */;
 			buildPhases = (
-				38AE9CB22AD0751100B761E8 /* Sources */,
-				38AE9CB32AD0751100B761E8 /* Frameworks */,
-				38AE9CB42AD0751100B761E8 /* Resources */,
+				388DC81B2CCBE37200C80FF9 /* Sources */,
+				388DC81C2CCBE37200C80FF9 /* Frameworks */,
+				388DC81D2CCBE37200C80FF9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				38AE9CB82AD0751100B761E8 /* PBXTargetDependency */,
+				388DC8212CCBE37200C80FF9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				388DC8222CCBE37200C80FF9 /* ScribbleLabUITests */,
 			);
 			name = ScribbleLabUITests;
+			packageProductDependencies = (
+			);
 			productName = ScribbleLabUITests;
-			productReference = 38AE9CB62AD0751100B761E8 /* ScribbleLabUITests.xctest */;
+			productReference = 388DC81F2CCBE37200C80FF9 /* ScribbleLabUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		38AE9C902AD0750F00B761E8 /* Project object */ = {
+		388DC7FC2CCBE36F00C80FF9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					387CC3232BEE49A000B5B907 = {
-						CreatedOnToolsVersion = 15.3;
+					388DC8032CCBE36F00C80FF9 = {
+						CreatedOnToolsVersion = 16.0;
 					};
-					38A5E31F2BECF1EC009A8885 = {
-						CreatedOnToolsVersion = 15.4;
+					388DC8142CCBE37200C80FF9 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 388DC8032CCBE36F00C80FF9;
 					};
-					38A5E3352BECF235009A8885 = {
-						CreatedOnToolsVersion = 15.4;
-					};
-					38AE9C972AD0750F00B761E8 = {
-						CreatedOnToolsVersion = 15.0;
-						LastSwiftMigration = 1540;
-					};
-					38AE9CAB2AD0751100B761E8 = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 38AE9C972AD0750F00B761E8;
-					};
-					38AE9CB52AD0751100B761E8 = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 38AE9C972AD0750F00B761E8;
+					388DC81E2CCBE37200C80FF9 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 388DC8032CCBE36F00C80FF9;
 					};
 				};
 			};
-			buildConfigurationList = 38AE9C932AD0750F00B761E8 /* Build configuration list for PBXProject "ScribbleLab" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = 388DC7FF2CCBE36F00C80FF9 /* Build configuration list for PBXProject "ScribbleLab" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
-				de,
-				it,
-				nl,
-				fr,
-				el,
-				pl,
-				ja,
-				ko,
 			);
-			mainGroup = 38AE9C8F2AD0750F00B761E8;
-			packageReferences = (
-				385F78AD2AD5E11C0096E504 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
-				38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				380D93912AE4280900277D2D /* XCRemoteSwiftPackageReference "Kingfisher" */,
-				38A5E9C02B03F0140037C668 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
-				3802CBFA2B342F980051F6D8 /* XCRemoteSwiftPackageReference "LocalConsole" */,
-				3861EF582B7934D900071F3B /* XCRemoteSwiftPackageReference "SlideOverCard" */,
-				3884728A2B80E23300D61AEE /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
-				383ED5E52B8E3D060055A07B /* XCRemoteSwiftPackageReference "Pow" */,
-				385B8D292B9B7AB100DD4768 /* XCRemoteSwiftPackageReference "Setting" */,
-				38316F612BCBB68B0026B9BB /* XCRemoteSwiftPackageReference "ScribbleCoreServices" */,
-			);
-			productRefGroup = 38AE9C992AD0750F00B761E8 /* Products */;
+			mainGroup = 388DC7FB2CCBE36F00C80FF9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 388DC8052CCBE36F00C80FF9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				38AE9C972AD0750F00B761E8 /* ScribbleLab */,
-				38A5E3352BECF235009A8885 /* ScribbleLab macOS */,
-				38A5E31F2BECF1EC009A8885 /* SCSUpdateService */,
-				38AE9CB52AD0751100B761E8 /* ScribbleLabUITests */,
-				38AE9CAB2AD0751100B761E8 /* ScribbleLabTests */,
-				387CC3232BEE49A000B5B907 /* SCSNetworkMonitorAgent */,
+				388DC8032CCBE36F00C80FF9 /* ScribbleLab */,
+				388DC8142CCBE37200C80FF9 /* ScribbleLabTests */,
+				388DC81E2CCBE37200C80FF9 /* ScribbleLabUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		387CC3222BEE49A000B5B907 /* Resources */ = {
+		388DC8022CCBE36F00C80FF9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38A5E31E2BECF1EC009A8885 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38A5E32A2BECF1EE009A8885 /* Preview Assets.xcassets in Resources */,
-				38A5E3272BECF1EE009A8885 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		38A5E3342BECF235009A8885 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38A5E3402BECF237009A8885 /* Preview Assets.xcassets in Resources */,
-				38A5E33D2BECF237009A8885 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		38AE9C962AD0750F00B761E8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				386D6FEF2C065E5E00AE65F3 /* Default_Dark.slcolortheme in Resources */,
-				38AE9CA52AD0751100B761E8 /* Preview Assets.xcassets in Resources */,
-				387CC31B2BED2FD100B5B907 /* onboardingData.json in Resources */,
-				38AE9CA22AD0751100B761E8 /* Assets.xcassets in Resources */,
-				38AB46312B16524000DC9D1C /* Release.xcconfig in Resources */,
-				385F78AC2AD5DDEE0096E504 /* Settings.bundle in Resources */,
-				386D6FED2C0601F800AE65F3 /* Default_Light.slcolortheme in Resources */,
-				38D83CF82BE4D345006260DE /* GoogleService-Info.plist in Resources */,
-				385F78A82AD5D2170096E504 /* Launch Screen.storyboard in Resources */,
-				38AB462F2B16524000DC9D1C /* Beta.xcconfig in Resources */,
-				385F788E2AD5C56E0096E504 /* Localizable.xcstrings in Resources */,
-				38AB46332B16524000DC9D1C /* Debug.xcconfig in Resources */,
-				38AB46302B16524000DC9D1C /* RC.xcconfig in Resources */,
-				38AB46322B16524000DC9D1C /* Alpha.xcconfig in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		38AE9CAA2AD0751100B761E8 /* Resources */ = {
+		388DC8132CCBE37200C80FF9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38AE9CB42AD0751100B761E8 /* Resources */ = {
+		388DC81D2CCBE37200C80FF9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1688,211 +231,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		38454F882B2F25E700EED81F /* Swiftlint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = Swiftlint;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/swiftlint_Output",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		387CC3202BEE49A000B5B907 /* Sources */ = {
+		388DC8002CCBE36F00C80FF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				387CC3272BEE49A100B5B907 /* SCSNetworkMonitorAgent.swift in Sources */,
-				387CC3292BEE49A100B5B907 /* SCSNetworkMonitorAgentProtocol.swift in Sources */,
-				387CC32B2BEE49A100B5B907 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38A5E31C2BECF1EC009A8885 /* Sources */ = {
+		388DC8112CCBE37200C80FF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38A5E3252BECF1ED009A8885 /* ContentView.swift in Sources */,
-				38A5E3232BECF1ED009A8885 /* SCSUpdateServiceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38A5E3322BECF235009A8885 /* Sources */ = {
+		388DC81B2CCBE37200C80FF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38A5E33B2BECF235009A8885 /* ContentView.swift in Sources */,
-				38A5E3392BECF235009A8885 /* ScribbleLab_macOSApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		38AE9C942AD0750F00B761E8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3852D7212B054DBF007FAFF1 /* Particle.swift in Sources */,
-				387CC3392BEFC43800B5B907 /* SCSLoggingAgent.swift in Sources */,
-				387CC33D2BEFD4B000B5B907 /* SCSCrashExceptionAgent.swift in Sources */,
-				38B36C5E2B5D73D80009BA56 /* FavouriteView.swift in Sources */,
-				385DC5D72B53FB0C00D1FE6E /* NotificationSettingsModel.swift in Sources */,
-				38BAF7C52B5AF6EF00BEE6A5 /* IntegrationsView.swift in Sources */,
-				384079EC2B6177DB0059523C /* ContributionLabel.swift in Sources */,
-				387CC3182BED1EE100B5B907 /* FeatureCell.swift in Sources */,
-				387CC3152BED196100B5B907 /* OnboardingData.swift in Sources */,
-				3889688B2AF143C700F67F08 /* SettingsViewModel.swift in Sources */,
-				3858A77E2AD15E8900FC6319 /* NotificationSheetView.swift in Sources */,
-				387B79362ADEDD9B0067E08B /* SLOtherSettings.swift in Sources */,
-				38F59B8B2AEC4E0D00475B0B /* ResetPasswordView.swift in Sources */,
-				38B36C652B5D95FD0009BA56 /* ScribbleCloudOverviewView.swift in Sources */,
-				381C1DF82B5EFF7B00F73B5E /* TrashView.swift in Sources */,
-				385F78B32AD5E4FE0096E504 /* LogInView.swift in Sources */,
-				38EFBE232AD6E4EF00CF0ECD /* RestartAppView.swift in Sources */,
-				389FD4332B1BD22800C7DCC1 /* ResetPasswordModel.swift in Sources */,
-				3886B2DE2AD19F34002EF30E /* SLSettingsView.swift in Sources */,
-				385F78BE2AD5ED720096E504 /* SLHelpView.swift in Sources */,
-				386845172B654AA800C375E1 /* LearningCenterView.swift in Sources */,
-				381C1DF22B5EF4B200F73B5E /* SLPrivacySettingsView.swift in Sources */,
-				38140A642AE3F6D200753FB6 /* LoginViewModel.swift in Sources */,
-				38C68B982B0D134300D16E86 /* SLButton.swift in Sources */,
-				3828B2432B1FA5BE00D66BD8 /* NotificationCell.swift in Sources */,
-				383D238D2B2363490094001E /* AppDelegate.swift in Sources */,
-				38348BEE2B1A6A1A00846877 /* HomeViewModel.swift in Sources */,
-				38D84A492B656AA300BE884B /* NewsView.swift in Sources */,
-				3804FE822C078F6F0094AE84 /* DocumentEditorView.swift in Sources */,
-				38140A622AE3F61000753FB6 /* SLAuthService.swift in Sources */,
-				3874329D2B5FCBB400D7A864 /* HomeSortOption.swift in Sources */,
-				38066B4F2AFE9F0E001A88D5 /* SLUpdateViewModel.swift in Sources */,
-				38FD90652C1488AB001D815C /* PencilDetector.m in Sources */,
-				38A24C712AED15B600F81F07 /* ImageUploader.swift in Sources */,
-				38C666342B53241200CAD099 /* SLUnitsView.swift in Sources */,
-				38FFF9452AE3CA6F006719E2 /* Application_utility.swift in Sources */,
-				3852D71C2B054C11007FAFF1 /* OTP+2FAViewModel.swift in Sources */,
-				38BAF7C72B5AFC1B00BEE6A5 /* SLGoogleClassroomIntegrationView.swift in Sources */,
-				38D56F062AF59A0000CE3781 /* ImagePicker.swift in Sources */,
-				385DC5D52B53EE4A00D1FE6E /* NewsletterSettingsView.swift in Sources */,
-				384079EF2B61A4A90059523C /* ContributionLabelModel.swift in Sources */,
-				38A5E9BD2B03D7730037C668 /* OTPTextFieldView.swift in Sources */,
-				3868A3E02AD2E2F800D4CAEC /* SLLicenseView.swift in Sources */,
-				38D5C6972AD2CC6200D943A5 /* SLContributorView.swift in Sources */,
-				387CC3102BED151400B5B907 /* OnboardingFeatureCell.swift in Sources */,
-				387CC31F2BEE023200B5B907 /* NotificationOnboardingView.swift in Sources */,
-				387CC31D2BEDF96200B5B907 /* NotificationOnboardingCellView.swift in Sources */,
-				38ED98A22C0A75C80029C97B /* SCSThemeManager.swift in Sources */,
-				38154F292BF923DD001DF5B4 /* ToDoView.swift in Sources */,
-				38ADE8112B1D1253002229A2 /* SLTip.swift in Sources */,
-				38140A6C2AE3FB6F00753FB6 /* ContentViewModel.swift in Sources */,
-				3858A7782AD14C9E00FC6319 /* HomeView.swift in Sources */,
-				38AE9C9E2AD0750F00B761E8 /* ContentView.swift in Sources */,
-				38A5E9C52B03F09C0037C668 /* SLOTP+2FA_ConfigView.swift in Sources */,
-				3836C29A2AF1BB86008F475F /* EditProfileViewModel.swift in Sources */,
-				3868A3E32AD2FE6600D4CAEC /* ProfileView.swift in Sources */,
-				387432A32B5FCF7800D7A864 /* SLDisplayStyleButton.swift in Sources */,
-				38355ED92AD3D71900392674 /* IGButtonModifier.swift in Sources */,
-				385F468E2AD31CD100D85410 /* SignUpView.swift in Sources */,
-				38D84A422B65577400BE884B /* LerningCenterModel.swift in Sources */,
-				38726E2B2C031B61003B1BD2 /* SCSNetworkingAgent.swift in Sources */,
-				38C68B9A2B0D1CA100D16E86 /* SLButton+Image.swift in Sources */,
-				385925AA2B77B3C400CB87C2 /* AskNotificationView.swift in Sources */,
-				380BC6482B2652A900DCF442 /* SceneDelegate.swift in Sources */,
-				38D84A402B6553BD00BE884B /* LearningCell.swift in Sources */,
-				385EEEF02B5C0D87004A0E1F /* SLAppleSchoolworkIntegrationView.swift in Sources */,
-				385F78BA2AD5ECC10096E504 /* SLInfoView.swift in Sources */,
-				38EFBE1D2AD6965C00CF0ECD /* PackageLicense.swift in Sources */,
-				38C666292B52D21900CAD099 /* SubscriptionView.swift in Sources */,
-				38B36C622B5D770D0009BA56 /* SharedWithYouView.swift in Sources */,
-				381C1DE62B5E8CF500F73B5E /* SegmentedPicker.swift in Sources */,
-				386BF6AD2B666D8E00EF97E8 /* NewsDetail.swift in Sources */,
-				381C1DF52B5EFD1900F73B5E /* SearchView.swift in Sources */,
-				38D5C6952AD2CAA100D943A5 /* SLContributorModel.swift in Sources */,
-				38140A662AE3F79800753FB6 /* RegistrationViewModel.swift in Sources */,
-				3886B2E12AD1ABC0002EF30E /* SLSideBarView.swift in Sources */,
-				3828B2452B1FA7A400D66BD8 /* NotificationCellModel.swift in Sources */,
-				38D84A4B2B6663FE00BE884B /* NewsCell.swift in Sources */,
-				3874329B2B5FADAB00D7A864 /* DeveloperSettingsView.swift in Sources */,
-				38721C0A2BC9BC0A002F2AA9 /* NSApplication+DockProgress.swift in Sources */,
-				38E5BBB72AE4244600FFFE7C /* User.swift in Sources */,
-				38355ED72AD3D52D00392674 /* IGTextFieldModifier.swift in Sources */,
-				3836C2962AF144DC008F475F /* WaitView.swift in Sources */,
-				38066B522AFEA235001A88D5 /* WaitSheetView.swift in Sources */,
-				38B36C592B5D33E60009BA56 /* SLScribbleLinkIntegrationView.swift in Sources */,
-				38D5C68D2AD28D6F00D943A5 /* SLUpdateView.swift in Sources */,
-				38AE9C9C2AD0750F00B761E8 /* ScribbleLabApp.swift in Sources */,
-				386D6FE82C05CDE500AE65F3 /* SCSNotificationService.swift in Sources */,
-				38140A692AE3F81900753FB6 /* UserService.swift in Sources */,
-				3868A3DE2AD2DBA300D4CAEC /* ImageView.swift in Sources */,
-				380D93972AE42C6600277D2D /* CompleteRegistartionView.swift in Sources */,
-				3852D71F2B054D18007FAFF1 /* ParticleEffect.swift in Sources */,
-				38A5E9BB2B03D4E80037C668 /* SLOTP+2FAView.swift in Sources */,
-				3868A3DC2AD2DB0000D4CAEC /* ImageViewModel.swift in Sources */,
-				38ADE8172B1D1F44002229A2 /* NotificationSettings.swift in Sources */,
-				38FFF9422AE3C7C9006719E2 /* SignInWithGoogleModel.swift in Sources */,
-				381C1DE32B5E8BCA00F73B5E /* DocumentSortOptionFavourite.swift in Sources */,
-				38B36C5B2B5D47510009BA56 /* StoreView.swift in Sources */,
-				384079D02B600E7A0059523C /* CrashReportSheet.swift in Sources */,
-				387CC33B2BEFC96400B5B907 /* SCSNotificationAgent.swift in Sources */,
-				385B8D2D2B9B7D5700DD4768 /* SettingsView.swift in Sources */,
-				38A5E3512BECFE9B009A8885 /* OnboardingView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		38AE9CA82AD0751100B761E8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				389FD4312B1B886100C7DCC1 /* testPaswordReset.swift in Sources */,
-				38348BF82B1A9F5A00846877 /* testRegestration.swift in Sources */,
-				38348BF62B1A9F0200846877 /* testLogIn.swift in Sources */,
-				38AE9CB12AD0751100B761E8 /* ScribbleLabTests.swift in Sources */,
-				38348BF22B1A981100846877 /* testAuthentication.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		38AE9CB22AD0751100B761E8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38AE9CBD2AD0751100B761E8 /* ScribbleLabUITestsLaunchTests.swift in Sources */,
-				38AE9CBB2AD0751100B761E8 /* ScribbleLabUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		387CC32F2BEE49A100B5B907 /* PBXTargetDependency */ = {
+		388DC8172CCBE37200C80FF9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 387CC3232BEE49A000B5B907 /* SCSNetworkMonitorAgent */;
-			targetProxy = 387CC32E2BEE49A100B5B907 /* PBXContainerItemProxy */;
+			target = 388DC8032CCBE36F00C80FF9 /* ScribbleLab */;
+			targetProxy = 388DC8162CCBE37200C80FF9 /* PBXContainerItemProxy */;
 		};
-		38AE9CAE2AD0751100B761E8 /* PBXTargetDependency */ = {
+		388DC8212CCBE37200C80FF9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 38AE9C972AD0750F00B761E8 /* ScribbleLab */;
-			targetProxy = 38AE9CAD2AD0751100B761E8 /* PBXContainerItemProxy */;
-		};
-		38AE9CB82AD0751100B761E8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 38AE9C972AD0750F00B761E8 /* ScribbleLab */;
-			targetProxy = 38AE9CB72AD0751100B761E8 /* PBXContainerItemProxy */;
+			target = 388DC8032CCBE36F00C80FF9 /* ScribbleLab */;
+			targetProxy = 388DC8202CCBE37200C80FF9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		38355EFE2AD3DFCC00392674 /* Alpha */ = {
+		388DC8272CCBE37200C80FF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38355EFD2AD3DF9B00392674 /* Alpha.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -1943,873 +321,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Alpha;
-		};
-		38355EFF2AD3DFCC00392674 /* Alpha */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38355EFD2AD3DF9B00392674 /* Alpha.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconAlpha;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab/Preview Content\"";
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ScribbleLab/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "ScribbleLab-dev";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				INFOPLIST_KEY_NSCameraUsageDescription = "ScribbleLab needs to access your camera to scan documents";
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "ScribbleLab want to use FaceID to secure your Files";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "ScribbleLab needs to add Photos to your Photo Libary";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "ScribbleLab needs to access your Photo Libary to import Images to your Notebooks.";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = "0.0.1-alpha";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhsystems.ScribbleLab;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SL_COPYRIGHT = "Copyright © 2023-2024 ScribbleLabApp \\n All rights reserved";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "ScribbleLab/App/ScribbleLab-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Alpha;
-		};
-		38355F002AD3DFCC00392674 /* Alpha */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38355EFD2AD3DF9B00392674 /* Alpha.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudiios.ScribbleLabTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScribbleLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScribbleLab";
-			};
-			name = Alpha;
-		};
-		38355F012AD3DFCC00392674 /* Alpha */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38355EFD2AD3DF9B00392674 /* Alpha.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudiios.ScribbleLabUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ScribbleLab;
-			};
-			name = Alpha;
-		};
-		38355F042AD3E01A00392674 /* Beta */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 385F788A2AD5C4410096E504 /* Beta.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Beta;
-		};
-		38355F052AD3E01A00392674 /* Beta */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 385F788A2AD5C4410096E504 /* Beta.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconBeta;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab/Preview Content\"";
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ScribbleLab/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "ScribbleLab-dev";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				INFOPLIST_KEY_NSCameraUsageDescription = "ScribbleLab needs to access your camera to scan documents";
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "ScribbleLab want to use FaceID to secure your Files";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "ScribbleLab needs to add Photos to your Photo Libary";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "ScribbleLab needs to access your Photo Libary to import Images to your Notebooks.";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = "0.0.1-beta";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhsystems.ScribbleLab;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SL_COPYRIGHT = "Copyright © 2023-2024 ScribbleLabApp \\n All rights reserved";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "ScribbleLab/App/ScribbleLab-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Beta;
-		};
-		38355F062AD3E01A00392674 /* Beta */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 385F788A2AD5C4410096E504 /* Beta.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudiios.ScribbleLabTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScribbleLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScribbleLab";
-			};
-			name = Beta;
-		};
-		38355F072AD3E01A00392674 /* Beta */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 385F788A2AD5C4410096E504 /* Beta.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudiios.ScribbleLabUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ScribbleLab;
-			};
-			name = Beta;
-		};
-		38355F092AD3E02000392674 /* RC */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 385F788B2AD5C4530096E504 /* RC.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = RC;
-		};
-		38355F0A2AD3E02000392674 /* RC */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 385F788B2AD5C4530096E504 /* RC.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab/Preview Content\"";
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ScribbleLab/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "ScribbleLab-dev";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				INFOPLIST_KEY_NSCameraUsageDescription = "ScribbleLab needs to access your camera to scan documents";
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "ScribbleLab want to use FaceID to secure your Files";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "ScribbleLab needs to add Photos to your Photo Libary";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "ScribbleLab needs to access your Photo Libary to import Images to your Notebooks.";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhsystems.ScribbleLab;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SL_COPYRIGHT = "Copyright © 2023-2024 ScribbleLabApp \\n All rights reserved";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "ScribbleLab/App/ScribbleLab-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = RC;
-		};
-		38355F0B2AD3E02000392674 /* RC */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 385F788B2AD5C4530096E504 /* RC.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudiios.ScribbleLabTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScribbleLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScribbleLab";
-			};
-			name = RC;
-		};
-		38355F0C2AD3E02000392674 /* RC */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 385F788B2AD5C4530096E504 /* RC.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudiios.ScribbleLabUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ScribbleLab;
-			};
-			name = RC;
-		};
-		387CC3322BEE49A100B5B907 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = SCSNetworkMonitorAgent/SCSNetworkMonitorAgent.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SCSNetworkMonitorAgent/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SCSNetworkMonitorAgent;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.SCSNetworkMonitorAgent;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		387CC3332BEE49A100B5B907 /* Alpha */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = SCSNetworkMonitorAgent/SCSNetworkMonitorAgent.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SCSNetworkMonitorAgent/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SCSNetworkMonitorAgent;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.SCSNetworkMonitorAgent;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Alpha;
-		};
-		387CC3342BEE49A100B5B907 /* Beta */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = SCSNetworkMonitorAgent/SCSNetworkMonitorAgent.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SCSNetworkMonitorAgent/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SCSNetworkMonitorAgent;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.SCSNetworkMonitorAgent;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Beta;
-		};
-		387CC3352BEE49A100B5B907 /* RC */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = SCSNetworkMonitorAgent/SCSNetworkMonitorAgent.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SCSNetworkMonitorAgent/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SCSNetworkMonitorAgent;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.SCSNetworkMonitorAgent;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = RC;
-		};
-		387CC3362BEE49A100B5B907 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = SCSNetworkMonitorAgent/SCSNetworkMonitorAgent.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SCSNetworkMonitorAgent/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SCSNetworkMonitorAgent;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.SCSNetworkMonitorAgent;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		38A5E32D2BECF1EE009A8885 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SCSUpdateService/SCSUpdateService.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SCSUpdateService/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.SCSUpdateService;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		38A5E32E2BECF1EE009A8885 /* Alpha */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SCSUpdateService/SCSUpdateService.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SCSUpdateService/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.SCSUpdateService;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Alpha;
-		};
-		38A5E32F2BECF1EE009A8885 /* Beta */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SCSUpdateService/SCSUpdateService.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SCSUpdateService/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.SCSUpdateService;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Beta;
-		};
-		38A5E3302BECF1EE009A8885 /* RC */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SCSUpdateService/SCSUpdateService.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SCSUpdateService/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.SCSUpdateService;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = RC;
-		};
-		38A5E3312BECF1EE009A8885 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SCSUpdateService/SCSUpdateService.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SCSUpdateService/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudios.SCSUpdateService;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		38A5E3432BECF237009A8885 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "ScribbleLab macOS/ScribbleLab_macOS.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab macOS/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudios.ScribbleLab-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		38A5E3442BECF237009A8885 /* Alpha */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "ScribbleLab macOS/ScribbleLab_macOS.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab macOS/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudios.ScribbleLab-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Alpha;
-		};
-		38A5E3452BECF237009A8885 /* Beta */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "ScribbleLab macOS/ScribbleLab_macOS.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab macOS/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudios.ScribbleLab-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Beta;
-		};
-		38A5E3462BECF237009A8885 /* RC */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "ScribbleLab macOS/ScribbleLab_macOS.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab macOS/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudios.ScribbleLab-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = RC;
-		};
-		38A5E3472BECF237009A8885 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "ScribbleLab macOS/ScribbleLab_macOS.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab macOS/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nhstudios.ScribbleLab-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		38AE9CBE2AD0751100B761E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38355F032AD3DFED00392674 /* Debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		38AE9CBF2AD0751100B761E8 /* Release */ = {
+		388DC8282CCBE37200C80FF9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 385F788C2AD5C4690096E504 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -2854,478 +376,221 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		38AE9CC12AD0751100B761E8 /* Debug */ = {
+		388DC82A2CCBE37200C80FF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38355F032AD3DFED00392674 /* Debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDev;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab/Preview Content\"";
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ScribbleLab/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "ScribbleLab-dev";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				INFOPLIST_KEY_NSCameraUsageDescription = "ScribbleLab needs to access your camera to scan documents";
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "ScribbleLab want to use FaceID to secure your Files";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "ScribbleLab needs to add Photos to your Photo Libary";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "ScribbleLab needs to access your Photo Libary to import Images to your Notebooks.";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = "0.0.1-dev";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhsystems.ScribbleLab;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SL_COPYRIGHT = "Copyright © 2023-2024 ScribbleLabApp \\n All rights reserved";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "ScribbleLab/App/ScribbleLab-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		38AE9CC22AD0751100B761E8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 385F788C2AD5C4690096E504 /* Release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab/Preview Content\"";
 				DEVELOPMENT_TEAM = W93RMB5CDG;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ScribbleLab/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "ScribbleLab-dev";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				INFOPLIST_KEY_NSCameraUsageDescription = "ScribbleLab needs to access your camera to scan documents";
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "ScribbleLab want to use FaceID to secure your Files";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "ScribbleLab needs to add Photos to your Photo Libary";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "ScribbleLab needs to access your Photo Libary to import Images to your Notebooks.";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhsystems.ScribbleLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SL_COPYRIGHT = "Copyright © 2023-2024 ScribbleLabApp \\n All rights reserved";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "ScribbleLab/App/ScribbleLab-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		38AE9CC42AD0751100B761E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38355F032AD3DFED00392674 /* Debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W93RMB5CDG;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudiios.ScribbleLabTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScribbleLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScribbleLab";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		38AE9CC52AD0751100B761E8 /* Release */ = {
+		388DC82B2CCBE37200C80FF9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 385F788C2AD5C4690096E504 /* Release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ScribbleLab/ScribbleLab.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScribbleLab/Preview Content\"";
 				DEVELOPMENT_TEAM = W93RMB5CDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudiios.ScribbleLabTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhsystems.ScribbleLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScribbleLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScribbleLab";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
-		38AE9CC72AD0751100B761E8 /* Debug */ = {
+		388DC82D2CCBE37200C80FF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38355F032AD3DFED00392674 /* Debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudiios.ScribbleLabUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhsystems.ScribbleLabTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ScribbleLab;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScribbleLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScribbleLab";
+				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		38AE9CC82AD0751100B761E8 /* Release */ = {
+		388DC82E2CCBE37200C80FF9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 385F788C2AD5C4690096E504 /* Release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W93RMB5CDG;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudiios.ScribbleLabUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhsystems.ScribbleLabTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScribbleLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScribbleLab";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		388DC8302CCBE37200C80FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhsystems.ScribbleLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 				TEST_TARGET_NAME = ScribbleLab;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		388DC8312CCBE37200C80FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W93RMB5CDG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhsystems.ScribbleLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = ScribbleLab;
+				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		387CC3312BEE49A100B5B907 /* Build configuration list for PBXNativeTarget "SCSNetworkMonitorAgent" */ = {
+		388DC7FF2CCBE36F00C80FF9 /* Build configuration list for PBXProject "ScribbleLab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				387CC3322BEE49A100B5B907 /* Debug */,
-				387CC3332BEE49A100B5B907 /* Alpha */,
-				387CC3342BEE49A100B5B907 /* Beta */,
-				387CC3352BEE49A100B5B907 /* RC */,
-				387CC3362BEE49A100B5B907 /* Release */,
+				388DC8272CCBE37200C80FF9 /* Debug */,
+				388DC8282CCBE37200C80FF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		38A5E32C2BECF1EE009A8885 /* Build configuration list for PBXNativeTarget "SCSUpdateService" */ = {
+		388DC8292CCBE37200C80FF9 /* Build configuration list for PBXNativeTarget "ScribbleLab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				38A5E32D2BECF1EE009A8885 /* Debug */,
-				38A5E32E2BECF1EE009A8885 /* Alpha */,
-				38A5E32F2BECF1EE009A8885 /* Beta */,
-				38A5E3302BECF1EE009A8885 /* RC */,
-				38A5E3312BECF1EE009A8885 /* Release */,
+				388DC82A2CCBE37200C80FF9 /* Debug */,
+				388DC82B2CCBE37200C80FF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		38A5E3422BECF237009A8885 /* Build configuration list for PBXNativeTarget "ScribbleLab macOS" */ = {
+		388DC82C2CCBE37200C80FF9 /* Build configuration list for PBXNativeTarget "ScribbleLabTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				38A5E3432BECF237009A8885 /* Debug */,
-				38A5E3442BECF237009A8885 /* Alpha */,
-				38A5E3452BECF237009A8885 /* Beta */,
-				38A5E3462BECF237009A8885 /* RC */,
-				38A5E3472BECF237009A8885 /* Release */,
+				388DC82D2CCBE37200C80FF9 /* Debug */,
+				388DC82E2CCBE37200C80FF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		38AE9C932AD0750F00B761E8 /* Build configuration list for PBXProject "ScribbleLab" */ = {
+		388DC82F2CCBE37200C80FF9 /* Build configuration list for PBXNativeTarget "ScribbleLabUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				38AE9CBE2AD0751100B761E8 /* Debug */,
-				38355EFE2AD3DFCC00392674 /* Alpha */,
-				38355F042AD3E01A00392674 /* Beta */,
-				38355F092AD3E02000392674 /* RC */,
-				38AE9CBF2AD0751100B761E8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		38AE9CC02AD0751100B761E8 /* Build configuration list for PBXNativeTarget "ScribbleLab" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				38AE9CC12AD0751100B761E8 /* Debug */,
-				38355EFF2AD3DFCC00392674 /* Alpha */,
-				38355F052AD3E01A00392674 /* Beta */,
-				38355F0A2AD3E02000392674 /* RC */,
-				38AE9CC22AD0751100B761E8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		38AE9CC32AD0751100B761E8 /* Build configuration list for PBXNativeTarget "ScribbleLabTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				38AE9CC42AD0751100B761E8 /* Debug */,
-				38355F002AD3DFCC00392674 /* Alpha */,
-				38355F062AD3E01A00392674 /* Beta */,
-				38355F0B2AD3E02000392674 /* RC */,
-				38AE9CC52AD0751100B761E8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		38AE9CC62AD0751100B761E8 /* Build configuration list for PBXNativeTarget "ScribbleLabUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				38AE9CC72AD0751100B761E8 /* Debug */,
-				38355F012AD3DFCC00392674 /* Alpha */,
-				38355F072AD3E01A00392674 /* Beta */,
-				38355F0C2AD3E02000392674 /* RC */,
-				38AE9CC82AD0751100B761E8 /* Release */,
+				388DC8302CCBE37200C80FF9 /* Debug */,
+				388DC8312CCBE37200C80FF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		3802CBFA2B342F980051F6D8 /* XCRemoteSwiftPackageReference "LocalConsole" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/duraidabdul/LocalConsole/";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.12.1;
-			};
-		};
-		380D93912AE4280900277D2D /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 7.9.1;
-			};
-		};
-		38316F612BCBB68B0026B9BB /* XCRemoteSwiftPackageReference "ScribbleCoreServices" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ScribbleLabApp/ScribbleCoreServices.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-		383ED5E52B8E3D060055A07B /* XCRemoteSwiftPackageReference "Pow" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/EmergeTools/Pow.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.3;
-			};
-		};
-		385B8D292B9B7AB100DD4768 /* XCRemoteSwiftPackageReference "Setting" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/aheze/Setting";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.1;
-			};
-		};
-		385F78AD2AD5E11C0096E504 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 7.0.0;
-			};
-		};
-		3861EF582B7934D900071F3B /* XCRemoteSwiftPackageReference "SlideOverCard" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/joogps/SlideOverCard.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.1.0;
-			};
-		};
-		3884728A2B80E23300D61AEE /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.1.0;
-			};
-		};
-		38A5E9C02B03F0140037C668 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.10.1;
-			};
-		};
-		38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 10.16.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		3802CBFB2B342F980051F6D8 /* LocalConsole */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3802CBFA2B342F980051F6D8 /* XCRemoteSwiftPackageReference "LocalConsole" */;
-			productName = LocalConsole;
-		};
-		380D93922AE4280900277D2D /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 380D93912AE4280900277D2D /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
-		};
-		38316F622BCBB68B0026B9BB /* ScribbleCoreServices */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38316F612BCBB68B0026B9BB /* XCRemoteSwiftPackageReference "ScribbleCoreServices" */;
-			productName = ScribbleCoreServices;
-		};
-		38316F642BCBB68B0026B9BB /* ScribbleCoreServicesObjc */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38316F612BCBB68B0026B9BB /* XCRemoteSwiftPackageReference "ScribbleCoreServices" */;
-			productName = ScribbleCoreServicesObjc;
-		};
-		383588452AFEDC6F00EEA1C3 /* FirebasePerformance */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebasePerformance;
-		};
-		383ED5E62B8E3D060055A07B /* Pow */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 383ED5E52B8E3D060055A07B /* XCRemoteSwiftPackageReference "Pow" */;
-			productName = Pow;
-		};
-		385B8D2A2B9B7AB100DD4768 /* Setting */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 385B8D292B9B7AB100DD4768 /* XCRemoteSwiftPackageReference "Setting" */;
-			productName = Setting;
-		};
-		385F78AE2AD5E11C0096E504 /* GoogleSignIn */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 385F78AD2AD5E11C0096E504 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
-			productName = GoogleSignIn;
-		};
-		385F78B02AD5E11C0096E504 /* GoogleSignInSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 385F78AD2AD5E11C0096E504 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
-			productName = GoogleSignInSwift;
-		};
-		3861EF592B7934D900071F3B /* SlideOverCard */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3861EF582B7934D900071F3B /* XCRemoteSwiftPackageReference "SlideOverCard" */;
-			productName = SlideOverCard;
-		};
-		3884728B2B80E23300D61AEE /* ConfettiSwiftUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3884728A2B80E23300D61AEE /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
-			productName = ConfettiSwiftUI;
-		};
-		38A24C722AED2A7700F81F07 /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		38A24C742AED2A7700F81F07 /* FirebaseAnalyticsSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsSwift;
-		};
-		38A5E3482BECF27D009A8885 /* ScribbleCoreServices */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38316F612BCBB68B0026B9BB /* XCRemoteSwiftPackageReference "ScribbleCoreServices" */;
-			productName = ScribbleCoreServices;
-		};
-		38A5E9C12B03F0140037C668 /* iPhoneNumberField */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38A5E9C02B03F0140037C668 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
-			productName = iPhoneNumberField;
-		};
-		38E0564F2B7FAC3D00A688AE /* FirebaseFirestore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestore;
-		};
-		38E056512B7FAC3D00A688AE /* FirebaseFirestoreSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestoreSwift;
-		};
-		38FFF9312AE3C18B006719E2 /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		38FFF9332AE3C18B006719E2 /* FirebaseCrashlytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseCrashlytics;
-		};
-		38FFF9352AE3C18B006719E2 /* FirebaseDatabase */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabase;
-		};
-		38FFF9392AE3C18B006719E2 /* FirebaseInstallations */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseInstallations;
-		};
-		38FFF93B2AE3C18B006719E2 /* FirebaseStorage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 38FFF9302AE3C18B006719E2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseStorage;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 38AE9C902AD0750F00B761E8 /* Project object */;
+	rootObject = 388DC7FC2CCBE36F00C80FF9 /* Project object */;
 }

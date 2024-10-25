@@ -2,7 +2,7 @@
 //  ScribbleLabUITestsLaunchTests.swift
 //  ScribbleLabUITests
 //
-//  Created by Nevio Hirani on 06.10.23.
+//  Created by Nevio Hirani on 25.10.24.
 //
 
 import XCTest
@@ -17,6 +17,7 @@ final class ScribbleLabUITestsLaunchTests: XCTestCase {
         continueAfterFailure = false
     }
 
+    @MainActor
     func testLaunch() throws {
         let app = XCUIApplication()
         app.launch()
