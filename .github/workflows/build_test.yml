@@ -24,10 +24,6 @@ jobs:
       - name: Select Xcode version
         run: sudo xcode-select --switch /Applications/Xcode_16.app/Contents/Developer
 
-      - name: Install dependencies
-        run: |
-          swift package update
-
       - name: Build project using Matrix build system
         run: |
           if [ "${{ matrix.os }}" == "iOS" ]; then
