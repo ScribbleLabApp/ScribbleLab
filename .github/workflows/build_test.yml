@@ -35,7 +35,7 @@ jobs:
       - name: Run Tests
         run: |
           if [ "${{ matrix.os }}" == "iOS" ]; then
-            xcodebuild test -scheme ScribbleLab -configuration ${{ matrix.configuration }}
+            xcodebuild test -scheme ScribbleLab -configuration ${{ matrix.configuration }} CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
           else
-            xcodebuild test -scheme ScribbleLab -configuration ${{ matrix.configuration }}
+            xcodebuild test -scheme ScribbleLab -configuration ${{ matrix.configuration }} CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
           fi
