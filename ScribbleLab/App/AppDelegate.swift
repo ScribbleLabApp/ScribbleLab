@@ -34,8 +34,8 @@ import Foundation
 import UserNotifications
 
 import FirebaseCore
-import ScribbleFoundation
 import GoogleSignIn
+import ScribbleFoundation
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(
@@ -54,7 +54,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         open url: URL,
         options: [UIApplication.OpenURLOptionsKey: Any] = [:]
     ) -> Bool {
-        return true
+        return GIDSignIn.sharedInstance.handle(url)
     }
     
     func applicationDidReceiveMemoryWarning(_ application: UIApplication) {}

@@ -1,5 +1,5 @@
 {
-  "originHash" : "ee27497970175e46d6347fd46068c72f9580195e9d62a2a964e3929649e636fb",
+  "originHash" : "667401640825ba03a41ba3585418be3a5ed238d407f8e3082272728a6d9efd17",
   "pins" : [
     {
       "identity" : "abseil-cpp-binary",
@@ -142,7 +142,7 @@
       "location" : "https://github.com/ScribbleLabApp/ScribbleFoundation.git",
       "state" : {
         "branch" : "main",
-        "revision" : "d5a65e742c31ba014a2da95d55a2a380a436c07b"
+        "revision" : "d312d5800f70390ab29b69bc7386c33bfba07db7"
       }
     },
     {

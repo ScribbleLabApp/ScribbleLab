@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3836ECE12CCC2AA800EBBD8B /* ScribbleFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 3836ECE02CCC2AA800EBBD8B /* ScribbleFoundation */; };
+		3836ECE32CCC2AA800EBBD8B /* ScribbleFoundationUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3836ECE22CCC2AA800EBBD8B /* ScribbleFoundationUI */; };
 		388038792CCBE5C1002494B7 /* Beta.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 388038782CCBE5C1002494B7 /* Beta.xcconfig */; };
 		3880387B2CCBE695002494B7 /* Alpha.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3880387A2CCBE695002494B7 /* Alpha.xcconfig */; };
 		3880387D2CCBE6DD002494B7 /* Stable.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3880387C2CCBE6DD002494B7 /* Stable.xcconfig */; };
@@ -21,10 +23,6 @@
 		388038A02CCBF59F002494B7 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 3880389F2CCBF59F002494B7 /* FirebasePerformance */; };
 		388038A22CCBF59F002494B7 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 388038A12CCBF59F002494B7 /* FirebaseStorage */; };
 		388038A92CCBF74A002494B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 388038A82CCBF74A002494B7 /* GoogleService-Info.plist */; };
-		388038AC2CCBF7E1002494B7 /* AccessibilityKit in Frameworks */ = {isa = PBXBuildFile; productRef = 388038AB2CCBF7E1002494B7 /* AccessibilityKit */; };
-		388038AE2CCBF7E1002494B7 /* ScribbleFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 388038AD2CCBF7E1002494B7 /* ScribbleFoundation */; };
-		388038B02CCBF7E1002494B7 /* ScribbleFoundationUI in Frameworks */ = {isa = PBXBuildFile; productRef = 388038AF2CCBF7E1002494B7 /* ScribbleFoundationUI */; };
-		388038B22CCBF7E1002494B7 /* UpdateService in Frameworks */ = {isa = PBXBuildFile; productRef = 388038B12CCBF7E1002494B7 /* UpdateService */; };
 		388038B92CCBFDBE002494B7 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 388038B82CCBFDBE002494B7 /* PrivacyInfo.xcprivacy */; };
 		388038BC2CCBFF4C002494B7 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 388038BB2CCBFF4C002494B7 /* GoogleSignIn */; };
 		388038BE2CCBFF4C002494B7 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 388038BD2CCBFF4C002494B7 /* GoogleSignInSwift */; };
@@ -90,18 +88,16 @@
 				388038BE2CCBFF4C002494B7 /* GoogleSignInSwift in Frameworks */,
 				388038922CCBF59F002494B7 /* FirebaseAnalytics in Frameworks */,
 				3880389E2CCBF59F002494B7 /* FirebaseInstallations in Frameworks */,
-				388038AE2CCBF7E1002494B7 /* ScribbleFoundation in Frameworks */,
-				388038B02CCBF7E1002494B7 /* ScribbleFoundationUI in Frameworks */,
 				388038A22CCBF59F002494B7 /* FirebaseStorage in Frameworks */,
 				388038982CCBF59F002494B7 /* FirebaseCrashlytics in Frameworks */,
-				388038AC2CCBF7E1002494B7 /* AccessibilityKit in Frameworks */,
 				388038962CCBF59F002494B7 /* FirebaseCore in Frameworks */,
 				388038942CCBF59F002494B7 /* FirebaseAuth in Frameworks */,
 				3880389A2CCBF59F002494B7 /* FirebaseDynamicLinks in Frameworks */,
-				388038B22CCBF7E1002494B7 /* UpdateService in Frameworks */,
 				388038A02CCBF59F002494B7 /* FirebasePerformance in Frameworks */,
 				3880389C2CCBF59F002494B7 /* FirebaseFirestore in Frameworks */,
 				388038BC2CCBFF4C002494B7 /* GoogleSignIn in Frameworks */,
+				3836ECE32CCC2AA800EBBD8B /* ScribbleFoundationUI in Frameworks */,
+				3836ECE12CCC2AA800EBBD8B /* ScribbleFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,12 +196,10 @@
 				3880389D2CCBF59F002494B7 /* FirebaseInstallations */,
 				3880389F2CCBF59F002494B7 /* FirebasePerformance */,
 				388038A12CCBF59F002494B7 /* FirebaseStorage */,
-				388038AB2CCBF7E1002494B7 /* AccessibilityKit */,
-				388038AD2CCBF7E1002494B7 /* ScribbleFoundation */,
-				388038AF2CCBF7E1002494B7 /* ScribbleFoundationUI */,
-				388038B12CCBF7E1002494B7 /* UpdateService */,
 				388038BB2CCBFF4C002494B7 /* GoogleSignIn */,
 				388038BD2CCBFF4C002494B7 /* GoogleSignInSwift */,
+				3836ECE02CCC2AA800EBBD8B /* ScribbleFoundation */,
+				3836ECE22CCC2AA800EBBD8B /* ScribbleFoundationUI */,
 			);
 			productName = ScribbleLab;
 			productReference = 388DC8042CCBE36F00C80FF9 /* ScribbleLab.app */;
@@ -291,8 +285,8 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				388038902CCBF59E002494B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				388038AA2CCBF7E1002494B7 /* XCRemoteSwiftPackageReference "ScribbleFoundation" */,
 				388038BA2CCBFF4C002494B7 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				3836ECDF2CCC2AA800EBBD8B /* XCRemoteSwiftPackageReference "ScribbleFoundation" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 388DC8052CCBE36F00C80FF9 /* Products */;
@@ -1067,20 +1061,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		3836ECDF2CCC2AA800EBBD8B /* XCRemoteSwiftPackageReference "ScribbleFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ScribbleLabApp/ScribbleFoundation.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		388038902CCBF59E002494B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 11.4.0;
-			};
-		};
-		388038AA2CCBF7E1002494B7 /* XCRemoteSwiftPackageReference "ScribbleFoundation" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ScribbleLabApp/ScribbleFoundation.git";
-			requirement = {
-				branch = main;
-				kind = branch;
 			};
 		};
 		388038BA2CCBFF4C002494B7 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
@@ -1094,6 +1088,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		3836ECE02CCC2AA800EBBD8B /* ScribbleFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3836ECDF2CCC2AA800EBBD8B /* XCRemoteSwiftPackageReference "ScribbleFoundation" */;
+			productName = ScribbleFoundation;
+		};
+		3836ECE22CCC2AA800EBBD8B /* ScribbleFoundationUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3836ECDF2CCC2AA800EBBD8B /* XCRemoteSwiftPackageReference "ScribbleFoundation" */;
+			productName = ScribbleFoundationUI;
+		};
 		388038912CCBF59F002494B7 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 388038902CCBF59E002494B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
@@ -1138,26 +1142,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 388038902CCBF59E002494B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
-		};
-		388038AB2CCBF7E1002494B7 /* AccessibilityKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 388038AA2CCBF7E1002494B7 /* XCRemoteSwiftPackageReference "ScribbleFoundation" */;
-			productName = AccessibilityKit;
-		};
-		388038AD2CCBF7E1002494B7 /* ScribbleFoundation */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 388038AA2CCBF7E1002494B7 /* XCRemoteSwiftPackageReference "ScribbleFoundation" */;
-			productName = ScribbleFoundation;
-		};
-		388038AF2CCBF7E1002494B7 /* ScribbleFoundationUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 388038AA2CCBF7E1002494B7 /* XCRemoteSwiftPackageReference "ScribbleFoundation" */;
-			productName = ScribbleFoundationUI;
-		};
-		388038B12CCBF7E1002494B7 /* UpdateService */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 388038AA2CCBF7E1002494B7 /* XCRemoteSwiftPackageReference "ScribbleFoundation" */;
-			productName = UpdateService;
 		};
 		388038BB2CCBFF4C002494B7 /* GoogleSignIn */ = {
 			isa = XCSwiftPackageProductDependency;

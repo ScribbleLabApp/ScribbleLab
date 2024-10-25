@@ -1,6 +1,6 @@
 //
-//  ScribbleLabApp.swift
-//  ScribbleLab
+//  SignInViewModel.swift
+//  ScribbleLab · Authentication
 //
 //  Copyright (c) 2024 ScribbleLabApp LLC. - All rights reserved.
 //
@@ -29,25 +29,4 @@
 //  OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 //  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-import SwiftUI
-import ScribbleFoundation
-
-@main
-struct ScribbleLabApp: App {
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
-    
-    public var logger: SCRLog
-    
-    init() {
-        /* SCRLog */
-        logger = SCRLog.shared
-        SCRLog.configureShared(subsystem: "com.nhsystems.scribblelab", category: .log)
-        logger.log("SCRLogStream successfully initialized")
-    }
-    
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}
+import Foundation
