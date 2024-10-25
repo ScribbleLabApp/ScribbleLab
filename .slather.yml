@@ -1,4 +1,0 @@
-coverage_service: cobertura_xml
-xcodeproj: ./ScribbleLab.xcodeproj
-scheme: ScribbleLab
-output_directory: ./
