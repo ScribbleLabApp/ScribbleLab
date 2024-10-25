@@ -31,7 +31,11 @@
 
 import UIKit
 import Foundation
+import UserNotifications
+
 import FirebaseCore
+import ScribbleFoundation
+import GoogleSignIn
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(
@@ -40,6 +44,20 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     ) -> Bool {
         FirebaseApp.configure()
         
+        application.registerForRemoteNotifications()
+        
         return true
     }
+    
+    func application(
+        _ application: UIApplication,
+        open url: URL,
+        options: [UIApplication.OpenURLOptionsKey: Any] = [:]
+    ) -> Bool {
+        return true
+    }
+    
+    func applicationDidReceiveMemoryWarning(_ application: UIApplication) {}
+    
+    func applicationWillTerminate(_ application: UIApplication) {}
 }

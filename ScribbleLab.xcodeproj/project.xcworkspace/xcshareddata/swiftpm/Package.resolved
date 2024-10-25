@@ -1,5 +1,5 @@
 {
-  "originHash" : "eb7f08bb7cf702ed0a8367d89967a6664f9268b5ad9de47fc644133c37794dd5",
+  "originHash" : "ee27497970175e46d6347fd46068c72f9580195e9d62a2a964e3929649e636fb",
   "pins" : [
     {
       "identity" : "abseil-cpp-binary",
@@ -17,6 +17,15 @@
       "state" : {
         "revision" : "61b85103a1aeed8218f17c794687781505fbbef5",
         "version" : "11.2.0"
+      }
+    },
+    {
+      "identity" : "appauth-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/openid/AppAuth-iOS.git",
+      "state" : {
+        "revision" : "c89ed571ae140f8eb1142735e6e23d7bb8c34cb2",
+        "version" : "1.7.5"
       }
     },
     {
@@ -47,6 +56,15 @@
       }
     },
     {
+      "identity" : "googlesignin-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google/GoogleSignIn-iOS",
+      "state" : {
+        "revision" : "65fb3f1aa6ffbfdc79c4e22178a55cd91561f5e9",
+        "version" : "8.0.0"
+      }
+    },
+    {
       "identity" : "googleutilities",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/GoogleUtilities.git",
@@ -69,8 +87,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/gtm-session-fetcher.git",
       "state" : {
-        "revision" : "5cfe5f090c982de9c58605d2a82a4fc77b774fbd",
-        "version" : "4.1.0"
+        "revision" : "a2ab612cb980066ee56d90d60d8462992c07f24b",
+        "version" : "3.5.0"
+      }
+    },
+    {
+      "identity" : "gtmappauth",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google/GTMAppAuth.git",
+      "state" : {
+        "revision" : "5d7d66f647400952b1758b230e019b07c0b4b22a",
+        "version" : "4.1.1"
       }
     },
     {
@@ -115,7 +142,7 @@
       "location" : "https://github.com/ScribbleLabApp/ScribbleFoundation.git",
       "state" : {
         "branch" : "main",
-        "revision" : "feead46f6b4ba38616594a7ec845d2db65ef2f0b"
+        "revision" : "d5a65e742c31ba014a2da95d55a2a380a436c07b"
       }
     },
     {

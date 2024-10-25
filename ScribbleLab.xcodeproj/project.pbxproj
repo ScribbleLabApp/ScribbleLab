@@ -25,6 +25,9 @@
 		388038AE2CCBF7E1002494B7 /* ScribbleFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 388038AD2CCBF7E1002494B7 /* ScribbleFoundation */; };
 		388038B02CCBF7E1002494B7 /* ScribbleFoundationUI in Frameworks */ = {isa = PBXBuildFile; productRef = 388038AF2CCBF7E1002494B7 /* ScribbleFoundationUI */; };
 		388038B22CCBF7E1002494B7 /* UpdateService in Frameworks */ = {isa = PBXBuildFile; productRef = 388038B12CCBF7E1002494B7 /* UpdateService */; };
+		388038B92CCBFDBE002494B7 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 388038B82CCBFDBE002494B7 /* PrivacyInfo.xcprivacy */; };
+		388038BC2CCBFF4C002494B7 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 388038BB2CCBFF4C002494B7 /* GoogleSignIn */; };
+		388038BE2CCBFF4C002494B7 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 388038BD2CCBFF4C002494B7 /* GoogleSignInSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,7 @@
 		3880388D2CCBEAAE002494B7 /* gyb_utils.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = gyb_utils.py; sourceTree = "<group>"; };
 		3880388E2CCBEAAE002494B7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		388038A82CCBF74A002494B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		388038B82CCBFDBE002494B7 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		388DC8042CCBE36F00C80FF9 /* ScribbleLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScribbleLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		388DC8152CCBE37200C80FF9 /* ScribbleLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScribbleLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		388DC81F2CCBE37200C80FF9 /* ScribbleLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScribbleLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				388038BE2CCBFF4C002494B7 /* GoogleSignInSwift in Frameworks */,
 				388038922CCBF59F002494B7 /* FirebaseAnalytics in Frameworks */,
 				3880389E2CCBF59F002494B7 /* FirebaseInstallations in Frameworks */,
 				388038AE2CCBF7E1002494B7 /* ScribbleFoundation in Frameworks */,
@@ -96,6 +101,7 @@
 				388038B22CCBF7E1002494B7 /* UpdateService in Frameworks */,
 				388038A02CCBF59F002494B7 /* FirebasePerformance in Frameworks */,
 				3880389C2CCBF59F002494B7 /* FirebaseFirestore in Frameworks */,
+				388038BC2CCBFF4C002494B7 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +148,7 @@
 		388DC7FB2CCBE36F00C80FF9 = {
 			isa = PBXGroup;
 			children = (
+				388038B82CCBFDBE002494B7 /* PrivacyInfo.xcprivacy */,
 				388038A82CCBF74A002494B7 /* GoogleService-Info.plist */,
 				3880388F2CCBEAAE002494B7 /* Utilities */,
 				388038772CCBE59E002494B7 /* Configuration */,
@@ -197,6 +204,8 @@
 				388038AD2CCBF7E1002494B7 /* ScribbleFoundation */,
 				388038AF2CCBF7E1002494B7 /* ScribbleFoundationUI */,
 				388038B12CCBF7E1002494B7 /* UpdateService */,
+				388038BB2CCBFF4C002494B7 /* GoogleSignIn */,
+				388038BD2CCBFF4C002494B7 /* GoogleSignInSwift */,
 			);
 			productName = ScribbleLab;
 			productReference = 388DC8042CCBE36F00C80FF9 /* ScribbleLab.app */;
@@ -283,6 +292,7 @@
 			packageReferences = (
 				388038902CCBF59E002494B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				388038AA2CCBF7E1002494B7 /* XCRemoteSwiftPackageReference "ScribbleFoundation" */,
+				388038BA2CCBFF4C002494B7 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 388DC8052CCBE36F00C80FF9 /* Products */;
@@ -305,6 +315,7 @@
 				388038792CCBE5C1002494B7 /* Beta.xcconfig in Resources */,
 				3880387B2CCBE695002494B7 /* Alpha.xcconfig in Resources */,
 				3880387D2CCBE6DD002494B7 /* Stable.xcconfig in Resources */,
+				388038B92CCBFDBE002494B7 /* PrivacyInfo.xcprivacy in Resources */,
 				388038A92CCBF74A002494B7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1072,6 +1083,14 @@
 				kind = branch;
 			};
 		};
+		388038BA2CCBFF4C002494B7 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1139,6 +1158,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 388038AA2CCBF7E1002494B7 /* XCRemoteSwiftPackageReference "ScribbleFoundation" */;
 			productName = UpdateService;
+		};
+		388038BB2CCBFF4C002494B7 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 388038BA2CCBFF4C002494B7 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		388038BD2CCBFF4C002494B7 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 388038BA2CCBFF4C002494B7 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
