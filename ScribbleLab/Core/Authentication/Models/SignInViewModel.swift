@@ -75,7 +75,7 @@ class SignInViewModel: ObservableObject {
         return !email.isEmpty && validateEmail(withEmail: email) && password.count >= 8
     }
     
-    func validateEmail(withEmail email: String) -> Bool {
+    private func validateEmail(withEmail email: String) -> Bool {
         return Validation.isValidEmail(email)
     }
     

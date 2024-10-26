@@ -41,7 +41,10 @@ struct ScribbleLabApp: App {
     init() {
         /* SCRLog */
         logger = SCRLog.shared
-        SCRLog.configureShared(subsystem: "com.nhsystems.scribblelab", category: .log)
+        SCRLog.configureShared(
+            subsystem: "com.nhsystems.scribblelab",
+            category: .log
+        )
         logger.log("SCRLogStream successfully initialized")
     }
     

@@ -37,8 +37,13 @@ import ScribbleFoundation
 
 class SignUpViewModel: ObservableObject {
     
+    /// Published property holding the entered email.
     @Published var email: String = ""
+    
+    /// Published property holding the entered password.
     @Published var password: String = ""
+    
+    /// Published property holding the entered username.
     @Published var username: String = ""
     
     /// Published property determining if the sign-up button is enabled.
@@ -50,10 +55,79 @@ class SignUpViewModel: ObservableObject {
     
     private var cancellables = Set<AnyCancellable>()
     
+    init() {
+        setUpValidation()
+    }
     
+    // That's the most ugliest code I've ever written - please don't blame me
+    // I'm just tired - Thank you for your understanding!
+    private func setUpValidation() {
+        Publishers.CombineLatest3($email, $password, $username)
+            .sink { [weak self] email, password, username in
+                guard let self = self else { return }
+                
+                let isInputValid = self.validateInput(
+                    email: email,
+                    password: password,
+                    username: username
+                )
+                
+                if isInputValid {
+                    Task {
+                        if let isAvailable = try? await self.checkUsernameAvailability(for: username) {
+                            DispatchQueue.main.async {
+                                self.isSignUpButtonEnabled = isAvailable
+                            }
+                        }
+                    }
+                } else {
+                    self.isSignUpButtonEnabled = false
+                }
+            }
+            .store(in: &cancellables)
+    }
     
-    init() {}
+    private func validateInput(
+        email: String,
+        password: String,
+        username: String
+    ) -> Bool {
+        guard Validation.isValidEmail(email),
+              Validation.isStrongPassword(password),
+              !username.isEmpty
+        else {
+            return false
+        }
+        
+        return true
+    }
     
+    private func checkUsernameAvailability(for username: String) async throws -> Bool {
+        // swiftlint:disable:next identifier_name
+        let db = Firestore.firestore()
+        
+        let usersRef = db.collection("users")
+        let query = usersRef.whereField("username", isEqualTo: username)
+        
+        let snapshot = try await query.getDocuments()
+        
+        return snapshot.isEmpty
+    }
     
-    deinit {}
+    func createScribbleID() async throws {
+        try await SCIDAuthService.shared.createUser(
+            email: email,
+            password: password,
+            username: username
+        )
+        
+        // Resetting published properties after user creation
+        username = ""
+        password = ""
+        email = ""
+    }
+    
+    deinit {
+        cancellables.removeAll()
+    }
 }
