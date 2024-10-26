@@ -169,19 +169,28 @@ class SCIDAuthService: Authenticatable {
     ///   - uid: The unique identifier for the user.
     ///   - username: The username associated with the user.
     ///   - email: The email address associated with the user.
+    ///   - usrRole: The role of the user (intern, developer, etc.).
+    ///   - hasPremium: A Boolean indicating whether the user has a premium account.
     ///
     /// - Note: This function sets the current user with the provided details and uploads it to Firestore.
     ///         It is a private function and should be called from within the `SLAuthService`.
     ///
     /// > WARNING
-    /// > This function is called internally by the `SLAuthService` and should not typically be accessed directly.
-    ///
+    /// > This function is called internally by the `SCIDAuthService` and should not typically be accessed directly.
     func uploadUserData(
         uid: String,
         username: String,
-        email: String
+        email: String,
+        usrRole: SCIDUserRole = .none,
+        hasPremium: Bool = false
     ) async {
-        let user = SLUser(id: uid, username: username, email: email)
+        let user = SLUser(
+            id: uid,
+            username: username,
+            email: email,
+            usrRole: usrRole,
+            hasPremium: hasPremium
+        )
         self.currentUser = user
         
         do {

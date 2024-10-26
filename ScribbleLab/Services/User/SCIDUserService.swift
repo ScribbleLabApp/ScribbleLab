@@ -50,34 +50,59 @@ struct SCIDUserService {
 
         let profileImageUrl = data["profileImageUrl"] as? String
         let fullname = data["fullname"] as? String
+        let birthDate = (data["birthDate"] as? Timestamp)?.dateValue()
+        let usrRoleString = data["usrRole"] as? String
+        let usrRole = SCIDUserRole(rawValue: usrRoleString ?? "") ?? .none
+        let trialPeriodEndDate = (data["trialPeriodEndDate"] as? Timestamp)?.dateValue()
+        let hasPremium = data["hasPremium"] as? Bool ?? false
 
         return SLUser(
             id: id,
             username: username,
             profileImageUrl: profileImageUrl,
             fullname: fullname,
-            email: email
+            email: email,
+            birthDate: birthDate,
+            usrRole: usrRole,
+            trialPeriodEndDate: trialPeriodEndDate,
+            hasPremium: hasPremium
         )
     }
     
     static func fetchAllUsers() async throws -> [SLUser] {
         let snapshot = try await Firestore.firestore().collection("users").getDocuments()
         
-        return snapshot.documents.compactMap { document in
+        return try snapshot.documents.compactMap { document in
             let data = document.data()
             guard let id = data["id"] as? String,
                   let username = data["username"] as? String,
-                  let email = data["email"] as? String else { return nil }
+                  let email = data["email"] as? String else {
+               
+                throw NSError(
+                    domain: "SCIDUserService",
+                    code: -202,
+                    userInfo: [NSLocalizedDescriptionKey: "Missing required user fields - SLUSR-E202"]
+                )
+            }
             
             let profileImageUrl = data["profileImageUrl"] as? String
             let fullname = data["fullname"] as? String
+            let birthDate = (data["birthDate"] as? Timestamp)?.dateValue()
+            let usrRoleString = data["usrRole"] as? String
+            let usrRole = SCIDUserRole(rawValue: usrRoleString ?? "") ?? .none
+            let trialPeriodEndDate = (data["trialPeriodEndDate"] as? Timestamp)?.dateValue()
+            let hasPremium = data["hasPremium"] as? Bool ?? false
             
             return SLUser(
                 id: id,
                 username: username,
                 profileImageUrl: profileImageUrl,
                 fullname: fullname,
-                email: email
+                email: email,
+                birthDate: birthDate,
+                usrRole: usrRole,
+                trialPeriodEndDate: trialPeriodEndDate,
+                hasPremium: hasPremium
             )
         }
     }

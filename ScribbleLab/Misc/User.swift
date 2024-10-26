@@ -65,7 +65,27 @@ struct SLUser: Identifiable, Hashable, Codable {
     /// The user’s email address.
     ///
     /// This is a unique, immutable property for each user, used for authentication and notifications.
-    let email: String
+    var email: String
+    
+    /// The user’s birthdate, if provided.
+    ///
+    /// This may be used for age-restricted content or features in the application.
+    var birthDate: Date?
+    
+    /// The user’s role within the application.
+    ///
+    /// This defines access levels or permissions and can be extended as necessary.
+    var usrRole: SCIDUserRole
+    
+    /// The date when the user’s trial period ends, if applicable.
+    ///
+    /// - Note: If the user has a premium subscription, this value may be `nil`.
+    var trialPeriodEndDate: Date?
+    
+    /// A Boolean indicating whether the user has a premium subscription.
+    ///
+    /// Premium users may have access to additional features within the application.
+    var hasPremium: Bool
     
     /// A computed property that indicates whether this `SLUser` instance represents the current authenticated user.
     ///
@@ -76,4 +96,15 @@ struct SLUser: Identifiable, Hashable, Codable {
         guard let currentUid = Auth.auth().currentUser?.uid else { return false }
         return currentUid == id
     }
+}
+
+/// Enumeration of user roles in the application.
+///
+/// - intern: A user with intern-level access.
+/// - developer: A user with developer-level access.
+/// - none: A default role with basic access.
+enum SCIDUserRole: String, Codable {
+    case intern
+    case developer
+    case none
 }
