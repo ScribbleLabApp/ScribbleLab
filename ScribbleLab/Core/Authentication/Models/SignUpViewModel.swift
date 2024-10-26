@@ -1,5 +1,5 @@
 //
-//  SignInViewModel.swift
+//  SignUpViewModel.swift
 //  ScribbleLab · Authentication
 //
 //  Copyright (c) 2024 ScribbleLabApp LLC. - All rights reserved.
@@ -35,62 +35,25 @@ import Firebase
 import FirebaseAuth
 import ScribbleFoundation
 
-class SignInViewModel: ObservableObject {
+class SignUpViewModel: ObservableObject {
     
-    /// Published property holding the entered email.
-    @Published var password: String = ""
-    
-    /// Published property holding the entered password.
     @Published var email: String = ""
+    @Published var password: String = ""
+    @Published var username: String = ""
     
-    /// Published property determining if the log-in button is enabled.
+    /// Published property determining if the sign-up button is enabled.
     ///
     /// The button is enabled when the entered password contains at least 8 characters,
     /// the email contains an '@', and the username is not empty.
     ///
-    @Published var loginButtonDisabled: Bool = true
+    @Published var isSignUpButtonEnabled = false
     
-    var cancellables = Set<AnyCancellable>()
+    private var cancellables = Set<AnyCancellable>()
     
-    // I have no f*** clue of what is happening here right now - Never touch this pice of
-    // code or else you'll die
-    // Thank you very much for your understanding
-    // Whishing you a great day!
-    init() {
-        $email
-            .combineLatest($password)
-            .map { [weak self] email, password in
-                self?.validateInput(email: email, password: password) ?? false
-            }
-            .assign(to: \.loginButtonDisabled, on: self)
-            .store(in: &cancellables)
-    }
     
-    /// Validates the email and password for login.
-    /// - Parameters:
-    ///   - email: The email to validate.
-    ///   - password: The password to validate.
-    /// - Returns: A boolean indicating whether the input is valid for login.
-    private func validateInput(email: String, password: String) -> Bool {
-        return !email.isEmpty && validateEmail(withEmail: email) && password.count >= 8
-    }
     
-    func validateEmail(withEmail email: String) -> Bool {
-        return Validation.isValidEmail(email)
-    }
+    init() {}
     
-    func signIn() async throws {
-        try await SCIDAuthService.shared.logIn(withEmail: email, password: password)
-    }
     
-    deinit {
-        cancellables.forEach { $0.cancel() }
-        cancellables.removeAll()
-        
-        Task {
-            await ScribbleLabApp().logger.log(
-                "SignInViewModel succesfully deinitialized - SCRG-S0"
-            )
-        }
-    }
+    deinit {}
 }

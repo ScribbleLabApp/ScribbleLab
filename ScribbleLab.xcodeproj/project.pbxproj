@@ -62,9 +62,22 @@
 		388DC81F2CCBE37200C80FF9 /* ScribbleLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScribbleLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		387BC5162CCD1BFA00B3D2A4 /* Exceptions for "ScribbleLab" folder in "ScribbleLab" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 388DC8032CCBE36F00C80FF9 /* ScribbleLab */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		388DC8062CCBE36F00C80FF9 /* ScribbleLab */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				387BC5162CCD1BFA00B3D2A4 /* Exceptions for "ScribbleLab" folder in "ScribbleLab" target */,
+			);
 			path = ScribbleLab;
 			sourceTree = "<group>";
 		};
@@ -483,6 +496,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScribbleLab/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -636,6 +650,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScribbleLab/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -843,6 +858,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScribbleLab/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -887,6 +903,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScribbleLab/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ScribbleLab;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
