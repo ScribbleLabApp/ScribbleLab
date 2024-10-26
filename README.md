@@ -1,116 +1,67 @@
-> [!IMPORTANT]
-> A new updatee version of this repository will be published soon. You got questions? - Join our discord community or message our maintainer [@n3v1](https://github.com/N3v1).
-
-> [!NOTE]
-> [@N3v1](https://github/N3v1) is currently working on other libraries that are needed for ScribbleLab. Please excuse the lack of activity. ScribbleLab will receive updates in the near future.
-> 
-> For updates regarding this project, please contact our maintainer [@N3v1](https://github/N3v1).
-> If you are intrested in the development process of ScribbleLab join our Discord Server [here](https://discord.gg/Y5mUJbNC8h).
-
 ![Header](https://github.com/ScribbleLabApp/ScribbleLab/assets/129311622/eb1953ca-f14f-43ba-84d9-a50b7db93303)
 
-<!--
-  TODO's:
-    - link to related repositories
-    - add translations
--->
+# ScribbleLab for iOS, macOS, and visionOS
 
-## ScribbleLab for iOS, macOS and visionOS
+**ScribbleLab** is an innovative text editor designed by students, for students, delivering a seamless, cross-platform experience across iOS, macOS, and visionOS. ScribbleLab combines essential academic tools with a clean, user-friendly interface, making it an ideal companion for organizing, creating, and collaborating in your academic life.
 
-ScribbleLab is a revolutionary text editor designed exclusively for students, delivering a seamless experience across iOS, macOS and visionOS platforms. Created by students, for students, it offers a lightweight yet powerful editor with a visually appealing design and a user-friendly interface.
+> [!IMPORTANT]
+> **ScribbleLab** is currently in development and not yet ready for production use. You are welcome to test the [latest alpha/dev build](https://github.com/ScribbleLabApp/ScribbleLab/releases/latest) at your own risk. We invite feedback [here](https://github.com/ScribbleLabApp/ScribbleLab/issues).
 
-> [!NOTE]
-> ScribbleLab is currently in development and not yet ready for production use. You are welcome to test the [latest alpha/dev build](https://github.com/ScribbleLabApp/ScribbleLab/releases/latest) at your own risk. We welcome feedback [here](https://github.com/ScribbleLabApp/ScribbleLab/issues).
+## Why ScribbleLab?
+Many existing text editors and academic tools are cluttered, overly complex, or lack essential customization options. ScribbleLab was created to solve these issues by focusing on student-specific needs. We envisioned an app that combines essential functionality and an intuitive design, empowering students with a tool that caters precisely to their workflow.
 
-### Translations
-This README is available in different languages:
-[English](https://github.com/ScribbleLabApp/ScribbleLab/tree/main) · [Deutsch](https://github.com/ScribbleLabApp/docs/blob/main/translations/README~de.md) · [Italiano](https://github.com/ScribbleLabApp/docs/blob/main/translations/README~it.md) · [日本語 `(まだ利用できません)`]()
+## Our Mission
+Our mission at **ScribbleLab** is to make academic life simpler, more productive, and more organized. We aim to eliminate the need for multiple separate apps by offering a streamlined experience where note-taking, organization, and collaboration come together in one cohesive platform. **ScribbleLab** and **ScribbleLink** combine the features of reminder, calendar, timetable, and clock apps, presented in a thoughtfully designed, visually engaging interface.
 
-## Motivation
-We at ScribbleLab found that the existing text editors on the market were too complicated, lacked essential features, or were difficult to customize for our specific needs. 
+We adhere closely to Apple's [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines) and [design patterns](https://developer.apple.com/design/human-interface-guidelines/patterns), ensuring that ScribbleLab feels as polished and intuitive as an Apple-developed app.
 
-We thought, "Why isn't there an app that has everything you need?" 
+## Key Features
+ScribbleLab delivers a robust set of features built for academic use, allowing students to organize, collaborate, and enhance their productivity with ease.
 
-That's why we decided to create our own text editor, with complete control over its functionality and features.
+- **Live Collaboration (Coming Soon)**  
+  Collaborate in real-time with classmates or study partners, making group projects and joint study sessions seamless. Changes are updated live across all devices, ensuring everyone stays on the same page.
 
-## Mission
-Our mission at ScribbleLab is to create an app that makes everyday life easier for students. 
+- **Linked Cloud Storage**  
+  Access and store files securely on your preferred cloud platform, with support for Dropbox, Google Drive, iCloud Drive, and more. Sync your notes across all your devices effortlessly.
 
-Students often need to use multiple apps to organize their academic lives. With the workflows of students in mind, we combine four existing apps (Reminder, Calendar, Timetable, and Clock) into two apps with a visually appealing design and a seamlessly integrated editor: **ScribbleLab** and **ScribbleLink**
+- **Customizable Templates**  
+  Choose from a variety of templates to fit your needs, from academic papers to study guides and note pages. Personalize headers, covers, and other document elements to make your work uniquely yours.
 
-We strive to remain true to Apple's [human interface guidelines](https://developer.apple.com/design/human-interface-guidelines) and [design patterns](https://developer.apple.com/design/human-interface-guidelines/patterns), ensuring ScribbleLab looks and feels like an application developed by Apple themselves, with meticulous attention to detail.
+- **Cohesive AI Integration**  
+  Our built-in AI tools help you rewrite text, shift tone, generate content, and summarize notes. Streamline your writing process, get creative with generative tools, and save time on editing with intelligent suggestions tailored to student needs.
 
-## Features
-Our editor is the "Scribble" part of ScribbleLab, and our features comprise the "Lab".
+- **Audio Recording with Note Summary**  
+  Record lectures or study group sessions directly in ScribbleLab and use our AI-powered tools to generate concise summaries of audio content, allowing you to review notes without needing to replay entire recordings.
 
-ScribbleLab offers a comprehensive suite of tools, including:
+## Community Engagement
+At ScribbleLab, we place a high value on community feedback to ensure our app remains relevant and valuable. Our active [Discord community](https://discord.gg/Y5mUJbNC8h) provides a space for contributors, testers, and users to connect, share ideas, and influence the app’s direction.
 
-- Live collaborations (coming soon)
-- Linked cloud storage (Dropbox, GoogleDrive, iCloudDrive, etc.)
-- Customizable templates (pages, covers, etc.)
-- Import/export PDFs, PNGs, and .scribble files (own file format, coming soon)
-- AI support (coming soon)
-- Integration with ScribbleLink
+Join our [**Discord server**](https://discord.gg/Y5mUJbNC8h) to get involved, provide feedback, or start contributing to the development of ScribbleLab.
 
-Features are easily accessible from a sidebar, providing a powerful yet user-friendly experience. Our feature selection is driven by community and tester feedback, ensuring relevance and usefulness to students.
+## Privacy Commitment
+We prioritize user privacy at ScribbleLab, ensuring data is stored securely and responsibly. Your data remains on your device or in your chosen third-party cloud storage provider, limiting access to unauthorized individuals or entities.
 
-Many of our features are available from a sidebar where they can be accessed by a simple click.
+We use [Google Firebase](https://firebase.google.com/) for secure authentication and storage. Your personal documents remain private, and we only collect anonymous analytics data via [Google Analytics](https://developers.google.com/analytics?hl=en) and [Google Crashlytics](https://firebase.google.com/docs/crashlytics?hl=en) to improve performance and identify bugs.
 
-## Community
-To decide what features to include, we invite and assess feedback from our [community](https://discord.gg/Y5mUJbNC8h) and testers, ensuring that our feature list is relevant and useful to students.
+Security is a top priority, and we regularly release updates with bug fixes and security patches. Automatic updates ensure that you’re always protected from potential vulnerabilities.
 
-Our community comprises contributors from GitHub, testers, developers, and users. Join our [**Discord server**](https://discord.gg/Y5mUJbNC8h) for improved communication among community members. 
+> **Caution**
+> ScribbleLab is currently in alpha/beta. Use testing builds (Alpha, Beta, nightly, or RC) at your own risk, as no warranties are provided.
 
-## Privacy
-Is it safe to create an account with ScribbleLab? Yes!
+## How to Contribute
+Be a part of the ScribbleLab community by contributing to the project! From writing code to providing feedback, every contribution makes a difference. Check out our [Contribution Guide](https://github.com/ScribbleLabApp/ScribbleLab/blob/main/CONTRIBUTING.md) for information on how to get started.
 
-We at ScribbleLab believe that privacy is a fundamental right and should be treated with utmost importance. When it comes to personal data, it is important that it is stored securely and responsibly. It is crucial that individuals have control over their data. You should be able to access, manage, and delete your data easily and privately. This is especially important in the context of data breaches, where personal information can fall into the wrong hands. 
-
-Therefore, we store your data on your device or on your third-party cloud storage accounts only, ensuring that the data is not accessible to unauthorized individuals or entities. We use [Google Firebase](https://firebase.google.com/) (which includes [FirebaseAuth](https://firebase.google.com/docs/auth?hl=en), [FirebaseStorage](https://firebase.google.com/docs/storage?hl=en), and [Cloud Firestore](https://firebase.google.com/docs/firestore?hl=en)) to securely store your data. This means that no one can access your personal data, such as created documents or cloud services, not even us. The only thing we can see is how many people have a ScribbleLab account, along with data from [Google Analytics](https://developers.google.com/analytics?hl=en) and [Google Crashlytics](https://firebase.google.com/docs/crashlytics?hl=en) to track crashes and other unusual events or bugs.
-
-Ensuring the security of our software is a top priority for us. We regularly release software updates that include bug fixes and security 
-patches to keep your data and system secure. It is important to install these updates as soon as they become available to ensure that 
-you are protected from the latest threats.
-
-To make the process of updating your software easier, we have implemented an automatic update feature that will prompt you 
-to install new updates as soon as they become available. We highly recommend that you enable this feature so that you 
-always have the latest security updates installed.
-
-In addition to automatic updates, we also provide manual update instructions for macOS on our website. Please make sure to follow these 
-instructions carefully to ensure a smooth update process.
-
-Remember, staying up to date with software updates is an essential part of maintaining the security and integrity of your system.
-
-> [!CAUTION]
-> No warranty is provided for testing Alpha, Beta, nightly, or RC builds. Use at your own risk.
-
-## Contributing
-Be part of the next revolution in code editing by contributing to the project. This is a community-led effort, so we welcome as many contributors who can help. Read the [Contribution Guide](https://github.com/ScribbleLabApp/ScribbleLab/blob/main/CONTRIBUTING.md) for more information.
-
-This project spans [multiple repositories](https://github.com/ScribbleLabApp/ScribbleLab#related-repositories) so instead of browsing issues in the issues tab, it may be helpful to find an issue to get started on in our [project board](https://github.com/orgs/ScribbleLabApp/projects/1/views/1).
-
-For issues we want to focus on that are most relevant at any given time, please see the issues scoped to our current iteration [here]().
-
-<!--
-## Activity
-![Alt](https://repobeats.axiom.co/api/embed/d8d42dc7013c583d48502fe84223ce417c502c23.svg "Repobeats analytics image")
--->
+To see our focus for upcoming iterations, please refer to our [current iteration issues](https://github.com/orgs/ScribbleLabApp/projects/1/views/1).
 
 ## License
-When you create a ScribbleLab account, you are agreeing to our [License Agreement](LICENSE_AGREEMENT.md) as well as the licenses of our third-party packages. 
-
-This open-source project has been licensed under two separate licenses. The Apache 2.0 License applies to the entirety of the project, while the AGPL 3.0 License applies specifically to ScribbleLab's Auth code and service. The Apache 2.0 License is a permissive license that allows for the distribution of the software under certain terms and conditions. On the other hand, the AGPL 3.0 License is a copyleft license that requires any modifications or derivatives of the code to be released under the same license. It is important to note that the licenses are not interchangeable, and adherence to both is necessary for proper use and distribution of the project.
-
-[ScribbleLab's main LICENSE](LICENSE) · [ScribbleLab's Auth LICENSE](LICENSE-AUTH)
+By creating a ScribbleLab account, you agree to our [End User License Agreement]() and the licenses of any third-party packages we use.
 
 ## Trademarks
-In order to use ScribbleLabApp's trademarks as logos or copy content you'll need to agree to our [Trademark Guidelines](TRADEMARKS.md).
+Using ScribbleLabApp's trademarks requires compliance with our [Trademark Guidelines](TRADEMARKS.md).
 
 ## Support Us
-Your support is valuable to us and helps us dedicate more time to enhancing and maintaining this repository. Here's how you can contribute:
+Your support enables us to enhance and maintain ScribbleLab. Here’s how you can help:
 
-**⭐️ Leave a Star**: If you find this repository useful or interesting, please consider leaving a star on GitHub. Your stars help us gain visibility and encourage others in the community to discover and benefit from this work.
-
-**✨ Follow us on YouTube**:If you find this repository useful or interesting, please consider leaving a sub on YouTube. Your sub help us gain visibility and encourage others in the community to discover and benefit from this work.
-
-**📲 Share with Friends:** If you like the idea behind this project, please share it with your friends, colleagues, or anyone who might find it valuable.
+- **⭐️ Leave a Star**: If you find ScribbleLab helpful, consider starring the repo on GitHub. It helps us gain visibility and reach more students.
+- **✨ Follow Us on YouTube**: Get notified of updates and tutorials by subscribing to our [YouTube channel](https://www.youtube.com/channel/UCeYbQ8c3qWq5ITpeFi67qFg).
+- **📲 Share with Friends**: Know someone who might benefit from ScribbleLab? Spread the word to help us grow the community.
