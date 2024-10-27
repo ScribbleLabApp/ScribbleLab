@@ -27,15 +27,19 @@ jobs:
       - name: Build project using Matrix build system
         run: |
           if [ "${{ matrix.os }}" == "iOS" ]; then
-            xcodebuild -scheme ScribbleLab -configuration ${{ matrix.configuration }} CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO build
+            xcodebuild -scheme ScribbleLab -configuration ${{ matrix.configuration }} \
+              CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGN_ENTITLEMENTS="" build
           else
-            xcodebuild -scheme ScribbleLab -configuration ${{ matrix.configuration }} CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO build
+            xcodebuild -scheme ScribbleLab -configuration ${{ matrix.configuration }} \
+             CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO  CODE_SIGN_ENTITLEMENTS="" build
           fi
 
       - name: Run Tests
         run: |
           if [ "${{ matrix.os }}" == "iOS" ]; then
-            xcodebuild test -scheme ScribbleLab -configuration ${{ matrix.configuration }} CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+            xcodebuild test -scheme ScribbleLab -configuration ${{ matrix.configuration }} \
+             CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO  CODE_SIGN_ENTITLEMENTS=""
           else
-            xcodebuild test -scheme ScribbleLab -configuration ${{ matrix.configuration }} CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+            xcodebuild test -scheme ScribbleLab -configuration ${{ matrix.configuration }} \
+             CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO  CODE_SIGN_ENTITLEMENTS=""
           fi
