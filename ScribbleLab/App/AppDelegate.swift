@@ -42,8 +42,38 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil
     ) -> Bool {
-        FirebaseApp.configure()
         
+        // MARK: - GoogleService-Info.plist Selection
+        let gPlistFilePath: String
+        
+        #if CI_ENV
+        guard let mockPlistPath = Bundle.main.path(
+            forResource: "GoogleService-Info-Mock",
+            ofType: "plist"
+        ) else {
+            fatalError("CI Mock GoogleService-Info plist not found")
+        }
+        
+        gPlistFilePath = mockPlistPath
+        #else
+        guard let localPlistPath = Bundle.main.path(
+            forResource: "GoogleService-Info",
+            ofType: "plist"
+        ) else {
+            fatalError("Local GoogleService-Info plist not found")
+        }
+        
+        gPlistFilePath = localPlistPath
+        #endif
+        
+        guard let opts_file = FirebaseOptions(contentsOfFile: gPlistFilePath) else {
+            fatalError("Couldn't load options from file: \(gPlistFilePath)")
+        }
+        
+        // MARK: - Firebase Configuration
+        FirebaseApp.configure(options: opts_file)
+        
+        // MARK: - User Notification Configuration
         application.registerForRemoteNotifications()
         
         return true
