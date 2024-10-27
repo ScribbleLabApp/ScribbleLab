@@ -66,6 +66,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         gPlistFilePath = localPlistPath
         #endif
         
+        // swiftlint:disable:next identifier_name
         guard let opts_file = FirebaseOptions(contentsOfFile: gPlistFilePath) else {
             fatalError("Couldn't load options from file: \(gPlistFilePath)")
         }
