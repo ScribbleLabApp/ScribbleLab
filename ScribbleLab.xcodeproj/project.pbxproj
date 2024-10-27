@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3836ECE12CCC2AA800EBBD8B /* ScribbleFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 3836ECE02CCC2AA800EBBD8B /* ScribbleFoundation */; };
-		3836ECE32CCC2AA800EBBD8B /* ScribbleFoundationUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3836ECE22CCC2AA800EBBD8B /* ScribbleFoundationUI */; };
 		388038792CCBE5C1002494B7 /* Beta.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 388038782CCBE5C1002494B7 /* Beta.xcconfig */; };
 		3880387B2CCBE695002494B7 /* Alpha.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3880387A2CCBE695002494B7 /* Alpha.xcconfig */; };
 		3880387D2CCBE6DD002494B7 /* Stable.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3880387C2CCBE6DD002494B7 /* Stable.xcconfig */; };
@@ -109,7 +108,6 @@
 				388038A02CCBF59F002494B7 /* FirebasePerformance in Frameworks */,
 				3880389C2CCBF59F002494B7 /* FirebaseFirestore in Frameworks */,
 				388038BC2CCBFF4C002494B7 /* GoogleSignIn in Frameworks */,
-				3836ECE32CCC2AA800EBBD8B /* ScribbleFoundationUI in Frameworks */,
 				3836ECE12CCC2AA800EBBD8B /* ScribbleFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +210,6 @@
 				388038BB2CCBFF4C002494B7 /* GoogleSignIn */,
 				388038BD2CCBFF4C002494B7 /* GoogleSignInSwift */,
 				3836ECE02CCC2AA800EBBD8B /* ScribbleFoundation */,
-				3836ECE22CCC2AA800EBBD8B /* ScribbleFoundationUI */,
 			);
 			productName = ScribbleLab;
 			productReference = 388DC8042CCBE36F00C80FF9 /* ScribbleLab.app */;
@@ -1109,11 +1106,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3836ECDF2CCC2AA800EBBD8B /* XCRemoteSwiftPackageReference "ScribbleFoundation" */;
 			productName = ScribbleFoundation;
-		};
-		3836ECE22CCC2AA800EBBD8B /* ScribbleFoundationUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3836ECDF2CCC2AA800EBBD8B /* XCRemoteSwiftPackageReference "ScribbleFoundation" */;
-			productName = ScribbleFoundationUI;
 		};
 		388038912CCBF59F002494B7 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
