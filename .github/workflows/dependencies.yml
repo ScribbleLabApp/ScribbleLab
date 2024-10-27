@@ -22,7 +22,6 @@ jobs:
     - name: Install dependencies
       run: |
         xcodebuild -resolvePackageDependencies
-        swift package update
 
     - name: Check for changes
       id: check_changes
